@@ -352,6 +352,42 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             border-color: var(--accent-color);
         }
 
+        .filter-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .form-select {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            outline: none;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .form-select:hover {
+            background-color: var(--bg-hover);
+            border-color: var(--accent-color);
+        }
+
+        .form-select:focus {
+            border-color: var(--accent-color);
+        }
+
+        .page-size-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
         .table-wrapper {
             overflow-x: auto;
             border-radius: 8px;
@@ -624,10 +660,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
                 <svg class="search-icon" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0zm-.82 4.74a6 6 0 1 1 1.06-1.06l3.04 3.04a.75.75 0 1 1-1.06 1.06l-3.04-3.04z"></path></svg>
                 <input type="text" id="searchInput" class="search-input" placeholder="搜索仓库名、描述、语言..." oninput="handleSearch()">
             </div>
-            <div class="filter-tags">
-                <div class="filter-pill active" onclick="setFilter('all', this)">全部 ({{TOTAL_REPOS}})</div>
-                <div class="filter-pill" onclick="setFilter('public', this)">仅公开 ({{PUBLIC_REPOS}})</div>
-                <div class="filter-pill" onclick="setFilter('private', this)">仅私有 ({{PRIVATE_REPOS}})</div>
+            <div class="filter-actions">
+                <div class="filter-tags">
+                    <div class="filter-pill active" onclick="setFilter('all', this)">全部 ({{TOTAL_REPOS}})</div>
+                    <div class="filter-pill" onclick="setFilter('public', this)">仅公开 ({{PUBLIC_REPOS}})</div>
+                    <div class="filter-pill" onclick="setFilter('private', this)">仅私有 ({{PRIVATE_REPOS}})</div>
+                </div>
+                <select id="yearFilter" class="form-select" onchange="handleYearChange()">
+                    <option value="">📅 创建年份: 全部</option>
+                </select>
             </div>
         </div>
 
@@ -654,7 +695,16 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
 
         <div class="pagination">
-            <div id="pageInfo">正在加载...</div>
+            <div class="page-size-selector">
+                <span>每页显示:</span>
+                <select id="pageSizeSelect" class="form-select" onchange="handlePageSizeChange()">
+                    <option value="15" selected>15 条</option>
+                    <option value="30">30 条</option>
+                    <option value="50">50 条</option>
+                    <option value="100">100 条</option>
+                </select>
+                <span id="pageInfo" style="margin-left: 10px;">正在加载...</span>
+            </div>
             <div class="page-buttons">
                 <button class="page-btn" id="prevPageBtn" onclick="changePage(-1)">上一页</button>
                 <button class="page-btn" id="nextPageBtn" onclick="changePage(1)">下一页</button>
@@ -673,11 +723,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         let currentScope = 'user'; // 'user' or 'total'
         let currentTheme = 'dark';
         let filterType = 'all'; // 'all', 'public', 'private'
+        let selectedYear = '';
         let searchQuery = '';
         let sortColumn = 'total_commits';
         let sortAsc = false;
         let currentPage = 1;
-        const pageSize = 15;
+        let pageSize = 15;
 
         // 图表实例引用
         let chartHourly, chartWeekday, chartPunchcard, chartTrend, chartLanguage, chartTopCommits;
@@ -1070,6 +1121,36 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             applyFilters();
         }
 
+        function handleYearChange() {
+            selectedYear = document.getElementById('yearFilter').value;
+            currentPage = 1;
+            applyFilters();
+        }
+
+        function handlePageSizeChange() {
+            pageSize = parseInt(document.getElementById('pageSizeSelect').value, 10) || 15;
+            currentPage = 1;
+            renderTablePage();
+        }
+
+        function initYearFilter() {
+            const yearSet = new Set();
+            REPORT_DATA.repo_details.forEach(r => {
+                if (r.created_date && r.created_date.includes('-')) {
+                    const yr = r.created_date.split('-')[0].trim();
+                    if (yr) yearSet.add(yr);
+                }
+            });
+            const sortedYears = Array.from(yearSet).sort().reverse();
+            const yearSelect = document.getElementById('yearFilter');
+            sortedYears.forEach(y => {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.innerText = `📅 ${y} 年`;
+                yearSelect.appendChild(opt);
+            });
+        }
+
         function handleSearch() {
             searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
             currentPage = 1;
@@ -1080,6 +1161,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             filteredRepos = REPORT_DATA.repo_details.filter(r => {
                 if (filterType === 'public' && r.is_private) return false;
                 if (filterType === 'private' && !r.is_private) return false;
+                if (selectedYear) {
+                    if (!r.created_date || !r.created_date.startsWith(selectedYear)) return false;
+                }
                 if (searchQuery) {
                     const matchName = r.name.toLowerCase().includes(searchQuery);
                     const matchDesc = (r.description || '').toLowerCase().includes(searchQuery);
@@ -1182,6 +1266,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         });
 
         document.addEventListener('DOMContentLoaded', () => {
+            initYearFilter();
             renderAllCharts();
             applyFilters();
         });
