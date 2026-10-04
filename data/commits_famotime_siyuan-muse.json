@@ -1,0 +1,474 @@
+{
+  "pushed_at": "2026-08-09T03:53:28Z",
+  "count": 52,
+  "commits": [
+    {
+      "sha": "bfa25e86d02b8827a1c39da1f21644d3f97da006",
+      "message": "feat: 增加 API 旋钮动态接管横幅与无刷新属性更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:53:24Z",
+      "committer_date": "2026-08-09T03:53:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be093f036a8a85c6c76921a3c54510352ab81f94",
+      "message": "feat: 移除设置页底部按钮并改为默认自动保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-30T13:37:17Z",
+      "committer_date": "2026-06-30T13:37:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd0704e4c3b3d7b0dd0f14798eb05940553ed4a4",
+      "message": "feat: 支持在设置页自定义 Agent Prompt 的高级选项，包括多套 Preset 管理及导入导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-30T13:23:28Z",
+      "committer_date": "2026-06-30T13:23:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff8e179f93ecc8ccc6b55e78422c0f0baaad9082",
+      "message": "fix: 优化右上角按钮 Tooltip 弹出方向及布局，并移除历史记录数字角标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-29T11:29:06Z",
+      "committer_date": "2026-06-29T11:29:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be0896d87c3e927afbef0ef5d41a309c27a913a5",
+      "message": "chore: sync with siyuan-api-switch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T13:47:11Z",
+      "committer_date": "2026-06-20T13:47:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3fb29f5168a49d4f5ba2018ecb83d511cabb046",
+      "message": "feat: 集成 API 管家接管 + 卡片右键菜单滚动选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T04:49:07Z",
+      "committer_date": "2026-06-20T04:49:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cbfc87c38cda73c5e77c97e9bb53f69876a128b",
+      "message": "feat: 推荐话题优化支持追加与删除",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T13:58:18Z",
+      "committer_date": "2026-06-16T13:58:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c0cbf511e33d49b31712e20ee180c56cd25bef5",
+      "message": "fix: 修复 usePlugin 未定义错误并使右键菜单在所有 tab 可用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T13:53:50Z",
+      "committer_date": "2026-06-16T13:53:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8ac467c4db6bb8413e547da284dec0e523598f9",
+      "message": "feat: 串联取消环节增加虚线圈视觉连通样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T12:12:12Z",
+      "committer_date": "2026-06-16T12:12:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83c4000045f1b8fff02e6254774604e132d8c936",
+      "message": "UI: Add animated striped background for active pipeline stage tabs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T17:14:46Z",
+      "committer_date": "2026-06-15T17:14:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f16b4a00bcab1790c5e1d5f088e2a15cac53ed97",
+      "message": "feat: Support collapsing chat cards while keeping them in context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T17:10:49Z",
+      "committer_date": "2026-06-15T17:10:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eb503cb2d2e5da8c2073d6a228099e72e01cef7",
+      "message": "UI/UX: Refactor UI with Lucide icons, improve tooltips, and refine CSS",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T17:05:36Z",
+      "committer_date": "2026-06-15T17:05:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4cf91ac5560bff3fd38c1e79cb60cc9876497cbe",
+      "message": "feat: 支持定制上下文发送，并优化已选消息卡片高亮及悬浮按钮视觉",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T16:51:52Z",
+      "committer_date": "2026-06-15T16:51:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71ad803992ba656682adbea0731a0cfa5a477f94",
+      "message": "feat: 支持定制自动串联环节，并升级按钮及连接线可视化效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T16:36:04Z",
+      "committer_date": "2026-06-15T16:36:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cc550fa5980c47bebbf7d704557de19f5b57f05",
+      "message": "feat: 自动串联完成后成稿默认以 Markdown 预览格式展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T16:22:51Z",
+      "committer_date": "2026-06-15T16:22:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "259bfb9eae0905689bbaadafccc051e86882d99d",
+      "message": "fix: resolve Uncaught TypeError fn is not a function at eval; refactor: extract ChatMessageList and improve code organiz",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T16:19:00Z",
+      "committer_date": "2026-06-15T16:19:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae11c64998df154bc791bdcec782023859c32840",
+      "message": "feat: 内容卡片右键菜单支持与底部输入框顶端拉伸优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T15:32:44Z",
+      "committer_date": "2026-06-15T15:32:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3cb8ab814d37f096f6ef0527e20437513e5df090",
+      "message": "feat: 支持在历史记录中持久化保存成稿 tab 的检查点内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T15:24:53Z",
+      "committer_date": "2026-06-15T15:24:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d29368daa246ac5381cfccaa15ca46fcaed1fc85",
+      "message": "docs: update CLAUDE.md and AGENTS.md with latest architecture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T15:23:55Z",
+      "committer_date": "2026-06-15T15:23:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccac75acc8eefa18440f11bd055caee453281485",
+      "message": "refactor: extract composables and configs, add tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T15:18:38Z",
+      "committer_date": "2026-06-15T15:18:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bddb8bba51848bbff8e93fcc16df4bc30ea151d3",
+      "message": "feat: 每个Tab顶部的上下文区域右上角支持取消/恢复当前环节的上下文注入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T15:05:01Z",
+      "committer_date": "2026-06-15T15:05:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c285b2f73427521e73afc95590e44c8af27c72e1",
+      "message": "feat: 允许在串联执行过程中对已生成的卡片进行编辑、隐藏、删除等操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T14:41:14Z",
+      "committer_date": "2026-06-15T14:41:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c395aff64d5c38b913e05ff19bbe623792679b97",
+      "message": "feat: 过滤发送到 Muse 的块ID信息并取消发送提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T14:37:51Z",
+      "committer_date": "2026-06-15T14:37:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5878dd536ee6233416f210dcd91a1f3cb145e7e5",
+      "message": "feat: 支持成稿区域直接编辑、检查点版本管理及消息气泡双击快捷编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T14:33:12Z",
+      "committer_date": "2026-06-15T14:33:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e83c62ef95df28223cc2d312709411e56b5b66a7",
+      "message": "feat: 优化成稿Tab体验，支持拖拽高度、前导说明过滤、清空初始气泡并只渲染修改说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T14:06:53Z",
+      "committer_date": "2026-06-15T14:06:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e251c50a0bd7d5d4d9929be9d878f312254e048c",
+      "message": "feat: 支持在自动串联进行时再次点击串联按钮并弹窗确认后优雅中止",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:48:06Z",
+      "committer_date": "2026-06-15T13:48:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8b9f6b87548c0f89716c591ff0ff841667da757",
+      "message": "fix: 引入思源内置数据存储方法 (loadData / saveData) 实现历史记录的双保险持久化，防止数据丢失",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:44:43Z",
+      "committer_date": "2026-06-15T13:44:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48ecfb3cb974bf4dca0cb9c233f8ba3ca737c0b6",
+      "message": "feat: 选中消息文字右键自定义菜单中增加发送至文档菜单项，支持快速插入至当前光标位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:43:07Z",
+      "committer_date": "2026-06-15T13:43:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0194466689381b3a615392f435e4270c887b9e31",
+      "message": "feat: 选中消息文字右键增加复制及发送至输入框的自定义菜单，且发送至末尾换行显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:41:30Z",
+      "committer_date": "2026-06-15T13:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e455a53626820efaf2527b113788c94fcfba55cb",
+      "message": "fix: 修复消息列表首条卡片悬浮操作按钮被 overflow 裁剪遮挡的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:37:56Z",
+      "committer_date": "2026-06-15T13:37:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b822ae656226135acc540d207b4f09f88ab029ad",
+      "message": "feat: 允许在流式生成或串联期间点击历史卡片的编辑与插入/替换按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:35:10Z",
+      "committer_date": "2026-06-15T13:35:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46601872496d4e183834ff4cb328dd5f05433edd",
+      "message": "feat: 优化最大上下文限制范围并与全程上下文联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:24:01Z",
+      "committer_date": "2026-06-15T13:24:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0942459aab04508b2c371259d8049e073a7b28b",
+      "message": "feat: 插入与替换操作支持当前光标自适应定位（解除初始文档限制）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:19:54Z",
+      "committer_date": "2026-06-15T13:19:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb59991419c37b12afb1d3cab4961ede326c3f38",
+      "message": "feat: 串联交互优化（实现滚动保护与后台流式生成环节多彩提示动画）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T13:15:50Z",
+      "committer_date": "2026-06-15T13:15:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63d45c8469014f45a5237a95f75262417b120065",
+      "message": "feat: 为各个阶段设计并配置详细的系统引导问候语（100~200字）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T12:47:33Z",
+      "committer_date": "2026-06-15T12:47:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "579cc4d2f6fd9add946e48554955296a59d74fa0",
+      "message": "feat: 新增对话消息卡片悬浮操作（编辑、隐藏、删除）功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T12:41:47Z",
+      "committer_date": "2026-06-15T12:41:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "099ebd90423719d6716c4ec41bf819b228a9b2c0",
+      "message": "feat: 增强主题历史与全程上下文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T12:35:39Z",
+      "committer_date": "2026-06-15T12:35:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a122250c62fb52bb98827b9433894582e14a16c",
+      "message": "支持复制面板文字",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T16:01:15Z",
+      "committer_date": "2026-06-14T16:01:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3d9cf1777ed27b67c486a73c8b234ba5b7cee00d",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T13:13:07Z",
+      "committer_date": "2026-06-06T13:13:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a5805c59d16530a7db96480a89bca66b62e357b",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T08:52:18Z",
+      "committer_date": "2026-06-06T08:52:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2395715d7a72cd6117acf230e11cc22125729b3a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T05:04:44Z",
+      "committer_date": "2026-06-06T05:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "584cc87786dc451b63f8b28b14d8089a2e0d9eb7",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T03:27:05Z",
+      "committer_date": "2026-06-06T03:27:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "957444469c0e727f39a74f623df141b099751e4c",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T03:20:40Z",
+      "committer_date": "2026-06-06T03:20:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b13210c2d2bb8b5574cd318b34e758fb80086ee",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T03:04:24Z",
+      "committer_date": "2026-06-06T03:04:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0255c97ab7d912a38a88c15caaf535d03ec295e",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T01:45:47Z",
+      "committer_date": "2026-06-06T01:45:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95459805f2eadfa4d2a31519b7ef279f39c387cc",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T01:42:44Z",
+      "committer_date": "2026-06-06T01:42:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c82370fdef96dda3135a532e8d2979604e6bd15c",
+      "message": "feat: 升级为7写作角色、实现一键级联串联创作与成稿Tab持续对话热更新修改功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T17:40:57Z",
+      "committer_date": "2026-06-05T17:40:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba577ca24c9cb1a42678f3b44c98fe001e9bc824",
+      "message": "feat: 增加右键菜单及多选块图标发送内容到Muse功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T17:04:39Z",
+      "committer_date": "2026-06-05T17:04:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e1539cd01fc4c98f55fdded00014ac1589ab6ac",
+      "message": "feat: 增加最大上下文消息数设置与顶部上下文框滚动条支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T16:52:09Z",
+      "committer_date": "2026-06-05T16:52:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d756988ef665194f703bf1ce64d377f693b9b3",
+      "message": "feat: improve dynamic topics with per-stage isolation and parallel generation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T16:44:35Z",
+      "committer_date": "2026-06-05T16:44:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6347d5bf0fbf64817be5283e66ef4b7d4a4a0cf3",
+      "message": "feat: complete MVP for Siyuan Muse writing assistant",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T16:29:28Z",
+      "committer_date": "2026-06-05T16:29:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e4ec23ec3e173e52059093881bd0f7dc5c6c5e2a",
+      "message": "feat: 初始化项目",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T16:18:05Z",
+      "committer_date": "2026-06-05T16:18:05Z",
+      "login": "famotime"
+    }
+  ]
+}

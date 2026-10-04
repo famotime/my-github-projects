@@ -1,0 +1,762 @@
+{
+  "pushed_at": "2026-02-24T16:25:27Z",
+  "count": 84,
+  "commits": [
+    {
+      "sha": "210eaa2213d73507dbe662313d42af07dbb05bcd",
+      "message": "docs(refactor): add prioritized refactor plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T16:25:13Z",
+      "committer_date": "2026-02-24T16:25:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c21277087dd5a7ea14766d36109d42ff816f14a6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T13:20:17Z",
+      "committer_date": "2026-02-24T13:20:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49c26ba872c2795a679cef6ae6b84cc7ab08b6d7",
+      "message": "fix(boss): show damage numbers for boss hits and overmind turrets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T11:57:33Z",
+      "committer_date": "2026-02-24T11:57:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8b16cfb1f049e7e635c8aa94c3eabf550222076",
+      "message": "feat(game): add overmind turret damage system and tune boss fire",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T23:41:15Z",
+      "committer_date": "2026-02-23T23:41:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32fe7e02a5757aa532c1b1a45d1fe9b0c87a92b3",
+      "message": "feat(nano-repair): update repair behavior and add tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T13:21:14Z",
+      "committer_date": "2026-02-23T13:21:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "528d07e355deaa3ea15c6add9b1d3eee65214876",
+      "message": "关卡配置调整",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T13:03:25Z",
+      "committer_date": "2026-02-23T13:03:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13d7dc032e2393d41258d1d136d996ecd9c59255",
+      "message": "feat(progress): scale fire rate by level including skip/boss jump",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T12:39:09Z",
+      "committer_date": "2026-02-23T12:39:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56ad591ed9a87d6824aa4c05159af91d36ab71e6",
+      "message": "fix(boss): constrain t-bulldozer push to local band",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T12:28:11Z",
+      "committer_date": "2026-02-23T12:28:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ff414519257fdf23a6f21d5b7deac9b9529afe4",
+      "message": "关卡设置调整",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T12:14:14Z",
+      "committer_date": "2026-02-23T12:14:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "812c47d2c03eeb93167e53cdcda6e370ab1731f7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T11:38:47Z",
+      "committer_date": "2026-02-23T11:38:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d31c12c3028b478a9e34941254bafe9a7363951e",
+      "message": "fix(ui): widen start leaderboard panel for date column",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T11:38:02Z",
+      "committer_date": "2026-02-23T11:38:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c9c1d2866b250f273ed63977ca8c485be1f9ba6",
+      "message": "merge: resolve remote leaderboard date updates with new UI typography",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T11:32:15Z",
+      "committer_date": "2026-02-23T11:32:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff1e76d077cbe334724304ae32d856ec3d1c0775",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-23T11:18:24Z",
+      "committer_date": "2026-02-23T11:18:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba6c1b5049646b7385eff2a50641bdef4549e057",
+      "message": "feat(ui): refine typography system and fix start-title overlap",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T11:12:10Z",
+      "committer_date": "2026-02-23T11:12:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cae5f81931d3b2849a3a841eb1afd4a7256750fa",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T10:57:09Z",
+      "committer_date": "2026-02-23T10:57:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc6f874765aa607ce60b367b2471caac2a408380",
+      "message": "feat(branding): add transparent logo assets and wire app references",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T10:54:53Z",
+      "committer_date": "2026-02-23T10:54:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "001191dcb96d7c37502dd2b31ba23f88d18ecd01",
+      "message": "Merge branch 'main' of https://github.com/famotime/TetrisShooter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T10:45:43Z",
+      "committer_date": "2026-02-23T10:45:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0017d8648bb9b440ce740fd558d2929ade1aebca",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T10:45:38Z",
+      "committer_date": "2026-02-23T10:45:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac02c8e0f91a14ad305ef2494b8ae4ce8f906217",
+      "message": "fix(debug): split pause level/boss jump switches and restore typecheck",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T10:38:22Z",
+      "committer_date": "2026-02-23T10:38:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4eb4b0ea89aac300d4495bce76c355250b04fb8f",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-23T03:37:53Z",
+      "committer_date": "2026-02-23T03:37:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "813b87083c8c9f996a9eaa9baf8b4be7a36d1e64",
+      "message": "feat(ui): add random powerup visuals and carryover rule",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-18T04:33:26Z",
+      "committer_date": "2026-02-18T04:33:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d706330f096b9b2c093827b98f6fa8b6be7d852",
+      "message": "fix(ui): enable enter on level clear",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-18T03:47:12Z",
+      "committer_date": "2026-02-18T03:47:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c6eadacdedfab659fb45dcdd06fa6aaf87385eb",
+      "message": "fix(carryover): restrict post-level selection only",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-17T23:28:02Z",
+      "committer_date": "2026-02-17T23:28:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbea3790314d1eafae812d70fe1183f56123eea8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T17:41:52Z",
+      "committer_date": "2026-02-13T17:41:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e91ffe6608c2b2d38406cfd7a27772658d280841",
+      "message": "feat(game): refine boss flow, level transitions, and carry-over powerup selection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T17:41:24Z",
+      "committer_date": "2026-02-13T17:41:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6053ff16f52ee6d858afbe41668fe6597b5df58c",
+      "message": "Boss 5 及 通关效果优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T17:01:47Z",
+      "committer_date": "2026-02-13T17:01:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00ae17555b6c400253da24e3cdf219d166397c6e",
+      "message": "boss4 行为和效果优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T16:12:49Z",
+      "committer_date": "2026-02-13T16:12:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbdf6065e45fe1339193537fd61079f77f88b0d2",
+      "message": "模块重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T15:44:06Z",
+      "committer_date": "2026-02-13T15:44:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdf495d3491382c6c866591f1ce874e83f350f63",
+      "message": "增加第五个boss",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T15:31:24Z",
+      "committer_date": "2026-02-13T15:31:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "194725771b4bbf79d47b6429f1b816d22b7f2d1f",
+      "message": "Merge branch 'main' of https://github.com/famotime/TetrisShooter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T03:20:23Z",
+      "committer_date": "2026-02-13T03:20:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8da15adb1e2181ad54056afc8e0213bbd693234b",
+      "message": "增加第四个boss",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-13T03:20:19Z",
+      "committer_date": "2026-02-13T03:20:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c6329a51b83344e02958c459c72854fd03c44fe",
+      "message": "创建 boss5.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-13T03:17:51Z",
+      "committer_date": "2026-02-13T03:17:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fc2245c81b2c085d86bd1d58d8112052a246ef6",
+      "message": "增加第三个关卡boss",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-12T16:30:20Z",
+      "committer_date": "2026-02-12T16:30:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a7eb9cd915454616aefc6a19bd4962f5c22580a",
+      "message": "增加第二个关卡boss",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-12T15:38:57Z",
+      "committer_date": "2026-02-12T15:38:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f639dc6313094ee506e5985e00236cd1d7aa8c37",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-12T14:15:04Z",
+      "committer_date": "2026-02-12T14:15:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1548fb84bf431bbe86f69c3e2a60e2d2dbd7d21b",
+      "message": "增加第一个关卡boss",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-12T14:10:24Z",
+      "committer_date": "2026-02-12T14:10:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8e3a6da23721c98d64460c3c87f8724226f39e1",
+      "message": "feat(rendering): split entity renderer modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-11T15:46:54Z",
+      "committer_date": "2026-02-11T15:46:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbcc3f975b297c3b60bb38dbbbb06500db6b6626",
+      "message": "feat(blocks): split block domain and renderer for P1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-11T15:46:41Z",
+      "committer_date": "2026-02-11T15:46:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca77f6c674b530719afd53c2f4fa3dbad2b3cbdf",
+      "message": "refactor(loop): extract pipeline and add baseline tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-11T15:12:00Z",
+      "committer_date": "2026-02-11T15:12:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e485978d7335415304d1ab8165f2d1b36c473dce",
+      "message": "feat(effects): enhance hit feedback and danger alerts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-11T13:48:39Z",
+      "committer_date": "2026-02-11T13:48:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3147582943e29a18eee522d39e45ebd0e456d3e",
+      "message": "feat: Implement the main game loop and a heads-up display (HUD) component.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-11T13:10:05Z",
+      "committer_date": "2026-02-11T13:10:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00c585889eb9364c9921a738623081d4f2a57797",
+      "message": "fix(powerups): apply gravity well effect",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T16:22:45Z",
+      "committer_date": "2026-02-10T16:22:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c656f76d5a322df630eb16f3d2f40d4b28f5fd94",
+      "message": "fix(powerups): freeze blast stops active blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T15:03:10Z",
+      "committer_date": "2026-02-10T15:03:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "536d0e7ca15597be17d62545b6f6f4687a74b693",
+      "message": "feat(powerups): rework nano repair behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T14:12:07Z",
+      "committer_date": "2026-02-10T14:12:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed48ebfaac4cf50c16b71b286a8d2e916514a85b",
+      "message": "feat(powerups): add invincible powerup effects",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T13:43:33Z",
+      "committer_date": "2026-02-10T13:43:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42d49c1bdd207c11968112905b43876bcddd46bd",
+      "message": "feat(debug): pause input codes and level overview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T13:30:59Z",
+      "committer_date": "2026-02-10T13:30:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d8d84173c439b9bf58ea5ac5f5d17d697eb0807",
+      "message": "增加更多增强道具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-10T11:10:30Z",
+      "committer_date": "2026-02-10T11:10:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c159b5fc8ee2ba1ee14cc85e236482b0585bec98",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T23:43:04Z",
+      "committer_date": "2026-02-08T23:43:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1a4bd039452de1ef450b9f3e4d6e6d2fcc294a4",
+      "message": "游戏体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T07:35:32Z",
+      "committer_date": "2026-02-08T07:35:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b35791425d7e5bd18310e45422cefbd31ecaac67",
+      "message": "feat(powerups): add burst_shot power-up with 8-direction firing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T07:17:38Z",
+      "committer_date": "2026-02-08T07:17:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d186d63ce56f48ba7dc426ee26c2a2e1745c43ce",
+      "message": "重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T06:47:25Z",
+      "committer_date": "2026-02-08T06:47:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f64b5b58f18e448d2b161f37e150b0e583e40ba",
+      "message": "支持跳关密码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T05:33:02Z",
+      "committer_date": "2026-02-08T05:33:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "981d6b8856586df4b680c9b26020d966a5217b7e",
+      "message": "perf(mobile): optimize virtual controls to reduce re-renders",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T05:09:01Z",
+      "committer_date": "2026-02-08T05:09:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fff7510fe18ea568727f2f1ba67159f35a961698",
+      "message": "fix(mobile): improve touch device detection to exclude PC browsers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:51:22Z",
+      "committer_date": "2026-02-08T04:51:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e0e5b1ea185cfc401b7ca89a8ff07c534b923ba",
+      "message": "feat(mobile): add responsive layout with virtual joystick controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:37:26Z",
+      "committer_date": "2026-02-08T04:37:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d56796194f94b764fd047cd55bacbbb07cdb7e4",
+      "message": "feat(blocks): add wrap-around when blocks hit boundaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:07:43Z",
+      "committer_date": "2026-02-08T04:07:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68ae8f2ad08569dd40c2a867274394ad88572ec8",
+      "message": "feat(levels): add level clear system with Chinese localization",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T03:51:35Z",
+      "committer_date": "2026-02-08T03:51:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63f775e69f7ab350b7df1fd022115a7e186e06cb",
+      "message": "feat(missiles): add lifetime, bullet hit, and shield absorption",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T03:07:50Z",
+      "committer_date": "2026-02-08T03:07:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "927d2aa4be02cb5617d5e53825faa7388a9bd300",
+      "message": "refactor: code quality cleanup (jscpd, knip)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T02:18:57Z",
+      "committer_date": "2026-02-08T02:18:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f51803e555ab205c65ed490c5ad147a6e11dc396",
+      "message": "feat(missile-blocks): add homing missile blocks starting at Level 8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T01:39:56Z",
+      "committer_date": "2026-02-08T01:39:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44ca5cd28daa23539e2263128396bbcd9a8ba790",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T00:05:10Z",
+      "committer_date": "2026-02-08T00:05:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63f3c0b7898fa4be247b6e2416ad1b4361826926",
+      "message": "feat(renderer): show level info banner during initial countdown",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T14:37:48Z",
+      "committer_date": "2026-02-07T14:37:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6fcd33889eaa349894c5ee78b2faa68b8cd2f77",
+      "message": "feat(counter-blocks): continue shooting after locking to grid",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T14:20:18Z",
+      "committer_date": "2026-02-07T14:20:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b8c159acc6ffa2127d9200d7b8008568331ae98",
+      "message": "fix(counter-blocks): lock to grid when landing instead of disappearing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T14:15:36Z",
+      "committer_date": "2026-02-07T14:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c66b57f47e9cbc91e089d6e1d52ca9593bb2b18",
+      "message": "fix(board): armored blocks don't trigger line clears until armor broken",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T14:09:09Z",
+      "committer_date": "2026-02-07T14:09:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b750a8f6225645fe7e75df6e18a2e41a4a68b29",
+      "message": "feat(game): add level info banner and floating block gravity fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T14:00:02Z",
+      "committer_date": "2026-02-07T14:00:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f45c6516f0bbc2546da8f66377946c7bed985709",
+      "message": "Merge branch 'main' of https://github.com/famotime/TetrisShooter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T13:12:10Z",
+      "committer_date": "2026-02-07T13:12:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9f94806f1bf1eeef9ae3484147619692dcd3eab",
+      "message": "feat: Add core game rendering, block management, shooting system, and game types.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T13:12:05Z",
+      "committer_date": "2026-02-07T13:12:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f575049acb018e0959aa6a8dea46046593eb28e",
+      "message": "fix(counter-blocks): fix spawning rate, collision, and fall speed",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T13:10:39Z",
+      "committer_date": "2026-02-07T13:10:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de1b172751f9fcb1f4f7cb39216cd15e4938daec",
+      "message": "Added 20260207114451_20260207100000_add_leaderboard_stats.sql.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-07T11:45:17Z",
+      "committer_date": "2026-02-07T11:45:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18fa530af59d92fe95fef425f2f2fb3bde54a626",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T11:42:27Z",
+      "committer_date": "2026-02-07T11:42:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6861f8d53eaaae1438484edf77acbea82fb1b31e",
+      "message": "feat(leaderboard): add level, blocks destroyed, and play time stats",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T11:36:39Z",
+      "committer_date": "2026-02-07T11:36:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fab2938e67287f749fd9ad8f5d3fa76b3045855",
+      "message": "refactor(game): extract systems from gameLoop into modular components",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T11:16:36Z",
+      "committer_date": "2026-02-07T11:16:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d657a35b6771744d2930f5d013e069e051385bc",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T11:04:08Z",
+      "committer_date": "2026-02-07T11:04:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c8a763eaa64555feea7c275e1abe49df5e531d2",
+      "message": "feat(game): add horizontal shot, death animation, and grid group shooting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T11:01:49Z",
+      "committer_date": "2026-02-07T11:01:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61c5980728fe5c4a517ce768daf33c7b56a151bd",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T10:21:52Z",
+      "committer_date": "2026-02-07T10:21:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6f42a23f28453efcd914a5ac3fd7a92f95634f1",
+      "message": "feat(powerups): add new power-ups, shields, and collision damage system",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T10:20:05Z",
+      "committer_date": "2026-02-07T10:20:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "999ce9295828694f196e8216b3df16b490df424c",
+      "message": "fix(blocks): preserve custom shape when processing floating blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T09:47:14Z",
+      "committer_date": "2026-02-07T09:47:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "477158e6427b4901bbd2579a15baf973c43c9c5d",
+      "message": "feat(audio): add background music MP3 files",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T08:52:18Z",
+      "committer_date": "2026-02-07T08:52:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6165d83deddd25865b352a1ab4f6426d29e06548",
+      "message": "feat(audio): add MP3 background music support",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T08:44:25Z",
+      "committer_date": "2026-02-07T08:44:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "45988c088fc79861d4d1e5683211183e7a2cff03",
+      "message": "feat(game): improve collision mechanics and add documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-07T08:27:49Z",
+      "committer_date": "2026-02-07T08:27:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75ea4fb1fc4514ae93c086b0f2428143cd626661",
+      "message": "Updated blockManager.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-07T07:09:17Z",
+      "committer_date": "2026-02-07T07:09:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d0c1b7b54f674a638f5d02089fe610213ab5fce",
+      "message": "Updated plane.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-07T07:04:16Z",
+      "committer_date": "2026-02-07T07:04:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a0f74020e4bdd2ccf0404708421acdb47c255fa",
+      "message": "Added eslint.config.js",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-07T07:04:14Z",
+      "committer_date": "2026-02-07T07:04:14Z",
+      "login": "famotime"
+    }
+  ]
+}

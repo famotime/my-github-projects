@@ -1,0 +1,2085 @@
+{
+  "pushed_at": "2026-09-20T14:46:32Z",
+  "count": 231,
+  "commits": [
+    {
+      "sha": "1a87796bbe06a0b284073378b6e4fe192e195641",
+      "message": "feat: 支持画笔与荧光笔光标样式自定义及缩放适配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T14:45:39Z",
+      "committer_date": "2026-09-20T14:45:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a174263ea2569eeb142c438f887c9aa4cfb9c92",
+      "message": "fix: 修复快速收尾笔迹回缩与停笔整条笔迹闪烁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-04T13:28:50Z",
+      "committer_date": "2026-09-04T13:28:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62df37a6647c9d813e972dcbf96a0f7801c0756e",
+      "message": "perf: 优化触控笔快速拖动笔迹滞后与预测渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T02:10:08Z",
+      "committer_date": "2026-08-23T02:10:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c71e098ecba43b6554834d0fde316a7aea17e629",
+      "message": "fix: 修复预测点增量累加毛刺与停顿形状误识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T02:00:42Z",
+      "committer_date": "2026-08-23T02:00:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "45caa816e7fb70c2ed8d80f5ece542a946ea935e",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T01:51:34Z",
+      "committer_date": "2026-08-23T01:51:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5dc23de4855899215a055da5a4463e4e094a5536",
+      "message": "feat: 升级手写笔高频采样、物理动力学稳定器与三层画布渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T01:49:59Z",
+      "committer_date": "2026-08-23T01:49:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d2f28e8624091485bf7dc19a0f36c86ca5b26ec",
+      "message": "feat: 支持移动端触控笔与鼠标悬浮显示 Tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T01:28:22Z",
+      "committer_date": "2026-08-23T01:28:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "141dd66789bb0fd19ede84efce02f80b6ea229c6",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T01:12:36Z",
+      "committer_date": "2026-08-23T01:12:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48b52fdb9ff5b866c9084828d572126bed249a38",
+      "message": "feat: 更新工具栏图标为线框风格，点击直接进入手写界面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T15:51:00Z",
+      "committer_date": "2026-06-11T15:51:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "988d1b519d56018aad40ce3c200fd7d596644482",
+      "message": "chore: 更新 package.zip 构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T15:14:40Z",
+      "committer_date": "2026-06-11T15:14:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3d4664d8998ab6890f34893c6b3884104c1a322",
+      "message": "fix(live): 区分 PC/移动端 live 入口，手机端显示\"投屏到 PC\"进入 writer 模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T15:07:46Z",
+      "committer_date": "2026-06-11T15:07:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d862fb082153dc3682c78317beab925afa8c36e7",
+      "message": "fix(live): 修复 code review 发现的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:45:39Z",
+      "committer_date": "2026-06-11T14:45:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "99be1e4b7cf7b84c3f1fabc94e36da43b9866b85",
+      "message": "feat(live): 集成实时同步到 SketchEditor（writer/viewer 模式、状态指示）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:26:46Z",
+      "committer_date": "2026-06-11T14:26:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e35e53aad448f0f53ad8d18f402fc706f1f38301",
+      "message": "feat(live): SketchCanvas 新增 onLiveEvent 回调用于实时同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:23:29Z",
+      "committer_date": "2026-06-11T14:23:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1c2fdff88d1432538547d331f7b373eb7743541",
+      "message": "feat(live): 实现 useLiveSession composable（writer/viewer 双模式）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:22:30Z",
+      "committer_date": "2026-06-11T14:22:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6fa926c68c5fc8189cf3a2b0739ff25c852c5ab",
+      "message": "feat(live): EditorTopBar 新增实时同步菜单入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:22:01Z",
+      "committer_date": "2026-06-11T14:22:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b415056fc7de0ce15494f72cb7ce66ff7b7c8f7",
+      "message": "feat(live): 实现 Broadcast 传输层（SSE 订阅 + postMessage 发送）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:20:10Z",
+      "committer_date": "2026-06-11T14:20:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab56555540d2685573ab474c8ce1494806da6721",
+      "message": "feat(live): 实现观看端轻量渲染器（快照恢复 + 单事件追加渲染）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:18:14Z",
+      "committer_date": "2026-06-11T14:18:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8b2097345203464acf65965f05ad5c33e2f64eb",
+      "message": "feat(live): 实现会话管理（频道名、revision、事件缓存）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:16:28Z",
+      "committer_date": "2026-06-11T14:16:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fcd4028cab4101c6eb87dc5565776817986f1bfc",
+      "message": "feat(live): 添加实时同步相关 i18n 文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:14:29Z",
+      "committer_date": "2026-06-11T14:14:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a72b7d6b591b22ce74da770964ec02530442bc1",
+      "message": "feat(live): 添加实时同步协议类型定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:14:28Z",
+      "committer_date": "2026-06-11T14:14:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43ad429c4c35151eab2834b0584680105bdfb19d",
+      "message": "docs: 添加实时同步实施计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:12:13Z",
+      "committer_date": "2026-06-11T14:12:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ce0405ea853713d1a108db7a7d94b2f66ec8d86",
+      "message": "docs: 添加移动端手写实时同步设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:07:01Z",
+      "committer_date": "2026-06-11T14:07:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3b6bbdd6e9868bd29d49b99f9b7a6d2b8dd7656",
+      "message": "docs: 刷新实时同步方案文档，新增用户场景分析，结合技术验证结果调整主方案为 Broadcast API",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T13:48:22Z",
+      "committer_date": "2026-06-11T13:48:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bcdd9c03f02750f93ad46be733eb65ef8a7c57a",
+      "message": "docs: 完成技术验证，修复 Broadcast API 调用格式，移除顶栏测试入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T12:43:10Z",
+      "committer_date": "2026-06-11T12:43:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea95abd01daa5942ec0a1349a66776266dd70cae",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T04:35:25Z",
+      "committer_date": "2026-06-11T04:35:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58325c6b8a86941639ed77f2c44b339b8d2319d0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T04:01:56Z",
+      "committer_date": "2026-06-11T04:01:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a7d3dad2e8ade9a98d7b3b60549690b65426f91",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T03:53:14Z",
+      "committer_date": "2026-06-11T03:53:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd60e3ef7585f922a52326f358528a07e2e2ad2f",
+      "message": "feat: 图形按钮改为下拉选择，默认图形改为矩形",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T02:28:33Z",
+      "committer_date": "2026-06-11T02:28:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b25bbf81a933cc31c5144d688eb99a67259bac3",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T01:41:23Z",
+      "committer_date": "2026-06-11T01:41:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df7bc0204005c7f8af279fb961b3272b83afc6ae",
+      "message": "fix: 修复无效手写清理确认与统计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T13:40:50Z",
+      "committer_date": "2026-06-08T13:40:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6af03d990295abe1c481bf405854abb5fbf80e40",
+      "message": "feat: 支持清理无效手写笔记",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T05:53:13Z",
+      "committer_date": "2026-06-08T05:53:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7620707b1cda73cea0a809d42daaad699867e7de",
+      "message": "fix: 修复手写回放橡皮擦和移动操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T13:57:27Z",
+      "committer_date": "2026-06-07T13:57:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28f169514aa0cb49c657526d88a5d7648f8988b4",
+      "message": "fix: 修复画笔起笔被长按选择拦截",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T11:15:06Z",
+      "committer_date": "2026-06-07T11:15:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81464220fd90b2a5fd685bfc9774557ee674f3af",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T11:04:48Z",
+      "committer_date": "2026-06-07T11:04:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1269f99eddf490e57e76a2602974b5faceb9b0c8",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T11:03:10Z",
+      "committer_date": "2026-06-07T11:03:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f5d8b3a177f8d649bdf5e825674852fb18c4d00c",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T04:55:18Z",
+      "committer_date": "2026-06-06T04:55:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14dda78bfdcd8580e2ef9a79ec5141e21623a725",
+      "message": "fix: 修复新页签模式关闭后文档预览图未刷新的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T04:01:21Z",
+      "committer_date": "2026-06-06T04:01:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b19afbc852b5681b771ebd65efab70a793e9d17",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T03:31:35Z",
+      "committer_date": "2026-06-06T03:31:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08f92b50380f7e5650c44fe5b49c0671dbab1a33",
+      "message": "chore: 更新 package.zip 构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T15:37:26Z",
+      "committer_date": "2026-06-04T15:37:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "67c117afd6d71e7174b8a16dbac155425f7565da",
+      "message": "fix: 修复「从新页签打开」功能，改用 openTab + addTab API",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T15:37:09Z",
+      "committer_date": "2026-06-04T15:37:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6cb98fbe4cf4539a5375aa721a62dde96f4d0980",
+      "message": "chore: 更新 package.zip 构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T12:46:21Z",
+      "committer_date": "2026-06-04T12:46:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af85d9c38c49154f9de9c7d5529c5187fa4ac8f6",
+      "message": "chore: 更新 package.zip 构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T12:39:10Z",
+      "committer_date": "2026-06-04T12:39:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48ac1ea3bbba1739d6c6cf04e79a7202ebd02902",
+      "message": "feat: 新增「从新页签打开」设置开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T12:38:59Z",
+      "committer_date": "2026-06-04T12:38:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08b36af6a220422f8eb342cc076bb1e2002750e4",
+      "message": "fix: 文本框按换行自动调整高度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T14:39:07Z",
+      "committer_date": "2026-06-03T14:39:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d04390710f28ca0daabd655576542fd2b1920f16",
+      "message": "chore: 更新 package.zip 构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T14:03:14Z",
+      "committer_date": "2026-06-03T14:03:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9926e243f1dc2f47c9c56da9810ea51a0edbb559",
+      "message": "feat: 文本框支持多行输入，回车换行，失焦结束编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T13:56:41Z",
+      "committer_date": "2026-06-03T13:56:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81c8c1be8df43fc6284a29130edb90f165bc5cfd",
+      "message": "fix: 修复回放工具栏显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T12:10:06Z",
+      "committer_date": "2026-06-02T12:10:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19e6fed110f1a2db3ed5822b35188f451b54b30a",
+      "message": "refactor: 统一手写与缩略图渲染引擎并实现撤销重做录像同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T14:48:41Z",
+      "committer_date": "2026-05-31T14:48:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7ce152573e58ae6b908a882a6a2efd60b4a4ddd",
+      "message": "feat: 更新14种预置颜色为暖彩彩虹渐变色板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T11:00:35Z",
+      "committer_date": "2026-05-31T11:00:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "efd9184fe276a350d7a834b903da42052a94314e",
+      "message": "feat: 预置颜色面板每行改为7个颜色，统一面板宽度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T10:46:16Z",
+      "committer_date": "2026-05-31T10:46:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d672e32c1290fee87d2bfd951f2c3d0a37a745f",
+      "message": "feat: 优化笔刷默认效果与参数模型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T10:13:20Z",
+      "committer_date": "2026-05-31T10:13:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a1c82ff2aa4298fc671e436b1955f4932553725",
+      "message": "fix: 重构下拉触发交互——箭头改为独立按钮，按钮体点击仅选工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T09:46:38Z",
+      "committer_date": "2026-05-31T09:46:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be10be54f2baeb137290114abedf8866edead848",
+      "message": "fix: 用 capture 阶段 click 监听 + mousedown.stop 彻底修复下拉菜单，加大三角形至 10px",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T09:15:46Z",
+      "committer_date": "2026-05-31T09:15:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fb52e3650f17d5a4fc2bd9ffd4fcc8f0115cac4",
+      "message": "fix: 修复下拉菜单无法弹出（mousedown/click 时序冲突）并优化箭头为实心右下三角形",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T09:12:38Z",
+      "committer_date": "2026-05-31T09:12:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d58fd6f63076355f595744505a10d94fa76cd695",
+      "message": "fix: 下拉箭头改为斜向右下方对角线，与按钮右下角边缘对齐",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T09:09:16Z",
+      "committer_date": "2026-05-31T09:09:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "094e32093863253953229ed49dd8767e0914bb45",
+      "message": "fix: ToolDropdown toggle 函数改为真正的切换（toggle）而非始终打开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T09:07:47Z",
+      "committer_date": "2026-05-31T09:07:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15e448848aae6538843688c2ae41f100d8fba6c6",
+      "message": "fix: 移除 presets.ts 中未使用的 DEFAULT_PEN_WIDTH 和 DEFAULT_HIGHLIGHTER_WIDTH 导入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:31:48Z",
+      "committer_date": "2026-05-31T08:31:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4affcb31a77139828469bc7705fda2091f705d62",
+      "message": "feat: 旧数据迁移自动填充默认笔型 subtype",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:30:05Z",
+      "committer_date": "2026-05-31T08:30:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6934f57d6a938814f7ddce046fb3d99fa19710f8",
+      "message": "feat: 渲染引擎根据笔型应用不同压感曲线和透明度效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:28:32Z",
+      "committer_date": "2026-05-31T08:28:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0628e05c4ea195c7e3029455b69ff504e883e52e",
+      "message": "feat: FloatingToolbar 宽度预设适配各笔型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:26:47Z",
+      "committer_date": "2026-05-31T08:26:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "220beb5c49cc57c9ed9618be51bd66cc03155091",
+      "message": "feat: SketchEditor 集成笔型切换逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:24:08Z",
+      "committer_date": "2026-05-31T08:24:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "748110aede410a1165501921a67f4882b961517a",
+      "message": "feat: 画笔和荧光笔按钮添加下拉菜单切换笔型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:24:08Z",
+      "committer_date": "2026-05-31T08:24:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b214b3a76014f4bf7a095befb30d11fc57898350",
+      "message": "feat: 新增 ToolDropdown 可复用下拉组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:20:40Z",
+      "committer_date": "2026-05-31T08:20:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c775f678f6366f30960c114080c8ca4238251c47",
+      "message": "feat: 添加笔型/笔尖图标资产和标签映射",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:16:02Z",
+      "committer_date": "2026-05-31T08:16:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4aed808d6d7fc222bfa60049ee5ce47e2d5199cd",
+      "message": "feat: 添加笔型/笔尖的中英文翻译",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:15:47Z",
+      "committer_date": "2026-05-31T08:15:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08572783244431e3450b36d007c7882154ecd319",
+      "message": "feat: 新增笔型类型系统和压感曲线函数",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T08:13:48Z",
+      "committer_date": "2026-05-31T08:13:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71677b00f10e7d6dd998775e0a94fe5d2cb47664",
+      "message": "feat: 优化选色弹窗收藏颜色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T02:29:46Z",
+      "committer_date": "2026-05-31T02:29:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d4d48c2432e10c35a9623029ac01d7dbedaf520",
+      "message": "feat: 增加导出设置弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T01:51:26Z",
+      "committer_date": "2026-05-31T01:51:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96c7e61c2e58edf98498798a7c83f1fab55c44de",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T00:15:27Z",
+      "committer_date": "2026-05-31T00:15:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e14ef1066f1bc7a239c0b1b1681ba9749408793b",
+      "message": "feat: 回放控制栏新增\"重生\"按钮，支持从当前步骤截断操作记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T15:17:55Z",
+      "committer_date": "2026-05-30T15:18:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3758b3cac0babd3871a09031df248c8d547deef9",
+      "message": "fix: 启用时补充已有手写块入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T13:44:29Z",
+      "committer_date": "2026-05-30T13:44:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe772f0a41a8fe6a5cac0c1269f7bf8d75aee895",
+      "message": "fix: 禁用插件时清理注入按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T12:57:36Z",
+      "committer_date": "2026-05-30T12:57:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "858b111f25d5345355cbc2067b42cda0abe57db9",
+      "message": "fix: 优化 Bazaar 评审反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T11:40:37Z",
+      "committer_date": "2026-05-30T11:40:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7ba51b58c7f365051f8492169492011a21a1160",
+      "message": "fix: 根据 Bazaar 评审优化发布细节",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:58:34Z",
+      "committer_date": "2026-05-29T16:58:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a31e0076c8adf639c9eeeaf150afcbfe292c0b5",
+      "message": "v0.8.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T15:14:49Z",
+      "committer_date": "2026-05-29T15:14:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2186c057fdf6ec794bd95688da71439247e4acd",
+      "message": "test: 移除对具体隐藏功能值的断言，仅验证类型正确性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T15:12:01Z",
+      "committer_date": "2026-05-29T15:12:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "006976a45311ee82b02d2bfbd898208178621ccf",
+      "message": "fix: 移除非必要 toast、修复 README 视频链接、刷新构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T15:11:31Z",
+      "committer_date": "2026-05-29T15:11:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b926215bf1f815a551a7f4d93e4fac106278a20c",
+      "message": "feat: 添加 Alpha 功能隐藏配置，支持编译时控制设置页和工具栏功能可见性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T14:43:39Z",
+      "committer_date": "2026-05-29T14:43:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "598057d7d06f28ca4d7d28e8c214ca3b97312792",
+      "message": "feat: 设置页面\"回放\"作为总开关并优化子选项布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T14:03:37Z",
+      "committer_date": "2026-05-29T14:03:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9ac00e40c579a88da2235d716a403bd6ce192dd",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T15:44:18Z",
+      "committer_date": "2026-05-28T15:44:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db9a38feafb9107b7ce7a443070cea33f31f93c4",
+      "message": "feat: 拆分回放录制与播放控制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T15:42:36Z",
+      "committer_date": "2026-05-28T15:42:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12f8d794490ec0b627d3d9122076cdf41e831d9c",
+      "message": "fix: 修复回放工具栏操作丢失",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T14:57:25Z",
+      "committer_date": "2026-05-28T14:57:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2fe9d67474d9af4fbfaca88638bc186ecc37ecd",
+      "message": "feat: 支持手写预览稳定关联与独立副本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T13:31:04Z",
+      "committer_date": "2026-05-28T13:31:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d21113a40f041231f195fa429800819be642a56",
+      "message": "refactor: 将清除按钮移入更多菜单，并支持画布点击自动收起菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T13:17:36Z",
+      "committer_date": "2026-05-28T13:17:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0967a81563f141f697a72b8f0ef6be6d0a59277",
+      "message": "fix: 修复图片比例与移动端回放布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T13:06:05Z",
+      "committer_date": "2026-05-28T13:06:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "806b6a9b3af8bd9b7691ff0afe1bb29259dcad0d",
+      "message": "feat: 增强回放工具栏与图片操作表现",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T12:23:12Z",
+      "committer_date": "2026-05-28T12:23:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f3eb451597efe1b0482fb8f9652def2515a145a",
+      "message": "feat: 回放增强 — 工具栏点击动画与图片操作真实回放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T11:00:27Z",
+      "committer_date": "2026-05-28T11:00:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b4ac6121a3f2a906d3ce73387a65f38dc076481",
+      "message": "feat: 回放录制默认全量录制、设置页开关与自动播放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T05:08:32Z",
+      "committer_date": "2026-05-28T05:08:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb40f33289db1f4ce8d9212e15a9488255714d25",
+      "message": "fix: 修复回放橡皮擦和文本渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T04:33:27Z",
+      "committer_date": "2026-05-28T04:33:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c0b1ae05cdb878a0b2472b6e7fd4441af4ac4c6",
+      "message": "fix: 确保回放时隐藏实时画布",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T01:35:32Z",
+      "committer_date": "2026-05-28T01:35:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29feeb52cc520e6382f87fd1ad9be51b1e77e7df",
+      "message": "fix: 修复回放画布背景重绘",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T01:23:34Z",
+      "committer_date": "2026-05-28T01:23:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e1ae295f03aeda590570dc7dd82b4a174c4f30f",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T20:25:23Z",
+      "committer_date": "2026-05-27T20:25:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d36b2a43b082fea66a016bbad91f98931df845f",
+      "message": "fix: 修复回放功能 lint 问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:20:26Z",
+      "committer_date": "2026-05-27T17:20:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "806f9335af32cb254c40076e7b1ad2e1743f3b73",
+      "message": "feat(editor): 接入回放模式，协调录制器和播放器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:18:33Z",
+      "committer_date": "2026-05-27T17:18:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d71bf24f7e19df61be66c174a43ccd9c705e442b",
+      "message": "feat(topbar): 顶栏添加回放按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:15:29Z",
+      "committer_date": "2026-05-27T17:15:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "066f01ec29d20c02ec44398d46c7e163900776e6",
+      "message": "feat(ui): 实现 ReplayControls 回放控制栏组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:14:35Z",
+      "committer_date": "2026-05-27T17:14:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b76e913f7edc05b26b9963db4e2184cb2cbe0d5",
+      "message": "feat(canvas): 在操作完成点接入 ReplayRecorder 录制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:12:44Z",
+      "committer_date": "2026-05-27T17:12:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a0ebea5c143d93f3e9d969365f6a3397412eefc",
+      "message": "feat(i18n): 添加回放功能相关翻译",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:10:08Z",
+      "committer_date": "2026-05-27T17:10:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c7c1c69f4bb9f5b3a5687353b80d2ea0dbf7d3c",
+      "message": "feat(recorder): 实现 ReplayPlayer 回放引擎",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:09:21Z",
+      "committer_date": "2026-05-27T17:09:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ddc4736ae622cc00f6e8fb642a52a776b82b52db",
+      "message": "feat(recorder): 实现降级重建逻辑 reconstructFromData",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:05:10Z",
+      "committer_date": "2026-05-27T17:05:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7ad0b879755931a117f674cd19cccc36b46872f",
+      "message": "feat(recorder): 实现 ReplayRecorder 录制器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:03:20Z",
+      "committer_date": "2026-05-27T17:03:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8341cbfbe8fd295c0911e6ed78843991335a0200",
+      "message": "feat(types): SketchData 添加 replayEvents 可选字段",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:01:50Z",
+      "committer_date": "2026-05-27T17:01:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e39435e29a8cbeb3413cee41041135b45a50efb",
+      "message": "feat(recorder): 定义 ReplayEvent 类型和录制器配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T17:00:42Z",
+      "committer_date": "2026-05-27T17:00:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d2d0fd991b98fa949bbca9622862ff14c474d48",
+      "message": "docs: 添加画布操作回放功能实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T16:58:36Z",
+      "committer_date": "2026-05-27T16:58:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20760367e586d9a86e197aa52e130614ecf38edb",
+      "message": "docs: 添加画布操作回放功能设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T16:53:55Z",
+      "committer_date": "2026-05-27T16:53:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc937e0f789404a6c67cccf8877ba993377e1cce",
+      "message": "feat: 支持调整图片透明度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T16:24:43Z",
+      "committer_date": "2026-05-27T16:24:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d55b6efa7bea17ef3e437a233965b903bba47839",
+      "message": "fix: 优化图片控制点和删除操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T16:08:52Z",
+      "committer_date": "2026-05-27T16:08:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00261e8919f4523ab926ee5fcb92ce2324edcaaa",
+      "message": "feat: 增加日志设置开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T15:25:45Z",
+      "committer_date": "2026-05-27T15:25:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fb759cbc8e338220cccb0d90104fb4f49b7b792",
+      "message": "fix: 修复亮色主题工具选中图标颜色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T14:44:37Z",
+      "committer_date": "2026-05-27T14:44:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e00f12b1de969342aeafb3a8b8de0258a2a5adc",
+      "message": "fix: 优化文本编辑与拖拽交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T14:39:07Z",
+      "committer_date": "2026-05-27T14:39:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7da4d9f6a91d45ae86b58fb56ba178e8cd212e9",
+      "message": "fix: 修复编辑器颜色选择与OCR保存接线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T11:54:43Z",
+      "committer_date": "2026-05-27T11:54:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8c70c3366e4cea8c73047644d61d7d658f1378d",
+      "message": "refactor: 提取 composables、消除重复代码、清理死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T21:44:35Z",
+      "committer_date": "2026-05-26T21:44:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "111c2ca854eb759fc4a512da2fecfb4f0aa7f063",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T16:18:37Z",
+      "committer_date": "2026-05-26T16:18:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6617a553392cdf08b914a05fd4b9ea12d9600805",
+      "message": "feat: 更换顶栏图标为线框笔形、统一禅模式按钮样式、中文显示名改为「闲笔」",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T16:15:31Z",
+      "committer_date": "2026-05-26T16:15:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "130c442a6f8f7844b36fd4c7af980118f15ed2be",
+      "message": "fix: 分离画笔和荧光笔颜色栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T15:35:49Z",
+      "committer_date": "2026-05-26T15:35:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "253dfca70f331c92a2f78067575a18ce82239a5d",
+      "message": "fix: 优化取色弹窗与主题切换同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T15:27:47Z",
+      "committer_date": "2026-05-26T15:27:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95043b841674c0fcd76762b5252ddd8c5a3d96d6",
+      "message": "feat: 增强颜色面板 — 添加吸管取色、重构预置面板、修复外部点击关闭",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T12:52:03Z",
+      "committer_date": "2026-05-26T12:52:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1409fddf369ae41dde247b6fdf048c541f10926c",
+      "message": "fix: 阻止长按颜色后触发选中",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T08:40:06Z",
+      "committer_date": "2026-05-26T08:40:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffa5850e7cc7eccf0506e004b543718465faed9c",
+      "message": "fix: 修复手写预览背景偏移",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T04:53:18Z",
+      "committer_date": "2026-05-26T04:53:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05473323ef77baa83e53109105c3a57378e6ed3f",
+      "message": "fix: 修复浮动工具栏长按删除颜色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T04:36:45Z",
+      "committer_date": "2026-05-26T04:36:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca453a1cf0d42e70272a1fe5262716b1a5124afd",
+      "message": "fix: 优化禅模式按钮与取色面板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-26T03:24:55Z",
+      "committer_date": "2026-05-26T03:24:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3de5f244f8ee7cb22d87b829c8e4dcd3e9fc51e4",
+      "message": "fix: 跟随思源主题切换工具栏样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T23:16:33Z",
+      "committer_date": "2026-05-25T23:16:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f773b4e23caac9afdd0831104c95a108279695cd",
+      "message": "fix: 优化工具栏主题并清理 lint",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T23:06:41Z",
+      "committer_date": "2026-05-25T23:06:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d177687f41f5921c45c336c943e62251578f6b7",
+      "message": "fix: 修复工具栏高亮被悬停态遮挡",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T22:51:39Z",
+      "committer_date": "2026-05-25T22:51:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7830d8f8a1db463db9a656154bcb5434818035d4",
+      "message": "feat: 增加禅模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T16:46:00Z",
+      "committer_date": "2026-05-25T16:47:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16528e8ff03f9092e8d1000c35eee489d616d0d9",
+      "message": "fix: 颜色选择面板点击预览、失焦确认，避免反复开合",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T16:25:21Z",
+      "committer_date": "2026-05-25T16:25:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6b7c931fb39504c0e12fcd1d5e48582f757eccd",
+      "message": "feat: 编辑器偏好持久化与浮动工具栏颜色选择器重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T16:16:43Z",
+      "committer_date": "2026-05-25T16:16:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef5091f0d9f9031d5b8f9d665d2bc5e5f90baa7d",
+      "message": "fix: 移除更多按钮文字并修复浮动工具栏长按删除颜色失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T15:31:26Z",
+      "committer_date": "2026-05-25T15:31:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "314526eb17abf10228e5873b46f4842eefdbbbe4",
+      "message": "fix: 更换橡皮图标为自定义 SVG 并将套索默认模式改为框选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T15:08:12Z",
+      "committer_date": "2026-05-25T15:08:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62da5d3d0507f1b6029b7c5c211acd51fb0be575",
+      "message": "fix: 修复手写数据持久化与 ESLint 配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T14:21:16Z",
+      "committer_date": "2026-05-25T14:21:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cc09250d27e687428e5033daab3475e0524af0f",
+      "message": "fix: 优化缩放浮动状态栏样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T13:48:07Z",
+      "committer_date": "2026-05-25T13:48:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c5aa229530686425564c56aaef2bf3342ac1114",
+      "message": "fix: 修复工具栏中文提示与预检期望",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T13:33:47Z",
+      "committer_date": "2026-05-25T13:33:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21a04210e42978c0413722b3b8533cb2e3f08612",
+      "message": "fix: 统一工具栏线框图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T08:23:58Z",
+      "committer_date": "2026-05-25T08:23:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a36763e9ba53bf5c9f2b7fc35bac79f5caa3773",
+      "message": "fix: 修复工具栏文案与橡皮交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T07:30:04Z",
+      "committer_date": "2026-05-25T07:30:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2d6d444f69d75a54966355e63419c0f2fc1b717",
+      "message": "fix: 修复缩放绘制坐标与手势中断问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T05:02:34Z",
+      "committer_date": "2026-05-25T05:02:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "faaa6ec3e9339760088b5d5727a3d149a1068d39",
+      "message": "feat: 支持画布缩放与平移，适配移动端双指手势和桌面端快捷操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T04:22:02Z",
+      "committer_date": "2026-05-25T04:22:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e77b458b55a83c26716bda9733c6c9c9a67e148",
+      "message": "refactor: 精简顶栏，撤销/重做/清除移至第一行，触控笔与压感设置收纳至更多菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-25T03:36:35Z",
+      "committer_date": "2026-05-25T03:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eeced3723478b63597433e850a7bbdbe936ae423",
+      "message": "fix: 修复存量长文档中手写块定位异常及二次编辑按钮丢失的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T16:15:01Z",
+      "committer_date": "2026-05-24T16:15:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a595f89f5113a221b008dad96586ace3b4c36d5",
+      "message": "fix: 缩略图裁剪区域排除 stroke 类型元素的 bounds 计算",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T16:03:05Z",
+      "committer_date": "2026-05-24T16:03:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9116ee2f6708193ac12c48c521b00cad03a8e903",
+      "message": "feat: 支持移动端手写笔压感与全局压感开关选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:53:46Z",
+      "committer_date": "2026-05-24T15:53:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9006562dfca0aa5c1a122e34b20f23524ad6ea64",
+      "message": "fix: 扫描画布尺寸排除橡皮笔触坐标，擦除后裁剪区域正确缩小",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:51:59Z",
+      "committer_date": "2026-05-24T15:51:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13925c7689ba85a106babc06ddeafb439baa8904",
+      "message": "fix: 橡皮擦除后缩略图尺寸正确缩小",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:48:16Z",
+      "committer_date": "2026-05-24T15:48:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d27fd18673c78dd7f771f9b04a170ff7ab54e04",
+      "message": "fix: 裁剪区域排除橡皮笔触范围，标记触摸事件为 passive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:43:19Z",
+      "committer_date": "2026-05-24T15:43:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a42a4fc8919609701c74e3c5cd31e55b1463ec8b",
+      "message": "fix: 双层合成修复橡皮擦在缩略图中留下白色痕迹",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:36:56Z",
+      "committer_date": "2026-05-24T15:36:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18a00abf36ee0a2fc328b60fd2bec0a96fea3650",
+      "message": "fix: 缩略图自适应裁剪仅显示内容区域，修复保存后图片刷新时序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:33:04Z",
+      "committer_date": "2026-05-24T15:33:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "94b04549c3e936c5a70e3b46b3d649a9ac5066ad",
+      "message": "feat: 优化荧光笔隔离配置、橡皮擦双环光标、几何形状免平滑和多文本原位连续输入交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T15:11:03Z",
+      "committer_date": "2026-05-24T15:11:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c65787586f7a98ce7eeeb2eacc85fbb6868f9407",
+      "message": "fix: 稳固顶栏状态标签占位，并全面升级二行工具按钮为高阶磨砂玻璃风",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T14:46:39Z",
+      "committer_date": "2026-05-24T14:46:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "836724e5e5c84ba6eb39389a334242f0665ee2fb",
+      "message": "feat: 重塑顶部操作栏为深色悬浮磨砂玻璃面板，画布通铺分层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T14:40:52Z",
+      "committer_date": "2026-05-24T14:40:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fcfd0e04d2b730bf4c14a2eb99bcffef1b4eee0e",
+      "message": "feat: 极致精简顶部状态栏与主工具栏的UI按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T14:36:47Z",
+      "committer_date": "2026-05-24T14:36:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e50f7a3e4a333c80dad551476489e3efdea2dcf0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T14:33:39Z",
+      "committer_date": "2026-05-24T14:33:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "018d8abefb3f3360c642c8eb23ed51f821b4c9b4",
+      "message": "feat: 重构手写插件交互界面并新增磨砂玻璃可拖拽浮动工具栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T14:33:24Z",
+      "committer_date": "2026-05-24T14:33:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d60c6d775c9967f09e49b620a181493fa98cc23",
+      "message": "Merge pull request #1 from famotime/feat/image-elements",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-24T13:38:56Z",
+      "committer_date": "2026-05-24T13:38:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e94048dbf22dd13d4e0a7c13ebcc6cd615c4227",
+      "message": "refactor: 移除尺子工具及相关代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T13:35:15Z",
+      "committer_date": "2026-05-24T13:35:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f07de5df0cdbfd978be277f5c68325b2cdffc374",
+      "message": "feat: 增加手写 OCR 搜索闭环基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T13:16:50Z",
+      "committer_date": "2026-05-24T13:16:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "67c3d23dd8d656106efa7957012469e4cfcca92a",
+      "message": "refactor: 优化手写编辑器工具栏体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T12:46:42Z",
+      "committer_date": "2026-05-24T12:46:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1fe7033c77e92ee11a5720129283a1dc80fd0ed",
+      "message": "fix: 修复插件发布预检阻断项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:33:25Z",
+      "committer_date": "2026-05-24T11:33:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d49c654fe82c443a8c810423967cf6e3712a845",
+      "message": "docs: 记录插件发布预检结果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:28:53Z",
+      "committer_date": "2026-05-24T11:28:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2dd17be824d454c66a6208b4a272dbb7a563a87b",
+      "message": "docs: 对齐商业手写开发计划状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:26:27Z",
+      "committer_date": "2026-05-24T11:26:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51aba31e475db20048ad5dda89f0662b57836faa",
+      "message": "docs: 补充商业手写应用完成度审计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:23:06Z",
+      "committer_date": "2026-05-24T11:23:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "737cbc1cd59a088f62bc4550d0dd87353b4a357c",
+      "message": "feat: 增加套索选区编辑快捷键",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:14:04Z",
+      "committer_date": "2026-05-24T11:14:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3356bb4515e263abd2969259ef349eab019733b9",
+      "message": "feat: 扩展编辑器工具快捷键",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:11:37Z",
+      "committer_date": "2026-05-24T11:11:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fccdd892f5a6a778f8615075faf8de660b3db04a",
+      "message": "feat: 增加 OCR 页内定位信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:09:35Z",
+      "committer_date": "2026-05-24T11:09:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ce29b75dcff1d7cfc6b4f64697598c55f21404d",
+      "message": "fix: 修复分页数据迁移缺省页信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:05:31Z",
+      "committer_date": "2026-05-24T11:05:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64432ad77f099fbd7b8c1549cb90c61dea2b5737",
+      "message": "fix: 修复分页导出元素坐标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:02:08Z",
+      "committer_date": "2026-05-24T11:02:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e70c12df8b522d6880e1999cc925bea1c741a443",
+      "message": "fix: 修复元素移动后的套索命中",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:59:24Z",
+      "committer_date": "2026-05-24T10:59:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f730223cd999625e233635e7faf86662694c9e1a",
+      "message": "fix: 修复分页插入元素位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:55:52Z",
+      "committer_date": "2026-05-24T10:55:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d4a98423fb39a13e389662e834c244f0f9e1aee",
+      "message": "fix: 修复分页混合元素状态同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:51:56Z",
+      "committer_date": "2026-05-24T10:51:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3efc55da85b304732ef66a92bfc437499af3476e",
+      "message": "feat: 增加页面总览导航",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:40:51Z",
+      "committer_date": "2026-05-24T10:40:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "692ddb55233312642ecaba068e15b1920713aff9",
+      "message": "feat: 支持切换自定义背景适配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:36:38Z",
+      "committer_date": "2026-05-24T10:36:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "557b608f3e2d669e90658c338a0e1fffda273202",
+      "message": "feat: 支持自定义背景适配模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:33:41Z",
+      "committer_date": "2026-05-24T10:33:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22432ccc760a20a732e8653046aad9d8ffe2c526",
+      "message": "feat: 支持自定义背景模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:30:27Z",
+      "committer_date": "2026-05-24T10:30:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60577f1dba5d24f5ddbb87115e13b4e3bfa2d922",
+      "message": "feat: 支持导出时切换背景模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:22:16Z",
+      "committer_date": "2026-05-24T10:22:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a93f1a022783948693309dc716d32b019867ee5",
+      "message": "feat: 增加仅触控笔输入模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:18:41Z",
+      "committer_date": "2026-05-24T10:18:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "362fda6282ebd191fa0c6c3919d62c38759e716d",
+      "message": "feat: 增强页面管理能力",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:15:17Z",
+      "committer_date": "2026-05-24T10:15:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aaa9fc4ae33845cc64913ff51643b53c174f8462",
+      "message": "feat: 支持 OCR 按页定位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:11:37Z",
+      "committer_date": "2026-05-24T10:11:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81c9cf56b64facda3d2849ffdde348429e196289",
+      "message": "feat: 支持当前页 PNG 导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:09:31Z",
+      "committer_date": "2026-05-24T10:09:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c70e41592628cd4ae0c7159dadd1c9b6603bb52",
+      "message": "feat: 增加分页导航基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:06:53Z",
+      "committer_date": "2026-05-24T10:06:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0086db5edb4eb9000e141ef33949b662e8b6873e",
+      "message": "feat: 支持套索矩形框选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:56:24Z",
+      "committer_date": "2026-05-24T09:56:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e12d1d9c9702c6618d098dd07cc01c61b20621bd",
+      "message": "feat: 增加三角形工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:52:51Z",
+      "committer_date": "2026-05-24T09:52:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca2016c4a8a28b20a18042f9444b2ac83a93b00b",
+      "message": "feat: 支持最近颜色槽",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:47:27Z",
+      "committer_date": "2026-05-24T09:47:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2c1efb2648043368c15e5ad55ed0c83c862d7a9",
+      "message": "feat: 支持套索缩放选区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:42:08Z",
+      "committer_date": "2026-05-24T09:42:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eac47a5949505932c0029f37c54cd29388d4147f",
+      "message": "feat: 支持套索复制选区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:38:15Z",
+      "committer_date": "2026-05-24T09:38:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6c83b027c4660839d203cb17f718be73bf4d58c",
+      "message": "feat: 为笔迹预计算边界信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:32:16Z",
+      "committer_date": "2026-05-24T09:32:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4cd9b45393205d471d2f953260b896ca33065005",
+      "message": "feat: 增加箭头形状工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:28:04Z",
+      "committer_date": "2026-05-24T09:28:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8af2323331a07bceb97be2da92f138341f9dbb3c",
+      "message": "feat: 支持橡皮整笔擦除模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:23:16Z",
+      "committer_date": "2026-05-24T09:23:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba1b02c0f7f55b0b5d545e59e4a064327897546e",
+      "message": "feat: 增加编辑器快捷键",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:19:07Z",
+      "committer_date": "2026-05-24T09:19:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72be841da22a157ec623802afe5d2998f534f479",
+      "message": "feat: 显示手写块最后保存时间",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:13:34Z",
+      "committer_date": "2026-05-24T09:13:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1dd2f4ede89763ca7b6628b71b43ec800100c67b",
+      "message": "feat: 扩展商业笔记模板库",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:09:50Z",
+      "committer_date": "2026-05-24T09:09:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4ed61443c065654541e926d57f3e11318712cdb",
+      "message": "feat: 支持手写源数据 JSON 恢复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:06:02Z",
+      "committer_date": "2026-05-24T09:06:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bed7d5be997a53ae8ec0afc778f5d3a3a9938530",
+      "message": "feat: 支持手写源数据 JSON 备份",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:54:28Z",
+      "committer_date": "2026-05-24T08:54:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1c1a74801d5429bea87db4ad7459d1e92837628",
+      "message": "feat: 增强尺子吸附书写体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:51:43Z",
+      "committer_date": "2026-05-24T08:51:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f4aa43d9a5095e190fe965e49da3d44ab21d53f",
+      "message": "feat: 支持套索选择编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:48:24Z",
+      "committer_date": "2026-05-24T08:48:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5e498c4707cfb5d328f30ff9103c5830d522022",
+      "message": "feat: 支持多页 PDF 导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:43:20Z",
+      "committer_date": "2026-05-24T08:43:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "824b18ea9acf0169fb1d6e7974138edc9ba606ab",
+      "message": "feat: 增加 PDF 分页导出接口基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:28:53Z",
+      "committer_date": "2026-05-24T08:28:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f517b69fa67b1c4340a8ed25845992c9984e141",
+      "message": "feat: 增加 OCR 搜索索引基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:18:51Z",
+      "committer_date": "2026-05-24T08:18:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1cb42e03de329c4d7e253e6d10b2f7e6b549c46",
+      "message": "feat: 增加手写数据迁移和恢复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T08:09:26Z",
+      "committer_date": "2026-05-24T08:09:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e19d390cd7eee804aa59346929dc192ab7c72b6",
+      "message": "feat: 支持文本框移动和内容编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:59:54Z",
+      "committer_date": "2026-05-24T07:59:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4678099dde933a2c64d7db5a9103d26308343595",
+      "message": "feat: 支持图片移动缩放和粘贴导入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:51:54Z",
+      "committer_date": "2026-05-24T07:51:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b2d544f5b546b429fbb34afc95df49c5fd6be2f",
+      "message": "feat: 支持图片元素导入和标注",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:40:52Z",
+      "committer_date": "2026-05-24T07:40:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aec1f9e2b77ac7c629abcf2a5d8b60025361ce39",
+      "message": "feat: 增加文本元素基础能力",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:22:17Z",
+      "committer_date": "2026-05-24T07:22:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c5f2649e0aeb56a1b2221e2aa60455a56540791",
+      "message": "feat: 接入形状工具和尺子模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:16:36Z",
+      "committer_date": "2026-05-24T07:16:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4424b4922a248281bed36fb2e936cfd67897d6a2",
+      "message": "fix: 串行化手写笔记保存队列",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:11:26Z",
+      "committer_date": "2026-05-24T07:11:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2554e5f8134ef9a45eda706108f662a98b680ba",
+      "message": "feat: 增加当前手写页 PNG 导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:09:35Z",
+      "committer_date": "2026-05-24T07:09:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ebef6ab78d2ec7c621f555799e8d053fba4b8a1d",
+      "message": "feat: 扩展商业手写模板库",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:06:51Z",
+      "committer_date": "2026-05-24T07:06:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7b2f13c299f251744e6f2df9656e606ac13d73b",
+      "message": "feat: 增加形状与尺子几何基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:03:22Z",
+      "committer_date": "2026-05-24T07:03:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d293276039de6aa568e4a0704b9afa2aac019a11",
+      "message": "feat: 引入元素模型和套索基础",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:01:26Z",
+      "committer_date": "2026-05-24T07:01:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea9d0a08dd62c612c447461273fe96059c63d48c",
+      "message": "feat: 优化手写笔迹平滑和压感渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T06:58:26Z",
+      "committer_date": "2026-05-24T06:58:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52bcab047776656f44d6c28172e5fe181ba83c91",
+      "message": "feat: 增加荧光笔与工具预设",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T06:55:43Z",
+      "committer_date": "2026-05-24T06:55:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f10e03c73742174b5d95b2c8cfb6dc66f84da93",
+      "message": "feat: 编辑器体验优化与代码清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T06:11:48Z",
+      "committer_date": "2026-05-24T06:12:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff5cc2157f4afa82de012bbd55b50d26972f62de",
+      "message": "revert: 恢复画笔图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:51:02Z",
+      "committer_date": "2026-05-24T00:51:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3b05056752fe41f16ddbf6da55b10099b3f36e5",
+      "message": "feat: 更换顶栏和编辑按钮图标为笔记本样式，保持线框显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:41:59Z",
+      "committer_date": "2026-05-24T00:41:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db8ad4a673215e7d737c07bd5b5775875781dfcb",
+      "message": "fix: 右键菜单改用思源内置 iconEdit 图标，匹配菜单标准尺寸",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:39:29Z",
+      "committer_date": "2026-05-24T00:39:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "287871d73ff54fe216514d3ff489060ff8523d43",
+      "message": "fix: 移除 SVG 图标固定尺寸，由容器 CSS 控制大小以匹配菜单规范",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:35:27Z",
+      "committer_date": "2026-05-24T00:35:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73537ea4cb210eb3b706e7388ad5f6f666b3f0d0",
+      "message": "fix: SVG 图标 path 添加 fill:none!important 防止思源 CSS 覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:33:11Z",
+      "committer_date": "2026-05-24T00:33:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05fe4e1f082349e6e46ef43d494202827c62ff1a",
+      "message": "feat: 顶栏按钮、编辑按钮和右键菜单统一使用自定义画笔图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:31:01Z",
+      "committer_date": "2026-05-24T00:31:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "970ee0af5cae29cd2958a925f35d38ad253eb319",
+      "message": "feat: 实现真实橡皮擦合成渲染，导出 PNG 自动裁剪可见区域",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:22:17Z",
+      "committer_date": "2026-05-24T00:22:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f88c29ea85aab747a4571fb70eabc4e5564a4410",
+      "message": "feat: 保存图片尺寸根据笔迹范围自动裁剪，不再使用固定画布大小",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:12:20Z",
+      "committer_date": "2026-05-24T00:12:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "47daf108f79151e6f2b7bb4644e282cded9cd63d",
+      "message": "refactor: 从代码块迁移到标准图片块方案，修复图片不显示和无法二次编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:07:11Z",
+      "committer_date": "2026-05-24T00:07:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c3b487694c05e691abadd5533a143aadd99a91b",
+      "message": "fix: 修复涂画后缩略图不显示及无法点击编辑的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T22:17:22Z",
+      "committer_date": "2026-05-23T22:17:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "244c091fec1eb0df3b2e2408d9b5a4547d2dbc11",
+      "message": "fix: 使用 getActiveEditor() 获取文档 ID，改用 appendBlock 插入块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T16:23:17Z",
+      "committer_date": "2026-05-23T16:23:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aaff4b26a4b0667dd79d387048222485b145dadb",
+      "message": "fix: 从编辑器 DOM 获取文档 ID，修复无法插入块的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T16:17:23Z",
+      "committer_date": "2026-05-23T16:17:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6596c52e00441c69d53178040eafbb0613481c59",
+      "message": "fix: 禁用代码拆分，修复思源插件加载失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T16:08:24Z",
+      "committer_date": "2026-05-23T16:08:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5f48ae380d16bad53abb572592cd387db0afc88",
+      "message": "feat: 完成插件入口和 App.vue 集成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:56:48Z",
+      "committer_date": "2026-05-23T15:56:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43f76701150f959ff545c2ccb2e1589743e48194",
+      "message": "feat: 添加编辑器 Vue 组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:53:28Z",
+      "committer_date": "2026-05-23T15:53:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3414b2222b95384277756216690eef07fe57ba74",
+      "message": "feat: 添加代码块渲染拦截器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:50:55Z",
+      "committer_date": "2026-05-23T15:50:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5196f50cdbff39cfc91072e234ac89c27485e36b",
+      "message": "feat: 添加 Canvas 绘图引擎",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:48:58Z",
+      "committer_date": "2026-05-23T15:48:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f0d67aeadf693c4ade8a64a8f69820cd256afd2",
+      "message": "feat: 添加插件存储层和缩略图导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:46:29Z",
+      "committer_date": "2026-05-23T15:46:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "489a0cb261fee6a815fcd0808d22fac3dec0b6f7",
+      "message": "feat: 添加笔迹类型定义和模板系统",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:45:24Z",
+      "committer_date": "2026-05-23T15:45:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7d769b0226d6b3978b60d457a0651a784fe3e24",
+      "message": "feat: 更新插件身份配置和 i18n",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:44:08Z",
+      "committer_date": "2026-05-23T15:44:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1d2d41a3738d695d3c100866105722d0cc92191",
+      "message": "chore: 初始化项目，基于 plugin-sample-vite-vue 模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T15:42:01Z",
+      "committer_date": "2026-05-23T15:42:01Z",
+      "login": "famotime"
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "pushed_at": "2026-09-17T12:58:51Z",
+  "count": 77,
+  "commits": [
+    {
+      "sha": "645499d299f3aadef76be41095efff869a184c3c",
+      "message": "Optimize dashboard UX and fix theme switching",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T12:58:39Z",
+      "committer_date": "2026-09-17T12:58:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "861ba388ae2d5bf59a0a430d4ce51613f0c4f3b2",
+      "message": "Fix echarts engine detection and auto load protyle script",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T12:33:51Z",
+      "committer_date": "2026-09-17T12:33:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc145ee4ec2399bd298357e0228471cdb7866803",
+      "message": "Add scenario dashboards and right sidebar dock integration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T11:04:01Z",
+      "committer_date": "2026-09-17T11:04:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffcb7092f0fdfab4119b70e12d0d55683d82431d",
+      "message": "doc: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T06:23:19Z",
+      "committer_date": "2026-09-17T06:23:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5dfba0d9662b833a4ed24a04570445be3d3e589",
+      "message": "v0.9.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T02:23:13Z",
+      "committer_date": "2026-08-23T02:23:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4478a601f68fd80c0042eba5d0fac2dcfaaa58b",
+      "message": "v0.9.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T02:22:42Z",
+      "committer_date": "2026-08-23T02:22:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec6b8e3b017cb3565b7db3adf6ca7e25ed38acdf",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T02:13:15Z",
+      "committer_date": "2026-08-23T02:13:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8733661f0ad8d049af3182cb8f379af3d08c36ba",
+      "message": "Add block and inline memo query support",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-07T14:22:06Z",
+      "committer_date": "2026-08-07T14:22:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef0a0c775eeb86dbcb234dbcc83bec74426b0285",
+      "message": "Add random sort option to query builder sort rules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-07T14:08:39Z",
+      "committer_date": "2026-08-07T14:08:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6cdabf218b41e4edd56f2e9d52ce37ad13e81fd",
+      "message": "Add clear button to recent query history panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T03:52:27Z",
+      "committer_date": "2026-08-02T03:52:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33581c6d6b9ad063e7e162f1691df410a4732420",
+      "message": "Require manual template save when inserting embed block",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T03:43:18Z",
+      "committer_date": "2026-08-02T03:43:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "080eb8598d5a5d7d0c5b1bf71f4f0f242569b7e6",
+      "message": "Add Lucide wireframe icons, light theme UI, and select chevron fixes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T03:39:28Z",
+      "committer_date": "2026-08-02T03:39:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b63eb87fbf0f8bdf26309fdfd5403815e56a262",
+      "message": "Add text length field and daily top blocks preset",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T02:39:06Z",
+      "committer_date": "2026-08-02T02:39:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa6cfca8f5975000b0e52e62b8c9c1a8c4c2f9c0",
+      "message": "Update developer docs, plugin metadata, and release artifacts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T02:26:50Z",
+      "committer_date": "2026-08-02T02:26:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "470fb3527c9e8bb59ef22e90da4d781937ab9309",
+      "message": "Add less than operator to condition editor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T02:26:31Z",
+      "committer_date": "2026-08-02T02:26:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61e2369692eab8a16b3621117212dcd5a647d2e2",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-31T14:31:22Z",
+      "committer_date": "2026-07-31T14:31:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ecea9d124b9dae2715ef1e609781fd93cc28d03d",
+      "message": "refactor: 发布前整改——i18n 错误消息、未保存状态提示与存储键收敛",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-31T14:26:56Z",
+      "committer_date": "2026-07-31T14:26:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3f22e05aaaf9ab59bee2c31f57568e1f38641a92",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-28T14:43:17Z",
+      "committer_date": "2026-07-28T14:43:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a1a8811d26cdb49715c6e8e4727887e1cbb78ca",
+      "message": "Fix plugin metadata lifecycle and Bazaar preflight requirements",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-28T13:54:28Z",
+      "committer_date": "2026-07-28T13:54:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cf8ef5d8dd1a9fc286c5467e1d57d9d4849bea5",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:41Z",
+      "committer_date": "2026-05-23T06:41:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5a218fc0cbdc0ff0c3c02bdc428afc286becb2d",
+      "message": "Replace topbar icon with custom SVG and rename title to 易搭",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:35:10Z",
+      "committer_date": "2026-05-01T13:35:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5b1f6eded6f13f2c4e5c58739794c3195608c1e",
+      "message": "将「会议回顾」预设从日常管理移至自定义属性分类",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:16:28Z",
+      "committer_date": "2026-05-01T13:16:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c44289d6a4ecf36d19ffa3137bdc661f59be7b0",
+      "message": "添加「往日笔记随机漫游」预设，支持 RANDOM() 排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:13:12Z",
+      "committer_date": "2026-05-01T13:13:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7dce1a9566ad7b3d46775d108d93e70a52bb4422",
+      "message": "Add asset count preset for embedded resources",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-24T14:29:27Z",
+      "committer_date": "2026-04-24T14:29:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "742c6e32f541491abfad8c747065f31ad71cd775",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T14:22:21Z",
+      "committer_date": "2026-03-29T14:22:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d5ea2fab6e47e94ac67da05f0e40e56722b08a9",
+      "message": "Add block type to custom attribute preset",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T14:11:44Z",
+      "committer_date": "2026-03-29T14:11:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49700ff40c35f7c72fdbd88eee7b850ffc056d26",
+      "message": "Refresh repository guidelines",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T14:10:23Z",
+      "committer_date": "2026-03-29T14:10:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1963549eadf442984f742bf66fb463b68dbb7e8",
+      "message": "Add custom attribute preset and truncate result titles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T14:09:05Z",
+      "committer_date": "2026-03-29T14:09:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7291da7e5377edb83b97799bc4d788dd794e4470",
+      "message": "Fix workspace tab host styles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T02:44:34Z",
+      "committer_date": "2026-03-24T02:44:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a91fb32e4482ef37c644904e931ba61e11341691",
+      "message": "Add workspace open mode setting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T02:31:35Z",
+      "committer_date": "2026-03-24T02:31:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65e4e35cd5142b2fdea805e7c5d9ac47d0f63b93",
+      "message": "Add results preview collapse and separate embed panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T02:10:34Z",
+      "committer_date": "2026-03-24T02:10:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51ecb585e5ce05dfe9d23d6e0f44aa958dca7144",
+      "message": "Refine query builder interactions and result labels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T00:59:41Z",
+      "committer_date": "2026-03-24T00:59:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b259776ccf8ff61c9ee0e74d33e3c8a7e4fec38d",
+      "message": "Refactor query builder store and UI modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T22:29:47Z",
+      "committer_date": "2026-03-23T22:29:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "518beafe066547e728240eef623ba3b3c5a3f74c",
+      "message": "Refine query builder presets and view interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T16:11:38Z",
+      "committer_date": "2026-03-23T16:11:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5677f43ed8482dd7e181ff7d236af6f811706e00",
+      "message": "Refine saved views layout and behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T15:55:00Z",
+      "committer_date": "2026-03-23T15:55:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2fbf59542f1aa030c2525250a846174ceddfb62",
+      "message": "Style SQL preview as code block",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T15:36:59Z",
+      "committer_date": "2026-03-23T15:36:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbbb19a29eb518ef6e37a337e12a94823ddff126",
+      "message": "Refine sidebar preset section layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T15:10:09Z",
+      "committer_date": "2026-03-23T15:10:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf15329e96ac6c195c5d831fa3e6e89fb8e0f346",
+      "message": "Fix inline embed theme detection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T15:05:14Z",
+      "committer_date": "2026-03-23T15:05:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54bd7335a85576b4ac74ae5aaaeb5623416d5023",
+      "message": "Fix example document daily note path handling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T14:31:59Z",
+      "committer_date": "2026-03-23T14:31:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea9e240fce77e58d0ee01071360a4a9056443b0f",
+      "message": "Refine scope layout, example docs, and inline themes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T09:26:11Z",
+      "committer_date": "2026-03-23T09:26:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16b0ab6d7cd0c100a8b32a22a71166697d1f4900",
+      "message": "Fix example docs daily note path and attrs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T08:00:24Z",
+      "committer_date": "2026-03-23T08:00:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "378f32a1658acdcc44c056388ff064a13c8bf657",
+      "message": "Organize presets and simplify template summaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T07:17:39Z",
+      "committer_date": "2026-03-23T07:17:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ebc3e5ec6d2d090cfa67e3cd6006a0fce65a829",
+      "message": "Add preset example document generator",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T07:11:05Z",
+      "committer_date": "2026-03-23T07:11:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25cfe5e92cd187d070c6cc331f6fb82ae0308a0e",
+      "message": "Scope filter operators by selected field",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T06:53:16Z",
+      "committer_date": "2026-03-23T06:53:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84196de9ed90f5fa84e3ca90c636d96f59a9fa3e",
+      "message": "Polish plugin branding and mapping hints",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T06:47:22Z",
+      "committer_date": "2026-03-23T06:47:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd5f840a52fd015f4aa87d144b28f471e4a30253",
+      "message": "Refine filter editor drag and toggle interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T06:34:09Z",
+      "committer_date": "2026-03-23T06:34:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9def1045da458385ed18bb314283026e9899f7d5",
+      "message": "Improve inline embed table headers and styles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T04:42:57Z",
+      "committer_date": "2026-03-23T04:42:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cdf18435d9b7f53b36b83dd7236a4803115c5a2f",
+      "message": "Follow host light and dark themes for embeds",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T03:51:45Z",
+      "committer_date": "2026-03-23T03:51:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f41458f87a6acfa3d2839d4e0664ff6e5c3533b",
+      "message": "Add filter reordering and dark embed styling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T02:27:05Z",
+      "committer_date": "2026-03-23T02:27:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7abce7d835ad37f0dc2d423f420620ef15ffbf65",
+      "message": "Align sidebar hero card with dark theme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T02:12:58Z",
+      "committer_date": "2026-03-23T02:12:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "623a59a0aa78fb8c17eca6736e770ec2ab51877f",
+      "message": "Polish query builder workspace UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T01:06:53Z",
+      "committer_date": "2026-03-23T01:06:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c429113170ce4be83149ccfb2a438c1d4158f358",
+      "message": "Refactor query builder module boundaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T23:07:56Z",
+      "committer_date": "2026-03-22T23:07:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2c65f9f98d247c953828fb1bfda379691aa0e7b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T16:34:09Z",
+      "committer_date": "2026-03-22T16:34:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75860e5b9dae6d19f65df988cca44632aa1497b6",
+      "message": "Fix view settings stylesheet syntax",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T16:33:51Z",
+      "committer_date": "2026-03-22T16:33:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b3cfbd6fa9be2d81ae587e058519261c6f97567e",
+      "message": "Align UI to design system: tokens, sizing, radii, no hardcoded colors",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T16:30:35Z",
+      "committer_date": "2026-03-22T16:30:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6eb9577535cfe2c0a4ed4df351e0f4adb4fe9482",
+      "message": "Add saved template import and export",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T16:24:04Z",
+      "committer_date": "2026-03-22T16:24:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af45160d43d4350e3ad5166328686dfea3318f20",
+      "message": "Improve result field display formatting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T15:24:33Z",
+      "committer_date": "2026-03-22T15:24:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98a8108f0cf58df3dcca35aa10f2a61d13747ba1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T15:00:49Z",
+      "committer_date": "2026-03-22T15:00:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2a10e3c8e68fef1aa0e4fac6245415360f6123e",
+      "message": "Add link analysis presets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T14:49:15Z",
+      "committer_date": "2026-03-22T14:49:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8386ef217676d3141cf121fe6c555b4c3fd3f2f1",
+      "message": "Add recent query history to sidebar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T13:56:11Z",
+      "committer_date": "2026-03-22T13:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b383ce0c26716667c17df0c98f55eb7a4fcc739",
+      "message": "Support AND/OR relations in condition editor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T13:48:03Z",
+      "committer_date": "2026-03-22T13:48:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff171ac97b14bd931a67fee4ef8097a2411a7870",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T13:35:21Z",
+      "committer_date": "2026-03-22T13:35:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "240b130489256df1574e17191b5d2572c425bf5e",
+      "message": "Refactor query builder store and UI panels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T13:34:20Z",
+      "committer_date": "2026-03-22T13:34:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2fcd40f45f68ea05306b27c0245fd5faa2a96e1",
+      "message": "Upgrade meaningful multi-view query templates",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T11:28:05Z",
+      "committer_date": "2026-03-22T11:28:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "02d0041c086e5032141f550bddda2146ae8d1821",
+      "message": "Refine query builder action layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T10:53:04Z",
+      "committer_date": "2026-03-22T10:53:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93e47620b464df0ac94eb6a18adabfc98891afad",
+      "message": "Complete remaining PRD gap closure work",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T10:36:18Z",
+      "committer_date": "2026-03-22T10:36:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3598a77985d9b1fd2a6ec2c87f87d608c602908a",
+      "message": "Fix JS embed empty-result fallback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T10:32:12Z",
+      "committer_date": "2026-03-22T10:32:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8d8e451692e6e0f181bae4e6e483bc68e3a4367",
+      "message": "Add query validation and multi-view storage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T10:21:18Z",
+      "committer_date": "2026-03-22T10:21:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8fa15d9e1ff1c446c0724880631db60186e1e67",
+      "message": "Polish embedded query widget styles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T10:20:08Z",
+      "committer_date": "2026-03-22T10:20:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e610db81c1bdb279d3ae76d7cb9a3c16405c3791",
+      "message": "Refine query builder workspace UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T09:58:19Z",
+      "committer_date": "2026-03-22T09:58:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8973b1b0411a01e481c3c99c0bb4ad229e33002",
+      "message": "Add aggregate statistics and top tagged preset",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T09:28:04Z",
+      "committer_date": "2026-03-22T09:28:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10aed73db4a4a3c4ff8329e13e6c4a8560eea1b5",
+      "message": "Refine query builder sidebar controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T09:02:12Z",
+      "committer_date": "2026-03-22T09:02:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "784dfeb34f34aee2d505d6a08886ad988d3284b5",
+      "message": "Show opened documents in embed target picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T08:01:52Z",
+      "committer_date": "2026-03-22T08:01:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fc239323347f98ea4d998d8cadc03fab3287b34",
+      "message": "Merge embed target input and picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T07:54:10Z",
+      "committer_date": "2026-03-22T07:54:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0ba5aa7735c0204b2bed3127241567f21336b4f",
+      "message": "Improve current document target detection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T07:46:31Z",
+      "committer_date": "2026-03-22T07:46:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9760e2379ea86ef74f763123b91ae3b8d4a28c0f",
+      "message": "Fix embed block rendering and improve target selection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T07:26:37Z",
+      "committer_date": "2026-03-22T07:26:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a30d0a83ea4bbd37a03b13f689440e3feac80b56",
+      "message": "Implement query builder plugin and stabilize dialog rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T05:03:19Z",
+      "committer_date": "2026-03-22T05:03:19Z",
+      "login": "famotime"
+    }
+  ]
+}

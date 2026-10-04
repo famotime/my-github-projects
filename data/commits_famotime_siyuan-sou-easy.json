@@ -1,0 +1,1383 @@
+{
+  "pushed_at": "2026-10-02T11:20:31Z",
+  "count": 153,
+  "commits": [
+    {
+      "sha": "e4894a94989464b5df5cabe671e5d2335ef60885",
+      "message": "v1.3.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:19:22Z",
+      "committer_date": "2026-10-02T11:19:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a52c341cd29ab8029f8e36d3ce2d2ec55d7962f",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:07:15Z",
+      "committer_date": "2026-10-02T11:07:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37fe352dd8eb36e679c8391733343419e7b4c598",
+      "message": "chore: 更新 .gitignore 忽略公共开发文档目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T10:54:47Z",
+      "committer_date": "2026-10-02T10:54:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf9b2f990343e22ee6b20679f8021f7fdba15e5c",
+      "message": "fix(search): 优化复杂大表格与亚像素边界下的搜索跳转定位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T10:54:39Z",
+      "committer_date": "2026-10-02T10:54:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "806b7f5f22341b6fbe136c063b9525e878bfb310",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T14:36:06Z",
+      "committer_date": "2026-09-30T14:36:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76f2e178bf79c5138fc46ec95e6fff6fbd10c94f",
+      "message": "feat(search): 支持设置页配置回车后启动搜索防卡顿选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T14:33:15Z",
+      "committer_date": "2026-09-30T14:33:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fcb1dce229b6a1c9adb3c34e779289a043ce61d",
+      "message": "fix: optimize search navigation and range location in complex tables",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T00:53:09Z",
+      "committer_date": "2026-09-25T00:53:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e8eb33dec403654b386566c3d5d8121f685e56d",
+      "message": "docs: add FAQ for plugin settings and control layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T00:52:56Z",
+      "committer_date": "2026-09-25T00:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1a2c075d43a8c961b53b82e5b02df9f12d77c50",
+      "message": "doc: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T06:24:37Z",
+      "committer_date": "2026-09-13T06:24:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06b924bcd003e08316d9725def627e4993b26828",
+      "message": "feat: persist panel width when resizing search bar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T06:26:42Z",
+      "committer_date": "2026-09-05T06:26:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "858f138638669010b079409ec9b65ac9b81729d2",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T05:39:44Z",
+      "committer_date": "2026-09-05T05:39:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e02563e97cf0e5adc4a7c12c7f3e22090a095ad0",
+      "message": "v1.3.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T13:03:27Z",
+      "committer_date": "2026-08-01T13:03:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23750585c21e39fdf6bec627559c70d8a5e2418f",
+      "message": "v1.3.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T12:59:21Z",
+      "committer_date": "2026-08-01T12:59:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df757a72b76c1f0751ac7b2bc91d272637ae6ffa",
+      "message": "v1.3.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T12:58:17Z",
+      "committer_date": "2026-08-01T12:58:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "282d92674874707e910c0a9d190615b86994da72",
+      "message": "feat(mobile): optimize mobile panel UI layout and simplified controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T06:56:11Z",
+      "committer_date": "2026-08-01T06:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fcdcd477ccb4d27b48012decf28fb876d636a61c",
+      "message": "style(ui): render bottom preview hit keyword in bold text instead of brackets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T05:52:53Z",
+      "committer_date": "2026-08-01T05:52:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fda669187f481028d546b9974ad0fbce3d215bf4",
+      "message": "style(ui): unify panel action button styles and wireframe icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T05:38:53Z",
+      "committer_date": "2026-08-01T05:38:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c26c05dc177c6f4f949b407dae7d138e9683c69a",
+      "message": "feat: add Extract All feature and improve search UI layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T03:37:54Z",
+      "committer_date": "2026-08-01T03:37:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15f5fb74db803990df63af3784d863d901cd163a",
+      "message": "feat: allow editing search result index to jump directly",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T02:32:52Z",
+      "committer_date": "2026-08-01T02:32:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9067966cd42d94039808effdcfa96f5d3ff2099c",
+      "message": "feat(ui): replace current, skip, and replace all buttons with SVG icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T01:03:32Z",
+      "committer_date": "2026-08-01T01:03:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c04d67c0c74d81e546807635842a25ce4338b8a",
+      "message": "feat(ui): 将搜索与替换选项按钮内嵌至输入框并保持两框长度对齐",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T00:57:15Z",
+      "committer_date": "2026-08-01T00:57:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b4ce549f76b06457b7011bcae059035d492a69c",
+      "message": "refactor: use stable primary key (blockId + occ) for search matches to fix scroll drift",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T00:33:18Z",
+      "committer_date": "2026-08-01T00:33:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fa66229825cf4ad7822d6f981560fef809ccb16",
+      "message": "feat: implement safe replacement via Protyle transaction",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-31T15:06:27Z",
+      "committer_date": "2026-07-31T15:06:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fdccc34ec8eac96830e114241eaa85594a7474cf",
+      "message": "feat: 支持终端搜索面板模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T23:38:32Z",
+      "committer_date": "2026-06-06T23:39:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3afe4491f825c50cb292c79bd3a876580f6dc6f0",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:42Z",
+      "committer_date": "2026-05-23T06:41:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00ab85a1e38c47d6c2b54dd81ab6c1991c7f0243",
+      "message": "feat: 将搜索命中颜色选项移至设置页面顶部",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T14:16:11Z",
+      "committer_date": "2026-05-21T14:17:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b57804708b2e35a7e53704791de7e7b416820583",
+      "message": "fix: guard canvas note replace all",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T11:37:42Z",
+      "committer_date": "2026-05-21T11:37:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7eac6c7f4397e2d83383f4ea5b7503c27f0e942e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T13:24:24Z",
+      "committer_date": "2026-05-17T13:24:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ae2a09181688138d21e6b78f6226d70cdc78aa1",
+      "message": "feat: 支持 Canvas 文件搜索替换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T13:22:09Z",
+      "committer_date": "2026-05-17T13:22:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a619ba3adb81cc052bee3e90392c15943c9a2ca",
+      "message": "v1.2.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T14:47:41Z",
+      "committer_date": "2026-05-03T14:47:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19726141d326c9bf26e8f61f3fd19a53553b4ea4",
+      "message": "v1.2.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T02:06:00Z",
+      "committer_date": "2026-05-03T02:06:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75abe6c51fa78d495803093c7ec0646df9391840",
+      "message": "feat: update top bar icon svg",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T09:15:43Z",
+      "committer_date": "2026-04-26T09:15:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a11668eaea57b2de564543188dd86cd14c0091f6",
+      "message": "feat: add configurable search highlight color",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T09:10:23Z",
+      "committer_date": "2026-04-26T09:10:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de6f6e75fbcfa06cd8744060f6eadfdc315284c9",
+      "message": "v1.2.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T02:01:33Z",
+      "committer_date": "2026-04-12T02:01:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a7309bd5435cbb57f4ffc2366005aac441b7c8f",
+      "message": "fix: gate nested code block settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T02:00:58Z",
+      "committer_date": "2026-04-12T02:00:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "919cbaaf1bbec63e3a1eceab032953227f792d70",
+      "message": "fix: persist hotkey changes to Siyuan keymap",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T01:30:48Z",
+      "committer_date": "2026-04-12T01:30:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2ea1a5fb06ed05c043a088f48d153de87ea6e990",
+      "message": "fix: align search panel hotkey interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T01:11:03Z",
+      "committer_date": "2026-04-12T01:11:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8e33d669552a8d39bb775c9ed736afa20f0627c5",
+      "message": "doc: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T00:51:30Z",
+      "committer_date": "2026-04-12T00:51:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea0b31cbdf58f21250fa3334ab70e18e4afc35f4",
+      "message": "fix: sync effective plugin hotkeys",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T00:49:23Z",
+      "committer_date": "2026-04-12T00:49:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d4ef18262077d3a411c18af1d3daff6bc72bbd56",
+      "message": "v1.2.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T07:45:26Z",
+      "committer_date": "2026-04-11T07:45:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a335f3bfc687c9006391dd655a176ca01e4ca546",
+      "message": "fix: add native fallback for long document navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T07:42:51Z",
+      "committer_date": "2026-04-11T07:42:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "428fa41b32a74f85864a7a6ade6a84b390fb0853",
+      "message": "fix: correct database block attribute-view search",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T07:11:39Z",
+      "committer_date": "2026-04-11T07:11:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eb5e1926b84d1cb82ecccb16c3957cfd7a16e27",
+      "message": "Merge branch 'feature/av-search-order-dedup'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T06:24:09Z",
+      "committer_date": "2026-04-11T06:24:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f90b5ef5f9eba3cb2a643a7737152c2dec43308e",
+      "message": "fix: align av cell lookup with logical columns",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T06:16:19Z",
+      "committer_date": "2026-04-11T06:16:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8a680a80348b3c01dcf78bd78472113b8de1b44",
+      "message": "fix: reserve mixed av header slots for extra columns",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:58:26Z",
+      "committer_date": "2026-04-11T05:58:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8e97208bf7c9dda1fcc74e99fb7b37191ed2269",
+      "message": "fix: append body-only av columns after header slots",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:47:45Z",
+      "committer_date": "2026-04-11T05:47:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eedcf3a5f48477dc55ece1fc0f0ee1f718ffcc6",
+      "message": "fix: preserve blank av header slots in split-pane order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:34:46Z",
+      "committer_date": "2026-04-11T05:34:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4104e2138411f97aed196986a10f02c152bcac8d",
+      "message": "fix: normalize av search order across split panes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:22:27Z",
+      "committer_date": "2026-04-11T05:22:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c610cb5e5ef2b10050f7b98bbde3a175e819e718",
+      "message": "test: assert av split-pane match metadata",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:11:36Z",
+      "committer_date": "2026-04-11T05:11:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4130f7c5858cef2c87aae6945b86652d59eb60f",
+      "message": "test: assert av split-pane structural order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:05:23Z",
+      "committer_date": "2026-04-11T05:05:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "818e7676fc1a1af5859fd6c9510e24f556473bed",
+      "message": "test: refine av split-pane ordering fixture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T04:56:28Z",
+      "committer_date": "2026-04-11T04:56:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46e5dae79c47e199befbff378837d8b1c14c7035",
+      "message": "test: stabilize av split-pane fixture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T04:43:41Z",
+      "committer_date": "2026-04-11T04:43:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a385b642aabaa9599c3af5e71c9d2f4d45616593",
+      "message": "test: cover av split-pane search ordering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T04:29:41Z",
+      "committer_date": "2026-04-11T04:29:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "657818350b109730ccfe09bbfb5eacfc0c5183c8",
+      "message": "docs: add av search order and dedup design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T04:05:27Z",
+      "committer_date": "2026-04-11T04:05:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e51cdbf024b8daad5dc4ddcbe9aaa47b2713ad58",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T03:46:03Z",
+      "committer_date": "2026-04-11T03:46:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "40830045a45c39eaeae49f67b49b179d88c798a2",
+      "message": "Merge branch 'merge/all-into-main'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:44:39Z",
+      "committer_date": "2026-04-11T02:44:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1df11168ae34afe43a9038f207cfea59dc696daa",
+      "message": "test: align merged backup tests with current main behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:29:35Z",
+      "committer_date": "2026-04-11T02:29:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a5e01c1fd94261ee4b1ec3127322cf858675b8b",
+      "message": "Merge branch 'backup/pre-reset-20260309-1'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:28:08Z",
+      "committer_date": "2026-04-11T02:28:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd9dc0b40b82f2e8ea5831bfb823bf7ced17b6b7",
+      "message": "chore: ignore local worktrees",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:19:05Z",
+      "committer_date": "2026-04-11T02:19:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2407f77b30c7fb560bbcef31000eb66e65360bbf",
+      "message": "Merge pull request #10 from famotime/feat/optimize-large-code-block-search",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-04-08T14:40:11Z",
+      "committer_date": "2026-04-08T14:40:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce53a9cd7686d615091752ae2368e138211a2a2f",
+      "message": "feat: optimize large code block search navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T14:35:52Z",
+      "committer_date": "2026-04-08T14:35:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3149473f53df60dbccac6b7e4251ae13e958f99",
+      "message": "fix: dedupe hidden attribute view matches",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T13:57:47Z",
+      "committer_date": "2026-04-08T13:57:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22922cc8e222b91b59fcd3ceefcb95d80a9de646",
+      "message": "fix: preserve visual order for attribute view hits",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T12:48:06Z",
+      "committer_date": "2026-04-08T12:48:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc29bcd2c56384c7dcd044fe19affb7c9e758c27",
+      "message": "fix: support readonly search and disable replacement",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-07T16:10:45Z",
+      "committer_date": "2026-04-07T16:10:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a583f6b73cc2b3e2725a65b0f1b32159bfdb9fd2",
+      "message": "fix: unfold collapsed ancestors during search navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-07T14:39:13Z",
+      "committer_date": "2026-04-07T14:39:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0acc794b2b675d47021af4ef6b8c799e0c85cd57",
+      "message": "refactor: extract search and plugin helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-07T08:19:23Z",
+      "committer_date": "2026-04-07T08:19:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4ea9a9caaa51691b6eff6dab73ee9dd1c696b0f",
+      "message": "docs: refresh refactor plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T10:22:34Z",
+      "committer_date": "2026-04-06T10:22:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f669dd1bbcee9a29c42d7c489d7d700ed4dad1e",
+      "message": "build: refresh package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T09:59:45Z",
+      "committer_date": "2026-04-06T09:59:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "648369be7ed854db75e7a727fd9abc7e2624743a",
+      "message": "fix: use protyle navigation for long search jumps",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T09:57:49Z",
+      "committer_date": "2026-04-06T09:57:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f685222e103e45301f96934242dfa9fe881cb48",
+      "message": "fix: preserve search result order within blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T09:25:53Z",
+      "committer_date": "2026-04-06T09:25:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c9ddf2e71a6e807fe812c719cd9ebfa1af817bc",
+      "message": "fix: stabilize transition editor navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T02:40:42Z",
+      "committer_date": "2026-04-06T02:40:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cb60cf65d8c39a03fab8210b319d5e1f971d2b27",
+      "message": "fix: prefer visible editor roots for navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T00:33:12Z",
+      "committer_date": "2026-04-06T00:33:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25ed3ffe638676c24c79cc8ab0954dff5dd68ea7",
+      "message": "fix: stabilize long document search navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T12:03:13Z",
+      "committer_date": "2026-04-05T12:03:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2851aadbc2c45a121fcd412d29a2807671880e3",
+      "message": "v1.1.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T14:07:10Z",
+      "committer_date": "2026-04-04T14:07:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a80ebf1cd38b48cca846d12936ad4d9908f9497c",
+      "message": "fix: improve long-document search feedback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T14:05:16Z",
+      "committer_date": "2026-04-04T14:05:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ee627808eaee44104b0f117e0c617e00647930d",
+      "message": "v1.1.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T13:23:26Z",
+      "committer_date": "2026-04-04T13:23:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b3cab9ccef3c1829480ea4716c216edc28eead3",
+      "message": "fix: refresh search results from live editor content",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T13:17:21Z",
+      "committer_date": "2026-04-04T13:17:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd66af21c7f899e454db523b42624de2ea057792",
+      "message": "fix: center long block search matches by range",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T12:34:23Z",
+      "committer_date": "2026-04-04T12:34:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9a6d5fcdc3fbc6d5f09ac8a2d0c35dbd5671bd3",
+      "message": "fix: improve attribute view grouped search navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T11:40:45Z",
+      "committer_date": "2026-04-04T11:40:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4b4e87ced6863b12d4357cbe1f3ed8f6e2b7879",
+      "message": "v1.1.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T07:22:43Z",
+      "committer_date": "2026-04-04T07:22:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b8aa6f8e11459290d56ec83f141fcd1dea61554",
+      "message": "fix: strengthen dark theme panel contrast",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-01T15:11:24Z",
+      "committer_date": "2026-04-01T15:11:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac8783a68286baab00253a4e2c9f59e95538d885",
+      "message": "fix: support kanban and card attribute view search",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-01T15:02:48Z",
+      "committer_date": "2026-04-01T15:02:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48f2a87bcf129b96a0555270602086f954a9e238",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T10:12:10Z",
+      "committer_date": "2026-03-29T10:12:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53c6c529e73b09af4923c68773d847acb4ff49e5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T10:08:58Z",
+      "committer_date": "2026-03-29T10:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32cb68aba3c5e2a81cb9abfa9633da3fd5fee8a9",
+      "message": "refactor: split search replace modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T10:01:53Z",
+      "committer_date": "2026-03-29T10:01:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b527fd18194facfd801519125b222c74111634ac",
+      "message": "v1.1.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T09:16:08Z",
+      "committer_date": "2026-03-29T09:16:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e574434a2406b009a47aa6f87e9f6a17f3a9f0ba",
+      "message": "fix: search visible database block content from DOM",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T08:56:51Z",
+      "committer_date": "2026-03-29T08:56:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "121a2b24959ddeee1e5b521ab1da9e38aac1b487",
+      "message": "fix: improve attribute view search coverage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T05:51:23Z",
+      "committer_date": "2026-03-29T05:51:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d4f4af5be3031da5ac489e8c146ecb957abb841",
+      "message": "v1.1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T13:43:40Z",
+      "committer_date": "2026-03-28T13:43:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "598945fd4b0d4cdd3c800d92b9aaafcdcfd4c156",
+      "message": "fix: improve native table search navigation and highlighting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T15:03:01Z",
+      "committer_date": "2026-03-26T15:03:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6e47e6ac1221e5a1289618dbe73f85c37892349",
+      "message": "chore: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:07:06Z",
+      "committer_date": "2026-03-25T15:07:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33c7e93addb6ddf8cd00c4cbef3b36564ccea1fc",
+      "message": "fix: navigate table search matches by cell",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:06:33Z",
+      "committer_date": "2026-03-25T15:06:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c823498faf0d24395f7be3e749304ba465ee4f2",
+      "message": "v1.0.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T01:41:54Z",
+      "committer_date": "2026-03-22T01:41:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a27e6767d8a95378649f9e9896936fe69f84736",
+      "message": "feat: support searching attribute view blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T01:26:28Z",
+      "committer_date": "2026-03-22T01:26:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0720a3660a8565232ea473639500d6bf138788c",
+      "message": "fix: prefer selected text when opening search panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T15:14:21Z",
+      "committer_date": "2026-03-21T15:14:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87335566d98df955941e617ed8b982b310695599",
+      "message": "v1.0.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:38:52Z",
+      "committer_date": "2026-03-21T01:38:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "132b5c16560f9abcb7c0e2c32285bbf8c428354e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T14:10:55Z",
+      "committer_date": "2026-03-19T14:10:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee3b328845b4a1797f7ca2ce939a262a7f4102ab",
+      "message": "fix: stabilize long-document search navigation and minimap",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T13:04:59Z",
+      "committer_date": "2026-03-19T13:04:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96728cad41a2c4580f5d0d6c24b583ebce9894f4",
+      "message": "feat: refine whole-word icon and match counter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T12:44:03Z",
+      "committer_date": "2026-03-19T12:44:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a7d6edd16acebecd2fb3a16d96935367149f497",
+      "message": "refactor: modularize search replace architecture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T06:33:19Z",
+      "committer_date": "2026-03-19T06:33:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e204131eccf6bc4c76eb38913ffc471ab7116ac7",
+      "message": "feat: move preserve-case toggle to replace toolbar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T05:59:54Z",
+      "committer_date": "2026-03-19T05:59:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64af6ff574873fec81e31a981840cdb0a47c9227",
+      "message": "fix: search and replace across full documents",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T05:32:22Z",
+      "committer_date": "2026-03-19T05:32:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8e312dee420d3506bfdd6d1f65d57fd5e5b0f3c",
+      "message": "update version",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T12:59:41Z",
+      "committer_date": "2026-03-18T12:59:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9766a27175f89618690a2b34ea124f071bac4da",
+      "message": "根据评审意见修改",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T12:35:52Z",
+      "committer_date": "2026-03-18T12:35:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d6c859ff3159d28b210ee718c3b7d0b44cf0b0f5",
+      "message": "补充英文界面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T11:55:45Z",
+      "committer_date": "2026-03-18T11:55:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7acf582ef2dbfaecce64f7f259115d1d550b92b",
+      "message": "fix: localize search panel UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T00:45:45Z",
+      "committer_date": "2026-03-18T00:45:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4ad1ce861551a592f2ce6baa882e12c765af9d1",
+      "message": "docs: restore original zh cn readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T00:14:19Z",
+      "committer_date": "2026-03-18T00:14:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2241328e8f1d1835eeaba5859c81bac425327a77",
+      "message": "fix: restore zh cn readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T23:57:38Z",
+      "committer_date": "2026-03-17T23:57:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2260ad14f69481fbee151ae8a90963337be04fa1",
+      "message": "fix: address bazaar review feedback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T23:52:53Z",
+      "committer_date": "2026-03-17T23:56:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12eeb4123cbd1d9d2044fe26a5492f905f79c6ae",
+      "message": "v1.0.0发布",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T12:55:59Z",
+      "committer_date": "2026-03-17T12:55:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19067396cf3e461369294d2b877a1b4661891cd4",
+      "message": "Merge branch 'main' of https://github.com/famotime/siyuan-friendly-search-replace",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T12:44:36Z",
+      "committer_date": "2026-03-17T12:44:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a939dd36b5729ad985db667a7202400c209bacab",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T12:44:30Z",
+      "committer_date": "2026-03-17T12:44:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c135b4e978833053dedd3921dd7b1f731fabc64",
+      "message": "Delete docs directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-03-17T12:38:24Z",
+      "committer_date": "2026-03-17T12:38:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77fd458a89d75696d8cf714d16f2ee8a3bf79fa6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T12:37:54Z",
+      "committer_date": "2026-03-17T12:37:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35c6d38b990f51ed9480e4b415a44170c4997fa4",
+      "message": "发布准备",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T16:00:35Z",
+      "committer_date": "2026-03-16T16:00:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f250759bd9a08ccdbca0ae4191dd387ee47710d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T23:09:21Z",
+      "committer_date": "2026-03-15T23:09:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e598ace4ef9eb96fc2e92dd14baba0465ee2d08a",
+      "message": "fix: implement independent toggle for find and replace hotkeys",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T04:04:19Z",
+      "committer_date": "2026-03-15T04:04:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3361977df9ab885280a5100cd6ea545a85e45213",
+      "message": "fix: restore hotkey trigger reliability",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T17:08:25Z",
+      "committer_date": "2026-03-13T17:08:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "808b7b3d1b87fa798c3795f239e8cd2c94e27305",
+      "message": "fix: handle list item selections in selection mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-10T16:10:36Z",
+      "committer_date": "2026-03-10T16:10:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbf27ee1ffc644953a2f49fd3a6182e7a5eef588",
+      "message": "fix: support list selections in selection mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-10T01:38:38Z",
+      "committer_date": "2026-03-10T01:38:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c00cca894872661e05b9b50fded5f2be1eb1899",
+      "message": "build: refresh package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T23:26:58Z",
+      "committer_date": "2026-03-09T23:26:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac55ef1a7ccfb0c53258b1f164137eebde0843a2",
+      "message": "update icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T16:30:43Z",
+      "committer_date": "2026-03-09T16:30:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f9ed081445c4a5cbdd9c0b4ad955d8e90fed515",
+      "message": "fix: make panel hotkeys work in editor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T16:29:09Z",
+      "committer_date": "2026-03-09T16:29:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eeea92bee1b0c1abf6d10a67eadbce164b82c0a8",
+      "message": "fix: repair selection-only search scope handling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T15:57:42Z",
+      "committer_date": "2026-03-09T15:57:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b06a71897bc3069d6baf16d07dbc7ce9b8e994a9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T15:14:36Z",
+      "committer_date": "2026-03-09T15:14:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b52fb121ad25568f2fe23370809ab2fe6b0d675a",
+      "message": "feat: support search and replace in tables",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T15:12:37Z",
+      "committer_date": "2026-03-09T15:12:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d8356d6398537cac2217f2486c2eced51d36355",
+      "message": "refactor: modularize search replace internals",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T14:58:26Z",
+      "committer_date": "2026-03-09T14:58:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af105aae8d98e624c47fe52e0c6e1e9e38f08c39",
+      "message": "fix: reveal highlights after selection updates",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T10:57:51Z",
+      "committer_date": "2026-03-09T10:57:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9922240a887c43af1f6d523cd62a191d31a90563",
+      "message": "refactor: move minimap toggle to plugin settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T10:39:14Z",
+      "committer_date": "2026-03-09T10:39:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b28acd71fb96d1ca3f0c7474f03279c13f415e0",
+      "message": "feat: render minimap document skeleton",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T09:54:35Z",
+      "committer_date": "2026-03-09T09:54:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10ea5f783273862b8a891aa26789af06b0a5f47d",
+      "message": "build: refresh package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T09:39:41Z",
+      "committer_date": "2026-03-09T09:39:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72be122d9aaf7830f6e0161226c553ad8be52ecd",
+      "message": "fix: preserve selection scope when enabling selection mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T09:16:14Z",
+      "committer_date": "2026-03-09T09:16:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3724d573b431451b661832c43794172ecde186f1",
+      "message": "refactor: move minimap toggle into options panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T08:41:12Z",
+      "committer_date": "2026-03-09T08:41:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4c3521643355914ecafafcbc954ef89cfe33bfb",
+      "message": "fix: avoid jumping back to current match",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T08:21:36Z",
+      "committer_date": "2026-03-09T08:21:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c7a0cef5a48b142b8835db10f423e73d8f267d0",
+      "message": "feat: add document minimap to search panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T07:02:55Z",
+      "committer_date": "2026-03-09T07:02:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6eebe576f219df3582ea527ec55db0e8ae0ed8e7",
+      "message": "feat: support searching within selection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T06:25:43Z",
+      "committer_date": "2026-03-09T06:25:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdab8c7614beae6f4d42edd8a3ae5971ad876015",
+      "message": "feat: resize search toolbar and update hotkeys",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T02:47:29Z",
+      "committer_date": "2026-03-09T02:47:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c84205002cf1bf2ac47741c8916db6c875504492",
+      "message": "build: refresh package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T00:50:50Z",
+      "committer_date": "2026-03-09T00:50:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "929edc0a4e0407324f4c0c62cc1bf09cd7214d57",
+      "message": "refactor: modularize search plugin internals",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T14:31:45Z",
+      "committer_date": "2026-03-08T14:31:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43d4ec7f85ec30149f6bcb86a01b9da2f26c142b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T10:38:12Z",
+      "committer_date": "2026-03-08T10:38:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d96717d97cbc8517776b494ac5b3d9ce57915216",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T08:49:27Z",
+      "committer_date": "2026-03-08T08:49:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "064114fd92f16d26f85c2784a00decab737586a3",
+      "message": "fix: restore panel text and add regex help",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T06:13:59Z",
+      "committer_date": "2026-03-08T06:13:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "846310166e95336d3888fc05e7c7e8a2b984ff08",
+      "message": "fix: keep replace actions working from panel focus",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T05:43:49Z",
+      "committer_date": "2026-03-08T05:43:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30f435efa560617e158bee44e1267d463df32734",
+      "message": "fix: highlight first heading search match",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:54:18Z",
+      "committer_date": "2026-03-08T04:54:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31f5ace210c1fa1ab252cba0cbee63c87697a1ec",
+      "message": "fix: prefer hinted editor context for search refresh",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:43:39Z",
+      "committer_date": "2026-03-08T04:43:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2870827eee2df803a921089f3f2605ba5602d0cb",
+      "message": "fix: stabilize search context and highlights",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:05:27Z",
+      "committer_date": "2026-03-08T04:05:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da519781d00213d66621d4f837c0d4843845b8aa",
+      "message": "feat: complete remaining work from docs progress",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T00:36:48Z",
+      "committer_date": "2026-03-08T00:36:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ab7b7e0649aa3e85ca7586ff0b6970fcd2379a7",
+      "message": "feat: finish search replace settings and tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T21:27:03Z",
+      "committer_date": "2026-03-07T21:27:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e57fc930c9b1fca838e79081dee0c54cf768176",
+      "message": "feat: add configurable settings panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T17:07:05Z",
+      "committer_date": "2026-03-07T17:07:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da1e9f247420cd60c2e339b931e1939ca7016f3b",
+      "message": "feat: improve highlights and draggable panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T16:56:26Z",
+      "committer_date": "2026-03-07T16:56:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "499217c23d0401edc2b010bef55f563218b55003",
+      "message": "feat: add friendly search replace panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T16:30:23Z",
+      "committer_date": "2026-03-07T16:30:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e663d71966983aac058b68fb3598ea6b815600f",
+      "message": "框架和计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T16:06:07Z",
+      "committer_date": "2026-03-07T16:06:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6df3bb74c5dfeea5fbe25bd2fb924136e5e6b14",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-03-07T15:17:03Z",
+      "committer_date": "2026-03-07T15:17:03Z",
+      "login": "famotime"
+    }
+  ]
+}

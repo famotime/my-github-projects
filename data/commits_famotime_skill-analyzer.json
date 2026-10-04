@@ -1,0 +1,744 @@
+{
+  "pushed_at": "2026-03-21T15:05:57Z",
+  "count": 82,
+  "commits": [
+    {
+      "sha": "07e3cb2374c0028ffcab821699e94e3bb9508a09",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T15:05:44Z",
+      "committer_date": "2026-03-21T15:05:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c42c153fa86c6011a5205b965e5cf59e9f56fca",
+      "message": "chore: complete v1.0 milestone",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:40:10Z",
+      "committer_date": "2026-03-21T10:40:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f46af0fb319088f46f3f2782d104d69aa721329b",
+      "message": "docs(phase-05): complete visual results experience",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:31:58Z",
+      "committer_date": "2026-03-21T10:31:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afe07809d7df2600fcef22dc95b5b0cb569db6f5",
+      "message": "feat(05-04): polish intake result states and completion flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:30:04Z",
+      "committer_date": "2026-03-21T10:30:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6668d2e1203bc303d47fa9b0cbfb779a2aca87af",
+      "message": "test(05-04): add placeholder and browser visual flow coverage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:29:57Z",
+      "committer_date": "2026-03-21T10:29:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c843dbc8818b921c312c15065a141017b4b1bb22",
+      "message": "docs(05-03): complete visualization integration plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:23:14Z",
+      "committer_date": "2026-03-21T10:23:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "899971b318f6f620e2c191a098a49bd5cb60242d",
+      "message": "feat(05-03): render workflow and dependency visuals",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:22:13Z",
+      "committer_date": "2026-03-21T10:22:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5867514c1cf9f53e5bb37c1cf96fedf9f09bda9a",
+      "message": "test(05-03): add Mermaid rendering and fallback coverage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:22:07Z",
+      "committer_date": "2026-03-21T10:22:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08d71493c96b4f05b78790b4449073929bd3a460",
+      "message": "docs(05-02): complete visualization foundation plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:19:31Z",
+      "committer_date": "2026-03-21T10:19:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8f6eeb74998a9b06dc468feb892dc5d1250f4a0",
+      "message": "feat(05-02): build bounded dependency graph foundation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:18:25Z",
+      "committer_date": "2026-03-21T10:18:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e092344b16b1b7179bdaa3f6ee033b615b63ed0e",
+      "message": "test(05-02): add failing dependency graph foundation suite",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:16:48Z",
+      "committer_date": "2026-03-21T10:16:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e11e154fb0b50581f7076eb26d3555627484157d",
+      "message": "docs(05-01): complete visual results layout plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:15:13Z",
+      "committer_date": "2026-03-21T10:15:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d5c3b89f7190c520972d1452b0daa22459c60d5",
+      "message": "feat(05-01): finalize editorial analysis result layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:13:17Z",
+      "committer_date": "2026-03-21T10:13:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "832cc7bbb7e8b77f34e21634ae026b1c575e0db9",
+      "message": "test(05-01): add failing visual layout regression suite",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:09:12Z",
+      "committer_date": "2026-03-21T10:09:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0c177d2d5e1fa5862f369ceee1f1f202ebf7201",
+      "message": "docs(05): refine visual-results phase plans",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T08:35:54Z",
+      "committer_date": "2026-03-21T08:35:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d94addb05c3b761047880d94a40383843fc24eb",
+      "message": "fix(05): tighten visual verification requirements",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T08:04:23Z",
+      "committer_date": "2026-03-21T08:04:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7376dbc55f5a44c221bdaf72b80c967ec5089ea2",
+      "message": "fix(05): refine plan truths and renderer contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:53:46Z",
+      "committer_date": "2026-03-21T07:53:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fa0b396d52043f9019a8604ca5bd2200a9bf7b2",
+      "message": "fix(05): revise plans based on checker feedback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:46:10Z",
+      "committer_date": "2026-03-21T07:46:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8b66d5095ec9b2606b595b539131dbb177911a8",
+      "message": "docs(05): create phase plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:36:02Z",
+      "committer_date": "2026-03-21T07:36:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21f9c821dbc0c3808374d0e461c0196e25fa18a2",
+      "message": "docs(phase-5): add validation strategy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:25:54Z",
+      "committer_date": "2026-03-21T07:25:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7365e922d1d8a913d1cf2ac9c4facdeb7d76627e",
+      "message": "docs(05-visual-results-experience): research phase domain",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:24:51Z",
+      "committer_date": "2026-03-21T07:24:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc147811508b73cae4621fd94c88e41bad5b4aae",
+      "message": "docs(state): record phase 5 context session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:12:59Z",
+      "committer_date": "2026-03-21T07:12:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb39c52b165a80114e2071ce35ba3fe76f9462cb",
+      "message": "docs(phase-04): evolve PROJECT.md after phase completion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:02:23Z",
+      "committer_date": "2026-03-21T07:02:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e7bfd03e43bce7051eb2b26c71655421c9c40b1",
+      "message": "docs(phase-04): complete phase execution",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T07:02:13Z",
+      "committer_date": "2026-03-21T07:02:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93074c51e7119133601ed52bcbc795ef5cdecaad",
+      "message": "feat(04-03): build capped recommendation guidance",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:46:32Z",
+      "committer_date": "2026-03-21T06:46:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2168ac66f4589cd772d97f198a5374a0d3e20a30",
+      "message": "test(04-03): add failing recommendation guidance coverage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:45:18Z",
+      "committer_date": "2026-03-21T06:45:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a390f3135f1341b095527bbe49c4b055c87c05a8",
+      "message": "feat(04-02): implement weighted safety scoring",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:38:30Z",
+      "committer_date": "2026-03-21T06:38:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d6e5d42b1e03601779e3fa7a5f0b7d15d4e2532",
+      "message": "test(04-02): add failing safety score contracts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:34:21Z",
+      "committer_date": "2026-03-21T06:34:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3bc8f108ef607bb15dc009a48dcf6b0e1293df1",
+      "message": "docs(04-01): complete deterministic risk findings plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:31:07Z",
+      "committer_date": "2026-03-21T06:31:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84519ccf6ce76fd18e0c142952ed2c43ae56d8a4",
+      "message": "feat(04-01): build deterministic risk findings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:28:06Z",
+      "committer_date": "2026-03-21T06:28:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "147d4d1995a964765fe771933cd7f3d1fbe07737",
+      "message": "test(04-01): add failing risk finding coverage",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:23:09Z",
+      "committer_date": "2026-03-21T06:23:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7e639ce59110b1e5ba56d13cffbd5fe484aa2c6",
+      "message": "docs(04): create phase plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:13:18Z",
+      "committer_date": "2026-03-21T06:13:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b581ea70f9b3e53af4272c317e23e1da0a0b1d32",
+      "message": "docs(phase-04): add validation strategy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:01:53Z",
+      "committer_date": "2026-03-21T06:01:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8954bb479e4ffe678a558137ff89a64a16b4c052",
+      "message": "docs(04): research phase domain",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:00:35Z",
+      "committer_date": "2026-03-21T06:00:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "419302b3ea22e6b7553e07f8bd3b7619c2c44ef2",
+      "message": "docs(state): record phase 4 context session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:48:23Z",
+      "committer_date": "2026-03-21T05:48:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f49dad8cc39a047e01c80b908bec56e37aa9528",
+      "message": "docs(04): capture phase context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:48:22Z",
+      "committer_date": "2026-03-21T05:48:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9793697ac055dec19ef4272a16bcad587a9c1f7",
+      "message": "docs(phase-03): record plan summaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:19:12Z",
+      "committer_date": "2026-03-21T05:19:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f51530673ee1ef56a10013b396646a5a5adffbf",
+      "message": "docs(phase-03): complete phase execution",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:18:59Z",
+      "committer_date": "2026-03-21T05:18:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb18d741becd9328735c875b89218a1a2d04434f",
+      "message": "feat(phase-03): build summary and workflow models",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:16:56Z",
+      "committer_date": "2026-03-21T05:16:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bf18f19f75ac1b621d99cb343cb63c9a1e8c5e8",
+      "message": "docs(phase-03): add research, validation, and plans",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:09:50Z",
+      "committer_date": "2026-03-21T05:09:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31ea4bc4aa3283f52039215af275285db10c066a",
+      "message": "docs(state): record phase 03 planning session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:09:35Z",
+      "committer_date": "2026-03-21T05:09:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "492c043c97a9012a4586ddfb3b12365c8e8080f2",
+      "message": "docs(03): capture phase context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:04:29Z",
+      "committer_date": "2026-03-21T05:04:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e62e35d30f75ae6e681c25ce68d78d7c5e367e15",
+      "message": "docs(state): record phase 03 context session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T05:04:29Z",
+      "committer_date": "2026-03-21T05:04:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23e8e38e97e391ae91239da5a99698eeb2b0ecaa",
+      "message": "docs(phase-02): record verification and completion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T04:49:27Z",
+      "committer_date": "2026-03-21T04:49:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "730e3e2cec1dcc72dc4e358725bc67f23ec2353d",
+      "message": "docs(02-03): complete shared coverage plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T04:47:11Z",
+      "committer_date": "2026-03-21T04:47:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab13d121b0d394f9d4bba1442fc7939415e4fc78",
+      "message": "feat(02-03): wire grouped coverage contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:21:18Z",
+      "committer_date": "2026-03-21T02:21:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41e6adfdf782ae0cc424072a904bc5b27714d32c",
+      "message": "test(02-03): add failing coverage contract tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:18:50Z",
+      "committer_date": "2026-03-21T02:18:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41acacec7fd9dbefc7e75f723b578b24ac0a1e24",
+      "message": "docs(02-02): complete non-repo extraction plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:15:45Z",
+      "committer_date": "2026-03-21T02:15:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b4aba8834b5117067dfd09b7d901b545ecf50fa",
+      "message": "feat(02-02): implement non-repo artifact extraction",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:14:10Z",
+      "committer_date": "2026-03-21T02:14:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc3e4745de5047baba6169587fd3b3ae3cff6acd",
+      "message": "test(02-02): add failing non-repo extraction tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:09:56Z",
+      "committer_date": "2026-03-21T02:09:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8be0461ca878a018805599c93278b70d1aa9bb3c",
+      "message": "docs(02-01): complete bounded github discovery plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:08:12Z",
+      "committer_date": "2026-03-21T02:08:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c556a5e008b4b4b49feef96be70c775939c7dd9d",
+      "message": "feat(02-01): implement bounded github artifact discovery",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:05:02Z",
+      "committer_date": "2026-03-21T02:05:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54875c21d3acda8778b1dbf884754c64611fd045",
+      "message": "test(02-01): add failing test for github artifact extraction",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:59:13Z",
+      "committer_date": "2026-03-21T01:59:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c1b03734d9924882e928a427028390d5de1e0af",
+      "message": "refactor(02-01): add github extractor seam",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:51:54Z",
+      "committer_date": "2026-03-21T01:51:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "268aea638f89d880ca8acbe898d2b3fbcd2426b8",
+      "message": "test(02-01): add failing tests for github artifact extraction",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:49:12Z",
+      "committer_date": "2026-03-21T01:49:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70e058956d6b5357b5f39421af83cfd6ce093a07",
+      "message": "docs(phase-02): tighten validation latency contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:35:52Z",
+      "committer_date": "2026-03-21T01:35:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46ff087362fd11ce5b9896c9a6d7b309589b7e4f",
+      "message": "docs(phase-02): align validation wave mapping",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:33:56Z",
+      "committer_date": "2026-03-21T01:33:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d0bd5e0f55f00084e53014b673bff5c0d633eb8",
+      "message": "docs(02-artifact-extraction-and-coverage): create phase plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:24:44Z",
+      "committer_date": "2026-03-21T01:24:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df4aea1ffc5e22ac48bbcd82c7a440f774e1a13d",
+      "message": "docs(phase-02): add validation strategy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:20:05Z",
+      "committer_date": "2026-03-21T01:20:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a14c8cb737279e79954e133a993f5d1fcd29ea0c",
+      "message": "docs(02): research phase domain",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T01:18:59Z",
+      "committer_date": "2026-03-21T01:18:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e0fa6d4ffe11e469a2e821f1bab3a21e45c86b1",
+      "message": "docs(state): record phase 2 context session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T00:59:11Z",
+      "committer_date": "2026-03-21T00:59:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d6f69979bc2b606a0487f3e1bdd2b94bb36ab723",
+      "message": "docs(02): capture phase context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T00:58:56Z",
+      "committer_date": "2026-03-21T00:58:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2dae925459bf735b3dfe2bc796458a642a46bb3c",
+      "message": "feat: add skill analysis workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T00:00:31Z",
+      "committer_date": "2026-03-21T00:00:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eed13ea89ac66f1cfe318f58eca074a7a35daa2f",
+      "message": "chore: Update Next.js routes type import path to `.next/dev/types`.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T16:14:14Z",
+      "committer_date": "2026-03-20T16:14:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38d52c1755695dd5e2d2cad6e4601121fc6b8bc2",
+      "message": "docs(phase-01): close out phase verification",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T16:07:13Z",
+      "committer_date": "2026-03-20T16:07:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b8a925b723a969885300511c397cb9ade016a62",
+      "message": "feat(01-03): add intake submission lifecycle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T16:03:16Z",
+      "committer_date": "2026-03-20T16:03:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a4cd75b278568df1db1efc68c56868807cd41ff",
+      "message": "feat(01-02): add intake normalization contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:55:57Z",
+      "committer_date": "2026-03-20T15:55:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bd0608e102a1dbd0a67b1c7611bba02ce1d1695",
+      "message": "docs(01-01): complete intake surface plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:52:33Z",
+      "committer_date": "2026-03-20T15:52:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00ab8f1e21ddc7ddd96af698ec0c57ad78154e91",
+      "message": "feat(01-01): build unified intake entry flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:49:37Z",
+      "committer_date": "2026-03-20T15:49:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8fe6a696f97c882fb6a885636052271c93758c6",
+      "message": "chore(01-01): bootstrap next app foundation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:40:42Z",
+      "committer_date": "2026-03-20T15:40:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a487c5d52530a05950c049b1d07f2d169649aeef",
+      "message": "docs(01): refine submit-flow plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:24:47Z",
+      "committer_date": "2026-03-20T15:24:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61f7b3196e8b21fd13beeb4ad6168bb8d885e72d",
+      "message": "docs(01-intake-and-validation): create phase plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:18:32Z",
+      "committer_date": "2026-03-20T15:18:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d9163d3813a02a4e2841573439f6c4c657c854e",
+      "message": "docs(01): add validation strategy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:12:05Z",
+      "committer_date": "2026-03-20T15:12:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c5152f2bbba1771fa26fd4c0cc9d39e068d51f2",
+      "message": "docs(01): research phase domain",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T15:07:14Z",
+      "committer_date": "2026-03-20T15:07:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "841f55903b885276d017b047c450d134bb8520ca",
+      "message": "chore(config): sync auto-chain flag",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:34:27Z",
+      "committer_date": "2026-03-20T14:34:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ee8da1033e617b6706f0f88fc2c73e5b0f7837a",
+      "message": "docs(state): record phase 1 context session",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:34:10Z",
+      "committer_date": "2026-03-20T14:34:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b27d1cdac5354003408a53ecc7a4e3beef78bb22",
+      "message": "docs(01): capture phase context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:33:59Z",
+      "committer_date": "2026-03-20T14:33:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff8544d37e5092608eaf01034225022532867889",
+      "message": "docs: create roadmap (5 phases)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:23:10Z",
+      "committer_date": "2026-03-20T14:23:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b55f8ff855b1263333fa62408607498e5f89551",
+      "message": "docs: define v1 requirements",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:21:51Z",
+      "committer_date": "2026-03-20T14:21:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "248314e35c7b8a19343da7772ffce9194b3f1d7b",
+      "message": "docs: add project research",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:21:10Z",
+      "committer_date": "2026-03-20T14:21:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "745e34f5432bae72947ccdb45150473ae7b86b2c",
+      "message": "chore: add project config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:13:14Z",
+      "committer_date": "2026-03-20T14:13:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ec958443afe03ec2c0cf615f8ebcefafebbd027",
+      "message": "docs: initialize project",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-20T14:11:41Z",
+      "committer_date": "2026-03-20T14:11:41Z",
+      "login": "famotime"
+    }
+  ]
+}

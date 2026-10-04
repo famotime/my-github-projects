@@ -1,0 +1,1059 @@
+{
+  "pushed_at": "2025-08-24T00:20:20Z",
+  "count": 117,
+  "commits": [
+    {
+      "sha": "86c7b4de7ca27935100ba448d0ad9237fca33d20",
+      "message": "修复“逐个显示”训练模式问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T00:20:12Z",
+      "committer_date": "2025-08-24T00:20:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7c55fa08acd4b4488b8b864f8e64ecbc1f8e295",
+      "message": "修复收藏后概率性不显示卡片文字问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T00:19:46Z",
+      "committer_date": "2025-08-24T00:19:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "787599480279d49a69b4a8c4fec2e20ae69d5a87",
+      "message": "清理生产环境调试信息 - 仅在开发环境显示调试日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T15:16:23Z",
+      "committer_date": "2025-08-23T15:16:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4bdd1889be9ca58fc1a675203490cd3c6472678",
+      "message": "彻底修复require错误 - 移除动态导入，强制清除构建缓存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T14:58:08Z",
+      "committer_date": "2025-08-23T14:58:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e5a2329dfc95063d5c53a16c68e21c87b0fb70e",
+      "message": "修复require错误 - 在浏览器环境中使用ES6 import替代require",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T14:54:52Z",
+      "committer_date": "2025-08-23T14:54:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8717c132a8c1124cc3f5ae3cf4cdae0f2c899ee",
+      "message": "优化控制台错误 - 修复CSP配置、优化IP获取逻辑、改善WebSocket连接处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T14:50:26Z",
+      "committer_date": "2025-08-23T14:50:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc45e5f6470540653ad98a2ca80873c4c939680c",
+      "message": "修复Netlify部署白屏问题 - 添加错误边界和环境变量容错处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T14:38:50Z",
+      "committer_date": "2025-08-23T14:38:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a24557bf8bd45048607f1a5ef993c794a3fd087",
+      "message": "图片文件格式由png改为web",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-23T11:17:10Z",
+      "committer_date": "2025-08-23T11:17:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41a88fbf29aa6f29188ed9807027e1eb867ce6cc",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-20T14:08:50Z",
+      "committer_date": "2025-08-20T14:08:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57f1669c7089159b5b8bf1103d4e951854a963b6",
+      "message": "收藏夹内容持久化",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-12T15:57:40Z",
+      "committer_date": "2025-08-12T15:57:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aff0793e343fdc67d14d95f1d57bb840319410e0",
+      "message": "修复记忆测试和记忆游戏计时问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-12T14:59:07Z",
+      "committer_date": "2025-08-12T14:59:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b01b7979b5854c5138c22ac97c19d077ab2c5ee6",
+      "message": "新增数字图像收藏夹功能（错题本），记忆练习支持从收藏夹出题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-12T14:24:11Z",
+      "committer_date": "2025-08-12T14:24:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5324d7e6d7f0af8cd871552d8004cef6753d78f7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-10T14:11:08Z",
+      "committer_date": "2025-08-10T14:11:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a1afca6e67b89934e5d18e21300aeb961c149c7",
+      "message": "优化移动端显示",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T10:11:48Z",
+      "committer_date": "2025-08-03T10:11:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef98e4ac381471780ecc6c5be7e1afce506a54ba",
+      "message": "“连连看”、“消消乐”游戏增加无法进行下一步情况下重排逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T09:35:57Z",
+      "committer_date": "2025-08-03T09:35:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "509eb3366e21680d1c701a172f6354c2e954eee4",
+      "message": "重构",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T06:40:20Z",
+      "committer_date": "2025-08-03T06:40:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc5746a22753fc4d0800e1a47efabf4e8965df52",
+      "message": "重构MemoryTest",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T05:12:10Z",
+      "committer_date": "2025-08-03T05:12:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3d7fa9ae68995fb01500aa98ad1b37c00f5d1be",
+      "message": "重构AppContext组件",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T04:45:43Z",
+      "committer_date": "2025-08-03T04:45:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5767eafb6a478e48ff4b71130d303040e924d013",
+      "message": "重构“连连看”游戏代码",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T01:14:42Z",
+      "committer_date": "2025-08-03T01:14:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70989e71ffecf929fef2bbced9f0010e86d336bc",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T00:32:23Z",
+      "committer_date": "2025-08-03T00:32:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "607397a1ca89791efb93e011a3bcc1c04afe9871",
+      "message": "优化消除判定逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T12:55:46Z",
+      "committer_date": "2025-08-02T12:55:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0768ad454b468a20d27090ceaf348b1afdfe936",
+      "message": "优化体验",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T09:34:24Z",
+      "committer_date": "2025-08-02T09:34:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a6675bb379a0e7eaed259d9ebf60101975e1502",
+      "message": "优化“消消乐”游戏方块配色设计",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T09:06:41Z",
+      "committer_date": "2025-08-02T09:06:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "702baffeaec8bc220d3fb11ab70844bbd29112d2",
+      "message": "优化“消消乐”游戏方块选择逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T08:43:16Z",
+      "committer_date": "2025-08-02T08:43:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "91363a6303a7c4f0209b92ad28c3d0a53e5542d1",
+      "message": "体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T08:23:27Z",
+      "committer_date": "2025-08-02T08:23:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "485acbd707f0195271ae303f19bce434ac319fc1",
+      "message": "”消消乐“游戏加入单色模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T07:58:00Z",
+      "committer_date": "2025-08-02T07:58:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb944812cc754a66976500027d569152e895b65f",
+      "message": "消除逻辑修复",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T07:26:58Z",
+      "committer_date": "2025-08-02T07:26:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0d3d413ce220853b28fd166d8e5e8d90b0616c5",
+      "message": "记忆测试模块新增”消消乐“游戏",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T07:03:03Z",
+      "committer_date": "2025-08-02T07:03:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7481debd759d9462c1c70c6ff99c7dff5479ffce",
+      "message": "Deleted vite.config.ts.timestamp-1754106950496-4a3b855bdb5f38.mjs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T03:55:55Z",
+      "committer_date": "2025-08-02T03:55:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0edc92bf5c10a74afc6073b916bedcf93b851742",
+      "message": "Publish application",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T03:55:53Z",
+      "committer_date": "2025-08-02T03:55:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "acd1a1247d0d4c86480c0b4215755b4f3b8c81c1",
+      "message": "记忆测试模块新增“连连看“游戏",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T03:51:54Z",
+      "committer_date": "2025-08-02T03:51:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b7e5a227962fe0dadc52f16e90b785cecdf1942",
+      "message": "优化“记忆翻牌”游戏体验",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T02:12:31Z",
+      "committer_date": "2025-08-02T02:12:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ab26eb3bcb6a758d48639bb8ae2647436c0c6ad",
+      "message": "记忆测试新增游戏模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T01:55:23Z",
+      "committer_date": "2025-08-02T01:55:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2cc70e8c08e368cb516d1e40bb00df739024dbc8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T01:14:30Z",
+      "committer_date": "2025-08-02T01:14:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b4909a273e64dea00f65772ceddaf4a7082eb3c",
+      "message": "数字图像记忆测试模块支持图片和文字显示开关",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T15:04:44Z",
+      "committer_date": "2025-08-01T15:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "420b44ebef338c747da55651340acd4b1888abdc",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T14:30:42Z",
+      "committer_date": "2025-08-01T14:30:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1d36e0febcd725070a6fc52c1705477901283be",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T14:00:16Z",
+      "committer_date": "2025-08-01T14:00:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ecfe674a8df3c8e54a0bd3ed65941dc88ea4ae56",
+      "message": "显示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T13:41:00Z",
+      "committer_date": "2025-08-01T13:41:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63ec5dd87192237cf169582fed0c6510d8a0ca08",
+      "message": "数字图像训练模式增加图片显示",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T13:23:49Z",
+      "committer_date": "2025-08-01T13:23:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "111ac2f3160d41083c03bd4939efb91ec0becab5",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-01T13:21:06Z",
+      "committer_date": "2025-08-01T13:21:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53dc2043a2c700bd1e1cc9bd54a6205aaf3db36e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T04:54:20Z",
+      "committer_date": "2025-07-20T04:54:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18fad19bfe9e31b0103db74e529dd2b6669d6356",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T04:40:46Z",
+      "committer_date": "2025-07-20T04:40:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e87b4036f80d76ed51d983df0f4abda5d1f5aa67",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T04:19:00Z",
+      "committer_date": "2025-07-20T04:19:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e0cf467e4ab7e8eebec440e4564026a7a986361",
+      "message": "体验细节更新",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T04:11:21Z",
+      "committer_date": "2025-07-20T04:11:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6721769dd15e821c31fcb0443b101f8bf68ee704",
+      "message": "修复答题计时统计问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T03:50:08Z",
+      "committer_date": "2025-07-20T03:50:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5ae6f6c1971eff82f1dfb8947c63582ad072942",
+      "message": "人物牌数据更新",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T03:27:54Z",
+      "committer_date": "2025-07-20T03:27:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db0c8fe94720a95ffbfa388f862b3b19385c2ccf",
+      "message": "视觉风格调整一致",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T03:16:23Z",
+      "committer_date": "2025-07-20T03:16:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11aee47aa079af320eba108af4a32c11c56cdd31",
+      "message": "更友好的用户输入扑克编码方式，时间统计问题修正",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T02:41:29Z",
+      "committer_date": "2025-07-20T02:41:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6fc07e5fc623af4f83f0dcb0dedfcf282265613",
+      "message": "补齐扑克牌训练模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T01:56:11Z",
+      "committer_date": "2025-07-20T01:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "886b4205701b416720349726fa924eb6adec1439",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T01:02:30Z",
+      "committer_date": "2025-07-20T01:02:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14a79bdf6b76ed0c506e1ffbc845e3ca7dfed04f",
+      "message": "重构数字图像联想训练模块，修正统计错误",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-20T01:02:13Z",
+      "committer_date": "2025-07-20T01:02:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5aaa0f113ccd87b3439d8195857233f961bb9373",
+      "message": "重构数字序列训练模块",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T23:36:40Z",
+      "committer_date": "2025-07-19T23:36:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50dde76afecf804ca394186d4048fb8a08d84561",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T23:04:27Z",
+      "committer_date": "2025-07-19T23:04:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "369c70d53b87798526c817b74bf4adea37c814d5",
+      "message": "修复扑克牌记忆训练随机开关和正确率统计问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T17:32:26Z",
+      "committer_date": "2025-07-19T17:32:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f80a7e226a365d574200e4cf3bd56a34e4d83c29",
+      "message": "增加自动化测试用例",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T16:57:27Z",
+      "committer_date": "2025-07-19T16:57:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05f09591474c14961bcde80aec0870e9ef3f239d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T16:29:22Z",
+      "committer_date": "2025-07-19T16:29:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "addf9da8e6830c111d7eae618c8b9a8f7f2bd5cb",
+      "message": "扑克牌记忆训练模块重构",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T16:28:13Z",
+      "committer_date": "2025-07-19T16:28:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c76afc9ba8e0a8e131280d2c99fed028141976bc",
+      "message": "扑克训练添加计时器和随机功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T16:02:55Z",
+      "committer_date": "2025-07-19T16:02:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66c7dd67f987cb4f4e10b98230601524da5ce507",
+      "message": "统一扑克不同训练模式的配置项",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T15:23:19Z",
+      "committer_date": "2025-07-19T15:23:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73c854e39ea38227779efee262d2d12e140d884c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T13:22:10Z",
+      "committer_date": "2025-07-19T13:22:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c84dc8baf84c3554e3d8745f67bf8ed0e63c505b",
+      "message": "扑克牌练习模式合入系统训练",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T13:09:07Z",
+      "committer_date": "2025-07-19T13:09:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f70055ac9338930fd2dcd35a645fdb93a7941d03",
+      "message": "修正扑克牌训练模块人物牌显示编码错误问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T11:39:35Z",
+      "committer_date": "2025-07-19T11:39:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9e253935c1a906ad9256fb5667fcd47bc0f7f66",
+      "message": "数字序列训练新增支持逐个显示数字的训练模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T11:13:15Z",
+      "committer_date": "2025-07-19T11:13:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32dddf61e5ec654784d4c39d9a0dc2c9d85de67d",
+      "message": "优化扑克牌训练模块，调整答题逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T11:12:08Z",
+      "committer_date": "2025-07-19T11:12:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0dcd7d66cfdf1f70c16f1f21631efbc3b13e00e",
+      "message": "优化数字图像训练模块，简化答题逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T11:11:55Z",
+      "committer_date": "2025-07-19T11:11:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c335439cde281050e21cf744a514daf6621b69a2",
+      "message": "添加练习模式功能，支持多种练习模式切换",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-19T10:24:27Z",
+      "committer_date": "2025-07-19T10:24:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3adf5f312ea33249aadafd060a58e70132be7e36",
+      "message": "刷新图像设计方案",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-06T11:28:42Z",
+      "committer_date": "2025-07-06T11:28:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "609daf8535161c38ded526c56f9f5697ae787eab",
+      "message": "更新数字串训练模块，添加倒计时功能、结果对比及用户输入反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-03T15:12:18Z",
+      "committer_date": "2025-07-03T15:12:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e32c115b7e68431baaa9e09eefa283472a576a8c",
+      "message": "添加数字序列训练模块的阶段设置与打卡功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-03T14:47:37Z",
+      "committer_date": "2025-07-03T14:47:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c7988a0b0b64a02d7a73ece6b9f3f2282068156",
+      "message": "添加扑克牌记忆训练系统的打卡功能，更新训练设置",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-03T14:34:08Z",
+      "committer_date": "2025-07-03T14:34:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fa9b25d033594588aaa2e47b7032fcb59dc7e5a",
+      "message": "重构训练模块，拆分教程内容为独立文件，并更新相关调用关系",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T15:54:07Z",
+      "committer_date": "2025-07-02T15:54:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83ab56a3b879ba1ab8ba9de947c702b7e90e6cdd",
+      "message": "提升用户界面可读性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T15:24:40Z",
+      "committer_date": "2025-07-02T15:24:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e467ed6e78752942a45acf8734b4a6cef88e02e4",
+      "message": "更新训练模块",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T15:18:45Z",
+      "committer_date": "2025-07-02T15:18:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28a9b37204fec2e4a0bdb70f37d9b72ac4b2021a",
+      "message": "调整记忆测试难度时间设置",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T15:18:22Z",
+      "committer_date": "2025-07-02T15:18:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82ecae1312cce5a6ef8d3fbc15bdd17aba25ce8c",
+      "message": "更新1-9数字图像",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T14:52:20Z",
+      "committer_date": "2025-07-02T14:52:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f71083d24c9620db49da6bb37f9df8482afbd092",
+      "message": "更新数字图像数据，替换部分表情符号以提高可读性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T14:43:19Z",
+      "committer_date": "2025-07-02T14:43:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97e0346e91a88be243f76975ecd63e415c310416",
+      "message": "添加训练模块统计功能，更新用户进度信息并持久化保存训练结果",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T14:43:08Z",
+      "committer_date": "2025-07-02T14:43:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c72b734e7fc799e4bfa3bf6d610aee499045902b",
+      "message": "为用户留言添加回复评论功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T13:49:00Z",
+      "committer_date": "2025-07-02T13:49:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13d15d815910331021ce10a1800d50e9f3dc1788",
+      "message": "修复访问计数器权限问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T13:41:44Z",
+      "committer_date": "2025-07-02T13:41:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a780d94c195a97161e00c50f49b28f315a2790f8",
+      "message": "修复访问计数器功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T13:37:22Z",
+      "committer_date": "2025-07-02T13:37:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef0d4fcf1d483cc637df52fdbb1f21ee8f97c7d0",
+      "message": "Fix visit counter and remove progress analysis module",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T13:33:48Z",
+      "committer_date": "2025-07-02T13:33:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a5c935f33fa90a94d24900ea8867825e1bc0a05",
+      "message": "优化练习模式，添加当前会话连击数统计",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-02T13:07:59Z",
+      "committer_date": "2025-07-02T13:07:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "137406b641fa6d498cc2414b17a57f7b75300bdc",
+      "message": "优化随机顺序切换功能，增强练习卡片重排逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T16:27:43Z",
+      "committer_date": "2025-07-01T16:27:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "681b615f3d8700d537e4af7ae1bf9f0d1bb8180e",
+      "message": "增强练习模式功能，优化练习卡片生成逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T16:22:05Z",
+      "committer_date": "2025-07-01T16:22:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e06b850fc7c0b677cae3fb33cd076bead15cccee",
+      "message": "Updated NumberImageTraining.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T15:39:05Z",
+      "committer_date": "2025-07-01T15:39:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d6b74ca1700e76a9d92112b011692b79f1bdbe8",
+      "message": "添加练习卡片数量控制功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T15:36:39Z",
+      "committer_date": "2025-07-01T15:36:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10db945bc2aa336b887bbea69bdf07c0bf014601",
+      "message": "Updated NumberImageTraining.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T15:30:14Z",
+      "committer_date": "2025-07-01T15:30:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a91e98704a5ee6fc86b37f65baf7f02fd8b3dbc",
+      "message": "添加卡片数量控制功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T15:27:54Z",
+      "committer_date": "2025-07-01T15:27:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b6f274ff11c2581b5c69ba015a5ede525849499",
+      "message": "改进练习模式功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T15:20:06Z",
+      "committer_date": "2025-07-01T15:20:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2fb3b82ee57e13fe8e33755aa373f1d8698b08a",
+      "message": "Move visit counter to bottom of homepage",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T14:55:01Z",
+      "committer_date": "2025-07-01T14:55:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "658556fa710ec10ab7488358ef62369e95254e84",
+      "message": "创建数据库表结构",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T14:43:00Z",
+      "committer_date": "2025-07-01T14:43:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59907651c806191dc7e072dd2b0cb4469710ea13",
+      "message": "Deleted vite.config.ts.timestamp-1751379636133-7c791acf06298.mjs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T14:20:37Z",
+      "committer_date": "2025-07-01T14:20:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "737b704146a2186f2867966b84e441df1e9bfc01",
+      "message": "添加用户认证、访问计数和留言板功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-01T14:20:36Z",
+      "committer_date": "2025-07-01T14:20:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a209f4312e063863140aaaed214e5099d905ed10",
+      "message": "更新数字图像数据，替换部分图像表情符号",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-30T12:35:36Z",
+      "committer_date": "2025-06-30T12:35:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69c7052f3ccc350f218486efe1002921b0c054ef",
+      "message": "Create comprehensive README.md documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T14:12:40Z",
+      "committer_date": "2025-06-29T14:12:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a9d0f7e059413e2368c921bc1f17b19981a3f2c",
+      "message": "Fix Theme Toggle for All Pages",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T14:04:23Z",
+      "committer_date": "2025-06-29T14:04:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c17f998ceb652c5810385d7d66bca70745ee6add",
+      "message": "Add Day/Night Theme Toggle",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:49:18Z",
+      "committer_date": "2025-06-29T13:49:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4d4b809b3476e6239c8f0a663989c64179b9acd",
+      "message": "30天数字串记忆训练系统",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:39:27Z",
+      "committer_date": "2025-06-29T13:39:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22da1c46fe5b430502ee733e185b71601e7c997a",
+      "message": "为训练系统添加健身打卡功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:29:09Z",
+      "committer_date": "2025-06-29T13:29:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d4a8cd14275aa51b9c88e9344cea05e31d6efa4",
+      "message": "创建混合练习模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:19:05Z",
+      "committer_date": "2025-06-29T13:19:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01844ba74b3bb19c983f4b48cc443af67e09fb46",
+      "message": "移除重复的练习顺序开关",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:14:22Z",
+      "committer_date": "2025-06-29T13:14:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "450d7edfcddf560e4e3a5a2a1d2a25625619b1c1",
+      "message": "修正练习顺序切换功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:05:46Z",
+      "committer_date": "2025-06-29T13:05:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "250958df2655149c3e1bfa4b2ec65c0b0c12d90a",
+      "message": "添加数字图像练习模式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T13:00:19Z",
+      "committer_date": "2025-06-29T13:00:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2845acadad77433fbabfad37889b19157998ad7",
+      "message": "Updated index.html",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:52:54Z",
+      "committer_date": "2025-06-29T12:52:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f9f588f7ed689223a4989dc8ac4a134446ad4539",
+      "message": "Updated Home.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:52:42Z",
+      "committer_date": "2025-06-29T12:52:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3e6621696eb300740d030496fa7e03949644c3c",
+      "message": "Updated Navigation.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:52:30Z",
+      "committer_date": "2025-06-29T12:52:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01cf9d114448a18a0c845f7c616211c7ff8f3cd0",
+      "message": "修正扑克训练的花色随机性和人物牌显示",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:49:56Z",
+      "committer_date": "2025-06-29T12:49:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e4fbd7f007780a44d7b64fb481335cfaade6e31",
+      "message": "修正单张训练完成机制和评分系统",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:41:03Z",
+      "committer_date": "2025-06-29T12:41:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee438b2fe1960bdd809c0e20cffeaeeacecde6d3",
+      "message": "优化扑克牌训练系统界面和功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T12:34:14Z",
+      "committer_date": "2025-06-29T12:34:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d9044c1e2237cf29e9dfbecaffc1bb480ffd038",
+      "message": "去除单张训练按钮，用扑克编码按钮替代",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:42:23Z",
+      "committer_date": "2025-06-29T11:42:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "418e4d85e20ea4e81a102261cae890dfe6ed5b71",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:36:33Z",
+      "committer_date": "2025-06-29T11:36:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3485465cb12e5ca8542026ed6264fe5eeed085fc",
+      "message": "重新设计扑克牌训练导航菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:36:08Z",
+      "committer_date": "2025-06-29T11:36:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d1bf3959042c18ba3ad7c5b753a2810f41533a6",
+      "message": "修复单张扑克牌训练模式交互逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:28:20Z",
+      "committer_date": "2025-06-29T11:28:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cc0e02016b32c4a5d2e7737e168febb6cd5b405",
+      "message": "合并扑克牌单张训练到主扑克牌页面",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:22:50Z",
+      "committer_date": "2025-06-29T11:22:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d9aa88cdb4cb67e58d82f4631662d8689b7827e",
+      "message": "修复数字-图像测试的图像显示",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:15:17Z",
+      "committer_date": "2025-06-29T11:15:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d761b1e9b5ef78a308fac46929e39a4823d76c9",
+      "message": "修复图像显示和完善扑克牌训练",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:12:00Z",
+      "committer_date": "2025-06-29T11:12:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b723098ff73ba5fd1ac6f85e71287df336f1416c",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T11:07:52Z",
+      "committer_date": "2025-06-29T11:07:52Z",
+      "login": "famotime"
+    }
+  ]
+}

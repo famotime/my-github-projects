@@ -1,0 +1,870 @@
+{
+  "pushed_at": "2026-09-18T14:39:31Z",
+  "count": 96,
+  "commits": [
+    {
+      "sha": "132d1f6c368ae0b6c0291d58d9fda28c33bd199c",
+      "message": "feat: 增强块引用样式配置项支持清除原生虚线与多种形态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T14:39:14Z",
+      "committer_date": "2026-09-18T14:39:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f2cd56228fd1c4f0bb34a9c89f7233cd6da8e10",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T14:26:18Z",
+      "committer_date": "2026-09-18T14:26:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eadcb651c8118b05f071195e4034840fa3c2225",
+      "message": "feat: 添加隐藏表格增行列按钮样式配置项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T12:36:12Z",
+      "committer_date": "2026-09-03T12:36:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7aa23efbb2a6398b551840c8e4cd0a93b5c795c4",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-29T12:56:47Z",
+      "committer_date": "2026-08-29T12:56:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1bb3c1e593ff87d5e5363d01a0ab95285590541d",
+      "message": "feat: 停靠栏样式添加侧边栏分离配置项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T01:16:01Z",
+      "committer_date": "2026-08-02T01:16:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bcb8fd51ec7a319bee65aeae4c53b479fc68f7e",
+      "message": "fix: 回退 README CDN 链接修改",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T01:01:40Z",
+      "committer_date": "2026-07-05T01:01:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10e45261b4172ab6bca0d87bafd7abf23c423b53",
+      "message": "fix: README 媒体链接改用 jsDelivr CDN（避免 raw.githubusercontent.com 404）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:58:10Z",
+      "committer_date": "2026-07-05T00:58:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b00dfe84d142d799ad93d1e0aa9e337c673cbc2",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:53:19Z",
+      "committer_date": "2026-07-05T00:53:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8c4e4ae8c2ebab624265c60b9354cce2b15bc44",
+      "message": "build: 重新构建 package.zip 以包含最新 README（视频链接已改为 GitHub raw URL）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:52:32Z",
+      "committer_date": "2026-07-05T00:52:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64b723c6478c42f8598cf49c5bdb9aa96409fb8a",
+      "message": "fix: README 视频链接替换为 GitHub raw URL",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:51:48Z",
+      "committer_date": "2026-07-05T00:51:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8a1206c1aeef63a00ec035511506bb1cecbe95d",
+      "message": "fix: 修复发布前检查问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:38:56Z",
+      "committer_date": "2026-07-05T00:38:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a03aa4897b04a07b0c168db967fdff4cc4ee3e11",
+      "message": "fix: 修复 onload 生命周期中 this.t 缺失导致的运行时崩溃，并完善多语言国际化重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T00:15:11Z",
+      "committer_date": "2026-07-05T00:15:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc1679fea720dc43e245c53451b6763fa894779b",
+      "message": "chore: update version to 1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T14:59:52Z",
+      "committer_date": "2026-07-04T14:59:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04841b56f90dbdecf20f39c99ed3f8c16901c787",
+      "message": "fix: 修复提取或清除样式后，修改设置未显示统计信息的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-03T15:24:52Z",
+      "committer_date": "2026-07-03T15:24:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1239fe5394a360993251e22a7313cac081b997e8",
+      "message": "feat: 将说明信息替换为当前已生效的配置项统计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-03T14:32:09Z",
+      "committer_date": "2026-07-03T14:32:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f07aec6b9c48b8bfb2b3ffe448022a700c8d695",
+      "message": "feat: 合并集市主流主题的外观样式特性与升级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-02T14:51:07Z",
+      "committer_date": "2026-07-02T14:51:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "060bc113ab52b354fdefa033b386b8d6d9081e7d",
+      "message": "fix: 修复思源 Bazaar 发布前合规性检查（压缩图标并补全卸载清理逻辑）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T13:56:15Z",
+      "committer_date": "2026-07-01T13:56:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "321fe1b38bebb01639c1d0b8750b469002be39b5",
+      "message": "chore: update version to 0.5.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T13:54:14Z",
+      "committer_date": "2026-07-01T13:54:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a08f64717b25c23039ae97d9dbbbe0edd1beacd",
+      "message": "fix: 优化表格增强默认配色与注入，修复列表相关样式在思源中不生效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T03:44:39Z",
+      "committer_date": "2026-06-28T03:44:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d82e3ff06fe914dd8e644ab53751c2c2a51675be",
+      "message": "style: 微调分类标题大小与输入框宽度，修改主视觉文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T01:13:16Z",
+      "committer_date": "2026-06-28T01:13:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a946431e2d9b3de5c130f8277e64125e0dbfb30",
+      "message": "fix: 优化子分类标题视觉层次，加宽特征控制颜色输入框",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T00:58:41Z",
+      "committer_date": "2026-06-28T00:58:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b6ad7387458dce960b79ef3236ef9b3131f3349",
+      "message": "feat: 新增行内标签美化、Mac风格代码块及便利贴引述块样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T00:54:08Z",
+      "committer_date": "2026-06-28T00:54:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49af043fc659a6581c0878be5ec13a461a5e0719",
+      "message": "fix: 修复主题默认色切换与文档生效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T15:00:41Z",
+      "committer_date": "2026-06-27T15:00:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d580a7de5fc2edf3282cc75b6c4f8eef7587fc30",
+      "message": "style: 整理遗留样式文件并构建最新发布包",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:46:39Z",
+      "committer_date": "2026-06-27T13:46:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b654d4f1b02561971387d99a2099b9cc537ac3ac",
+      "message": "style: 优化开关未激活时的悬浮高亮效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:45:20Z",
+      "committer_date": "2026-06-27T13:45:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc5055c2d72d4a53e93b13d75751f9dd5dd86a5b",
+      "message": "feat: 基础粉刷卡片支持独立开关与高对比度莫兰迪色系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:35:22Z",
+      "committer_date": "2026-06-27T13:35:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21b66dede828f018d570bdc82afb5ff02d2dcf78",
+      "message": "feat: 升级默认颜色为莫兰迪雅致色系并增加清除样式确认弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:19:49Z",
+      "committer_date": "2026-06-27T13:19:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b11525da4668cd1d0a21cfafc89c5e3955cbe1e3",
+      "message": "style: 优化侧边栏及基础粉刷预览卡片的垂直间距与紧凑度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T12:37:19Z",
+      "committer_date": "2026-06-27T12:37:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1e8d4e521544e2605f1d567d8709e639119ae03",
+      "message": "feat: 新增全局自定义主色、界面紧凑模式并扩展表格样式定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T12:30:08Z",
+      "committer_date": "2026-06-27T12:30:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58845c1adb924e559fee130f677c49f849f266e7",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:42Z",
+      "committer_date": "2026-05-23T06:41:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92920394ace7c0647a5cb66f28584acd79c06d7e",
+      "message": "refactor: 精简后两面板标题栏，胶囊标签与说明文字改为 tooltip 展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:48:54Z",
+      "committer_date": "2026-05-23T05:48:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e576f89a51d7db9903fa865851b65ca27fc6e52",
+      "message": "fix: 修复 fetchSyncPost/openTab 运行时未定义错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:27:45Z",
+      "committer_date": "2026-05-23T05:27:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6e0edcf5c7974ecb7837060ad0f3d8a384f5bc9",
+      "message": "fix: 修复 ESLint 配置及全量 lint 自动修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:13:53Z",
+      "committer_date": "2026-05-23T05:13:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c74354baf553ae7b39a97db0f9df14313f14769d",
+      "message": "feat: 新增 searchHighlight、dialogStyle、listMarkerStyle 三个锦上添花特性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:10:25Z",
+      "committer_date": "2026-05-23T05:10:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bd86448fb45609c886357606b26fb7d5e15f7e9",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:08:41Z",
+      "committer_date": "2026-05-23T05:08:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc47ca0b901b2c339027864fb633083ded97d478",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:03:15Z",
+      "committer_date": "2026-05-23T05:03:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77df88ab4d215db7ffb405eef1de9e622a038775",
+      "message": "feat: 新增 topBarStyle、scrollbarStyle、codeBlockStyle 三个界面外壳特性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:59:58Z",
+      "committer_date": "2026-05-23T04:59:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1ca2ae6e82f77d6224b42e548762d260988a9b0",
+      "message": "feat: 新增 typographyBase、editorWidth、fontFamily 三个排版布局特性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:57:34Z",
+      "committer_date": "2026-05-23T04:57:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcf103ac9a04367cb20565ef22f400e677df3500",
+      "message": "refactor: 用 FeatureSection 统一替换 FeatureStudio 和 EditorUiStudio，消除组件重复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:55:35Z",
+      "committer_date": "2026-05-23T04:55:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11cfc7ee984da9778c6f1f7c610f101c8df2feaa",
+      "message": "feat: 新增通用 FeatureSection 组件，支持搜索筛选、hint/preview 展示、text/range 控件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:53:47Z",
+      "committer_date": "2026-05-23T04:53:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8322f32e1413379277bf2c5e2a68a960959c97c0",
+      "message": "feat: 扩展控件类型，新增 text 和 slider 支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:51:22Z",
+      "committer_date": "2026-05-23T04:51:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bbd2551cde3e9a38ebf49060d18639b20569f27",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:13:01Z",
+      "committer_date": "2026-05-23T04:13:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5403e633e40f4d419c179e452c80f8078593385a",
+      "message": "refactor: 拆分 style-feature-catalog.ts 为类型、定义与导出三层模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:11:59Z",
+      "committer_date": "2026-05-23T04:11:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa3623dfa5c9d727f5975a9b5ca17e4befdc67f5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T03:46:56Z",
+      "committer_date": "2026-05-23T03:46:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d437a4acbd1d57aa97949823fbed64bede21a889",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T03:45:02Z",
+      "committer_date": "2026-05-23T03:45:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d88fdae3e77694d2d5ef4982457cfbca5c1570ff",
+      "message": "feat: 优化面板标题栏样式并添加折叠/展开功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T17:29:23Z",
+      "committer_date": "2026-05-22T17:29:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17c7b6c9d4e37dae11a00ac81749dd046e5ae49e",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T17:03:34Z",
+      "committer_date": "2026-05-22T17:03:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93487db879431bd48e2589945ba6fad61b7922fa",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T17:03:27Z",
+      "committer_date": "2026-05-22T17:03:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "196ce2a8365359ca5897bc1d92fefd817c4eca75",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T15:56:45Z",
+      "committer_date": "2026-05-22T15:56:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11181ec572b281c5628f9d001e7408bec5c39bda",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T15:53:35Z",
+      "committer_date": "2026-05-22T15:53:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20d2cb96963e84baafe0a739da7a6c3194094e57",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T15:50:14Z",
+      "committer_date": "2026-05-22T15:50:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a4a270b2671213c850e1c36280480eba2535723",
+      "message": "docs: 补充参考资料并更新构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T15:35:30Z",
+      "committer_date": "2026-05-22T15:35:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2127bdffe2098382b13156ce4a407201607bd0df",
+      "message": "feat: 完善标题和列表样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T15:27:38Z",
+      "committer_date": "2026-05-22T15:27:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76951fecd4480d81fbe5b03d1c8ef6ed93e0aecd",
+      "message": "feat: 增加引用关系正文样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T14:48:53Z",
+      "committer_date": "2026-05-22T14:48:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "652fafd5af45dcc78527fe4ff0c8b1a41ad57b5c",
+      "message": "feat: 完善引述块功能样式增强",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T14:22:18Z",
+      "committer_date": "2026-05-22T14:22:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98a037ac8d42e9aeebe4f02e01c75a9b3685c5f1",
+      "message": "feat: 增加功能样式配置面板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T14:04:46Z",
+      "committer_date": "2026-05-22T14:04:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a864b098400b218598ebeaa1791d5c724da6977",
+      "message": "v0.5.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-21T14:15:42Z",
+      "committer_date": "2026-04-21T14:15:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "654c736d3bfe4e64e3bd90c858b35fd695c36f87",
+      "message": "Add style preview document generator",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T13:10:21Z",
+      "committer_date": "2026-03-28T13:10:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad871f87f739b35175f3fc8e5f067b6d1269d6cf",
+      "message": "Fix export signature field overflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T12:47:46Z",
+      "committer_date": "2026-03-28T12:47:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "681ffb6f0dcb742b6bf1e51c5c97afac25b112c7",
+      "message": "refactor: split shell interaction and floating palette modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T07:24:52Z",
+      "committer_date": "2026-03-28T07:24:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28ff6dbdee1bb4ab7a932620f3d93ce147c0833e",
+      "message": "feat: support drag swapping target colors",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T03:56:33Z",
+      "committer_date": "2026-03-28T03:56:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c306b62910a797e9760e4e71593bfda8b17a3582",
+      "message": "refactor: move style export form below actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T03:07:34Z",
+      "committer_date": "2026-03-28T03:07:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac2a2cc448e0860e9ae5b9ab114fc1ae916e6897",
+      "message": "fix: replace style export prompt with inline form",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T02:06:05Z",
+      "committer_date": "2026-03-28T02:06:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57ecd940ac026d29da0f3263d785aaa9f27693d0",
+      "message": "feat: add style import export metadata",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T01:11:47Z",
+      "committer_date": "2026-03-28T01:14:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa22f397e3904d86eb2c3c898e7a87d4af205926",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T16:29:16Z",
+      "committer_date": "2026-03-27T16:29:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa0f687afccf0a3532aeee6e185c27287f9b5459",
+      "message": "Fix list color selectors in SiYuan DOM",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T16:24:24Z",
+      "committer_date": "2026-03-27T16:24:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f60938866c9ffbd335ba5a113ea936404913d7a",
+      "message": "Refine floating palette controls and swatches",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T15:58:55Z",
+      "committer_date": "2026-03-27T15:58:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0eaa5271815e04d59c7a145fbb6983470f80af5f",
+      "message": "Add custom palette deletion flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T14:32:26Z",
+      "committer_date": "2026-03-27T14:32:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4490458b179b207982ab24435f67ea3b3cd1abb6",
+      "message": "Add custom preset palette saving",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T02:49:37Z",
+      "committer_date": "2026-03-27T02:49:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bd6bd41b91a7d0d711c918f52dc51b21ee186c1",
+      "message": "Refine floating palette preset cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T00:44:49Z",
+      "committer_date": "2026-03-27T00:44:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e5a608377cc31b8ebd6d8e9ac5368375acc6a52c",
+      "message": "Refactor style editor shell architecture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T22:25:37Z",
+      "committer_date": "2026-03-26T22:25:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd1ea6df713df15d6ba092b4725928569cbab525",
+      "message": "Update packaged build artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T15:49:23Z",
+      "committer_date": "2026-03-26T15:49:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80bf00b7dd010772d21c6a2e37f53168b04376ea",
+      "message": "Refine preset palette panel interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T15:48:56Z",
+      "committer_date": "2026-03-26T15:48:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e0fa12e2d76d2074f7b8286be2d363c5323ad82",
+      "message": "Update built package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T15:11:32Z",
+      "committer_date": "2026-03-26T15:11:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d89f468e6a3f02ea3a0d1ce439a319a31f4f1ed4",
+      "message": "Fix palette color input sync and layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T15:11:05Z",
+      "committer_date": "2026-03-26T15:11:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ab5f41d5370db346cacff1985a795a250654955",
+      "message": "Refine color palette apply flow and panel styling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T14:43:45Z",
+      "committer_date": "2026-03-26T14:43:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf49b6a297906ae1c6250ef23b28fcab5db4eefa",
+      "message": "Lower floating palette stacking order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T14:19:38Z",
+      "committer_date": "2026-03-26T14:19:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36b2ea3fefb0412ca0c72bdca40a96b9504258e3",
+      "message": "Fix target card color preview styling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T13:53:27Z",
+      "committer_date": "2026-03-26T13:53:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eae6c8ea2d547e4f9adbfd293b83d24809d6c50b",
+      "message": "Add style import and export actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-26T13:35:18Z",
+      "committer_date": "2026-03-26T13:35:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abc3445961c719d806559659cdb54f9f947e40d3",
+      "message": "Refine inline palette color workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T16:21:13Z",
+      "committer_date": "2026-03-25T16:21:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c75c802fb3ec28f770a76f4005a571d445594743",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:50:52Z",
+      "committer_date": "2026-03-25T15:50:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da0cc1f5674337e5a84c75765cd519a91f39726c",
+      "message": "Refine editor panel spacing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:50:24Z",
+      "committer_date": "2026-03-25T15:50:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "257d4d757b955b2c069b02ca74a2b5261e0fde36",
+      "message": "Refresh packaged plugin archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:41:12Z",
+      "committer_date": "2026-03-25T15:41:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b5787bbfaeb23f1ffc3da6b0bb938b771124305",
+      "message": "Polish target card color controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:40:44Z",
+      "committer_date": "2026-03-25T15:40:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c524366a50ef2768eba0b0e089688f167151ea31",
+      "message": "Refine dual-theme editor UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:25:31Z",
+      "committer_date": "2026-03-25T15:25:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4361d0e6fa3b4fe72adf56ae01cbde00c36fabd",
+      "message": "refactor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:01:04Z",
+      "committer_date": "2026-03-25T15:01:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad205eb265351d184d5d03f089d026cf0080d544",
+      "message": "Refine editor panel layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T15:00:01Z",
+      "committer_date": "2026-03-25T15:00:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c022105ef84131ce9868f26e0e4b300786fc75f",
+      "message": "Refine compact style editor panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T13:09:07Z",
+      "committer_date": "2026-03-25T13:09:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf2ab56c6d66cb4596d5e116bfb8e4c95e408577",
+      "message": "Add style extraction workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T01:43:45Z",
+      "committer_date": "2026-03-25T01:43:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3af35fa70ab626cf396babe0380fcb4a388fcc49",
+      "message": "Refine inline palette workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T01:37:10Z",
+      "committer_date": "2026-03-25T01:37:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a01b47062ef0120e49f0fb453da14044af77ce45",
+      "message": "Merge palette with live preview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T01:11:42Z",
+      "committer_date": "2026-03-25T01:11:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7eaefb27a356a91704614498013e13c57ada2b78",
+      "message": "Add custom color picker presets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T01:06:56Z",
+      "committer_date": "2026-03-25T01:06:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1eb5c10ee9dbbb8c801a1875ddcd89dc0828e6a0",
+      "message": "Fix dark theme panel colors",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T00:53:06Z",
+      "committer_date": "2026-03-25T00:53:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f9ecb7ca016d025a426e8d8b519426c151fa1b8",
+      "message": "chore: add package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T16:11:29Z",
+      "committer_date": "2026-03-24T16:11:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5da2244aadb21a2e6fabc5f5edf7274bde1f58b6",
+      "message": "refactor: make style editor apply changes instantly",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T16:10:57Z",
+      "committer_date": "2026-03-24T16:10:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "836394dfad3bc5dfbada40ca362f9f3b0600a67c",
+      "message": "feat: add siyuan style editor plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T15:36:19Z",
+      "committer_date": "2026-03-24T15:36:19Z",
+      "login": "famotime"
+    }
+  ]
+}

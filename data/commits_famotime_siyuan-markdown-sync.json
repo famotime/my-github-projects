@@ -1,0 +1,258 @@
+{
+  "pushed_at": "2026-09-03T14:33:56Z",
+  "count": 28,
+  "commits": [
+    {
+      "sha": "e8fe681eac00d92be92a19edec898c51c4d9b872",
+      "message": "feat: 优化日志文件输出，在每次导出任务记录之间增加空行区分",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T12:59:02Z",
+      "committer_date": "2026-09-03T12:59:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8434dac3b8b34f52e9586f22c5342223fac59a4",
+      "message": "fix: 兼容思源内核 #14658 校验，优化工作空间导出路径与文件名安全净化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T12:52:56Z",
+      "committer_date": "2026-09-03T12:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "802a9aa67998d65191ee2cb8ec372a2f600428bb",
+      "message": "feat: 优化插件 UI 与交互体验，采用显式线框图标与 Tooltip 模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-02T14:47:25Z",
+      "committer_date": "2026-09-02T14:47:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "538841374173bc62c00044aff7684f2964dab1fe",
+      "message": "feat: 新增文档地图(MOC)任务类型并支持层级目录导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-02T13:40:22Z",
+      "committer_date": "2026-09-02T13:40:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "884191d4733a3b785fe9cc11abbdb963fdfc2747",
+      "message": "refactor: 调整任务编辑中的任务类型与指定文档文案及相关说明文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-02T13:02:06Z",
+      "committer_date": "2026-09-02T13:02:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d4f75e2aa6671a9cd80df251841bc4c0fa99aabb",
+      "message": "feat: 优化同步日志为按日期追加生成并显示完整笔记本与本地路径信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-02T12:40:32Z",
+      "committer_date": "2026-09-02T12:40:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c7956b8bb8d248079c6029f3de22f64190cac1e",
+      "message": "feat: 支持 Front Matter 展开高级配置、属性过滤与属性映射规则",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T13:46:59Z",
+      "committer_date": "2026-09-01T13:46:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f86b0a51d2107e4e93175af8442435a07ebe4585",
+      "message": "feat: 提供独立的全局设置页面并重构设置入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T13:08:07Z",
+      "committer_date": "2026-09-01T13:08:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76fa00e9dcbd02ae5ca2b668282ce8389e5bfd92",
+      "message": "feat: 完善 Front Matter 导出与属性变更感知增量同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T12:59:13Z",
+      "committer_date": "2026-09-01T12:59:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33815cce6126cee8265eab9536230b2cf0d6aabd",
+      "message": "fix: 加固不合法文件名与路径处理逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T10:23:14Z",
+      "committer_date": "2026-09-01T10:23:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7080b7f9c0259a57b638404a5500b44e4d1d1aed",
+      "message": "chore: 完善集市发布前规范适配与顶栏图标设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-23T09:19:14Z",
+      "committer_date": "2026-08-23T09:19:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8498a62e7740e1f50f22b5a40260251b5eb87d87",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-22T12:11:27Z",
+      "committer_date": "2026-08-22T12:11:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa8b9e06879495a7ae2d8060631d44b9f99cffaa",
+      "message": "fix: 修复开发模式下节点模块加载失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-15T12:19:44Z",
+      "committer_date": "2026-06-15T12:19:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d8533edc36ae1e20e37454f71c47f639ee44556",
+      "message": "refactor: 正常的同步日志只记录到日志文件，不再在控制台打印",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T15:50:35Z",
+      "committer_date": "2026-06-13T15:50:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7602586e3f7a6e3d5a38a73fe70a5fd79fe042f",
+      "message": "refactor: 全仓库重构 — 组件拆分、模块解耦、测试修复、文档完善",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T14:18:40Z",
+      "committer_date": "2026-06-13T14:18:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc774c04727d1118f454af9b55080cf689dcfd12",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T11:32:14Z",
+      "committer_date": "2026-06-13T11:32:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcea2148876d12585cc4a5e39684e80b2dcff70c",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T10:07:19Z",
+      "committer_date": "2026-06-13T10:07:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "598c6632d7ac2270508fe86e1fc7db9a85ca24b4",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T09:56:50Z",
+      "committer_date": "2026-06-13T09:56:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42b2d9fbfe7f7b968050449d6f0e8619a11f971f",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T09:53:06Z",
+      "committer_date": "2026-06-13T09:53:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2970deb9ee170eca9e27d2550fcb3046dfca1b37",
+      "message": "feat: 优化同步任务设置面板布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T08:10:49Z",
+      "committer_date": "2026-06-13T08:10:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef0f5634848ddb3e595798ef43f04724ef0929a4",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T07:42:10Z",
+      "committer_date": "2026-06-13T07:42:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "321f9056e0ff0f52e96ff3d99792354570923b6c",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T06:54:26Z",
+      "committer_date": "2026-06-13T06:54:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "421b7507943330f818d8d7564b34a3e3254abe2d",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T06:45:12Z",
+      "committer_date": "2026-06-13T06:45:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ca81b535076cd74bdf65365f0cb3237889be866",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T06:36:19Z",
+      "committer_date": "2026-06-13T06:36:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa0a6fccf44df7b4dc29bc0409d8409657ee9dfb",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T16:13:46Z",
+      "committer_date": "2026-06-12T16:13:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fda35605fdadb6e92c582021e8f2f6acc3991ac5",
+      "message": "feat: 完善 Markdown 同步配置与导出流程",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T15:45:20Z",
+      "committer_date": "2026-06-05T15:45:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a749fb547d8d803a1a7649c6e2c649a3bbaa705",
+      "message": "fix: 修复设置面板无法关闭的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T14:08:44Z",
+      "committer_date": "2026-06-05T14:08:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fc960440b9af007e941b1bdd3626fcc96596a8e",
+      "message": "feat: 初始化思源 Markdown 同步插件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T14:04:22Z",
+      "committer_date": "2026-06-05T14:04:22Z",
+      "login": "famotime"
+    }
+  ]
+}

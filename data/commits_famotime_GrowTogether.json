@@ -1,0 +1,546 @@
+{
+  "pushed_at": "2026-09-12T15:37:47Z",
+  "count": 60,
+  "commits": [
+    {
+      "sha": "5a50b81d95b550d9a91276898ce7826e9e8cb925",
+      "message": "feat(ui): 调整侧边栏导航顺序、日记默认日记本视图及首页回忆/里程碑悬停展开与精准跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T15:37:43Z",
+      "committer_date": "2026-09-12T15:37:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9bc86300264c614294408cc444c61f715344cbc",
+      "message": "docs(guest-data): 扩充优化回忆相册与成长里程碑文案，融入成长小记细节与艺术图文互文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T15:19:02Z",
+      "committer_date": "2026-09-12T15:19:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6788bdae1442a5bdc69ca039c0ec5412fa4a8ee8",
+      "message": "feat(guest-mode): 实现游客模式内容与设置会话隔离，支持刷新或重新进入时自动恢复默认数据",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T15:10:16Z",
+      "committer_date": "2026-09-12T15:10:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f300357e81ecef0ff9c10745be35c3d23fd6db1",
+      "message": "feat: 在设置-偏好设置增加照片风格选项（艺术/真实），支持 _art 艺术图优先与自动回退",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T14:19:50Z",
+      "committer_date": "2026-09-12T14:19:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "620f823a135085fee1ada7d77925dd25ea455378",
+      "message": "fix: 修复 Markdown 更新引发的 HMR 白屏、增加全局错误边界并将相册图片标题与小标题严格对齐",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T12:50:30Z",
+      "committer_date": "2026-09-12T12:50:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0abb7888f3b4a28d80b026e8d9d9c7bc958fdd56",
+      "message": "fix(calendar): 修复全景试图逻辑、热力图Tooltip定位、日记跳转定位及初始热门年月展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T10:08:10Z",
+      "committer_date": "2026-09-12T10:08:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2a0ce82103c690c2affedb7087683932abb3fc9",
+      "message": "feat: 调整时间轴、日历、日记、里程碑、相册页面默认按时间正序展示，并支持日历自动定位至首个事件年月",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T09:53:35Z",
+      "committer_date": "2026-09-12T09:53:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfee16756897a64cfe021d93c3e853de421100ad",
+      "message": "feat(guest-data): 规范化游客数据 Markdown 导出、全量更新与标题标签体系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T09:47:44Z",
+      "committer_date": "2026-09-12T09:47:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54d6835e499cedc3f7e10d63c80641ef16d29770",
+      "message": "docs: add design.md as UI/UX design requirements and system specification",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T08:59:49Z",
+      "committer_date": "2026-09-12T08:59:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4da5efa504ecaf5f630bc888225a981f08c9b184",
+      "message": "docs: enrich AGENTS.md and CLAUDE.md with comprehensive workflows and architecture rules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T08:49:05Z",
+      "committer_date": "2026-09-12T08:49:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd1627e2385b6c6013e3d052275c285ba7bdd2e2",
+      "message": "refactor: establish testing baseline, unify data access seam, split monolithic modules, and refresh docs (RF-001~RF-008)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T08:47:11Z",
+      "committer_date": "2026-09-12T08:47:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76f72ca77c6f238cd61b1d964b8e7c783b10ec9f",
+      "message": "refactor: deepen core architecture with storage seam, unified timeline repository, growth analytics engine, and calendar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T08:22:31Z",
+      "committer_date": "2026-09-12T08:22:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "256a0ab953ab5224985a3f2f3c9cce1c89cf3bf1",
+      "message": "fix(map): 修复 MapPage 中 pinClass 未定义报错并优化图钉与弹窗样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T07:50:09Z",
+      "committer_date": "2026-09-12T07:50:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56ba7aae9f7a4c0ca0f0ffbfe545670b203f04c1",
+      "message": "feat: 更新游客体验样本数据，录入18张本地WebP照片并关联回忆足迹与时光轴",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T07:45:00Z",
+      "committer_date": "2026-09-12T07:45:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ddd45da87eaa7b792c6f9b57ff13bd2a475e146",
+      "message": "feat: fix MapPage useTheme import, add photo upload in memory form & gallery, reorder nav items",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-12T05:36:35Z",
+      "committer_date": "2026-09-12T05:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ac5472e6ab08f736f23e762844d03c72b4b2c85",
+      "message": "feat(settings): merge preferences and add week start day setting with calendar heatmap alignment",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-10T15:37:04Z",
+      "committer_date": "2026-09-10T15:37:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "697a2549f06af34c9b776b27dd5568e7ee8597c9",
+      "message": "feat: 日记页面新增日记本形态视图与单双页翻页功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-10T15:24:40Z",
+      "committer_date": "2026-09-10T15:24:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b07ad7f7cc5e9795da065fb53c3a5fc46d63f316",
+      "message": "fix(growth): 调整坐标轴渲染图层并修复悬浮提示框位置偏离",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-10T14:48:21Z",
+      "committer_date": "2026-09-10T14:48:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b12b936ba7cf553884f3346ca017f5b7217e9987",
+      "message": "fix(layout): 修复折叠侧边栏 Tooltip 双重显示与遮挡问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-10T14:44:50Z",
+      "committer_date": "2026-09-10T14:44:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a25fb71ed4c7b1980e4f45299f8df6606172f228",
+      "message": "feat(theme): 将主题切换移至顶部标题栏并全面补齐暗色主题支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T05:24:34Z",
+      "committer_date": "2026-09-06T05:24:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "748428866cd3d863a311e46c9b0cd6e5228c506d",
+      "message": "feat: 支持点击首页统计卡片跳转到对应页面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T05:10:05Z",
+      "committer_date": "2026-09-06T05:10:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2284ed4feba48d85a5284ce40c708c92d645eac2",
+      "message": "fix(timeline): 修复时间轴日记显示与左侧导航栏滚动固定",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T05:08:34Z",
+      "committer_date": "2026-09-06T05:08:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bdfac93d8fa43fc48794c80fcaa5908d3e5ef09",
+      "message": "fix: 修复退出登录按钮无效及无 Session 时触发 Failed to fetch 的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T04:33:37Z",
+      "committer_date": "2026-09-06T04:33:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ff2ca5159df9001c7f315e4ebe08cf3d51c51e1",
+      "message": "fix(timeline): 区分日记与回忆，优化硬去重与里程碑最高优先级定性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T04:02:02Z",
+      "committer_date": "2026-09-06T04:02:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a7811b5d586b0012fed417a3963e74c7e1604d76",
+      "message": "fix: 排查并修复时间轴及全项目创建按钮点击无效与异常捕获问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T03:42:20Z",
+      "committer_date": "2026-09-06T03:42:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0115f9002cc0b2d0d96109877226de4fe933d720",
+      "message": "feat: 支持侧边栏折叠缩进为纯图标模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T00:52:59Z",
+      "committer_date": "2026-09-06T00:52:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb284a2dcbfcb26ba5fbf9c5cffb96719c0dbede",
+      "message": "feat(calendar): 实现成长日历时光全景分布视图（跨年份长河、年龄指示带与SVG热力图联动）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T16:03:02Z",
+      "committer_date": "2026-09-05T16:03:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70ce18d96675bd70646b59e1d522842835563453",
+      "message": "fix: 修复首页宝宝名称空格及移动端相册按钮点击无效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T15:23:51Z",
+      "committer_date": "2026-09-05T15:23:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ecc0cef44513397dd3562f8c353635665f1a8499",
+      "message": "fix(home): 修复移动端首页近期回忆图片未缩小显示的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T15:17:30Z",
+      "committer_date": "2026-09-05T15:17:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1ce119609e063af8740b0cea9de6e082d45c3e4",
+      "message": "fix(map): 迁移至 Leaflet 彻底解决 vec4 报错并完善地图交互与游客模式适配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T15:15:05Z",
+      "committer_date": "2026-09-05T15:15:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9449bafd4a3216d0902e95e4ba905f0f8061779",
+      "message": "feat(calendar): 支持快速切换年份与月份",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T14:56:31Z",
+      "committer_date": "2026-09-05T14:56:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69fca06c3f063e1689d3baadbed171f16f8a8928",
+      "message": "feat(ux): 全面升级应用UI与交互体验，重构移动端时间轴与导航，增加全局快捷记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T14:51:44Z",
+      "committer_date": "2026-09-05T14:51:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e19d8654ca03a2dc232b1ed569b3c3f1bb48de7",
+      "message": "Revert \"update\"",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T14:19:18Z",
+      "committer_date": "2026-09-05T14:19:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "229f5ab2f96e1fa04b42579469a895c79fc63185",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T14:07:14Z",
+      "committer_date": "2026-09-05T14:07:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29f5d8da538db31ca88e1e15cbfb9e72502a8dae",
+      "message": "fix: 过滤不可见零宽字符，彻底解决日记尾部多余空行问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T14:01:15Z",
+      "committer_date": "2026-09-05T14:01:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fa2b061885cc9fa73f34db2d4d65c61a3137e17",
+      "message": "feat: 增加对带链接过滤标题重叠日期数据的同步清除逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T13:59:48Z",
+      "committer_date": "2026-09-05T13:59:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8782198748188d0fe60d234088b7b2356cb666c0",
+      "message": "feat: 在 vite.config.ts 中增加开发态 watchJournalsPlugin 插件实现 MD 文件变动热更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T13:55:18Z",
+      "committer_date": "2026-09-05T13:55:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d241e121db6ef396afa4895dcc88fa95df2cd03c",
+      "message": "feat(journal): allow optional title input for journal entries and add growth info docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T13:52:44Z",
+      "committer_date": "2026-09-05T13:52:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd3efcc9cfa9e035f78d7ca60e50fee5f83bb39c",
+      "message": "feat: 增加 Markdown 日记自动解析脚本及粗体渲染与游客数据同步机制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T13:40:48Z",
+      "committer_date": "2026-09-05T13:40:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd65bfa0cebe98dce9b61ccd4b43a3dea33be208",
+      "message": "feat: rebuild guest sample data for An'an and optimize timeline z-index",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T13:05:26Z",
+      "committer_date": "2026-09-05T13:05:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9b19253c84cf2f17825ac90a494231de3a9dd0b",
+      "message": "docs: add user-centric README and guest sample data update guide",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T14:49:05Z",
+      "committer_date": "2026-09-03T14:49:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e70dd85740d7c0e51c0627a427d0ddd37f3ccfa",
+      "message": "Fix diary, sharing, security, settings",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-09-03T13:19:34Z",
+      "committer_date": "2026-09-03T13:19:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3d50a4a738cece4266be5a8506b04ee6df2da451",
+      "message": "Updated index.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:50:21Z",
+      "committer_date": "2026-05-03T06:50:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e6b5ca1868d58d95af99be2820cbf5f1b9e97a5",
+      "message": "Integrate Journal into Memories",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:44:06Z",
+      "committer_date": "2026-05-03T06:44:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51933e77793980017c8e0a1ae714d9f996847dad",
+      "message": "Updated JournalPage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:29:42Z",
+      "committer_date": "2026-05-03T06:29:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4972b6f19d0ec377749b333aace209eac6ae5951",
+      "message": "Updated JournalPage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:22:47Z",
+      "committer_date": "2026-05-03T05:22:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bba4b17f25e329157b323e6c11d8498cc94cbfc7",
+      "message": "Update category names to Chinese",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:20:08Z",
+      "committer_date": "2026-05-03T05:20:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8022295aa0595351fe3e633a314ee56f6f26a49b",
+      "message": "Add edit/delete & localize UI",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:17:54Z",
+      "committer_date": "2026-05-03T05:17:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d689ef9cc8dcf30bbd4b8f3716dccafdb76117a6",
+      "message": "Updated SettingsPage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:04:44Z",
+      "committer_date": "2026-05-03T05:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a05706bbe55cb2ef754ad5f562f805839c5ddcf9",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T04:56:41Z",
+      "committer_date": "2026-05-03T04:56:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9672b941a50b867e36941933dc3e90e53295bc44",
+      "message": "Redesign Shared View to full app experience",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T04:35:35Z",
+      "committer_date": "2026-05-03T04:35:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc6e79745d7ab68a9ae70ee4d428a5d85b02519e",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T04:06:20Z",
+      "committer_date": "2026-05-03T04:06:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5855f23b8d66d8faf60fd093d75f3c3ae9ed14b3",
+      "message": "Updated CalendarPage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T02:41:11Z",
+      "committer_date": "2026-05-03T02:41:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50f9d62fea1a83e44f14a881c9f971d57283f839",
+      "message": "Implement guest mode",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T02:33:22Z",
+      "committer_date": "2026-05-03T02:33:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "848f34a90540f2d4d8dab85fff04a377af302308",
+      "message": "Updated LanguageContext.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T02:27:32Z",
+      "committer_date": "2026-05-03T02:27:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0256f0e216472d14127beb34c528cdec510e6b75",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T02:10:04Z",
+      "committer_date": "2026-05-03T02:10:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "480bd7130c1e38ac8c16545012bed46195a4bb14",
+      "message": "Translate all mock data to Chinese",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T01:46:31Z",
+      "committer_date": "2026-05-03T01:46:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8cf2584a0ea45bfff8b19d1a41c5e2a352aa18e",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T01:34:51Z",
+      "committer_date": "2026-05-03T01:34:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ee2df6144445cc3bc9a311da062f6efd426470b",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T01:22:43Z",
+      "committer_date": "2026-05-03T01:22:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3f87bc0cb26430cadd20c2da3bc0c802d02bb65",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T16:33:54Z",
+      "committer_date": "2025-05-26T16:33:54Z",
+      "login": "famotime"
+    }
+  ]
+}

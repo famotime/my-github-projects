@@ -1,0 +1,447 @@
+{
+  "pushed_at": "2026-09-25T14:34:59Z",
+  "count": 49,
+  "commits": [
+    {
+      "sha": "339437b9a60743f4defaaba134469ba3e123198a",
+      "message": "feat(kernel): 支持基于 relinkAsset 的图片全局重定向与优雅降级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T14:34:30Z",
+      "committer_date": "2026-09-25T14:34:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fb3dac46749944d3cb79797a5fa420178ad3491",
+      "message": "v1.0.9",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T09:36:51Z",
+      "committer_date": "2026-09-25T09:36:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed7e3bb2095459e9c6142825fc39c26d7d694ad2",
+      "message": "v1.0.9",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T09:34:57Z",
+      "committer_date": "2026-09-25T09:34:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "486245d118b5686717448ebbfd8d20a775796717",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T09:18:01Z",
+      "committer_date": "2026-09-25T09:18:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fa5630e92cd2fcea568163524a65269d6feeac9",
+      "message": "fix: 限制设置页样式作用域，防止污染全局对话框与其他插件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T13:57:54Z",
+      "committer_date": "2026-09-18T13:57:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "056fbb3f75be051c0bc4a61dec27bc96ed3d0540",
+      "message": "Remove divider lines from image result markdown",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-08T12:26:00Z",
+      "committer_date": "2026-09-08T12:26:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b93c56f9ab6afcbd4f178391f4ec45a55020531b",
+      "message": "feat: 文档批量菜单增加跳过小图条件设置项并支持自定义阈值与重置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T02:04:38Z",
+      "committer_date": "2026-09-06T02:04:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c6144129b2a7a4a253f90856d8716e7e0ad5efb",
+      "message": "feat: 文档菜单显示图片数量与内嵌资源总大小并优化性能与排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T04:31:40Z",
+      "committer_date": "2026-09-05T04:31:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a50d48f89d110883009f5b1b94a5d978e2c37cb",
+      "message": "feat: 删除设置页自定义调色板按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T04:26:52Z",
+      "committer_date": "2026-09-05T04:26:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c8474ee5c4d7acc93783f1da2c8aa546d2f74d8",
+      "message": "feat: 优化设置页排版布局与操作栏对齐，调色板使用 Lucide 图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T04:20:36Z",
+      "committer_date": "2026-09-05T04:20:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af730be413266825351bae8e96b4ca18cda1529d",
+      "message": "v1.0.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T03:11:13Z",
+      "committer_date": "2026-09-05T03:11:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eedf3bc1ed344596612430ba67d2b49efa85d6a1",
+      "message": "调整设置项选项顺序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T03:10:46Z",
+      "committer_date": "2026-09-05T03:10:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "951bf49af79a0fbf1e264c1ebb1144e11e7ef6bc",
+      "message": "v1.0.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T03:03:11Z",
+      "committer_date": "2026-09-05T03:03:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e4178859bb6a09d7337538afb93a6169f3dc1582",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-07T13:49:31Z",
+      "committer_date": "2026-08-07T13:49:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be62a6782dbbb975838d47cd5a02e826542de447",
+      "message": "feat: improve long document image collection and add kernel panic safeguards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-07T13:42:11Z",
+      "committer_date": "2026-08-07T13:42:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17e4a5543ec10e49c861b1ec3e74039cc09db2c0",
+      "message": "feat: resize images by explicit width and top-align on super block merge",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T06:52:43Z",
+      "committer_date": "2026-08-01T06:52:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0cf172a7c3538984e5b2c185c22fe0998898bc34",
+      "message": "feat: add crop height alignment option for super block image merging",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T01:23:45Z",
+      "committer_date": "2026-07-05T01:23:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff22adfd277a8a17a7e4dd180271c54c6b0b3a10",
+      "message": "v1.0.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T15:56:23Z",
+      "committer_date": "2026-06-12T15:56:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bd181800d63be893f6f20279bfba6e721398805",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T16:04:47Z",
+      "committer_date": "2026-05-24T16:04:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf8138e6aed9fdfe9e82ef2fc90cbfed5ce84e6a",
+      "message": "feat: 桥接协议支持 resultSummary 结构化执行结果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T13:28:51Z",
+      "committer_date": "2026-05-23T13:28:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f2866a7755784893762a3577b2fc52074e11b12",
+      "message": "feat: 右键图片通知和菜单信息中显示图片格式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T12:25:23Z",
+      "committer_date": "2026-05-23T12:25:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69071dac8ffb774303593227d0228ada08417518",
+      "message": "fix: 修复关联文档执行全部失败的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T12:24:39Z",
+      "committer_date": "2026-05-23T12:24:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f7fe946f7626ebc2b7cf447920ba904096b2796",
+      "message": "feat: 支持 Power Buttons 指定文档 ID 批量处理图片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T10:53:11Z",
+      "committer_date": "2026-05-23T10:53:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "175a30d0c771dedf39e35d16a4caaa7aad333df0",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:40Z",
+      "committer_date": "2026-05-23T06:41:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85a5efc2566cdb81348d7bd1bcf005869c2d9e6b",
+      "message": "fix: 消除 Vite 构建警告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T12:41:49Z",
+      "committer_date": "2026-05-22T12:41:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c7b76f9ca94928e1fb7ccc9ec9413a9123c3654",
+      "message": "feat: add compression strategy setting (comprehensive, resolution-first, color-first)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-20T05:00:24Z",
+      "committer_date": "2026-05-20T05:00:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb0e9d6c89f3507f8134c1b7905986d2b468f38e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:48:11Z",
+      "committer_date": "2026-05-01T13:48:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f18c131d3fba2414995781429b7caaad1d885e3",
+      "message": "perf: optimize compression pipeline with width cap, canvas caching, and smart quality search",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T06:47:16Z",
+      "committer_date": "2026-05-01T06:47:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f9a652a26ff5f38b7df5946affbc5bb207048fc",
+      "message": "Add image border menu toggle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-28T10:32:05Z",
+      "committer_date": "2026-04-28T10:32:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31e8b0d470ce539dd274493ce2cefc1b934e3260",
+      "message": "Add document batch image border commands",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-28T04:42:49Z",
+      "committer_date": "2026-04-28T04:42:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17a58cff4a0ce1267a15e7395313dc4df4983d55",
+      "message": "feat: add super block merge spacing and border settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T14:16:37Z",
+      "committer_date": "2026-04-15T14:16:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea9abde03df5219179ad6f80d77cc2df11ce712b",
+      "message": "feat: add power buttons integration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T13:53:49Z",
+      "committer_date": "2026-04-15T13:53:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7143f47005c99a2664816e652c1369741d80e794",
+      "message": "Fix local editor image asset paths",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T12:26:19Z",
+      "committer_date": "2026-04-15T12:26:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cea6e746f698ce40eb451bb36cc94834eb8cdc71",
+      "message": "v1.0.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T02:12:01Z",
+      "committer_date": "2026-04-12T02:12:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1bbcd526407f486aeefef6181396a5453aaa51d5",
+      "message": "Move super block merge into image quick edit menu",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T02:11:39Z",
+      "committer_date": "2026-04-12T02:11:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85c3e6e2f31e59706ea5789975772448d1df8f8f",
+      "message": "Sync local editor image src attributes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T15:38:00Z",
+      "committer_date": "2026-04-11T15:38:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "464fafd04f6bb012f44d100a4958eed11c1f9695",
+      "message": "Fix local editor asset overwrite workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T15:31:19Z",
+      "committer_date": "2026-04-11T15:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16b9d422344a74cdbe40431ab9326d32baf337ff",
+      "message": "feat: add super block image merge command",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T15:03:06Z",
+      "committer_date": "2026-04-08T15:03:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3cd279c862a6e1adaa0cc0f1852ba26063628dc3",
+      "message": "Add super block image merge design spec",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T14:44:44Z",
+      "committer_date": "2026-04-08T14:44:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93f71f08c318a36430788220fea8a6de8e7ac1b3",
+      "message": "v1.0.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T11:32:34Z",
+      "committer_date": "2026-04-08T11:32:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e70a8eb3e383399c6e96440d70f588534fc4d328",
+      "message": "Add image info notification toggle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-07T14:46:44Z",
+      "committer_date": "2026-04-07T14:46:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ac9b1a51a8de2d3a789573d51516bcbaa5c48d4",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T10:05:37Z",
+      "committer_date": "2026-03-29T10:05:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e83b8e23d0d3ec19366430701b8d55c4ee1ae74c",
+      "message": "发版准备",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T09:54:38Z",
+      "committer_date": "2026-03-29T09:54:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1eeed24039c26b8778e0e7aac9b46567bbbbc905",
+      "message": "Add document asset size info for image context menu",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T03:25:00Z",
+      "committer_date": "2026-03-29T03:25:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be21a8a7e115f06789fbaee18c71258941b37f7f",
+      "message": "Improve compression candidate selection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T16:34:24Z",
+      "committer_date": "2026-03-28T16:34:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a89ad5e10e1525c37ed6ac43b5ad028cc6f382c2",
+      "message": "Add 75% compression option and improve image compression",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T15:02:14Z",
+      "committer_date": "2026-03-28T15:02:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6f7e69d37753c90bcfaa6e605c1d8186892dacc",
+      "message": "Add configurable local image editor support",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T15:52:25Z",
+      "committer_date": "2026-03-24T15:52:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20e6f5c8f343f57893cee6ffd44e469dac729ab3",
+      "message": "Add insert and replace batch image workflows",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T07:34:16Z",
+      "committer_date": "2026-03-14T07:34:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8df45945a17b70864605be515c42ff183d30d592",
+      "message": "feat: implement siyuan image quickedit plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T04:51:56Z",
+      "committer_date": "2026-03-14T04:51:56Z",
+      "login": "famotime"
+    }
+  ]
+}

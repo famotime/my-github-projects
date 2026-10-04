@@ -1,0 +1,51 @@
+{
+  "pushed_at": "2025-09-21T04:42:29Z",
+  "count": 5,
+  "commits": [
+    {
+      "sha": "9fee3e3880f822d592e2c05db6f71016f88f2dc6",
+      "message": "Create comprehensive README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-21T04:42:29Z",
+      "committer_date": "2025-09-21T04:42:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8aae45938c1a67019ad72a9d355385d2f1b5a8c4",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-21T04:40:18Z",
+      "committer_date": "2025-09-21T04:40:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54fbfec6711ceb99946883e8dcd2d861689d1b9d",
+      "message": "Deleted vite.config.ts.timestamp-1748876899160-7df6c8fcf310d.mjs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T15:08:20Z",
+      "committer_date": "2025-06-02T15:08:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5915756f6e21486e538c72d143a0e820e8a5b9c9",
+      "message": "Deploy application to Netlify",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T15:08:19Z",
+      "committer_date": "2025-06-02T15:08:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4602acc3301bcb242ddb65d52508b08a6114de43",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T15:07:37Z",
+      "committer_date": "2025-06-02T15:07:37Z",
+      "login": "famotime"
+    }
+  ]
+}

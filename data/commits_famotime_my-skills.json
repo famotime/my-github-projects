@@ -1,0 +1,87 @@
+{
+  "pushed_at": "2026-10-02T07:21:22Z",
+  "count": 9,
+  "commits": [
+    {
+      "sha": "25a01ccd1fcdab22a001e22143005ae313aedbff",
+      "message": "feat(wechat): 深度适配公众号图文与小绿书图片消息提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T07:16:13Z",
+      "committer_date": "2026-10-02T07:16:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff7343d80eb54c9c22048b306ec793f1a6f8ac6f",
+      "message": "feat(gc-minimal-zine-poster): 引入极简杂志风格海报生成技能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T10:24:28Z",
+      "committer_date": "2026-09-25T10:24:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "230e3b74b6188d7edda30557fead7cbb6984ce86",
+      "message": "feat(website-updates-to-siyuan): 支持多链接与普通文本混排拆分及协同保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T10:24:05Z",
+      "committer_date": "2026-09-25T10:24:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b64770dfbfb282d2705d9fab5f9b42cece770504",
+      "message": "feat(siyuan-plugin-preflight): 支持 WebP 图标与预览图校验并优化特性关键词检查",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T10:23:36Z",
+      "committer_date": "2026-09-25T10:23:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "561a8b2679c70b91029a1d210a2b8ff45f2d2a20",
+      "message": "feat: 支持提取网页正文中指向 x.com 的原文链接并保存 X 帖子到思源笔记",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T07:51:38Z",
+      "committer_date": "2026-09-19T07:51:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4375d4dcd4857ea0854d61fc67f646fad95bc54e",
+      "message": "feat(website-updates-to-siyuan): 优化 X Article Markdown 实体解析（代码块与表格转换）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T13:25:09Z",
+      "committer_date": "2026-09-18T13:25:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1194f97187ee8e3b4cb4c34f7eb6d16923d7c82",
+      "message": "feat(website-updates-to-siyuan): 支持完整捕获 X (Twitter) 帖子信息（标题、长文、引用推文与多媒体）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-15T14:27:12Z",
+      "committer_date": "2026-09-15T14:27:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9aa53fe05a71efa2f86eaab2f9f1057bcb5bb7f0",
+      "message": "Add full content of siyuan-skill",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T00:58:44Z",
+      "committer_date": "2026-09-13T00:58:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1652f6ea938cdd4a105d3ca4760bc5c9f1bffff2",
+      "message": "Initial commit: add my skills",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T00:58:19Z",
+      "committer_date": "2026-09-13T00:58:19Z",
+      "login": "famotime"
+    }
+  ]
+}

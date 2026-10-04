@@ -1,0 +1,1122 @@
+{
+  "pushed_at": "2026-10-02T02:30:18Z",
+  "count": 124,
+  "commits": [
+    {
+      "sha": "2ac95617fd060119d77117b9441601b02fafb4dc",
+      "message": "v1.2.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T02:26:35Z",
+      "committer_date": "2026-10-02T02:26:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a179c9bec447b1ae09e2e33bfc8e72e8e3d2d61",
+      "message": "feat(catalog): 对齐思源内核增强判定未引用资源与规范化扫描",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T02:01:13Z",
+      "committer_date": "2026-10-02T02:01:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37891bc3e546539c0481ed1f3be042361643b239",
+      "message": "fix(editor): 修复图片编辑保存后引用未更新与回收站降级红字报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T01:38:49Z",
+      "committer_date": "2026-10-02T01:38:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "356bca131352b2583ecbae4edbb333439e3dbb29",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T13:02:57Z",
+      "committer_date": "2026-09-30T13:02:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be7ec331ae2880dd8ac63c3cb61aa438b964435b",
+      "message": "feat(catalog): 支持丢失资源的扫描识别、筛选与管理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T12:59:31Z",
+      "committer_date": "2026-09-30T12:59:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea7e002ef43601f661f37304f50240038e2de22f",
+      "message": "refactor(architecture): decouple large components and workflow services",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T14:50:56Z",
+      "committer_date": "2026-09-22T14:50:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a2d8432916b126ed3648aaee5d88cc8a6af7a13",
+      "message": "v1.2.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T14:08:30Z",
+      "committer_date": "2026-09-22T14:08:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bc4ed861b3afd1642e0a6e1e53396255f056705",
+      "message": "feat(preview): 支持视频预览控制栏与默认静音播放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T14:02:21Z",
+      "committer_date": "2026-09-22T14:02:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6895f34b40e96ba80b72b929ac1fc83009411c9",
+      "message": "feat(toolbar): add text labels to primary action buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T13:42:02Z",
+      "committer_date": "2026-09-22T13:42:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6167d7b943df7daebc142a0446e6dfbfb1ccd541",
+      "message": "fix(history): refine deletion log actions, show truncated doc titles, and prevent scrollbar leaks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T13:25:13Z",
+      "committer_date": "2026-09-22T13:25:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f04f842fc95505a934cf1c25cd3a50d7bf569e7",
+      "message": "fix(ui): prevent action tooltip clipping and distinguish row hover background",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T12:51:14Z",
+      "committer_date": "2026-09-22T12:51:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bfc33bfabf4883749a258f35afc4ca63dbe464e",
+      "message": "chore(build): repackage after dedup rollback precision fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T10:07:39Z",
+      "committer_date": "2026-09-22T10:07:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb6b3c9f9843972a160df419d516dd31f2da6953",
+      "message": "feat(dedup): make reference rollback precise and keep it recoverable",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T10:07:37Z",
+      "committer_date": "2026-09-22T10:07:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee45b0e6e015f2d07ba62fb65e3aa1773fea70e9",
+      "message": "chore(build): repackage after rollback anchor fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T09:32:45Z",
+      "committer_date": "2026-09-22T09:32:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87604e6cb5cad2293cd2c53151e4984849222a3a",
+      "message": "fix(rollback): anchor restored references to real sibling order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-22T09:32:40Z",
+      "committer_date": "2026-09-22T09:32:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37bda7b6c6563aa3678675caa246738e742c8de3",
+      "message": "v1.2.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T14:18:36Z",
+      "committer_date": "2026-09-21T14:18:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df9a9753af0e62afda0faa56ffb892305b7e4caa",
+      "message": "feat(ui): redesign visual system, theming adaptation and interaction workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T13:05:09Z",
+      "committer_date": "2026-09-21T13:05:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de2d4a55b8f1291389bbd98143d18db8aaef79b4",
+      "message": "chore(build): repackage after final review fixes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T06:03:17Z",
+      "committer_date": "2026-09-21T06:03:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c15a3a92e749675de8a2f66979647900ce1c3448",
+      "message": "fix(dedup): make group state carry-over, abort guard and persistence failures real",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T06:00:18Z",
+      "committer_date": "2026-09-21T06:00:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4492a080d0e78cfdaa52a185c5227236bee00292",
+      "message": "docs: record incremental dedup scan and concurrency knobs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:48:50Z",
+      "committer_date": "2026-09-21T05:48:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f793e4a89eb27c745e81f8b4947f013ee87fc92f",
+      "message": "chore(build): repackage after incremental dedup scan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:48:48Z",
+      "committer_date": "2026-09-21T05:48:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f5147fda420170fab666f5a9ae7cc4b7af77126",
+      "message": "docs(plan): task 9 targeted the wrong file for the module table; also cover changelog versioning",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:46:37Z",
+      "committer_date": "2026-09-21T05:46:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce821482d52ac1927e4432bd0d47df0109f09cb2",
+      "message": "docs(plan): task 9 must commit the rebuilt package.zip and fix a wrong comment",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:45:56Z",
+      "committer_date": "2026-09-21T05:45:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6474edb27ff783e7695b337356ff6d0eb60c95d0",
+      "message": "feat(dedup): default to incremental scan with index rebuild escape hatch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:43:06Z",
+      "committer_date": "2026-09-21T05:43:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30b31bbc7e2a257021a929061007b57442cda762",
+      "message": "feat(settings): expose dedup scan concurrency knobs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:39:03Z",
+      "committer_date": "2026-09-21T05:39:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "996c18368baf3898aa275f929acfd7ddde2d04ee",
+      "message": "test(dedup): assert real reuse counts in progress message",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:34:28Z",
+      "committer_date": "2026-09-21T05:34:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fbd103ace1e1b23991d31b71984053ee0953e7f5",
+      "message": "docs(plan): correct the stated reason the phase-3 write site is unreachable",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:30:35Z",
+      "committer_date": "2026-09-21T05:30:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec4d8959929bc023799c5cc1ff14cbc4abc24d12",
+      "message": "perf(dedup): parallelize hash and decode phases",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:29:04Z",
+      "committer_date": "2026-09-21T05:29:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4daedce6e54e4c0d9b0407c3bf13930f8e29deeb",
+      "message": "docs(plan): task 6 must preserve the prevValid guard and strengthen stale-field assertions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:24:49Z",
+      "committer_date": "2026-09-21T05:24:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78c51a6f286f140550bff525f2f4a7de1a737cf2",
+      "message": "feat(dedup): reuse cached fingerprints in scan pipeline",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:18:56Z",
+      "committer_date": "2026-09-21T05:18:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16947621754e49be4c1f1e2da729eb53422d7981",
+      "message": "feat(dedup): derive stable group ids and bump cache schema to v2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:14:34Z",
+      "committer_date": "2026-09-21T05:14:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d12e0d8df165c86c68b188058f130196c6f669ca",
+      "message": "fix(storage): report unknown mtime as 0 instead of Date.now()",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:10:05Z",
+      "committer_date": "2026-09-21T05:10:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fae6b36439a894a87649861afb6d3f8c8d971ab",
+      "message": "feat(dedup): add per-asset fingerprint store",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:07:16Z",
+      "committer_date": "2026-09-21T05:07:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28488046470fcff1d91276c98e6cc52afae7445c",
+      "message": "docs(plan): task 9 also corrects stale test count in CLAUDE.md",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:05:42Z",
+      "committer_date": "2026-09-21T05:05:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f8395b99aed1a66d7e163a748c45216ca03fae4",
+      "message": "feat(utils): add order-preserving concurrency pool",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:03:15Z",
+      "committer_date": "2026-09-21T05:03:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75bf189f2ad01c9ab37309b2c3e157909cc4c7af",
+      "message": "docs(plan): task 8 must write cache schema version 2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:01:44Z",
+      "committer_date": "2026-09-21T05:01:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e694000655f50b23bdae4217087fe17755a7df4",
+      "message": "docs(plan): fix test counts, add settings cast and tsc baseline diff",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:01:34Z",
+      "committer_date": "2026-09-21T05:01:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e7766133299d56e51aa8921bee77606f2f3160c",
+      "message": "docs(dedup): add incremental scan design spec and implementation plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T05:00:51Z",
+      "committer_date": "2026-09-21T05:00:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3a92ed91f47a2315221d759695cfacf2d7a6405",
+      "message": "chore(build): repackage after doc-view virtualization and toolbar changes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T04:37:11Z",
+      "committer_date": "2026-09-21T04:37:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21185b4bb6a7b16913a4788b1f1a22d61fe4e05a",
+      "message": "feat(views): show last refresh time and reorder primary actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T04:37:11Z",
+      "committer_date": "2026-09-21T04:37:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71f0a8d2f57424355115d78b089f5ab7c4c74cf8",
+      "message": "perf(views): virtualize document group list for 10k+ assets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T04:37:11Z",
+      "committer_date": "2026-09-21T04:37:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "733253fb29df5d9a7663c00660b3d6a389ec7c60",
+      "message": "test(storage): make openOSRecycleBin cases platform-explicit",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T02:33:00Z",
+      "committer_date": "2026-09-21T02:33:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e036a927cff45b9c17e938eba91598ac301f52fd",
+      "message": "chore(build): repackage after document group collapse and sort-freeze changes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T02:24:43Z",
+      "committer_date": "2026-09-21T02:24:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2766d2ef61289f431c8ae92e226b7911e24fbcaa",
+      "message": "feat(views): collapse all document groups by default and pin card order until refresh",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-21T02:24:32Z",
+      "committer_date": "2026-09-21T02:24:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4d1c36d2f1f0d896f13eb9d9bd930bb63aa18ea",
+      "message": "fix(views): align document group sublist columns with header",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T16:15:16Z",
+      "committer_date": "2026-09-20T16:15:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c1fdcb2c9d18d4d62fa1d88f3b0ea153775c68c",
+      "message": "fix(dedup): resolve false-positive safety interception caused by sqlite async queue delay",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T16:09:26Z",
+      "committer_date": "2026-09-20T16:09:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e96ea4057bee4db93016f96f64e48c54310ea2a",
+      "message": "feat(views): support document-grouped asset view with sorting and folding",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T16:09:15Z",
+      "committer_date": "2026-09-20T16:09:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58f04afdac839a1e7dc6855b3b8a27f837fbb867",
+      "message": "fix(history): resolve card crushing occlusion and add jump-to-document action",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T15:50:09Z",
+      "committer_date": "2026-09-20T15:50:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bb9c406679d9ca5e1b87aa7e90bb48388594afa",
+      "message": "feat(safety): support OS recycle bin, deletion audit logging, and reference rollback with preview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T15:40:33Z",
+      "committer_date": "2026-09-20T15:40:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e52c9693901fbc8b1888a36d0542fb0a4477f55",
+      "message": "fix(dialog): prevent confirm modal occlusion behind deduplicate view with teleport and z-index hierarchy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T13:33:29Z",
+      "committer_date": "2026-09-20T13:33:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c5793e22bbaa29c59b897fb3f09aab4bcee5c7f",
+      "message": "fix(dedup): prevent asset loss with pre-delete double check and live ref sync",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T13:21:06Z",
+      "committer_date": "2026-09-20T13:21:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2e4f99bfcad38af9296efab999c9f3341ea1a1d",
+      "message": "fix(assets): align unused asset detection with kernel rules and protect companion files",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-20T12:25:58Z",
+      "committer_date": "2026-09-20T12:25:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e95909aea6d756a7e2c52d08b93100883871a176",
+      "message": "fix(av): resolve database attribute view references and sync renames",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T12:43:10Z",
+      "committer_date": "2026-09-17T12:43:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4413a0ef9662443f905d3f64e4c0d7d67b3fc575",
+      "message": "refactor(reedit): eliminate block attribute writes and unify image menu label",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T08:40:44Z",
+      "committer_date": "2026-09-17T08:40:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18fbb95b2d06bb7df1a017ba9c48f9b34a706f60",
+      "message": "feat(reedit): implement asset-centric sidecar metadata and prevent cascade orphan deletion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T08:24:35Z",
+      "committer_date": "2026-09-17T08:24:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9341153b2c7ee2f0e171ee55e292fff21372ba3f",
+      "message": "v1.1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T04:33:02Z",
+      "committer_date": "2026-09-17T04:33:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25f3046c60bdbfa313cb14507aba5f2f8a413a55",
+      "message": "chore(build): repackage after replacement-boundary and doc-path fixes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T00:50:40Z",
+      "committer_date": "2026-09-17T00:50:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f457c7b670ba2f19375ce3109b7b42ffad64f96",
+      "message": "fix(assets): guard replacement boundaries, clean paired media, and populate doc paths",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T00:50:32Z",
+      "committer_date": "2026-09-17T00:50:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9fa34ca8102c3d351954891ddc8d2f59ffa1a40",
+      "message": "chore(build): repackage after reference-document counting fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T09:58:16Z",
+      "committer_date": "2026-09-16T09:58:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8af79b9c73aa22b64f613ae7b53855e164e08a19",
+      "message": "fix(ui): stop counting reference blocks as referring documents",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T09:58:16Z",
+      "committer_date": "2026-09-16T09:58:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "514c74941102ce3ab0a2e5e2cb3c8f7254f76484",
+      "message": "chore(build): repackage after quoted-path and embedded-media fixes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T09:39:50Z",
+      "committer_date": "2026-09-16T09:39:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "473ad95a13aaa019f3fa1deacb77fe64a3bd352d",
+      "message": "fix(asset-markdown): stop truncating quoted paths and remove embedded media cleanly",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T09:19:27Z",
+      "committer_date": "2026-09-16T09:19:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54b74d9f8f164db152c2f7afd24ade465a1ddd17",
+      "message": "chore(build): repackage after decoupling utils from the app root",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T04:53:53Z",
+      "committer_date": "2026-09-16T04:53:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d270b758a56f518809b464debbd17bca7522e1e",
+      "message": "refactor(utils): decouple util modules from the Vue app root",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T04:53:52Z",
+      "committer_date": "2026-09-16T04:53:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a88520caa3a5d1b660e6786ea7769d8745aad3d",
+      "message": "chore(build): repackage plugin with the real tui-image-editor build",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T04:39:18Z",
+      "committer_date": "2026-09-16T04:39:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db9bc43de45cea4694a51f6f8f33d374d5168bdd",
+      "message": "fix(assets): correct reference detection, doc counting, and lookup SQL",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-16T04:39:16Z",
+      "committer_date": "2026-09-16T04:39:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a17134a094ffea2bc7ba6796ee24225f615e2537",
+      "message": "feat(preview): support hover preview for MP4 video and MP3 audio assets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-15T14:43:11Z",
+      "committer_date": "2026-09-15T14:43:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ea7ee2df9bf55ab2fbe53ad2d8a2e6a70585cd8",
+      "message": "feat(list,settings): support previewing image on thumbnail hover and set openInTab enabled by default",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-15T13:25:06Z",
+      "committer_date": "2026-09-15T13:25:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6337554944be70c044867c31c9f4597761af23a6",
+      "message": "fix(assets): protect referenced original images from orphan detection and cleanup",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T14:07:43Z",
+      "committer_date": "2026-09-14T14:07:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b48ff69e027d59d609af8d75229154885d55375",
+      "message": "feat(editor): deduplicate edited filename timestamp, iconize destructive actions, and protect extension in rename",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T13:37:30Z",
+      "committer_date": "2026-09-14T13:37:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ecc2a2efa02b1bc53ae35577cba713079216e6c2",
+      "message": "fix(editor): support targeted in-place refresh, bust preview cache, and preserve doc links",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T13:13:54Z",
+      "committer_date": "2026-09-14T13:13:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cef656e49fe7fe0ca641b6fd0f482e3f4efe3947",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T11:09:38Z",
+      "committer_date": "2026-09-13T11:09:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03ae551663954e57969e8cc728c596d2bffabe1a",
+      "message": "fix(editor): 彻底根治打开与退出图片编辑器时宿主底部出现灰色方块的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T07:54:18Z",
+      "committer_date": "2026-09-13T07:54:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6aba9e5d4d66eefd027c95db71e25d9209eface7",
+      "message": "chore(release): prepare plugin for Bazaar submission with WebP assets and preflight compliance",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T06:23:59Z",
+      "committer_date": "2026-09-13T06:23:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b77f099099fd33e5e15c7d8bc01a5490dd882fa",
+      "message": "docs: 重构 README 从用户使用场景与价值出发介绍插件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T05:38:05Z",
+      "committer_date": "2026-09-13T05:38:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "593786560a2693478784b34ccdd20dfd68062cd6",
+      "message": "feat(settings): support customizing image editor toolbar tools with icon preview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T04:10:17Z",
+      "committer_date": "2026-09-13T04:10:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0190178e237ec465136b2cc6a6f88e479d019d68",
+      "message": "feat(editor): default to crop menu when entering image editor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T03:48:34Z",
+      "committer_date": "2026-09-13T03:48:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2ab7bfe88f9063c128d32aedd2c80a7465a0cb9",
+      "message": "fix(tab): 修复自定义页签注入 Vue 实例引发循环引用报错且无法关闭的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T01:01:35Z",
+      "committer_date": "2026-09-13T01:01:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f0d49ea19bcbd5613b44df56f39d5c4a81250e9b",
+      "message": "feat(settings): 优化设置页排版为宽屏卡片式布局并新增页签打开开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T08:29:16Z",
+      "committer_date": "2026-09-05T08:29:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68e65ab46bc9784e6e08b1ed8cbf87d12fb70ac4",
+      "message": "fix(editor): 集成最新版 tui.image-editor 并优化工具栏样式隔离",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T14:35:06Z",
+      "committer_date": "2026-09-03T14:35:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8337ed1aa194274e4f031f2b1399bdebc716d26f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T09:59:38Z",
+      "committer_date": "2026-08-30T09:59:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf56125540fa4e555586d5243754be541e9e9b8c",
+      "message": "feat(dedup): support maximized image mode in comparison dialog",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T09:50:35Z",
+      "committer_date": "2026-08-30T09:50:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d74137bc573df048fc8b7e30981834976b37be8",
+      "message": "feat(dedup): support deduplicate result persistence, instant cache load, and manual refresh analysis",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T09:19:25Z",
+      "committer_date": "2026-08-30T09:19:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "669d63f95a7b401a83b6a6e3d86ed0aeccd0dddd",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T09:06:36Z",
+      "committer_date": "2026-08-30T09:06:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ae0513ec4e805bb150e1016d8a8673a4ff7c38d",
+      "message": "feat(dedup): support asset deduplication, image comparison, and normalization with readable doc paths",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T09:05:34Z",
+      "committer_date": "2026-08-30T09:05:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f15a14e73ac591c5ebdbdbf59d1ad570b3f5e407",
+      "message": "feat(manager): support top category statistics cards and orthogonal filtering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T08:42:27Z",
+      "committer_date": "2026-08-30T08:42:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d25d87b0d5ab3969de0086ccf74f0d099b63c24c",
+      "message": "feat(manager): support multi-selection batch delete and sort by updated time",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T06:50:17Z",
+      "committer_date": "2026-08-15T06:50:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4f3ded9c9c0c2e5c96bb63f78b87978cd264fb6",
+      "message": "feat(assets): support original assets display, filter, unified cleanup, outline indicators, and size fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T06:39:54Z",
+      "committer_date": "2026-08-15T06:39:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3bdca957083ab625620da08cd6bf62673b45c04",
+      "message": "refactor: 解耦业务工作流、修复图标展示Bug、分拆编辑器逻辑与精简API",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T05:58:19Z",
+      "committer_date": "2026-08-15T05:58:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cdd59d5ce0c906d4dfaa8855b604d1f2695a39e5",
+      "message": "feat(editor): 支持图片二次编辑、图层无损还原、属性提取与元素重编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T03:03:24Z",
+      "committer_date": "2026-08-15T03:03:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25c28d2596c6ce14273bc90af0e9e04bac70ae44",
+      "message": "fix(editor): 隔离图片编辑界面的快捷键冒泡，防止激活思源笔记撤销",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-06T13:02:21Z",
+      "committer_date": "2026-08-06T13:02:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b95b9e02f784f3ef7bfd68c5f09075b9facb4a93",
+      "message": "fix(editor): 保存未生效裁剪时自动清除裁剪框预览效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T12:57:03Z",
+      "committer_date": "2026-08-01T12:57:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e81f2a1b2b111ef51a00ddcd9caabdc1451bf85b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T09:52:56Z",
+      "committer_date": "2026-08-01T09:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33d75ab3a34950e37428eeb93a9361ae79b9919e",
+      "message": "fix(editor): 修复图片编辑保存分辨率与透明切边及大图保存问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T09:52:44Z",
+      "committer_date": "2026-08-01T09:52:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5df77148e3747970546d3c99a6eec81c0c9d7ca1",
+      "message": "fix(logger,setting): disable console logs when logging is off & auto-save settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T09:08:23Z",
+      "committer_date": "2026-08-01T09:08:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87aaf31144fb691b0a9cb94e49e5b9585204c742",
+      "message": "feat(image-editor): 升级集成最新版 tui.image-editor 并开启全部新增工具特性与补全中文本地化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T08:58:55Z",
+      "committer_date": "2026-08-01T08:59:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a73cb1feb88bbc04e089bf00f45ba6f889e2856e",
+      "message": "fix: resolve need bind plugin warning due to early logger calls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T01:47:25Z",
+      "committer_date": "2026-07-12T01:47:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d7d895e44b750facdd08035e1a6ee213951a583",
+      "message": "feat: 设置页增加开启日志打印选项，默认关闭，重构控制台日志输出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-11T02:27:15Z",
+      "committer_date": "2026-07-11T02:27:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70134003ede82c96158f91b93bce5d850967d428",
+      "message": "feat: 增加删除原文件提示配置项及联动删除逻辑，修复单元测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-11T02:21:49Z",
+      "committer_date": "2026-07-11T02:21:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e99c92d774871d8c3742a8f6723994a9970a6ea",
+      "message": "feat(assets-manager): 打开文档时添加 cb-get-context 以显示全文并简化引用数列标题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-11T01:38:45Z",
+      "committer_date": "2026-07-11T01:38:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "153d91879146c6d7c26fa86c0b3845cd323b8fad",
+      "message": "style: remove inactive sort icons & fix button hover color mismatch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-11T01:33:41Z",
+      "committer_date": "2026-07-11T01:33:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6850930e11fdd7fd05f02d3cb5516e77373f3bb",
+      "message": "fix(dialog): 兼容提取 ESM 默认导入的 ImageEditor 构造函数",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-10T14:43:21Z",
+      "committer_date": "2026-07-10T14:43:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8074d49c6e2147c6dd5217cbc2d2ae57ec6d8f59",
+      "message": "feat(assets-manager): simplify ImageEditorDialog Vue integration to leverage native tui.image-editor annotation componen",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-06T16:23:47Z",
+      "committer_date": "2026-07-06T16:23:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16174d0b5f87bb0c15e3e0edb311392a9ac37534",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-06T16:13:17Z",
+      "committer_date": "2026-07-06T16:13:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1b8310c828819ead2fc554287a058ca30354481",
+      "message": "style: 优化图片编辑器对话框的自定义子菜单、样式及滑块，并重新打包发布",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-06T16:11:30Z",
+      "committer_date": "2026-07-06T16:11:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7304be4f492352a7b9f5b8efdc091dae94dab7f3",
+      "message": "feat: add single and double-headed arrow options for brush and line drawing tools",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T11:50:55Z",
+      "committer_date": "2026-06-21T11:50:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfc8c14bbbf947c6e5a19229035bb1eb9e7a9a5c",
+      "message": "fix(editor): 序号生成后取消其选中状态，以支持连续点击连续生成序列",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:51:13Z",
+      "committer_date": "2026-06-21T10:51:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19fd84668a589cceca20cb6f2edc39301c08abff",
+      "message": "fix(editor): 优化点击空白处取消选中时的序号拦截逻辑，基于选择清除事件时间戳判断",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:48:05Z",
+      "committer_date": "2026-06-21T10:48:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "02d2e8cfebfc946459d68b9434f11b581c9f7cc0",
+      "message": "feat(manager): 支持点击窗口外遮罩层区域关闭资源管家窗口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:45:52Z",
+      "committer_date": "2026-06-21T10:45:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "354e2da876398d8cf01f068e5fee0038e1d8eaa0",
+      "message": "fix(editor): 优化在有选中对象时点击空白区域只取消选择，不新增序号",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:44:34Z",
+      "committer_date": "2026-06-21T10:44:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ae4dae7b228b841c7748c6d88594a02dbcac839",
+      "message": "style(editor): 优化序号标注的拖拽生成逻辑与手柄样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:42:52Z",
+      "committer_date": "2026-06-21T10:42:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3f8094ce106ff4d25b3fe0b507f0a5a4cf07b01d",
+      "message": "style: optimize action bar icons and annotation panel styling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T10:32:56Z",
+      "committer_date": "2026-06-21T10:32:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8aa8aae6959b2960265f172ab96c6a8133760507",
+      "message": "feat: 默认选中裁剪工具而非滤镜工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T09:50:42Z",
+      "committer_date": "2026-06-21T09:50:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8bae8ab181a788794acc1ef4aabbcee57786d4b",
+      "message": "feat: 图片编辑器界面汉化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T09:48:30Z",
+      "committer_date": "2026-06-21T09:48:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53a72c22dd2be30ea998e5708c11de01eff1bfcb",
+      "message": "refactor: 重构资源管理逻辑并补充测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T09:43:58Z",
+      "committer_date": "2026-06-21T09:43:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a9df9eee190bbb172e76650429a2f6900440ce6",
+      "message": "feat: implement right-click image menu options (Edit, Rename) and unify global dialog logic",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T09:14:25Z",
+      "committer_date": "2026-06-21T09:14:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d12e8e153a084c32774b4efb031b7d5cbd8e4fc0",
+      "message": "style: 修改插件在顶部工具栏的图标为自定义 SVG",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T08:10:30Z",
+      "committer_date": "2026-06-21T08:10:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4efcd5c4dc42102f7e675cfe0c0c57491577256",
+      "message": "feat: 增加未引用资源清理与自定义重命名功能，修复图片编辑器下载报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T08:04:33Z",
+      "committer_date": "2026-06-21T08:04:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9540479b64fdd6b826c3a5c32984a930e9da9e07",
+      "message": "feat: 图片悬浮预览移入主容器 AssetsManager 定位以防溢出，且增大最大尺寸至 400px",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T07:42:49Z",
+      "committer_date": "2026-06-21T07:42:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11dbd98203570815072570b03275d0e557ab7d4b",
+      "message": "style: 优化图片悬浮预览尺寸比例自适应，并去除原生 title 提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T07:29:58Z",
+      "committer_date": "2026-06-21T07:29:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f88382f4118aed16e324bdd22d3ced1623678d5",
+      "message": "feat: 新增鼠标悬浮于图片文件名时的悬浮大图预览浮层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T07:21:24Z",
+      "committer_date": "2026-06-21T07:21:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "915dc2ed6781efc222327c1783b0abeef86aa54f",
+      "message": "feat: 优化资源管家 UI 与交互逻辑，实现后台定位与引用清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T07:18:59Z",
+      "committer_date": "2026-06-21T07:18:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66a41df85500082e469c3f1d97cb1f41d4db1ce6",
+      "message": "feat: enhance annotation tool UI and ensure absolute text centering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T06:54:32Z",
+      "committer_date": "2026-06-21T06:54:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd81ed62f459bda01bc1ce7af2308b15c1121496",
+      "message": "Initial commit for siyuan-assets-manager",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T04:42:53Z",
+      "committer_date": "2026-06-21T04:42:53Z",
+      "login": "famotime"
+    }
+  ]
+}

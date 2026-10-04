@@ -1,0 +1,294 @@
+{
+  "pushed_at": "2026-05-24T16:05:37Z",
+  "count": 32,
+  "commits": [
+    {
+      "sha": "714bf7168a6256d37982628a51261cd7f5ad8cf8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T16:05:30Z",
+      "committer_date": "2026-05-24T16:05:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04c7118b1f71bf9f1d303312c5f213eb8472c6eb",
+      "message": "feat: 处理记录面板 — 显示逐文档执行结果和结构化操作摘要",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T13:29:07Z",
+      "committer_date": "2026-05-23T13:29:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6147a1ee1216a8a9974bb87cd4af6a3cfc1bbf17",
+      "message": "feat: 工作流编辑器操作库分隔线支持左右拖动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T10:56:11Z",
+      "committer_date": "2026-05-23T10:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "376f4fd72438cfde0ac3cb64d83e4325dd24cee5",
+      "message": "feat: 集成图片快剪插件命令，泛化桥接模式支持多插件源",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T10:49:17Z",
+      "committer_date": "2026-05-23T10:49:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "094be208a7b92b5cd670d79234d132a8b0d1fecf",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:41Z",
+      "committer_date": "2026-05-23T06:41:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aeae552342583c12e4b450173350fe958b4e1614",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T13:38:27Z",
+      "committer_date": "2026-05-16T13:38:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b61ec1a6696433376a4ba86d2d46e951436ffea5",
+      "message": "refactor: 拆分工作流核心边界并补充文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T13:34:06Z",
+      "committer_date": "2026-05-16T13:34:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4b53cf9b4178bb2efb1d819b92209368b9603d3",
+      "message": "fix: 修复关联文档解析与命令能力刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T07:50:55Z",
+      "committer_date": "2026-05-16T07:50:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2b45605dccdfae4459dde5492e304106eeed429",
+      "message": "fix: 修复关联文档识别异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T06:53:22Z",
+      "committer_date": "2026-05-16T06:53:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c2c84f20fcc83837467463820ac6a38e54eb149",
+      "message": "feat: 增加重置按钮、允许删除预制工作流、修复保存即时刷新及范围 tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T06:11:46Z",
+      "committer_date": "2026-05-16T06:11:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f74f6936de2c87703bfb479baf11f52d0c146c04",
+      "message": "feat: 增加关联文档处理范围选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:54:17Z",
+      "committer_date": "2026-05-16T05:54:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30f8123a7f70edccd8093ad2a9b37ae80f84032e",
+      "message": "fix: 执行工作流前增加确认弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:53:32Z",
+      "committer_date": "2026-05-16T05:53:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e3f76934f8d797520c3dd0216b5571533d387e5",
+      "message": "feat: 打通 doc-assist 关联文档批量执行并增加范围警示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:46:33Z",
+      "committer_date": "2026-05-16T05:46:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f6178f5208c1329415ab85f8d7191b1f0e74842",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T14:50:14Z",
+      "committer_date": "2026-05-03T14:50:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a274c41f455906c1d5f13a053e2e1c9bed93775a",
+      "message": "feat: 侧面板增加「处理范围」标签和「全部导出」按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T03:28:57Z",
+      "committer_date": "2026-05-03T03:28:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1eb7ec61d366a3303eadd87328a0775fceba9c7",
+      "message": "refactor: UI 现代化重构与 doc-assist 桥接关键修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T01:15:55Z",
+      "committer_date": "2026-05-03T01:15:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9650c5d694841689efd68347bf59c76133ca4c3e",
+      "message": "fix: 修复 doc-assist 检测失败及设置页选项改为下拉菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T07:23:50Z",
+      "committer_date": "2026-05-02T07:23:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b9e2a69f9197c5c935d65b20fc0239d1c0ccebf",
+      "message": "fix: 使用 Setting.open() 自带弹窗，修复 targetElement 不存在",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T07:07:15Z",
+      "committer_date": "2026-05-02T07:07:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf23a85db720720edc6e0538e598b83a8b4b6b76",
+      "message": "fix: Dialog 从 siyuan 包直接导入，修复 window.siyuan.Dialog 不可用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:59:56Z",
+      "committer_date": "2026-05-02T06:59:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d7f0251866a199bea447f6ead4931fceb55d904",
+      "message": "fix: 接通设置页面、编辑器弹窗和执行反馈通知",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:56:12Z",
+      "committer_date": "2026-05-02T06:56:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1b92301eaea41b88279b96d53a0269b493aa51b",
+      "message": "feat: 更新插件元数据，siyuan-power-automate v0.1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:49:10Z",
+      "committer_date": "2026-05-02T06:49:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5df9acbf2f33da57ac6ae72dfd6ea20a8d26107b",
+      "message": "feat: 设置页面和 i18n 翻译",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:47:49Z",
+      "committer_date": "2026-05-02T06:47:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "529837486cb67d1104b14d333cfcdc8f59666b97",
+      "message": "feat: 插件入口生命周期，串联全部核心模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:45:39Z",
+      "committer_date": "2026-05-02T06:45:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ceab8f874f334a28d3cf1817f94d1f8c3ac021fb",
+      "message": "feat: 配置编辑器 UI（OperationLibrary + StepPipeline + WorkflowEditor）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:43:52Z",
+      "committer_date": "2026-05-02T06:43:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b25ef8846050033f6cc2f0cd9dfdbd606e032ab8",
+      "message": "feat: 侧面板 UI 组件（ScopeSelector + WorkflowButton + SidePanel）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:40:45Z",
+      "committer_date": "2026-05-02T06:40:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d73b70d6f9e6df902529ea163473ea970bacf01e",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:38:07Z",
+      "committer_date": "2026-05-02T06:38:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "126b1153cb4f7a84041a205723d8a3086a07643e",
+      "message": "feat: doc-assist 跨插件桥接层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:35:43Z",
+      "committer_date": "2026-05-02T06:35:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83015530b4d27a858eeda83d26ae250f2c99c75f",
+      "message": "feat: 内置操作定义和自定义操作引擎",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:34:50Z",
+      "committer_date": "2026-05-02T06:34:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a95631ace6eb05484b71c37f56b1ac034121139",
+      "message": "feat: Storage 存储层和预置工作流定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:32:42Z",
+      "committer_date": "2026-05-02T06:32:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c7a49c6784e7199c48b66778e544e21af71196e",
+      "message": "feat: OperationRegistry 操作注册表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:30:30Z",
+      "committer_date": "2026-05-02T06:30:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b91240add4d7f8bd69f6bc23f16ee24784f2a9e3",
+      "message": "feat: 添加 Vitest 和核心类型定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:28:58Z",
+      "committer_date": "2026-05-02T06:28:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61a5dddadf3d2852a86a2c4e649bfa0762e9fb17",
+      "message": "chore: 初始模板提交",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T06:27:21Z",
+      "committer_date": "2026-05-02T06:27:21Z",
+      "login": "famotime"
+    }
+  ]
+}

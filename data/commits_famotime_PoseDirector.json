@@ -1,0 +1,339 @@
+{
+  "pushed_at": "2025-06-02T03:57:04Z",
+  "count": 37,
+  "commits": [
+    {
+      "sha": "df4a3106db6100e3cc647bb2b2bbcdb00216f14f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T03:56:55Z",
+      "committer_date": "2025-06-02T03:56:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59a0c3faed528dba13e86407110aef4c3465a7c9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T03:53:09Z",
+      "committer_date": "2025-06-02T03:53:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "877e421227763722ca7b61ee9ce20c423cc8f34b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T03:37:35Z",
+      "committer_date": "2025-06-02T03:37:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6df83e5c01ebc7b741ed5b5bbb622fb2e79be091",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T03:02:20Z",
+      "committer_date": "2025-06-02T03:02:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "327cd59ffd4229233e71634382cc57e4d2950176",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T03:00:37Z",
+      "committer_date": "2025-06-02T03:00:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7686001be020e10020ea2a3290811d2bf57c7c19",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T02:41:45Z",
+      "committer_date": "2025-06-02T02:41:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5d7580aca2dfc4a5bff59e1c041d57e824e761e",
+      "message": "为 CameraScreen 添加姿势图标栏功能，支持横向滑动、图标选择及类别切换",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T02:20:09Z",
+      "committer_date": "2025-06-02T02:20:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b349213178cbf29ed0892e380c381766db6d3dc3",
+      "message": "更新个人资料页面，添加本地图片资源数组以替代网络图片，优化画廊展示效果，调整样式以提升用户体验。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T01:50:38Z",
+      "committer_date": "2025-06-02T01:50:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92b87a246856ace6987f85fe07a58bf2ddf279ee",
+      "message": "Merge branch 'main' of https://github.com/famotime/PoseDirector",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T01:27:44Z",
+      "committer_date": "2025-06-02T01:27:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30193eaa309790cd44111c0747f4ff8580c6b476",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T01:27:38Z",
+      "committer_date": "2025-06-02T01:27:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3532882d5947c0c6fe8bcc0a184694f555b4c705",
+      "message": "Update profile gallery photos",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T00:23:37Z",
+      "committer_date": "2025-06-02T00:23:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97d5ae933bc501ba7849c26f1159fe723909da60",
+      "message": "Updated profile.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T00:20:52Z",
+      "committer_date": "2025-06-02T00:20:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3f62b7b156b013ccbf35a2cf863f85100592c40",
+      "message": "Update profile image",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T00:20:51Z",
+      "committer_date": "2025-06-02T00:20:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de388b4642c0777b7350ddc783a25a24ec8983ec",
+      "message": "重构组件目录结构，将所有组件从 `components/` 迁移至 `src/components/`，更新相关导入路径，提升项目结构的统一性和可维护性。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T00:17:45Z",
+      "committer_date": "2025-06-02T00:17:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44eb5b09b2842fe6dca211762e52d734dd398fc1",
+      "message": "update pose icons",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T15:54:10Z",
+      "committer_date": "2025-06-01T15:54:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8597cb711087fccadae2b760371d8d7a92906c1b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T14:03:38Z",
+      "committer_date": "2025-06-01T14:03:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59db8c364c65c1d9df26acfec7ebce06b529de6c",
+      "message": "重构姿势库数据结构，使用本地图片资源替代网络图片；增加拍照按钮等其他界面优化；",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T13:51:51Z",
+      "committer_date": "2025-06-01T13:51:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16cba0467b3e3b3c8bf85c979705b00803c1f8a0",
+      "message": "删除过时文档，简化项目结构，提升代码可维护性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T12:44:48Z",
+      "committer_date": "2025-06-01T12:44:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a44b38e7e4fae76bb0b7df000c05c946c3c103ee",
+      "message": "重构组件样式，提升用户体验和界面一致性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T11:11:49Z",
+      "committer_date": "2025-06-01T11:11:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c506df9229e3cb51c5759b6666c2a1ff5703a92",
+      "message": "新增设计系统文档、实施指南和界面分析，优化PoseDirector组件及其样式，提升用户体验和界面一致性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T10:36:18Z",
+      "committer_date": "2025-06-01T10:36:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61eb5081d1b295682f54956ebfc947e056273886",
+      "message": "调整PoseFrame组件的图像大小，移除虚拟姿势线框样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T10:20:58Z",
+      "committer_date": "2025-06-01T10:20:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42f307f9563f61ae03019cb653d868d899f52b93",
+      "message": "优化PoseDirectorScreen布局，添加背景图像，调整PoseFrame组件样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T10:02:14Z",
+      "committer_date": "2025-06-01T10:02:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d4e1c9f1a68633f1df06331b86b686b971f33a2e",
+      "message": "更新姿势图标切换功能，添加背景图像",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T09:47:06Z",
+      "committer_date": "2025-06-01T09:47:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4882e3dac86cf01cea9a1e7161e67a3cda25c586",
+      "message": "增加姿势图标",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T08:50:31Z",
+      "committer_date": "2025-06-01T08:50:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8dced97cb8e64a8ba28210f630461a6972627dd2",
+      "message": "Merge branch 'main' of https://github.com/famotime/PoseDirector",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T08:17:31Z",
+      "committer_date": "2025-06-01T08:17:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "412b68be9d4d504860ebd632d4aa29a1efe6d5fd",
+      "message": "add icons",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T08:17:26Z",
+      "committer_date": "2025-06-01T08:17:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8081605812c39c9c99f5dbf290b2d48afa7d6b0",
+      "message": "Added 2e9f0a76-b868-49b4-8db1-33b5fe76cf9d.jpg",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T07:15:53Z",
+      "committer_date": "2025-06-01T07:15:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1666235ea7266cd0e75bff914879707612f9c640",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T07:12:13Z",
+      "committer_date": "2025-06-01T07:12:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41e34f9344b13e908beb5f1746832de86448528d",
+      "message": "Remove voice command button",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:37:38Z",
+      "committer_date": "2025-06-01T06:37:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea339e1d027b218f76ed82b95a223faadf1b531b",
+      "message": "Update PoseDirectorScreen layout",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:36:00Z",
+      "committer_date": "2025-06-01T06:36:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82e4a0c56784ef44ad9fb2c72b7d87529bf75d4b",
+      "message": "Added 2e9f0a76-b868-49b4-8db1-33b5fe76cf9d.jpg",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:28:01Z",
+      "committer_date": "2025-06-01T06:28:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c150ed368508be42daf152b779f8857739fdcd8",
+      "message": "Merge pull request #1 from famotime/master",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:27:07Z",
+      "committer_date": "2025-06-01T06:27:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89111a352d46b8161d275a3ff05e0ab6f597df6e",
+      "message": "新增“摄影师模式”功能，包含姿势引导、自动拍照开关及对齐度指示，优化交互体验。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:26:11Z",
+      "committer_date": "2025-06-01T06:26:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c1648ea231a721c0482cf40c11842783b6e01cd",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T06:15:18Z",
+      "committer_date": "2025-06-01T06:15:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6e8e501d69724c5c362ced2912a62531d3eface",
+      "message": "以本地文件为准解决合并冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T05:46:00Z",
+      "committer_date": "2025-06-01T05:46:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c928e0c5dc3ff6a0314e81cb88147b5b88638335",
+      "message": "本地初始化，保留所有本地文件",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T05:42:52Z",
+      "committer_date": "2025-06-01T05:42:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86e9cab3c27c93640a765332a83c46864abd2efd",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T03:56:24Z",
+      "committer_date": "2025-06-01T03:56:24Z",
+      "login": "famotime"
+    }
+  ]
+}

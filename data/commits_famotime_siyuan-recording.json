@@ -1,0 +1,186 @@
+{
+  "pushed_at": "2026-07-05T14:17:18Z",
+  "count": 20,
+  "commits": [
+    {
+      "sha": "4b21f9b39564d4bd199ebbb80c77285b7e68fc25",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T14:17:07Z",
+      "committer_date": "2026-07-05T14:17:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bfb698428dc5df488f5d6a74e5ce21c4c3e34cd",
+      "message": "refactor: 拆分录制回放核心逻辑并补充测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T10:47:05Z",
+      "committer_date": "2026-07-04T10:47:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b13ac3d6c9f488df5cd1f8095d8023e5fad09d6b",
+      "message": "feat: 取消 JSON 导入/导出，仅提供网页导入与导出并在 HTML 中无损嵌入元数据",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T07:33:32Z",
+      "committer_date": "2026-07-04T07:33:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3ecd1aa21dfa8b8930b6bd843144bff6fbe7486",
+      "message": "docs: 重构 README.md 为用户视角，并统一插件名称为心流手迹",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T07:27:33Z",
+      "committer_date": "2026-07-04T07:27:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "402e724e0877a9d5fd95ade69692a715e5dc2c08",
+      "message": "feat: auto pause playback when user begins mouse selecting text for copy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T07:05:47Z",
+      "committer_date": "2026-07-04T07:05:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e34e60fc09429700adcf43d208bb5ea464c76f8",
+      "message": "feat: implement Phase 2 Smart Clean pause-compression mode and sync with HTML exporter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T07:01:52Z",
+      "committer_date": "2026-07-04T07:01:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19fc577348f6c8238b3a58fea7898f7c60050a05",
+      "message": "feat: complete Phase 1 features including handwriting stats, WPM charts, HTML player exporter, and gradient speed heatma",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T06:59:39Z",
+      "committer_date": "2026-07-04T06:59:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c6cddd556e0c2a7a72478546ee07ce80d720bbf",
+      "message": "fix(ui): hide empty state placeholder in recording manager when history exists",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:24:00Z",
+      "committer_date": "2026-07-04T05:24:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca756927feb760079831a759fc185e0e891e234d",
+      "message": "fix(replay): create child doc under correct parent hpath instead of parent ID",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:21:43Z",
+      "committer_date": "2026-07-04T05:21:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab76556136cac25482f1c4ad615c5a168a4fb5a0",
+      "message": "chore: 更新构建包",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:21:11Z",
+      "committer_date": "2026-07-04T05:21:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8eff18d37592195a69b7e19da91ba225e06926c",
+      "message": "feat(icons): unify component icons using lucide-vue-next",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:19:18Z",
+      "committer_date": "2026-07-04T05:19:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f7a5cd8fb8e568d19008b41b9c04407d7504d6b",
+      "message": "feat(recorder): skip intermediate composition states (pinyin) to directly show Chinese in playback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:18:47Z",
+      "committer_date": "2026-07-04T05:18:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1bc2cd089b6cfa0d0c5f3af6086365eee1dd3bf8",
+      "message": "fix: 修复录制按钮悬浮反白问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T05:18:16Z",
+      "committer_date": "2026-07-04T05:18:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ba0a4c084b9898ec8fbf2f48e529c0b62ef9511",
+      "message": "feat: 播放录制时复用已有文档并将新文档创建为原文档的子文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:36:31Z",
+      "committer_date": "2026-07-04T01:36:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84d65df658f5d233597833d37d814e785466dba6",
+      "message": "fix: 利用高特异性选择器和亮度滤镜彻底解决 hover 时变白看不清的缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:26:52Z",
+      "committer_date": "2026-07-04T01:26:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab7ef0746d27725f847cf9b9c7790dd596f106c9",
+      "message": "fix: 去除状态栏提示，彻底隔离关闭按钮样式以消除悬浮反白问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:25:31Z",
+      "committer_date": "2026-07-04T01:25:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "420a18897c864c76815e28389aabc1762ac52204",
+      "message": "style: 优化播放控制栏，替换文字为图标，防折行并修复hover反白问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:23:28Z",
+      "committer_date": "2026-07-04T01:23:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3a5857effa76f1d2e1fe94f2e300c69bae5af39",
+      "message": "refactor: 取消回放控制栏完成按钮，合并保存逻辑至关闭按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:18:33Z",
+      "committer_date": "2026-07-04T01:18:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1aeabdad8ec5abb7e2c301ebf239e786e28a3d82",
+      "message": "fix: 修复右侧栏当前活动文档显示不正确及未即时刷新的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:10:35Z",
+      "committer_date": "2026-07-04T01:10:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2a89606b8cbd7c014ffbb13d32466044adc1d42",
+      "message": "init: Siyuan writing recording and playback plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-04T01:03:48Z",
+      "committer_date": "2026-07-04T01:03:48Z",
+      "login": "famotime"
+    }
+  ]
+}

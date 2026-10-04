@@ -1,0 +1,87 @@
+{
+  "pushed_at": "2026-10-01T01:23:39Z",
+  "count": 9,
+  "commits": [
+    {
+      "sha": "e877fb7a1550483ca8b7e6fe4ff26e04ff59e500",
+      "message": "feat(transport): 自动探测模式下发送失败支持自动重探测与重发",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T01:23:13Z",
+      "committer_date": "2026-10-01T01:23:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea70a0b2a3eaeb536759e70e60d2d5df8ca19910",
+      "message": "﻿fix(discover): 优化目标实例自动探测支持系统动态端口并增强鉴权容错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T12:59:16Z",
+      "committer_date": "2026-09-29T12:59:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb71278a1a4becc7d63cd77338fe14be47545ac6",
+      "message": "feat: update topbar item to transport current doc",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T07:22:38Z",
+      "committer_date": "2026-09-19T07:22:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "379b61b89e22db7f6904ec27ce4f5dacbc480d2b",
+      "message": "fix: 解决 HTTPS 下 Mixed Content 报错与同一端点双协议重复探测问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T14:46:07Z",
+      "committer_date": "2026-09-13T14:46:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "242984fcd97f75eb0c8e58cda18caff52b97a18e",
+      "message": "feat: 支持目标实例自定义保存路径并修复初次传送显示为兄弟文档问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T14:30:37Z",
+      "committer_date": "2026-09-13T14:30:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab70fea125bbc9a2195c718c992dc64d85701780",
+      "message": "build: update vite config to auto-detect webp icon and rebuild package",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T12:49:21Z",
+      "committer_date": "2026-09-13T12:49:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e4631625b8214295b9d3a3592a9f7e4cb32f4111",
+      "message": "feat: 设置页支持自动探测局域网/本机目标思源实例",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T12:40:44Z",
+      "committer_date": "2026-09-13T12:40:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e3622e0d2aa28306b66bd716051c4967b974d37",
+      "message": "feat: 支持文档菜单传送、自定义实例名称及更新 SVG 图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T12:30:11Z",
+      "committer_date": "2026-09-13T12:30:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61a34be6835ca1d8d8943f7e90bf445903d6b4cc",
+      "message": "feat: 重命名插件中文名为\"传送门\"并支持设置页自动保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T11:44:27Z",
+      "committer_date": "2026-09-13T11:44:27Z",
+      "login": "famotime"
+    }
+  ]
+}

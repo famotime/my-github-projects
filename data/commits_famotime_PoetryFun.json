@@ -1,0 +1,3435 @@
+{
+  "pushed_at": "2025-11-23T03:01:11Z",
+  "count": 381,
+  "commits": [
+    {
+      "sha": "cd7b62c0f194648b0000edffa7aec1d89baa7533",
+      "message": "feat(chat): 优化诗人卡片界面话题泡泡显示逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T03:00:28Z",
+      "committer_date": "2025-11-23T03:00:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b801fcf5199e776ac6e436f0942cf92179be21d",
+      "message": "feat(ai-poet-chat): 优化AI诗人聊天功能与问题生成逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T02:44:45Z",
+      "committer_date": "2025-11-23T02:44:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5717e5500d1287ce4ef51cedffc6531ff02b90dc",
+      "message": "feat(ai-poetry-recommendation): 更新推荐提示词构建逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T01:41:10Z",
+      "committer_date": "2025-11-23T01:41:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "430dad0e6fd5070aaec572202d6c65cf072c3d0a",
+      "message": "feat(ai-quiz): 完善AI测验功能设计与场景生成逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T01:19:39Z",
+      "committer_date": "2025-11-23T01:19:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2b4c8cec288bfa38a4f58c6607b651bfde73b53",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T00:32:31Z",
+      "committer_date": "2025-11-23T00:32:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd2475dea576b376450a7b03eaa3f5cc2e6de9f0",
+      "message": "feat(ai-video): 添加视频生成功能开关及提示文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-14T15:37:57Z",
+      "committer_date": "2025-11-14T15:37:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a7afe1492f52f58518ace65e3c4604f4ef3aaf6",
+      "message": "feat(ai-video): 添加视频封面动态效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-14T15:27:36Z",
+      "committer_date": "2025-11-14T15:27:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e5582b571108c827a0898c5eb8c7cedc4f4e073",
+      "message": "fix(video-generation): 修复视频生成失败问题并改进轮询逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-14T14:45:58Z",
+      "committer_date": "2025-11-14T14:45:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e915148fda04bb5dcb69f5ae5d98e211cce6d88",
+      "message": "feat(chat): 增强AI诗人聊天界面的话题功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-13T15:10:28Z",
+      "committer_date": "2025-11-13T15:10:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e5747b05e7e3b0f5252823e5e61d7aedc84ce09e",
+      "message": "优化数据处理逻辑，调整变量声明方式以提升代码可读性和一致性。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-03T17:02:20Z",
+      "committer_date": "2025-11-03T17:02:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e1fddbfa68edd14fea293d442d303dd3d80cc31",
+      "message": "修复诗词库页面选集类型显示问题，确保用户能够选择不同类型并默认选择“课本”。优化数据库加载逻辑，避免在数据库未完全加载时缓存空结果，增强缓存清理功能以提升性能。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-03T16:55:45Z",
+      "committer_date": "2025-11-03T16:55:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae7a8795e0deacae403cdbf28e2f742ebfec1ce4",
+      "message": "实现AI诗人聊天功能，允许用户与AI扮演的历史诗人进行对话。添加浮动问题泡泡和关键词展示，支持动态效果和响应式布局。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T15:17:52Z",
+      "committer_date": "2025-11-02T15:17:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a06386bccb4106c4a705b5b437ce979c53f10a23",
+      "message": "更新样式以提升用户体验，增加“AI创作”页签的动态效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T13:48:28Z",
+      "committer_date": "2025-11-02T13:48:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2df90c781c29c0bbfbcc9343168cedf4418a9d11",
+      "message": "增强诗词详情页的AI创作功能，添加动态效果和导航按钮。优化媒体创作面板，支持跳转至创作广场。更新样式以提升用户体验。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T12:06:13Z",
+      "committer_date": "2025-11-02T12:06:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b12e1ac0bd9c22e918506dbf3532cf0d5bda192a",
+      "message": "优化媒体生成和列表管理功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T11:34:59Z",
+      "committer_date": "2025-11-02T11:34:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "325488793eadb8245b40fb06052b3df82f2885af",
+      "message": "音乐创作功能和播放体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T11:17:14Z",
+      "committer_date": "2025-11-02T11:17:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30317f9096bfdd784bd002ca7fffcc2a5935a944",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T09:45:43Z",
+      "committer_date": "2025-11-02T09:45:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b56c0d2ac6d12121eff9ba4249031f901d0810a",
+      "message": "AI创作作品评分功能优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-02T09:44:52Z",
+      "committer_date": "2025-11-02T09:44:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6845e1817e24dee557d27bc115707b6a72ff1972",
+      "message": "对接MiniMax API，实现AI生图和生成音乐功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-01T14:09:51Z",
+      "committer_date": "2025-11-01T14:09:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "279b397d83a3f9404e714ce67574cf7aa8d7f8b7",
+      "message": "feat: 实现 AI 语音缓存功能，提升用户体验与性能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-31T13:11:45Z",
+      "committer_date": "2025-10-31T13:11:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb31d3408e8399d0c98bf69f5d912d8f4f35492a",
+      "message": "feat: 更新项目版本至 v2.2.0-dev，新增 AI 多媒体生成功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-29T14:44:42Z",
+      "committer_date": "2025-10-29T14:44:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08ecd5f41a37c026a5d75ee6370f84fa3699ca28",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-28T14:44:47Z",
+      "committer_date": "2025-10-28T14:44:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13c85a2a725699b040353180ac3c33014d3d4778",
+      "message": "feat: 在诗词详情页中实现可横向滚动的标签页，提升用户体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-28T14:26:40Z",
+      "committer_date": "2025-10-28T14:26:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79a218dce81c13818e0f8d5853d97cabc36ee82b",
+      "message": "fix: 修改首页成就卡片的尺寸和布局，确保在不同屏幕上更好地适应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-28T14:04:49Z",
+      "committer_date": "2025-10-28T14:04:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb6131bf9c01f0c05f9e634d0c2642d3db18de06",
+      "message": "feat: 添加成就通知动画功能，提升用户体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T09:29:31Z",
+      "committer_date": "2025-10-26T09:29:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cba016bc9f50078c8d2784d4d9d76e59210e553",
+      "message": "feat: 实现诗词数据缓存机制，提升加载性能和用户体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T09:29:01Z",
+      "committer_date": "2025-10-26T09:29:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41dd4d52cdfec952a81f39e933684593a536efbf",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T08:31:25Z",
+      "committer_date": "2025-10-26T08:31:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f2eefeb60a33d984fa8d3ec8ff435ca58e5d893",
+      "message": "docs: 更新等级图标功能说明，反映首页简化和个人中心增强",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T08:10:08Z",
+      "committer_date": "2025-10-26T08:10:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "608235387c37f1ed406fcabe96313d445b84c9bb",
+      "message": "refactor: 首页等级卡片移除图片，统一样式风格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T08:08:42Z",
+      "committer_date": "2025-10-26T08:08:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c14d9b8af23d31001743b0a76c451877693225d0",
+      "message": "docs: 更新等级图标功能说明，反映左右布局和尺寸配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T08:01:12Z",
+      "committer_date": "2025-10-26T08:01:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53e74dec69fec63ace01470e9a29f16359bec33d",
+      "message": "feat: 优化等级图标布局为左右排列，放大显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T07:59:50Z",
+      "committer_date": "2025-10-26T07:59:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc666374aee7b9f7b526de1cf4cf60a0c6d1a28e",
+      "message": "docs: 更新等级图标功能说明，反映大图展示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T07:56:34Z",
+      "committer_date": "2025-10-26T07:56:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a03c67efcfd9e71b332ada2b669e6f65f58d5cd",
+      "message": "feat: 优化等级图标展示，放大显示清晰大图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T07:55:05Z",
+      "committer_date": "2025-10-26T07:55:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d56dca5e8150bb6ccef2255a93e537f246e9eca",
+      "message": "docs: 添加等级图标功能说明文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T07:50:10Z",
+      "committer_date": "2025-10-26T07:50:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb90096b88447b13dd952bf72415751fe303b324",
+      "message": "feat: 添加等级图标展示功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T07:49:25Z",
+      "committer_date": "2025-10-26T07:49:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21af513b2e04b323401ac8b170a641ffa61ea5a4",
+      "message": "新增成就徽章图像设计文件及展示逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T06:45:51Z",
+      "committer_date": "2025-10-26T06:45:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b268df43c213de17787d8f9710cdb92a816f0db6",
+      "message": "解决”AI 朗读“未能识别登录用户问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T04:51:15Z",
+      "committer_date": "2025-10-26T04:51:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f7c48ad00d98e7d772b8a14366bb4f6e89bc501",
+      "message": "”AI 朗读“优先从数据库读取最佳音色历史记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T03:35:01Z",
+      "committer_date": "2025-10-26T03:35:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2097d93315e2aa97a59e2249fd9c2017f7e37ca0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-26T03:33:47Z",
+      "committer_date": "2025-10-26T03:33:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a976500807d4b6cdbe734fb536ec3727e932eca8",
+      "message": "“AI 朗读”增加自动匹配最适合音色功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-21T13:16:43Z",
+      "committer_date": "2025-10-21T13:16:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5d5ab61e605d23e33ccd482c82db5b5ffc52fc4",
+      "message": "新增”AI 朗读“功能（调用MiniMax API）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-19T08:02:35Z",
+      "committer_date": "2025-10-19T08:02:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b7eeea84f0eeec76bb44716761fbf2ed6992bb9",
+      "message": "解决留言提交失败问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-19T02:44:13Z",
+      "committer_date": "2025-10-19T02:44:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3206721a70330af1333fdaffe0a6ea647a5b5643",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-19T02:22:28Z",
+      "committer_date": "2025-10-19T02:22:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c82454e79dc786c99c1c42d6343ef85ebf6af23",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-21T06:59:08Z",
+      "committer_date": "2025-09-21T06:59:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1dc6b774070ee6061eb575db1024cb893bf3434e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-21T06:58:59Z",
+      "committer_date": "2025-09-21T06:58:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "648cf628e2c156665e7cd2ff5c638506780c6632",
+      "message": "Merge pull request #101 from famotime/feat/update-project-documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-21T02:52:11Z",
+      "committer_date": "2025-09-21T02:52:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7dddfb805a2a22b70f133b63541c57d3b26f500",
+      "message": "feat(docs): 更新项目文档并新增v2分析文件",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-21T02:49:02Z",
+      "committer_date": "2025-09-21T02:49:02Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "c507ca17fc010d455d491e6e2b1613bdd35576fe",
+      "message": "清理问题修复过程文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T13:11:46Z",
+      "committer_date": "2025-09-20T13:11:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b828d8c452a2e3d44494f96d03bb8193035ef636",
+      "message": "test: 增强PoetryComments组件测试，添加window.alert和useAuth的mock以支持用户认证和评论功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T13:11:00Z",
+      "committer_date": "2025-09-20T13:11:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3dca5068c2ec5a3f798b409c73204ea9792d4f15",
+      "message": "页面优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T13:10:51Z",
+      "committer_date": "2025-09-20T13:10:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad646cca4f899c5c66a354268672da47bca02a6b",
+      "message": "修复每日登录的报错问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T12:04:01Z",
+      "committer_date": "2025-09-20T12:04:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9622c0d1622e93be3c39b7fe8b90e2de8fd99d5",
+      "message": "修复AI 助记无法获取信息问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T11:20:03Z",
+      "committer_date": "2025-09-20T11:20:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f76cd010d592ff3c69049636ca51c54d2e2fff0b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T11:10:52Z",
+      "committer_date": "2025-09-20T11:10:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b32bbae86c5753cab83eeedd2e9dee474b0553b0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T09:23:54Z",
+      "committer_date": "2025-09-20T09:23:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13eef20f2723d60a89e445cf584ae0d65522fbb5",
+      "message": "feat: 添加AI测验功能，更新QuizSection组件以支持AI场景生成与评估，完善相关服务与类型定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T08:49:00Z",
+      "committer_date": "2025-09-20T08:49:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c7ca167798ef5b5fb62af180ce858473c841ada",
+      "message": "feat: 添加经验等级计算功能，更新用户统计服务和个人资料组件以支持新逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T02:55:48Z",
+      "committer_date": "2025-09-20T02:55:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da1d9555e35faa98dd5722b018d4c285cfd10e9c",
+      "message": "feat: 实现成就与徽章体系 v2.0，更新前端组件以支持新徽章分类和显示，添加相关工具函数和测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T01:29:27Z",
+      "committer_date": "2025-09-20T01:29:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf2f7d58918888d99182b073d58c447e04e4789e",
+      "message": "feat: 添加用户认证支持，确保评论和评分仅限登录用户，更新相关逻辑并完善测试覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-20T00:49:22Z",
+      "committer_date": "2025-09-20T00:49:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c636352ba273644ae2a1eb92b7d8fbc1f5bc3729",
+      "message": "refactor: 统一类型定义，更新多个组件和服务以使用新的类型，消除重复定义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-19T13:51:08Z",
+      "committer_date": "2025-09-19T13:51:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4893cd90a5c6d0ea6b94511da9ca416008c2b343",
+      "message": "feat: 重构学习状态管理，合并 useUnifiedLearningProgress 和 usePoetryState 为 usePoetryLearningState，支持本地存储与 Supabase 同步，修复跨页面刷新问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-19T13:15:36Z",
+      "committer_date": "2025-09-19T13:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a12a942dda496a034010bd41457e3a29cb043d84",
+      "message": "清理过时的演示组件，移除 DatabaseDemo、ElementaryDemo 和 SimpleDemo，更新 App.tsx 路由配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-19T12:19:35Z",
+      "committer_date": "2025-09-19T12:19:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "daeeb1b687651f9210c03df3285f29860d0b4573",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-19T11:54:14Z",
+      "committer_date": "2025-09-19T11:54:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca1be6a370cf5e93b2188bd125b93bddc936434c",
+      "message": "Merge pull request #100 from famotime/codex/add-unit-test-coverage-for-poetryfun",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-19T03:41:53Z",
+      "committer_date": "2025-09-19T03:41:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d8ad917d7b60a0820833dc193abb4062f6f44a2",
+      "message": "test: 补充核心测试并增强诗词库可访问性",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-19T03:36:55Z",
+      "committer_date": "2025-09-19T03:36:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70c123b2dcae13b2a2028461d395559bc69e9942",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T15:57:47Z",
+      "committer_date": "2025-09-18T15:57:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e64615768c333c5b4ab6c36e34bc22ab68e858d6",
+      "message": "清理过时的supabase migration sql文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T15:35:02Z",
+      "committer_date": "2025-09-18T15:35:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2120b069a1b2ad054c8534f54490d6a50c3a5a40",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T15:06:48Z",
+      "committer_date": "2025-09-18T15:06:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d631243f1da894b9c80f1dfb2b92fbf1acfc08a2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T12:54:18Z",
+      "committer_date": "2025-09-18T12:54:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7951158f37be6c0a15e6689546c4de782553674d",
+      "message": "补充单元测试项目",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T12:09:29Z",
+      "committer_date": "2025-09-18T12:09:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59fd2cb30c7f281914848c61ffee8e7f5a4c3d8d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-18T12:09:02Z",
+      "committer_date": "2025-09-18T12:09:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23791eac542d99e931624ec5b7fbd348ba4b488a",
+      "message": "修复“连续学习”统计问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-17T14:51:43Z",
+      "committer_date": "2025-09-17T14:51:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a84c63670e72aa347436d1945efa898978375032",
+      "message": "Merge pull request #99 from famotime/docs/expand-achievement-system",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-17T12:23:50Z",
+      "committer_date": "2025-09-17T12:23:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e191e5c5062f7693c8296634e5b32898283ecd3b",
+      "message": "docs: Expand and document achievement system v2.0",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-17T12:21:57Z",
+      "committer_date": "2025-09-17T12:21:57Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "27eb306cafe7ce89d5bcae806548ccf13a52ccb2",
+      "message": "feat: Implement cache mechanism for recent activity and enhance force refresh functionality in Dashboard",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-14T03:00:27Z",
+      "committer_date": "2025-09-14T03:00:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b4437a0bd34b61b82655ba0931bd5ee33c096a1",
+      "message": "新增“诗词详情页”评论评分功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-14T02:38:43Z",
+      "committer_date": "2025-09-14T02:38:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ee7f15424b332eb54d100f7df5d8515c3742231",
+      "message": "feat: Update default expansion states for study plan components",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-14T01:42:17Z",
+      "committer_date": "2025-09-14T01:42:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a2d81424afd49d81d7d5c9883a30bd071f50e43",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T15:03:53Z",
+      "committer_date": "2025-09-12T15:03:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "540ee272b20966c77f4b5c50075c6997a74cac81",
+      "message": "feat: Enhance answer validation logic in quiz and verse game",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T15:00:31Z",
+      "committer_date": "2025-09-12T15:00:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc841c4e73c3c22aa85b53bad967bb5ff73b3107",
+      "message": "清理过时测试文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T14:45:37Z",
+      "committer_date": "2025-09-12T14:45:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9108e5951bac672cc3ee9923686c2be678d27599",
+      "message": "朗读速度优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T14:36:35Z",
+      "committer_date": "2025-09-12T14:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ccf9b91ffd119b4f95f577428e5f7d7e662488d",
+      "message": "修复AI推荐相关诗人卡片弹窗位置问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T14:23:55Z",
+      "committer_date": "2025-09-12T14:23:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9fef0feed2e6ac44b5b94888a9c8454ef96c793",
+      "message": "诗词挑战记录样式优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T14:08:45Z",
+      "committer_date": "2025-09-12T14:08:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abce029c67cfb5a919fd66fc6946ea169eeb9fc5",
+      "message": "显示所有历史留言",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T13:42:33Z",
+      "committer_date": "2025-09-12T13:42:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2156e4815ddfbd508d293138f0cb234018909707",
+      "message": "修复“诗词等级大挑战”数据无法记录问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-12T13:31:13Z",
+      "committer_date": "2025-09-12T13:31:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bbf5330e4ecf4b2aede8fc763ae70e5ad97ce1ef",
+      "message": "Merge pull request #98 from famotime/feature/create-prd-document",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-12T08:45:25Z",
+      "committer_date": "2025-09-12T08:45:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee2387661fe28e5a086a1e94cc887ede730f4119",
+      "message": "feat(docs): Create PRD.md from todo list",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-12T08:44:33Z",
+      "committer_date": "2025-09-12T08:44:33Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "15b4e12c51567ff38da486464627ef453a88e13d",
+      "message": "Merge pull request #97 from famotime/fix/login-data-reload",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-12T07:49:26Z",
+      "committer_date": "2025-09-12T07:49:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f6a014b88eefb8bec59f4d721ca3e80c12df5476",
+      "message": "feat: Prevent full data reload on login",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-12T07:47:40Z",
+      "committer_date": "2025-09-12T07:47:40Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "184c680cff0a282a1c505ce7307f80948778846b",
+      "message": "Merge pull request #96 from famotime/feat/quiz-history",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-12T07:42:18Z",
+      "committer_date": "2025-09-12T07:42:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "45eb9c2fc944e4e40ea5f32f3a12eed8ca4e3bca",
+      "message": "feat: display quiz history on quiz page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-12T07:39:51Z",
+      "committer_date": "2025-09-12T07:39:51Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "43f97b83cabdf8d38d6cdbdf50119966f500d253",
+      "message": "修复登录用户AI推荐每日次数不正确问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-11T15:35:24Z",
+      "committer_date": "2025-09-11T15:35:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a74482f170da9c91e78a08605bbe4b6650efa0b",
+      "message": "定位”诗词等级大挑战“无记录问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-11T15:12:14Z",
+      "committer_date": "2025-09-11T15:12:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0405670163681a981b56dfae28e35868311cdc52",
+      "message": "修复学习记录数据不一致问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-11T13:34:20Z",
+      "committer_date": "2025-09-11T13:34:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e50113c44b92a8e8f04e5150401a4550af62628",
+      "message": "修复时区字段导致的无法更新诗词学习状态问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-11T13:20:53Z",
+      "committer_date": "2025-09-11T13:20:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5756e49e59d2f5bf1b5bc7b8ae26f514c1a44d2f",
+      "message": "Merge pull request #95 from famotime/fix/dashboard-refresh-on-learn",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-11T03:22:35Z",
+      "committer_date": "2025-09-11T03:22:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2eb14d9894762c7b975f5288af07e78a6f3e4ba",
+      "message": "Merge pull request #94 from famotime/fix/profile-page-issues",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-11T03:22:16Z",
+      "committer_date": "2025-09-11T03:22:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f11c24a0d8e8f3fa0b664d99b41160c8fe2fd27",
+      "message": "feat: Refresh recently learned on dashboard",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-11T03:21:24Z",
+      "committer_date": "2025-09-11T03:21:24Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "f8213187d8cbb39cb3939c834aaa75e02631c742",
+      "message": "Fix: Resolve multiple issues on Personal Center page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-11T03:20:53Z",
+      "committer_date": "2025-09-11T03:20:53Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e53ce8c23fe61fb4c41a4b95ebd508ee52d6be79",
+      "message": "Merge pull request #92 from famotime/fix/profile-page-issues",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-11T02:50:31Z",
+      "committer_date": "2025-09-11T02:50:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b87f225efe09ce31c169b6a5d1e6d7c80f4a4ebb",
+      "message": "Fix: Resolve multiple issues on the Personal Center page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-11T02:47:52Z",
+      "committer_date": "2025-09-11T02:47:52Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "ac7254fb9065376ec786a13d645384fbd960ad6c",
+      "message": "Merge pull request #91 from famotime/fix-data-sync-issue",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-11T01:30:01Z",
+      "committer_date": "2025-09-11T01:30:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89bbe52e1235ad6aa8372dfce391b078d4ba09aa",
+      "message": "fix: Ensure pages refresh after initial data load",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-11T01:29:10Z",
+      "committer_date": "2025-09-11T01:29:10Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "b49a9a62637f61bb2647b35814828c4b5b3b83f5",
+      "message": "Merge pull request #90 from famotime/feat/display-poetry-challenge-record",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T15:27:32Z",
+      "committer_date": "2025-09-10T15:27:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93d497216d07c3925162f846fe1654e7f4f81ffc",
+      "message": "feat: Display poetry level challenge record on profile page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T15:26:21Z",
+      "committer_date": "2025-09-10T15:26:21Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a82b833688ef9e0e2b06ce258fc8c04a5212369d",
+      "message": "修复游戏诗词范围和操作问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-10T15:17:30Z",
+      "committer_date": "2025-09-10T15:17:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62074a64a608a298f11fb8d6f49be6c016d00457",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-10T14:42:25Z",
+      "committer_date": "2025-09-10T14:42:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8191da50ccdf9e17705e251bef0573a2f247a36b",
+      "message": "Merge pull request #89 from famotime/feat/poetry-level-challenge",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T14:39:49Z",
+      "committer_date": "2025-09-10T14:39:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "325dc59cefb01a7c165a1627aa10468ed813ef85",
+      "message": "fix: Correct work type filtering for Level Challenge",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T14:39:03Z",
+      "committer_date": "2025-09-10T14:39:03Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "0e04b5b090319c35315da9a042873c5954589fcf",
+      "message": "Merge pull request #87 from famotime/feat/poetry-level-challenge",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T14:11:23Z",
+      "committer_date": "2025-09-10T14:11:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a41e4377a7783781771e3ab8d76e1c7f836b1f5",
+      "message": "Merge pull request #88 from famotime/fix-poet-modal",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T14:11:08Z",
+      "committer_date": "2025-09-10T14:11:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9216849c182e7fe43090f5f47d13c6e6369d6e7",
+      "message": "Fix: Poet modal in AI recommendations",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T14:06:58Z",
+      "committer_date": "2025-09-10T14:06:58Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "824821037043a234a55d25c412a11efbd6502412",
+      "message": "feat: Add 'Poetry Level Challenge' mode to Quiz",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T14:05:51Z",
+      "committer_date": "2025-09-10T14:05:51Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "3779391be5716b57061d942610bafcabc9641b6e",
+      "message": "Merge pull request #86 from famotime/fix-streak-calculation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T13:58:20Z",
+      "committer_date": "2025-09-10T13:58:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f82d5039a6bb7558cc5bee6f85c5c3ce3fa9ca88",
+      "message": "The consecutive learning streak was not incrementing correctly because it was tied to `study_records` (specific learning",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T13:56:17Z",
+      "committer_date": "2025-09-10T13:56:17Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "ce1a01cf786cad5bd147a630930bb52b3e693fb7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-10T13:26:11Z",
+      "committer_date": "2025-09-10T13:26:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5003563b54dbe66cb60d39e075d08a3811332393",
+      "message": "Merge pull request #85 from famotime/feat/generate-db-docs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T11:58:35Z",
+      "committer_date": "2025-09-10T11:58:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a84780b950d5dfa355ecaf71168bac4049e5ae5",
+      "message": "feat: Add script to generate database documentation",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T11:58:15Z",
+      "committer_date": "2025-09-10T11:58:15Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "0e794cc8d39261da3bcac84017f9d386e1fcd74a",
+      "message": "Merge pull request #84 from famotime/feature/center-poet-modal",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T04:16:47Z",
+      "committer_date": "2025-09-10T04:16:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e779a7476d3a949908238a2fb4a3a991a5400ce0",
+      "message": "Refactor: Center the author detail modal",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T04:06:28Z",
+      "committer_date": "2025-09-10T04:06:28Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "2f71cbd7aaa6cc1f659bff0b2f6a7e6a8c89ee1c",
+      "message": "Merge pull request #83 from famotime/feat/homepage-ux-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T03:29:21Z",
+      "committer_date": "2025-09-10T03:29:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e0c9490db88138787362222223f6d4a7d1e7fae",
+      "message": "feat: Implement homepage UX and data loading optimizations",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T03:26:12Z",
+      "committer_date": "2025-09-10T03:26:12Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e5307dcfad45844d0a799edc37da14a24f84d022",
+      "message": "Merge pull request #82 from famotime/feature/review-plan-optimisation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T03:25:04Z",
+      "committer_date": "2025-09-10T03:25:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6feb5ef4f16e976cca66f5400c782990e0f525a",
+      "message": "refactor(review-plan): Optimize state management and fix UI flickering",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T03:22:18Z",
+      "committer_date": "2025-09-10T03:22:18Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "ae085c33925b4c6bdf376d747c240c94643bcb79",
+      "message": "Merge pull request #81 from famotime/fix/randomize-poetry-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T03:08:57Z",
+      "committer_date": "2025-09-10T03:08:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b93a524f034ebd79423101b0e615cc6b8a88073",
+      "message": "Revert: Revert incorrect useCallback dependencies in usePoetryMatchGame",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T03:08:39Z",
+      "committer_date": "2025-09-10T03:08:39Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "db1ee9812587d35f2cfe354a3c5b71d314d517d7",
+      "message": "Merge pull request #80 from famotime/fix/randomize-poetry-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-10T02:47:19Z",
+      "committer_date": "2025-09-10T02:47:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "839bd02ad16594af4624eec1872cf731905c4c8f",
+      "message": "feat: Randomize poems in Poetry Match game on restart",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-10T02:46:24Z",
+      "committer_date": "2025-09-10T02:46:24Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "242ecb91008bffce71d5e42eef45399bd659ad08",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T16:26:08Z",
+      "committer_date": "2025-09-09T16:26:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "feac71be413b71c5a26de37bdb18721f379bd7a6",
+      "message": "复习计划中的状态更新问题处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T15:51:45Z",
+      "committer_date": "2025-09-09T15:51:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "133b724ccf82fff1c62362e97f4a8321772f9218",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T14:18:53Z",
+      "committer_date": "2025-09-09T14:18:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2ef0b7d636a4e2f15324b7bea1c10152f59a2976",
+      "message": "复习计划功能修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T13:34:26Z",
+      "committer_date": "2025-09-09T13:34:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d5c99ce1fe98dddf10b53b26b5c8a77203ac934",
+      "message": "优化AI推荐的诗人卡片弹窗位置问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T13:17:25Z",
+      "committer_date": "2025-09-09T13:17:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a16afb6990bf41ef3d369db0a9d324aeb9522e2e",
+      "message": "游戏排行榜数据显示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-09T12:57:49Z",
+      "committer_date": "2025-09-09T12:57:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d250f3bca73821267aeb065abb1aa3981704e57",
+      "message": "Merge pull request #79 from famotime/feat/incremental-loading",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T10:58:13Z",
+      "committer_date": "2025-09-09T10:58:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "555e648b9e26c7de445be4f4a9d31f616978c479",
+      "message": "feat: Implement incremental loading for initial data",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T10:57:39Z",
+      "committer_date": "2025-09-09T10:57:39Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "c33a97b5001f99168e4027e903875adc8a1a1429",
+      "message": "Merge pull request #78 from famotime/feature/optimize-mobile-padding",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T09:54:53Z",
+      "committer_date": "2025-09-09T09:54:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "956b2f1370da7ab597068735bc270a9af1280f07",
+      "message": "feat: Add author detail modal to AI Recommendation page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T09:53:59Z",
+      "committer_date": "2025-09-09T09:53:59Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "697afb8511480133ec471d4855a3a9877d1fab93",
+      "message": "feat: Add author detail modal to AI Recommendation page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T08:52:42Z",
+      "committer_date": "2025-09-09T08:52:42Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "b768deecb70b27d99725c75f319a7d77a43e6c58",
+      "message": "Merge pull request #77 from famotime/feature/optimize-mobile-padding",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T08:06:22Z",
+      "committer_date": "2025-09-09T08:06:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00c925c1daefcf3735c1d4e05d5730b50582737d",
+      "message": "style: Reduce padding on mobile to improve layout",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T08:05:41Z",
+      "committer_date": "2025-09-09T08:05:41Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "14b85cbfcec1de4524c558142d9b009b6bd0e1ab",
+      "message": "Merge pull request #76 from famotime/feature/optimize-review-plan",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T07:45:19Z",
+      "committer_date": "2025-09-09T07:45:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b868c259900676862d6e86f69447fc87891b6dc3",
+      "message": "feat: Optimize review plan feature",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T07:44:27Z",
+      "committer_date": "2025-09-09T07:44:27Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "df7cc76c5b8b8476745c13b7afbb0ecccdf091c5",
+      "message": "Merge pull request #75 from famotime/feature/game-leaderboard",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T07:19:43Z",
+      "committer_date": "2025-09-09T07:19:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44db7cd4efc1ceb76a1302f80436e1612ceac414",
+      "message": "refactor: Update leaderboard card background color",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T07:19:07Z",
+      "committer_date": "2025-09-09T07:19:07Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "28e43626561466f8405406a103a2709852d17488",
+      "message": "Merge pull request #74 from famotime/feature/game-leaderboard",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-09T07:03:26Z",
+      "committer_date": "2025-09-09T07:03:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ab2056f3cef40ab9503527d490b88747a0f057b",
+      "message": "feat: Add game leaderboard feature",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-09T06:54:58Z",
+      "committer_date": "2025-09-09T06:54:58Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "4fa19d83d31ad4e14868de1fa2a3d5986be900ca",
+      "message": "“AI 推荐”体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T16:08:58Z",
+      "committer_date": "2025-09-07T16:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8adb3194bca15bea1ca241cb468088486e56655f",
+      "message": "“诗词库”页面增加“AI 推荐”功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T15:22:03Z",
+      "committer_date": "2025-09-07T15:22:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec4e283fa1c13818fba9a74dce7fbddf6430ccb9",
+      "message": "优化导航栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T14:08:36Z",
+      "committer_date": "2025-09-07T14:08:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a718d459e341ce7ebcfbdcf7a764554088bfbbb6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T08:46:24Z",
+      "committer_date": "2025-09-07T08:46:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4982a97ec7a8cb9f1fdf4ac40933acfec401ea97",
+      "message": "修复”取消已学“诗词记录未同步问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T08:20:29Z",
+      "committer_date": "2025-09-07T08:20:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b07534698f89d7026f0619602f263cf32fbd8454",
+      "message": "“学习计划”界面优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T07:46:53Z",
+      "committer_date": "2025-09-07T07:46:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "634cca88a936228eb84ba51fb5fff1f090857801",
+      "message": "“学习记录”数据同步问题修复及体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T07:27:33Z",
+      "committer_date": "2025-09-07T07:27:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d270da9c55c3a28c68b9c1cd2209ae7e132941b",
+      "message": "增加“学习记录”栏目",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T06:39:31Z",
+      "committer_date": "2025-09-07T06:39:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c13d607fa495b93c17f92baaa69a4223ac949cdf",
+      "message": "修复诗词学习状态同步问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T04:30:32Z",
+      "committer_date": "2025-09-07T04:30:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d067d988b99f730f0d36bb132673db893ca498e",
+      "message": "学习计划优化体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T03:25:02Z",
+      "committer_date": "2025-09-07T03:25:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fa5d21c0d056a14e410e1fec83382709c881aee",
+      "message": "”学习计划“页面体验优化；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T03:07:08Z",
+      "committer_date": "2025-09-07T03:07:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c615ae8469ba459296909a42eae05bc36971ecf",
+      "message": "新增“学习计划”",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-07T01:35:26Z",
+      "committer_date": "2025-09-07T01:35:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ece7ccfcf13a4307a75ea06c2fa0ce89114d377",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T16:05:16Z",
+      "committer_date": "2025-09-06T16:05:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c58121c75139346fed9c3f3548f52980f53c2ca1",
+      "message": "Merge pull request #72 from famotime/feature/study-plan-page",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T15:54:55Z",
+      "committer_date": "2025-09-06T15:54:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f06b052e3c0f1e6f292610dd880d421aa8bbc9c3",
+      "message": "feat: Add Study Plan page with enhanced features",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T15:54:16Z",
+      "committer_date": "2025-09-06T15:54:16Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7cbf1f06639a34b5a73cbc45ec59c8599643bce3",
+      "message": "Merge pull request #71 from famotime/feature/study-plan-page",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T15:26:04Z",
+      "committer_date": "2025-09-06T15:26:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4398092296e8743728f243402202c5d1130e8bcf",
+      "message": "feat: Add Study Plan page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T15:25:18Z",
+      "committer_date": "2025-09-06T15:25:18Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "16ebfbec97b7d981bc98db2f513ae0408ae1571f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T15:12:51Z",
+      "committer_date": "2025-09-06T15:12:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f063336b7a85a8e9a34749a2b3ee31a3be3308b",
+      "message": "“消消乐”游戏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T14:46:53Z",
+      "committer_date": "2025-09-06T14:46:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8396c67e8d2210168c9fa77fe6d648afd18b8468",
+      "message": "增加各游戏记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T09:26:32Z",
+      "committer_date": "2025-09-06T09:26:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0feed2be0c486f1fcc1216bf81c12bdd6ae7eaaf",
+      "message": "新增“诗词消消乐”游戏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T08:41:02Z",
+      "committer_date": "2025-09-06T08:41:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c02fc6e16887a04add7088299751e79f1d140491",
+      "message": "Merge pull request #70 from famotime/feat/poetry-match-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T07:27:38Z",
+      "committer_date": "2025-09-06T07:27:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "590b83388beefd1cc4558fce10d92ea22e2e60d1",
+      "message": "feat: Add 'Poetry Match' (诗词消消乐) game and implement all feedback",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T07:27:19Z",
+      "committer_date": "2025-09-06T07:27:19Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7d22442fc9105ad1e7ad66b786dc9e4305beaf7f",
+      "message": "Merge pull request #69 from famotime/feat/poetry-match-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T07:21:59Z",
+      "committer_date": "2025-09-06T07:21:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b090327707660cd655a3e936dbd4796f4c4eeead",
+      "message": "feat: Add 'Poetry Match' (诗词消消乐) game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T07:21:34Z",
+      "committer_date": "2025-09-06T07:21:34Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a3e644464bc385b916cdf61a2e73daf947e184d7",
+      "message": "Merge pull request #68 from famotime/feat/poetry-match-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T07:04:22Z",
+      "committer_date": "2025-09-06T07:04:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8a611437280106622f2b4ac438a9bc8639e4d15",
+      "message": "feat: Add 'Poetry Match' (诗词消消乐) game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T07:03:38Z",
+      "committer_date": "2025-09-06T07:03:38Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "59aacacc0a8bc663e2ebcf968ce072b77aea611f",
+      "message": "Merge pull request #67 from famotime/feature/custom-quiz-from-detail-page",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T07:01:04Z",
+      "committer_date": "2025-09-06T07:01:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f911a29229c9a44274ec1419b5ced2279a75d8b6",
+      "message": "fix: Ensure unique verses are used for custom quiz questions",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T07:00:44Z",
+      "committer_date": "2025-09-06T07:00:44Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "79fadbeced165c30e8d62e7cac68a1d0794556f6",
+      "message": "Merge pull request #66 from famotime/feature/quiz-exit-button",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T06:53:31Z",
+      "committer_date": "2025-09-06T06:53:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9d872696d7c6856cb7a2a192d449cc35be83ff3",
+      "message": "feat: Add exit button to quiz",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T06:52:19Z",
+      "committer_date": "2025-09-06T06:52:19Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "69f0dee9ae94b146f2338364f5dca2fe65424aaf",
+      "message": "Merge pull request #64 from famotime/feature/custom-quiz-from-detail-page",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T05:46:11Z",
+      "committer_date": "2025-09-06T05:46:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1145797dc41192394c82814e2cb046429492a17",
+      "message": "feat: Add custom quiz generation from poetry detail page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T05:44:08Z",
+      "committer_date": "2025-09-06T05:44:08Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "523e9e08c99398a106460fa3b038661d596a0f09",
+      "message": "Merge pull request #63 from famotime/versefall-game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T05:32:25Z",
+      "committer_date": "2025-09-06T05:32:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34d6685d6d985ec4f6d06bf69202007122df7ab2",
+      "message": "fix: Resolve runtime error and finalize game enhancements",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T05:31:59Z",
+      "committer_date": "2025-09-06T05:31:59Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "5d2ad0efd4a96ff837daa295045f2dc1c2be0418",
+      "message": "Merge pull request #62 from famotime/versefall-game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T05:25:25Z",
+      "committer_date": "2025-09-06T05:25:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac9bc1cd7eeb8fa1e429de7a5ce7a6a136521832",
+      "message": "feat: Implement final gameplay enhancements for VerseFall game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T05:24:41Z",
+      "committer_date": "2025-09-06T05:24:41Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a662cc7fe2e6cae2fa7a6a537ea49744aedde796",
+      "message": "Merge pull request #61 from famotime/versefall-game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T04:59:31Z",
+      "committer_date": "2025-09-06T04:59:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "375ef7fc8e0622e2ea51b1a328002123f15dc57d",
+      "message": "feat: Further optimize VerseFall game based on feedback",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T04:54:05Z",
+      "committer_date": "2025-09-06T04:54:05Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "723111f46f64b29c8e7b9dfb3148195fa3734dd6",
+      "message": "Merge pull request #60 from famotime/versefall-game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T04:42:32Z",
+      "committer_date": "2025-09-06T04:42:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f30016e561b558b8229f47c6d044adfcf461d9fc",
+      "message": "feat: Optimize VerseFall game with multiple enhancements",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T04:42:07Z",
+      "committer_date": "2025-09-06T04:42:07Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "98d413cdacf7450a4cbdf2e80633022b2a82b65b",
+      "message": "Merge pull request #59 from famotime/feature/detailed-game-stats",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T04:11:44Z",
+      "committer_date": "2025-09-06T04:11:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3349fb32a82caa597399446198fa77bd7a68b6a",
+      "message": "feat: Display detailed statistics for each game type",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T04:10:35Z",
+      "committer_date": "2025-09-06T04:10:35Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "40c7d2e329817fb60083c19b6d4fea071fef86c7",
+      "message": "移动端TTS朗读修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T01:09:56Z",
+      "committer_date": "2025-09-06T01:09:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6aa88c830b9b40df5b9e252fe1a811af45ad8f69",
+      "message": "移动端TTS朗读支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-06T00:47:03Z",
+      "committer_date": "2025-09-06T00:47:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aac5c18b0b83bdb90a79da08a3550b515d66f644",
+      "message": "Merge pull request #58 from famotime/feat/mobile-tts-chunking",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-06T00:22:06Z",
+      "committer_date": "2025-09-06T00:22:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21f5c36864769d08a28c40788e016357d34bcad7",
+      "message": "This commit implements a robust text-to-speech (TTS) solution for the poetry detail page that works on mobile browsers.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-06T00:20:58Z",
+      "committer_date": "2025-09-06T00:20:58Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "035f4cb1acb7a2ebfda28c99d9c30b6736655900",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-04T14:32:19Z",
+      "committer_date": "2025-09-04T14:32:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5e083dfae3d9c3cf8d9625b693264c57925b122",
+      "message": "update logo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-04T14:24:49Z",
+      "committer_date": "2025-09-04T14:24:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed64f128a3d51cee91048c577048a2f101048f28",
+      "message": "增加“连续学习”统计功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-04T14:10:07Z",
+      "committer_date": "2025-09-04T14:10:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f937cbbe81be840d84e7dcfa92a698cc27de50e0",
+      "message": "修复留言板问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-04T13:21:45Z",
+      "committer_date": "2025-09-04T13:21:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8202407029efbe3138a91ca66b636857970277a2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-03T13:48:35Z",
+      "committer_date": "2025-09-03T13:48:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6d5cdc84504ec4ba69533cdcf73de3461d9339a",
+      "message": "Merge pull request #57 from famotime/feature/tts-read-aloud",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T04:56:52Z",
+      "committer_date": "2025-09-03T04:56:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ac401fd01f6a1e3065013bded522a569acbf411",
+      "message": "feat: Add TTS read-aloud functionality to poetry detail page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T04:54:53Z",
+      "committer_date": "2025-09-03T04:54:53Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "44b51cd28ca7686fb86aa05677ca13337197f604",
+      "message": "Merge pull request #55 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T02:08:45Z",
+      "committer_date": "2025-09-03T02:08:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f45d89a302ef59de4d6893a3f85635ac9c87c860",
+      "message": "Merge pull request #56 from famotime/feature/pinyin-toggle-fixes",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T02:08:32Z",
+      "committer_date": "2025-09-03T02:08:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0823b5c91f376f46a96a39c5754cfe65f42b24cd",
+      "message": "fix: Address feedback on pinyin toggle feature",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T02:04:38Z",
+      "committer_date": "2025-09-03T02:04:38Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "b5b5469d126452dfbd3db91dd48eb1d9102757d5",
+      "message": "fix(Header): Correctly display full site name on mobile layouts",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T01:27:01Z",
+      "committer_date": "2025-09-03T01:27:01Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e1de7ac7664218be289bb3e9f59ea05ed9c54a72",
+      "message": "Merge pull request #54 from famotime/fix/complete-the-verse-game-mode",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T00:57:59Z",
+      "committer_date": "2025-09-03T00:57:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "552a91918eca748236fd92a099b4dced38feaa67",
+      "message": "feat(game): Add game summary page to Complete the Verse game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T00:53:15Z",
+      "committer_date": "2025-09-03T00:53:15Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "ba4d0b1304529d3743e3743e581f2f648e9e6c9e",
+      "message": "Merge pull request #53 from famotime/fix/complete-the-verse-game-mode",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T00:27:01Z",
+      "committer_date": "2025-09-03T00:27:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21db8dd6f2f6b0d1094c4744bbd1a3323550121e",
+      "message": "fix(game): Correctly handle game mode in Complete the Verse game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T00:25:17Z",
+      "committer_date": "2025-09-03T00:25:17Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "f5ae966004ff03d233672b57ca78ed3e694cfd8c",
+      "message": "Merge pull request #52 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T00:14:43Z",
+      "committer_date": "2025-09-03T00:14:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35f563e709a2dab98b00425d22781fe2d769ad44",
+      "message": "Merge pull request #51 from famotime/fix/complete-the-verse-game-mode",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-03T00:14:33Z",
+      "committer_date": "2025-09-03T00:14:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8204e9e4bc9b604d7b1095936f798ff2822b68f1",
+      "message": "refactor(Header): Final robust implementation of responsive header",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T00:11:33Z",
+      "committer_date": "2025-09-03T00:11:33Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e4d305569a26185df21d6c7d267a5622d1f2e8dd",
+      "message": "fix(game): Ensure all questions match selected game mode",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-03T00:03:59Z",
+      "committer_date": "2025-09-03T00:03:59Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "5710eddd761d5ce22b754f7562508a1badbee18e",
+      "message": "Merge pull request #50 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T23:50:13Z",
+      "committer_date": "2025-09-02T23:50:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3670c7c98eda3979044a069e138792d2bbb8b9e",
+      "message": "refactor(Header): Improve responsive layout with flexbox ordering",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T23:49:12Z",
+      "committer_date": "2025-09-02T23:49:12Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "2da686e8d75dcc35979661fe78b2ffafc116bd1d",
+      "message": "Merge pull request #49 from famotime/fix/quiz-filter-sync",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T22:56:26Z",
+      "committer_date": "2025-09-02T22:56:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cf94dc96545ba2edeff4078441ea8c9a8a19d11",
+      "message": "fix(quiz): Include skipped questions in accuracy calculation",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T22:56:00Z",
+      "committer_date": "2025-09-02T22:56:00Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "4391c7e7e1d0b72491dd0d1a18931ff71f7095cf",
+      "message": "Merge pull request #48 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T17:07:45Z",
+      "committer_date": "2025-09-02T17:07:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "709b3142c2a1f7b586d474fa7408089570b28b7c",
+      "message": "feat: Improve header responsiveness and layout",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T17:07:21Z",
+      "committer_date": "2025-09-02T17:07:21Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "52dd92667b545fd5930111581baf6c24f0bceaa3",
+      "message": "Merge pull request #47 from famotime/fix/quiz-filter-sync",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T17:03:24Z",
+      "committer_date": "2025-09-02T17:03:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d852609f07596f48b4203eaca122acd141e19bd",
+      "message": "feat(quiz): Add fill-in-the-blank choice question type",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T17:02:24Z",
+      "committer_date": "2025-09-02T17:02:24Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a222e738a43845b34d02de38be610b8b69b569e7",
+      "message": "feat(quiz): Improve fill-in-the-blank questions and question type ratio",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T16:51:21Z",
+      "committer_date": "2025-09-02T16:51:21Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7da8c168fe553978526a5b4098d24ca59f8c6221",
+      "message": "Merge pull request #46 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T16:47:53Z",
+      "committer_date": "2025-09-02T16:47:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ca76d3d5d11fbefcb10acc72ac5dfc0a18ff7f4",
+      "message": "feat: Use icons for login/logout buttons",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T16:47:30Z",
+      "committer_date": "2025-09-02T16:47:30Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "1069dec3555136b0feaf00d7ac401202686f20f0",
+      "message": "Merge pull request #45 from famotime/fix/quiz-filter-sync",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T16:36:07Z",
+      "committer_date": "2025-09-02T16:36:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57dd71144b3204258b23ea70014abce80d337a46",
+      "message": "Merge pull request #44 from famotime/feat/responsive-header",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T16:34:54Z",
+      "committer_date": "2025-09-02T16:34:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2db385ed422b46ff20e7f31e7b811d569a1810c3",
+      "message": "feat(quiz): Improve quiz generation logic and error handling",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T16:34:41Z",
+      "committer_date": "2025-09-02T16:34:41Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "bacfd63680a29798d6c0364f4124e0067eee26d3",
+      "message": "Refactor: Make header responsive on mobile devices",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T16:34:02Z",
+      "committer_date": "2025-09-02T16:34:02Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "d586b2fbf588481505de7880b3b8712913b61e75",
+      "message": "Merge pull request #43 from famotime/fix/quiz-filter-sync",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T16:15:25Z",
+      "committer_date": "2025-09-02T16:15:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71cc132cd314b31e0e81325f534547fdbcd8ffe3",
+      "message": "fix(quiz): Synchronize quiz filter state with poetry library",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T16:14:36Z",
+      "committer_date": "2025-09-02T16:14:36Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7f2c34c856636a86bd5a2f56dddd487efbc5268e",
+      "message": "Merge pull request #42 from famotime/fix/quiz-filter-sync",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T15:51:04Z",
+      "committer_date": "2025-09-02T15:51:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75971ffd21065e4cbd31c4275abf59b7fcaa2fc7",
+      "message": "fix(quiz): Synchronize quiz filter state with poetry library",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T15:48:49Z",
+      "committer_date": "2025-09-02T15:48:49Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "8a26efa99ea0d0f089b893235fd801a9757bce44",
+      "message": "Merge pull request #41 from famotime/feature/add-basic-tests",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-02T15:40:34Z",
+      "committer_date": "2025-09-02T15:40:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac39a32d92fd837a78b0e6da6677812952b97b7e",
+      "message": "feat: Add basic test files for core features",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-09-02T15:39:43Z",
+      "committer_date": "2025-09-02T15:39:43Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "06587971bdf1bc25f41230e6bfb123181184ae19",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-02T14:43:22Z",
+      "committer_date": "2025-09-02T14:43:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d3d5bc4a16d790c3caedbb69c1e48b965fb0ba0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T14:19:51Z",
+      "committer_date": "2025-08-31T14:19:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b7a98ba057157b7f6ba2513d01ee26ddf69ffcd",
+      "message": "更正”诗词接龙“游戏查询范围",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T11:11:18Z",
+      "committer_date": "2025-08-31T11:11:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c383dad476e7022b4acf239b45b967fe32ca22a8",
+      "message": "增加游戏重置功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T09:57:34Z",
+      "committer_date": "2025-08-31T09:57:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64fcdfb00dc9f53dbf6390b8194d0bb5a9804976",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T07:11:13Z",
+      "committer_date": "2025-08-31T07:11:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a75bb6db7f050eea5c64ce61f4cc7aca4fa4c331",
+      "message": "AI服务调用限额配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T05:52:06Z",
+      "committer_date": "2025-08-31T05:52:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3189aee82abfe816a772db86915bb7352ca7d3a1",
+      "message": "AI服务安全机制更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T05:12:26Z",
+      "committer_date": "2025-08-31T05:12:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fe1e981ac3226eb98e8f6c62c0b982d759bdfd8",
+      "message": "增加AI助记功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T03:15:16Z",
+      "committer_date": "2025-08-31T03:15:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80021fd6d079456b11a4a07a7b68edf0ca2e144c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T03:03:14Z",
+      "committer_date": "2025-08-31T03:03:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39e07589d42ab304b9f776e521c7353a255bc1e0",
+      "message": "诗词接龙游戏优化，增加不同难度模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-31T01:36:58Z",
+      "committer_date": "2025-08-31T01:36:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ddeb549d3eb96113f1eb4026ddc169008d4f03a5",
+      "message": "诗词对战游戏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T16:43:16Z",
+      "committer_date": "2025-08-30T16:43:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f378ef7f4864f2bfed220eccfe52e61d3185fd25",
+      "message": "Merge pull request #38 from famotime/feat/poetry-battle-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T16:22:28Z",
+      "committer_date": "2025-08-30T16:22:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "927e7ba31b90b89c4fb24e7858ff67d311675e5a",
+      "message": "This commit addresses user feedback on the Poetry Battle game.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T16:21:15Z",
+      "committer_date": "2025-08-30T16:21:15Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "91036217932d9a8f1a53528e0574babd0fc657f2",
+      "message": "Merge branch 'main' of https://github.com/famotime/PoetryFun",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T16:00:26Z",
+      "committer_date": "2025-08-30T16:00:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c8205e6844dfd6027341819e946ee25bccea324",
+      "message": "暂时删除测试内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T15:57:26Z",
+      "committer_date": "2025-08-30T15:57:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7914f06b3b4367d1ec56961d721226fa6225d05",
+      "message": "Merge pull request #37 from famotime/feat/poetry-battle-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T15:56:51Z",
+      "committer_date": "2025-08-30T15:56:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8b262f7d2dfecb8e6556538e6ea6c772703219d",
+      "message": "This commit addresses feedback on the new Poetry Battle game.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T15:55:48Z",
+      "committer_date": "2025-08-30T15:55:48Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "42108178eb48a04a689065e5f1881377a9680057",
+      "message": "Merge pull request #36 from famotime/feat/dynamic-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T15:44:22Z",
+      "committer_date": "2025-08-30T15:44:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da598423778ec401e270e89d8b38902dc9a39ecd",
+      "message": "feat(quiz): Implement advanced filtering for quiz questions",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T15:42:34Z",
+      "committer_date": "2025-08-30T15:42:34Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7574994c0e79f2087111e7731f3f8414640a8f62",
+      "message": "Merge pull request #35 from famotime/feat/poetry-battle-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T15:39:58Z",
+      "committer_date": "2025-08-30T15:39:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e73a59dfa89e774d67d64c40d4441355e6e05d9",
+      "message": "Merge branch 'main' of https://github.com/famotime/PoetryFun",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T15:39:15Z",
+      "committer_date": "2025-08-30T15:39:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89b02b47b7e7ef97172cdc84509d6792a778cc47",
+      "message": "更新默认筛选范围",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T15:38:58Z",
+      "committer_date": "2025-08-30T15:38:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fb088aec7e60bfe0a71208c68166de94fd7d923",
+      "message": "This commit overhauls the Poetry Battle game, transforming it from a 'poetry chain' game into a quiz-based battle.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T15:38:20Z",
+      "committer_date": "2025-08-30T15:38:20Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "21e544c5fabc3d6926bc16b2e9de9a838b6a4f12",
+      "message": "Merge pull request #34 from famotime/feat/dynamic-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T15:21:11Z",
+      "committer_date": "2025-08-30T15:21:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "237a5bd7eb2dc8bcdf52a0ab48a37df6173e74ef",
+      "message": "feat(quiz): Implement dynamic quiz generation and fix dropdown",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T15:20:50Z",
+      "committer_date": "2025-08-30T15:20:50Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "47f050bb73e7d0a14d335a82d4c473e19b005221",
+      "message": "Merge pull request #33 from famotime/feat/dynamic-quiz",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T15:14:02Z",
+      "committer_date": "2025-08-30T15:14:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "006b132fcbec098315e79711d61d5d2ae4dfe26c",
+      "message": "feat(quiz): Implement dynamic quiz generation",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T15:13:02Z",
+      "committer_date": "2025-08-30T15:13:02Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "d41942ad8978b13b7ba54266df9b346ced6281f1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T14:39:24Z",
+      "committer_date": "2025-08-30T14:39:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6595fb639509e39a334ab79b78cc2dce24423936",
+      "message": "隐藏导航栏”朝代“入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T13:49:41Z",
+      "committer_date": "2025-08-30T13:49:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc7ffdba932d5858091ce9eb98efe112df09803c",
+      "message": "调整”诗人“默认筛选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T13:43:25Z",
+      "committer_date": "2025-08-30T13:43:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fdb751538c8f47250f1af49e29de5ab7fbf9836",
+      "message": "优化留言板样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T13:29:27Z",
+      "committer_date": "2025-08-30T13:29:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "115ab5fc264c44355d20ca1f13e41ec2483ffb5c",
+      "message": "“诗韵坠”游戏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T13:09:50Z",
+      "committer_date": "2025-08-30T13:09:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d5942d167074c751a40a3bbd59136ce82721ce",
+      "message": "“残句补全”游戏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T12:42:40Z",
+      "committer_date": "2025-08-30T12:42:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d33c91eaffa59f15e13f75b4d039abafb4586e46",
+      "message": "Remove obsolete test files and HTML pages related to poetry collection queries and search functionality",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T12:19:23Z",
+      "committer_date": "2025-08-30T12:19:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a837ba1c42bad413b000a279708e76dd2153ecb",
+      "message": "诗词搜索条件重置功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T12:12:34Z",
+      "committer_date": "2025-08-30T12:12:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "776422575335f9b66bf320a782ed65dc1693a435",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-30T11:48:58Z",
+      "committer_date": "2025-08-30T11:48:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edf2d062c0e1f56c9182939a9374f4a9072d903c",
+      "message": "Merge pull request #32 from famotime/feature/verse-fall-game-improvements",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T09:47:52Z",
+      "committer_date": "2025-08-30T09:47:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d678388923e44b98d22e85568ab2ad5959b2799e",
+      "message": "This commit improves the VerseFallGame component by addressing several points from the user's request.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T09:45:41Z",
+      "committer_date": "2025-08-30T09:45:41Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "612f3497a3bd0154fa2181e1d82e67ff0b17befd",
+      "message": "Merge pull request #31 from famotime/daily-quote-appreciation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T07:32:37Z",
+      "committer_date": "2025-08-30T07:32:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cb91cd98c9ab21a33b515166025b9c7c1a0a208a",
+      "message": "fix(Components): Preserve newlines in text rendering",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T07:25:22Z",
+      "committer_date": "2025-08-30T07:25:22Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "7d05e1b30ab7e66939e1474298a7ee7e97942275",
+      "message": "Merge pull request #30 from famotime/daily-quote-appreciation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T04:01:29Z",
+      "committer_date": "2025-08-30T04:01:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98f19e433b0ec9c594ad7be0443231b27698e1bd",
+      "message": "feat(DailyContent): Filter daily poetry and translate labels",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T03:58:56Z",
+      "committer_date": "2025-08-30T03:58:56Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "51fad839655c1b77f03f7beade43c4b950c459a0",
+      "message": "Merge pull request #29 from famotime/daily-quote-appreciation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T03:36:16Z",
+      "committer_date": "2025-08-30T03:36:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f0e2b004ac27c61c597276e529a58a1433a15b85",
+      "message": "feat(DailyContent): Display poetry appreciation in daily quote card",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T03:33:35Z",
+      "committer_date": "2025-08-30T03:33:35Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "be3fa9be6254a92ce8a010745c990cad7c759c1d",
+      "message": "Merge pull request #28 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T02:52:03Z",
+      "committer_date": "2025-08-30T02:52:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88f46022d0b50ebd5d50498ed2a6b33e379c7f0b",
+      "message": "fix: Improve logic for 'Complete the Verse' game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T02:47:10Z",
+      "committer_date": "2025-08-30T02:47:10Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a9bdb9271221c1378840d3d7c90fbf9c11edb91e",
+      "message": "Merge pull request #27 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T02:33:19Z",
+      "committer_date": "2025-08-30T02:33:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ac32c93f65d700c8b569be549ec04ee386ff8b6",
+      "message": "refactor: Merge game options into main game screen",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T02:32:55Z",
+      "committer_date": "2025-08-30T02:32:55Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "1ac74d9a13a484bf99d3edf55eb9c8c949634833",
+      "message": "Merge pull request #26 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T02:17:42Z",
+      "committer_date": "2025-08-30T02:17:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "400022dab963c693a355b511a8c8361386ca2ed6",
+      "message": "refactor: Streamline 'Complete the Verse' game flow",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T02:12:56Z",
+      "committer_date": "2025-08-30T02:12:56Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "1298bbffcbb95ec72ee6a03a7e1e51e7da8eb985",
+      "message": "Merge pull request #25 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T01:15:12Z",
+      "committer_date": "2025-08-30T01:15:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36934e22445b44d8e13c5ad4b5608cb845f6b22e",
+      "message": "fix: Improve sentence validation in poetry game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T01:13:41Z",
+      "committer_date": "2025-08-30T01:13:41Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "dc903e3a7c9d5388ac513f1bd78f8f670a23d464",
+      "message": "Merge pull request #24 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T01:04:40Z",
+      "committer_date": "2025-08-30T01:04:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "089e379e71581df5b54137aa26d1dbffe9f86235",
+      "message": "refactor: Create shared component for poetry filters",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T00:56:09Z",
+      "committer_date": "2025-08-30T00:56:09Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "99049c5690f4a7ad95ff0470e787c3ea253bcbc3",
+      "message": "Merge pull request #23 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T00:38:37Z",
+      "committer_date": "2025-08-30T00:38:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79481f2f46e69795e8b70ac759fb72e1386636fc",
+      "message": "fix: Correctly handle 'All' option in game filters",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T00:35:55Z",
+      "committer_date": "2025-08-30T00:35:55Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e40337263fc90d5c7c253276468686655ae7e243",
+      "message": "Merge pull request #22 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-30T00:16:12Z",
+      "committer_date": "2025-08-30T00:16:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8985a63fa5d77a08ba1858020ecc6e303f6761c",
+      "message": "fix: Correct game reset and auto-match logic",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-30T00:13:20Z",
+      "committer_date": "2025-08-30T00:13:20Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "f86052890e6ed87447e39933cb090e8150fa1da5",
+      "message": "Merge pull request #21 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T23:51:50Z",
+      "committer_date": "2025-08-29T23:51:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3cb1b746fd1e216add113880fe21eb5eccf83b25",
+      "message": "feat: Refetch poem pool on game restart",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T23:51:06Z",
+      "committer_date": "2025-08-29T23:51:06Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "27d27bb114d9f4c4ce93a7071756a7ec430d05ab",
+      "message": "Merge pull request #20 from famotime/feature/game-updates",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T23:36:06Z",
+      "committer_date": "2025-08-29T23:36:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "110147a981bc64b6f532a376e8a1dd9882713a74",
+      "message": "feat: Implement game filtering and pinch-to-zoom",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T23:33:43Z",
+      "committer_date": "2025-08-29T23:33:43Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "e8c7af98acc175df6b55e5d7770ae9a816e7bb4f",
+      "message": "Merge pull request #19 from famotime/feat/add-work-kind-filter",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T15:39:10Z",
+      "committer_date": "2025-08-29T15:39:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9aab1c912f3999bc8732277a3cefe5e7a9d16de",
+      "message": "feat: Add 'Work Type' filter to Library and Game Selection",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T15:38:00Z",
+      "committer_date": "2025-08-29T15:38:00Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "03a1b9205c6dded611f0ae088079aaa8e21c4762",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-29T14:57:59Z",
+      "committer_date": "2025-08-29T14:57:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "219bdf46c39074f3d3348002d912ef2359e89185",
+      "message": "Merge pull request #18 from famotime/feat/verse-fall-game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T13:06:38Z",
+      "committer_date": "2025-08-29T13:06:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28142d1823d133314a99d5fbc5db802fb1b72dc9",
+      "message": "feat: Optimize VerseFall game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T13:05:16Z",
+      "committer_date": "2025-08-29T13:05:16Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "9b6c43935b9559bbebf87097ae1bb0eead2d7dd2",
+      "message": "Merge pull request #15 from famotime/feat/game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T08:48:57Z",
+      "committer_date": "2025-08-29T08:48:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "039347264d9f3d29e77cf00d0464a520db7ff2a4",
+      "message": "refactor(game): Implement advanced physics and visual connections",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T08:47:43Z",
+      "committer_date": "2025-08-29T08:47:43Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "96cc0f8cf54df9516a81d7fe24159f95d9853241",
+      "message": "Merge pull request #14 from famotime/feat/game-optimizations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-29T08:28:57Z",
+      "committer_date": "2025-08-29T08:28:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d567115dfd0a61c536f1bfb2008253a5120c6d32",
+      "message": "feat: Optimize Verse Fall game with responsive UI and enhanced effects",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-29T08:28:07Z",
+      "committer_date": "2025-08-29T08:28:07Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "01a7a6ecf6ebba44e35f07666386ee31b2d2b171",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-28T16:40:45Z",
+      "committer_date": "2025-08-28T16:40:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44811526a926b71b217e820aa0ec0c61515bab56",
+      "message": "重构poetryService.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-28T16:29:08Z",
+      "committer_date": "2025-08-28T16:29:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b038a583dde47dbb606af1bf72667d67366313d2",
+      "message": "feat: Enhance Supabase integration with availability checks and safe operation handling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-28T13:39:50Z",
+      "committer_date": "2025-08-28T13:39:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a66059f54f54adec119038ecbf8642c4f0411ec",
+      "message": "Merge pull request #13 from famotime/feat/verse-fall-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T11:09:15Z",
+      "committer_date": "2025-08-28T11:09:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "226638d69db938c519b74f0099b1c5a0e6d4010b",
+      "message": "feat: Enhance VerseFall game with new features and animations",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T11:08:31Z",
+      "committer_date": "2025-08-28T11:08:31Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "d7206854e21f58b88dd9a385c72a70467e65f063",
+      "message": "Merge pull request #12 from famotime/feat/verse-fall-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T10:50:45Z",
+      "committer_date": "2025-08-28T10:50:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "67b0100e4d0b8d2b74fe002a3e724692f94bbc0f",
+      "message": "feat: Implement VerseFall game with core logic and optimizations",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T10:49:21Z",
+      "committer_date": "2025-08-28T10:49:21Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "1599af5b3ecdde4a26af65df0225c921f1673d9a",
+      "message": "Merge pull request #11 from famotime/feat/verse-fall-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T10:07:46Z",
+      "committer_date": "2025-08-28T10:07:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f0d6b754f8b4620a98d108ff7838ff00875ce39",
+      "message": "feat: Add foundational implementation for VerseFall game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T10:06:50Z",
+      "committer_date": "2025-08-28T10:06:50Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "f7a8343fc30ddce5c0b2226ae1bd132f9cb7bd3c",
+      "message": "Merge pull request #10 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T09:33:36Z",
+      "committer_date": "2025-08-28T09:33:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3687781ba2ef47eb539fbfffdaa00a907c0118b7",
+      "message": "feat: add 'Complete the Verse' game and enhance game filters",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T09:30:18Z",
+      "committer_date": "2025-08-28T09:30:18Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "706eb96174f4100b9d904043f6536951ba7ff091",
+      "message": "Merge pull request #9 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T09:16:24Z",
+      "committer_date": "2025-08-28T09:16:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "004c131a90f5b6f97f8a39422c05536e914da7da",
+      "message": "feat: add 'Complete the Verse' game and enhance game filters",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T09:08:34Z",
+      "committer_date": "2025-08-28T09:08:34Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "865ca3a8147cc28a61da20e9e5ddf50e7a9651ae",
+      "message": "Merge pull request #8 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T08:27:34Z",
+      "committer_date": "2025-08-28T08:27:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfba1bad45c70f931aacdf6c683f674f55cc6bc4",
+      "message": "fix: resolve crash and refactor game filter logic",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T08:26:52Z",
+      "committer_date": "2025-08-28T08:26:52Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "42766fc98f8ca64f1569ac3f504a63a578a6d731",
+      "message": "Merge pull request #7 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T07:50:27Z",
+      "committer_date": "2025-08-28T07:50:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9e245870aca6306276026fb0af15ac6dfba29ad",
+      "message": "feat: add 'Complete the Verse' game and global game filters",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T07:35:52Z",
+      "committer_date": "2025-08-28T07:35:52Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "69a670b1fdd8e301841bfe44c82bfbbd326cfa16",
+      "message": "Merge pull request #6 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T06:58:56Z",
+      "committer_date": "2025-08-28T06:58:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d87d4261979a661ba9cb69f106a85be457065c9",
+      "message": "feat: enhance 'Complete the Verse' game with new features",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T06:58:01Z",
+      "committer_date": "2025-08-28T06:58:01Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "49f2350207ca955bb95f485a245ca31fead31d35",
+      "message": "feat: enhance 'Complete the Verse' game with new features",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T06:43:37Z",
+      "committer_date": "2025-08-28T06:43:37Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "a0e73130ff991e93f962863708cf8eef904ab801",
+      "message": "Merge pull request #5 from famotime/feature/complete-the-verse-game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T05:52:31Z",
+      "committer_date": "2025-08-28T05:52:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d51333cc9d17fb32cdf51e3ff6d298d76f6e8906",
+      "message": "feat: add 'Complete the Verse' game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T05:50:32Z",
+      "committer_date": "2025-08-28T05:50:32Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "1f27afe1a74c1c5b22e373bce1e50b43ace64ee8",
+      "message": "Merge pull request #4 from famotime/fix-poetry-game-visuals",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T05:01:38Z",
+      "committer_date": "2025-08-28T05:01:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "051a1a1ad3ac9d50bbd5d81cbc6bc948820dc787",
+      "message": "Fix visual bugs in Poetry Chain Game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T05:00:17Z",
+      "committer_date": "2025-08-28T05:00:17Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "c4b09e1cbd898040636b9f1dff6c822b8a60ecad",
+      "message": "Fix visual bugs in Poetry Chain Game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T03:50:53Z",
+      "committer_date": "2025-08-28T03:50:53Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "8dee40a247f36ff816313115bb855c2d3124b0f7",
+      "message": "Merge pull request #3 from famotime/feature/game-improvements",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T03:14:55Z",
+      "committer_date": "2025-08-28T03:14:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f310a295106cc4db30f118222b8e6b06bd9738d7",
+      "message": "feat: Optimize Poetry Chain Game",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T03:13:28Z",
+      "committer_date": "2025-08-28T03:13:28Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "cb13e38a57397e13fa877c376d2d7cb91090e536",
+      "message": "Merge pull request #1 from famotime/feature/reorder-dashboard-cards",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T02:25:37Z",
+      "committer_date": "2025-08-28T02:25:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed851f34c6f3241de556f6e482cb64ec43768e65",
+      "message": "Merge pull request #2 from famotime/refactor/update-profile-page-layout",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-28T01:46:40Z",
+      "committer_date": "2025-08-28T01:46:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07e3ca2e98814628572f44c5cb289bda38d0d130",
+      "message": "Reorder dashboard cards",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T01:22:23Z",
+      "committer_date": "2025-08-28T01:22:23Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "4c989b5261b391e2d6bad1daa2f4a8845f437a88",
+      "message": "Refactor: Adjust layout of the profile page",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-08-28T00:54:32Z",
+      "committer_date": "2025-08-28T00:54:32Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "2562675896f69cce53b2f69cfe7ddb0c113310b3",
+      "message": "PoetryService重构1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-27T15:31:30Z",
+      "committer_date": "2025-08-27T15:31:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6396597fa6ed7c18a74bbf628fc967bcc0ffa737",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-27T14:51:22Z",
+      "committer_date": "2025-08-27T14:51:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f26d599b72842b1cddbce3e88c7610213358d1e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-27T14:26:13Z",
+      "committer_date": "2025-08-27T14:26:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5af5572d64413cfa650f88566d51baf7c3304359",
+      "message": "优化诗词库搜索筛选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-27T14:19:46Z",
+      "committer_date": "2025-08-27T14:19:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c9f3ffc34814b8c43483fd84a1cdfffaa9fb08a",
+      "message": "诗词库搜索筛选条件优化。各页面诗词卡片跳转到同一个诗词详情页。诗词学习记录与“最近学习”同步。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-27T13:55:29Z",
+      "committer_date": "2025-08-27T13:55:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "506fdad6a2c2f58ab8120d5bd3bd7f5f52b2c5a1",
+      "message": "- **单一数据源**: `src/database/json/` 为唯一真实来源 - **自动同步**: 构建时自动复制，无需手动维护",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-26T14:58:02Z",
+      "committer_date": "2025-08-26T14:58:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16b9855b0417105fc165a963f0122142e50efeac",
+      "message": "修复Netlify自动部署后无法查询到诗词数据问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-26T14:27:15Z",
+      "committer_date": "2025-08-26T14:27:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "803366c59b8431086c8fcbb41c36a6002b39596a",
+      "message": "修正“诗人”页面朝代排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-26T14:13:27Z",
+      "committer_date": "2025-08-26T14:13:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aaaf91d78c73b135b9d8a787569ac2c36290ed3c",
+      "message": "首页内容优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T16:47:20Z",
+      "committer_date": "2025-08-25T16:47:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2cfc4bfb15804fa4cf095df669f9df9aa7cbc7d",
+      "message": "个人中心支持同步更新各项学习记录数据",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T16:28:49Z",
+      "committer_date": "2025-08-25T16:28:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee1e2113c250fdfad9ae7db78d066e1a9f32fe97",
+      "message": "接龙游戏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T15:28:45Z",
+      "committer_date": "2025-08-25T15:28:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "618465da402939f1002d7ede83fd5c4b0e0b62b8",
+      "message": "增加访问统计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T14:33:35Z",
+      "committer_date": "2025-08-25T14:33:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "255a6e8e9f1e84db4705bc266e277271846525a1",
+      "message": "增加留言板功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T14:18:20Z",
+      "committer_date": "2025-08-25T14:18:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82f9335c0f204e88d29a6c018ecddbc17af31f2e",
+      "message": "导航栏优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T13:38:28Z",
+      "committer_date": "2025-08-25T13:38:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b0b63c86c183290cfc4fd0201c68de1650043b94",
+      "message": "体验优化并增加收藏功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T13:23:09Z",
+      "committer_date": "2025-08-25T13:23:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc443a832d4ab5bdc5228c542b2328e0b1dd1431",
+      "message": "诗词详情页展示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T12:52:53Z",
+      "committer_date": "2025-08-25T12:52:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ee2bed1236627b28b05a45193664722f87cf0ff",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-25T11:50:30Z",
+      "committer_date": "2025-08-25T11:50:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2a73acae542f98292ff35f9dd0d400f11a9d178",
+      "message": "体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T15:19:42Z",
+      "committer_date": "2025-08-24T15:19:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38f9b530a3d685926f6b51ef3ba8939563a0bf74",
+      "message": "接龙游戏体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T14:51:53Z",
+      "committer_date": "2025-08-24T14:51:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccc0b154fcb0ccad29b2900c97a9b02013b14017",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T14:29:47Z",
+      "committer_date": "2025-08-24T14:29:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9f8f4be723b91e7b0908ec1b9d9b593ce76ebce",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T14:03:36Z",
+      "committer_date": "2025-08-24T14:03:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "813abec04379a016a2ce8daf985be3142e931804",
+      "message": "Refactor database integration to utilize JSON data service and enhance game mechanics in PoetryChainGame. Implement inte",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T13:21:35Z",
+      "committer_date": "2025-08-24T13:21:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "254b38b603c2214349542bc2c3917c5c2a8fde1e",
+      "message": "构建智能推荐系统",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T11:49:14Z",
+      "committer_date": "2025-08-24T11:49:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a9b76239653f844b7401fa9726d48549ce49b0a",
+      "message": "Complete Module Five with the development of the AuthorSpotlight component, showcasing detailed information for 2,402 po",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T10:23:30Z",
+      "committer_date": "2025-08-24T10:23:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e3f7a0188d200bcaed28d69e297aef6334d888d",
+      "message": "Implement DynastyTimeline component and update app structure to include it as an active section; complete Module Four wi",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T09:52:25Z",
+      "committer_date": "2025-08-24T09:52:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fa67ce04f2221e89fb9a8254ed3d13f52606613",
+      "message": "Refactor PoetryLibrary component into NewPoetryLibrary with enhanced filtering and performance optimizations; add Librar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T09:40:08Z",
+      "committer_date": "2025-08-24T09:40:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9296290723b1f5aee78834cd10366f3413466b7",
+      "message": "Refactor poetry selection process for elementary students; implement intelligent filtering algorithm and integrate React",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T09:28:39Z",
+      "committer_date": "2025-08-24T09:28:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9bba04efd6a52c0da46edad1887a0b0806ee963",
+      "message": "Enhance database integration with better-sqlite3 and drizzle-orm; complete initial database service layer and implement ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T09:18:11Z",
+      "committer_date": "2025-08-24T09:18:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9bf4688919dcb85cfc03cd70446ea68ac22fe1d",
+      "message": "使用更丰富的诗词数据库",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T07:56:07Z",
+      "committer_date": "2025-08-24T07:56:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03dbfc034deee93ce3bf50990c13779201be7417",
+      "message": "docs: 更新README以反映当前开发状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T05:31:51Z",
+      "committer_date": "2025-08-24T05:31:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef39bf05097f69ecb8bd266acefb437fc71718c9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T05:08:30Z",
+      "committer_date": "2025-08-24T05:08:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "063eb532dcb68883186113dc4ee5c046e9376f1f",
+      "message": "Supabase数据库迁移和对接",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-08-24T04:58:52Z",
+      "committer_date": "2025-08-24T04:58:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed3e5e621e973d6f323eec465aa586f3668f76dd",
+      "message": "Implement Dashboard Interactive Features",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:46:43Z",
+      "committer_date": "2025-08-24T03:46:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e898b503eea18c931bd1e61228f520bcfb999c0",
+      "message": "Supabase Database Creation Troubleshooting",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:41:21Z",
+      "committer_date": "2025-08-24T03:41:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5387855717e37722882134665e74bcd43b6a451",
+      "message": "Fix UUID Issues and Apply Database Changes",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:37:52Z",
+      "committer_date": "2025-08-24T03:37:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb8d2b0cf7421e66b4cc503d46ab47bd395d8b61",
+      "message": "Preserve punctuation in daily quotes",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:26:42Z",
+      "committer_date": "2025-08-24T03:26:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27a662fd4f95ac3a842ff4aa3a68e20e8a2184f1",
+      "message": "Sync Daily Quote with Daily Poetry",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:25:40Z",
+      "committer_date": "2025-08-24T03:25:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0eac9f5bd9563044ece3e145eacee0c165763895",
+      "message": "Supabase Database Tables Verification and Creation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:17:17Z",
+      "committer_date": "2025-08-24T03:17:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eae293165ea4165057340e24aca07dce5b6b07f9",
+      "message": "Complete User Authentication System",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T03:05:59Z",
+      "committer_date": "2025-08-24T03:05:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cd3b3b445b5563f08e56a01afc93315a6f1e32d",
+      "message": "Add punctuation display to poetry chain game",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T01:08:03Z",
+      "committer_date": "2025-08-24T01:08:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10f9624bac72e7440a2361dc355e444458a12c00",
+      "message": "Optimize Battle Question Display",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T01:04:52Z",
+      "committer_date": "2025-08-24T01:04:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97551a2b88ed91276bedeae18fa88d67b16d3488",
+      "message": "Fix Navigation Link Issues",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-24T00:57:20Z",
+      "committer_date": "2025-08-24T00:57:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a89237105672028a5f88e0609ba6305a62e871d5",
+      "message": "Fix missing SkipForward import",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T00:33:51Z",
+      "committer_date": "2025-08-03T00:33:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a29a75b85df1e9d157e391dec97924949b6f76e",
+      "message": "Fix JSX syntax error in QuizSection",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T00:33:20Z",
+      "committer_date": "2025-08-03T00:33:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c149d9c1cbf14cd03cc7023bf424054abbc6852c",
+      "message": "Optimize Quiz System with Skip Function and Multiple Choice",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-03T00:31:19Z",
+      "committer_date": "2025-08-03T00:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "882f0031c93653953e8bc042bed15aa56c38c608",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-02T15:33:05Z",
+      "committer_date": "2025-08-02T15:33:05Z",
+      "login": "famotime"
+    }
+  ]
+}

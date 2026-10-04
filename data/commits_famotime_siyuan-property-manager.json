@@ -1,0 +1,438 @@
+{
+  "pushed_at": "2026-09-30T14:24:40Z",
+  "count": 48,
+  "commits": [
+    {
+      "sha": "c0c9ca63d2a311bcb407a2dc7af33de4b9231a5c",
+      "message": "fix(setting): 优化设置页排版、开关项展示与按钮边界防溢出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T14:23:48Z",
+      "committer_date": "2026-09-30T14:23:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4c890109c06bb0e8bb9e4a1a66f150d05e705f1",
+      "message": "feat(schema): 支持 relation 块关联预设属性与分类选型优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T12:21:32Z",
+      "committer_date": "2026-09-30T12:21:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e90417d3033c481b55854796e5270a2ab829917",
+      "message": "feat(schema): 支持属性类型全局设置入口、自适应弹窗与布尔值下拉选择",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T14:12:51Z",
+      "committer_date": "2026-09-29T14:12:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f72845ba5e28f60c44262530a8ccb34fe37bfba9",
+      "message": "feat(types): 实现类型化基建、专用控件族与交互补齐",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-28T13:40:31Z",
+      "committer_date": "2026-09-28T13:40:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61339b10fda73c2d1140d28f33ffebdc667d9ba3",
+      "message": "build(bundle): 优化打包脚本以支持 webp 图标打包并完善开发同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T14:32:28Z",
+      "committer_date": "2026-09-26T14:32:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37402ae1b57ce89bc74a9b6450f78dfc3899fa4e",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:42:14Z",
+      "committer_date": "2026-09-26T01:42:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03f571a105241b44b9015bd9b4418da02f2f491b",
+      "message": "feat(dock): 首次打开侧栏默认展示光标焦点块或当前文档属性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:40:41Z",
+      "committer_date": "2026-09-26T01:40:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56c200c1ccff385d8eb839b22240b8884542d8ce",
+      "message": "fix: dynamically align document inline attribute panel width with title and editor content",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T12:08:07Z",
+      "committer_date": "2026-06-26T12:08:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa91616d732a0adc987c06b39495ce63eb12a137",
+      "message": "v1.0.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T15:06:14Z",
+      "committer_date": "2026-06-24T15:06:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d60a53bcd457638216c81998cb7e7afab61bf685",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T14:14:54Z",
+      "committer_date": "2026-06-24T14:14:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f07cfd11a86f1f205a322aa493790c7cb7e6096",
+      "message": "fix(stats): fix doc-level custom attributes statistics and display issue",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T15:06:53Z",
+      "committer_date": "2026-06-16T15:06:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c243af12b1b27be4afb4da7cd6312df10559c2d",
+      "message": "refactor: split attribute statistics views and logic, add unit tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T11:05:56Z",
+      "committer_date": "2026-06-16T11:05:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f2b880ae14ff3d8519c7c69965c41c37c7ad08f",
+      "message": "style: move sort bar inside card grid for NotebookDbStats to apply consistent padding",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T10:19:48Z",
+      "committer_date": "2026-06-14T10:19:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66f8c6964c5252da537026bcdd2f69bf1c79b9e8",
+      "message": "fix: intercept invalid block jumps and show alert instead of refreshing UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T10:17:10Z",
+      "committer_date": "2026-06-14T10:17:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c8c0fdea01e16ed927b1b26c886833df66040d3",
+      "message": "style: move expand toggle to right and fallback blocks to support jump",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T10:12:29Z",
+      "committer_date": "2026-06-14T10:12:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4753a030c9699994544e86f3c48d22f07ce20b4",
+      "message": "feat: add notebook database statistics component and fix block binding count",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T10:10:31Z",
+      "committer_date": "2026-06-14T10:10:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b3dbe7cbcd0a5b0716ad2d1709b17b51cf8af29",
+      "message": "feat: refresh block and document properties in real-time by listening to ws-main websocket events",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T09:20:33Z",
+      "committer_date": "2026-06-14T09:20:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55a6adb424deb51a3f0c7f82e764c6b495117e1a",
+      "message": "feat: 在创建数据库时使用属性模板名作为数据库名称",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T09:08:22Z",
+      "committer_date": "2026-06-14T09:08:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1cfefd116f2912383f5bb3404f99958114ede1d",
+      "message": "feat: 修复属性视图属性值回填空白问题，完善行 ID 映射并添加开发指南文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T07:15:52Z",
+      "committer_date": "2026-06-14T07:15:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "846e86130829ff333745b45c659e9db3a17622a7",
+      "message": "feat: add batchMode toggle switch in AttrStats and hide checkboxes by default",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T02:29:42Z",
+      "committer_date": "2026-06-14T02:29:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e609d0e6a29b0bd5671c65efde38327c2e9e1d2e",
+      "message": "fix: change openTab target to rootId for full-doc view and implement polling scroll-to-block on tab switch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:58:23Z",
+      "committer_date": "2026-06-14T01:58:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9171262d369b35fa3ab67216a05fbae9bc8e9e5",
+      "message": "fix: re-trigger highlight on switch-protyle for cross-document jumps to guarantee blink highlight",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:54:28Z",
+      "committer_date": "2026-06-14T01:54:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b73340026641fc2ce7c3acb1a680aa5df715af9",
+      "message": "feat: support expanding custom attr values to show detailed sub-blocks with copy and jump actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:50:51Z",
+      "committer_date": "2026-06-14T01:50:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46991213c89f0e4fe4a49ad7cdd0fbaa9ffeefa9",
+      "message": "feat: persist attribute statistics sorting settings (sortBy/sortOrder)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:43:48Z",
+      "committer_date": "2026-06-14T01:43:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afd83c386bf9f6e5642a464382b3421323de4de8",
+      "message": "style: change sort order button to text select dropdown in AttrStats",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:42:45Z",
+      "committer_date": "2026-06-14T01:42:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e4af7f6e94bcc44502e2e97b12db3671795e5a7",
+      "message": "feat: persist custom attribute templates to templates.json & support migration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:31:50Z",
+      "committer_date": "2026-06-14T01:31:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf9227ebb64fa5f53e3211226a5b8c11614123cb",
+      "message": "style: 重构面板交互视觉，统一线框 SVG 图标并加入主题色点缀",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-14T01:17:58Z",
+      "committer_date": "2026-06-14T01:17:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "332e5be6095d4b382cb3c8bb0b26ed4fa282f8c5",
+      "message": "fix: 用 Dialog 替代 prompt/confirm 修复批量编辑报错并增强异常防御",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T14:43:34Z",
+      "committer_date": "2026-06-13T14:43:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1047568dfdd0852370d31f8ee7b16f06e545f463",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T11:41:42Z",
+      "committer_date": "2026-06-13T11:41:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fcc1db70fb4747a75830d4f3637fc143c7270ee",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T11:22:30Z",
+      "committer_date": "2026-06-13T11:22:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "558c31b0a967c7615d86bc0cda7dc535786bf31d",
+      "message": "refactor: 消除死代码和重复逻辑，补齐测试，刷新文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T03:40:20Z",
+      "committer_date": "2026-06-11T03:40:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d355fa9142131e73307db5c8893c61bb5e9cba4c",
+      "message": "feat: 自定义属性模板卡片样式及 UI 细节优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T00:34:03Z",
+      "committer_date": "2026-06-11T00:34:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46f8829cad43cd0cd67fbe15f0e8fccb26f3c05c",
+      "message": "fix: Dock 面板与文档内联属性面板属性修改双向同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T00:33:56Z",
+      "committer_date": "2026-06-11T00:33:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f32684a45cb1138def0444b556bb60fe41dc0580",
+      "message": "feat: add inline document property editor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-10T12:33:29Z",
+      "committer_date": "2026-06-10T12:33:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "295049fbefceaf7d27172b2a8f0f426c98eca7a8",
+      "message": "feat: add custom attribute templates",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-10T12:05:57Z",
+      "committer_date": "2026-06-10T12:05:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05f40450a7ecdc9a56046be6a29a3b8f948e06d2",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:41Z",
+      "committer_date": "2026-05-23T06:41:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca85a3ca6ecf2bb9354be688cec33f4df1763810",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T13:25:25Z",
+      "committer_date": "2026-05-17T13:25:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0734c34a063464d3494a638150523449df39d672",
+      "message": "feat: 增加属性管家日志设置开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T10:52:02Z",
+      "committer_date": "2026-05-16T10:52:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aedf65d5037553c47fd71f09141c05fdc34f7c11",
+      "message": "fix: 修复笔记本属性统计加载异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T10:29:56Z",
+      "committer_date": "2026-05-16T10:29:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39203b56e1ccecb00c8b92aed0bbd68b6fc16949",
+      "message": "feat: 笔记本自定义属性统计支持悬浮编辑/删除和批量操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T07:00:52Z",
+      "committer_date": "2026-05-16T07:00:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2927ffc35f7ba600428bdf2bc1050b6daa5f5c72",
+      "message": "fix: 修复笔记本自定义属性统计缺项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T06:39:24Z",
+      "committer_date": "2026-05-16T06:39:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95f73dfccf214783e29bc9d2ec893012c0bfc1f9",
+      "message": "fix: 修复属性统计与块跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:37:26Z",
+      "committer_date": "2026-05-16T05:37:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bec80bc10dbd1f9c24e58009671e7a2a7c93db7",
+      "message": "fix: 修复统计数据源和文档跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:08:53Z",
+      "committer_date": "2026-05-16T05:08:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bed9ad0b9aca4066f098886fc12c6c8fbcee4bd2",
+      "message": "fix: 修复文档块跳转和笔记本统计查询",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T04:57:19Z",
+      "committer_date": "2026-05-16T04:57:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "038657a7e9403654c82dc845d8f06fe0b38094be",
+      "message": "feat: 新增属性统计 Tab，支持文档自定义属性块列表和笔记本属性分类统计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T04:47:18Z",
+      "committer_date": "2026-05-16T04:47:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afd443b40c519ce42d6d39be7972a86fd67d0660",
+      "message": "fix: 点击文档标题即时切换属性面板，插件更名为\"属性管家\"",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T04:08:21Z",
+      "committer_date": "2026-05-16T04:08:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9efcf304e30e592c8a3cc6334fc5dd34fe7903f",
+      "message": "feat: 刷新插件图标、优化属性面板显示与交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T03:55:32Z",
+      "committer_date": "2026-05-16T03:55:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f77b22a6e85f8af306769e416cfce07622f22b6f",
+      "message": "初次提交",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T03:04:47Z",
+      "committer_date": "2026-05-16T03:04:47Z",
+      "login": "famotime"
+    }
+  ]
+}

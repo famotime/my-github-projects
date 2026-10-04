@@ -1,0 +1,150 @@
+{
+  "pushed_at": "2025-09-21T05:03:48Z",
+  "count": 16,
+  "commits": [
+    {
+      "sha": "4638694ed085716d2bb88a4c8fab034f2feec157",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-21T05:03:47Z",
+      "committer_date": "2025-09-21T05:03:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1627ccf9a87a1220936bf30229c0a73093d61770",
+      "message": "Fix Results page content loading",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:25:47Z",
+      "committer_date": "2025-05-26T15:25:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6a4f5b3a709c503a403115e96f61a8b93fbde2e",
+      "message": "Fix Results page content loading",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:25:46Z",
+      "committer_date": "2025-05-26T15:25:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f77193d1983a32af86f43de857a9e70c65876d8",
+      "message": "Fix Results page content loading",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:24:14Z",
+      "committer_date": "2025-05-26T15:24:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "621bb190671c629e777dd3d709c231a6e474415b",
+      "message": "Update Upload page translations and content",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:19:22Z",
+      "committer_date": "2025-05-26T15:19:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "288ffd1d22ae5d70f2927d469c8127eb42f3e8f7",
+      "message": "Update Results page translations and content",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:15:10Z",
+      "committer_date": "2025-05-26T15:15:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5719aa307cd30c72a2ec0b35eef66e7ae2a1b45a",
+      "message": "Update Footprints translations and add random photo feature",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:12:43Z",
+      "committer_date": "2025-05-26T15:12:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f0260c553fdaa20f357961c4814e8f8a58bec8e",
+      "message": "Fix string apostrophe in en.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:07:18Z",
+      "committer_date": "2025-05-26T15:07:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "916555060cdcc4711b289a9bca999eb2f899a72a",
+      "message": "Fix homepage content and translations",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:06:49Z",
+      "committer_date": "2025-05-26T15:06:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "446292a4514f5d6bd28ce174542b0f918dcc04a3",
+      "message": "Add Footprints feature with 3D calendar and globe",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T15:03:30Z",
+      "committer_date": "2025-05-26T15:03:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04a70d665e7ec9c114b9f80d6f6fc7b911005987",
+      "message": "Add missing Lucide React icon imports",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:52:46Z",
+      "committer_date": "2025-05-26T14:52:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20e80078446884255652df7604b19442f07345ae",
+      "message": "Add missing Lucide React icon imports",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:52:45Z",
+      "committer_date": "2025-05-26T14:52:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4098f0acda65578623272009da3d30e70d5919a",
+      "message": "Update design with dreamy colorful effects",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:50:52Z",
+      "committer_date": "2025-05-26T14:50:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "227af38663d7d56a31bf9a29ecd27c56aa87ba07",
+      "message": "Update design with dreamy colorful effects",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:50:51Z",
+      "committer_date": "2025-05-26T14:50:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b097a9932ab4605a37fe14f3fb5fad7db3ab6fbd",
+      "message": "Update design with dreamy colorful effects",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:38:15Z",
+      "committer_date": "2025-05-26T14:38:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec47a755ddc8f0c5a8a318f3fdbb141c758f564c",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T14:28:01Z",
+      "committer_date": "2025-05-26T14:28:01Z",
+      "login": "famotime"
+    }
+  ]
+}

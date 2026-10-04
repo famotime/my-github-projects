@@ -1,0 +1,222 @@
+{
+  "pushed_at": "2026-09-02T14:47:44Z",
+  "count": 24,
+  "commits": [
+    {
+      "sha": "170bbe15dd85a57854f90e6ef7c8229e8740417c",
+      "message": "Make description field optional and fallback to body excerpt",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-02T14:23:57Z",
+      "committer_date": "2026-09-02T14:23:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7725c7e6056a3440fbf7e1facc0cdc6156eef086",
+      "message": "Updated PostCard.astro and added OpenClaw guide",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T13:53:25Z",
+      "committer_date": "2026-09-01T13:53:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "674a18c3abf53355c245a8d18637ee1b8af2c5ab",
+      "message": "Updated frontmatter created field and cover path support",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T12:59:47Z",
+      "committer_date": "2026-09-01T12:59:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75afa8ac80da4d3b95a6576f3a0ef1228bfc390d",
+      "message": "Updated projects.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T00:58:17Z",
+      "committer_date": "2026-05-03T00:58:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d38103bb3ea8ec3b9234e8876ced7e07d407b0d3",
+      "message": "Updated projects.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-28T07:13:36Z",
+      "committer_date": "2026-02-28T07:13:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9887ad1a78e7fb65d76fe5a8a0de6e14defc0215",
+      "message": "update logo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-19T09:59:31Z",
+      "committer_date": "2026-02-19T09:59:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5bedac96839270d744ae04f68bbe9658bf6ef278",
+      "message": "更新logo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-19T05:24:09Z",
+      "committer_date": "2026-02-19T05:24:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5399f8ecf4d653266feaea311a53ba02d9ab0da",
+      "message": "Updated Search.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-19T01:25:46Z",
+      "committer_date": "2026-02-19T01:25:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca4f6e20b9f337095b8c5736314ab17c4d0db021",
+      "message": "update content",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-19T01:25:26Z",
+      "committer_date": "2026-02-19T01:25:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fb1a6c8a12b3397da7e06ff7b5f7c9bbb36cf14",
+      "message": "Updated README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T15:08:47Z",
+      "committer_date": "2026-02-18T15:08:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03baca2d2b57a85c10d0f2e36165438956eb6c07",
+      "message": "Updated index.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:58:05Z",
+      "committer_date": "2026-02-18T14:58:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d1f52c10b0d6ce5182c7a00e1b7da0118589acf",
+      "message": "Updated readingTime.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:56:05Z",
+      "committer_date": "2026-02-18T14:56:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a73f571c2193838f969d98332b4eec9934adb31",
+      "message": "Updated index.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:54:13Z",
+      "committer_date": "2026-02-18T14:54:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2dd95dd298226d0d9683c3939d293a7fe051759d",
+      "message": "Updated Comments.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:50:03Z",
+      "committer_date": "2026-02-18T14:50:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11cc90d2ce04d64533498b29f406f463646fea76",
+      "message": "Updated projects.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:42:00Z",
+      "committer_date": "2026-02-18T14:42:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86bb7da85ea73fa3c91c6a2c7393c8b2954131be",
+      "message": "Updated projects.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:38:18Z",
+      "committer_date": "2026-02-18T14:38:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fdbc7f3fa9e018e10843bc0176f430c45267b1a8",
+      "message": "Updated Search.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:14:50Z",
+      "committer_date": "2026-02-18T14:14:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72a264b590f8f3a962f9b168a73d2c2c63e56539",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T14:06:28Z",
+      "committer_date": "2026-02-18T14:06:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db17410917a40af9386eb49148bd3060a9f342a2",
+      "message": "Updated ThemeToggle.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T13:52:43Z",
+      "committer_date": "2026-02-18T13:52:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b50bccf1cce2d39b6c2f88d87c4fe032e907b86",
+      "message": "Updated ThemeToggle.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T13:50:43Z",
+      "committer_date": "2026-02-18T13:50:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8509f8459a1cd3a117b933309dfc69ac4b11425",
+      "message": "Updated global.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T13:47:19Z",
+      "committer_date": "2026-02-18T13:47:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc8950c2459759b9371370c9f463625e97b1126b",
+      "message": "Updated package.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T13:43:41Z",
+      "committer_date": "2026-02-18T13:43:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "776b2d184abdfd7a97d2e78098e3c4ef312e087a",
+      "message": "Added about.astro",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T12:53:57Z",
+      "committer_date": "2026-02-18T12:53:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "514cc89b18dbcb58942286a5cd7a013ddcc9d246",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-18T12:43:15Z",
+      "committer_date": "2026-02-18T12:43:15Z",
+      "login": "famotime"
+    }
+  ]
+}

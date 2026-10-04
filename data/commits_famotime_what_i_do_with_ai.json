@@ -1,0 +1,330 @@
+{
+  "pushed_at": "2025-09-27T15:39:19Z",
+  "count": 36,
+  "commits": [
+    {
+      "sha": "f3fad1f8e0dbe71e124876901dff87c9e7545a99",
+      "message": "增强GLM图像处理器，新增token预估功能以避免API调用失败，支持跳过数据量过大的图片文件，并更新处理统计结果以包含跳过的文件信息。",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-27T15:38:05Z",
+      "committer_date": "2025-09-27T15:38:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6419aabf3a1e05658bb080b11ea47773f453ded5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-09-27T12:46:04Z",
+      "committer_date": "2025-09-27T12:46:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "99dffebdd734f6421ff992102c9cd23ae4da9dc4",
+      "message": "支持超过4张图片的自动分批处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T01:22:40Z",
+      "committer_date": "2025-06-02T01:22:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d145d716abae05a109961983bf7b3caaa66a3177",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T01:06:41Z",
+      "committer_date": "2025-06-02T01:06:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad7cc37f15df28f00bcf4a6660982ef2819fe2c6",
+      "message": "新增基于颜色去除背景的功能，支持自动检测背景颜色和边缘平滑处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T15:30:30Z",
+      "committer_date": "2025-06-01T15:30:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca2a2ad6ab12854ed09c9f7b539e3152e225527d",
+      "message": "新增去除背景并居中图像的功能，输出为透明PNG格式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T15:22:28Z",
+      "committer_date": "2025-06-01T15:22:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e875970936f42f1662172dc68b91047900a1b36",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T15:22:00Z",
+      "committer_date": "2025-06-01T15:22:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fba33b7ffde04b6d3e2fb6f7902ef2939dff12c",
+      "message": "新增图像分割功能，将指定图像按照N*N网格分割为多个小图像并保存到指定目录",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T14:22:14Z",
+      "committer_date": "2025-06-01T14:22:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2fa50a152646f9fca7858a8404c2f9c3663df4d",
+      "message": "添加Freepik背景去除器，支持批量处理指定目录下的图片并下载处理后的结果",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-01T14:21:57Z",
+      "committer_date": "2025-06-01T14:21:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "705f938cfd825c47824d4b9b27f729b84dab0fe1",
+      "message": "del",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T14:37:09Z",
+      "committer_date": "2025-05-24T14:37:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd75880f8aa47dcd35dabde3dbe09b62745f9485",
+      "message": "使用Playwright自动化爬取音乐风格详情",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T14:36:29Z",
+      "committer_date": "2025-05-24T14:36:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69819be8203392a48f05bd2f9e311660a2d6ec4f",
+      "message": "支持分批处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T14:35:58Z",
+      "committer_date": "2025-05-24T14:35:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5981812217c6978de2e5cbd8bcefeaee5fbb942d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T11:24:14Z",
+      "committer_date": "2025-05-24T11:24:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ac9da968576e66df8c48c463c1e60774397a9fc",
+      "message": "使用Playwright和AgentQL自动化爬取数据",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T11:24:01Z",
+      "committer_date": "2025-05-24T11:24:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b60f680f641da01f28fde54ea565b0b4176d6fa1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-15T14:45:13Z",
+      "committer_date": "2025-02-15T14:45:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "830b1cdecb2d0716640c2dfb65474e88c125938d",
+      "message": "优化提示说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-15T14:29:59Z",
+      "committer_date": "2025-02-15T14:29:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a1750a24f044d8d3577357f25c7ebee1dae9f31",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-13T15:10:35Z",
+      "committer_date": "2025-02-13T15:10:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e69531d777678c6d9798924dac9879686c9c01d",
+      "message": "utools鼠标左右键切换插件",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-13T14:43:27Z",
+      "committer_date": "2025-02-13T14:43:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6ac713df99ce2b46962d0b2ea2bf7984b263836",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-13T14:39:25Z",
+      "committer_date": "2025-02-13T14:39:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc44376336935c503edc33ecdfbe80ee0ac2f332",
+      "message": "utools鼠标左右键切换插件",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-13T14:04:47Z",
+      "committer_date": "2025-02-13T14:04:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17698027dbad77c668024f7668de8b311073bd0e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-13T14:04:14Z",
+      "committer_date": "2025-02-13T14:04:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0cd6c31123aa98f29aa8b646320945fbcd2260f7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-07T15:22:37Z",
+      "committer_date": "2025-02-07T15:22:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50c388189b94d4d0e5f623e293e6d51c6af42a42",
+      "message": "解决LLM修改md图片路径（增加空格）问题，增加检测和修复机制",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-06T15:51:17Z",
+      "committer_date": "2025-02-06T15:51:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c782d56ae73347f65d177469d413e81b61f405c8",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-05T14:41:53Z",
+      "committer_date": "2025-02-05T14:41:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f973421a743c7c07d4c2603ccffe8b39f674f06",
+      "message": "重构",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-05T14:41:42Z",
+      "committer_date": "2025-02-05T14:41:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c115364378e8f9e58f3c28e0384688e54cfdec0",
+      "message": "delete",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-04T04:13:28Z",
+      "committer_date": "2025-02-04T04:13:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86bc72d3132ca284b52841562eb128a796008c5b",
+      "message": "支持长文本自动切分处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-03T14:27:26Z",
+      "committer_date": "2025-02-03T14:27:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9c2131de61b80cbc9d47875d9442d021c646199",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-03T14:26:54Z",
+      "committer_date": "2025-02-03T14:26:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dde941f32c39af5380e4c32752ae77c50131ad10",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T15:19:03Z",
+      "committer_date": "2025-01-22T15:19:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ba8b4eade363e60b27b52600b0bb234da0a0e10",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:54:17Z",
+      "committer_date": "2025-01-22T14:54:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0817f14ae0e81195a5554b1d537972130d718ca",
+      "message": "Delete input directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:35:55Z",
+      "committer_date": "2025-01-22T14:35:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8706b3f16da0bb743ea6fad0b28651a5e616be5",
+      "message": "Delete output directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:35:36Z",
+      "committer_date": "2025-01-22T14:35:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9dfaff33cc91990ad203816c7fd9c05694659c9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:32:30Z",
+      "committer_date": "2025-01-22T14:32:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e5b645975e838dfd83d7f65d067f9466c2c51ba4",
+      "message": "合并README.md并保留详细说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:31:22Z",
+      "committer_date": "2025-01-22T14:31:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5916f34133d60aa7926d30bdcb986e87f666a8c3",
+      "message": "初始化项目：添加图片文字提取工具",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:30:22Z",
+      "committer_date": "2025-01-22T14:30:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3a8f069fe0f916c3881c574005dbeac8f44fee0",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-01-22T14:26:13Z",
+      "committer_date": "2025-01-22T14:26:13Z",
+      "login": "famotime"
+    }
+  ]
+}

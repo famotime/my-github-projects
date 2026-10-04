@@ -1,0 +1,330 @@
+{
+  "pushed_at": "2026-04-04T11:16:16Z",
+  "count": 36,
+  "commits": [
+    {
+      "sha": "a97e7072940564a9158be8bf91a378eed77789f5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T11:16:06Z",
+      "committer_date": "2026-04-04T11:16:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "420718151c26eda11f903a083223ed00d4ab3bff",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T11:14:09Z",
+      "committer_date": "2026-04-04T11:14:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93d3e5d7b368bff2cf7dfa19a0c018110bfb9e71",
+      "message": "Enhance Always On: persist auto-start settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T11:13:56Z",
+      "committer_date": "2026-04-04T11:13:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2ed027c5b33df1408b0bfdbee9705a2d5bbd1d9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T10:42:44Z",
+      "committer_date": "2026-04-04T10:42:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7962c1c618e6d4d937fe1dfbeccb734da53eef3",
+      "message": "Enhance BlockSlice: configurable smart detect bounds",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T10:42:26Z",
+      "committer_date": "2026-04-04T10:42:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "425674d8774b4d3cc8888fa07abcda1c2b41e386",
+      "message": "“方寸切”本地图像识别模型导入路径更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T02:09:17Z",
+      "committer_date": "2026-01-18T02:09:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78b9dc08770aed3530f0030d4ce5ee5788e6f9d2",
+      "message": "更新uTools开发者文档，修正链接和示例代码；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-30T14:09:41Z",
+      "committer_date": "2025-12-30T14:09:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0dec6c08785524ae8b3b42f7e17cfa4d54781863",
+      "message": "更新uTool开发者文档及爬虫脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-27T13:30:17Z",
+      "committer_date": "2025-12-27T13:30:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66038ad0b86750956daa2cc774a312d448043aa6",
+      "message": "新增多方块同“大小”工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-26T13:41:09Z",
+      "committer_date": "2025-12-26T13:41:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fff0263a4367be3c223db5a2d5fdc12229b5aaf",
+      "message": "方块选择逻辑由部分覆盖选择为全部面积覆盖选择；UI优化；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-26T13:22:51Z",
+      "committer_date": "2025-12-26T13:22:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0803e4cedc57f1d390861a1b80c5c9236880856",
+      "message": "“自动贴合”操作遵循当前方块的预设比例属性限制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-24T16:21:16Z",
+      "committer_date": "2025-12-24T16:21:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fd14a70b70e5b0b010d5bd2fa38b615d0cc4c3c",
+      "message": "UI 优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-24T15:55:24Z",
+      "committer_date": "2025-12-24T15:55:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92043939f590538bd0981b6998c2555924193dc1",
+      "message": "“智能框选”功能遵循当前选择的方块预设比例",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-24T15:13:33Z",
+      "committer_date": "2025-12-24T15:13:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62ff017743b4051b9efa411de8109d826a8153a8",
+      "message": "支持一键智能框选功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-24T15:03:42Z",
+      "committer_date": "2025-12-24T15:03:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7865eeb4eac82a93a38f08c4eb68f7295d9836bc",
+      "message": "“方寸切”插件支持 AI 自动识别元素并贴合选框功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-24T13:29:35Z",
+      "committer_date": "2025-12-24T13:29:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "40998b4f568ec9ca20a1ee048f62ac5d67416f5c",
+      "message": "加载大文件时，提供友好提示；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-23T16:14:52Z",
+      "committer_date": "2025-12-23T16:14:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0374f29978c46b1ff51e736bbc2e62777a470d9b",
+      "message": "支持按住Ctrl拖动复制，按住Shift拖动对齐原位置移动，按住Ctrl+Shift拖动则对齐原位置复制；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-23T15:59:11Z",
+      "committer_date": "2025-12-23T15:59:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1f8062b9f35ff928df262eeb68d5a7d36678609",
+      "message": "修复”不允许方块重叠“选项未生效问题；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-23T15:46:28Z",
+      "committer_date": "2025-12-23T15:46:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0f7f8a774ee0b8d9fdf387916d6c2ee28d751b5",
+      "message": "UI 优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-23T15:37:59Z",
+      "committer_date": "2025-12-23T15:37:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d148a246ada98cc744b0444d56e38a107d274eb",
+      "message": "UI 体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-23T15:19:35Z",
+      "committer_date": "2025-12-23T15:19:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f1e4bbb9da2550a96daad45e49e7fe3283f870b",
+      "message": "选中多个方块时，也允许“阵列复制”操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-21T16:17:06Z",
+      "committer_date": "2025-12-21T16:17:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81f330c568b882f61e92077f420e031bce4c9a89",
+      "message": "“方寸切”增加亮色主题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-21T15:32:12Z",
+      "committer_date": "2025-12-21T15:32:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8915e1143af7f5c2b7f38238eb49eaa22655cc79",
+      "message": "新增”方寸切“插件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-21T14:33:09Z",
+      "committer_date": "2025-12-21T14:33:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ecaad37c0da842b28e1fec7eaca235def55a1cb8",
+      "message": "弥隙缩图插件 UI 优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T13:11:17Z",
+      "committer_date": "2025-12-14T13:11:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d628c85e4f2d0fddf9d5de124faac618e0858d3",
+      "message": "Enhance \"HTML 转 Markdown\" plugin: update README for improved clarity on features, modify plugin description, and increme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-13T07:39:05Z",
+      "committer_date": "2025-12-13T07:39:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1391dc22c45ead70909b1e2015ca2775e671b1f2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-13T04:35:11Z",
+      "committer_date": "2025-12-13T04:35:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3c6ade1a36e47d1f2734cfcb0b272cfa1fef5ed",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-13T04:35:02Z",
+      "committer_date": "2025-12-13T04:35:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bb337a12de5aa9c92d4c0e962c0bad01a0a66f9",
+      "message": "Update \"Seamless Crop\" plugin: new features for selection area manipulation, including draggable selection and coordinat",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T08:16:29Z",
+      "committer_date": "2025-11-23T08:16:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e09c11d948562daa8d271d7c1cefdf00ae307985",
+      "message": "Update \"Seamless Crop\" plugin: enhance README with new vertical cropping support, address image clarity issues after mul",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T03:57:45Z",
+      "committer_date": "2025-11-23T03:57:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de2bd838c46d9dcde15d8f15a504744c9c4c5aaf",
+      "message": "Refine \"Seamless Crop\" plugin: enhance README with detailed features, add cropping direction toggle, improve image loadi",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-23T03:37:36Z",
+      "committer_date": "2025-11-23T03:37:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8979b84955bd14ec0959c063f814104991f27d92",
+      "message": "Enhance \"Seamless Crop\" plugin: add multi-step undo support, improve image centering on paste, enlarge cropping hints, r",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-15T12:19:35Z",
+      "committer_date": "2025-11-15T12:19:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd0edbeed80a38a5252a3438254ca27c162cc990",
+      "message": "新增“弥隙缩图”Utools功能插件，刷新README",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-15T11:54:59Z",
+      "committer_date": "2025-11-15T11:54:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e32a2e63451362dc8ccb3a4ad3f66f47b24c843f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-09T08:04:14Z",
+      "committer_date": "2025-08-09T08:04:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "054198ae0d629043718e6e6089711af4aa4299da",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-09T07:52:30Z",
+      "committer_date": "2025-08-09T07:52:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06b3faf596298e031b29893142bba3557ad84c27",
+      "message": "添加项目README文件，包含插件介绍和使用说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-09T07:45:48Z",
+      "committer_date": "2025-08-09T07:45:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "855c35ece34cb52d6bd42b95d71a4a6b87f52bb5",
+      "message": "初始提交：添加uTools插件项目",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-08-09T06:56:22Z",
+      "committer_date": "2025-08-09T06:56:22Z",
+      "login": "famotime"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "pushed_at": "2026-06-18T17:28:52Z",
+  "count": 49,
+  "commits": [
+    {
+      "sha": "6b769d0b58ea831f50417cc06ca522aecf24869d",
+      "message": "feat: 可视化面板空行过滤与连续变量赋值合并优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:28:43Z",
+      "committer_date": "2026-06-18T17:28:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98d735287c57676ec63a316df04d3c06234dd234",
+      "message": "style: 重构界面图标为 Lucide 显式线框 SVG 且优化全局 UI/UX 气泡提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:15:08Z",
+      "committer_date": "2026-06-18T17:15:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89e358c56e5a731dccd0dce42c7e6aa66cc9a454",
+      "message": "feat: 新增月度日记模板，自动生成当月每日日期标题及日记板块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T06:31:41Z",
+      "committer_date": "2026-06-06T06:31:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7616da8a532bd6d95c1ac23576459afbfc0b100",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T05:55:18Z",
+      "committer_date": "2026-06-06T05:55:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e5e945fa91ab0ef15f205cdbabbe5e3c31086fe",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T05:46:03Z",
+      "committer_date": "2026-06-06T05:46:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe0f5a57868e26c3c4f331791490594c635646df",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T05:34:02Z",
+      "committer_date": "2026-06-06T05:34:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb34d2472ed03e0c8e71bafa0820360dda80f555",
+      "message": "Merge branch 'worktree-template-parser-fixes'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T04:08:05Z",
+      "committer_date": "2026-05-31T04:08:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cb9e0251bce55243232e3c589496a8fd4b96eae",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T03:05:15Z",
+      "committer_date": "2026-05-31T03:05:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12a428961a3ec7529d2f3fca7122ebe5f079b49d",
+      "message": "fix: 隔离预览 tab 与设置页的上下文文档状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T02:40:29Z",
+      "committer_date": "2026-05-31T02:40:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "40f521cd25039e9d902439be20663d7c3d5cde13",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T01:53:09Z",
+      "committer_date": "2026-05-31T01:53:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57005893bcfa03277dbc71f2dab1c37d80eaacdd",
+      "message": "feat: 新增预览上下文文档设置，预览页绑定示例文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T01:52:58Z",
+      "committer_date": "2026-05-31T01:52:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b13a2b5d90a5d81ee4f4da077cd75eff686129e1",
+      "message": "fix: 修复模板预览无法显示真实渲染效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-31T00:55:13Z",
+      "committer_date": "2026-05-31T00:55:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb98eb2ac785a51da9aae690a1e6f9cd20a7000d",
+      "message": "Merge remote-tracking branch 'origin/master' into hapi-0530-3e92",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T19:04:11Z",
+      "committer_date": "2026-05-30T19:04:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5953ede553d143daa91e14f45f84f850c7a2d86",
+      "message": "build: 更新 package.zip",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T19:03:32Z",
+      "committer_date": "2026-05-30T19:03:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cae67fe8f01b407a0e49420ff8bc545be4eaddf2",
+      "message": "feat: 扩展可视化组件支持 — 新增注释类型、变量重赋值、多分隔符解析",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T19:01:38Z",
+      "committer_date": "2026-05-30T19:01:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82b57f670227b60dcc7a2591e43d3d3f59c3c778",
+      "message": "fix: handle nested subdirectories in renameFolder, add error logging, use i18n for refresh title",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T16:05:10Z",
+      "committer_date": "2026-05-30T16:05:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "09905ea38b6668583bc1a4f6834be50437832324",
+      "message": "style: fix lint issues (consistent formatting, max-statements-per-line)",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:59:03Z",
+      "committer_date": "2026-05-30T15:59:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4877fc9cb170ed34c680516afa8f5a9276fb35e3",
+      "message": "feat: wire up folder event handlers and update validation in TemplateBuilder",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:56:05Z",
+      "committer_date": "2026-05-30T15:56:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2ba9cb2c88972cf874395eaa6d297fb534e0b01",
+      "message": "feat: pass through folder events in LeftPanel",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:52:50Z",
+      "committer_date": "2026-05-30T15:52:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac6dbe4b97f7a68229b10e12c986fc52e4eb0b0e",
+      "message": "feat: convert TemplateList to tree rendering with folder support",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:50:16Z",
+      "committer_date": "2026-05-30T15:50:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f6f5c3ab80d6256a6983d9e30bc3624965ddc961",
+      "message": "feat: add TemplateTreeNode recursive tree component",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:47:05Z",
+      "committer_date": "2026-05-30T15:47:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a8b7ba0b81594c811b3275ac1c2c4cd9e738852",
+      "message": "feat: add tree state and folder methods to useTemplate composable",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:44:04Z",
+      "committer_date": "2026-05-30T15:44:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9e867ad62f4a4e0ffc5ffede305c016f4059b34",
+      "message": "feat: add recursive directory reading and folder CRUD to TemplateManager",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:41:13Z",
+      "committer_date": "2026-05-30T15:41:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f9cd817e529e5e201d6e5be79bdd5e25bb5a0c6",
+      "message": "Merge branch 'hapi-0530-67e8': 完善模板语法可视化支持",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:38:52Z",
+      "committer_date": "2026-05-30T15:38:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89492474f20bbc39eac5c0e361b07f06cb861587",
+      "message": "feat: add folder-related i18n translations",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:38:11Z",
+      "committer_date": "2026-05-30T15:38:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "682897a92a3d4eff77ad8f416f6731b7168c17d8",
+      "message": "feat: 完善模板语法可视化支持 — 补全 DateTime 模式、else if、Variable 前后缀、递归嵌套",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:38:10Z",
+      "committer_date": "2026-05-30T15:38:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a211d1c773f0ae9cadbae65b4f5f44aacad8b8dd",
+      "message": "feat: add FileNode interface for folder structure support",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T15:36:39Z",
+      "committer_date": "2026-05-30T15:36:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bd1104d8ec3d863273b0bb081d617fb97a2de6b",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T15:16:55Z",
+      "committer_date": "2026-05-30T15:16:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abc9096bb643e03c800b5bf53acb5368625bb8f9",
+      "message": "docs: 添加模板列表文件夹结构支持实施计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T15:08:34Z",
+      "committer_date": "2026-05-30T15:08:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9854a477f9c2c6ed6d7d8612ab97294b715c208",
+      "message": "feat: 使用 Protyle 替代手写渲染实现思源原生预览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T15:05:03Z",
+      "committer_date": "2026-05-30T15:05:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89d2dee1bac1107f3374005945e303848e5bc90b",
+      "message": "fix: 修复模板读取代码显示和预览",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-30T05:09:53Z",
+      "committer_date": "2026-05-30T05:09:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca23ccf7f2e3860acb09b638a701880d120caf2a",
+      "message": "fix: 修复模板读取、代码解析和预览 (含调试日志)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T03:26:22Z",
+      "committer_date": "2026-05-30T03:26:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b176896c3a9140a0f6a54d777810ed885dd5c3dd",
+      "message": "fix: 修复 insertComponent 未导出导致插入组件报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T03:19:42Z",
+      "committer_date": "2026-05-30T03:19:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6787ecf07ccf59f80c31171197cf50eb37d49227",
+      "message": "fix: 修复模板读取、代码解析和预览渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T03:18:56Z",
+      "committer_date": "2026-05-30T03:18:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab55d92c337db2edfdbc26a76821059884a82902",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T03:07:34Z",
+      "committer_date": "2026-05-30T03:07:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50ba915759ed7c3554d52bb45204fa34d800a7e6",
+      "message": "fix: 修复暗色主题、语法高亮和预览渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T03:04:50Z",
+      "committer_date": "2026-05-30T03:04:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4d4555d0e4cf47f5c3e0c106f871649b7dd1473",
+      "message": "fix: 修复预览渲染、优化插入体验与代码解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T02:55:58Z",
+      "committer_date": "2026-05-30T02:55:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "148de35b27770e79a6cc9ee7b59b2824d0779302",
+      "message": "docs: 更新 CLAUDE.md 反映最新架构变更",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T23:29:07Z",
+      "committer_date": "2026-05-29T23:29:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff4cd1d777ad413ed7a72d277f464029ef66c959",
+      "message": "feat: 全面优化功能性、易用性与交互界面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T23:27:55Z",
+      "committer_date": "2026-05-29T23:27:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e9ecac0e1ac16590530910860ad9b9daf1c06d2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T17:28:43Z",
+      "committer_date": "2026-05-29T17:28:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8563ddadcba22a8a072937a1a85d13a703087805",
+      "message": "fix: 修复自定义页签打开空白",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T17:25:41Z",
+      "committer_date": "2026-05-29T17:25:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc905b993c82fae6f6f7a9b35ceb0eae401883a8",
+      "message": "fix: 修复页签空白问题，使用 addTab 注册 + this.element 挂载",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T17:12:20Z",
+      "committer_date": "2026-05-29T17:12:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f4f5f6e0c038445f274d917ad68310eed5c903f",
+      "message": "feat: 添加属性组件桩文件与 i18n 国际化翻译",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:57:19Z",
+      "committer_date": "2026-05-29T16:57:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2190faa55c16789588943546d132ef67362410dd",
+      "message": "feat: 添加可视化编辑器、代码编辑器和预览面板组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:54:10Z",
+      "committer_date": "2026-05-29T16:54:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fc3074468a187da97d38bca4a6fa62a6139067e",
+      "message": "feat: 重构入口点、创建 composables、构建主页面布局与左侧面板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:48:56Z",
+      "committer_date": "2026-05-29T16:48:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "884054aa941fda6092111d0f2a80bccaaf292f6b",
+      "message": "feat: 添加模板生成引擎与支撑服务（generator/parser/template-manager/preview）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:43:04Z",
+      "committer_date": "2026-05-29T16:43:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53d723e33002e1f8096592d042d405753aa1291c",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:35:51Z",
+      "committer_date": "2026-05-29T16:35:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0f7844fb9c0709267c1405400bd80c268fa9a5d",
+      "message": "feat: 重命名插件为 siyuan-template-helper，清理脚手架代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:31:14Z",
+      "committer_date": "2026-05-29T16:31:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82da32526d5955937ecb27c824ba2ca7f21a984d",
+      "message": "feat: 初始化项目（基于 plugin-sample-vite-vue 脚手架）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T16:30:18Z",
+      "committer_date": "2026-05-29T16:30:18Z",
+      "login": "famotime"
+    }
+  ]
+}

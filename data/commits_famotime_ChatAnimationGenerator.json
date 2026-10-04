@@ -1,0 +1,618 @@
+{
+  "pushed_at": "2026-05-03T02:01:23Z",
+  "count": 68,
+  "commits": [
+    {
+      "sha": "8b4d515ee6192e3d85dd7b374c9273811c17fe5b",
+      "message": "Updated .gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T02:01:21Z",
+      "committer_date": "2026-05-03T02:01:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b43c55e992ccc14f010a1c122077c2906a16f5d",
+      "message": "feat: 优化用户管理与消息类型布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T13:49:00Z",
+      "committer_date": "2026-02-20T13:49:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c78de8f8229cf9359e5475b3c8280df347be1ea",
+      "message": "feat: 首次打开默认加载世界领导人聊天室模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T13:38:42Z",
+      "committer_date": "2026-02-20T13:38:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca568ebe30c0e4416c253a0d557325c22047d475",
+      "message": "docs: 更新 README 与 AGENTS 以匹配最新模板架构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T12:08:46Z",
+      "committer_date": "2026-02-20T12:08:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c410e26f905445ca0f7ac7619fa80c2e145ad1d7",
+      "message": "chore: 统一测试与参考文件到 tests/manual 目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T12:02:18Z",
+      "committer_date": "2026-02-20T12:02:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61abcf45b3ebaacffaf66448e8c9d332b93ca2d5",
+      "message": "refactor: 重构模板数据结构并切换到 schema v1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T11:59:20Z",
+      "committer_date": "2026-02-20T11:59:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1e7cf252d501d09f3da9683b26dcdb5bbff1a02",
+      "message": "templates: add couple comedy preset and align capture/control UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T11:31:10Z",
+      "committer_date": "2026-02-20T11:31:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8227ddb130ccd181a2af8b7734660a0636e95731",
+      "message": "ui: enforce 20:9 device shells and refresh frame option icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T11:13:04Z",
+      "committer_date": "2026-02-20T11:13:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aebc14d21327ee7525c2e0ffbe3415ed676665d0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T10:52:36Z",
+      "committer_date": "2026-02-20T10:52:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04541e0abf40ba2c24725afaea558dc41440effb",
+      "message": "theme: improve line/whatsapp fidelity and add app icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-20T10:51:59Z",
+      "committer_date": "2026-02-20T10:51:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92ccfddffae1a071dfc602f47f07858e0e7fb2d6",
+      "message": "补齐视频导出功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-20T08:12:01Z",
+      "committer_date": "2026-02-20T08:12:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38f01f9c911bf858b99b3034047d60e96e333e08",
+      "message": "Add repository contributor guidelines",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-20T08:10:45Z",
+      "committer_date": "2026-02-20T08:10:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edfdbd1e6abac90a0db34a8d4d6d06038014370a",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-09-21T04:57:02Z",
+      "committer_date": "2025-09-21T04:57:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc63cedbbfd16c8e3c8ad88295574efe7fc6b5ab",
+      "message": "优化图片预览功能，",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-08T14:00:22Z",
+      "committer_date": "2025-06-08T14:00:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d2ce552e6fc174be80321d86b1e76b58181fd3c",
+      "message": "添加转账功能，支持发起转账和已收钱状态，更新相关界面和样式，同时修改首页标题。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-08T13:52:28Z",
+      "committer_date": "2025-06-08T13:52:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac8b50366d327d0c6a79d78cc99945092bbf2f60",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T16:05:55Z",
+      "committer_date": "2025-06-07T16:05:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be7b78bf470e679d043a5b840edb49538fdcb1ca",
+      "message": "修复播放控制问题，添加重置播放功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T15:45:45Z",
+      "committer_date": "2025-06-07T15:45:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8586100ab9f15f8152431624ba384269423e34a6",
+      "message": "调整播放速度和消息延迟联动设置",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T15:20:03Z",
+      "committer_date": "2025-06-07T15:20:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eb9e6fe18431b2e286779e0df776c256aa0af68",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T13:37:06Z",
+      "committer_date": "2025-06-07T13:37:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "076d9bc53d6a77497f32ff746f9e6e58ae2fbc6b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T12:15:23Z",
+      "committer_date": "2025-06-07T12:15:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28df5fafbda0fbb73bd5e56f5fad9e19584ebcc9",
+      "message": "重构导出工具，移除冗余代码",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T12:00:13Z",
+      "committer_date": "2025-06-07T12:00:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cdc765e5bd1b157bebf3337643db8dac279355d6",
+      "message": "优化导出HTML样式，调整布局和间距",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T11:46:26Z",
+      "committer_date": "2025-06-07T11:46:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d55e405a141adf2360bee90910f7fa52de1564e",
+      "message": "修复导出聊天动画时头像位置不正确问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T11:40:59Z",
+      "committer_date": "2025-06-07T11:40:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d13149f2aa5e1201ecca9578cfeb7d4377223eb1",
+      "message": "更新导出功能以支持内联图片，优化HTML导出逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T08:54:03Z",
+      "committer_date": "2025-06-07T08:54:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23f10230d4f5498fbd5387bee9f53b1d0692044c",
+      "message": "更新预置模板内容",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T08:09:52Z",
+      "committer_date": "2025-06-07T08:09:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c73661774576964405404ce543595b0f73e7d6f",
+      "message": "更新默认背景图和头像链接为本地资源",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T07:59:52Z",
+      "committer_date": "2025-06-07T07:59:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0210ef871417a797c9a72bcc7c9f4f04de5bf7ad",
+      "message": "添加模板和对话功能，增加预置对话模板",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T05:26:28Z",
+      "committer_date": "2025-06-07T05:26:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "45197577efaa2bb22b164b425b63058ea272211e",
+      "message": "在配置面板中添加随机对话功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T05:00:03Z",
+      "committer_date": "2025-06-07T05:00:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccb60439594beaad5fcf92e03724019080b882d1",
+      "message": "添加红包吉言截断功能，调整红包消息类型和状态",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T04:48:10Z",
+      "committer_date": "2025-06-07T04:48:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f9cbd5ed2fef4e4bf40fef75743ef8e16d9f6980",
+      "message": "支持自定义头像上传，添加随机名称生成功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T04:31:05Z",
+      "committer_date": "2025-06-07T04:31:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2becba97a32ff82a9dc8acf2e93796ad2f547200",
+      "message": "重构聊天输入组件，优化输入框样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T04:07:51Z",
+      "committer_date": "2025-06-07T04:07:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f655602c2c66809f7cadc8f41fed45e3918d821",
+      "message": "优化红包消息的显示逻辑，添加红包状态切换功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T01:58:40Z",
+      "committer_date": "2025-06-07T01:58:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1530ecc54a22225011c54f42c4e0685aaa343af3",
+      "message": "支持红包和已领取红包的显示",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T01:29:10Z",
+      "committer_date": "2025-06-07T01:29:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5024c049a6affdd4388155c671ff2c0fc47b379",
+      "message": "添加截图功能，支持聊天窗口截图并下载",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-07T00:18:01Z",
+      "committer_date": "2025-06-07T00:18:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d87a23be1017d807895ae53c827303ff531d448a",
+      "message": "优化配置面板",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T16:32:06Z",
+      "committer_date": "2025-06-06T16:32:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b48a2be67c0a8403efc2bc5cf04e729ed2276ebf",
+      "message": "优化UI界面，重构配置面板，增加卡片式布局和交互反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T16:23:10Z",
+      "committer_date": "2025-06-06T16:23:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "909141349a67d33989aa77ac2824b5e8031bb71f",
+      "message": "优化面板切换按钮样式，增强移动端适配",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T16:11:19Z",
+      "committer_date": "2025-06-06T16:11:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aacae22ee9b139e2a464f0d29df21d5d77d10544",
+      "message": "增强响应式设计，添加面板切换功能，优化移动端体验，更新样式和动画效果，支持自定义滚动条样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T16:07:19Z",
+      "committer_date": "2025-06-06T16:07:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3d915a8c2b4a8cfebc967779f795685067b34b5",
+      "message": "重构消息列表组件为可编辑状态，支持消息的更新、删除和重新排序功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T15:43:11Z",
+      "committer_date": "2025-06-06T15:43:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d51e853bb6007cf72da6431580fbaeea1a24f61",
+      "message": "添加图片上传功能，支持自定义图片预览和删除",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T15:30:22Z",
+      "committer_date": "2025-06-06T15:30:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "417f62c02f6aac326597436d07d212fc678dc653",
+      "message": "增强聊天背景管理功能，支持上传、预览和删除背景图片",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T15:25:27Z",
+      "committer_date": "2025-06-06T15:25:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a83d8b6a5748c43451980f7439eac5ee000db77",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T15:20:02Z",
+      "committer_date": "2025-06-06T15:20:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a82bc08548f5f0b5629abb0b465829911b5d02c9",
+      "message": "添加消息延迟功能和背景图片设置，支持红包和转账类型消息的特殊样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T15:17:35Z",
+      "committer_date": "2025-06-06T15:17:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14683b591cb2464540702d6ed60d7887fcba9bdb",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:57:57Z",
+      "committer_date": "2025-06-06T14:57:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3f186c6df53f5c4896c9c071a67b87f4032b83d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:52:33Z",
+      "committer_date": "2025-06-06T14:52:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c46db19836b553ea22abefb4e16d369baf1ce15",
+      "message": "默认显示设备型号为'none'",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:48:59Z",
+      "committer_date": "2025-06-06T14:48:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e02c64f6aa4cffe948d7056a2be456b29c4b293",
+      "message": "优化聊天窗口的自动滚动逻辑，确保播放动画从窗口顶部开始并平滑滚动到最新消息",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:38:30Z",
+      "committer_date": "2025-06-06T14:38:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b0a5635228bc3a84bf8ac6ffb3ccacab6f4a1882",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:23:18Z",
+      "committer_date": "2025-06-06T14:23:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "138399470adbf9b5f976d5e3188661a38f980da4",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:22:56Z",
+      "committer_date": "2025-06-06T14:22:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d06fee93c4c49608c624c87686abe8276ee32dc3",
+      "message": "修复滚动逻辑冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:21:52Z",
+      "committer_date": "2025-06-06T14:21:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b78f6cfecb61801a29713a55f331be7d46432d10",
+      "message": "Fix auto-scroll to top on playback start",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:20:02Z",
+      "committer_date": "2025-06-06T14:20:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "09b9b59aa056c86aa7204ac34a6bb3a913297683",
+      "message": "Auto-scroll to top when playback starts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:18:35Z",
+      "committer_date": "2025-06-06T14:18:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3dc71da1177253a208a6dca4d8e27ae7e68acb7",
+      "message": "Add auto-scroll during message playback",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-06T14:16:41Z",
+      "committer_date": "2025-06-06T14:16:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d66e1630361a404eb36e37362130bc6c48c1a7b",
+      "message": "Update chat scroll behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:31:17Z",
+      "committer_date": "2025-06-02T13:31:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee59047e06bc9d9ab4174a05595c6c45191c8e74",
+      "message": "Updated ConfigPanel.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:28:50Z",
+      "committer_date": "2025-06-02T13:28:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e377f406f8c7371d2d0a43d6b9765500953c40f",
+      "message": "Update tab styles",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:27:29Z",
+      "committer_date": "2025-06-02T13:27:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcf44e4d950a2d0eb420d250541d6ff810610984",
+      "message": "Updated ConfigPanel.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:25:15Z",
+      "committer_date": "2025-06-02T13:25:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9d5b488e2ec912f3f8e3627e714e66ce0882c58",
+      "message": "Updated ConfigPanel.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:23:56Z",
+      "committer_date": "2025-06-02T13:23:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b235a2d8da4defc71a1a34dfcfc41d8b3e6dd79a",
+      "message": "Update device frame button order",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:19:53Z",
+      "committer_date": "2025-06-02T13:19:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd49f48be2ccaae9d13d8dc852e037f4aa23bb78",
+      "message": "Updated ConfigPanel.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:16:30Z",
+      "committer_date": "2025-06-02T13:16:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b9450c1983788107ea86e19b7cee5849eb2240d",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:12:15Z",
+      "committer_date": "2025-06-02T13:12:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a7f6e444973660779d0abef11b9bf9eaf9d76f88",
+      "message": "Fix Export Tab Navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:12:14Z",
+      "committer_date": "2025-06-02T13:12:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b528cc9de6cf0167c6058339902bdaf708ce494",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:09:16Z",
+      "committer_date": "2025-06-02T13:09:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c96e947f1b0f4a35fc32a74b1460a569ac0dfdc",
+      "message": "Update Playback Controls",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:09:15Z",
+      "committer_date": "2025-06-02T13:09:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8c81797c6e73e87cc4fca2aab47384c9bbbc8e2",
+      "message": "Add PNG Export Option",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T13:03:27Z",
+      "committer_date": "2025-06-02T13:03:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d16f005ee75433c22948534a0f0113de7de5e47c",
+      "message": "Updated ConfigPanel.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T12:52:20Z",
+      "committer_date": "2025-06-02T12:52:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56e72c6febebadf7810c0d258f96ada20a1d0ac0",
+      "message": "Update Config Panel with Message Configuration",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T12:40:06Z",
+      "committer_date": "2025-06-02T12:40:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c012b708b7ad39896bab29f242654fbd010ad3d5",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-02T12:35:18Z",
+      "committer_date": "2025-06-02T12:35:18Z",
+      "login": "famotime"
+    }
+  ]
+}

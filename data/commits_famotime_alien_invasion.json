@@ -1,0 +1,348 @@
+{
+  "pushed_at": "2025-05-24T15:22:09Z",
+  "count": 38,
+  "commits": [
+    {
+      "sha": "2e9fe38bbc51db8fc8a46fba4e3bb443cea86825",
+      "message": "支持透明图片",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T15:22:00Z",
+      "committer_date": "2025-05-24T15:22:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a2919015c5ebadb24e244fffdbcb3c1eb5e08d8",
+      "message": "修改背景颜色为白色；添加新的外星人和飞船图像文件。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T14:16:45Z",
+      "committer_date": "2025-05-24T14:16:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "768bd79aff4015f432749c799e8169a605e2b326",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T13:33:27Z",
+      "committer_date": "2025-05-24T13:33:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af8f12afd0c473b8331ed8b4d910787af5baba45",
+      "message": "bug fix",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T13:07:43Z",
+      "committer_date": "2025-05-24T13:07:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53c82cc3a6ca954e7eb1e02818ba058c1e565e44",
+      "message": "Merge pull request #4 from famotime/feature/highscore-new-enemies",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T08:27:50Z",
+      "committer_date": "2025-05-24T08:27:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8548325c4915772622af793dd0592cd175944bc3",
+      "message": "feat: Implement high score persistence and new enemy types",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-05-24T03:18:37Z",
+      "committer_date": "2025-05-24T03:18:37Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "f27de4c49f069082fdfbd12d99819cc3d69d5091",
+      "message": "Merge pull request #3 from famotime/feature-ideas",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-24T00:40:47Z",
+      "committer_date": "2025-05-24T00:40:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b042e5c365d172f134ba43cdb4c34c638190ca2",
+      "message": "Merge pull request #2 from famotime/master",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-23T16:49:38Z",
+      "committer_date": "2025-05-23T16:49:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "153571debb6e2d0c2ef6f353bb803f8d4a1c7a42",
+      "message": "在powerup.py中添加了道具图片缩放功能，使用外星飞船的尺寸作为参考。更新settings.py以包含道具掉落概率设置，外星人被击落时掉落道具的概率为10%。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-23T16:47:08Z",
+      "committer_date": "2025-05-23T16:47:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f25c5e5d6713f7af0e771110f7873581f7ec254",
+      "message": "Merge pull request #1 from famotime/feature-ideas",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-23T16:26:30Z",
+      "committer_date": "2025-05-23T16:26:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b79b2715e50930cb1190932117fc01bdbfe64b14",
+      "message": "feat: Implement core power-ups feature (partial)",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-05-23T16:24:28Z",
+      "committer_date": "2025-05-23T16:24:28Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "b091fe360e7f54b8c207959557630b56d9cc23a1",
+      "message": "Add three feature ideas for Alien Invasion game.",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-05-23T15:49:10Z",
+      "committer_date": "2025-05-23T15:49:10Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "9e36b0958aec31fc3ef2f3685790d509f44069f5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T02:42:03Z",
+      "committer_date": "2024-10-02T02:42:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06ebfe17491249d01ced5fde13a9eba6d2a4424f",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T02:31:49Z",
+      "committer_date": "2024-10-02T02:31:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aebcdac20f0fadcb17204c27e3c85a7d5b4127e3",
+      "message": "增加按键说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T02:30:08Z",
+      "committer_date": "2024-10-02T02:30:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1e3043ae103d083ad25628a0620ab8d10d179da",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T02:05:05Z",
+      "committer_date": "2024-10-02T02:05:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3018803bdd4ce05f6ba85b5986df906b15fb9a9",
+      "message": "增加游戏启动画面",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T02:02:17Z",
+      "committer_date": "2024-10-02T02:02:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04c63a4dbb1bc4f2a192b09d6953152163aa9f29",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T01:39:27Z",
+      "committer_date": "2024-10-02T01:39:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9b46f8006e9bf5f7a0e91dbc61c52c1c9d2bb06",
+      "message": "修复飞船图标显示问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T01:26:14Z",
+      "committer_date": "2024-10-02T01:26:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8e0627b3c27c69344948da8a49e1585bad479bd9",
+      "message": "原版1.0游戏",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T01:06:53Z",
+      "committer_date": "2024-10-02T01:06:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2a9f91df0afc444ebc377feae5b67b9b181600b",
+      "message": "修复炸弹显示问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T00:57:50Z",
+      "committer_date": "2024-10-02T00:57:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "016952d2eea1c30110977383404734895ecd8951",
+      "message": "del",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T00:31:43Z",
+      "committer_date": "2024-10-02T00:31:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1a22c5801e55df20c9144b3f1612315558b8332",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T00:30:17Z",
+      "committer_date": "2024-10-02T00:30:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21c7bfd585353e022d2a40f55b5a433413480eb2",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-10-02T00:26:29Z",
+      "committer_date": "2024-10-02T00:26:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cd9bf4d98ea10f328da26f7b5c6c560d4826ad4",
+      "message": "增加炸弹机制",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-09-22T09:24:02Z",
+      "committer_date": "2024-09-22T09:24:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74472fb59b6c60a55f1c8a4cadd95d00bcae527c",
+      "message": "增加爆炸视觉效果",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-09-22T08:41:47Z",
+      "committer_date": "2024-09-22T08:41:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e75cf9f97acb0f0842036c7158121159ae49939",
+      "message": "base version with sound effect",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-09-22T07:40:36Z",
+      "committer_date": "2024-09-22T07:40:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2537d17b8405037e72eb2c5c8e25974d59158a5",
+      "message": "Update .gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-08-16T09:37:08Z",
+      "committer_date": "2020-08-16T09:37:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea1754718be88f0743ce28a1da95a2c148f5f9e7",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:43:06Z",
+      "committer_date": "2020-07-25T23:43:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05f821f74a5e38587601e27b697a3c50c683aafd",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:30:36Z",
+      "committer_date": "2020-07-25T23:30:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b76471185ad8a88a9078175dd458e2dc1abb2f14",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:27:32Z",
+      "committer_date": "2020-07-25T23:27:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "841043ced9687a05512955ed2da282c87a7088a9",
+      "message": "Update README.md",
+      "author_name": "famotime",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2020-07-25T23:19:11Z",
+      "committer_date": "2020-07-25T23:19:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9faa2aa52b9c94981949f64dbca0c35102c057f7",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:19:10Z",
+      "committer_date": "2020-07-25T23:19:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d983a7cb275467d6bbc27554ddef879ae6679aec",
+      "message": "Update README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:12:37Z",
+      "committer_date": "2020-07-25T23:12:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78a470791be960378fb26c9b9fa42d6a3262eb9e",
+      "message": "Update README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T23:11:17Z",
+      "committer_date": "2020-07-25T23:11:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "733fec02e9bb265483bed965ccc7933c034384ae",
+      "message": "v1.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T16:32:45Z",
+      "committer_date": "2020-07-25T16:32:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d462b4ba9003375051987e428589038b1d046fd",
+      "message": "v1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T16:22:05Z",
+      "committer_date": "2020-07-25T16:22:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc0599570856c43c7393101b2a7b9a62998ccbfc",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2020-07-25T15:56:34Z",
+      "committer_date": "2020-07-25T15:56:34Z",
+      "login": "famotime"
+    }
+  ]
+}

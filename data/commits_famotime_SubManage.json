@@ -1,0 +1,231 @@
+{
+  "pushed_at": "2025-11-12T12:34:04Z",
+  "count": 25,
+  "commits": [
+    {
+      "sha": "41f0a4b4b0705fa9cc31133cace626e607d904a6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-12T12:33:09Z",
+      "committer_date": "2025-11-12T12:33:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc8864319ec7b6be549d805201b1b90878d1adbe",
+      "message": "Implement toast notifications and reminder management features; add ToastProvider to App, enhance ProfilePage with demo ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-12T12:27:53Z",
+      "committer_date": "2025-11-12T12:27:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38dd6cba1b134143190a94b98cb306501074ab07",
+      "message": "Enhance README with detailed features, tech stack, and setup instructions; add EmailConfigSection to ProfilePage for ema",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-09T11:10:08Z",
+      "committer_date": "2025-11-09T11:10:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a030a73d6baa2847f020fb6f373d4636d83c1e68",
+      "message": "Updated OnboardingFlow.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:46:31Z",
+      "committer_date": "2025-11-09T05:46:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36f145ca8d68c013d56fff0415dc19460934f4da",
+      "message": "Updated ProfilePage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:33:25Z",
+      "committer_date": "2025-11-09T05:33:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "772ee9a8622111b805afe88a3112ed242fe92479",
+      "message": "Updated ProfilePage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:32:48Z",
+      "committer_date": "2025-11-09T05:32:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "036583bcc8f65ea6ccccef0d928ad4e7946ea847",
+      "message": "Updated DashboardHeader.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:32:22Z",
+      "committer_date": "2025-11-09T05:32:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b2fa6be45420cfa206f86884c44c4d6f253c817",
+      "message": "Updated index.html",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:32:04Z",
+      "committer_date": "2025-11-09T05:32:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3aeab859b0337cbf992cea41acadbabecdd56f7",
+      "message": "Added 20251109053051_fix_security_performance_issues.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:31:26Z",
+      "committer_date": "2025-11-09T05:31:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87ec1a74db814e32b5537bd6c697fc5d4edc0b34",
+      "message": "Updated DashboardHeader.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:29:10Z",
+      "committer_date": "2025-11-09T05:29:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f3af925242b899c29a83b90ad8dfe70fa7d89c8",
+      "message": "Added ProfilePage.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:24:03Z",
+      "committer_date": "2025-11-09T05:24:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "45c264fc8226e0e1675e50d93ddf55d5908256ef",
+      "message": "Updated mockData.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:18:32Z",
+      "committer_date": "2025-11-09T05:18:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c74d13490eff7f4da7b2110fc8a31fe0629f5c38",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:10:45Z",
+      "committer_date": "2025-11-09T05:10:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d80bb0b0a19bc3d32051fca36d5cef2f609b2dd",
+      "message": "Updated SubscriptionList.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T05:06:02Z",
+      "committer_date": "2025-11-09T05:06:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60f4853a59b146d5748373be5e52a5406c185d41",
+      "message": "Added CustomComparison.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:52:17Z",
+      "committer_date": "2025-11-09T04:52:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a263b5eaf0b9d2b4cc46942174584aeb392666f9",
+      "message": "Updated mockData.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:45:12Z",
+      "committer_date": "2025-11-09T04:45:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20871e231aa793013c5851a57411391f1225a45b",
+      "message": "Added serviceLogo.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:30:25Z",
+      "committer_date": "2025-11-09T04:30:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e08ec21e0439b463fe19c692ac0be0afca7f82b8",
+      "message": "Updated index.html",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:26:18Z",
+      "committer_date": "2025-11-09T04:26:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac7ddd61dc54d07020eff029d0fc63805b3eb7e5",
+      "message": "Updated DashboardHeader.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:26:01Z",
+      "committer_date": "2025-11-09T04:26:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e456ed8a705adf8235fdd51bed68746a47b84f98",
+      "message": "Updated SubscriptionList.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:14:57Z",
+      "committer_date": "2025-11-09T04:14:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2240d2472e48349cb0ea24377d6f01b08d12966",
+      "message": "Updated SubscriptionList.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:08:21Z",
+      "committer_date": "2025-11-09T04:08:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e44d641f2fd818da4ab14bbbff208b3815f6dc3",
+      "message": "Updated index.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-09T04:06:04Z",
+      "committer_date": "2025-11-09T04:06:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6691a624938ca4047808398f7b194b2189dc0e22",
+      "message": "Updated index.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-10-03T07:36:42Z",
+      "committer_date": "2025-10-03T07:36:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "554c62e44723fac969f0d55666ccc15e0150ba4d",
+      "message": "Updated index.html",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-10-03T07:22:19Z",
+      "committer_date": "2025-10-03T07:22:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63ee816d46fcee8df6f2feec20240b13a6a707e2",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-10-03T07:17:42Z",
+      "committer_date": "2025-10-03T07:17:42Z",
+      "login": "famotime"
+    }
+  ]
+}

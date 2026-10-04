@@ -1,0 +1,78 @@
+{
+  "pushed_at": "2026-01-03T09:37:32Z",
+  "count": 8,
+  "commits": [
+    {
+      "sha": "4674cdca0031f239d6a6beb6582f617e37d0a138",
+      "message": "调整项目文件结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-03T09:37:24Z",
+      "committer_date": "2026-01-03T09:37:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c357b6001c5e2380cb15b3fdf978c6b3a4cb007b",
+      "message": "修复重复导出子节点备注问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-03T04:12:15Z",
+      "committer_date": "2026-01-03T04:12:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eec81614a91f237e28dcd2d7224ddb416629ab39",
+      "message": "Add options page for user settings and implement storage for note formatting preferences. Update content script to condi",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T14:23:51Z",
+      "committer_date": "2025-10-03T14:23:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca839537eb2022c14e480a4b23664c467fdfc1c5",
+      "message": "Refactor background and content scripts for improved readability and functionality. Streamline dynamic script injection ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T14:17:32Z",
+      "committer_date": "2025-10-03T14:17:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81ccf1d7b8148b12d1bb08456afaac7c64864063",
+      "message": "Refactor content script to improve MIME type detection and filename sanitization. Update image format checks for consist",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T12:05:56Z",
+      "committer_date": "2025-10-03T12:05:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1a46c4de34f180ecc2361e5f015406d8cc6df1e",
+      "message": "Enhance image handling in content script by adding MIME type detection and improving filename generation. Refactor funct",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T11:33:44Z",
+      "committer_date": "2025-10-03T11:33:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5e84e4b834049882ebb2480edd9df4f2499d195",
+      "message": "Implement Zip file export for WorkFlowy nodes, including image handling and dynamic content script injection. Update REA",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T11:13:53Z",
+      "committer_date": "2025-10-03T11:13:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdb2da8c96ba7fe64ba5de7586ed13c410b5decd",
+      "message": "new",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-10-03T09:31:00Z",
+      "committer_date": "2025-10-03T09:31:00Z",
+      "login": "famotime"
+    }
+  ]
+}

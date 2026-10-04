@@ -1,0 +1,1275 @@
+{
+  "pushed_at": "2026-10-03T14:34:34Z",
+  "count": 141,
+  "commits": [
+    {
+      "sha": "ae2a12945d73a091fd11498eff4d4af1cf8d453b",
+      "message": "docs(wterm): 刷新升级计划与实施文档至全量闭环状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:23:45Z",
+      "committer_date": "2026-10-03T14:23:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "938b7d0389b695e9344dbffd7ed9472c3ac5e378",
+      "message": "fix(terminal): 修复虚拟滚动下命令块行号失真、写回错位及 Markdown 打包缺失隐患",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:23:21Z",
+      "committer_date": "2026-10-03T14:23:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa2efab4de5e3fa0223cc1bb84936b829c79ccb0",
+      "message": "docs(wterm): 刷新 wterm v0.5 升级分析与验收实施文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T12:38:47Z",
+      "committer_date": "2026-10-03T12:38:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9b93814ba975873ad8e25fa00fb6a40b4f2662f",
+      "message": "feat(graphics): 支持在设置面板开启 Ghostty 增强核心与 Kitty 图片协议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T12:38:20Z",
+      "committer_date": "2026-10-03T12:38:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9dce82e4a2071d409b48d3b4bbcd41ab8959b5a0",
+      "message": "fix(terminal): 优化长日志虚拟滚动下命令记录块精准视口定位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T12:37:58Z",
+      "committer_date": "2026-10-03T12:37:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11589dcf19249884538fabab0e54682e742fe701",
+      "message": "feat(search): 重构终端全量搜索并与 sou-easy 插件深度集成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T12:36:51Z",
+      "committer_date": "2026-10-03T12:36:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e77aa3e7b26cfdf7fe9c9466471c6fe7628c1eb",
+      "message": "feat(terminal): 增加 @wterm/ghostty 与 Kitty 图形协议按需加载能力与环境兼容验证",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:56:49Z",
+      "committer_date": "2026-10-03T11:56:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06d86938d983e96a5ccbc1cbfc1ddb8f9c46f979",
+      "message": "feat(theme): 接入 term.setThemeColors 毫秒级动态主题颜色刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:38:17Z",
+      "committer_date": "2026-10-03T11:38:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ec48ff817b55bb19a221e091d795908424fd924",
+      "message": "feat(terminal): 接入 OSC 52 剪贴板写入代理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:32:13Z",
+      "committer_date": "2026-10-03T11:32:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be515215145f5aaab1f2159f5afa5fa5c4599047",
+      "message": "feat(terminal): 接入命令提示符跳转与 Command Block 点击视口联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:29:46Z",
+      "committer_date": "2026-10-03T11:29:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a345912a958aaf022ef2e96318ee25ba8cb623ce",
+      "message": "feat(terminal): 接入智能选区提取与全量选区快捷键",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:24:39Z",
+      "committer_date": "2026-10-03T11:24:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d9aa9ad92e6aae94e324f16f72b3d3c3c67aba7",
+      "message": "perf(terminal): 引入 renderingPaused 优化多会话后台终端性能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:22:32Z",
+      "committer_date": "2026-10-03T11:22:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f816b4e23f1bd725c656880aab069e1145f03a5c",
+      "message": "feat(terminal): 接入 WTerm 0.5 原生全量搜索引擎并废弃适配器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:18:38Z",
+      "committer_date": "2026-10-03T11:18:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81fb72fcc053771a5e96d0cb517a243ffe94eeba",
+      "message": "build(vite): 验证新版 wterm WASM 内联打包与产物完整性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:10:51Z",
+      "committer_date": "2026-10-03T11:10:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d573b7e071b04e6670dd30b1761c83bb9abb8506",
+      "message": "refactor(terminal): 移除 setupImeFix 猴子补丁并切换至 wterm 0.5 原生 IME",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:09:22Z",
+      "committer_date": "2026-10-03T11:09:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61e4c12c4479b96e871f1c6e23d3e8e8b1168053",
+      "message": "build(deps): 升级 @wterm/dom 与 @wterm/markdown 至 v0.5.4",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:07:28Z",
+      "committer_date": "2026-10-03T11:07:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92b8a01c9daaf261200239a38a525315daf10a1c",
+      "message": "feat(plotly): 支持离线自包含交互挂件并修复显示空白与路径异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T10:31:35Z",
+      "committer_date": "2026-10-03T10:31:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "044601baca08430ca6ec349d675beba8e25c60dd",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:25Z",
+      "committer_date": "2026-10-02T11:09:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3159cc8f16cc4c473b0b84f15370f91e1715e034",
+      "message": "feat: add log output toggle in settings with auto-save",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T02:56:08Z",
+      "committer_date": "2026-08-09T02:56:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c7e0880cb0e95a5e394d251c4f6bf3ecc8bce28",
+      "message": "feat: 仅对 Python 代码块提供运行快捷按钮并优化文档模式提交体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T07:46:04Z",
+      "committer_date": "2026-08-03T07:46:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0123a21fa7a6c44b5af5f5bfae5a98d263ae57f2",
+      "message": "docs: 记录文本操作即时发送设计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T06:27:02Z",
+      "committer_date": "2026-07-18T06:27:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b7f822a9a907e959f8bb236460f2cdd59eb3372",
+      "message": "fix(notebook): add temp directory fallback when reading Plotly output HTML",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T06:07:40Z",
+      "committer_date": "2026-07-18T06:07:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48aff97673325f8bf6c68957b3144ce557c76b05",
+      "message": "style(ui): update writeback selected icon and documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T05:44:49Z",
+      "committer_date": "2026-07-18T05:44:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "584bfd0aa4c133807e1eaa52efe4dbd18e8ee840",
+      "message": "refactor: 完成第三轮模块拆分并刷新文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T05:43:11Z",
+      "committer_date": "2026-07-18T05:43:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c2c3b048fec917928d9388e42312333abd9dcc4",
+      "message": "feat: 增加终端选中文本复制菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T03:38:16Z",
+      "committer_date": "2026-07-18T03:38:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ccec4469a92083c1067d17cb13ac05715d42cbd",
+      "message": "fix: 避免折叠终端触发无效 resize",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T03:28:41Z",
+      "committer_date": "2026-07-18T03:28:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b3bd58dd9077176e57d1c07c05aed30d74c4fe5d",
+      "message": "fix: 修复 Notebook 折叠右侧栏时范围执行阻塞",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T03:14:34Z",
+      "committer_date": "2026-07-18T03:14:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd5053c7fa56686e82cf0a1eadcab4212a3b21b0",
+      "message": "feat: add send selection to terminal to context right click menu",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T15:38:18Z",
+      "committer_date": "2026-06-25T15:38:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "330d559536fbdfb82144c3e56a06204813a143ec",
+      "message": "feat: add send selection to terminal input box from protyle toolbar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T14:43:19Z",
+      "committer_date": "2026-06-25T14:43:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e468342705d03d40060d9bf7c2aba8690ee2a9c9",
+      "message": "feat: add copy-on-select option and context menu on selected text right click",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T12:57:53Z",
+      "committer_date": "2026-06-25T12:57:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49bf4f8c8c01a5a84f3ac9f6a7bf7f4c3bd944e7",
+      "message": "fix: resolve notebook mode early command dropping and run button spinning cursor issues",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T15:41:50Z",
+      "committer_date": "2026-06-13T15:41:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1dd4bb8a187bf782eb233265d2629d468e13ddb",
+      "message": "feat: persist terminal sessions and fix notebook mode connection timeout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T15:03:39Z",
+      "committer_date": "2026-06-13T15:03:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "91ffb0c6aac2a9921efe115ce59d86d49b606bfb",
+      "message": "feat: add user input tab and track terminal interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T07:54:52Z",
+      "committer_date": "2026-06-13T07:54:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2b2896570181d4057e22931dc5428365264876c",
+      "message": "feat: persist terminal sessions across tab closures",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T07:21:12Z",
+      "committer_date": "2026-06-13T07:21:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d7434167e9440cb55f525ad9d128550085d6a26",
+      "message": "feat: implement precise OSC 133 extraction for PowerShell command blocks and optimize writeback output formatting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T07:02:53Z",
+      "committer_date": "2026-06-13T07:02:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b9c2ab8f3fed132ce942cc528a2689e35bd574d",
+      "message": "chore: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T06:27:30Z",
+      "committer_date": "2026-06-13T06:27:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1292850fa7f078c0a150fafecbce0783a157fc6",
+      "message": "fix: 工具栏回写按钮尊重命令记录面板的选中状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T06:27:23Z",
+      "committer_date": "2026-06-13T06:27:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aeea594ec6fce37701643b8bdd5259f790240aa9",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T05:43:31Z",
+      "committer_date": "2026-06-13T05:43:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee4b22b41e53dd127899691e498884ba838e2136",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T04:42:50Z",
+      "committer_date": "2026-06-13T04:42:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "288c111b037f9b786e4debdc642a56f3a5aaa5d2",
+      "message": "fix: 修复回写覆盖功能——修正引用块类型匹配和删除逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T01:32:54Z",
+      "committer_date": "2026-06-13T01:32:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d61b549b48ffed228d44531e82564944c8bc49e",
+      "message": "feat: implement writeback overwrite and format timestamps",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:36:58Z",
+      "committer_date": "2026-06-12T18:36:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30fd8b15b726535df862b15e45984440b2d73cd8",
+      "message": "fix: resolve narrow terminal writeback stuck issue by using ultra-compact sentinels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:06:27Z",
+      "committer_date": "2026-06-12T18:06:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "161e42e1fd3e94c273264adb2f5dcba2362326ac",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T16:46:43Z",
+      "committer_date": "2026-06-12T16:46:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80c137f2bae83d9541ef23e024dcbe74a13f7ac2",
+      "message": "fix: 修复 Notebook 代码块范围执行回写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T16:27:59Z",
+      "committer_date": "2026-06-12T16:27:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "755024c1cb5f6b0fde5006e1ca7577160826da4b",
+      "message": "fix: 修复浏览器前端代码块执行入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T14:36:25Z",
+      "committer_date": "2026-06-12T14:36:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8919a6dadcf9419755c0aae3a636780a265e83b0",
+      "message": "fix: 支持浏览器前端借用桌面端终端后端",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T14:27:24Z",
+      "committer_date": "2026-06-12T14:27:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fa09cbfa1db06fe953c5ced285688f5645c0320",
+      "message": "refactor: notebook 模式复用当前 shell session 启动 Python",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T22:13:46Z",
+      "committer_date": "2026-06-11T22:13:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b62817067b57ed574eaf01be0c47114da5a5eba",
+      "message": "fix: notebook 启动 Python 前等待 500ms 确保终端渲染完成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T22:04:48Z",
+      "committer_date": "2026-06-11T22:04:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d51bfa7bb0eb412938a3e63066001ab3020edcea",
+      "message": "fix: term.init() 后等待一帧渲染确保终端 DOM 就绪",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T22:01:49Z",
+      "committer_date": "2026-06-11T22:01:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "320645af9eb9517c56ba7e24680d31faa5630302",
+      "message": "fix: waitForTerminalReady 等待 term.init() 完成后再放行",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:58:49Z",
+      "committer_date": "2026-06-11T21:58:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e661d86539e65244a2cf1ffc350bbb2927fb5b34",
+      "message": "fix: notebook session 崩溃恢复使用 restartShell 重建连接",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:48:40Z",
+      "committer_date": "2026-06-11T21:48:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a1a03655e75281f40ddd597951c72d6fc284d4b",
+      "message": "fix: 终端 tab 销毁期间运行代码块显示友好提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:44:08Z",
+      "committer_date": "2026-06-11T21:44:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fce8eb57ace1a9cd6cd7df0cf16b9561b79e09f",
+      "message": "fix: Notebook 模式下单块运行走共享 REPL + 崩溃自动恢复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:39:35Z",
+      "committer_date": "2026-06-11T21:39:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c356bd0daa3af61c3f650dc5e56f5d9780d3284e",
+      "message": "fix: waitForTerminalReady 检测 disconnected 状态并立即拒绝",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:34:27Z",
+      "committer_date": "2026-06-11T21:34:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "061af481eeff2500ad16c18ee57066e8abe1ec83",
+      "message": "fix: 等待 WebSocket 连接就绪后再启动 Python REPL",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:28:41Z",
+      "committer_date": "2026-06-11T21:28:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f343ddcf93758a513fac743798fc385a29f90c6f",
+      "message": "fix: 修复 Notebook 模式 7 项代码审查问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:21:15Z",
+      "committer_date": "2026-06-11T21:21:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38a08939f3a0408400f51ac64616fe76356b4b81",
+      "message": "feat: 连接 Notebook 编辑器按钮入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:07:36Z",
+      "committer_date": "2026-06-11T21:07:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "028039a9ba9de683c9202d589d6245b8cbe8084b",
+      "message": "feat: 接入 Notebook 执行入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:05:55Z",
+      "committer_date": "2026-06-11T21:05:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ab739a941d928cb9963465344ad3899f875eae5",
+      "message": "feat: 添加 Notebook 工具栏开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T21:04:17Z",
+      "committer_date": "2026-06-11T21:04:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee9a3db98f6c3e1c8358dd4614a80c99abe92985",
+      "message": "feat: 添加 Python Notebook 命令包装",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T16:25:53Z",
+      "committer_date": "2026-06-11T16:50:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a7ac010a23295c927d7887b13e016b9419624e8a",
+      "message": "feat: 添加 Notebook 代码块范围解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T16:06:23Z",
+      "committer_date": "2026-06-11T16:14:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f58f1919db256cf6b526c145e1749cb0df0a1413",
+      "message": "feat: 添加 Notebook 代码块按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T15:25:00Z",
+      "committer_date": "2026-06-11T15:53:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0003fe29d36b220013061e77e451f2b44334a81",
+      "message": "chore: 忽略本地 worktree 目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:56:35Z",
+      "committer_date": "2026-06-11T14:56:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01adac9103b3f97e52c174bf8e631f6a27fb0080",
+      "message": "docs: 添加 Python Notebook 模式实施计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:40:50Z",
+      "committer_date": "2026-06-11T14:40:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d07a00dadb1512aa414d382afb92377a65cc5e77",
+      "message": "docs: 添加 Python Notebook 模式设计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T14:26:21Z",
+      "committer_date": "2026-06-11T14:26:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d51f4b272c882f3551014c9f3e26bed32d6267a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T00:14:54Z",
+      "committer_date": "2026-06-11T00:14:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8904fa67bd593358b6934603388c51cea9eda253",
+      "message": "feat: Windows 首次启动自动探测 PowerShell 路径并提交构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T00:05:52Z",
+      "committer_date": "2026-06-11T00:05:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8bcc78478770ae941cb3744dad89c7b68e9fe37",
+      "message": "build: 更新构建产物 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-10T11:58:46Z",
+      "committer_date": "2026-06-10T11:58:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1c97892f28735b9d818d7109ce1981185e35de4",
+      "message": "fix: 修复 Python 绘图图片路径含 8.3 短路径名导致插入失败",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-10T10:04:32Z",
+      "committer_date": "2026-06-10T10:04:32Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "7bce5ca8db6665d839cb28195c7ebf23fbe5f383",
+      "message": "fix: 修复 Plotly Widget 持久化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T15:34:58Z",
+      "committer_date": "2026-06-09T15:34:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e5de8f0f928403b2bd253f463513f012d9b3cff",
+      "message": "fix: 修复 Plotly 输出模式与挂件高度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T14:16:32Z",
+      "committer_date": "2026-06-09T14:16:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89afa198263f94f88a7e898303f8a74f894cee97",
+      "message": "feat: 支持 Plotly 交互式图表以 Widget 挂件块嵌入思源笔记",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-09T12:10:53Z",
+      "committer_date": "2026-06-09T12:10:53Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "22e60f93fa80d626cba989a9f10577295f4d6246",
+      "message": "fix: 修复绘图代码块输出图片路径含8.3短路径导致找不到图片",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-09T08:37:12Z",
+      "committer_date": "2026-06-09T08:37:12Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "468f3977edf680aa1778057ff271010d87dd1183",
+      "message": "fix: 修复绘图图片路径换行解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T16:08:58Z",
+      "committer_date": "2026-06-08T16:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "559833d991554ad8b889a2280fe67795efceeaf0",
+      "message": "feat: 支持绘图代码块输出图片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T16:03:48Z",
+      "committer_date": "2026-06-08T16:03:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76ebe6bfe8650409de9e3c6e105af7ff5d668e58",
+      "message": "fix: 修复 PowerShell 代码块运行结果回写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T15:39:53Z",
+      "committer_date": "2026-06-08T15:39:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4fe971b531575cd716462ac399cd4d81027955c8",
+      "message": "fix: stabilize terminal input layout",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-08T08:58:05Z",
+      "committer_date": "2026-06-08T08:58:05Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "ddcb97d971aeaa79229ab49f7954dc9dc253caa9",
+      "message": "fix: resolve document tree drops as metadata",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-08T04:01:08Z",
+      "committer_date": "2026-06-08T04:01:08Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "2365bac4ab14221fb906e9e29c9707e458ccd44f",
+      "message": "fix: support SiYuan gutter block drops",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-08T03:21:01Z",
+      "committer_date": "2026-06-08T03:21:01Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "4e6aa1fe5c33083a86ebb691f9b96ee245561cf1",
+      "message": "feat: wire command blocks right panel UI",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-08T01:36:12Z",
+      "committer_date": "2026-06-08T01:36:12Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "bea1951e6374c9ea488cb169252991fe04fa0eea",
+      "message": "fix: improve terminal input drag and resize behavior",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-08T01:14:37Z",
+      "committer_date": "2026-06-08T01:14:37Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "89325af6545b4c3c2b04eb19e98b36620e15f5bb",
+      "message": "feat: run SiYuan code blocks in terminal",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-07T23:50:42Z",
+      "committer_date": "2026-06-07T23:50:42Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "185db47467d92d2e6fe38f3553c67fa6e35e9866",
+      "message": "feat: support dragging SiYuan content into terminal input",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-07T23:16:15Z",
+      "committer_date": "2026-06-07T23:16:15Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "8a027fcc27d9da8e3b8835179c48daf21bb03867",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T14:18:54Z",
+      "committer_date": "2026-06-07T14:18:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ced214efa185291aeba51c16c5eb4a0a8b0acf6",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T11:15:23Z",
+      "committer_date": "2026-06-07T11:15:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5d97ec702aa3792504bf669ccc7e02121cf5aa0",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T10:02:03Z",
+      "committer_date": "2026-06-07T10:02:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00d86ccdfb63f1b034705e7b963f0fe2fc79b204",
+      "message": "fix: 修复侧栏遮挡与终端自适应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T05:02:33Z",
+      "committer_date": "2026-06-07T05:02:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edeb945cd3d323b5209bf81394c996f92229bafe",
+      "message": "fix: 优化侧栏箭头显示模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T03:02:06Z",
+      "committer_date": "2026-06-07T03:02:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9732055afbf270821d1f4d55f1c52c3cfc215a1b",
+      "message": "fix: 优化右侧栏自适应宽度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T02:52:57Z",
+      "committer_date": "2026-06-07T02:52:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e25e76061af88f555fe812fdf77f8d9354e4ca09",
+      "message": "fix: 修复右侧栏遮挡终端内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T02:47:43Z",
+      "committer_date": "2026-06-07T02:47:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e52ac530b3fca1f1b0d56ba59337a1182711a9ed",
+      "message": "fix: 修复终端主题切换和端口刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T02:39:23Z",
+      "committer_date": "2026-06-07T02:39:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bbdff2918d87db7da785e34228f7ebef9cb2fa97",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T01:15:48Z",
+      "committer_date": "2026-06-07T01:15:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4234f2c30c1de6e5f935ab5d49bfb41ab39065e",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T01:09:32Z",
+      "committer_date": "2026-06-07T01:09:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdc3b17df327fa3908abffc26e01782a5c00fade",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T01:08:10Z",
+      "committer_date": "2026-06-07T01:08:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14ef8cb7e18854e01c380d628ff65e2513ab4dfc",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T01:05:36Z",
+      "committer_date": "2026-06-07T01:05:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ec54fcc7091df3de9cb1e02efdaf933da81a413",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:59:05Z",
+      "committer_date": "2026-06-07T00:59:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43428c6ef5f1958bb8e5e6ab6f255c1b795aa348",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:56:20Z",
+      "committer_date": "2026-06-07T00:56:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f53051fbf470ea149b81dc10d8ba4da2e2881ac",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:51:24Z",
+      "committer_date": "2026-06-07T00:51:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3cbf1023354f5d9e244514d2224832326bddd753",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:46:41Z",
+      "committer_date": "2026-06-07T00:46:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "159be1d2f58892c80686871bed6c412d43464332",
+      "message": "fix: 修复侧栏遮挡终端布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:31:18Z",
+      "committer_date": "2026-06-07T00:31:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2475874f9015ca81e181e2986a3f21dbc00bbe76",
+      "message": "feat: 暴露终端搜索 Surface 注册表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T23:34:16Z",
+      "committer_date": "2026-06-06T23:34:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9242c52a91552c6dc03783ec2b0fca813e9950ea",
+      "message": "Merge branch 'main' into feat/terminal-search-surface",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T23:30:52Z",
+      "committer_date": "2026-06-06T23:30:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc984cd6cd12cecd975633ef9fc9b95c0604dd7f",
+      "message": "Merge branch 'main' of https://github.com/famotime/siyuan-terminal",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T23:25:00Z",
+      "committer_date": "2026-06-06T23:25:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80817f025a210755519a5fb9dbf1ceae373e2983",
+      "message": "fix: 修复终端在右侧栏展开时未自适应缩小",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-06T22:15:55Z",
+      "committer_date": "2026-06-06T22:15:55Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "81a6dc774d24eb6d8624c40f297c9550b2ba753a",
+      "message": "fix: 兼容终端搜索旧调用签名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:50:51Z",
+      "committer_date": "2026-06-06T14:50:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ddecf423a2d70481275f46984280275a46951bb",
+      "message": "feat: 扩展终端文本搜索能力",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:45:59Z",
+      "committer_date": "2026-06-06T14:45:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d6ed5f10c35e64937f14f1f87d6c1e8c7bf3e1d",
+      "message": "docs: 编写终端搜索跨插件实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:41:24Z",
+      "committer_date": "2026-06-06T14:41:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c7ea305a0786918ce1638daf9c42f87f18b07e4",
+      "message": "feat: 新增终端底部 Rich Input Box",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:27:15Z",
+      "committer_date": "2026-06-06T14:27:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe4d51fa0b1d64e1f0be7e0c0cca78b64609f4ea",
+      "message": "docs: 设计终端搜索跨插件适配方案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:25:00Z",
+      "committer_date": "2026-06-06T14:25:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c8af89ec381fa2ccf807aae6c1de60e09bf2d34",
+      "message": "fix: 优化终端面板展开体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T12:51:55Z",
+      "committer_date": "2026-06-06T12:51:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f14ba6ed18c76ee200bdeee9fa5d3683fa594839",
+      "message": "fix: 优化侧边抽屉折叠动画",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T12:46:16Z",
+      "committer_date": "2026-06-06T12:46:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58068f953c0e6e1d877e7dcbc384b45edcaace2d",
+      "message": "fix: 修复终端多会话工作目录重置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T12:18:43Z",
+      "committer_date": "2026-06-06T12:18:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f63f92961e08301628d6eceb1da7596b0fcf7a1",
+      "message": "fix: 修复命令 block 回写输出截断",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T10:53:41Z",
+      "committer_date": "2026-06-06T10:53:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d57c500533657f5fd11f3a95d607bd10cdf3bb86",
+      "message": "feat: 支持终端命令 block 记录与回写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T10:22:07Z",
+      "committer_date": "2026-06-06T10:22:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1c6259f0d79c2402858eef4ac1e5c34d2f8ad62",
+      "message": "fix: 修复终端搜索高亮样式不生效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T09:06:48Z",
+      "committer_date": "2026-06-06T09:06:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e84695668535507d992232135200994b0ee354d",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T08:32:11Z",
+      "committer_date": "2026-06-06T08:32:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de256ffa3fd52a4c542224a24486477130dbcbe9",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T06:28:42Z",
+      "committer_date": "2026-06-06T06:28:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb7f598fea14acae887c471622955489b67e7bba",
+      "message": "feat(ui): 全面 UI/UX 改进、Bug 修复及功能完善",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T15:10:57Z",
+      "committer_date": "2026-06-05T15:10:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1f2669a9b99e5b2c2683f23d90f50286e869a804",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T14:11:02Z",
+      "committer_date": "2026-06-05T14:11:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9715ed1b029411ae02f1c7558930e0084d2430c9",
+      "message": "fix: 修复文档绑定目录启动优先级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T13:39:47Z",
+      "committer_date": "2026-06-05T13:39:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9704a458464ee9bd88c13f20dfb608e5d1ae910",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T13:21:20Z",
+      "committer_date": "2026-06-05T13:21:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1df7b437296292b5c2a68d7d8573d5b3085d6611",
+      "message": "feat(ui): 左侧栏折叠、新建会话、会话切换；fix: 光标同步回流优化及 Windows npm spawn 修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-05T12:29:29Z",
+      "committer_date": "2026-06-05T12:29:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4107a74457bbba80ef00560756b352d13ff3e0a",
+      "message": "fix(terminal): improve CWD tracking regex, rebuild package.zip",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-05T07:32:30Z",
+      "committer_date": "2026-06-05T07:32:30Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "390252fdbe84985166b9fce870e885f6f6449311",
+      "message": "fix(terminal): sync session status, track CWD changes, fix bindCwd import",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-05T06:58:06Z",
+      "committer_date": "2026-06-05T06:58:06Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "5b99630a3c61b7d3d173d43fc93b77abcb3d89f1",
+      "message": "fix(terminal): fix text selection, auto-scroll, and writeback import",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-05T06:54:37Z",
+      "committer_date": "2026-06-05T06:54:37Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "3550ee9076c527a59cca93def89dab6fe7fcc4f6",
+      "message": "feat(terminal): add IME cursor follow, mouse selection auto-copy, and right-click paste",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-05T04:15:30Z",
+      "committer_date": "2026-06-05T04:15:30Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "a46c5a95e2d74f0be11dbb92936fd9299914e1af",
+      "message": "chore: rename plugin to siyuan-terminal",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-05T01:41:10Z",
+      "committer_date": "2026-06-05T01:41:10Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "2c4ec9c824e8625d9438998bb14e6376f5a257fa",
+      "message": "fix(ui): replace window.prompt with custom Siyuan dialog to support electron renderer",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T16:34:06Z",
+      "committer_date": "2026-06-04T16:34:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5adc062463a90815e2dbf5b3e9aa22aed08c5b99",
+      "message": "fix(terminal): resolve initial process exit and dir output clear issues",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T16:29:47Z",
+      "committer_date": "2026-06-04T16:29:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff09ce70d444ccb2efb885efd782cbc1058a62f1",
+      "message": "refactor: isolate pty client and host modules to fix ws load error and improve ui layouts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T16:16:04Z",
+      "committer_date": "2026-06-04T16:16:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78af7fa530a746a5858d0046c6ac7149e5f86153",
+      "message": "phase 9 add security and release readiness",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T13:16:10Z",
+      "committer_date": "2026-06-04T13:16:10Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "d05173aae3ef8619e652fafbb8a3bfd2b12ad68c",
+      "message": "phase 8 add note context workflow",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T13:10:48Z",
+      "committer_date": "2026-06-04T13:10:48Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "9b7a452d6ece12d6afa193c534493e540929efea",
+      "message": "phase 7 add session experience",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T13:06:00Z",
+      "committer_date": "2026-06-04T13:06:00Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "34c7ab2dcc2e0ca16b10c90faf6d7fc89d2a851a",
+      "message": "phase 6 harden terminal runtime",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T13:02:54Z",
+      "committer_date": "2026-06-04T13:02:54Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "f3bd73ee8f7ab985e384b6c47f9cab90b1103a52",
+      "message": "docs update iteration roadmap",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T12:56:29Z",
+      "committer_date": "2026-06-04T12:56:29Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "979f3670ad4db37401c62177baf7f19dea385a6a",
+      "message": "phase 4-5 integrate plugin settings and context",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T12:31:46Z",
+      "committer_date": "2026-06-04T12:31:46Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "6893e4d093b2be33c399e3cf1c3c35c25c3303e3",
+      "message": "phase 3 add wterm terminal UI",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T12:27:37Z",
+      "committer_date": "2026-06-04T12:27:37Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "9f7aaaf8fc7b6be7871cd96a1798e9c91bb6a2bb",
+      "message": "phase 2 add PTY websocket backend",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T12:25:11Z",
+      "committer_date": "2026-06-04T12:25:11Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "5a7b23e615cc7022881b9e652727280a0b49e58d",
+      "message": "phase 0-1 scaffold AI terminal plugin",
+      "author_name": "Codex",
+      "author_email": "codex@example.com",
+      "date": "2026-06-04T12:21:16Z",
+      "committer_date": "2026-06-04T12:21:16Z",
+      "login": "abiatarprado"
+    },
+    {
+      "sha": "4bfdfc78dd8def4325d4ba5e9c4caabc042f7423",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T11:53:53Z",
+      "committer_date": "2026-06-04T11:53:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2bf1b7a63ba7f302687b37cff1602f9c5c44082",
+      "message": "feat: 初始化 siyuan-terminal 项目",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-04T11:40:46Z",
+      "committer_date": "2026-06-04T11:40:46Z",
+      "login": "famotime"
+    }
+  ]
+}

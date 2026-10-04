@@ -1,0 +1,168 @@
+{
+  "pushed_at": "2026-09-19T14:23:17Z",
+  "count": 18,
+  "commits": [
+    {
+      "sha": "d0480383dcc68da05f8b4d3f816fd6b530db25de",
+      "message": "🐛 fix: improve block similarity calculation and dynamic programming alignment for rich text diff",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T05:01:12Z",
+      "committer_date": "2026-09-19T05:01:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9af85bb0ee1d2f936696d352f22d88f51bfcdaf4",
+      "message": "🌐 i18n: rename plugin Chinese name to \"微察\" and update tab title",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T04:55:13Z",
+      "committer_date": "2026-09-19T04:55:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e321815adbfa3b4f7586190b1b01fe2e9b9e6c22",
+      "message": "✨ support top toolbar options in rich text modes and restyle sub-toolbar chips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T03:57:57Z",
+      "committer_date": "2026-09-19T03:57:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e443f40fe51614d21441e0860b3f0d38fc7aa9d4",
+      "message": "✨ unify rich-text and source diff UI with secondary toolbar and responsive doc pills",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T03:45:16Z",
+      "committer_date": "2026-09-19T03:45:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e72d2765e48db8624ee49ad53a6fa58003b3155f",
+      "message": "fix: 修复富文本比较模式下顶部差异导航按钮点击无效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T15:38:49Z",
+      "committer_date": "2026-09-18T15:38:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "117e1fa9a8fbf252625ebb2abecc4b5d99113e49",
+      "message": "feat: 支持跨文档富文本对比与双栏所见即所得即时编辑修改",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T15:25:43Z",
+      "committer_date": "2026-09-18T15:25:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a3b9b67b3b1ad90006046668374e6fbda36b040",
+      "message": "feat: 支持接入思源官方内核文档比对与双引擎协同优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T14:16:00Z",
+      "committer_date": "2026-09-18T14:16:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "088219097a233374ac78a0e5d57458e9bd2e460f",
+      "message": "feat: 支持在文档中多选块并作为比对范围开启内容比对",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T15:53:07Z",
+      "committer_date": "2026-09-14T15:53:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a20b2d16ebe439d7147fd20dc273e6e563a9dd3",
+      "message": "fix: 修复差异跳转失效及左侧编辑器自动换行未生效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T15:41:06Z",
+      "committer_date": "2026-09-14T15:41:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f451764512576c6a6f2c364dab8a4708c9a8cef",
+      "message": "fix: 修复文档历史快照读取异常并支持本地历史和仓库快照双维度比对",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T15:30:31Z",
+      "committer_date": "2026-09-14T15:30:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3685e628ab2fb0f2c381f28bf8b9c31244c02cc6",
+      "message": "fix: 修复文档树右键菜单“与当前文档开启内容比对”未加载已打开文档的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-14T15:11:50Z",
+      "committer_date": "2026-09-14T15:11:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f9f3bf04c3d1391da4eefa489777148de56b3dc",
+      "message": "feat: 优化插件信息与文档，适配 webp 图标并修复 monaco 模块别名解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T12:50:17Z",
+      "committer_date": "2026-09-13T12:50:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6217929e2dfddc9f02372cdd5ed3c8f3487bbf7",
+      "message": "feat: 支持在选择弹窗中通过 ID 或内容检索独立块及类型筛选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T03:50:13Z",
+      "committer_date": "2026-09-13T03:50:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0917fd7bb40ca88f5eb07435eacc59773b9e88fc",
+      "message": "feat: support auto saving and loading last selected diff sources",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T03:40:31Z",
+      "committer_date": "2026-09-13T03:40:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d5edb853dcb216ad0afadaeb4a80a113b9c92bc",
+      "message": "feat: implement side-by-side rich diff preview and optimize markdown rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T03:37:32Z",
+      "committer_date": "2026-09-13T03:37:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ccae93c71eafbb32498ebfe71cd070a6b47ad86",
+      "message": "feat: support bidirectional diff copying and optimize gutter selection range highlight",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T03:30:27Z",
+      "committer_date": "2026-09-13T03:30:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c47f35ecf6056a7584b105236c785a4ad31bad09",
+      "message": "fix: resolve modal visibility issue by using Vue Teleport to body",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T02:35:25Z",
+      "committer_date": "2026-09-13T02:35:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6594a093f6dde91775846a4f78c475e5d3b3097",
+      "message": "feat: initial implementation of siyuan-compare-diff plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T02:31:31Z",
+      "committer_date": "2026-09-13T02:31:31Z",
+      "login": "famotime"
+    }
+  ]
+}

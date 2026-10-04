@@ -1,0 +1,933 @@
+{
+  "pushed_at": "2026-09-07T14:47:45Z",
+  "count": 103,
+  "commits": [
+    {
+      "sha": "3633bf9efe0f514876fb6164fe1fafdcb4c4a643",
+      "message": "v1.2.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-07T14:47:13Z",
+      "committer_date": "2026-09-07T14:47:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db68b11faf079a4706ace6211a586510b30c4c66",
+      "message": "fix: 解决思源笔记 v3.8.3 与主题共存时持续闪烁重启的问题 (v1.2.2)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-07T14:41:22Z",
+      "committer_date": "2026-09-07T14:41:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8721d9e9211b0eb65d76d94de0aae1d2f20fac2e",
+      "message": "v1.2.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-31T11:54:22Z",
+      "committer_date": "2026-08-31T11:54:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a78aa9c23fbd8eeccb5028b94791cf9bbdc31ea",
+      "message": "feat(table): 新增向下填充与向右填充操作 (支持数字智能递增与文本复制)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T06:52:54Z",
+      "committer_date": "2026-08-30T06:52:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58600faed546fa3ee6d048b48c40343fdb0d3f3d",
+      "message": "v1.2.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T06:04:57Z",
+      "committer_date": "2026-08-30T06:04:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5174af3b4b9d4786840d8d2ee14fa71b2ce857c",
+      "message": "fix(ui): 优化 HTML 表格编辑器冻结与转置图标 (区分表头与首列冻结，统一转置图标)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-29T13:33:26Z",
+      "committer_date": "2026-08-29T13:33:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2a168a1d8dbc0c1534e566c90274d2cd5056a8c",
+      "message": "docs: 新增 HTML 复杂表格编辑器用户操作指导文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T08:33:10Z",
+      "committer_date": "2026-08-16T08:33:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1e6521cd9a0eb8334f6e47c2225acf9e4cde669",
+      "message": "feat(html-table): 增强 HTML 复杂表格编辑能力 (商务主题/拖拽手柄/公式引擎/自适应排版/剪贴板清洗)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T08:31:07Z",
+      "committer_date": "2026-08-16T08:31:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f5912eb968c7446364a173981474ef8ae8a0545",
+      "message": "fix(ui): 为 HTML 表格编辑器行高、边框和内边距控制项添加 tooltips 悬浮提示说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T07:34:54Z",
+      "committer_date": "2026-08-16T07:34:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "970ef119f55f4e093ce887efb66983e2edccacae",
+      "message": "feat: adapt HTML table conversion to SiYuan native table caption model",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T03:23:57Z",
+      "committer_date": "2026-08-16T03:23:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b4f17dc53808b1204045ecd8b8001c1cfdc54f1",
+      "message": "fix(ui): 修复 HTML 表格编辑器顶部工具栏按钮挤压变形并隔离 Dock 样式作用域",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T03:19:36Z",
+      "committer_date": "2026-08-16T03:19:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55cb7181d37dda287db1de1b426b4c298e1bddee",
+      "message": "feat(settings): remove save/cancel buttons and enable auto-save",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T07:03:30Z",
+      "committer_date": "2026-08-15T07:03:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d3fa32dee8b7381572cefc062dabb9e14bcf047",
+      "message": "refactor: 全面重构核心纯函数、优化类型与样式体系并补齐单元测试 (RF-001~RF-007)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T06:35:59Z",
+      "committer_date": "2026-08-15T06:35:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98450770ffe8a70c08ceab23727410d26d48a8d0",
+      "message": "v1.1.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T04:12:41Z",
+      "committer_date": "2026-08-15T04:12:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e117ec0dbed8e142d36981d0a90c0b459402929",
+      "message": "v1.1.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T04:10:36Z",
+      "committer_date": "2026-08-15T04:10:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59a6ebae8804c9d34632abcb0dfa8d52875170ff",
+      "message": "fix: 选中多个单元格时批量删除所有选中行或列",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T02:41:56Z",
+      "committer_date": "2026-08-15T02:41:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83521f6bd781b12414b654bbc4a27319e084bd0a",
+      "message": "fix: 将启用拖拽行列重排选项默认改为关闭",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T01:25:07Z",
+      "committer_date": "2026-08-15T01:25:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f995fc85fae5134f9aeea7b821d59dcd81287bed",
+      "message": "fix: 保留多单元格快捷计算与思源笔记原生多选右键菜单共存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-14T15:27:41Z",
+      "committer_date": "2026-08-14T15:27:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f430aaa5efc5b110ea7402247b0296d40d0274a",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-14T13:01:16Z",
+      "committer_date": "2026-08-14T13:01:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d79bfa92c6ae2efc55e3ae783e8fc6a97ea8cbf0",
+      "message": "v1.1.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-06T14:02:35Z",
+      "committer_date": "2026-08-06T14:02:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9dbd523c404748b767f84046323a5bf09d22c79",
+      "message": "v1.1.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-06T13:59:49Z",
+      "committer_date": "2026-08-06T13:59:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e22b1ff482c24a4c16f9115a59fa4e29cd87372e",
+      "message": "feat: 支持百分比数字的行求和与列求和处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-04T14:27:49Z",
+      "committer_date": "2026-08-04T14:27:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a60db0631c5fac1d8220b5f803b31faca2454048",
+      "message": "feat: 支持千分位数字的行求和与列求和处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-04T14:22:27Z",
+      "committer_date": "2026-08-04T14:22:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2be3aab00ae59e19a87a3f23ee1a801a84612de",
+      "message": "feat: 添加控制台日志显示开关及统一日志输出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-04T12:48:16Z",
+      "committer_date": "2026-08-04T12:48:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac073fce200603581826e5f707fab5745681e94e",
+      "message": "feat: 新增 Markdown 表格转数据库功能与字段智能推断，支持即时热更新渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T06:41:39Z",
+      "committer_date": "2026-08-03T06:41:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bad330267b6c6e229c7ab12cd7246d35e0223e91",
+      "message": "fix(html-to-md): 补全 HTML 转 NodeTable 块属性并消除开头多余空行",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T06:09:40Z",
+      "committer_date": "2026-08-03T06:09:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb525b23ea6607b2c1a87aaabf211669b1aa9eaf",
+      "message": "feat: HTML 表格编辑新增【转MD】操作按钮并支持转思源原生表格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T05:48:07Z",
+      "committer_date": "2026-08-03T05:48:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "412f675929e9ce1619f4b0c1e2bbd1e3592f672d",
+      "message": "style: 更新高级编辑按钮图标为指定的表格与铅笔组合矢量图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T05:15:14Z",
+      "committer_date": "2026-08-03T05:15:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89a39921aef15447da1300cf9076715263bdbb59",
+      "message": "style: 优化高级编辑按钮图标为统一规范的表格+铅笔极简线框 SVG",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T05:13:13Z",
+      "committer_date": "2026-08-03T05:13:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ffb95e71ed297bf0f2d66cded1dcef9393074dc",
+      "message": "style: 优化示例MD和示例HTML按钮图标为统一规范的极简线框风格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T05:10:44Z",
+      "committer_date": "2026-08-03T05:10:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "392e8b3df6cbc3ee55515691046b78ae6c9f7235",
+      "message": "feat: 新增右侧栏创建与导出分类及示例MD与HTML表格创建功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T05:09:41Z",
+      "committer_date": "2026-08-03T05:09:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d238a1429cf950d1a922d3828c8b378ee64126f4",
+      "message": "feat(html-editor): 支持行高字号边框内边距直接编辑与全局重置，修复取色器遮挡及边框步进",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T04:21:12Z",
+      "committer_date": "2026-08-03T04:21:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a7660c14d5c2c47e55653584f907b58ca5b62b8b",
+      "message": "fix(html-editor): elevate z-index of hovered sidebar button, row, and section to prevent tooltip obscuration by subseque",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T03:44:10Z",
+      "committer_date": "2026-08-03T03:44:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a3ba2a35ee37f67f79d0d24f31a771d9c2d69dd1",
+      "message": "fix(html-editor): use stroke SVGs for selectAll, caption, merge; place sidebar tooltips below; fix global border width r",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T03:40:33Z",
+      "committer_date": "2026-08-03T03:40:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fe8d11ddefd611add86946ac7634a44e2e77e30",
+      "message": "fix(html-editor): fix SVG icon rendering for fill paths and improve tooltip positioning for disabled buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T03:32:57Z",
+      "committer_date": "2026-08-03T03:32:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79dc5ad36c10db2355f948ea8d4c5b1e1096347c",
+      "message": "feat(html-editor): improve cell background preview visibility and update title, merge, and select-all SVG icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T03:29:40Z",
+      "committer_date": "2026-08-03T03:29:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fded29952c1663e3de549d93af2e0d1c8495413",
+      "message": "feat(html-editor): refactor sidebar layout, button labels, border styling, selection tracking, and color picker auto-hid",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T03:25:52Z",
+      "committer_date": "2026-08-03T03:25:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43677276a6f30850450ddf55c1408b7ec17b18a8",
+      "message": "feat(ui): redesign html editor dialog with lucide icons and right side panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T01:57:23Z",
+      "committer_date": "2026-08-03T01:57:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64f1e1b7e167b94cb9bcf3fe9232db49f5cee291",
+      "message": "feat: 实现基于 Matrix 矩阵模型的高级 HTML 表格可视化编辑器与右键菜单快捷操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T00:47:26Z",
+      "committer_date": "2026-08-03T00:47:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b1b3f7dcac0d8e1591f145df0a75d9cbb3b40b1",
+      "message": "feat: implement HTML dialog editor and fix UI toggles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T00:31:17Z",
+      "committer_date": "2026-08-03T00:31:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b4feeedaed939b59f60c5b22d9063364f211114",
+      "message": "feat: 独立HTML表格操作架构隔离",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T00:13:59Z",
+      "committer_date": "2026-08-03T00:13:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "211832727ec32226b65dacd3b8f6de8e7081c4e6",
+      "message": "feat: 在右侧面板高级操作下增加导出 CSV 和导出 XLSX 按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T04:11:18Z",
+      "committer_date": "2026-08-02T04:11:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f690371e1bf002fbd778314947572916b2e148bd",
+      "message": "fix: 将 HTML 合并表格全拆分后转为思源原生 Markdown 表格形态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-26T14:07:10Z",
+      "committer_date": "2026-07-26T14:07:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9eeefe8133c17bc5d8f8a18abf82d4069f297309",
+      "message": "fix: 保留全拆分时的单元格链接内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-24T14:14:26Z",
+      "committer_date": "2026-07-24T14:14:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7ad63eb5ac81fb02b7fa4b9704b96afe45fd0dd",
+      "message": "feat: 添加全拆分命令图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-24T13:33:21Z",
+      "committer_date": "2026-07-24T13:33:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "303a0ea07f2c02bcfe9ab6c404fce2ab9b02b483",
+      "message": "feat: 支持全拆分合并单元格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-24T13:29:43Z",
+      "committer_date": "2026-07-24T13:29:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a7ffd0fad2a1feeabe72a8217b2f312795de310",
+      "message": "docs: 添加全拆分命令设计说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-24T13:20:21Z",
+      "committer_date": "2026-07-24T13:20:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63d6ae6f0fa361cf82182d8d907412f14f5e13bd",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T14:23:17Z",
+      "committer_date": "2026-07-18T14:23:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e73a1d4c0f84b32b72e57efc033acd309f08300",
+      "message": "fix(editor): 修复单元格属性如 colspan 被备注标签吞噬导致表格错乱的 Bug",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T03:51:30Z",
+      "committer_date": "2026-07-12T03:51:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3838e3f33f9aa612d7e9415ded82281e1198db76",
+      "message": "fix(editor): 优化正则匹配，支持备注内容含有括号以及同单元格多备注场景",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T03:44:40Z",
+      "committer_date": "2026-07-12T03:44:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad256e266988514b7df310910a3909cb117afe19",
+      "message": "fix(editor): 修复在特定情况下全角中文括号导致的备注丢失 Bug",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T03:41:09Z",
+      "committer_date": "2026-07-12T03:41:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d94135a859f7146d8a9e9e2c396456ebd362ae3",
+      "message": "fix(editor): 修复表格操作后单元格行内备注丢失的 Bug",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T02:07:11Z",
+      "committer_date": "2026-07-12T02:07:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90b940f99da19973ed4994e592b84addef335834",
+      "message": "feat: add quick settings toggle for showFloatingToolbar in dock panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-02T15:02:19Z",
+      "committer_date": "2026-07-02T15:02:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d1d0eaec2c48b28e2295ddafcd7e1e64d10214a",
+      "message": "fix(toolbar): solve floating toolbar blank issue by tracking transition timeout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T14:02:30Z",
+      "committer_date": "2026-06-26T14:02:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60c76569c79d22c56b55948c49d9e1c7c3cffbd3",
+      "message": "feat: support direct drag cell selection for quick calculation and hide toolbar during drag",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T16:27:39Z",
+      "committer_date": "2026-06-25T16:27:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33d377146b28bb689f1790668e0afd18a7b14176",
+      "message": "feat: replace Copy Row/Column with Cut Row/Column and change paste behavior to insert above/left",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T16:11:36Z",
+      "committer_date": "2026-06-25T16:11:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fc3bff34c8221d1b3ad4b51f92a8cdfa5d8f541",
+      "message": "feat: 移动“文转表”按钮至高级操作并修复失焦置灰Bug",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T13:22:17Z",
+      "committer_date": "2026-06-25T13:22:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aed18785349b19ea9a0e51da10a62def05a09572",
+      "message": "feat: 在侧边栏新增“调宽度”按钮并优化格式与对齐布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T13:05:24Z",
+      "committer_date": "2026-06-25T13:05:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "593d103536b57244b555cf2d2938f94b2537211a",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T15:01:32Z",
+      "committer_date": "2026-06-21T15:01:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d84d2e460b3680118e770cdce39cbb9396b8060f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T02:07:19Z",
+      "committer_date": "2026-06-21T02:07:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84bd472ab9524faf660e320d943fa1b318b5eb17",
+      "message": "feat: add visual table resize grid picker and align tooltips to top",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T01:29:07Z",
+      "committer_date": "2026-06-21T01:29:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "735c6dbc8390334462907ae9c7aa4af7b2e68813",
+      "message": "style/feat: 统一钉住表头文案, 增加删除行快捷键说明, 移除Tab/Enter按键拦截与相关设置项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T00:26:07Z",
+      "committer_date": "2026-06-21T00:26:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77cf2a4b87b6ff78184482676668d3a2616e314f",
+      "message": "feat(dock): remove footer tooltip bar, add a high-fidelity shortcut guide panel under sidebar buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-21T00:11:41Z",
+      "committer_date": "2026-06-21T00:11:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c66db2cbb359fa11a2368a0e07509f53be4bb449",
+      "message": "style(toolbar): move toggle-sticky-header icon to the far right of the floating toolbar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:58:01Z",
+      "committer_date": "2026-06-20T23:58:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7864d0643dfb789c684a60e27f9b79adc8cd5a5",
+      "message": "style(dock): allow fill SVGs in .at-floating-btn, restoring transpose icon on floating toolbar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:56:31Z",
+      "committer_date": "2026-06-20T23:56:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bbd62c84ba27ab4ea5ffe72e5757b7e938617aa",
+      "message": "style(dock): replace sort-rows-asc and sort-rows-desc icons with user-provided SVGs, adapting to currentColor",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:54:45Z",
+      "committer_date": "2026-06-20T23:54:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1439f60c73bbae0cea2f1890a4859e8d40b59b6a",
+      "message": "style(dock): replace transpose icon with user SVG, fix display of format-table icon via SCSS exclude class",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:52:59Z",
+      "committer_date": "2026-06-20T23:52:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38f9dda8088d9ab77eaa29881cff36e419373f6f",
+      "message": "style(dock): fix fill issue for insert icons and update format-table icon to user SVG",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:50:57Z",
+      "committer_date": "2026-06-20T23:50:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5529eaee50107a7006fd39495aaf662cf5af542f",
+      "message": "style(dock): enlarge and center the plus sign in insert-column and insert-row SVG icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:47:15Z",
+      "committer_date": "2026-06-20T23:47:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2878467f63e1921f5910222e97c90ba113db3833",
+      "message": "style(dock): remove arrow indicators from paste icons for a simpler design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:45:22Z",
+      "committer_date": "2026-06-20T23:45:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6236989758092bbd9e51194f6c2e3fa1fa6d6ce2",
+      "message": "style(dock): align paste-row and paste-column SVG structure, differing only in indicator lines",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:44:15Z",
+      "committer_date": "2026-06-20T23:44:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec4edc7214bd8b93fe065fa780c5d5d41905f5cd",
+      "message": "style(dock): refine column-sum icon to be side-by-side with Sigma on left and arrow down on right",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:41:29Z",
+      "committer_date": "2026-06-20T23:41:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13a3e3e14b87404ddb3b4789f577964c382c94b0",
+      "message": "style(dock): optimize col sum icon, separate btn label from btn DOM, improve floating context contrast",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:38:43Z",
+      "committer_date": "2026-06-20T23:38:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7519c0deb9e9948de91f948d35019eb9913a7ba",
+      "message": "style(dock): optimize row/col sum icons and add text labels under sidebar action buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:35:02Z",
+      "committer_date": "2026-06-20T23:35:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34ae38daedae21526a195ccac7d944085b3b9b93",
+      "message": "style(ux): implement UI/UX optimizations, style decoupling, and internationalization",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T23:26:38Z",
+      "committer_date": "2026-06-20T23:26:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60b9a0f7d295ea67399c6947b368106f25d3ac0c",
+      "message": "fix: 优化行列高亮显示与移动跟随逻辑，解决连续点击按钮移动时选区脱轨问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T15:29:06Z",
+      "committer_date": "2026-06-20T15:29:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "642ac6d132bc3b5593faf6b593798415b41abec0",
+      "message": "build: 重新打包生成最新的 package.zip 发布包",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T15:11:08Z",
+      "committer_date": "2026-06-20T15:11:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7bb6d973d5eb252e4a841d626189a4551b7f7465",
+      "message": "feat: 支持折线图/柱状图自动生成双 Y 轴自适应逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T15:09:27Z",
+      "committer_date": "2026-06-20T15:09:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "432f7b1855a49d36a67c824287395155ded2fae5",
+      "message": "feat: 支持一键数据图表化 (Table to Chart) 及相关交互优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T15:06:19Z",
+      "committer_date": "2026-06-20T15:06:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed74b4254434c5219c9161682d51c6e2e97a9b2d",
+      "message": "fix: 修复粘性表头遮挡设置页问题，解耦行列高亮与侧栏的绑定并提升高亮CSS优先级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T14:22:04Z",
+      "committer_date": "2026-06-20T14:22:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "850404d26c8b4daae733bdd87c83f36251819101",
+      "message": "chore: rename project and class references to siyuan-table-mater",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T11:48:55Z",
+      "committer_date": "2026-06-20T11:48:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3743442ba2a7c75952e1a43faab5fba187a3726a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T10:55:26Z",
+      "committer_date": "2026-06-20T10:55:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b29e0d8b1bd673d9fb931cf6f789b364f03913d",
+      "message": "feat(commands): support converting terminal box-drawing tables to standard tables",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T08:41:00Z",
+      "committer_date": "2026-06-20T08:41:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ac32c6508eee73860410af4087b55f05a1f550f",
+      "message": "fix(dock): fix sidebar table detection and DOM binding",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T08:37:11Z",
+      "committer_date": "2026-06-20T08:37:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fd2e7d53926661f07aa20cb37f1f9de6960030b",
+      "message": "build: update build zip package with selector refined fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T08:30:16Z",
+      "committer_date": "2026-06-20T08:30:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8547f4af3a19927d7f30b377e92ed50d70174ca3",
+      "message": "style: fix selector specificity so only thead th is sticky, not tbody first-child td",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T08:28:44Z",
+      "committer_date": "2026-06-20T08:28:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "246baf802d8b7ccbe396795f800885816f8fed09",
+      "message": "style: fix sticky header issues with overflow visible and separate border collapse",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T08:26:04Z",
+      "committer_date": "2026-06-20T08:26:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca3d6701d67d98e4c8e771d923e6c55ea235d773",
+      "message": "fix: resolve sticky header containment issue and adjust top offset to avoid breadcrumb",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T07:58:44Z",
+      "committer_date": "2026-06-20T07:58:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "189c28a993d960dd98a3a172583c524381965321",
+      "message": "feat: implement advanced table enhancements (sticky header, smart paste, text to table, quick calc, drag reorder)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T07:56:14Z",
+      "committer_date": "2026-06-20T07:56:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b4a19602ef1064a284ea6b2e2ce514acc83a608",
+      "message": "feat: 支持表格浮动工具栏设置并将侧栏图标与顶栏图标一致化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T06:31:10Z",
+      "committer_date": "2026-06-20T06:31:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a3c0d51e10ec6bcc476f4103894f8f357489155",
+      "message": "feat: 新增行求和与列求和命令，并在右侧栏及浮动工具栏条件化集成，支持过滤非数字单元格与弹窗警告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T06:18:22Z",
+      "committer_date": "2026-06-20T06:18:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30af4270eacb2080caaf76b1a704b56602f549ab",
+      "message": "feat: 新增光标在表格内的浮动工具栏，并支持表头/非表头按需展示与复制粘贴动作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T06:10:58Z",
+      "committer_date": "2026-06-20T06:10:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "668b85aaed49ee7bbe5bf7f6b8bc38d9c84643b7",
+      "message": "fix(paste): filter cell-level IAL when detecting empty rows and add safety release on dialog close",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T05:55:00Z",
+      "committer_date": "2026-06-20T05:55:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7b522c9c47af41d55e33153c533b1af7e249553",
+      "message": "fix: resolve dock button failures, alignment stripping, and cursor jump",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T05:14:19Z",
+      "committer_date": "2026-06-20T05:14:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36e3476c09a8bf9786186d41f1f5205eb9662114",
+      "message": "fix(highlight): 修复Dock栏移动行崩溃及高亮跟随问题，优化Wysiwyg块定位与锁定逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T04:53:20Z",
+      "committer_date": "2026-06-20T04:53:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41880d08f6e353c7acc599fe99298531993bcee1",
+      "message": "fix: resolve row highlight invisibility and temporal Siyuan DOM replacement race condition",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T03:43:13Z",
+      "committer_date": "2026-06-20T03:43:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b0efc4156472e964310495390766791e7e18f4c",
+      "message": "fix: resolve highlight loss caused by DOM comparison mismatch after Siyuan redrawing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T03:34:31Z",
+      "committer_date": "2026-06-20T03:34:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e143eabd7d76e59b5d5f74ffd43b563a9a1e1dc3",
+      "message": "fix: ensure row/col highlights persist during high-frequency move steps",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T03:32:17Z",
+      "committer_date": "2026-06-20T03:32:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d2e4d5c56e4d12df9609ba09de8e65c9282319a",
+      "message": "feat: implement empty cell de-dashing and active row/col highlighting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T03:30:08Z",
+      "committer_date": "2026-06-20T03:30:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ed986342d83b05062be20e63112921f6716b097",
+      "message": "fix: resolve kramdown.split TypeError by adding strict type safety guards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T02:46:45Z",
+      "committer_date": "2026-06-20T02:46:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c3f1b79f865a80d78bf69295c10738b9ded8bb9",
+      "message": "fix(ui): support continuous operations and fix cursor focus loss on Dock panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T02:44:11Z",
+      "committer_date": "2026-06-20T02:44:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c38408f2297e3aa18a5045006e1139e34acdf12e",
+      "message": "feat(ui): add tables toolbox dock and topbar menu with Lucide wireframe icons & fix runtime issues",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T02:34:53Z",
+      "committer_date": "2026-06-20T02:34:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aacf487514f508a519301a8ceb95fb5d1cf7e3c7",
+      "message": "feat: initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T02:10:50Z",
+      "committer_date": "2026-06-20T02:10:50Z",
+      "login": "famotime"
+    }
+  ]
+}

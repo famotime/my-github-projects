@@ -1,0 +1,501 @@
+{
+  "pushed_at": "2026-10-02T15:29:58Z",
+  "count": 55,
+  "commits": [
+    {
+      "sha": "520cce0a6d17345921371625174e8ba38c4b459e",
+      "message": "feat(calendar): 周视图卡片悬浮支持展示同文档当周累计投入时长",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T15:27:53Z",
+      "committer_date": "2026-10-02T15:27:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d76cac8572e4ee679a948d79771a4abacf13c805",
+      "message": "fix(calendar): 增强日历手动补录按钮视觉权重并修复补录弹窗输入框重叠溢出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T15:21:05Z",
+      "committer_date": "2026-10-02T15:21:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "816a32b917d4badd973338a2b8be574dccfdde3f",
+      "message": "feat(pomodoro): 升级钟表指针高级镂空质感与沙漏全方位物理拟真",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T15:04:15Z",
+      "committer_date": "2026-10-02T15:04:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3671970347467b2d9c0bb7eeae875c97eea5181",
+      "message": "fix(pomodoro): 表盘指针不再在每次弹窗时归零——走时基线改为 tick 采样",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T14:24:31Z",
+      "committer_date": "2026-10-02T14:24:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d241cc8d715403aed1f16457c42dea2789bf9d12",
+      "message": "feat(pomodoro): 三种计时按真实钟表速度走时——毫秒基线 + 帧插值",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T13:52:49Z",
+      "committer_date": "2026-10-02T13:52:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e1859116b3fc662cab0d6d8c599853d0e6a65a4",
+      "message": "docs(pomodoro): 同步专注一页设计规范与变更日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T13:03:44Z",
+      "committer_date": "2026-10-02T13:03:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88898211d022f6e8464a04fbda52fa1745726517",
+      "message": "refactor(pomodoro): 专注一页回调——收敛氛围层、胶囊相位色与播报区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T13:03:20Z",
+      "committer_date": "2026-10-02T13:03:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b7c8c4acede25561674dfd2d04d838c57c1dbaf",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:25Z",
+      "committer_date": "2026-10-02T11:09:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fc2da0b0ab0dc9a142dfc384d50afde23886110",
+      "message": "docs(pomodoro): 更新设计规范和变更日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T07:43:34Z",
+      "committer_date": "2026-10-02T07:43:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9bf3ae1aaf507c1fb22a079584805325df50a2f",
+      "message": "feat(pomodoro): 专注一页重设计——三层组件树、三表盘、非模态面板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T07:42:44Z",
+      "committer_date": "2026-10-02T07:42:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b323752933e10860e0ec4647758856b966c120f",
+      "message": "chore(pomodoro): 新增 Vitest、Playwright 测试框架及隔离预览环境",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T07:42:31Z",
+      "committer_date": "2026-10-02T07:42:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59af18176a31e0698d8d887fc5e7e57ff50c7060",
+      "message": "fix(pomodoro): 补齐状态栏胶囊 svg 的 fill 防御",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T01:18:31Z",
+      "committer_date": "2026-10-02T01:18:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13c24add9a4c4b2204c3ef6ff25c51d7f8a06c97",
+      "message": "docs(pomodoro): 沉淀二轮重设计规范与发布日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T01:16:02Z",
+      "committer_date": "2026-10-02T01:16:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5aa43a2d4f637807d73c83f3db0d6db86228f1ca",
+      "message": "feat(pomodoro): 接入键盘驱动与无障碍补齐并新增 SFC 脚本体检",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T01:11:47Z",
+      "committer_date": "2026-10-02T01:11:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c42314f6450bc8ad19c6792a9e0abac1a5a66091",
+      "message": "feat(pomodoro): 重设计三大表盘形态并落地心流氛围层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T00:56:45Z",
+      "committer_date": "2026-10-02T00:56:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf58bdc250afeae4df4e4b5de7b73ed258a3f75a",
+      "message": "refactor(pomodoro): 拆分番茄钟单文件为三层组件树并接入心流产物层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T00:51:50Z",
+      "committer_date": "2026-10-02T00:51:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83d492ee8829a517fded0f4e66e9ef1e42ffc37d",
+      "message": "feat(pomodoro): 搭建设计令牌动效体系与番茄周期/离桌守卫逻辑层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T00:26:54Z",
+      "committer_date": "2026-10-02T00:26:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b4dc7f7c5860c28377b7fcd283c253524463995",
+      "message": "feat(tracker): 增加浏览阈值下限配置与短会话过滤",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T00:32:57Z",
+      "committer_date": "2026-10-01T00:32:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97b609063447e10dba452057434725af1b399856",
+      "message": "feat(pomodoro): 重构番茄钟交互与视觉并支持三大设计形态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T13:22:08Z",
+      "committer_date": "2026-09-29T13:22:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1c7a6932c443a88bf5f177ceeaf1b2568a7ab19",
+      "message": "feat(pomodoro): 重构番茄钟交互与UI体系，支持自定义倒计时并适配深浅双模主题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T14:06:11Z",
+      "committer_date": "2026-09-27T14:06:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "91e4bd7fe9212802a8341048f3153e0cc8080538",
+      "message": "feat(settings): 支持Daily Note与离桌归因独立开关及自定义归类输入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:56:42Z",
+      "committer_date": "2026-09-27T13:56:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2bfb1d241174cf5212fb3621e9115c4a2241de9",
+      "message": "chore(release): 升级版本至 v0.9.0 并更新版本发布日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:32:32Z",
+      "committer_date": "2026-09-27T13:32:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e71ff0e5594685d657ce007f25d78b26ea3df4f",
+      "message": "feat(pomodoro): 实现状态栏番茄钟双模引擎与专属时间轴徽章",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:30:50Z",
+      "committer_date": "2026-09-27T13:30:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54197ee59a6780141ab9bc3b5a86d41b7e5ea725",
+      "message": "feat(afk): 支持离桌唤醒归因引导与时间轴手动补录微调",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:28:54Z",
+      "committer_date": "2026-09-27T13:28:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bd987ab00edbf953efd0ce59d1ec1ba21c94339",
+      "message": "feat(dailynote): 新增每日专注数据自动归档沉淀至思源日记服务",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:24:55Z",
+      "committer_date": "2026-09-27T13:24:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "486abebabb83ba81789a12e8da075be9c1371d4a",
+      "message": "feat(mobile): 解锁移动端权限并优化响应式布局与后台挂起生命周期",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:23:03Z",
+      "committer_date": "2026-09-27T13:23:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b9528f8d67f482e02d49a91133214e1da3d8b2c",
+      "message": "feat(model): 扩展时间日志与番茄钟离桌归因配置模型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:21:18Z",
+      "committer_date": "2026-09-27T13:21:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75190c8c97fcc3e750ed1787f77ec503c67be102",
+      "message": "docs(plan): 制定阶段一(P0)核心体验闭环细化实施方案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:20:04Z",
+      "committer_date": "2026-09-27T13:20:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27b6c8890ef90264470ad5d10c1ee32df5881bd5",
+      "message": "feat(i18n): 支持多语言国际化与自动跟随思源系统语言",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T11:37:20Z",
+      "committer_date": "2026-09-27T11:37:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55e581687ce3d16935512d5760d6d83d46fe3394",
+      "message": "docs(design): 沉淀设计系统指导规范文档并清理历史提案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T09:49:42Z",
+      "committer_date": "2026-09-27T09:49:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "884737670b1fbe05a19ee9107394c3c5a6b90657",
+      "message": "build(vite): 放宽插件图标与预览图静态资源打包匹配规则",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T09:49:27Z",
+      "committer_date": "2026-09-27T09:49:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13627bb990924d803cf66402ad74bbe81fdf93c9",
+      "message": "fix(theme): 修复切换亮色主题后底色和部分文字仍为暗色问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T15:12:43Z",
+      "committer_date": "2026-09-25T15:12:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3f780f0c978f0813978578969589843006a0422",
+      "message": "feat(ui): 重构 UI/UX 视觉交互与双模主题自适应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T14:43:16Z",
+      "committer_date": "2026-09-25T14:43:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d4a1501acb5194755fe5eaef235ac7cd13dc4bd8",
+      "message": "feat(analytics): 支持标签与笔记本多维透视、年度热力图及数据导出功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T13:16:45Z",
+      "committer_date": "2026-09-25T13:16:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c96450d5704b2d3607a1f49e0eef97e4c7d0b493",
+      "message": "fix(release): 完成集市上架前规范整改与资源合规",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T09:24:32Z",
+      "committer_date": "2026-09-25T09:24:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff5108bee4edf32679b0c7d04f9ec48bd69a53cd",
+      "message": "docs: 完善项目说明文档与开发者参考指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T08:12:48Z",
+      "committer_date": "2026-09-25T08:12:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f60c63ddeb9318f5758ee465a6c8a5edfc105db4",
+      "message": "fix(manifest): 修复集市包清单 readme 字段类型导致加载失败的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T08:12:00Z",
+      "committer_date": "2026-09-25T08:12:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a132f33eba3ebded70032bef2d26efe0c916f53",
+      "message": "feat(ai): 升级 API 旋钮接入协议并支持自定义 Headers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:46:48Z",
+      "committer_date": "2026-09-25T03:46:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04682017fb0d10c40ee5ef43b5b1588454247192",
+      "message": "feat: 支持 webp 格式资源并完成发布前代码质量与规范全面整改",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T14:24:27Z",
+      "committer_date": "2026-09-19T14:24:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "951c64f9d67a68abddc21ca1d97a2d1e31aa1ff9",
+      "message": "feat(dashboard): 升级顶部专注目标为Hero卡片与显式线框图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T11:20:55Z",
+      "committer_date": "2026-09-19T11:20:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3d5027a63ad54bdf6a6444859cccbf1448d3f340",
+      "message": "feat(ai): 增加顶部专注目标区域与 AI 总结弹窗深度复盘功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T10:59:28Z",
+      "committer_date": "2026-09-19T10:59:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f75f3d973ee8c15e434f3dab0a25f47d26fd594a",
+      "message": "feat(setting): 增加 AI 服务设置并支持 siyuan-api-switch 管理与卡片化折叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T10:45:37Z",
+      "committer_date": "2026-09-19T10:45:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7f489079c9cf443fe3c180fb430602bdb03c101",
+      "message": "fix: dynamically switch period button label and unify component heights",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T08:02:54Z",
+      "committer_date": "2026-09-19T08:02:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7da6387607413a652eb6297c0c48ef06c42c58f7",
+      "message": "feat(setting): 设置页增加在页签打开选项并默认开启",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T07:28:42Z",
+      "committer_date": "2026-09-19T07:28:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "025db96663aa843bffb2e83b93131fba4397d1ba",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-17T12:53:49Z",
+      "committer_date": "2026-09-17T12:53:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b241b055882d9b3757f8acd688dc65e4dd0c21ec",
+      "message": "fix(calendar): 优化日历日视图与周视图重叠事件并排分列布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T02:35:53Z",
+      "committer_date": "2026-08-09T02:35:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0abde28eb8f131cb9a34d4d791529676f494b62",
+      "message": "fix(charts): 图表标签数量超10个时聚合剩余为...并优化图例排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T02:29:11Z",
+      "committer_date": "2026-08-09T02:29:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "929171b44288c0397c26d1d9d9d64ed7f4e7b1a8",
+      "message": "style: optimize dashboard controls styling and layout vertical spacing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T02:25:51Z",
+      "committer_date": "2026-08-09T02:25:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8a1d658c887c77fa8847e72dd7ffb414813caa7",
+      "message": "fix(style): 禁用 Tailwind CSS Preflight 基础重置，避免全局样式污染导致图片手柄错位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T01:01:28Z",
+      "committer_date": "2026-08-09T01:01:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa68e17ac09242bed11d63df2d6e9fb11b5f1e42",
+      "message": "fix(ui): 优化看板视觉间距、放大透明底Logo及增强弹窗交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T11:15:59Z",
+      "committer_date": "2026-08-08T11:15:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7bfda48b5c44f60cbf4c5bd3d014748000e8d709",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T06:24:22Z",
+      "committer_date": "2026-08-08T06:24:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f35632d2e964561681348821ced55a415b25e74",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T06:17:30Z",
+      "committer_date": "2026-08-08T06:17:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af10e48f65f32faf38b4640cb24b6db17d0e4ebb",
+      "message": "feat: add Day/Week/Month calendar views and unified visual overview with dynamic scope stats",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T03:58:36Z",
+      "committer_date": "2026-08-08T03:58:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a78dda70e7831af2d72724965317a2df925d6a0",
+      "message": "feat: add OpenTickly-style calendar view and Chinese localization",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T03:46:56Z",
+      "committer_date": "2026-08-08T03:46:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fdc9d6da8c3e1b3d9ab3d8fc88d4701f1160bbd",
+      "message": "feat: initial commit for siyuan-time-spent",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T00:52:11Z",
+      "committer_date": "2026-08-08T00:52:11Z",
+      "login": "famotime"
+    }
+  ]
+}

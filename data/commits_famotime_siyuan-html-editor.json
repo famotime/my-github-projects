@@ -1,0 +1,96 @@
+{
+  "pushed_at": "2026-08-19T03:00:09Z",
+  "count": 10,
+  "commits": [
+    {
+      "sha": "cdf5399008f285ee814bd687020f7aeadb8f75b0",
+      "message": "feat: complete modular refactoring, remove editor.html and enrich full editing toolbar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-19T02:59:53Z",
+      "committer_date": "2026-08-19T02:59:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44f290457d6678007ffac2497d82559612f59073",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T13:54:44Z",
+      "committer_date": "2026-08-16T13:54:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b8ce799d54dbc2246558ed753d8124a954d8958",
+      "message": "fix(editor-helper): 修复列宽拖拽时 grid 未定义的 ReferenceError",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T13:36:41Z",
+      "committer_date": "2026-08-16T13:36:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e038eebcb722cf01d15bb819c873104833c840f",
+      "message": "feat: add settings page with auto-saving console log switch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T13:30:10Z",
+      "committer_date": "2026-08-16T13:30:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc0dcc9d73ecfe5ca79f94915dee61d102a6f407",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T11:22:21Z",
+      "committer_date": "2026-08-16T11:22:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7de3c0b701b24292203f3fb3f8c12dd7cb93699",
+      "message": "fix(save): 修复HTML块保存同步截断及空行防丢逻辑，完善清洗规范",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T11:19:07Z",
+      "committer_date": "2026-08-16T11:19:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8be6e196119fa820712c830de7809ce4d1fdcf9e",
+      "message": "fix: 修复编辑器画布空白与HTML块保存后丢失的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T11:04:12Z",
+      "committer_date": "2026-08-16T11:04:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fe940b6d5bfd93deeb104143ddcadd00a45e06e",
+      "message": "fix: use srcdoc for guaranteed instant rendering, fix hover button floating over modal, and add debug logs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T10:08:01Z",
+      "committer_date": "2026-08-16T10:08:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74b42b6bd76f9976329fe76c87884a025213e5b0",
+      "message": "fix: integrate full v5.9.2 editor.html with siyuan bridge and perfect layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T09:59:42Z",
+      "committer_date": "2026-08-16T09:59:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e3ea77bb3d8e6871dd50f20d38e96bf36150d40",
+      "message": "feat: initial commit for siyuan-html-editor plugin with core engines, vue components, and docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T09:42:09Z",
+      "committer_date": "2026-08-16T09:42:09Z",
+      "login": "famotime"
+    }
+  ]
+}

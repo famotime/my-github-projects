@@ -1,0 +1,330 @@
+{
+  "pushed_at": "2026-09-25T10:05:45Z",
+  "count": 36,
+  "commits": [
+    {
+      "sha": "fcba5c583793734aa62a173012b50b8469bd2807",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T10:04:22Z",
+      "committer_date": "2026-09-25T10:04:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b550bb828220a38c240f21294329b475d3b167f",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T09:54:25Z",
+      "committer_date": "2026-09-25T09:54:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60e3b86fa7d953547c6654a6e66d634a1431def7",
+      "message": "feat(ui): 凸显顶栏读取与写回思源按钮并优化文字色彩对比度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T04:14:12Z",
+      "committer_date": "2026-09-25T04:14:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd047d53d38584f70f8c5bd2fbd8129f4ea19608",
+      "message": "fix(ui): 修复删除提示弹窗背景遮盖导致配置界面消失的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T04:02:27Z",
+      "committer_date": "2026-09-25T04:02:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b61adf69e9ebd5979dcd8103209e067721e98540",
+      "message": "feat(core): 支持对接思源笔记原生AI架构并全面升级多插件接管协议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:43:03Z",
+      "committer_date": "2026-09-25T03:43:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74acb93ada4cf877264913fad37ecbb84a26d993",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T13:08:11Z",
+      "committer_date": "2026-08-10T13:08:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec9c7321157e41eea4d6da887886d68fc12c8612",
+      "message": "v0.8.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T13:05:19Z",
+      "committer_date": "2026-08-10T13:05:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33245d28a680aba141f5fbb7d7433536cb61b121",
+      "message": "上架预审及修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T13:03:46Z",
+      "committer_date": "2026-08-10T13:03:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e648e5ee1905aebd35f175859512c50cc54df8cc",
+      "message": "fix: 修复未启用调试日志开关时控制台仍有日志打印的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T13:44:27Z",
+      "committer_date": "2026-08-09T13:44:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f6a973ba6523919c42c7cda877bfb652a8b828a7",
+      "message": "feat: 增加思源本体配置自动同步校准与第三方插件集成文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:52:40Z",
+      "committer_date": "2026-08-09T03:52:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83d343fc019efb0afb49f7137730583b8beabb70",
+      "message": "feat: 支持拖拽调整弹窗大小、顶栏拖拽与最大化，并修复图标线框样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:21:09Z",
+      "committer_date": "2026-08-09T03:21:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a377004dc010fed604555e4daeb97c337e45469b",
+      "message": "feat: 支持按编辑器与智能体独立提取思源笔记AI配置并重构全量高阶参数结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T14:14:39Z",
+      "committer_date": "2026-08-03T14:14:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08977ca7c5cb0a654609682de17ae905b43b6400",
+      "message": "fix(ai): support latest siyuan multi-provider AI config and prevent global config reference replacement",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-26T14:33:15Z",
+      "committer_date": "2026-07-26T14:33:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84a5ae8497da8d49b7e850ecb85813f16c6aea6c",
+      "message": "feat: 支持配置同一服务商的多个模型名称并启用其中之一",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-29T14:31:49Z",
+      "committer_date": "2026-06-29T14:31:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "395890b6fdf575eb7d23a2bc5ff23e892010b018",
+      "message": "feat: add one-click config to apply profile to all plugins",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T15:35:24Z",
+      "committer_date": "2026-06-27T15:35:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e09ae32d505669dde1dd3c3ab799ed013d6da370",
+      "message": "fix: resolve module specifier 'siyuan' error by using static import",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T15:28:47Z",
+      "committer_date": "2026-06-27T15:28:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7259c9d3516560b9b5e26ba5ed22bf31810c1357",
+      "message": "feat: add import and export buttons for API profiles, remove Siyuan built-in import button",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:35:09Z",
+      "committer_date": "2026-06-27T14:35:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c577ae1c6232a2e809de404413233b3f342cad7",
+      "message": "style: fix tooltip cutoff issue by adding multi-position support and positioning edge elements",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:24:29Z",
+      "committer_date": "2026-06-27T14:24:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e61802aa3f8601304f5b06a5044408472f8eea9d",
+      "message": "build: 重新打包发布版本 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:18:45Z",
+      "committer_date": "2026-06-27T14:18:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ebe5b57585aac8dca7101827967c7054a4e31d4a",
+      "message": "fix: 屏蔽脚手架残留的 stray 启动日志，确保完全关闭调试时零日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:15:27Z",
+      "committer_date": "2026-06-27T14:15:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b0ab8a981ea9c6c34bab824e6f8dc7f6d444751",
+      "message": "fix: 封装核心业务层 console 日志，在关闭日志开关时彻底静默启动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:11:54Z",
+      "committer_date": "2026-06-27T14:11:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f55dc2738492047af0628103dff936b2d141680",
+      "message": "fix: 将确认弹窗 DOM 层级提升至根级解决点击失效，并移除叠加的模糊滤镜",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:07:33Z",
+      "committer_date": "2026-06-27T14:07:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57992490f634ba753b2057a0b38eff5272e46a46",
+      "message": "feat: 增加调试日志开关，优化解绑逻辑以规避属性遍历突变报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T14:02:41Z",
+      "committer_date": "2026-06-27T14:02:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84c5a712a2dbac884308e5cd812ec9c5a132622c",
+      "message": "fix: 修复删除配置或取消编辑时 Vue 渲染空指针卡死界面的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:55:56Z",
+      "committer_date": "2026-06-27T13:55:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68d45f10806d935b362b08249afc7fe22893448e",
+      "message": "feat: 支持读取与接管思源笔记内置 AI 的 API 配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T13:53:44Z",
+      "committer_date": "2026-06-27T13:53:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11942afbe07f795a68cc93fdef3d74c8de9b2dc5",
+      "message": "chore: rename project to siyuan-api-switch (API 旋钮)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T12:06:56Z",
+      "committer_date": "2026-06-20T12:06:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "261b51f97511dc29eddadaa86d523b8a0516896e",
+      "message": "fix(ux): 切换 AI 服务商时不覆盖已有配置信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T01:18:24Z",
+      "committer_date": "2026-06-20T01:18:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2254b448c64c9a8c8855474c8a641a18254a77e8",
+      "message": "style(ux): update topbar settings icon to new custom SVG",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T00:03:12Z",
+      "committer_date": "2026-06-19T00:03:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0dd1e204600cf0a6caf8e6a50c480f7b394de87d",
+      "message": "style(ux): replace topbar settings icon with custom stroke SVG icon",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:13:12Z",
+      "committer_date": "2026-06-18T17:13:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87442bdbb186f5483c72276608e97091edb45d2d",
+      "message": "style(ux): enhance sidebar visual hierarchy, add title indicators and border separators",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:07:32Z",
+      "committer_date": "2026-06-18T17:07:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2c4ac922f54868f8295429614f2782b066da86b",
+      "message": "fix(ux): replace Siyuan confirm modals with custom Vue confirm dialogs to prevent overlay blocking",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:02:32Z",
+      "committer_date": "2026-06-18T17:02:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f657fe3218fe4153974e99f4b1ecbf80f6408d2a",
+      "message": "fix(ux): prevent Electron/iframe parent window redirection on link click",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T17:00:03Z",
+      "committer_date": "2026-06-18T17:00:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "962fdf10222b2d213459cd3f98011da1f90f3ba9",
+      "message": "style(ux): optimize app ui, refine inline outline icons and add tooltip & dirty-checking protection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-18T16:55:42Z",
+      "committer_date": "2026-06-18T16:55:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7739af168037db11b66d03a220775a01f0472bda",
+      "message": "design: replace icon.png with custom generated premium icon",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T16:01:14Z",
+      "committer_date": "2026-06-17T16:01:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca6c3b9fbc32c67f9fb54e9d72b665580f90e6f4",
+      "message": "docs: update plugin name to siyuan-api-manager and add detailed README",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T15:57:21Z",
+      "committer_date": "2026-06-17T15:57:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e9e96cbd13d652b732fcf0e8738cd5266ec301a",
+      "message": "feat: init api manager with multi-plugin sync and config import",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T15:55:01Z",
+      "committer_date": "2026-06-17T15:55:01Z",
+      "login": "famotime"
+    }
+  ]
+}

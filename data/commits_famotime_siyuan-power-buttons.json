@@ -1,0 +1,1194 @@
+{
+  "pushed_at": "2026-10-01T06:04:17Z",
+  "count": 132,
+  "commits": [
+    {
+      "sha": "72966ace100b22dc7e69dd2dcfb0963fd9fb747e",
+      "message": "fix(command): 修复数据历史与日记命令执行异常并优化侧面板与默认配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T06:03:29Z",
+      "committer_date": "2026-10-01T06:03:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba4c3c80c4925a35bfa8cc5ab85ab283a6f5a04e",
+      "message": "fix(config): 修复添加分割线时 onSaveConfig 调用未定义 save 方法的异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T03:12:47Z",
+      "committer_date": "2026-10-01T03:12:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a73eb4ebbb8f25e564cc8616dd6d2133f96fb96",
+      "message": "feat(dock): 支持各区域独立按钮排序及右侧面板分割线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T02:33:47Z",
+      "committer_date": "2026-10-01T02:33:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7acc64f0674734acedc1f866fc0511cdb828dd5d",
+      "message": "feat(surfaces): 支持显示位置多选并优化独立侧面板与状态栏布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T01:03:19Z",
+      "committer_date": "2026-10-01T01:03:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c65e7d4e6eaf12d18f7ba45641989ca440b11cc9",
+      "message": "refactor(settings): 重新设计设置页双栏布局与组件结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T15:57:57Z",
+      "committer_date": "2026-09-30T15:57:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07c28bc7dfb23d573ec8ba8afcf0da71ab9315d2",
+      "message": "fix(dock): 修复右侧栏图标一致性、常驻设置按钮并精简设置项显示位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T14:26:42Z",
+      "committer_date": "2026-09-30T14:26:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f8b116cb3082171d63b1421a93ed12248b43290",
+      "message": "docs(readme): 补充独立侧面板功能说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T13:19:13Z",
+      "committer_date": "2026-09-30T13:19:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7469b1fc0cbf69fc35e3b04f0213acaf64d7ef1b",
+      "message": "feat(settings): 在设置界面与位置预览中集成独立侧面板配置与拖拽交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T13:18:18Z",
+      "committer_date": "2026-09-30T13:18:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1742c2f52f20d99825808bdd2015615d7ad6a610",
+      "message": "feat(dock): 实现右侧栏插件按钮及独立侧面板网格渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T13:12:30Z",
+      "committer_date": "2026-09-30T13:12:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2447f21a1a74a8da0318ce874202ab88a25f68e6",
+      "message": "feat(core): 支持独立侧面板表面类型与布局模型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T13:03:44Z",
+      "committer_date": "2026-09-30T13:03:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "197b7010668a60faf78a8b665e3e30af6337d558",
+      "message": "feat(settings): 支持新建按钮名称默认随动作设置命名联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T14:30:16Z",
+      "committer_date": "2026-09-29T14:30:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd43b210393c51247883b0ad16bf00cebef7b6c0",
+      "message": "feat(commands): 支持思源v3.8.5面板浮动切换内置命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T14:17:49Z",
+      "committer_date": "2026-09-29T14:17:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dec399541c0a66a54d4b171929b1ae22bc284e61",
+      "message": "docs(developer_docs): 更新思源开发者参考文档与构建资源配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:24:16Z",
+      "committer_date": "2026-09-27T13:24:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e6d888e126d72391c6ebd491f6c1faf924d381b",
+      "message": "feat(commands): 在浏览器打开命令支持复制伺服网址到系统剪贴板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T13:23:56Z",
+      "committer_date": "2026-09-27T13:23:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f24dae7a02697e2337ec3edb570b87cbaf83e807",
+      "message": "feat: 增加在浏览器打开默认按钮及插件命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-08T15:06:54Z",
+      "committer_date": "2026-09-08T15:06:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "110575db0e66f57da58442a50319db06e64d86e3",
+      "message": "fix: 修复预览栏原生系统图标底色填充问题，保持线框风格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T03:20:12Z",
+      "committer_date": "2026-08-16T03:20:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21042b63f6a449509e31a1bf60166ac8fab45b47",
+      "message": "feat: support drag sorting for dock buttons and refine preview interaction tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-18T01:52:23Z",
+      "committer_date": "2026-07-18T01:52:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6f9110ed1d1484c233a10f1e1dd8c0e863ad029",
+      "message": "v1.0.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T08:00:21Z",
+      "committer_date": "2026-07-12T08:00:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7e2a219c86de6af9e810baa27257b95848f5c5a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T06:40:48Z",
+      "committer_date": "2026-06-07T06:40:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f75327cc8b64f6427156713af88d8e38b20f5ab2",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T04:47:26Z",
+      "committer_date": "2026-06-07T04:47:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52f1d753be6eef4d60ead5a6fffeca59ccd396b4",
+      "message": "fix: 修复浮动工具栏排序与启动卡死问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T01:40:49Z",
+      "committer_date": "2026-06-07T01:40:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a575a3dcf159633a4b130fb231d72d1437092703",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T00:38:30Z",
+      "committer_date": "2026-06-07T00:38:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c04bf7819825bb14ea9c087452bcdcf28e722983",
+      "message": "fix: 降低浮动工具栏禁用按钮透明度，使其更易区分",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T22:18:04Z",
+      "committer_date": "2026-06-06T22:18:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0564d47a00923ba03ef81041b4ec38ec9b7613e",
+      "message": "feat: 浮动工具栏自定义按钮支持拖动排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T15:39:38Z",
+      "committer_date": "2026-06-06T15:39:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf92d31e4fc75e8b4b8239b250cbe148e74d1798",
+      "message": "feat: 浮动工具栏按钮图标化显示及禁用即时生效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T14:54:12Z",
+      "committer_date": "2026-06-06T14:54:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dfbaa70a8b15ae8e9f85eac2ce708938f6251021",
+      "message": "fix: 清理预览窗口 tooltip 中的 HTML 标签，简化提示文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T12:23:01Z",
+      "committer_date": "2026-06-06T12:23:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c4362aedbc0ed6230c7aa480f522fefbb8b5860",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T11:57:59Z",
+      "committer_date": "2026-06-06T11:57:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7517d933af5fb8d3df0973618457c587eb410e76",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T06:45:20Z",
+      "committer_date": "2026-06-06T06:45:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab3a092d044132befc42c9da147408402a2f800a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T06:37:58Z",
+      "committer_date": "2026-06-06T06:37:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c625a3d2bb3c04c59a72e3d753729c167b0625c0",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:41Z",
+      "committer_date": "2026-05-23T06:41:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c46779f06a43d13730ffaf458c50380a287a1ff7",
+      "message": "fix: 兼容 siyuan-doc-assist v2 开放协议，修复插件无法识别的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T10:51:11Z",
+      "committer_date": "2026-05-16T10:51:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9ca5b16800b75bf8b5aaee2f88ad87a4368b9fd",
+      "message": "Limit IconPark picker height",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T07:34:02Z",
+      "committer_date": "2026-05-15T07:34:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc93fd168aac0ed93eb3953d461f2058cd1a88e7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T14:47:36Z",
+      "committer_date": "2026-05-10T14:47:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0484717dcd57e9387a97bcfc75f48218fa50931c",
+      "message": "fix: 合并导入配置按钮并完善相关测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T14:45:54Z",
+      "committer_date": "2026-05-10T14:45:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0d38832121024fe3b07a2dd3c07509baa18f10e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:47:24Z",
+      "committer_date": "2026-05-01T13:47:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d751a1fa77ae20c90a23970634171ab2ccd182f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T05:09:21Z",
+      "committer_date": "2026-04-26T05:09:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e87ca153565f0cdceac7ab28cc92c1410b7a217",
+      "message": "v1.0.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T01:04:39Z",
+      "committer_date": "2026-04-26T01:04:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "405b33a59d0e120b17fb741e3dd118fc64744b42",
+      "message": "Revert \"v1.0.2\"",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T01:03:11Z",
+      "committer_date": "2026-04-26T01:03:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c1c1d9db0347c4b55b1f7b2de6d85940fe947e2",
+      "message": "v1.0.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T00:57:55Z",
+      "committer_date": "2026-04-26T00:57:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d53398db19535e183ab3907bd04f39e2fd44812",
+      "message": "Fix settings dialog overflow and icon catalog duplicates",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T00:57:03Z",
+      "committer_date": "2026-04-26T00:57:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b233642a5a0e715e499a8c4c48ae79eb817b94d",
+      "message": "v1.0.1: 根据PR评审意见优化细节",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-25T14:10:04Z",
+      "committer_date": "2026-04-25T14:10:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fbc35db49124a0bfa63c9f108a3e6abdadc3b64a",
+      "message": "v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:31:34Z",
+      "committer_date": "2026-04-18T08:31:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73bf95f766207bb0dff21d678a80944fc815728c",
+      "message": "Update release package copy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:25:29Z",
+      "committer_date": "2026-04-18T08:25:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34db9f2f0c6063a53c7a1e8f4c5d8ba78e9f0eba",
+      "message": "Extract settings config transfer panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:22:24Z",
+      "committer_date": "2026-04-18T08:22:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0571299ac07d3164acf47215cdf51dcef7426bb1",
+      "message": "Refresh README showcase",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:19:42Z",
+      "committer_date": "2026-04-18T08:19:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcc4db559bf3a40e3aaba2361644ffb7e58ddd65",
+      "message": "Fix Bazaar release metadata",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:16:45Z",
+      "committer_date": "2026-04-18T08:16:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5600e142fff2a9be3980c0abe9b9703e658b3dd0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T06:15:39Z",
+      "committer_date": "2026-04-18T06:15:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79dbf7fce515ec6ea276d558b244a29690a1138e",
+      "message": "Use documented sample as default config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T05:58:47Z",
+      "committer_date": "2026-04-18T05:58:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b81cf7391ebe4d00f58fd7223293c9e5a14086f1",
+      "message": "Add default config doc-sample design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T05:02:00Z",
+      "committer_date": "2026-04-18T05:02:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a6358a1c857319814cd6dfec6d9ee110c858e447",
+      "message": "Persist settings selection across reopen",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T04:28:42Z",
+      "committer_date": "2026-04-18T04:28:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f6d23e593c3efbe672c24c4ca61de1e034e98ac6",
+      "message": "Fix experimental shortcut keyboard dispatch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T02:42:50Z",
+      "committer_date": "2026-04-18T02:42:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a500b1a7dc08c4b0f53f4a4766b65b1bb3ddb801",
+      "message": "Fix shortcut fallback and settings persistence",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T01:29:59Z",
+      "committer_date": "2026-04-18T01:29:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fbc2156126d950f45929ab9c6862bd01f44560e8",
+      "message": "Adjust default surface and click-sequence retries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T01:15:36Z",
+      "committer_date": "2026-04-18T01:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "725db77c251a5692926f81349cd0dc520d12b28b",
+      "message": "Document restart plugins builtin command",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T01:03:44Z",
+      "committer_date": "2026-04-18T01:03:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "489ebc0065188d731465674b7c542bb47cb794ed",
+      "message": "Refine builtin commands and fix daily note execution",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T00:59:27Z",
+      "committer_date": "2026-04-18T00:59:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1132d260e27b835652d7dd929ca529d307998e93",
+      "message": "Fix delete icon rendering in settings list",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T23:52:06Z",
+      "committer_date": "2026-04-17T23:52:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70bec3255c0af1a14353b9e11c79c9accbea2837",
+      "message": "Fix builtin command execution and settings autosave",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T17:32:57Z",
+      "committer_date": "2026-04-17T17:32:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05bf49c19be024ce82e9a58fa4345c5b38420835",
+      "message": "Refine settings panel layouts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T15:31:06Z",
+      "committer_date": "2026-04-17T15:31:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bb1cd7187a032950a0970227cd68e7aee86b33c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T13:52:46Z",
+      "committer_date": "2026-04-17T13:52:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee4da3ae488cd860a257af81d30123c1e0205c07",
+      "message": "Fix hidden status bar preview buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T13:25:13Z",
+      "committer_date": "2026-04-17T13:25:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2436d68628dcd6050d50749fbbc76fff3b9ed496",
+      "message": "Refresh release package",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:26:29Z",
+      "committer_date": "2026-04-16T15:26:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d2898d30d25e7ca1b2e3f840b4f9c165f0d2eac",
+      "message": "Add form value steps to experimental click sequences",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:14:40Z",
+      "committer_date": "2026-04-16T15:14:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "395318be34aac5c89a17039e32ee9039f32b5028",
+      "message": "Add click sequence form value controls to settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:10:17Z",
+      "committer_date": "2026-04-16T15:10:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04c6f6fe01213dfd9f2071f11dab1c8da6c5537b",
+      "message": "Support form value steps in click sequences",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:06:58Z",
+      "committer_date": "2026-04-16T15:06:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50b11dac5541a5b325c260da08b7e3f72f9c8b12",
+      "message": "Add click sequence form value config fields",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:05:08Z",
+      "committer_date": "2026-04-16T15:05:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "722396b9d68c8beb9b75c454318c0cc22277645b",
+      "message": "Commit select picker fix and implementation plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T15:00:26Z",
+      "committer_date": "2026-04-16T15:00:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "557d75d1ede2f94c714a606b7ecb0a00afa747a0",
+      "message": "Add click sequence form value design spec",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T14:52:49Z",
+      "committer_date": "2026-04-16T14:52:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6db85524d29d9a39d248a88773a7f2cda006f6b",
+      "message": "Refactor settings runtime and surface modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T16:16:40Z",
+      "committer_date": "2026-04-15T16:16:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7912aeda9214f08fd99c3833efc48583eed2ad5f",
+      "message": "Increase IconPark preview icon size",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T14:19:29Z",
+      "committer_date": "2026-04-15T14:19:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcc769d0da8c2a5ed3e6759c15ece66b7b42ce8b",
+      "message": "Fix legacy dock migration test expectation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T14:18:14Z",
+      "committer_date": "2026-04-15T14:18:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a429c25d73d0a63d3fe5712c8c9029683082a883",
+      "message": "Harden IconPark stroke-only icon fills",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T12:36:17Z",
+      "committer_date": "2026-04-15T12:36:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b3fa29a35a845fd65ff89ae6b37f22cefd553a5",
+      "message": "Enhance SVG icon preview feedback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T10:57:08Z",
+      "committer_date": "2026-04-15T10:57:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ac47e46c2445c5cd9b7915509ccafe3053304c7",
+      "message": "Tweak IconPark picker icon presentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T07:24:30Z",
+      "committer_date": "2026-04-15T07:24:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66bfc13fff7a0dc1ad84eaf5c34fd34b96325c16",
+      "message": "Refine icon picker grid and selector matching",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T03:24:28Z",
+      "committer_date": "2026-04-15T03:24:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a38381d506d077d6d39f35bfcd0022bb305ace00",
+      "message": "Optimize native suppression rescans",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T03:10:08Z",
+      "committer_date": "2026-04-15T03:10:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b44ded4aada9b9c9967b748ac4f68cad58dfd87",
+      "message": "Integrate full local IconPark outline catalog",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T02:25:58Z",
+      "committer_date": "2026-04-15T02:25:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de3663762bbcb927e74fa3af5fba460062c06e35",
+      "message": "Unify plugin command providers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T06:04:18Z",
+      "committer_date": "2026-04-11T06:04:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab2702119819857609069c1082a69600cced5428",
+      "message": "Fix external plugin command discovery",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T05:01:08Z",
+      "committer_date": "2026-04-11T05:01:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1426f6f9cd9bd872b948c1d409e390448791c9e0",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:36:24Z",
+      "committer_date": "2026-04-11T02:36:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfc4c52be51a60a5f069c3884984362f8ce746ab",
+      "message": "Merge branch 'feature/cross-plugin-command-provider-v2'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:33:39Z",
+      "committer_date": "2026-04-11T02:33:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd9b977dacea8309197fd49fd3b23b633a04f6c7",
+      "message": "feat: add external plugin command integration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:33:15Z",
+      "committer_date": "2026-04-11T02:33:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ec9aaeb32b0b1e236df3e0fedbeede836bcfdf9",
+      "message": "fix: populate external settings providers from runtime",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:59:08Z",
+      "committer_date": "2026-04-11T00:59:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2ed01e2b5e89b13351d07f158b7b705c7be30830",
+      "message": "fix: wire external command config through settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:45:35Z",
+      "committer_date": "2026-04-11T00:45:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce14817ef7af9b7d9faf32a2dd8ee4de6a67e80b",
+      "message": "feat: support external command bindings in config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:34:07Z",
+      "committer_date": "2026-04-11T00:34:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48efd8da76f6831c48e0da1073da8d786feaca2d",
+      "message": "test: add failing external command config specs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:32:02Z",
+      "committer_date": "2026-04-11T00:32:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a281511f0eb9a2a421339f57a9ae082d8d9e97b2",
+      "message": "fix: validate external registry ids",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:24:20Z",
+      "committer_date": "2026-04-11T00:24:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f3d08363ce63af901d5e89fa7509538e0b85987",
+      "message": "fix: harden external command registry",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T00:15:54Z",
+      "committer_date": "2026-04-11T00:15:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e3d92babc1d2a761bfbb5424a25c55a96440efd",
+      "message": "feat: add external command registry",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:53:50Z",
+      "committer_date": "2026-04-10T17:53:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ca403a3033a758d345619c6af887c4d76769dbc",
+      "message": "test: add failing external command registry specs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:52:22Z",
+      "committer_date": "2026-04-10T17:52:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffdf15d58b06cf78b65f994a2fb0832f7140d5f8",
+      "message": "fix: reject reserved external command placeholder",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:38:51Z",
+      "committer_date": "2026-04-10T17:38:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ba1a54ab0d1baeb6d1c7b122fd2849288b8b398",
+      "message": "fix: tighten external command id contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:28:11Z",
+      "committer_date": "2026-04-10T17:28:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "614215f6c540b17dce434078111b5e059983369a",
+      "message": "feat: add external command protocol types",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:11:17Z",
+      "committer_date": "2026-04-10T17:11:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc1debb5db78de8a066f626261cf6245a4cdd1bf",
+      "message": "test: add failing external command protocol specs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T17:10:30Z",
+      "committer_date": "2026-04-10T17:10:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f6041460e4cd87e841cfe7db68352726dd70765",
+      "message": "Ignore local worktrees directory",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T16:45:39Z",
+      "committer_date": "2026-04-10T16:45:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "044672349b57a1b0f99d13823c8a9a6a0e487878",
+      "message": "Add cross-plugin provider implementation plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T16:41:04Z",
+      "committer_date": "2026-04-10T16:41:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8fb06501e8f2f3eed646d1bb79a93f7a28ee011f",
+      "message": "Add cross-plugin command provider design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T16:08:41Z",
+      "committer_date": "2026-04-10T16:08:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bde3cbf9fef32c20066c1fbb80feaa37a323e1b8",
+      "message": "Fix button list item overflow in settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T15:36:38Z",
+      "committer_date": "2026-04-10T15:36:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "589618daa48bc34291b37e06046acc251c85e3a5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T15:25:05Z",
+      "committer_date": "2026-04-10T15:25:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec57ec65af787373c411c6d36715b7e1816b3c5e",
+      "message": "Hide disabled tray button labels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T15:10:29Z",
+      "committer_date": "2026-04-10T15:10:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e6b95e0e491ffa45afc5f8ac48069e8bcd6d4d8",
+      "message": "Avoid suppressing settings preview buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T15:02:25Z",
+      "committer_date": "2026-04-10T15:02:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31c0f54487e43533551183cad7f3f5a8d2009c81",
+      "message": "Improve disabled native icon rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T14:51:24Z",
+      "committer_date": "2026-04-10T14:51:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7aefd8a9cc13255b1895bc854094127d390164c",
+      "message": "Use fallback icons for disabled native preview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T14:32:06Z",
+      "committer_date": "2026-04-10T14:32:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e98ccac8f8088a9baea3f6a4bd1fe8b79e0d935",
+      "message": "Refine native drag preview behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T14:15:11Z",
+      "committer_date": "2026-04-10T14:15:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce37d86f9b52a8cf3fd973755c9614557e2aa06e",
+      "message": "Add native button disable tray and runtime suppression",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T13:56:49Z",
+      "committer_date": "2026-04-10T13:56:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5d706a1454dc9e81a5e78948e687206555ba2c1",
+      "message": "Fix editor toolbar integration and native button forwarding",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T12:30:07Z",
+      "committer_date": "2026-04-10T12:30:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "570cf7cdb4981b05f68b710f5478c69a7a21391b",
+      "message": "Add editor canvas placement support",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T23:07:43Z",
+      "committer_date": "2026-04-09T23:07:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc75eae9ba08675cf07b21a5b4b7010a20926b66",
+      "message": "Add fixed settings topbar entry",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T14:34:01Z",
+      "committer_date": "2026-04-09T14:34:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e2b621b5f4e897a791c3b3ca60c93c15a67a520",
+      "message": "Separate fixed settings entry from defaults",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T14:02:21Z",
+      "committer_date": "2026-04-09T14:02:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31342306bbc20373ebd2c28ba311996b7e12d815",
+      "message": "Add fixed settings entry implementation plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T13:59:36Z",
+      "committer_date": "2026-04-09T13:59:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e7b3a6d46fe68fa8a0c5419ab1294667fdd63ec",
+      "message": "Add fixed settings entry design spec",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T13:56:04Z",
+      "committer_date": "2026-04-09T13:56:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c74afbf70e2ef6b296415f773dd1ea0d47d99e4",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T13:29:53Z",
+      "committer_date": "2026-04-09T13:29:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9cfbdacc4a689038ca2d438caa1e96be8fec169b",
+      "message": "Refine icon settings tabs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T13:02:11Z",
+      "committer_date": "2026-04-09T13:02:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38beb6aed7d3b6b425a14b8f5f5f539efaf19748",
+      "message": "Fix settings entry command wiring",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T12:16:30Z",
+      "committer_date": "2026-04-09T12:16:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f53ed905dcc8330d41704881b2f5627c760a7042",
+      "message": "Refactor settings and runtime architecture",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T10:29:31Z",
+      "committer_date": "2026-04-06T10:29:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9efe34f565df86927966a00a5b5713cc2c2033c",
+      "message": "Fix experimental action config initialization",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T09:49:53Z",
+      "committer_date": "2026-04-06T09:49:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "587c758e2dce2afbef200dadd73e63550b565a51",
+      "message": "Refine shortcut configuration and settings UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T03:48:03Z",
+      "committer_date": "2026-04-06T03:48:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be6a1e7488c6f5b6ced9b48dddaf2c767202e7b3",
+      "message": "Fix native preview extraction and canvas pin placement",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T03:16:43Z",
+      "committer_date": "2026-04-06T03:16:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db7db213f90495935b4c2143d51e878fa5c51611",
+      "message": "Refine settings controls and icon fallback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T01:03:42Z",
+      "committer_date": "2026-04-06T01:03:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fc2eab8bbaf11df14d53a9dba272b5784f0727d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T00:30:16Z",
+      "committer_date": "2026-04-06T00:30:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e9e752c7092a97837207e5de1ec287bbd4ea5c7",
+      "message": "Simplify settings layout and icon picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T00:27:05Z",
+      "committer_date": "2026-04-06T00:27:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ff0a9b6ba603e8d8b5d6b392318098a6b554c04",
+      "message": "Add button list gradient migration design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T00:02:18Z",
+      "committer_date": "2026-04-06T00:02:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bd0773255c9aef0f4783e5145f2b6be2cc73e13",
+      "message": "Add experimental feature version guard",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T11:41:39Z",
+      "committer_date": "2026-04-05T11:41:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16f0669dafdae2e6bc62968e498581a0ab5edd2f",
+      "message": "Add experimental click sequence adapter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T11:19:48Z",
+      "committer_date": "2026-04-05T11:19:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3463d682bcc024b81d18e03408a852a8667b666e",
+      "message": "Add experimental shortcut adapter",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T11:06:34Z",
+      "committer_date": "2026-04-05T11:06:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "982ebf3cdda2fbfbf385edc368e66d1ceba436fe",
+      "message": "Restrict buttons to bars and migrate legacy settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T10:30:44Z",
+      "committer_date": "2026-04-05T10:30:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9030021497b104e72565ba185093a6181079e63d",
+      "message": "Fix builtin button execution and statusbar icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T10:02:47Z",
+      "committer_date": "2026-04-05T10:02:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "654b6dc1bdb09a4875cbf710e1dbd744c4449127",
+      "message": "Refine toggle controls and preview labels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T09:41:30Z",
+      "committer_date": "2026-04-05T09:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8ca6ff2b919d3c1385b7b79deb81dbdaefdd99b",
+      "message": "Add runtime layout preview and drag editing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T09:32:10Z",
+      "committer_date": "2026-04-05T09:32:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13e548da6053979ea60d73337100f101d9f71aca",
+      "message": "chore: add release package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T09:02:34Z",
+      "committer_date": "2026-04-05T09:02:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8280464a93594bd7b8bc837a831f124ae79de06e",
+      "message": "chore: update plugin assets and lockfile",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T09:01:56Z",
+      "committer_date": "2026-04-05T09:01:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "558b9bd3a7bead18bad38fca80c173ac0617e7ca",
+      "message": "feat: implement v1 power buttons plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T09:00:26Z",
+      "committer_date": "2026-04-05T09:00:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5733805709fef537ee363aebc16e43a076d51c61",
+      "message": "initial",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T08:10:37Z",
+      "committer_date": "2026-04-05T08:10:37Z",
+      "login": "famotime"
+    }
+  ]
+}

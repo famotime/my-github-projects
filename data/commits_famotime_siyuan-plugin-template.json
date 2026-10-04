@@ -1,0 +1,60 @@
+{
+  "pushed_at": "2026-09-13T07:00:28Z",
+  "count": 6,
+  "commits": [
+    {
+      "sha": "fe59abe61b384b0ce1ff9fcef21b991af8c38102",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T07:00:20Z",
+      "committer_date": "2026-09-13T07:00:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23665fd2ef5a479b0fe8e458660f24c62c4ff756",
+      "message": "feat: upgrade to SiYuan v3.8.3 and update developer documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-13T00:55:02Z",
+      "committer_date": "2026-09-13T00:55:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ca0cb87af638563723ec84bfc81a3ef262a11f8",
+      "message": "refactor: clean alert/console, adapt theme svg icons, and update package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T10:07:39Z",
+      "committer_date": "2026-08-16T10:07:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4909da66409533a29a325043ddf3bb8d5766aea",
+      "message": "feat: support kernel plugin mechanism and update documentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-04T14:43:20Z",
+      "committer_date": "2026-08-04T14:43:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11b3a67bc987d0b1cae8a7a1691b264d26b4105e",
+      "message": "docs: 更新思源笔记开发文档及插件项目模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-02T02:18:30Z",
+      "committer_date": "2026-08-02T02:18:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86afc3406cbd9c63504f8e2da65d5b25d92e4063",
+      "message": "feat: 初始化思源插件开发项目模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:27:58Z",
+      "committer_date": "2026-05-23T06:27:58Z",
+      "login": "famotime"
+    }
+  ]
+}

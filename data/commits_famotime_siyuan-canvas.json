@@ -1,0 +1,2778 @@
+{
+  "pushed_at": "2026-09-24T03:19:02Z",
+  "count": 308,
+  "commits": [
+    {
+      "sha": "32c176db5ca6b819d314ed5db37437b5eef5d483",
+      "message": "feat: 画布支持触控板双指滑动平移与捏合缩放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-24T03:18:30Z",
+      "committer_date": "2026-09-24T03:18:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfce6692b8e7b5018546e8be82a1e3f026ca8592",
+      "message": "fix: 修复转为文档后双击卡片报错找不到本地文件的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T03:48:32Z",
+      "committer_date": "2026-09-19T03:48:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd09e561651483b000084f31bbd7f1854659b6b8",
+      "message": "fix: 拖拽后自动保存直写盘并挂起，消除画布闪烁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T03:27:14Z",
+      "committer_date": "2026-09-19T03:27:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2236958da93003e9177447a6688891c1a37ad4ea",
+      "message": "refactor: 卡片定位改用 transform，降低拖拽布局开销",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T03:26:50Z",
+      "committer_date": "2026-09-19T03:26:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "265f0dda3277d03dce0cc5299df237dc6b07f394",
+      "message": "fix: 修复拖动卡片时短暂跳转与坍缩闪烁问题，隔离原生拖拽与防误触点击",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T15:13:15Z",
+      "committer_date": "2026-09-18T15:13:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f02fd33f1a87a25f8fca61879478e8ab68b7cab4",
+      "message": "refactor: 推进架构优化落地，拆分查询节点运行时与统一文件预览管线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T15:12:49Z",
+      "committer_date": "2026-09-18T15:12:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ed8b6b0dcba3b7d8cc208cc50473951ce998dc9",
+      "message": "fix: 修复设置页开关与输入控件换行异常，统一为单行水平排列并适配原生尺寸",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T13:58:06Z",
+      "committer_date": "2026-09-18T13:58:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f56af4f759a2b23965999191a853ea1e127abd0c",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-18T12:42:19Z",
+      "committer_date": "2026-09-18T12:42:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b56664ae59634af8e5d53ef905ad9ccff1b1539d",
+      "message": "feat: 优化画布多块卡顿性能（连线索引、LRU缓存、把手按需渲染、惰性快照与视口虚拟化）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-08T14:27:56Z",
+      "committer_date": "2026-09-08T14:27:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b6d7ac69747628cfda3d27cfbfa9b96c0e962cd",
+      "message": "feat: 增加斜杠菜单项“无界：插入 Canvas 预览”",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T03:07:42Z",
+      "committer_date": "2026-08-16T03:07:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f4f7381c8925e1fb9d5c19db7e745b222194cc1",
+      "message": "feat: 插入 canvas 弹窗支持切换插入预览或链接并在光标处插入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T02:45:34Z",
+      "committer_date": "2026-08-16T02:45:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "48d6cdd3d1bcb11500b4ea1087852750352239f7",
+      "message": "feat: 支持在思源文档内直接点击打开与编辑 .canvas 文件链接",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-11T14:48:00Z",
+      "committer_date": "2026-08-11T14:48:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "699d3c11475aa8743ed44a4766bf162c8109e72f",
+      "message": "fix: 隐藏画布文件节点浮动工具栏中的AI探索与转为文本按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-11T13:36:27Z",
+      "committer_date": "2026-08-11T13:36:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2715e30002001becb9ebe46b9bd30058382d22c8",
+      "message": "fix: 修复取消插入画布嵌入对话框时抛出 Cannot read properties of null 异常的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-11T13:00:45Z",
+      "committer_date": "2026-08-11T13:00:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edab27eb118face8eef198e4420c2426e1c9db70",
+      "message": "fix: 修复日志开关关闭时仍然输出 api-switch 调试日志的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-11T12:37:29Z",
+      "committer_date": "2026-08-11T12:37:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "232b84d3782507790b667cc4854a561583bc0937",
+      "message": "feat: 支持将文档树 canvas 文件拖入画布生成缩略图卡片及双击打开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T14:17:58Z",
+      "committer_date": "2026-08-10T14:17:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20b5b1fcb9b4257b9d7ca9f7847670ec54dc68a0",
+      "message": "fix: 支持打开并渲染从外部资源管理器拖入的磁盘 .canvas 文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T14:00:33Z",
+      "committer_date": "2026-08-10T14:00:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4741fe7a02ecf3207574f8cb636fa73a17104803",
+      "message": "feat: 支持从 Windows 资源管理器拖入各种文件并用系统默认程序打开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T13:53:09Z",
+      "committer_date": "2026-08-10T13:53:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b237352836ee21199d7f8410ef1a9893c516e94",
+      "message": "feat: 优化卡片右下角拖拽手柄显示效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T12:57:07Z",
+      "committer_date": "2026-08-10T12:57:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdfa9c013f297b8b08f33e9ffafc2b2a9c6b2536",
+      "message": "v1.5.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T10:08:58Z",
+      "committer_date": "2026-08-09T10:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "279ff9b567c3756addfc99e08421bd3656e02199",
+      "message": "feat: 增加设置面板对 API 旋钮配置变化的动态无刷新响应与统一标示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:53:13Z",
+      "committer_date": "2026-08-09T03:53:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5027d2f8c7f589164d98fcf558ebe6f47edc7016",
+      "message": "feat: 笔记卡片点击刷新按钮时自适应内容大小并设置尺寸上下限",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T09:38:43Z",
+      "committer_date": "2026-08-08T09:38:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e593fbd82946b273ce057ce63bef614699c526b",
+      "message": "fix: 修复文本卡片和文档卡片 Markdown 列表序号点标与表格边框渲染缺失问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T07:49:25Z",
+      "committer_date": "2026-08-08T07:49:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a07cf4c11cb03c7d90b4df788b71c60d405ae04d",
+      "message": "feat: 优化 AI 探索交互支持自定义提示词弹窗并规范卡片三级标题与少于150字概要说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T07:27:36Z",
+      "committer_date": "2026-08-08T07:27:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd7a3ca688ba1f4bce696997ca69ba7e912ffcbe",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T06:34:11Z",
+      "committer_date": "2026-08-08T06:34:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36d0b7670564d088a9f4cc9eb200c159efc50e29",
+      "message": "feat: 升级 Markdown 渲染引擎至 marked 并支持 GFM 规范与原生代码块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T01:14:05Z",
+      "committer_date": "2026-08-08T01:14:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d670865141ae1923ce3e73b2da227c78102e45c",
+      "message": "fix: 增强文本卡片 markdown 标题渲染与排版视觉层级样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-08T01:01:51Z",
+      "committer_date": "2026-08-08T01:01:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f57ad1791f081ed8c16a48c9af8f4259e58ef312",
+      "message": "fix: 修复节点 overflow 连接点截断问题，支持 Markdown 任务列表，新增方向键节点位置微调",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-06T15:06:10Z",
+      "committer_date": "2026-08-06T15:06:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c4d8f00fe20041667f55b37153d4d03760f4424",
+      "message": "fix: 修复侧面板新建画布无响应问题并支持自动创建与打开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T14:06:46Z",
+      "committer_date": "2026-08-03T14:06:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b765b9b99276050dfd286fb731d1d8050ae4e8a",
+      "message": "feat: 支持并优化 Echarts 与 Mermaid 的原生渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-03T07:22:45Z",
+      "committer_date": "2026-08-03T07:22:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e877b2124d9248636f6d3c27ea1ff030713c22bf",
+      "message": "fix: 优化思源笔记卡片与文本卡片中 mermaid 流程图的原生渲染支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-27T14:51:05Z",
+      "committer_date": "2026-07-27T14:51:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad922f1af16ca6619df85c6729a284b7b2e1f13f",
+      "message": "fix: 优化 AI 探索 Prompt 限制并添加 JSON 截断容错解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T16:02:40Z",
+      "committer_date": "2026-07-12T16:02:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5a57aa9f590143be8760564567da8dca785aba9",
+      "message": "fix: 更新 AI 探索按钮图标为 24x24 格式并优化 stroke-width",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T15:52:39Z",
+      "committer_date": "2026-07-12T15:52:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8e3a6b40944753b90f64934bb03aebd196ea113",
+      "message": "fix: 修复 settings 暴露与 AI 探索生成卡片提交报错; feat: 接管时显示 API 实际参数并更换 bulb 为描边图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T15:50:15Z",
+      "committer_date": "2026-07-12T15:50:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec3cafc1cd3fc792f9f127d1d8b22b70e2b333aa",
+      "message": "fix: 修复右侧栏在有活跃画布或切换标签页时显示未找到 canvas 文件的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T15:13:28Z",
+      "committer_date": "2026-07-12T15:13:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d718dcf8f9a8e6d3c8449d38225ae5bc984677a4",
+      "message": "fix: 修复 CanvasDock 中 dragOverFolderPath 未定义导致的 TypeError 错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T15:06:49Z",
+      "committer_date": "2026-07-12T15:06:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c208f7f04a11eadf2bfa277c5d8eace8350bd101",
+      "message": "fix: tooltip 改为在设置项正下方显示，水平左对齐并防止溢出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:56:22Z",
+      "committer_date": "2026-07-12T14:56:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08a5a9d7aaf6fae722fb394c4581155c5f67baac",
+      "message": "fix: 精准隐藏 .b3-label__text 描述文字，tooltip 改为设置行右侧垂直居中显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:53:18Z",
+      "committer_date": "2026-07-12T14:53:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3284a48042a1a7f423bee6a3b7753e014d81b631",
+      "message": "fix: 彻底重构 tooltip 绑定逻辑，不再依赖脆弱文本匹配，直接在 itemWrapper 存储并绑定事件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:46:50Z",
+      "committer_date": "2026-07-12T14:46:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2ff21ed858f2b47640807b4f0b61a8b6a9c8f5e",
+      "message": "fix: tooltip 改用 position:fixed 视口坐标 + 修复 display/opacity 控制权冲突，确保悬浮提示必然显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:43:01Z",
+      "committer_date": "2026-07-12T14:43:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7bc1d9496eabde458d28b077bc82f3233d7e129",
+      "message": "fix: 重构设置项提示为 body-level 全局动态浮层以解决 overflow 剪裁导致的无法显示问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:22:52Z",
+      "committer_date": "2026-07-12T14:22:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1f98336bc840dcc64aedea4c3a12d1ed2db16ee",
+      "message": "fix: 解决设置页卡片 overflow 剪裁导致的 Tooltips 无法显示问题，优化悬浮触发与单元测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T14:17:07Z",
+      "committer_date": "2026-07-12T14:17:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "99b9aa5cda731835d93f1f35d646bd2890256dbb",
+      "message": "feat: 设置页选项按功能分类与折叠显示，优化滑动开关与 Tooltips 提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T13:24:54Z",
+      "committer_date": "2026-07-12T13:24:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c40a551975ab12e1f76cf95d5f2ea97d16e7d6b5",
+      "message": "feat: 支持顶部工具栏折叠收缩为左侧精美窄条并支持重新展开，优化统一样式及右侧栏Tooltips显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T13:04:07Z",
+      "committer_date": "2026-07-12T13:04:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ae696ea00f49669aa5cdee1b5fb737181f20ad7",
+      "message": "feat: 将 Canvas 侧边栏改造为思源笔记原生右侧栏 Dock 面板，并修复大纲排序与组件联动等细节问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-12T12:00:55Z",
+      "committer_date": "2026-07-12T12:00:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a579c0382abb4c913135c51a01377f3a6bcdd9c",
+      "message": "v1.4.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-09T14:54:28Z",
+      "committer_date": "2026-07-09T14:54:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49a99194701135a8292ab906c97447f8a7d23da6",
+      "message": "fix: 修复笔记创建目录无法识别首段作为笔记本名称的问题并补充测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-09T14:48:02Z",
+      "committer_date": "2026-07-09T14:48:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c156a9ee9fad9153a4ceb529552c3856997b103c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-05T14:15:11Z",
+      "committer_date": "2026-07-05T14:15:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f75cec4508cde7e9e8f1f67a09fd4c9463310e22",
+      "message": "fix: 优化文件节点元数据拉取逻辑以解决拖拽卡片产生大量并发请求报错的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T15:25:00Z",
+      "committer_date": "2026-07-01T15:25:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a867698e2b70125ce82d2332a965f153fa18df25",
+      "message": "fix: 修复动态查询卡片 SQL 编辑保存不生效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T15:18:48Z",
+      "committer_date": "2026-07-01T15:18:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0de657c4f3ecb485f4b803a5cebbd9bf772fe001",
+      "message": "fix: 修复顶部工具栏放大和缩小图标显示为问号的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T13:53:13Z",
+      "committer_date": "2026-07-01T13:53:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b25e083308e332dfe82aee9aa80a21f8c666c99",
+      "message": "feat: 增加拖拽连线自动添加文本卡片选项及联动编辑功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-30T14:25:58Z",
+      "committer_date": "2026-06-30T14:25:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "24af6e45623f95c01b4513a0c95ec1346e69c128",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-29T14:30:14Z",
+      "committer_date": "2026-06-29T14:30:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba2c26b07e6282ded41207ab65f35626d6fb648a",
+      "message": "feat: 选中笔记卡片后文件路径显示为可读的 hpath 路径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-29T12:03:45Z",
+      "committer_date": "2026-06-29T12:03:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1afa39d7efd17fd5d7bf68a334802376d2c1174c",
+      "message": "style: 优化查询结果计数徽章的垂直居中对齐与文字/背景对比度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T14:45:28Z",
+      "committer_date": "2026-06-28T14:45:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b46803d4f7f9b0eee13322b1d07d2f8758c952e",
+      "message": "feat: 动态卡片标题栏增加查询结果数量的圆角计数徽章",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T14:43:22Z",
+      "committer_date": "2026-06-28T14:43:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9678930cc9cf16957b65e136afb4280a9e1b3fb1",
+      "message": "feat: 优化拖拽落盘位置对齐，使鼠标松手点位于生成卡片的几何中心",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T14:40:56Z",
+      "committer_date": "2026-06-28T14:40:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad9604df4b7da37cbf1ccd71978d1581994b5108",
+      "message": "fix: 优化拖拽刷新与定时器反应机制以防止网络连接过载 (ERR_INSUFFICIENT_RESOURCES)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T14:36:51Z",
+      "committer_date": "2026-06-28T14:36:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ebce413d7dcfb35f13ba68a76ce853c5c13a3e02",
+      "message": "feat: 实现从动态查询节点拖出时自适应方向自动连线，并优化提交事务",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T11:20:17Z",
+      "committer_date": "2026-06-28T11:20:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "991c2d1a5477ad45c7578004f86ac6b03e9322d7",
+      "message": "feat: 支持 SQL 动态查询节点看板、相关 Bug 修复及使用指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T11:15:06Z",
+      "committer_date": "2026-06-28T11:15:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf8049b99ccc4aeff876d6dd7535f7781984786f",
+      "message": "fix: 修复文本卡片创建按钮显示为问号的问题并补全测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T09:34:49Z",
+      "committer_date": "2026-06-28T09:34:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8335e1f97f77965eb1d95173aa97698641a1dfe1",
+      "message": "feat: 支持文档卡片扩散(Sprout)关系图，增加碰撞避让布局与交互优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-28T09:33:09Z",
+      "committer_date": "2026-06-28T09:33:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff830b5a92ca32dd4328b5fb2e1cdd1be23bf20f",
+      "message": "feat: 侧边栏节点设置卡片添加层次控制与置顶置底快捷按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T16:57:01Z",
+      "committer_date": "2026-06-27T16:57:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c8986a9e0679633a0bb97f304fda20fc11080a8",
+      "message": "feat: 更新折叠和展开的 SVG 矢量图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T16:42:56Z",
+      "committer_date": "2026-06-27T16:42:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c102ef08566be4be672e5af5279cf448e34735a",
+      "message": "fix: 修复折叠群组卡片内容不垂直居中问题并调大文字尺寸",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T16:37:52Z",
+      "committer_date": "2026-06-27T16:37:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1af9cd7c1de73a96bd4d8b66719b5d000373ecb4",
+      "message": "feat: 支持群组折叠/展开功能 (Collapsible Groups)，优化折叠样式并整合至浮动工具栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T16:25:13Z",
+      "committer_date": "2026-06-27T16:25:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be67c3f656579055c4571f2ff25bf3d3d48fcb5a",
+      "message": "fix: 优化拖拽对齐辅助线，引入就近对齐与坐标锁存稳定吸附算法",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T11:55:17Z",
+      "committer_date": "2026-06-27T11:55:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "99a3da9a2dd7edeb1fe3d23435aebcb916051eb6",
+      "message": "fix: 修复拖拽对齐辅助线即时生效与吸附位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T11:02:58Z",
+      "committer_date": "2026-06-27T11:02:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "915f387dc75742d5fd5d21d7f03803c472b42eaf",
+      "message": "feat: 增加拖拽对齐辅助线开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T15:36:02Z",
+      "committer_date": "2026-06-26T15:36:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a90e4679d1e646cc2de96a503b5a139e649e8eb8",
+      "message": "feat: 支持 Ctrl 拖拽复制卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T14:48:44Z",
+      "committer_date": "2026-06-26T14:48:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95a8ad842f66b27aa342f7a8c8cf1a2ac51decd1",
+      "message": "refactor: 从命令面板中移出最近历史文档展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T14:07:25Z",
+      "committer_date": "2026-06-25T14:07:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39b1d19b3d02e1a06c613d9034c4a1d4fae57a6d",
+      "message": "feat: 接入思源内核渲染能力以优化卡片预览排版一致性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T14:03:08Z",
+      "committer_date": "2026-06-25T14:03:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8e58940402a569ee40edb65b3f60588a1089006d",
+      "message": "feat: 新建文本卡片时不添加默认文本，并更新测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-25T13:41:19Z",
+      "committer_date": "2026-06-25T13:41:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "440e9b234f9f00d76ce3d000a3bf2afd1d639b7a",
+      "message": "build: 重新打包 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T16:27:51Z",
+      "committer_date": "2026-06-24T16:27:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30e81c5cee6e95c44d9f8c56b208cc9b4b76c7c8",
+      "message": "style: 优化自定义取色器定位机制并调整调色盘按钮顺序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T16:24:42Z",
+      "committer_date": "2026-06-24T16:24:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb42ff2fa4b5a5fdab9dd15f5e3b90164b852a01",
+      "message": "feat: 画布选色器支持自定义 hex 选色、最近自定义颜色展示与动态 ARIA 状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T16:13:13Z",
+      "committer_date": "2026-06-24T16:13:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59d86757e9d761d71efc50c68e3a2f30552be71d",
+      "message": "fix: 将清除颜色图标由实心灰色改为对角红斜线透明圆圈，提高可识度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T16:00:49Z",
+      "committer_date": "2026-06-24T16:00:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8955b5124d2754f52bde2b2f1402402274cd4ae7",
+      "message": "feat: 实现文档树键盘方向键导航与 roving tabindex 无障碍支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T15:56:35Z",
+      "committer_date": "2026-06-24T15:56:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3fd1c85d0a999caaec72ab91287db04d880b907",
+      "message": "feat: 落实画布 UI/UX 审计优化方案，更新进度文档并补强无障碍与图标系统",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T15:49:35Z",
+      "committer_date": "2026-06-24T15:49:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b1fa98c49950f0cb49708c95cfb28463f56c9b8",
+      "message": "fix: 优化画布侧栏与工具栏交互样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T15:15:46Z",
+      "committer_date": "2026-06-24T15:15:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16341b49b7228691da6240c5b39971403c44a14e",
+      "message": "v1.4.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-24T13:30:29Z",
+      "committer_date": "2026-06-24T13:30:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dfbe375cc0a9025e1d94906ad4cf999a024e2572",
+      "message": "fix: 修复样式文件中的中文注释乱码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T16:47:41Z",
+      "committer_date": "2026-06-23T16:47:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "095d44d9c08976f2691515164380061cfc974376",
+      "message": "feat: enhance UI/UX with card-style inspector and standardized chevron icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T16:39:20Z",
+      "committer_date": "2026-06-23T16:39:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2db781b27e5e55b8b31c579f0d5d51c10ed7f775",
+      "message": "v1.4.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T15:21:36Z",
+      "committer_date": "2026-06-23T15:21:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f9a8aa5f8de2d04cd473ff693a63c980653ea45",
+      "message": "feat: 优化右侧面板布局并移除颜色设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T13:04:09Z",
+      "committer_date": "2026-06-23T13:04:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8eae334f1756be89cabc2e0bca597f315a3e866",
+      "message": "fix: 修复创建连线下拉节点标题重叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T12:05:47Z",
+      "committer_date": "2026-06-23T12:05:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f96518111e2360d245198e58893984ae4c0ba5d",
+      "message": "fix: 将选择节点选项的 button 标签替换为 div 标签以彻底避开全局按钮样式污染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T11:57:26Z",
+      "committer_date": "2026-06-23T11:57:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c2ea83e57ebc126c91550fab057dfa0a8856982",
+      "message": "fix: 修复右侧创建连线下拉列表中节点标题重叠的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T11:55:23Z",
+      "committer_date": "2026-06-23T11:55:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4da0bf842847a37a87bcf384949c3d9e6f900b17",
+      "message": "fix: 修复缩放快捷键失效与运行时引用错误，并将快捷键统一调整为 Shift 触发",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T11:51:42Z",
+      "committer_date": "2026-06-23T11:51:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfa37bfbd06393e6bf4e51ab54be16f6df04b24c",
+      "message": "merge: 合并远程分支，解决 package.zip 二进制冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T11:28:08Z",
+      "committer_date": "2026-06-23T11:28:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2542aa58b1acab43a046e43a9dba506b4da93ba3",
+      "message": "fix: 拖动创建连线时预览路径与实际边路径不一致的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T09:40:05Z",
+      "committer_date": "2026-06-23T09:40:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8912ebe6cf40e8806616db36269c4019205bbeab",
+      "message": "fix: 编辑group节点标签时浮动工具栏自动隐藏，避免遮挡标签编辑区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T09:31:17Z",
+      "committer_date": "2026-06-23T09:31:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27768b5d0c61b4d5966d78aa5ae8cf40164704dd",
+      "message": "fix: 缩放快捷键改为 Ctrl+Shift 组合键，并以视口中心为基准缩放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-23T09:03:22Z",
+      "committer_date": "2026-06-23T09:03:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ac27ed56a57ecb17ee5ec58b7f58aae51a21b2a",
+      "message": "fix: 修复移动端双指缩放时的屏幕中心偏移问题并实现平滑缩放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T12:04:33Z",
+      "committer_date": "2026-06-20T12:04:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d95c191dd3c04258d50a1828a28be2809af101e8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T10:42:01Z",
+      "committer_date": "2026-06-20T10:42:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a6b1e5d9d19dbb120ebd7ed9142491b139d5ca0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T11:19:11Z",
+      "committer_date": "2026-06-19T11:19:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "662736c3870cfc5fe90a60c207f84fef3c221af6",
+      "message": "fix: 支持移动端打开 Canvas 查看器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T11:18:44Z",
+      "committer_date": "2026-06-19T11:18:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "262609f95ead57c7046c9a05a59eefb3a656aac1",
+      "message": "feat: 演示播放到达group节点时自动跳过并播放其最左侧子节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T09:11:14Z",
+      "committer_date": "2026-06-19T09:11:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "505c59fd43fd48c0e02b746ba1f9ae1dc4253f33",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T09:05:45Z",
+      "committer_date": "2026-06-19T09:05:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3067715878ffed858a650bd379a8b2e6f7b12b2a",
+      "message": "feat: 播放演示视觉效果中增加自动比例与遮罩不透明度设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T08:56:11Z",
+      "committer_date": "2026-06-19T08:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3f3adcacde557f24fe72b40bd1f96cac12482b6",
+      "message": "feat: 增加右侧面板钉住/动态浮动显示功能与动画",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T06:53:41Z",
+      "committer_date": "2026-06-19T06:53:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bc746fa8547d2d2324c15d05c6eebebeaf176c6",
+      "message": "test: 更新画布嵌入上传接口断言",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T06:38:06Z",
+      "committer_date": "2026-06-19T06:38:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f69835d27c5380ad2c34fbfb959f2033f0f063b",
+      "message": "fix: 修复视频卡片嵌入与高度自适应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T06:26:58Z",
+      "committer_date": "2026-06-19T06:26:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fd4169c56dc510915ccf9b5e8806682fd78cf2e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T02:05:36Z",
+      "committer_date": "2026-06-19T02:05:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00581bae35cd2987b8cc0c8a13b55779828ad7d6",
+      "message": "fix: 修复拖拽图片预览显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T02:03:43Z",
+      "committer_date": "2026-06-19T02:03:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1f48a80df994fddb0fe083ea98a88b4ced00b3a6",
+      "message": "feat: 支持在播放路径中继续录制与回退截断，编写操作指南，并同步提交目录树与选区 UI 重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T15:18:57Z",
+      "committer_date": "2026-06-17T15:18:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bf03e3450cd0be2ba2e540cad81605fa38fa96a",
+      "message": "fix: 修复录制状态下点击播放无反应以及完成录制后从头播放的逻辑并补充测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T14:30:35Z",
+      "committer_date": "2026-06-17T14:30:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84949fd15bd176be0da273e1c9bfe691953a58ee",
+      "message": "feat: 支持录制播放路径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T11:41:37Z",
+      "committer_date": "2026-06-17T11:41:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "843bfdbd0a32dee8f70086bb03208f234d6bbdb8",
+      "message": "fix: 修复遮罩播放当前节点高亮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-17T09:35:33Z",
+      "committer_date": "2026-06-17T09:35:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4e37d998c390ccc24301d9234fb3d7e798eac3c",
+      "message": "feat: 优化演示模式的交互与路径计算",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T16:51:06Z",
+      "committer_date": "2026-06-16T16:51:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfde8e17f725df9db64c4b7dc45efaa8f2d4d7c1",
+      "message": "feat: complete presentation playback and mask visual logic",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T16:25:12Z",
+      "committer_date": "2026-06-16T16:25:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "211225776e4c51b65739efac49c75a2a4e94c3ef",
+      "message": "fix: 修复关闭显示标题栏后卡片及画布无法拖拽移动的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T15:20:56Z",
+      "committer_date": "2026-06-16T15:20:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d8f0e61d54e2538954a05d0b7bf8dd5e88a1e04",
+      "message": "feat: 调整 Canvas 颜色主题配色、顺序和名称，引入冷调彩虹和赛博霓虹新配色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T12:53:26Z",
+      "committer_date": "2026-06-16T12:53:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b19db1436592395a890e46a22dde14e12bc8e236",
+      "message": "fix: 修复重布局后子图跑到原点导致与外部元素重叠的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-16T12:12:59Z",
+      "committer_date": "2026-06-16T12:12:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e88d9d1102eaf6155c23e3a052efa1612b7d3c76",
+      "message": "fix: 修复移动端无界插件无法启动与嵌入图片点击失效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T10:44:22Z",
+      "committer_date": "2026-06-13T10:44:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e883a339a82149397d69d1cf4ba6b50b0645b50e",
+      "message": "chore: update build package to include watch import fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T10:32:50Z",
+      "committer_date": "2026-06-13T10:32:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9df5b2fed40188d7d234f9a0919fdb46397472c1",
+      "message": "feat: 支持移动端仅查看模式并实现双指捏合缩放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T09:24:05Z",
+      "committer_date": "2026-06-13T09:24:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49529e81b79d2989cfcdebb9b4459d880079ecec",
+      "message": "feat: 工具栏保存按钮改为另存为，画布默认自动保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T08:42:19Z",
+      "committer_date": "2026-06-13T08:42:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9ddfc96c17713094b5a1827ac61c5c448e88a85",
+      "message": "feat: 双击新建文本卡片自动选中默认文本 New note",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T08:22:14Z",
+      "committer_date": "2026-06-13T08:22:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b903c015948cda31724a550857041b1da2436e51",
+      "message": "v1.3.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T07:58:46Z",
+      "committer_date": "2026-06-13T07:58:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b5b30076e495abbd6992a793a426a2d6d31ac42",
+      "message": "feat: 设置页添加「显示标题栏」选项，默认勾选，取消后隐藏画布卡片标题栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T04:53:38Z",
+      "committer_date": "2026-06-13T04:53:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ebeb7a7b69096f71335e3df775a006a70c4b677f",
+      "message": "fix: 移除打开 Canvas 工作区热键，为插入 Canvas 预览设置默认快捷键 Ctrl+Shift+Alt+C",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T04:47:14Z",
+      "committer_date": "2026-06-13T04:47:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a49785a02da4400d5ec96c57568be9fa1da77cf",
+      "message": "feat: Canvas 预览图片添加文件名标题，插入弹窗支持搜索下拉选择 Canvas 文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-13T04:45:23Z",
+      "committer_date": "2026-06-13T04:45:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "238cca9e3fe37cdf0d1bb7fb7a9ecb29a8cb4dde",
+      "message": "docs: 添加颜色主题设计文档和实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:38:10Z",
+      "committer_date": "2026-06-12T18:38:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5798bbb0659e26b2a7abba163400cd2f7d95277",
+      "message": "fix: 修复颜色主题下拉菜单被工具栏 backdrop-filter 遮盖的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:36:15Z",
+      "committer_date": "2026-06-12T18:36:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dda41e32f357b1372f1843119e509213520c69b2",
+      "message": "feat: 在插件设置面板中添加颜色主题选择器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:30:30Z",
+      "committer_date": "2026-06-12T18:30:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e452a917a66a8c95d45dca046a28f235e2c5d72",
+      "message": "feat: 在顶部工具栏添加颜色主题按钮和下拉菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:29:01Z",
+      "committer_date": "2026-06-12T18:29:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15f3a930f969bd25fd1277cee63c6ab7fa6775f8",
+      "message": "feat: 在编辑器 composable 中管理颜色主题状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:21:42Z",
+      "committer_date": "2026-06-12T18:21:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac1be938ce733b6998ac2980e725b7a1e4653140",
+      "message": "feat: 让 canvas-workspace-display 颜色查表支持可选主题参数",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:18:49Z",
+      "committer_date": "2026-06-12T18:18:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63c1b7203f9732068ef6c54304286aef5732baed",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:16:03Z",
+      "committer_date": "2026-06-12T18:16:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9128eb5fae7b9e191893202d7d5db0a6cdc0db06",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:13:39Z",
+      "committer_date": "2026-06-12T18:13:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f930cfb92f1567bad9695999a2d2f7ebd35007ef",
+      "message": "feat: 添加颜色主题定义模块（4 套彩虹色系预设）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T18:12:39Z",
+      "committer_date": "2026-06-12T18:12:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65b76ce731dc7262458408fffb6f474a483c2c84",
+      "message": "fix: 修复关闭调试日志开关后仍有日志输出的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-12T11:58:01Z",
+      "committer_date": "2026-06-12T11:58:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e96a9e926efbf070cd4434b2d185eb1b8a07b895",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T15:44:41Z",
+      "committer_date": "2026-06-11T15:44:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eefa027e9937c641aca2f427fbfd382ce6823bd5",
+      "message": "fix: 优化画布侧栏连线信息显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-11T12:45:27Z",
+      "committer_date": "2026-06-11T12:45:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b671ccc1bb5b188d43ed02b154bfa0a8a28571ad",
+      "message": "fix: 修复 Canvas 嵌入预览图片显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-10T15:15:15Z",
+      "committer_date": "2026-06-10T15:15:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef73eab5bf2bd695edfe600bd7e04617ab7905e1",
+      "message": "fix: 刷新文档内 Canvas 嵌入预览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-10T13:24:15Z",
+      "committer_date": "2026-06-10T13:24:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59a8126a9a3cc2b656eadc179c4fe7a2c1423713",
+      "message": "refactor: 移除连线面板中冗余的聚焦按钮，节点名称已可点击跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T14:35:06Z",
+      "committer_date": "2026-06-09T14:35:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32c35e0389a135fa646b0e5562971b70a2622bca",
+      "message": "feat: 重布局支持 group 约束 — group 作为超级节点整体移动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T09:54:17Z",
+      "committer_date": "2026-06-09T09:54:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "10d23ad5e94ec5c95336e93a13e96006bdf27b7f",
+      "message": "feat: 连线面板起始/目标节点支持点击聚焦跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T09:52:52Z",
+      "committer_date": "2026-06-09T09:52:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "188aff2ef0cb6b95c9fec895e0aff71dce32627c",
+      "message": "fix: 重布局后避免与其他连通子图重叠，并聚焦到选中节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T07:49:48Z",
+      "committer_date": "2026-06-09T07:49:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ef6a7d71911fc8e02d0b05c87745b8f1f15fb6f",
+      "message": "fix: 连线节点聚焦改用 selectNode + centerSelectionInViewport 直接调用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T07:36:57Z",
+      "committer_date": "2026-06-09T07:36:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c9a5d56045f5bd696e73e9daec232ffbc00ff14",
+      "message": "fix: 补全 nodeEdges 计算属性中遗漏的 connectedNodeId 字段",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T07:31:19Z",
+      "committer_date": "2026-06-09T07:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "545b0ba58764fd6a08101f03698d747d14be92d4",
+      "message": "fix: 连线节点聚焦跳转改用 focusNodeById 直接计算节点 bounds 居中",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T07:00:38Z",
+      "committer_date": "2026-06-09T07:00:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14ef1d5d97208de8c25e36e394e3f2f1bf91986f",
+      "message": "fix: 重布局按钮移到单选工具栏区域",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T06:49:05Z",
+      "committer_date": "2026-06-09T06:49:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "306e722f037077e9450830a3c37eb5cdc1832511",
+      "message": "feat: 重布局功能 — 从选中节点沿连线关系自动重排连接节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T05:05:06Z",
+      "committer_date": "2026-06-09T05:05:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c64c66204c51754b1a25c4b0dce3c8c59c060321",
+      "message": "feat: 右侧栏连线节点支持点击聚焦跳转到对应节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T04:19:17Z",
+      "committer_date": "2026-06-09T04:19:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fbb56b159679d22f1eb3e103a47a892ef5e8d6cd",
+      "message": "fix: 块属性缺失时回退 Canvas 预览路径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T15:17:05Z",
+      "committer_date": "2026-06-08T15:17:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd8b7a7250068892b212450315b429ee304deb29",
+      "message": "fix: 使用事件路径解析 Canvas 预览点击",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T15:13:47Z",
+      "committer_date": "2026-06-08T15:13:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64db88c075c3c04f4e5111df99e31e66daffe60a",
+      "message": "fix: 放宽 Canvas 重开预览点击识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T15:09:51Z",
+      "committer_date": "2026-06-08T15:09:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59ea42be81c3ea704d02dac9d495cb94a4f5ba31",
+      "message": "fix: 支持无块ID的 Canvas 预览点击",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T15:03:21Z",
+      "committer_date": "2026-06-08T15:03:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1d1ef116ae3edd7de9cf9777a2df6af0456b269",
+      "message": "fix: 增强重开后 Canvas 预览点击跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T14:59:09Z",
+      "committer_date": "2026-06-08T14:59:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "becb29dbfd03942cfeab60ec1e42aac30d2181ed",
+      "message": "fix: 修复重开文档后 Canvas 预览点击",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T14:52:50Z",
+      "committer_date": "2026-06-08T14:52:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "183b695e7ec3fb4192cd739e3f13fe0923cfc8ee",
+      "message": "feat: 文档树右键复制文件路径及插入预览支持绝对路径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T14:26:41Z",
+      "committer_date": "2026-06-08T14:26:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f2b22f985d432f73ac2ee66d712837eab37841e",
+      "message": "fix: 修复 Canvas 预览插入与刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T13:43:39Z",
+      "committer_date": "2026-06-08T13:43:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "383ff17c5d73b68ee7760d225623c7013b343a5e",
+      "message": "feat: 支持在文档中插入 Canvas 预览块，点击跳转无界编辑器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-08T11:21:38Z",
+      "committer_date": "2026-06-08T11:21:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "346d36b8d4f70eb99d1d5d92f5db9a7465ee13be",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T14:16:29Z",
+      "committer_date": "2026-06-07T14:16:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f130439aae7637bfeb5447522d714322bde1a730",
+      "message": "v1.3.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T09:26:21Z",
+      "committer_date": "2026-06-07T09:26:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52827c4a7e02b4eef674ae698ef24964ecfc98ad",
+      "message": "docs: 简化调试日志设置的描述文字",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T12:32:16Z",
+      "committer_date": "2026-05-30T12:32:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f3f5c6c0af2c3de49fa3cabb16b0eb1f6179eb7",
+      "message": "fix: 重复添加节点时自动偏移避免重叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T12:31:08Z",
+      "committer_date": "2026-05-30T12:31:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80693cb5eed43b493fee8524401d34ea06882984",
+      "message": "fix: 修复拖动节点时其他节点视觉位置跟着移动的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-30T12:28:19Z",
+      "committer_date": "2026-05-30T12:28:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ae1c1d159be5c90dc85fde6952a622e7b2e9e5d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T16:03:49Z",
+      "committer_date": "2026-05-24T16:03:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3b2af2abd816bba0a992d807426b711469ffeba",
+      "message": "feat: 文档树右键上下文菜单，支持重命名、复制、删除、打开所在目录、新建子文件夹/文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T11:15:23Z",
+      "committer_date": "2026-05-24T11:15:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e39669e49f0bd7f199601b9b40005dba8cc77aa",
+      "message": "feat: 选区面板新增连线信息组件，显示节点各端点连接关系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:34:27Z",
+      "committer_date": "2026-05-24T10:34:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0348eb5fa3264383a908561eb51fad52ecc2389f",
+      "message": "feat: 优化连线选区面板与工具栏图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:19:30Z",
+      "committer_date": "2026-05-24T10:19:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c165e3fba92c9612cfdb533e005f0f74f5d166df",
+      "message": "feat: 选中思源文档/块节点后按空格键弹出浮窗预览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T10:01:15Z",
+      "committer_date": "2026-05-24T10:01:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85ab8a52e27c2a6d9e3405d7f257ca33da77676e",
+      "message": "fix: 修复图片节点转文本后显示问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T09:07:06Z",
+      "committer_date": "2026-05-24T09:07:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "975e462286ffb2a6106896271bba273b9a2bc06c",
+      "message": "fix: 图片转文本直接使用 openPath 引用，确保图片可正常显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:31:32Z",
+      "committer_date": "2026-05-24T07:31:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac3380aa718f2894560a87adaf135a61ac3b0d5a",
+      "message": "fix: 图片节点转文本时下载图片到本地 assets 目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:18:08Z",
+      "committer_date": "2026-05-24T07:18:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fd96e91dc2ba9fd1593dcc810042c99862948c0",
+      "message": "feat: 文档节点转为文本节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T06:02:27Z",
+      "committer_date": "2026-05-24T06:02:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28dc22afaee898a356a8d87f9cc7d6c4f715f6ff",
+      "message": "feat: 文本节点转换为思源笔记文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T03:13:37Z",
+      "committer_date": "2026-05-24T03:13:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6bb572e9f9c75392dc23402a486708266348941",
+      "message": "feat: 双击空白区域自动创建文本卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T00:20:30Z",
+      "committer_date": "2026-05-24T00:20:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0de91e6cffc26a8be2c0531b3548c5b9d800bf4c",
+      "message": "fix: 标题块刷新递归获取子标题及后代内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T14:55:57Z",
+      "committer_date": "2026-05-23T14:56:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e74b6f52194d94fa1fca1cdf3f01eae7a0eba0b5",
+      "message": "fix: 修复拖拽块预览与刷新同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T12:03:11Z",
+      "committer_date": "2026-05-23T12:03:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33d32cf3bc20200c789ded9deb3f6c4b3b13857f",
+      "message": "fix: 根据侧栏宽度截断创建连线节点名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T07:41:50Z",
+      "committer_date": "2026-05-23T07:41:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0847222bcdd2ad7238e333a2f5f632fd3f440f52",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:40Z",
+      "committer_date": "2026-05-23T06:41:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c5081918cd9cfe97ff224817567e523cf5a9188",
+      "message": "fix: 修复缩略图视口范围坐标转换，帮助弹窗补充快捷键说明",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:32:13Z",
+      "committer_date": "2026-05-23T05:32:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea453c4fbb405bb2c243dbe20550a0a498c20e63",
+      "message": "feat: 画布无选中时输入 [[ 或 【【 触发文件选择器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:21:26Z",
+      "committer_date": "2026-05-23T05:21:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4111551ea3eb4f4173e21cc9399d43ebda00fe36",
+      "message": "feat: 文件选择器搜索结果支持键盘导航",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T05:16:25Z",
+      "committer_date": "2026-05-23T05:16:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eaefa16610128c0480fa280103dd414f748444b4",
+      "message": "v1.2.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T04:53:59Z",
+      "committer_date": "2026-05-23T04:53:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bca4fb1fe40e2831f8768330a7a4a8710e8606e1",
+      "message": "fix: 缩略图范围改为以节点实际外边界为基准，不再使用固定坐标空间",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T03:45:16Z",
+      "committer_date": "2026-05-23T03:45:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00d120a231c53aa65a8d4089bc33af22ee614439",
+      "message": "v1.2.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T00:39:01Z",
+      "committer_date": "2026-05-23T00:39:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23ae34db9e37ba9ada9193354dc1bf7fb43072d0",
+      "message": "fix: 修复链接节点网址编辑保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T14:52:27Z",
+      "committer_date": "2026-05-22T14:52:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f071090b3149c44fccac4abbe156cf5561f961b",
+      "message": "fix: 修复思源节点双击跳转定位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T14:30:40Z",
+      "committer_date": "2026-05-22T14:30:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ebe80752b3af7647bc0aead3785fb4870eb84e03",
+      "message": "fix: 修复文件节点预览高度与标题间距",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-22T13:16:53Z",
+      "committer_date": "2026-05-22T13:16:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68242f5ab89c43f931e2b3796cd80d56ee4d4f0e",
+      "message": "fix: 优化 Canvas 搜索当前命中高亮样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T13:51:57Z",
+      "committer_date": "2026-05-21T13:51:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ee07e691439462708f5f84980dc03765c5dbcdd",
+      "message": "fix: 修复文本节点搜索高亮渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T11:38:55Z",
+      "committer_date": "2026-05-21T11:40:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad0dda2e86b5d4da4982a084e2a127d040c4428f",
+      "message": "fix: 修复选区输入框溢出与多选节点改宽高覆盖坐标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-20T16:10:07Z",
+      "committer_date": "2026-05-20T16:10:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32796557372e48fe2fbece371022de5d22327db0",
+      "message": "fix: 多选节点支持确认后统一应用参数",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-20T11:41:55Z",
+      "committer_date": "2026-05-20T11:41:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf3f45432f1f9f24da9f62707b67f28df69afaf9",
+      "message": "feat: 支持文本节点按标题拆解",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-20T04:59:37Z",
+      "committer_date": "2026-05-20T04:59:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8bf6bbfa50610e9efcdcaa66049b17ddbe298bdf",
+      "message": "fix: 修复 PNG 导出失败与颜色选择卡死",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T13:59:24Z",
+      "committer_date": "2026-05-19T13:59:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9816b2bc26b785be8d162793426885e4915fa018",
+      "message": "fix: PNG 导出增加边界值校验，防止无效尺寸导致 toPng 崩溃",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T04:01:54Z",
+      "committer_date": "2026-05-19T04:01:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "176ab7242ee7d6a83369f1f41c89fdc872367d7a",
+      "message": "fix: PNG 导出增加详细错误日志，修复 downloadDataUrl 不挂载问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T04:00:43Z",
+      "committer_date": "2026-05-19T04:00:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32c42780ce1b8bb6a9020e7438cccbbf0c537d66",
+      "message": "fix: PNG 导出时隐藏节点上的滚动条",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T00:59:51Z",
+      "committer_date": "2026-05-19T00:59:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36ec7e63de4c7a2665ed49c052a62babeea51b94",
+      "message": "fix: 修复侧面板样式丢失、PNG 导出依赖打包、改进导出弹窗交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T00:54:29Z",
+      "committer_date": "2026-05-19T00:54:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8355c3fdd07131b687694e7daf3770f1d1e2f4cc",
+      "message": "chore: 更新构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T23:55:29Z",
+      "committer_date": "2026-05-18T23:55:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab406e61c826c530ee402549bfe8942b1db69381",
+      "message": "feat: 重新设计 PNG 导出弹窗，增加导出加载动画",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T23:49:55Z",
+      "committer_date": "2026-05-18T23:49:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d153c41961fc634ecb1fb5bfa301e75bb950fe0",
+      "message": "docs: 同步 AGENTS.md 和 CLAUDE.md 至最新重构进展",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T23:42:02Z",
+      "committer_date": "2026-05-18T23:42:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1353e005e82980e650cf98c88c9504d6fdc852ad",
+      "message": "refactor: 拆分大文件职责，补齐独立测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T23:38:00Z",
+      "committer_date": "2026-05-18T23:38:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2cae34fdb76ce10aad7648e01e424124871b43b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T15:45:04Z",
+      "committer_date": "2026-05-18T15:45:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43ff18e81a202f66c76b92651eed8ed81eab7dbc",
+      "message": "feat: 增加画布 PNG 导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T15:23:27Z",
+      "committer_date": "2026-05-18T15:23:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "983bab55ccdd126b977830eb0156ec02460f2e38",
+      "message": "更改图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T12:01:18Z",
+      "committer_date": "2026-05-18T12:01:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4a0b80a272409a4bf59db5260b2dff849021e46",
+      "message": "feat: decompose Siyuan documents into heading nodes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T11:01:38Z",
+      "committer_date": "2026-05-18T11:01:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9df9334ed7f7e00644c4f067a2c1812ae2d880e",
+      "message": "feat: add mind map node shortcuts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T05:01:51Z",
+      "committer_date": "2026-05-18T05:01:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6e52e71620f7f8d8e3cac3ef4cdb1e3cb5b54c9",
+      "message": "feat: improve canvas card titles and toolbar tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T04:19:50Z",
+      "committer_date": "2026-05-18T04:20:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30e505f20a1cbf185b747126baf043c9f53414d1",
+      "message": "feat: 暴露 Canvas 搜索桥接能力",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T13:22:34Z",
+      "committer_date": "2026-05-17T13:22:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6084c4792adef32468c776120ddc85aafa1a9e48",
+      "message": "feat: 增加画布缩略图显示开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T09:19:54Z",
+      "committer_date": "2026-05-17T09:19:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "792b3f3233e255e9ee6e799a4d62ef4d06169db0",
+      "message": "feat: 为思源节点浮动工具栏增加刷新同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T03:11:13Z",
+      "committer_date": "2026-05-17T03:11:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cee6c9620b7c2d939bbcdfeee97437218f3bd3a",
+      "message": "feat: 更新排序/展开图标，全部展开按钮支持切换折叠，顶栏图标强制线框样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T02:01:19Z",
+      "committer_date": "2026-05-17T02:01:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e9d52f9db36047b96666c2cf77836a2ac35fcc9",
+      "message": "v1.1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T01:00:57Z",
+      "committer_date": "2026-05-16T01:00:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "223b1807a363c4e102948daeff602b8e597e4731",
+      "message": "fix: refine canvas toolbar and help dialog",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T01:24:29Z",
+      "committer_date": "2026-05-07T01:24:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d0917ec7bc0438f627416a8af7a35121a5b43a2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T15:14:58Z",
+      "committer_date": "2026-05-06T15:14:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ed14e68e6080991c2899faef96868ae95ebee85",
+      "message": "feat: 从思源文档树拖拽文档到画布创建笔记卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T15:06:34Z",
+      "committer_date": "2026-05-06T15:06:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bc44ebd618778db4ae22486295014213fad7fc2",
+      "message": "feat: 从思源文档树拖拽文档到画布创建笔记卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T15:04:44Z",
+      "committer_date": "2026-05-06T15:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "67980ea4f485e3a868610010595a59a2025a37d0",
+      "message": "feat: 工具栏按钮移入文档 Tab、右键重命名工作区文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T15:01:15Z",
+      "committer_date": "2026-05-06T15:01:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "057a0f39e4e07058d68aae46b2ca92857a5ec7bc",
+      "message": "refactor: 取消侧面板\"问题\"Tab，诊断内容并入\"文档\"Tab",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T14:22:46Z",
+      "committer_date": "2026-05-06T14:22:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b1e8133b976191c459153634ee07e6d4777b6830",
+      "message": "feat: 命令面板、缩略图与触屏适配 (P2)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T01:13:04Z",
+      "committer_date": "2026-05-06T01:13:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3f3182f57ce6b65de5fcc9475d4a55e983e71e3",
+      "message": "feat: 节点 header、检查器 tabs、文件树升级与撤销栈合并",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T00:29:27Z",
+      "committer_date": "2026-05-06T00:29:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1f1b4ada546840e73867e30aa34afa61f3f9a6fa",
+      "message": "feat: UI 系统化升级 - token 收口、撤销重做、保存徽标与冲突 banner",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T23:07:40Z",
+      "committer_date": "2026-05-05T23:07:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "94fe6636573b8371faf30de103ff2248df383fad",
+      "message": "feat: 侧面板文档树层级展示、排序菜单与文件拖拽移动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T13:13:20Z",
+      "committer_date": "2026-05-05T13:13:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14ea338e11438e1d2156ad2e3826822c9e15cc67",
+      "message": "feat: 链接卡片 iframe 渲染与文本节点重命名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T04:02:47Z",
+      "committer_date": "2026-05-05T04:02:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bbaf09b90fcf986cdbd33756ebd0525ace75daa",
+      "message": "v1.0.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T09:45:21Z",
+      "committer_date": "2026-05-04T09:45:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2db6e55c7707cfa28a3c0101e4b9dedf1885df36",
+      "message": "v1.0.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T09:44:21Z",
+      "committer_date": "2026-05-04T09:44:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c31dec42a05a17d319749326ad2c352493de7ad",
+      "message": "Revert \"v1.0.6\"",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T09:41:08Z",
+      "committer_date": "2026-05-04T09:41:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2aaebb21c9fdcab81138a8e4bba9106f70c4196",
+      "message": "v1.0.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T09:39:00Z",
+      "committer_date": "2026-05-04T09:39:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1821362d6bd19f09ac2fbaf00b4d813cd82878c4",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T09:38:32Z",
+      "committer_date": "2026-05-04T09:38:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cb50a05959dcfaad8a745e7561345c324567af97",
+      "message": "v1.0.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T07:42:35Z",
+      "committer_date": "2026-05-04T07:42:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07230e17e50334d0b6180194d46485be986b86ff",
+      "message": "feat: 恢复设置页面工作区路径配置项，不再限定为硬编码目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T07:18:58Z",
+      "committer_date": "2026-05-04T07:18:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4a242f2dbffa9836705e99b02a319ea0309da08",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T05:33:18Z",
+      "committer_date": "2026-05-03T05:33:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "873cd91cbfa3ce9836cd1bae029a35298367571a",
+      "message": "v1.0.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T03:40:32Z",
+      "committer_date": "2026-05-03T03:40:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2ca93dccdd8defc980633e946a9ab1e0ffb3a7de",
+      "message": "fix: 工作区为空时显示默认存储路径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T03:33:29Z",
+      "committer_date": "2026-05-03T03:33:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd16c514e4b4fb0ed51ec84caa26f41c631e0fbf",
+      "message": "fix: 优化 Bazaar PR #1826 人工评审反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T03:26:09Z",
+      "committer_date": "2026-05-03T03:26:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f50ac4143339ba8ead49140bb20caffe2bc5d33f",
+      "message": "fix: 修复 Bazaar PR #1826 评审反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T23:48:23Z",
+      "committer_date": "2026-05-02T23:48:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a6b6edb6558665bfde2a62578f5b07b7d3b06c5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T04:41:35Z",
+      "committer_date": "2026-05-02T04:41:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df52cd752fede72891b9defd68d8c358d11afd3b",
+      "message": "fix: 优化打包规则和添加卸载清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T04:31:34Z",
+      "committer_date": "2026-05-02T04:31:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d98c1474f666484e20278b06a369d236d91d0cbc",
+      "message": "v1.0.0 完成发布前检查",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T03:54:26Z",
+      "committer_date": "2026-05-02T03:54:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfeba077c39ce3612bb0652d15700535fcc722e7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:39:00Z",
+      "committer_date": "2026-05-01T13:39:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b25fd862b1760b48b9121d43dbc3e71fc575a7d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T12:15:27Z",
+      "committer_date": "2026-05-01T12:15:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "413900bfa63ea58cc63200344b18785476b3ca52",
+      "message": "fix: 选中节点/组后鼠标滚轮仍可缩放画布",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T12:07:10Z",
+      "committer_date": "2026-05-01T12:07:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36d4c15019445844d030353b1355bdbd9c716cb9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T16:08:25Z",
+      "committer_date": "2026-04-27T16:08:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37d95422f423111d6d575fc79b9ce07badcaa7fa",
+      "message": "fix: avoid host toolbar style collisions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-21T14:46:17Z",
+      "committer_date": "2026-04-21T14:46:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d3962c51ca1d4d4e01e1e17354d7c32feafbcc7",
+      "message": "fix: align bottom toolbar tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T16:33:17Z",
+      "committer_date": "2026-04-15T16:33:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c69ae6d9d96a2fcc8be691a5dc808404ac7dbaf",
+      "message": "fix: unify floating toolbar tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T16:27:08Z",
+      "committer_date": "2026-04-15T16:27:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3110bf67f92a0616a481efbf7c5f06426f0c45be",
+      "message": "fix: prioritize nodes over groups",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T16:10:06Z",
+      "committer_date": "2026-04-15T16:10:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8881a606435464634c599535dd02420d4669bd66",
+      "message": "fix: prioritize midpoint connection handles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T15:57:40Z",
+      "committer_date": "2026-04-15T15:57:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "391c8018b2ee132401e9a0793b1a2d206e8098b4",
+      "message": "feat: unify canvas toolbar iconography",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T15:30:13Z",
+      "committer_date": "2026-04-15T15:30:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c064254e71263ceb43550d3961a365d83ce14a2c",
+      "message": "refactor: split workspace view and unify file preview flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-15T01:02:32Z",
+      "committer_date": "2026-04-15T01:02:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65d4c65d26fb11b9ec78a8d78a2d388c90907e7e",
+      "message": "Merge pull request #1 from famotime/refactor/execute-plan-20260414",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-04-14T15:00:37Z",
+      "committer_date": "2026-04-14T15:00:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a884e127f0af321719242f7bbad0782c70655c67",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T14:58:04Z",
+      "committer_date": "2026-04-14T14:58:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba9b58d79c173f71626cc0cda860abcb4527752d",
+      "message": "refactor: split canvas editor orchestration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T14:57:24Z",
+      "committer_date": "2026-04-14T14:57:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52ce3a85d7d0a788739b8bef03df181c514a56fa",
+      "message": "fix: fallback document preview image paths",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T13:56:22Z",
+      "committer_date": "2026-04-14T13:56:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8800641d80e5b22bc6bb5ef9aa1e0e9e8797095",
+      "message": "fix: polish canvas node interactions and previews",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T12:41:45Z",
+      "committer_date": "2026-04-14T12:41:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "166732cfd41360313676366b36792e56937b2744",
+      "message": "build: update package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T06:15:44Z",
+      "committer_date": "2026-04-14T06:15:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7bbe58f229a5d8a34286bb65306d5857fa968baa",
+      "message": "fix: polish canvas edge and file node interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T04:11:58Z",
+      "committer_date": "2026-04-14T04:11:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "053ad6b97d930ab94173f3a222c1ef5c05fe1984",
+      "message": "feat: improve edge toolbar and reconnect editing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T14:42:54Z",
+      "committer_date": "2026-04-13T14:42:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8f1d88a9f33682d76348b95398bb2487dfc78b7",
+      "message": "fix: recover image node previews with asset fallback",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T12:26:55Z",
+      "committer_date": "2026-04-13T12:26:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "769f5c3465cf89182177349cfb9261c11a7d01f8",
+      "message": "fix: make canvas wheel listeners passive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T12:04:17Z",
+      "committer_date": "2026-04-13T12:04:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "190c71c40247dc38aabad0688ef8925cfb14cbb9",
+      "message": "fix: distinguish image and document file nodes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T09:47:18Z",
+      "committer_date": "2026-04-13T09:47:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b3c225ca28549f55703c84cca4ee7ae732a4335a",
+      "message": "fix: support block previews in file picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T09:06:23Z",
+      "committer_date": "2026-04-13T09:06:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c116f5d54d1582ba6776851ed79a39f659e755e1",
+      "message": "build: update package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T08:34:53Z",
+      "committer_date": "2026-04-13T08:34:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60df05218df8ebb8d9f60ae697c3b783d5de8fee",
+      "message": "fix: improve file picker image resolution",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T08:31:29Z",
+      "committer_date": "2026-04-13T08:31:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64f0688454204364da8c2ae6a4b3cdfe2e52f903",
+      "message": "fix: support image block id previews",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T04:31:22Z",
+      "committer_date": "2026-04-13T04:31:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef98a86e13a73b4f1ca316b2d49631e7954e72e6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T13:38:33Z",
+      "committer_date": "2026-04-12T13:38:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b319e625d2accdd4421f0a200f75e6df24579a46",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T13:38:05Z",
+      "committer_date": "2026-04-12T13:38:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "022ef8748fc4007936933c12ed1878d33d8cb298",
+      "message": "feat: add rich previews for file nodes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T13:34:07Z",
+      "committer_date": "2026-04-12T13:34:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43090e1a348bbee58a3905969d07f7f84f71b45e",
+      "message": "docs: update file target module structure",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:39:46Z",
+      "committer_date": "2026-04-12T08:39:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "036f8161b9d73a0b3fb75b69ea92db428c4b93fe",
+      "message": "feat: support canvas thumbnails and workspace image paste",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:38:14Z",
+      "committer_date": "2026-04-12T08:38:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b05b4fe8bcdfff5ab22a2851d10d6206d60f573d",
+      "message": "feat: connect file picker to canvas file nodes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:36:02Z",
+      "committer_date": "2026-04-12T08:36:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38ca33ae266ff58834a7106ec04cdf2bbc0550d4",
+      "message": "feat: add file picker search state",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:33:02Z",
+      "committer_date": "2026-04-12T08:33:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93465c67121ca41ef53d97f5288240782a0a343a",
+      "message": "feat: add file target preview models",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:31:28Z",
+      "committer_date": "2026-04-12T08:31:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25cd060aaee2fe4b12a2badf2b4d0ac6a97ced9e",
+      "message": "feat: add file target resolution helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:29:49Z",
+      "committer_date": "2026-04-12T08:29:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb5156cb8c54ab1738ecac747b250ea343aea3f2",
+      "message": "docs: add file node rich preview design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T08:16:23Z",
+      "committer_date": "2026-04-12T08:16:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d10e385d77ddcf67b77fd8667589bff51090e5de",
+      "message": "fix: refine edge dialog node picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T05:42:26Z",
+      "committer_date": "2026-04-12T05:42:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c01b88b185c5a9085ac374e2d75d4e4e35cbb3f4",
+      "message": "feat: add local canvas file dialogs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:48:02Z",
+      "committer_date": "2026-04-12T04:48:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39fe73cb97050764584db2697b90f9a4394d4ee0",
+      "message": "feat: add bottom toolbar and collapsible inspector",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:39:02Z",
+      "committer_date": "2026-04-12T04:39:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c31a1fd51877c0aa5df1e047c7deca881ecb5004",
+      "message": "docs: add bottom toolbar inspector design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T03:59:47Z",
+      "committer_date": "2026-04-12T03:59:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f55ac227fbe837431626c3d26013950df81a7597",
+      "message": "refactor: split canvas editor and plugin modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T04:47:03Z",
+      "committer_date": "2026-04-11T04:47:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a785531e99516eca6074baea9dc05ee08c07728",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T01:38:12Z",
+      "committer_date": "2026-04-11T01:38:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a716f96a7ea150ab638df899e55ec049af1011a",
+      "message": "feat: 本地化 canvas 工作区界面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T01:33:51Z",
+      "committer_date": "2026-04-11T01:33:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6247980fccb13048cf5823b0fb4e9c08ad81de40",
+      "message": "feat: enhance canvas interactions and theme syncing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T16:48:28Z",
+      "committer_date": "2026-04-10T16:48:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "59e02a9897a013c32c9ab714b734cb63abe5fdb5",
+      "message": "feat: support inline text colors in markdown cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T14:21:41Z",
+      "committer_date": "2026-04-10T14:21:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf12c5d2f8fc79ce9b9c92d42de51eb7423bc8ed",
+      "message": "feat: add marquee selection and tighten collapsed inspector",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T13:40:35Z",
+      "committer_date": "2026-04-10T13:40:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0aa3cf156d8ba696f177ad5661ecd1711d0761c9",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T13:10:15Z",
+      "committer_date": "2026-04-10T13:10:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac6d827f70ab811933265785c668cfa8bc9ca459",
+      "message": "feat: polish selection toolbar icons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T12:57:35Z",
+      "committer_date": "2026-04-10T12:57:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2fff7e1ef8c1f7e375441f71955e1037c0645e6",
+      "message": "docs: add repository guidelines",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T12:57:06Z",
+      "committer_date": "2026-04-10T12:57:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be883d1845faddf2aeea996da590ea06e910d2cf",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T23:39:23Z",
+      "committer_date": "2026-04-09T23:39:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84bae74376d5640f836a58bdea41bc4fe7cd062a",
+      "message": "Merge branch 'feature/floating-selection-toolbar'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T23:32:48Z",
+      "committer_date": "2026-04-09T23:32:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "241b4fff02a017ac61a2302c6a7ce7b68fe80ee6",
+      "message": "fix: polish selection toolbar dismissal and sizing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T23:26:34Z",
+      "committer_date": "2026-04-09T23:26:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7f8858685247cdf43e9f7fb5ccca5631fadcbb5",
+      "message": "fix: render selection toolbar actions consistently",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T20:43:00Z",
+      "committer_date": "2026-04-09T20:43:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa7d6ab43fc89c0b590fe019be0187fbdc3acbb8",
+      "message": "feat: add floating selection toolbar UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T20:20:10Z",
+      "committer_date": "2026-04-09T20:20:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7dd81da8f6a8de456df9756551d8f0f271be6c83",
+      "message": "fix: include selected groups' children in drag sets",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T19:52:07Z",
+      "committer_date": "2026-04-09T19:52:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7dd2e41f2253f77645b9b6ae5e2cbda5b68d2332",
+      "message": "fix: preserve mixed selection dragging for groups",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T19:36:19Z",
+      "committer_date": "2026-04-09T19:36:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8443d42aa980e473f872dac024961d779ba5c3ee",
+      "message": "fix: avoid mutating dependencies in selection toolbar tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T19:12:02Z",
+      "committer_date": "2026-04-09T19:12:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2af9a4e50889f00e1922c495d930ce6bc5cb5805",
+      "message": "fix: keep selection toolbar editor work in scope",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T18:52:53Z",
+      "committer_date": "2026-04-09T18:52:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce7e362c24e6a3130bc249e0f34d88b5d5729b1d",
+      "message": "feat: add selection toolbar editor actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T18:36:58Z",
+      "committer_date": "2026-04-09T18:36:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a98e861dbd7aacf6d7f568a7dec433d85897d575",
+      "message": "feat: add canvas layout actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T17:48:23Z",
+      "committer_date": "2026-04-09T17:48:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fcbcdebfda1668ec3f733411f722d2365a4305a4",
+      "message": "fix: align selection helper APIs with the plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:47:35Z",
+      "committer_date": "2026-04-09T16:47:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41a65bdaea984c9b7c326a3ef3350f832e4412c7",
+      "message": "feat: add canvas selection bounds and grouping helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:19:49Z",
+      "committer_date": "2026-04-09T16:19:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abfc215de6e64b131b2f48afb2d27b7a0786978e",
+      "message": "chore: ignore project worktrees",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:12:06Z",
+      "committer_date": "2026-04-09T16:12:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97f7e5b6d44d097f152cec016e33c98de7056992",
+      "message": "docs: add floating selection toolbar plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:08:18Z",
+      "committer_date": "2026-04-09T16:08:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1685166feef87792eadccb54dfa3a753eecdc1b",
+      "message": "docs: add floating selection toolbar design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T15:46:46Z",
+      "committer_date": "2026-04-09T15:46:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c26a41c721a59ab780c7290e43ab3e3a8b97d3b",
+      "message": "feat: refine canvas edge arrow rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T15:21:23Z",
+      "committer_date": "2026-04-09T15:21:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "417361d28cd2f503d5d38002707324e41dffe8da",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T15:10:20Z",
+      "committer_date": "2026-04-09T15:10:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2e1014a2f96c07d233f8dd79b1b378c788006c6",
+      "message": "feat: inline edit text cards on canvas",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T15:09:28Z",
+      "committer_date": "2026-04-09T15:09:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f24717bf0cadb3c89a1176d206a2c982596216c",
+      "message": "feat: improve canvas interactions and rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T14:48:16Z",
+      "committer_date": "2026-04-09T14:48:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d38b0f493d29ac9ecd6498f6814233ca4b4b9be",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T13:49:51Z",
+      "committer_date": "2026-04-09T13:49:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4014841f1749d5b3cf6c6745b94bb3b9191259e",
+      "message": "feat: expand canvas editor workflows",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T16:09:25Z",
+      "committer_date": "2026-04-08T16:09:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6995e18ca46ce92d3b85a8241abd3c43bf9679a",
+      "message": "Initial commit: add SiYuan Canvas plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T15:00:36Z",
+      "committer_date": "2026-04-08T15:00:36Z",
+      "login": "famotime"
+    }
+  ]
+}

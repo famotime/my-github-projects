@@ -1,0 +1,348 @@
+{
+  "pushed_at": "2025-07-05T11:45:03Z",
+  "count": 38,
+  "commits": [
+    {
+      "sha": "5189f03cded906240b5f427a468f32158dd1884f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-05T11:44:51Z",
+      "committer_date": "2025-07-05T11:44:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1a57aaba727a2aaf09a979b1ba22409674ecd0d",
+      "message": "优化 StyleCard 组件的音频播放逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-05T05:57:31Z",
+      "committer_date": "2025-07-05T05:57:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cde676a85e2e75cff85cd7ff8870285dcb499fac",
+      "message": "删除 MIDI 播放功能相关文件，更新音频样本格式为 MP3，重构 StyleCard 组件以支持 HTML5 音频播放，优化音频管理逻辑。",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-05T05:42:11Z",
+      "committer_date": "2025-07-05T05:42:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d3409b570ca6a2a8d47527fc86a952926bb7b7b",
+      "message": "Merge pull request #1 from famotime/feat/update-music-prompts-bpm",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-05T04:21:16Z",
+      "committer_date": "2025-07-05T04:21:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80a1f884b13f7424c584ca6af0e8cd8736c78fbd",
+      "message": "Feat: Update musicGenerationPrompts.json with BPM and new styles",
+      "author_name": "google-labs-jules[bot]",
+      "author_email": "161369871+google-labs-jules[bot]@users.noreply.github.com",
+      "date": "2025-07-05T04:20:45Z",
+      "committer_date": "2025-07-05T04:20:45Z",
+      "login": "google-labs-jules[bot]"
+    },
+    {
+      "sha": "497f0690758e84a2b61fa5663d34f81a007d0adf",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-07-05T04:14:37Z",
+      "committer_date": "2025-07-05T04:14:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ed8f7413c6fc55d3ea0acbb2b4598cf0e173265",
+      "message": "新增多个 MIDI 音频文件，重构 StyleCard 组件以支持 MIDI 播放功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T09:41:30Z",
+      "committer_date": "2025-06-29T09:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0344bbcf5695b0ed675ec02b93ebbdc1401e11d0",
+      "message": "更换多个音乐风格的图片路径为本地资源",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T09:16:03Z",
+      "committer_date": "2025-06-29T09:16:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b662dd6c5e14a40308fbcffb635e126af30b9e10",
+      "message": "Updated index.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:47:27Z",
+      "committer_date": "2025-06-29T08:47:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1bc7d0cb8a9767dc8a63b81f301250d8eef6c24f",
+      "message": "Enhanced Audio Card Interactions with Hover Effects",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:41:58Z",
+      "committer_date": "2025-06-29T08:41:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80b060cd7d3a355e4df1c4563bc477c72e256e21",
+      "message": "Fix Audio Loading Error with Local Audio Generation",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:32:11Z",
+      "committer_date": "2025-06-29T08:32:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76a370f1f6324faa9a874ecb799e71ca7c611c67",
+      "message": "交互式音乐播放功能",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:24:53Z",
+      "committer_date": "2025-06-29T08:24:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "414e5323a707fae4fa73efa79299d5e2c1bb6a25",
+      "message": "更换重复图片",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:18:01Z",
+      "committer_date": "2025-06-29T08:18:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "790246b61edc7ea027450276d551b97101cfd261",
+      "message": "更换四个音乐风格的图片",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:12:40Z",
+      "committer_date": "2025-06-29T08:12:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ab00191953f44bef3f2aa2ad426c3d44793d344",
+      "message": "Update Trap Jazz Melodic card image",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T08:09:07Z",
+      "committer_date": "2025-06-29T08:09:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72443b127d0fa80e5dc49a15940aa086ce92247f",
+      "message": "修复重复图片问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T07:52:42Z",
+      "committer_date": "2025-06-29T07:52:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd55938e05557dfa2d668350ea60c237f5c3381e",
+      "message": "Mobile responsive layout with collapsible Style Combination Guide",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T07:34:04Z",
+      "committer_date": "2025-06-29T07:34:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28913c465a23bb82c3f30f6b7383e0eaacb8969a",
+      "message": "调整标签分类显示样式",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T07:23:52Z",
+      "committer_date": "2025-06-29T07:23:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ea381f3558dd13f480a47b82ea77313a443fb2b",
+      "message": "Create collapsible Filter Styles section with Feature category",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T07:13:07Z",
+      "committer_date": "2025-06-29T07:13:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbe03444c6f8d933c7c97d186479467216769611",
+      "message": "Update images for Lush Soundscapes Retro-Futurism and Trap Jazz Melodic",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T07:09:43Z",
+      "committer_date": "2025-06-29T07:09:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34fb025cbfcd667aabfe0293c9b78e94994ffff1",
+      "message": "Optimize card image and tags display with improved hover behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:52:54Z",
+      "committer_date": "2025-06-29T06:52:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7d6754bba7a4415ef2f040487dcbaebad4f6dcf",
+      "message": "Added image copy.png",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:48:39Z",
+      "committer_date": "2025-06-29T06:48:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3b51b54c5091b2e9069426c84660c2d33ce485e",
+      "message": "Optimize style cards display with improved text handling and interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:43:31Z",
+      "committer_date": "2025-06-29T06:43:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eda4c2b2c5301b8c2bccba54feb99ee47ba57a64",
+      "message": "Added image.png",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:39:08Z",
+      "committer_date": "2025-06-29T06:39:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f2f4f95e2a5b4df155b60b6abfc3d6bcb0e7ec7",
+      "message": "Implement hover expand effect for style cards",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:30:26Z",
+      "committer_date": "2025-06-29T06:30:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b24d00ee4205e9f40556b672700b6f8179e11e61",
+      "message": "Fix card height consistency and rounded corners",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:20:30Z",
+      "committer_date": "2025-06-29T06:20:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c40f62dc2af75e73509769153f6836a7914a8b3",
+      "message": "Fix card size consistency and unique images",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T06:07:24Z",
+      "committer_date": "2025-06-29T06:07:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fee5103d3eaa3144ac0f7fecf740f9c304032788",
+      "message": "Add new music styles from attachment",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T05:57:52Z",
+      "committer_date": "2025-06-29T05:57:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2096261eeec37040fed0df571e8e85a431813cd",
+      "message": "Save style combination as markdown file",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:26:14Z",
+      "committer_date": "2025-06-29T04:26:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b2dd8158f8610021ec776373da1b7ca2ce9865c",
+      "message": "Hide header random button when no styles selected",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:23:16Z",
+      "committer_date": "2025-06-29T04:23:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8797d610a086f75592a250302b7bcf9179d17633",
+      "message": "Make random combination button larger and more prominent",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:20:52Z",
+      "committer_date": "2025-06-29T04:20:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "beda0291dacebebb0997d196402d9e85b2762c44",
+      "message": "Updated Header.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:17:51Z",
+      "committer_date": "2025-06-29T04:17:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8cc471abc072b0cbe5682aec721e88e86009817a",
+      "message": "Update New Orleans Dembow image",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:12:12Z",
+      "committer_date": "2025-06-29T04:12:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e55cfd37ac796541d7daf12cfe0d9f928fb8bd53",
+      "message": "Replace broken images with working Pexels images",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:08:49Z",
+      "committer_date": "2025-06-29T04:08:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1245674cd7eb230700b780fef81f8a7d42d0ce2",
+      "message": "Remove Electronic button from Region filters",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:04:50Z",
+      "committer_date": "2025-06-29T04:04:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a77dfcf98f641543839a98d3bebcd3fe63cc21b4",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-29T04:00:03Z",
+      "committer_date": "2025-06-29T04:00:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "969076806cc8b4af358c6c41fa191b4caeae9925",
+      "message": "Update StyleCard gradient overlay",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-06-04T12:48:40Z",
+      "committer_date": "2025-06-04T12:48:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c0bdcf4a429272d932ea68ce0409a8264a74de2",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-05-26T16:22:47Z",
+      "committer_date": "2025-05-26T16:22:47Z",
+      "login": "famotime"
+    }
+  ]
+}

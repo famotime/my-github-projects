@@ -1,0 +1,2409 @@
+{
+  "pushed_at": "2026-10-02T10:42:17Z",
+  "count": 267,
+  "commits": [
+    {
+      "sha": "6a35c7c3a152136999a79ef532db6214fa86fb8a",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T10:42:06Z",
+      "committer_date": "2026-10-02T10:42:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b881e73223743099a903572528edbd8adbe302ff",
+      "message": "docs(dev): 同步 SiYuan v3.8.5 开发进展与 API 迁移指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T09:59:05Z",
+      "committer_date": "2026-10-02T09:59:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "47c5f1782933319fc42a46b471749d24e3b77f44",
+      "message": "fix(plugin): 修复多端并发时配置变更触发的整插件无限重启闪烁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T09:58:57Z",
+      "committer_date": "2026-10-02T09:58:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "943dc43359a6282702596ba17496f3a6e07a1f83",
+      "message": "feat(ai): 升级 API 旋钮接入协议并支持自定义 Headers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:43:48Z",
+      "committer_date": "2026-09-25T03:43:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c21d3a39f9cdebd613f76210fa397f93d9d246a5",
+      "message": "feat: 在未读文档卡片详情页添加 AI 建议操作入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-10T14:52:10Z",
+      "committer_date": "2026-08-10T14:52:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "08873e8a8552b7a5b8c97eec9fff77cf3892b5ba",
+      "message": "fix(ai): 增加单文档数据库查找兜底与无建议时的优雅回退",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T05:36:24Z",
+      "committer_date": "2026-08-09T05:36:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e87a6d8a102e9136ba775195a6ce63dde62e7342",
+      "message": "feat(ai): 在外部命令接口中导出顶层标签建议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T05:30:36Z",
+      "committer_date": "2026-08-09T05:30:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9ef6f37174d7c7153495eb245622105d99e85f0",
+      "message": "feat(ai): 孤立文档无补链候选时支持生成建议标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T05:16:12Z",
+      "committer_date": "2026-08-09T05:16:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec7474c19cb2d7ea165b36f318e953e1d47202e8",
+      "message": "feat: 打开插件侧面板时默认选中未读文档卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T04:16:45Z",
+      "committer_date": "2026-08-09T04:16:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12e75eef2f454e079e182198764a091acc4c31cb",
+      "message": "feat: 适配 API 旋钮 (siyuan-api-switch) 全量接管 AI 配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T04:13:41Z",
+      "committer_date": "2026-08-09T04:13:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "952a572df7b8f82390aa06f5bffd689f8b675a63",
+      "message": "fix: 完善 API 旋钮配置与 Preset 响应式同步及接管横幅位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:53:01Z",
+      "committer_date": "2026-08-09T03:53:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a23ec3668a8dfb7ea02e3aafd620577413f835c6",
+      "message": "refactor: 统一孤立文档排序至通用排序组件并补全全模式排序支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-26T13:55:43Z",
+      "committer_date": "2026-07-26T13:55:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1bef7f24e7aa994a8bf2bfb1eb515dab66823ffe",
+      "message": "build: update distribution package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T15:14:13Z",
+      "committer_date": "2026-06-26T15:14:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1dff1930616325116f1b77cd6daa556466181d69",
+      "message": "style(ui): refactor import/export and sync/link buttons to icon buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T15:05:46Z",
+      "committer_date": "2026-06-26T15:05:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d03d50d361ac2c07ce3d94f60e8344d81127dd0",
+      "message": "style(ui): refactor to use outline icon buttons and add svg fill prevention",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-26T15:03:29Z",
+      "committer_date": "2026-06-26T15:03:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "26547297f1e1b08b98cdd0001f835dffd2a88b2c",
+      "message": "chore: sync with siyuan-api-switch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T13:48:27Z",
+      "committer_date": "2026-06-20T13:48:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75e0b02490f526457b317abecd6018b6ae0af717",
+      "message": "v0.9.7",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-09T15:06:44Z",
+      "committer_date": "2026-06-09T15:06:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec1520f8d2c7f0f2c4c7a5885d2d2e0afc532419",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T07:01:08Z",
+      "committer_date": "2026-06-07T07:01:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2e34a42a446c8328020c44946f4a1c8700fc864",
+      "message": "fix: 修复删除后重新生成 LLM Wiki 文档失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T09:44:21Z",
+      "committer_date": "2026-06-06T09:44:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fac7165af95b65fc2b5a783c006346fc080cf4f3",
+      "message": "feat: 排序菜单每项扩展为升序/倒序两种方向",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T07:24:48Z",
+      "committer_date": "2026-05-24T07:24:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb984a46da5dde6db6544851684794c2169cff37",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T01:58:13Z",
+      "committer_date": "2026-05-24T01:58:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "818edaad4d068692a3c73c87e7165d12a98a4350",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:40Z",
+      "committer_date": "2026-05-23T06:41:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbe741f0c95205e4a3eec47e13b8abb780ee7b52",
+      "message": "feat: 统一文档型卡片详情排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T13:52:18Z",
+      "committer_date": "2026-05-21T13:52:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27b57980f9f4fde5942eefc98fc33e45b185c52d",
+      "message": "Add document sorting to summary details",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T11:35:59Z",
+      "committer_date": "2026-05-21T11:35:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb5be74d30b69153bee8be423f4d7e55e54da1f7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T13:24:52Z",
+      "committer_date": "2026-05-17T13:24:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4cb5a93ff28794ad3b1624dff13764b9a8a8b05e",
+      "message": "feat: 统一治理非 Wiki AI prompt",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T10:02:40Z",
+      "committer_date": "2026-05-17T10:02:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "984f59ae4add630036cd94b20f7889ed47d78dd1",
+      "message": "feat: 集中管理 LLM Wiki prompt",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T09:20:58Z",
+      "committer_date": "2026-05-17T09:20:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39307f0fff250b2323766d81ced60482e4bdfb95",
+      "message": "feat: 暴露 AI 补链和标签建议命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T08:05:15Z",
+      "committer_date": "2026-05-17T08:05:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "24fed65e48f76f9335129dd8de2cfb70ba0ffc4c",
+      "message": "feat: 孤立文档增加索引关键词建议标签，支持点击打标签并增强主题匹配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T03:36:28Z",
+      "committer_date": "2026-05-17T03:36:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a115e4e887ee45f8058493fb9e6970dd9d1ad039",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T01:58:24Z",
+      "committer_date": "2026-05-17T01:58:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9832989a8551be9bcca23995084d16ff6648bb17",
+      "message": "v0.9.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T01:22:15Z",
+      "committer_date": "2026-05-17T01:22:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eedf57807560a206b302f7ac52e38089f7c4cdf7",
+      "message": "feat: 支持 LLM Wiki 全量输入正文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T01:18:30Z",
+      "committer_date": "2026-05-17T01:18:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ba522a5344c48cdb74b70560593a812c2e22c29",
+      "message": "feat: 核心文档添加 >=10 链接门槛并取消展示上限",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T01:17:01Z",
+      "committer_date": "2026-05-17T01:17:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12aa8a6f41740d80f87343a328d05696827ce6c5",
+      "message": "feat: LLM Wiki 维护面板新增「全量输入」开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T15:15:00Z",
+      "committer_date": "2026-05-16T15:15:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ba02a4b9aa4d676848e3d45371b9bec90cac009",
+      "message": "feat: 下拉框内容自适应宽度与截断提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T18:01:08Z",
+      "committer_date": "2026-05-15T18:01:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75317e54bb1a37bec9d6fca1806836ea8672f209",
+      "message": "feat: Wiki 嵌入式样式优化与核心文档关联按钮 tooltip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T16:27:16Z",
+      "committer_date": "2026-05-15T16:27:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c26de801442aec5b5e2a296b7d4155c47241b13c",
+      "message": "fix: 修复 LLM Wiki 维护预览采纳与中文文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T13:43:23Z",
+      "committer_date": "2026-05-15T13:43:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a86842ecd08c4909c2ce65565e0f6f205d0554c",
+      "message": "fix: 分离未读文档补链与已读标签展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T11:54:27Z",
+      "committer_date": "2026-05-15T11:54:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc1f76627440527b2f8092b81803c6d3674e2704",
+      "message": "feat: improve llm wiki maintenance diff preview",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T10:05:48Z",
+      "committer_date": "2026-05-15T10:05:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8169c14efa99d94ddfca2b3eb93d78c077e711e",
+      "message": "feat: add collapsible settings and remove sass import warning",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-15T09:03:56Z",
+      "committer_date": "2026-05-15T09:03:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22b19343af8074f516643b411dae512a4f4df5a4",
+      "message": "refactor: split analytics and wiki detail helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-14T10:58:59Z",
+      "committer_date": "2026-05-14T10:58:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2907ef45d6c253e18c88825c9e96a0f4f0970b0",
+      "message": "v0.9.5 LLM Wiki",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-13T14:17:53Z",
+      "committer_date": "2026-05-13T14:17:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff16c52ba2e7e19bb7d05ba898c29aae40101a52",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-12T16:07:37Z",
+      "committer_date": "2026-05-12T16:07:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c8cdc31b3b815c50aa44652ecdb275521c9438f",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-12T13:49:40Z",
+      "committer_date": "2026-05-12T13:49:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a69aa98b1d25cc45a21aa24f1af47a0ce98f82b0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-11T16:19:42Z",
+      "committer_date": "2026-05-11T16:19:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cd010f0df1ada8afd9434fa81b526c4c3f9188c",
+      "message": "fix: 改进 wiki 渲染与详情弹窗展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-11T12:27:49Z",
+      "committer_date": "2026-05-11T12:27:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b05e628034de1033292ed2c808173c6d4f20c460",
+      "message": "fix: 修复 Wiki 对话 @ 输入筛选失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T22:52:25Z",
+      "committer_date": "2026-05-10T22:52:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71c78766814e211bfd15efa34c82c028abad7245",
+      "message": "fix: 补齐 WikiChatDialog mention 模板渲染与绑定保护测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T16:14:28Z",
+      "committer_date": "2026-05-10T16:14:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac55e56e849b6c88e80e2ee26ee760021ef0c070",
+      "message": "docs: 补充 llm wiki 对话提及浮层实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T14:49:52Z",
+      "committer_date": "2026-05-10T14:49:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e4d55caf15521ea0d33d02cffd278fe7335ade8",
+      "message": "docs: 补充 llm wiki 对话提及浮层设计稿",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T14:46:08Z",
+      "committer_date": "2026-05-10T14:46:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2eaffbd71c84a952b4be7530cce7d8db6a10d35a",
+      "message": "feat: 改进 wiki 对话 markdown 渲染与维护日志输出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T13:24:49Z",
+      "committer_date": "2026-05-10T13:24:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53ba2c2b012d705603337f8ca03136b6f6b59a2b",
+      "message": "fix: 修正 LLM-Wiki 维护日志统计与冲突记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T09:13:08Z",
+      "committer_date": "2026-05-10T09:13:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51ac37052d55cf90d14c68e8c2271d2c48e379d2",
+      "message": "feat: 支持 LLM Wiki 索引页按关系分组展示源文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T06:40:03Z",
+      "committer_date": "2026-05-10T06:40:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c65b371880825a8fcf609bd50aa696c22ac44de",
+      "message": "fix: harden wiki preview ai fallback and panel actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T06:18:50Z",
+      "committer_date": "2026-05-10T06:18:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4538d0e5203492176db45968d3573d59aee9b05d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T05:11:46Z",
+      "committer_date": "2026-05-10T05:11:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d392cc861d51a9b84e2d6b33e81d616be5c715d8",
+      "message": "fix: emphasize full wiki preview timestamp",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T05:03:54Z",
+      "committer_date": "2026-05-10T05:03:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e124d4fea845500d6946cb66d7307fa10508340b",
+      "message": "feat: route wiki chat from index summaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T04:56:51Z",
+      "committer_date": "2026-05-10T04:56:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d7ebb9353253a4c40efca7b1e3121d0661f9219",
+      "message": "Improve wiki scope source presentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T04:40:37Z",
+      "committer_date": "2026-05-10T04:40:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f95e8859a4cc3bc0a5830fc75936098b3671bf82",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T04:24:00Z",
+      "committer_date": "2026-05-10T04:24:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f75afdf83135bd7a9d74a0abe36fef41380d3a35",
+      "message": "feat: 持久化 Wiki 预览缓存，面板展开时自动恢复并显示缓存标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T04:07:55Z",
+      "committer_date": "2026-05-10T04:07:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30e7d176829a9454a3178d5bd1a131424183434c",
+      "message": "fix: 首次生成 Wiki 预览后自动创建文档到配置目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T03:46:03Z",
+      "committer_date": "2026-05-10T03:46:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "709919af9da788f30feb83ad6d24232f3235080c",
+      "message": "fix: 修复核心文档引用计数为零的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T01:49:21Z",
+      "committer_date": "2026-05-10T01:49:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8811a28363b715996628dc92b996937f1bab0d20",
+      "message": "refactor: UI细节优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T01:32:11Z",
+      "committer_date": "2026-05-10T01:32:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0cb083f9dae463eeb4f8cf94be3589acb3f8fb62",
+      "message": "refactor: UI细节优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T00:55:54Z",
+      "committer_date": "2026-05-10T00:55:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ff8b45f5c3f54a8576aa65b9c75e8d411483aa3",
+      "message": "refactor: UI细节优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-10T00:18:47Z",
+      "committer_date": "2026-05-10T00:18:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e18edd534ca95004729c13a5204963c26b10fc4e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T16:09:51Z",
+      "committer_date": "2026-05-08T16:09:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf203d22a3c04bf299d71f5153a8d51f52df680c",
+      "message": "feat: Wiki 聊天窗口支持拖拽移动和调整大小",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T16:09:12Z",
+      "committer_date": "2026-05-08T16:09:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52c5e7aaf64d78786492a187d07179271fa88333",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T15:57:38Z",
+      "committer_date": "2026-05-08T15:57:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3270c090f503d310fd596364ef4577e22415f911",
+      "message": "feat: 路由判断时引入 wiki 页面首段内容作为上下文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:54:17Z",
+      "committer_date": "2026-05-08T14:54:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fa700cac483fe25f3508b917bee7e879c0d3ec2",
+      "message": "fix: 对齐 wiki-ai.ts 的 forwardProxy 调用格式修复 401 错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:48:24Z",
+      "committer_date": "2026-05-08T14:48:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dfa78ec90f7397b77c8c77fcbfe7eeabd437e26b",
+      "message": "fix: Wiki 聊天窗口日志注入、来源栏修复、@ 键盘导航、API 错误处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:43:32Z",
+      "committer_date": "2026-05-08T14:43:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3883b4ef16e001a45aa808f09fd97450b3f3d739",
+      "message": "refactor: 移除已废弃的 buildChatSaveMarkdown",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:08:58Z",
+      "committer_date": "2026-05-08T14:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e70a777d14ef653f279112374c420a9ee5baa69",
+      "message": "feat: App.vue 适配多轮聊天窗口 props 与对话级保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:07:10Z",
+      "committer_date": "2026-05-08T14:07:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fa784ab038d6e07b5d27b45b3cb3571bcce3283",
+      "message": "feat: WikiChatDialog 重写为多轮聊天窗口 UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:05:03Z",
+      "committer_date": "2026-05-08T14:05:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb58884fb77dbe1701f6661387df3450f922b707",
+      "message": "feat: buildSaveMarkdown 对话级保存格式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T14:02:21Z",
+      "committer_date": "2026-05-08T14:02:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75c7809da74212764a70ebc5cba6fa360d98d5c6",
+      "message": "feat: sendMessage 实现两步路由与多轮上下文 AI 调用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:59:57Z",
+      "committer_date": "2026-05-08T13:59:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bb9a04761acbe06ed53b8deb663e0d1f62f21be",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:55:59Z",
+      "committer_date": "2026-05-08T13:55:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5027a1efd30ba9ed2997038508f83b882b5b96a",
+      "message": "feat: buildWikiContextMessage 用于多轮聊天上下文构建",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:52:59Z",
+      "committer_date": "2026-05-08T13:52:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "efa21f6bcad16cf8d0bcf816c85e79602541782e",
+      "message": "feat: 多轮聊天窗口 i18n 键",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:50:41Z",
+      "committer_date": "2026-05-08T13:50:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9955bb67d85a49fa3d3345ef536b0247221abcc7",
+      "message": "docs: LLM Wiki 多轮对话聊天窗口实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:47:03Z",
+      "committer_date": "2026-05-08T13:47:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c46c519bb9b6a70ac9285aae7d7f312343e37580",
+      "message": "docs: LLM Wiki 多轮对话聊天窗口设计 spec",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T13:40:22Z",
+      "committer_date": "2026-05-08T13:40:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a49afc56ab826e0ace4dcb931e7499681b163ebf",
+      "message": "feat: LLM Wiki 卡片详情增强 — suffix 过滤、可点击标题、元数据展示、原始资料折叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-08T12:58:32Z",
+      "committer_date": "2026-05-08T12:58:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79659af5954e3160e3f1bf115e6a257c745c7154",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T23:21:23Z",
+      "committer_date": "2026-05-07T23:21:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75d293543cb983f3e554bd1041ab108d39a2904b",
+      "message": "fix: countSelectedSummaryItems 处理 wikiCards kind 避免 fall-through 崩溃",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T22:46:07Z",
+      "committer_date": "2026-05-07T22:46:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43934a2ddb0c951f447e37331ddd0948e1142ab1",
+      "message": "feat: LLM Wiki 组件样式完善与端到端验证",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:18:02Z",
+      "committer_date": "2026-05-07T17:18:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e959baa501a5f156cf371ce51ef0e943c00ceb0c",
+      "message": "feat: 分析加载时自动解析 wiki index 文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:15:59Z",
+      "committer_date": "2026-05-07T17:15:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da4663e1b15b3bf6fa8c186942ffb3840e7ce826",
+      "message": "feat: App.vue 集成 LLM Wiki 统计卡片与弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:13:30Z",
+      "committer_date": "2026-05-07T17:13:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "800499aaa24572bf8c048c33f8e1860b5182d21c",
+      "message": "feat: LLM Wiki composable——页面管理、聊天控制、维护逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:03:46Z",
+      "committer_date": "2026-05-07T17:03:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b7d21495f5364dafec36da20a5375b6d723627e",
+      "message": "feat: WikiMaintainDiffDialog 维护 diff 预览弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:01:45Z",
+      "committer_date": "2026-05-07T17:01:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e641c23e76dfe7b6f83d85a3c46c0a0898483ef",
+      "message": "feat: WikiChatDialog 聊天弹窗组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T17:00:42Z",
+      "committer_date": "2026-05-07T17:00:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0d048b9c40f2547cc079f075f599cf11aef471c",
+      "message": "feat: WikiCardsSection 详情区域组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:58:41Z",
+      "committer_date": "2026-05-07T16:58:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c18ea402032f1b7afd71d4859f20a12ace338df",
+      "message": "feat: LLM Wiki 聊天与维护功能 i18n 文本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:57:07Z",
+      "committer_date": "2026-05-07T16:57:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4caa68cb1cde1a9b81a674cd33254add07ddb50",
+      "message": "feat: LLM Wiki 聊天 AI 服务——路由与问答解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:55:08Z",
+      "committer_date": "2026-05-07T16:55:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "111d0c59d99f9a42f119987abb183a6b39c5fef6",
+      "message": "feat: LLM Wiki 维护 AI 服务——评审解析与建议摘要",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:53:15Z",
+      "committer_date": "2026-05-07T16:53:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a6c85d73a8aa6447afbf5594c2375464f5addfb",
+      "message": "feat: llmWiki 卡片构建与详情区域",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:50:59Z",
+      "committer_date": "2026-05-07T16:50:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b18a94776acb084877daac6ad0531e48be74bf27",
+      "message": "feat: 注册 llmWiki 卡片定义及 i18n 文本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:49:23Z",
+      "committer_date": "2026-05-07T16:49:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8831045cb2b3c4139e05482ec9d5abf7f359f2ef",
+      "message": "feat: wiki index 解析模块——提取并去重 wiki 页面列表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:46:41Z",
+      "committer_date": "2026-05-07T16:46:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b733612528ae407ebdcd0bfe7b4c18feec9b3cca",
+      "message": "feat: 新增 llmWiki 卡片 key 和 wikiCards 详情类型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T16:44:12Z",
+      "committer_date": "2026-05-07T16:44:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72b926367fb99666c2493fa4354aadddd301f319",
+      "message": "feat: 源文档卡片显示具体主题链接建议药丸按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T15:44:28Z",
+      "committer_date": "2026-05-07T15:44:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b3d088a4eeb29f6ac1f1a4588283a707bc1ecab9",
+      "message": "fix: wiki 预览内容紧跟 stat 卡片之后显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T15:44:17Z",
+      "committer_date": "2026-05-07T15:44:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "02c715ab653d64f5012ca2ed6b7a37187f86a33b",
+      "message": "fix: 源文档卡片关联类型标签传递正确的 linkType",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T15:43:50Z",
+      "committer_date": "2026-05-07T15:43:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70e76e5d03463e420365c1399339e45241bcad46",
+      "message": "feat: 增量生成无变化时展示缓存预览并提示用户",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T15:12:22Z",
+      "committer_date": "2026-05-07T15:12:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14786aa06246e360b32dd1317503bcea84096735",
+      "message": "feat: 源文档卡片加主题链接和加标签接入现有建议机制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T15:07:07Z",
+      "committer_date": "2026-05-07T15:07:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76106bd92a2a6ae952fd7d109273066e8c1bf5c1",
+      "message": "feat: 源文档卡片建议交互——事件传递链路",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:57:24Z",
+      "committer_date": "2026-05-07T14:57:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1759d77d12f64e46cc7e73127c7428537746efaf",
+      "message": "feat: 增量生成开关、统计信息、源文档卡片 UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:47:14Z",
+      "committer_date": "2026-05-07T14:47:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c16d471ecf23c60d9d69db9658d72663e525dfd9",
+      "message": "feat: 增量生成核心逻辑——时间戳对比、delta 标记、现有内容注入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:43:46Z",
+      "committer_date": "2026-05-07T14:43:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3048a4b3992fa0e9cd614137bd89fa2469c42152",
+      "message": "feat: WikiPreviewState 新增 deltaStats 和 sourceDocMetas",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:36:43Z",
+      "committer_date": "2026-05-07T14:36:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "460e54574f0f5092daf0e1b6c3a8e193928aa2a2",
+      "message": "feat: WikiBundleDocumentItem 新增 deltaStatus 字段",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:36:39Z",
+      "committer_date": "2026-05-07T14:36:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82ac6b69c62edd25caf18c67744b972b809b5d69",
+      "message": "feat: wiki-store 支持 sourceDocumentTimestamps 增量快照",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:35:31Z",
+      "committer_date": "2026-05-07T14:35:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8413b2ef286fbc956a039637084260c27561f1b3",
+      "message": "feat: 增量生成配置项 wikiIncrementalEnabled",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:33:39Z",
+      "committer_date": "2026-05-07T14:33:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d829c16acea7cf8e4061c82f2872ff1876bf0f8c",
+      "message": "feat: 冲突章节 AI 提示词和 debate 格式推断",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:32:25Z",
+      "committer_date": "2026-05-07T14:32:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfdba1a936d57135af59c6ed4696ddb2bf48b3d3",
+      "message": "feat: 冲突章节空 blocks 时跳过渲染占位符内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:28:44Z",
+      "committer_date": "2026-05-07T14:28:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2f16a6666cfd8deb04da052c469322eec7af24f",
+      "message": "feat: 增量生成、源文档卡片、冲突章节 i18n key",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:23:41Z",
+      "committer_date": "2026-05-07T14:23:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74339dc2fbb2d0e201915ea3d300745c9c7c3f83",
+      "message": "feat: 冲突章节类型添加到 wiki 模板模型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T14:21:19Z",
+      "committer_date": "2026-05-07T14:21:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb6b1af9695df6b0243f22323e859cc1c9eb181f",
+      "message": "docs: 增量生成、源文档卡片、冲突章节实现计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T13:50:57Z",
+      "committer_date": "2026-05-07T13:50:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd05739eafd69cdae0caedc9100f6205aa9736d2",
+      "message": "docs: 增量生成、源文档卡片、冲突章节设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-07T13:41:09Z",
+      "committer_date": "2026-05-07T13:41:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bd792fb0ed1e9e6e9217d6430478c5c4bd4f709",
+      "message": "feat: 索引页摘要和时间显示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T16:28:07Z",
+      "committer_date": "2026-05-06T16:28:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbfff422ec3c19064e4edae2b5c4c93fa01b969a",
+      "message": "fix: LLM 维护日志改为最新条目插入到文档开头",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T14:40:17Z",
+      "committer_date": "2026-05-06T14:40:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86ee2b0810a7bbee4e19b8f43245690290e6b7bb",
+      "message": "refactor: split analytics controllers and data loading helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T13:09:26Z",
+      "committer_date": "2026-05-05T13:09:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "196f3943186e05fe74cbf1481242d2c0192a262a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T06:16:11Z",
+      "committer_date": "2026-05-05T06:16:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0f0d854068aa680d01fd8eefd3fe0787316a89b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T05:22:09Z",
+      "committer_date": "2026-05-05T05:22:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f36be52833b74d2ea0c34610efca6e39af404fb",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T05:22:01Z",
+      "committer_date": "2026-05-05T05:22:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e21242b52ff13bf0f75b1e4876cb03c6414228d5",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T05:21:47Z",
+      "committer_date": "2026-05-05T05:21:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25be47ce41ef2b467d0cbe1d3bcc2a5a8446428a",
+      "message": "fix: 去除 resolveWikiScopeDocuments 的 documentMap fallback，防止未过滤文档泄漏到 wiki 生成范围",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T04:26:25Z",
+      "committer_date": "2026-05-05T04:26:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7632c654ccb742574744577a94f5119d409ca6ba",
+      "message": "fix: stripIalFromKramdown 需同时处理列表项行首的内联 IAL（如 - {: id=...}text）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T04:11:35Z",
+      "committer_date": "2026-05-05T04:11:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "076c10080177a383e7b486ee477f1ffc37202bd2",
+      "message": "feat: scope llm wiki maintenance to single theme",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T04:08:32Z",
+      "committer_date": "2026-05-05T04:08:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b960dd7b86e9f4928550dc08b466bd952204dc39",
+      "message": "fix: 去除 IAL 属性后再计算指纹，避免 syncWikiBlockAttrs 写入 custom 属性导致误判冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T03:44:18Z",
+      "committer_date": "2026-05-05T03:44:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6b482360928a9364ea3bfede69324e52f102751",
+      "message": "fix: 进一步缩减卡片和面板左右边距及圆角",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T03:04:04Z",
+      "committer_date": "2026-05-05T03:04:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5c0119ca2160ca4934d637b66d1438cf935ce5e",
+      "message": "fix: 恢复\"应用变更\"按钮为 ghost-button 样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T02:49:09Z",
+      "committer_date": "2026-05-05T02:49:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bc84f463eccef863cbb87a72aa89d083637a07d",
+      "message": "fix: 修复覆盖冲突时管理区正文首次点击被清空的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T02:37:00Z",
+      "committer_date": "2026-05-05T02:37:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c1676262dfb47f7cb8475f040009f32a533bc02",
+      "message": "fix: 统一 LLM Wiki 面板主要按钮样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T02:20:22Z",
+      "committer_date": "2026-05-05T02:20:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1550cac3fe70e6aa1ea643e2a65c95b11d67cecd",
+      "message": "feat: LLM Wiki 交互优化第二批",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T01:59:54Z",
+      "committer_date": "2026-05-05T01:59:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f5749644166670cbf3a13badf635b9b677fa973",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T01:14:29Z",
+      "committer_date": "2026-05-05T01:14:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62a1c5be69a36e159b6ba83eabd1e813ba1d0c99",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-05T00:29:28Z",
+      "committer_date": "2026-05-05T00:29:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "776514e19cd732680f2bbb792e95391b10abfb51",
+      "message": "feat: 将 LLM Wiki 文档归入主题笔记目录下的容器子文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T23:44:46Z",
+      "committer_date": "2026-05-04T23:44:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7e9861f96190e25d08c74210c85d566ab69b417c",
+      "message": "update docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T23:16:02Z",
+      "committer_date": "2026-05-04T23:16:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d629c80d4f28e959b7495654f467ecb71ee5a7a",
+      "message": "Remove legacy wiki section assumptions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T22:46:56Z",
+      "committer_date": "2026-05-04T22:46:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d343591f2b3ae68941010853e1ac1fbc02333c00",
+      "message": "Fix wiki preview section heading labels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T22:39:01Z",
+      "committer_date": "2026-05-04T22:39:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ec90cc1653894fb748c17bca71ae785e80e1671",
+      "message": "Update wiki preview panel for multi-template flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T22:27:02Z",
+      "committer_date": "2026-05-04T22:27:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a60838427e8e5e6b983148ca931bb13aa500fdc3",
+      "message": "fix: align wiki section metadata with rendered bodies",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T18:02:17Z",
+      "committer_date": "2026-05-04T18:02:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07ff319fd580b4f8472f903aa5f23c547dc5fde6",
+      "message": "fix: include removed wiki sections in diff",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:54:20Z",
+      "committer_date": "2026-05-04T17:54:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1187ea89f4114083fcb9eb2dbab04eaefa65eb01",
+      "message": "feat: render wiki drafts from dynamic sections",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:46:31Z",
+      "committer_date": "2026-05-04T17:46:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a03022628320ebee638db537451e13bf50e39cbe",
+      "message": "Refine staged wiki plan ordering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:35:54Z",
+      "committer_date": "2026-05-04T17:35:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edd8c78391861030e58823e8388c4c6aa47be6b7",
+      "message": "Tighten staged wiki AI normalization",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:26:41Z",
+      "committer_date": "2026-05-04T17:26:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3abd9c85dcbdaf477fde9408f45a7c321b93a3dd",
+      "message": "Add staged AI wiki generation API",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:12:26Z",
+      "committer_date": "2026-05-04T17:12:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9e8c2e210a7fdd7ec55f045ea299d74dc26ad7e",
+      "message": "fix: preserve wiki bundle evidence and analysis signals",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T17:01:26Z",
+      "committer_date": "2026-05-04T17:01:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1aabf1daff67017cd521cb675b963133a98f19c",
+      "message": "feat: build wiki topic bundles from index profiles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:47:38Z",
+      "committer_date": "2026-05-04T16:47:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4206abddc9215429d7cc8171a8a2e558ebb7d497",
+      "message": "Narrow wiki template section plan types",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:40:13Z",
+      "committer_date": "2026-05-04T16:40:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a1bd7beb5a7006184b5c15d90e5061b2ab1f666",
+      "message": "Clarify wiki heading compatibility contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:36:12Z",
+      "committer_date": "2026-05-04T16:36:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d978568702d73ffdd43de1e2e0140c62144ed34f",
+      "message": "Restore wiki page model compatibility",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:27:27Z",
+      "committer_date": "2026-05-04T16:27:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5256011f3dd08c547ba2952148e401a694727e1",
+      "message": "Fix wiki template model contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:22:27Z",
+      "committer_date": "2026-05-04T16:22:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58dbd961c5d499ad07a9082920a012ce7c3464ef",
+      "message": "Add wiki template model types",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T16:17:45Z",
+      "committer_date": "2026-05-04T16:17:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07da46268fa22868befee5b5a484fa116e5c4f06",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T15:59:12Z",
+      "committer_date": "2026-05-04T15:59:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbaef1e0b462a40f36d47924111452635fa9d193",
+      "message": "refactor: 精简项目文档、排行榜合并连接度摘要、修正国际用语",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T12:02:44Z",
+      "committer_date": "2026-05-04T12:02:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bf283e4aa211c0387992db5a0e9fcc4775b3061",
+      "message": "refactor: 核心文档排名纳入出链与子文档数量，统一连接度排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T11:52:01Z",
+      "committer_date": "2026-05-04T11:52:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63e20e2b4e086e025b77fd4323030dbf633656ed",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T12:33:38Z",
+      "committer_date": "2026-05-01T12:33:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "894881d0cbfbc11b783eb24b3e3980496a45f12b",
+      "message": "refactor: 文档索引移除本地规则回退，AI不可用时直接报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T10:22:06Z",
+      "committer_date": "2026-05-01T10:22:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "47d79cf5d8c1380a86fca253a1a873e02c4026bc",
+      "message": "feat: 文档索引优化 - emoji标识、索引目录、临时文档警告、批量操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T10:04:44Z",
+      "committer_date": "2026-05-01T10:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54e8f2fe612750c8800d7df024c0b0578937f852",
+      "message": "feat: 文档索引功能 - AI摘要生成与向量嵌入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T09:38:30Z",
+      "committer_date": "2026-05-01T09:38:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edfa382df6d972ac7f8ed954cc2d260dcd1006b5",
+      "message": "fix: handle raw sy json file responses",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T16:09:05Z",
+      "committer_date": "2026-04-27T16:09:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7ef5bfde1bf7f5aeff5c8ecb7e8850cd6f9daa5",
+      "message": "fix: localize analysis suggestion copy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T14:27:43Z",
+      "committer_date": "2026-04-27T14:27:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa7297821947ac4dea285b00f968d5e5a9180ca2",
+      "message": "feat: 配置内容不即时改变统计结果，用户主动刷新分析后才生效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T13:48:24Z",
+      "committer_date": "2026-04-27T13:48:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "738cc06d4e64e7595819cef502796f5e45cf0046",
+      "message": "Refine large document text counting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-24T14:19:19Z",
+      "committer_date": "2026-04-24T14:19:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "869026dbb6e5ffb7936cffd2a8ccb6190c610d02",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-20T15:15:28Z",
+      "committer_date": "2026-04-20T15:15:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84f24bcb7ee50b2d8d1472be6abedde39d7f1927",
+      "message": "Localize orphan AI suggestions in zh_CN",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:58:49Z",
+      "committer_date": "2026-04-18T08:58:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af9db79d401b7fa50af08c5de9a31ac82f150afc",
+      "message": "v0.8.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:30:43Z",
+      "committer_date": "2026-04-18T08:30:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e5ed406e9506a242dfcf5fa376c8503f0037e4c1",
+      "message": "Delay analysis scope updates until refresh",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T08:29:47Z",
+      "committer_date": "2026-04-18T08:29:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cc22c8e42188b1a0c3144ccf67f5514ed405786",
+      "message": "v0.8.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T07:20:36Z",
+      "committer_date": "2026-04-18T07:20:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "309d3f0cf67f6960a5deb7486c1c6721bd7adffa",
+      "message": "v0.8.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T06:59:30Z",
+      "committer_date": "2026-04-18T06:59:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c886ffe85aa1ba1c9f1ec5c522faba66f722e6a3",
+      "message": "feat: refine hero copy and layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T06:58:42Z",
+      "committer_date": "2026-04-18T06:58:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57c24833070666308c5eebaa3e5b94f30233c4d3",
+      "message": "feat: update hero bilingual layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T06:30:12Z",
+      "committer_date": "2026-04-18T06:30:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "288c82fda0e2d6a990f36c03f5b9cdfaaf13c9e4",
+      "message": "docs: add hero bilingual layout design spec",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T05:56:20Z",
+      "committer_date": "2026-04-18T05:56:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "19742ca3a78bedeffdadec03a2a8c7ec4c022bb4",
+      "message": "chore: update default ai request parameters",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T05:03:16Z",
+      "committer_date": "2026-04-18T05:03:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c68b732783ca186aaf5eabe343edc15c243529f",
+      "message": "fix: sanitize title affixes before AI recommendations",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-18T04:24:01Z",
+      "committer_date": "2026-04-18T04:24:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcddf3534c6fd234126458837b9c85d74a9cc20a",
+      "message": "Refine i18n cleanup and add regression guardrails",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T12:31:47Z",
+      "committer_date": "2026-04-17T12:31:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bfb5add6e92fce53f87eaa670bdfbf169a6430d",
+      "message": "refactor: bilingual UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T11:48:35Z",
+      "committer_date": "2026-04-17T11:48:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "092d26b337f79021751904d64a0102d8e7b4f670",
+      "message": "feat: add bilingual UI locale switching",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-16T16:02:39Z",
+      "committer_date": "2026-04-16T16:02:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ff9ea39d910a3eb3b7153afe96d8e3f46ed8c3c",
+      "message": "fix: refine today suggestions header layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T15:00:42Z",
+      "committer_date": "2026-04-14T15:00:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13bee01a290f0c93951083f4017617be9e1ea1b0",
+      "message": "feat: persist today suggestion history",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T15:08:14Z",
+      "committer_date": "2026-04-13T15:08:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95e78d1685dd17c30823a3de0116d56b1515e11a",
+      "message": "build: refresh package zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T14:18:05Z",
+      "committer_date": "2026-04-13T14:18:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e338f0e7dd80aa60b679911a59fb340d7262a573",
+      "message": "feat: support scoped theme paths and analysis exclusions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T14:15:54Z",
+      "committer_date": "2026-04-13T14:15:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a7c6c2954cf0a4f4f2fe960a087a7dd1d9116b6",
+      "message": "docs: add theme path and analysis scope design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T13:24:52Z",
+      "committer_date": "2026-04-13T13:24:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4daf02383613c84ee3419b0b1cbe08ca8f87d8b6",
+      "message": "fix: move today suggestions reanalyze button below title",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T12:59:52Z",
+      "committer_date": "2026-04-13T12:59:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "908c9607b8acc6778a3f6a224ae1b3add7fb543b",
+      "message": "feat: add console logging toggle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-13T12:49:20Z",
+      "committer_date": "2026-04-13T12:49:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f5304028771bd986c3ac6328bb4832a98074b874",
+      "message": "refactor analytics and UI state modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:20:09Z",
+      "committer_date": "2026-04-12T04:20:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf86bf2d0a866bbaef633d09cf95a2af677d1891",
+      "message": "v0.8.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T11:28:40Z",
+      "committer_date": "2026-04-11T11:28:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ecaab030b82a761925affb6d1034cd9f3605184",
+      "message": "feat: add alpha feature hide config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T07:41:21Z",
+      "committer_date": "2026-04-11T07:41:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c11c1f2a07735d66649f7d6603c3b9a7881e0b10",
+      "message": "Update sidebar icon",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T06:16:07Z",
+      "committer_date": "2026-04-11T06:16:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8182ebf1ccadf21fcbc98b705d45a63d7f494edc",
+      "message": "feat: move wiki maintenance actions into detail flows",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-10T14:52:39Z",
+      "committer_date": "2026-04-10T14:52:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "148280faef576d981a884859b87edff230d585c8",
+      "message": "Merge pull request #1 from famotime/feature/llm-wiki-phase5-6",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-04-09T23:15:53Z",
+      "committer_date": "2026-04-09T23:15:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dade2daca364253ed6f457cae31714e6f2b54c18",
+      "message": "feat: complete llm wiki phase 5 and 6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T23:06:04Z",
+      "committer_date": "2026-04-09T23:06:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b6c1a814c2238f59fae6d85315c520702689bd2",
+      "message": "chore: ignore local worktrees",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:16:31Z",
+      "committer_date": "2026-04-09T16:16:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82af83d77a2cb5508858ee3b6463f0528e6a29de",
+      "message": "feat: implement llm wiki phase 0-4",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-09T16:08:09Z",
+      "committer_date": "2026-04-09T16:08:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "273dd830e570c7141236212c7f9901bc29f10db5",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T15:25:38Z",
+      "committer_date": "2026-04-08T15:25:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "457db635a653098b0fd57b118fcc371128b707e5",
+      "message": "Refine AI provider profiles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T00:03:36Z",
+      "committer_date": "2026-04-05T00:03:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f0f8352ecf27d63560fcbda836b4206b4f825203",
+      "message": "Adjust orphan AI suggestion card hierarchy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T13:18:30Z",
+      "committer_date": "2026-04-04T13:18:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7353d5ba54680c3147a2ff6b0caf5d01d3d29a69",
+      "message": "Improve AI suggestion action pills",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T07:42:11Z",
+      "committer_date": "2026-04-04T07:42:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b3aa9adb26298eb8da8a12d1bbb15a8864bc4fb",
+      "message": "Refine AI inbox detail interactions and logging",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T05:21:02Z",
+      "committer_date": "2026-04-04T05:21:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a37f378a677e2348b133245064d76a486a5df6d7",
+      "message": "Refine settings panel AI controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T01:51:59Z",
+      "committer_date": "2026-04-04T01:51:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c370caf380d31500c07dffad47a05d7c1277ad8",
+      "message": "Refine AI provider settings UX",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T01:13:51Z",
+      "committer_date": "2026-04-04T01:13:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37e28eccafbd2fd2de310ace9be6f77eeac0dd6a",
+      "message": "Add AI provider presets and SiliconFlow model picker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T16:29:05Z",
+      "committer_date": "2026-04-03T16:29:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b02298d72c9cc8196778a7dfc9288cfbcd439919",
+      "message": "Add reusable document summary fields to AI index",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T15:23:48Z",
+      "committer_date": "2026-04-03T15:23:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd79cc0119e3cdee6c94836217d897a45302a6f3",
+      "message": "Persist AI suggestion index records",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T15:05:44Z",
+      "committer_date": "2026-04-03T15:05:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5b0160ab96f3e2c648308dadeebe9b09cd1bc99",
+      "message": "Refine AI orphan suggestions and tag syncing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T14:45:53Z",
+      "committer_date": "2026-04-03T14:45:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b5839887b09df5f09df05c798bc1a477a412877",
+      "message": "Add on-demand orphan AI link suggestions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T09:21:20Z",
+      "committer_date": "2026-04-03T09:21:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e51ce35126562ffb4043a127f75338e7deac415f",
+      "message": "Remove large document API import warning",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T04:15:04Z",
+      "committer_date": "2026-04-03T04:15:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "389104d5223ada0924c24d69a259f5d8107037da",
+      "message": "Enhance AI inbox action specificity",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T03:52:56Z",
+      "committer_date": "2026-04-03T03:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f666306e1b357b01d61061e4a5dbd2b4da2a2aa7",
+      "message": "Add configurable AI request diagnostics",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-02T13:09:37Z",
+      "committer_date": "2026-04-02T13:09:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd77ee8011b0895216aff23c796bcc4173c169ce",
+      "message": "Add AI inbox and context capacity controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-01T16:04:02Z",
+      "committer_date": "2026-04-01T16:04:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f95a2a53eaba2b76dcef4b886605a0e9d32532a",
+      "message": "v0.7.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-01T13:07:16Z",
+      "committer_date": "2026-04-01T13:07:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1468fa7d1c8ad477de56984638384012492e872f",
+      "message": "Adjust unread detail suggestions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T08:33:52Z",
+      "committer_date": "2026-03-29T08:33:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b6baaa82512c31d3d16b987e00917461c0c8376",
+      "message": "Adjust large document card thresholds",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T17:10:21Z",
+      "committer_date": "2026-03-28T17:10:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bbbde42bd6f525c3b1e9399758daa13689be79c6",
+      "message": "docs: add concept and AI planning docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-28T09:33:27Z",
+      "committer_date": "2026-03-28T09:35:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f720a48cd5f45280850c9bc37cca2945d77b20a6",
+      "message": "fix: address bazaar review issues",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T13:58:54Z",
+      "committer_date": "2026-03-27T13:58:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d225cb7464ff1f76d412177788f253ba903f5a63",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T14:48:40Z",
+      "committer_date": "2026-03-25T14:48:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eca38be7d78f0d33b059af832f768df3c8896eef",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T14:42:36Z",
+      "committer_date": "2026-03-25T14:42:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93d6d23bf21314ca95d107e475b2e955ec45abf1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T14:38:07Z",
+      "committer_date": "2026-03-25T14:38:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "02003d8cadcec58cb2ff5566fd51c8a355c1c4e7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T14:14:05Z",
+      "committer_date": "2026-03-25T14:14:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "810c3593a93061b465cf16917615a23049472ac6",
+      "message": "feat: update default summary card layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T14:00:03Z",
+      "committer_date": "2026-03-25T14:00:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "617b97ceb048482d7e8f508d6148e844138e9b93",
+      "message": "refactor: centralize summary card config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-25T13:18:10Z",
+      "committer_date": "2026-03-25T13:18:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3553c6b25ef24f941f76e1c2b1e4fa78c72c1bd7",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T14:46:16Z",
+      "committer_date": "2026-03-22T14:46:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98c09031a0b3955c2ce3cf7de1308a012e4bd6d9",
+      "message": "Polish initial analytics loading panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:22:02Z",
+      "committer_date": "2026-03-21T06:22:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a48146818f0a18965442faafe7e285a5b2169dc6",
+      "message": "Adjust selected summary card styling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:19:00Z",
+      "committer_date": "2026-03-21T06:19:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b0c522b6509b20e9ca8b18d148ee488f9bafb7f8",
+      "message": "Add notebook-scoped read path matching",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:12:54Z",
+      "committer_date": "2026-03-21T06:12:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cebc9367ef6b987d1c3003bf43c93c4714ec569",
+      "message": "项目重命名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T04:32:13Z",
+      "committer_date": "2026-03-21T04:32:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4122d6392ad7757858cdbece98d4f5807080a849",
+      "message": "fix: hide missing topic badge for theme docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T01:16:19Z",
+      "committer_date": "2026-03-16T01:16:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fd5dfeb009216ce0d235d184fb0c4efbf7d6f9c",
+      "message": "feat: align settings card toggles with visible cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T01:11:28Z",
+      "committer_date": "2026-03-16T01:11:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c428a8c91508707328b1e6e931f099a9fdc7596",
+      "message": "chore: rebuild package artifact",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T00:50:52Z",
+      "committer_date": "2026-03-16T00:50:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a85b8e35f18d7c24a9985d6a6637bab7b0e19c2",
+      "message": "refactor: split analytics and app presentation layers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T07:18:24Z",
+      "committer_date": "2026-03-14T07:18:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2716ef47dfe98e822f81fc494c2431e01a99e4e3",
+      "message": "文案优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T03:16:56Z",
+      "committer_date": "2026-03-14T03:16:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5832b285550cacdadf4f6fb4ef55622e15413732",
+      "message": "Refine hero icon and ranking detail cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T03:03:07Z",
+      "committer_date": "2026-03-14T03:03:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16ebeda4ba0e30fe671744e1568ce66b0b6f6698",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T02:15:52Z",
+      "committer_date": "2026-03-14T02:15:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98bc535f2043f672e832dae7fad91293199c696b",
+      "message": "Clarify README and fix ranking reference counts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T02:11:11Z",
+      "committer_date": "2026-03-14T02:11:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1f2091ca2989df2979091516c211db644968295a",
+      "message": "Add read and unread summary card toggle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T02:10:06Z",
+      "committer_date": "2026-03-14T02:10:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "09c131c4abeedfea9dd4f9b5115e9281a51d3bfd",
+      "message": "Add persistent summary card ordering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T00:40:12Z",
+      "committer_date": "2026-03-14T00:40:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac4dad23c6d081113edfa040de6ed8794951ad6b",
+      "message": "Improve dark filter dropdowns and tag multi-select",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T17:01:19Z",
+      "committer_date": "2026-03-13T17:01:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9b94c91af9ffbe2a150f72490897fddc01c77c8",
+      "message": "Refine trend detail panel layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T16:32:23Z",
+      "committer_date": "2026-03-13T16:32:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae026735cfe1181b6141023ae399e5d84946475b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T16:07:18Z",
+      "committer_date": "2026-03-13T16:07:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "921e1042b3daf30199834b044cd1252a90748133",
+      "message": "Support theme suggestions from document body content",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T15:51:21Z",
+      "committer_date": "2026-03-13T15:51:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "932a13aef1f65eb86609edb26f87c744d70051a1",
+      "message": "feat: mark theme docs in details and suppress promote-hub suggestion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T15:28:22Z",
+      "committer_date": "2026-03-13T15:28:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab40787219822132a659975d039984d2a94808d4",
+      "message": "Fix child document association detection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T14:59:30Z",
+      "committer_date": "2026-03-13T14:59:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2410d10dc40fbeaa4651831495e4c4f679b66c24",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T14:35:27Z",
+      "committer_date": "2026-03-13T14:35:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00bc04b6fa720acf238b2fb8c472a9aa37b40f22",
+      "message": "Integrate suggestions into detail cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T14:30:15Z",
+      "committer_date": "2026-03-13T14:30:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a96d6d2384aa903509edabfa8fefb271153abaff",
+      "message": "Fix local timestamp parsing for document samples",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T14:07:30Z",
+      "committer_date": "2026-03-13T14:07:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93bf665b0303ef068163834b5b2d9e4965b62ab2",
+      "message": "Add theme-based orphan link recovery workflow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T13:55:21Z",
+      "committer_date": "2026-03-13T13:55:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7103511b1624ca77b418b88de4e62584f79dbaa",
+      "message": "feat: move dormant threshold into detail",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T06:52:08Z",
+      "committer_date": "2026-03-13T06:52:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c28a4ff15d2e150855772fd21c8a6cfbf039acf3",
+      "message": "feat: move orphan sort into orphan detail",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T06:43:49Z",
+      "committer_date": "2026-03-13T06:43:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "caaaf06c88165a5a19d65c6b15164642748b1756",
+      "message": "feat: merge paths into propagation details",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T03:51:31Z",
+      "committer_date": "2026-03-13T03:51:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b10a2b2f3b3d239cc442c38c10a9e1003f8317b9",
+      "message": "feat: consolidate panels into summary cards",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T03:40:54Z",
+      "committer_date": "2026-03-13T03:40:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "312115f84be568134192567cabed7c1a67c0b753",
+      "message": "feat: add caret states for link groups",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T03:12:22Z",
+      "committer_date": "2026-03-13T03:12:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fa97856f24fd581a67c0350b1a52a8e005bd2fe",
+      "message": "fix: avoid code-splitting in analytics loader",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T03:00:05Z",
+      "committer_date": "2026-03-13T03:00:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b7f525054618fcaef4533e16c52bb00a6d7575ef",
+      "message": "refactor: extract analytics composable and ranking panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T02:43:05Z",
+      "committer_date": "2026-03-13T02:43:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23bdd3325235d1b9a6908d5f7a651d121ebf83b1",
+      "message": "feat: replace evidence panel with link associations",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T01:56:58Z",
+      "committer_date": "2026-03-13T01:56:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65170f076600865eb6112a534937656f60370160",
+      "message": "feat: apply time range to all panels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-13T01:32:35Z",
+      "committer_date": "2026-03-13T01:32:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4db98b766dee575fe7d7ec7ed6d79a3b0a29825b",
+      "message": "feat: move summary card hints to tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T17:35:03Z",
+      "committer_date": "2026-03-12T17:35:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d14db3ca4998d19d84b0d53c7717c3aed10e6b61",
+      "message": "feat: 重构了视觉界面并引入了独立的设置页面",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T17:02:39Z",
+      "committer_date": "2026-03-12T17:02:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca18a3205e9229fa074a155d439e0c8d3c50e7c0",
+      "message": "Unify inbound/outbound counts by unique document links",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T16:41:30Z",
+      "committer_date": "2026-03-12T16:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dca691c2e9ad1ef5788facccf1f7ff234d243021",
+      "message": "Fix dark theme card backgrounds",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T15:53:55Z",
+      "committer_date": "2026-03-12T15:53:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c1b4f36895d099db0e8693009d2b21ebd8c2c86",
+      "message": "Handle single-quoted refs and add query limits",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T15:46:42Z",
+      "committer_date": "2026-03-12T15:46:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2504683f2036389b6dccbae563439f4aac34914",
+      "message": "Add collapsible panels and stack layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T15:30:14Z",
+      "committer_date": "2026-03-12T15:30:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f3229929a1d9f867417eafe75190ba7ac6bf27c",
+      "message": "chore: add agent instructions and rebuild package",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T12:33:29Z",
+      "committer_date": "2026-03-12T12:33:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9ece9947625443ff91762d1389ee7ee627b19ba",
+      "message": "Add clickable summary card details",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T06:47:58Z",
+      "committer_date": "2026-03-12T06:47:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "235eb7d67dc1abd235e2bd47168987bf6a204fe4",
+      "message": "Fix document link and orphan detection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T02:46:34Z",
+      "committer_date": "2026-03-12T02:46:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "615da8a5f715e17429f492ca6936f807a1e3566e",
+      "message": "Add internal link and propagation analytics",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T01:53:44Z",
+      "committer_date": "2026-03-12T01:53:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aaafb45c668a1b06c5f2d4dc4c4ddeca70fde87e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-11T16:04:23Z",
+      "committer_date": "2026-03-11T16:04:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63e94d4f578c38e893445b043cb8ef14b778faa1",
+      "message": "feat: implement reference analytics plugin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-11T16:03:29Z",
+      "committer_date": "2026-03-11T16:03:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3cac4d57c6c423ec27c52a809a787f8fa5cd059",
+      "message": "initial",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-11T15:27:16Z",
+      "committer_date": "2026-03-11T15:27:16Z",
+      "login": "famotime"
+    }
+  ]
+}

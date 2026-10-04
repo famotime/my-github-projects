@@ -1,0 +1,2193 @@
+{
+  "pushed_at": "2026-02-08T05:06:39Z",
+  "count": 243,
+  "commits": [
+    {
+      "sha": "64d6ed8786311f5567c7f8617271691cbb99639f",
+      "message": "feat(echo-chess): 禅模式穿插数据库关卡增加趣味性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T05:06:13Z",
+      "committer_date": "2026-02-08T05:06:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a18df9f0a4ef3d1453511bbcbe64bb5f8c72d3c",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:17:09Z",
+      "committer_date": "2026-02-08T04:17:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe1ba2eb074da9f7f0773a5ae8fbe43f620c3158",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:17:05Z",
+      "committer_date": "2026-02-08T04:17:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5ddfaabc9d92212b6456ef65bab8ff1a9e0189f6",
+      "message": "feat(echo-chess): 添加拖放走子支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:12:28Z",
+      "committer_date": "2026-02-08T04:12:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c6fc3a1a3e27720fe3250a37c12871556c90327",
+      "message": "fix(echo-chess): 修复统计数据未更新问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T04:01:36Z",
+      "committer_date": "2026-02-08T04:01:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f8c498230546e67be12f2ca6e8278e1015ccae4",
+      "message": "fix(echo-chess): 修复关卡浏览器步数筛选无法显示>20步关卡的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-08T01:36:17Z",
+      "committer_date": "2026-02-08T01:36:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ba9580a3f1a4ec96b04300daa4d3d969e68ae17",
+      "message": "Added 20260206173040_20260207_update_puzzle_category_rule.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-06T17:34:25Z",
+      "committer_date": "2026-02-06T17:34:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f21edd4dd6dcbd59c1bbde897100beb0fc5653ef",
+      "message": "允许重复通关每日谜题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-06T17:29:21Z",
+      "committer_date": "2026-02-06T17:29:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ca5bd3ef2068011f01a7a0888ca3294855a2c23",
+      "message": "修复”每日谜题“关卡筛选问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-06T16:49:17Z",
+      "committer_date": "2026-02-06T16:49:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea815e0b8a724f46f6a242030028864ef9d558ef",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-06T15:49:38Z",
+      "committer_date": "2026-02-06T15:49:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f45520220bd41a4ea903f0f05d543f4e6732ad67",
+      "message": "修复关卡浏览器中多次通过关卡后，解决次数未计数问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-06T15:49:34Z",
+      "committer_date": "2026-02-06T15:49:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78558961d5854ebaa3bfe98d546e24c86ca9a665",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-03T13:54:53Z",
+      "committer_date": "2026-02-03T13:54:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e4a8e1730c9c323e765342335ea15742bd2c0451",
+      "message": "更新gemini api",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-03T13:48:12Z",
+      "committer_date": "2026-02-03T13:48:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6598ff657a781796ea3abcbf93503e6c851f518d",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-03T13:46:09Z",
+      "committer_date": "2026-02-03T13:46:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aeb4e2f62bf591e3874961e2e4c707b74a6269d0",
+      "message": "更新Gemini API Key",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-03T13:44:20Z",
+      "committer_date": "2026-02-03T13:44:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "536b1637c9939135f01dd116da4643b93060f3a1",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-03T13:20:20Z",
+      "committer_date": "2026-02-03T13:20:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3f0f8c536f0b4a90c098d97d8f468cd2f2c50e03",
+      "message": "echo chess 关卡编辑器优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-29T12:55:05Z",
+      "committer_date": "2026-01-29T12:55:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d3f417b3662d7b6fcaa34ed87790abd600c823e",
+      "message": "feat: 求解器支持简化版 FEN",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-29T12:26:27Z",
+      "committer_date": "2026-01-29T12:26:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "628ab0d9dc991bb7bf064112f61158bec7f46c6d",
+      "message": "feat: Echo Chess 关卡求解器支持键盘左右箭头键控制步骤",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-29T12:15:33Z",
+      "committer_date": "2026-01-29T12:15:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a0406ae537f117fb8c1e05e1349818165da3375",
+      "message": "文案优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-29T11:40:53Z",
+      "committer_date": "2026-01-29T11:40:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf435bb4bc90f9dedfbf0febc9ce580f4233d36a",
+      "message": "feat(echo-chess): implement daily puzzle limits and access control",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-29T02:58:10Z",
+      "committer_date": "2026-01-29T02:58:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef482ce21b0e90195a98e3a28e836a7729bab7b0",
+      "message": "优化echo chess关卡随机生成算法",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T15:41:47Z",
+      "committer_date": "2026-01-28T15:41:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5980286501b14ba96c7425c9807d4ccea56d1e70",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T15:41:08Z",
+      "committer_date": "2026-01-28T15:41:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0d1a3cc050b7ab605ca0b51ea8edd0d3ffb783c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T14:36:26Z",
+      "committer_date": "2026-01-28T14:36:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bca611eb0c1cb84282f3397b4f75945bdd3b7c0b",
+      "message": "refactor(echo-chess): modularize puzzle generator into focused modules (P1.2)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T14:08:42Z",
+      "committer_date": "2026-01-28T14:08:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1cdf0b93f5784dfa4c233cd071f43a3dd991a4b2",
+      "message": "refactor(echo-chess): complete P0.2 compound-fen migration and tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T13:04:15Z",
+      "committer_date": "2026-01-28T13:04:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31dd44f9253a4ec3a4bc119c134725fe56788f1c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T12:29:42Z",
+      "committer_date": "2026-01-28T12:29:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9d155fec9b183d61427f6809968bf54423bce6d",
+      "message": "refactor(echo-chess): modularize editor hook into focused modules (P1.1)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T10:59:08Z",
+      "committer_date": "2026-01-28T10:59:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d8c1f0d8bd4379d4022745d50697878d7ab9fa8",
+      "message": "perf(echo-chess): optimize Zen mode timer and callback stability (P1.3)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T10:22:13Z",
+      "committer_date": "2026-01-28T10:22:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "693fdaabdedb42e0e492601733b2063bdd602668",
+      "message": "refactor(echo-chess): extract compound-fen parser into modular architecture (P0.2)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T09:46:27Z",
+      "committer_date": "2026-01-28T09:46:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "664a539573946c288493b4ba4d1a0a5050b09724",
+      "message": "test(echo-chess): add comprehensive unit tests for core module",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T07:36:20Z",
+      "committer_date": "2026-01-28T07:36:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8af94a247ce4062f7ddd609a81e7e1f03331ffe",
+      "message": "refactor(echo-chess): extract shared core logic to eliminate code duplication",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T07:34:48Z",
+      "committer_date": "2026-01-28T07:34:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c789ee822ae182b28a09a245d7e71d90b1cf7127",
+      "message": "fix(echo-chess): 修复关卡浏览界面步数更新问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T03:01:43Z",
+      "committer_date": "2026-01-28T03:01:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb89e42164d57d9c61457c13bcceef7a0952cfd7",
+      "message": "fix(echo-chess): 修复手工过关模式走子高亮覆盖棋盘底色问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T02:32:37Z",
+      "committer_date": "2026-01-28T02:32:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4d55a005f67a9fd9431fb4114ca388eb2522ef9",
+      "message": "feat(echo-chess): 关卡编辑器添加实时 Compound FEN 显示框",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-28T01:53:18Z",
+      "committer_date": "2026-01-28T01:53:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a8e60a4d44606d142b9b0d7a83a686ba9490e02",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T15:10:43Z",
+      "committer_date": "2026-01-27T15:10:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5971e124551bd25c8a58c6fc877f8a60071bdfae",
+      "message": "feat(echo-chess): 修复禅模式步数保存和添加关卡最优步数记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T14:53:17Z",
+      "committer_date": "2026-01-27T14:53:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fd1481daaf82f041648d95a3011b8cbf6a11299",
+      "message": "fix(echo-chess): 修复每日关卡忽略边界格问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T14:49:28Z",
+      "committer_date": "2026-01-27T14:49:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac2700a45fea926a457559d27a0c58aaf0e88453",
+      "message": "fix(echo-chess): 修复 EditorBoard 遗漏的 dark 变量引用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T14:43:47Z",
+      "committer_date": "2026-01-27T14:43:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2889e1e1be49d7826e4804ae3b967f78d32f5f21",
+      "message": "fix(echo-chess): 统一所有入口棋盘主题跟随全局设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T14:42:43Z",
+      "committer_date": "2026-01-27T14:42:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e1e7be681cd579adec55c52eac0d5aa30158e21",
+      "message": "fix(echo-chess-editor): 修复边界格工具图标与实际效果不一致问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T13:55:21Z",
+      "committer_date": "2026-01-27T13:55:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd941cce4302b1209768ca2cfb1ca29c424c6125",
+      "message": "feat(echo-chess): 优化每日关卡选择算法使用三级优先级策略",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T13:02:43Z",
+      "committer_date": "2026-01-27T13:02:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9491cc68626e66f306c31474577bba7f14865e6",
+      "message": "fix(echo-chess): 修复关卡浏览难度筛选功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T12:44:06Z",
+      "committer_date": "2026-01-27T12:44:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3dde721e01b33310044f658d2a71d7098299d2d",
+      "message": "fix(echo-chess-editor): 修复求解器无限循环和手工过关问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T11:56:41Z",
+      "committer_date": "2026-01-27T11:56:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bd1145490e5f289c93f3ad7664f67270ee6ed83",
+      "message": "feat(echo-chess-editor): 完善编辑器功能和解法播放系统",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T01:17:55Z",
+      "committer_date": "2026-01-27T01:17:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f071ac266eca91772f15d37cdc250a7a0d7cdd4",
+      "message": "fix(echo-chess-editor): 修复播放按钮无反应问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-27T01:14:08Z",
+      "committer_date": "2026-01-27T01:14:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a48dbcc9903789c5ae3e4af1fabffcd5124a941",
+      "message": "feat(echo-chess-editor): use SVG pieces and inline manual play mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-26T16:33:01Z",
+      "committer_date": "2026-01-26T16:33:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf885692ab7448fce3268f70a2fcba528307ced8",
+      "message": "style(echo-chess): 手工过关使用绿点显示可移动格子",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-26T16:19:50Z",
+      "committer_date": "2026-01-26T16:19:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87a5722e946dc949aa85af32f70300a91f06e001",
+      "message": "fix(echo-chess): 修复手动过关模态框的状态访问错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-26T16:15:10Z",
+      "committer_date": "2026-01-26T16:15:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9dacf4d22491a60c0942a550c6547e4503f949df",
+      "message": "Merge pull request #2 from famotime/codex/locate-and-fix-a-critical-bug",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-25T03:14:26Z",
+      "committer_date": "2026-01-25T03:14:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f403e0d50971184e6f03f32153f7b3c166bfe238",
+      "message": "fix: 校验 FEN/PGN 加载结果",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-25T03:12:00Z",
+      "committer_date": "2026-01-25T03:12:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c4a549916e91971f6e2ea835f266088323e9b16",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-25T02:21:19Z",
+      "committer_date": "2026-01-25T02:21:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f8f57a9d46e551a8b7a58bf4653f9db8f99fabc",
+      "message": "增加echo chess关卡编辑器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-25T00:35:51Z",
+      "committer_date": "2026-01-25T00:35:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be21e30001186d65ecfadc24e68705abd73eb204",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-24T15:16:54Z",
+      "committer_date": "2026-01-24T15:16:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "093d1edd94d262c3d987cf2e4fee9060c6714a6d",
+      "message": "Added 20260124151502_20260125_add_admin_override_fields.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-24T15:15:23Z",
+      "committer_date": "2026-01-24T15:15:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae6910c61d7a52fde0b0a0b5c25c9419b6230cfc",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T15:06:29Z",
+      "committer_date": "2026-01-24T15:06:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6547d3f3f98983770a4fa8238b1bd1ebf8259997",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T15:06:18Z",
+      "committer_date": "2026-01-24T15:06:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f65e7b53083d540de77c36128edbba45a8c3e2ff",
+      "message": "feat(echo-chess): 优化禅模式谜题生成算法",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T15:06:01Z",
+      "committer_date": "2026-01-24T15:06:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1eb33e6509f8aaf5da8fafba7a86494815a728fa",
+      "message": "update prompt",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T15:03:54Z",
+      "committer_date": "2026-01-24T15:03:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ddf3dc20e61d1e39f2e240c80c607d1bcd8a6ef",
+      "message": "feat(echo-chess): 关卡浏览页面增强 - 贡献者显示与管理员权限",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:59:29Z",
+      "committer_date": "2026-01-24T14:59:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "945ee15c554ac0bf7846f50c1418daae22f44211",
+      "message": "feat(echo-chess): 求解器添加截图识别功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:56:10Z",
+      "committer_date": "2026-01-24T14:56:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "036b8df4d2c85573eddd281ac72c491ad21839f5",
+      "message": "feat(echo-chess): 每日挑战优先选择高评分关卡",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:33:46Z",
+      "committer_date": "2026-01-24T14:33:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9eb4453c07b0db25cbef0731f4b59f384dc72af6",
+      "message": "refactor(echo-chess): 拆分众包服务为专注模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:29:08Z",
+      "committer_date": "2026-01-24T14:29:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e17ad016d11269383196be1e84bdd1101abe1407",
+      "message": "feat(echo-chess): 求解器保存时检测重复关卡并支持覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:22:06Z",
+      "committer_date": "2026-01-24T14:22:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8b3abbe019321a004edcf4e4b33954a42f4a1b5",
+      "message": "Echo Chess模块重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T14:01:33Z",
+      "committer_date": "2026-01-24T14:01:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90def78c9ebd12d597d3b5b174e74043e6ace6a5",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T02:57:07Z",
+      "committer_date": "2026-01-24T02:57:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84d6448d5637de7c0b9bc47b0e025327ce9011b4",
+      "message": "修复“边界格”处理问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T02:57:02Z",
+      "committer_date": "2026-01-24T02:57:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3be0b0c8e17d1a272181de2f92f9c05e8faf856",
+      "message": "fix(echo-chess): 修复求解器边界格处理问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T02:52:46Z",
+      "committer_date": "2026-01-24T02:52:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5062e398583c5f2600cd3be9dd8a74e16b40fdf2",
+      "message": "Deleted vite.config.ts.timestamp-1769215546244-1cd7540a09de48.mjs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-24T00:45:53Z",
+      "committer_date": "2026-01-24T00:45:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9b784202c5e1c57eea0f1c6634b52635c538265",
+      "message": "Added vite.config.ts.timestamp-1769215546244-1cd7540a09de48.mjs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-24T00:45:51Z",
+      "committer_date": "2026-01-24T00:45:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcb39253c1f039342149a833bbdcc83d345248c4",
+      "message": "增加echo chess求解器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-24T00:41:45Z",
+      "committer_date": "2026-01-24T00:41:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ae551da9fdd58927f566d61077398088819595e",
+      "message": "feat(echo-chess): 添加关卡浏览功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T16:39:52Z",
+      "committer_date": "2026-01-23T16:39:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e0b2e2060f36d36b200a3f32d4617dd8f380d91",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T16:11:38Z",
+      "committer_date": "2026-01-23T16:11:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1021f2462d8f8b544e82bb83732467cb64a42e6f",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T15:11:40Z",
+      "committer_date": "2026-01-23T15:11:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f945feb0821c5f75e4690a4f7ff300ebc419ad8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T15:11:37Z",
+      "committer_date": "2026-01-23T15:11:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34edf43edd40c159ce60a0aea91d9b9316e574b1",
+      "message": "feat(echo-chess): 每日关卡优先从众包池获取已验证关卡",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T15:10:52Z",
+      "committer_date": "2026-01-23T15:10:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85a69be4da116383305a9997e6f8c388ed50c224",
+      "message": "fix(echo-chess): 修复棋盘抖动和排行榜问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T15:05:23Z",
+      "committer_date": "2026-01-23T15:05:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4508a01dfb98fa8e5ab17d503f15dfc9bb1fdcea",
+      "message": "docs: update documentation for Echo Chess Zen mode features",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T14:43:49Z",
+      "committer_date": "2026-01-23T14:43:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7bf6389b33b91f8c44e7d36b00c6fa05c8e49fb4",
+      "message": "feat(echo-chess): save game record on early exit from Zen mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T14:40:15Z",
+      "committer_date": "2026-01-23T14:40:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27a0c83155fb77f849f0867b59543dc2ed858af6",
+      "message": "Added 20260123143140_20251225225300_update_preset_avatars_to_chess_icons.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-23T14:32:43Z",
+      "committer_date": "2026-01-23T14:32:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "361fe332f1bce664700ee91e6f13b1c02994d783",
+      "message": "feat(echo-chess): add leaderboard and profile stats",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T14:26:12Z",
+      "committer_date": "2026-01-23T14:26:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d7799bbacd3bb992125e187f75a67d61f8432a7",
+      "message": "feat(echo-chess): add Zen mode with crowdsourcing puzzle validation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T14:06:29Z",
+      "committer_date": "2026-01-23T14:06:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d9b8c8e2884b7cdad93485805ae3f717f373db6",
+      "message": "新增echo chess设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T12:43:19Z",
+      "committer_date": "2026-01-23T12:43:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bc39d4c42087857fb957d6d7548b3179294667d",
+      "message": "feat(echo-chess): 实现CompoundFEN编码系统支持传送门",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-23T12:41:17Z",
+      "committer_date": "2026-01-23T12:41:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "429e8655a0e9676521fdfbf6adb64d5d35b2774b",
+      "message": "新增Echo Chess人机对战模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-22T14:39:24Z",
+      "committer_date": "2026-01-22T14:39:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01c624430952d31b472309282c43952962937911",
+      "message": "echo chess开发计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-22T12:25:22Z",
+      "committer_date": "2026-01-22T12:25:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22cb18c2dc92e03cc32d15e15e0ec7bca579788b",
+      "message": "feat(arena): hide simulation buttons by default, show on hover",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-21T15:46:18Z",
+      "committer_date": "2026-01-21T15:46:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0382637092bba508a5a90fa626600977e47823b3",
+      "message": "对战模式聊天框高度与棋盘高度一致",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-21T14:56:22Z",
+      "committer_date": "2026-01-21T14:56:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "97e584eb2e1cf8deb0caae8657be644fbbcdd99f",
+      "message": "claude code 开发环境配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-21T14:32:20Z",
+      "committer_date": "2026-01-21T14:32:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37ea1c8ecbcc0cca6b28d3157c018724e7d1ffc2",
+      "message": "进入对战“身经百战”、“棋道大会”模式要求用户登录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-20T14:19:24Z",
+      "committer_date": "2026-01-20T14:19:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cbb1f0a8d4124dcb25c8150a80a956dc57b36521",
+      "message": "对战模式UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T14:06:10Z",
+      "committer_date": "2026-01-18T14:06:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8b37dc2d9dba7d1ae542cdc8c41e8837673c279",
+      "message": "Updated index.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T13:58:22Z",
+      "committer_date": "2026-01-18T13:58:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1b4edc4c0db5ffbfcc082476f07cbf20a4dea98",
+      "message": "Updated chess.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T13:26:39Z",
+      "committer_date": "2026-01-18T13:26:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e48477dc044d7ddb60e49103a8e296737ccbcea6",
+      "message": "修复“身经百战”和“棋道大会”模式的AI聊天未触发问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T13:07:07Z",
+      "committer_date": "2026-01-18T13:07:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd02b0a418d798681d15919d0d0a9730855a1b18",
+      "message": "Updated index.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T10:49:22Z",
+      "committer_date": "2026-01-18T10:49:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6b229220525ac5d066577c91c98cf98b5064d78",
+      "message": "Updated index.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T10:46:48Z",
+      "committer_date": "2026-01-18T10:46:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef56d6b2a691954016005db72faf5ac2bd111cb6",
+      "message": "Updated index.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T10:33:11Z",
+      "committer_date": "2026-01-18T10:33:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23191764c667815f552dbd5756ba852ebc593e8f",
+      "message": "Updated PlayMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-18T10:29:13Z",
+      "committer_date": "2026-01-18T10:29:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca98110ab7ae7fcbf0eedfb2f8401d82b4876756",
+      "message": "“棋道大会”模式UI交互优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T10:11:27Z",
+      "committer_date": "2026-01-18T10:11:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dcd6804c6a8db228344ee72559d5adec25c27519",
+      "message": "“竞技场”模式优化UI和处理逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T09:54:41Z",
+      "committer_date": "2026-01-18T09:54:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c8b6461cb59217211806ea2906f4d212fc346b9",
+      "message": "对战模式UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T09:12:36Z",
+      "committer_date": "2026-01-18T09:12:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "faf6eb36b604b5498a292db629969646090b9fef",
+      "message": "对战新增”身经百战“模式和”竞技场“模式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-18T08:06:12Z",
+      "committer_date": "2026-01-18T08:06:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01bc2b278859beb43eb7c29e6c71eeee6c95b264",
+      "message": "优化AI讲解内容显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T05:46:06Z",
+      "committer_date": "2026-01-02T05:46:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb8149dc3e123aeb99d49e9221e0037198ab823c",
+      "message": "优化AI讲解内容显示样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T05:35:02Z",
+      "committer_date": "2026-01-02T05:35:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60bf6d016ba3afc063e95d94089e900bad6894b4",
+      "message": "AI讲解提示词优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T05:16:16Z",
+      "committer_date": "2026-01-02T05:16:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1143670642cd056bb0f0e81a80360035c7787d6",
+      "message": "Updated index.css",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-02T05:04:04Z",
+      "committer_date": "2026-01-02T05:04:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f45b4e5764575771d9ab1d1118ff46582a47e96c",
+      "message": "侧边栏UI优化，统一风格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T04:31:00Z",
+      "committer_date": "2026-01-02T04:31:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35c82c4542a951bfc7e9f2ce4200614a763c424f",
+      "message": "分析模式右侧栏UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T04:16:44Z",
+      "committer_date": "2026-01-02T04:16:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "204d59d56ec7ea036b2aa81e6a041444e4a12eb9",
+      "message": "PlayMode 组件拆分与性能优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-02T03:12:02Z",
+      "committer_date": "2026-01-02T03:12:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7984baecd7f750a19036b43a7d14f95fc9d409e",
+      "message": "Added ai_commentary_migration.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-01-01T14:56:21Z",
+      "committer_date": "2026-01-01T14:56:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c885f7523a26ab1abaaf866c552c3fefea9d51a0",
+      "message": "TutorialMode 逻辑拆分重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T14:22:58Z",
+      "committer_date": "2026-01-01T14:22:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dfd5988056b5f322c32901752b37264b0039ca6b",
+      "message": "usePlayGame 状态管理重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T12:31:10Z",
+      "committer_date": "2026-01-01T12:31:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d68aa0287654a6c02efabd08239760ecc433ded",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T11:08:01Z",
+      "committer_date": "2026-01-01T11:08:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6c0355223c2f766e656f86fd9eb25b9fdfcc0c3",
+      "message": "useTutorialSession 巨型 Hook 拆解",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T10:34:26Z",
+      "committer_date": "2026-01-01T10:34:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "149bc63e60ce0d67b4da61b450a7215d7fda536f",
+      "message": "重构拆分 AnalysisMode 组件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T09:01:16Z",
+      "committer_date": "2026-01-01T09:01:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af6a41b6804130ff268315f2717d99ccf7dbb41e",
+      "message": "对局分析工具栏UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T08:34:12Z",
+      "committer_date": "2026-01-01T08:34:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e823ced602166325c36e2eb67a6f07a4c227ca62",
+      "message": "分析模式支持AI讲解",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T07:52:35Z",
+      "committer_date": "2026-01-01T07:52:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c83842959a98d042034c391e49413a01e8869a26",
+      "message": "魅影模式显示优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T01:20:51Z",
+      "committer_date": "2026-01-01T01:20:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61bb80ba98b5ac3225990cee0411ca673973846c",
+      "message": "分析模式支持“魅影”显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-01-01T00:55:28Z",
+      "committer_date": "2026-01-01T00:55:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9037787f6b20270064ae0a06de9d0949de4d5b7",
+      "message": "分析模式增加“建议走法”开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-28T08:57:45Z",
+      "committer_date": "2025-12-28T08:57:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4fec3d82b938e4f1c2dc6c186f9a954a273c2658",
+      "message": "私服预置教程导入后未能显示图片问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-28T04:43:55Z",
+      "committer_date": "2025-12-28T04:43:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "309b19ec37d89a40ef526782c7b4f1a8065e2f88",
+      "message": "首次加载棋局评估胜率时提供友好提示信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-28T04:35:50Z",
+      "committer_date": "2025-12-28T04:35:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9becfacfc8566b533d2736dad6b92371e3bc7fc0",
+      "message": "优化对局页面加载时间",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-28T04:18:49Z",
+      "committer_date": "2025-12-28T04:18:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b9d33dc4750baf7f53ef4bb8064a142fdfc16802",
+      "message": "分析模式也支持多分支练习",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-28T02:59:54Z",
+      "committer_date": "2025-12-28T02:59:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c1b89c3dc22f56712e6f0f274f9f844595281e4",
+      "message": "Updated README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-27T16:03:01Z",
+      "committer_date": "2025-12-27T16:03:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e808d03fe1a9a4d9c6aebcdae1a404bfb248ca4",
+      "message": "对战模式代码重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-27T15:47:27Z",
+      "committer_date": "2025-12-27T15:47:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "850b48273dd41535e659cab1570f9c214ff3720b",
+      "message": "更新文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-27T14:59:32Z",
+      "committer_date": "2025-12-27T14:59:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f8ce7124e78b141e1fae07ab5270f80c00115ca",
+      "message": "优化按键控制播放步骤功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-27T14:02:11Z",
+      "committer_date": "2025-12-27T14:02:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50fe06aa2b3c81ac455d8c11eb64d4f71074ee05",
+      "message": "UI 优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-26T12:37:05Z",
+      "committer_date": "2025-12-26T12:37:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27711bd4d60a1faf3f00fce8b24b4f8d06630d35",
+      "message": "UI 优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-25T15:47:44Z",
+      "committer_date": "2025-12-25T15:47:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8cb640baed172dfb6cb963fe37132c980343f5b9",
+      "message": "修复用户头像无法更新问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-25T15:15:09Z",
+      "committer_date": "2025-12-25T15:15:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca1b88b41180b4b7d2888c23647235d914ddbe1a",
+      "message": "替换默认的用户头像图片；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-25T14:50:02Z",
+      "committer_date": "2025-12-25T14:50:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ddea2967f5026f57b37c4ae4b829e5586b98cb4",
+      "message": "支持将“走法记录”中的PGN步骤的棋子代号转换为形象化字符展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-25T14:01:38Z",
+      "committer_date": "2025-12-25T14:01:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fdcf8fd9a9059021c8461882ed39251d53c2f24d",
+      "message": "feat: Add PGN game library, featured tutorials page, and theme context with new UI components and styling updates.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-25T13:11:55Z",
+      "committer_date": "2025-12-25T13:11:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d737e085ad486036f1eb45e4a6f1feca64cb9df4",
+      "message": "代码重构、页面性能优化、UI体验优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-21T02:53:38Z",
+      "committer_date": "2025-12-21T02:53:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9ee61400cee0e1c7cd64cda12f011d4c2f8a3d27",
+      "message": "首页彩蛋效果优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-21T00:18:34Z",
+      "committer_date": "2025-12-21T00:18:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "137dcecb968ec03e3392e4b32285a24fa0b58d4d",
+      "message": "留言板优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T14:55:39Z",
+      "committer_date": "2025-12-20T14:55:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75077484b4473718c58f6e43e6d91dd7c7896eda",
+      "message": "首页彩蛋",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T13:37:23Z",
+      "committer_date": "2025-12-20T13:37:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "26c1936d455d52befc5ff8d5da7ece1560d56ab5",
+      "message": "UI问题优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T12:54:59Z",
+      "committer_date": "2025-12-20T12:54:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d501069a65459fba12547cda3223d30fab54d8a",
+      "message": "规范预置教程",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T12:40:23Z",
+      "committer_date": "2025-12-20T12:40:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34d4f5385e5c1cb2f45c3fa3f7295506b6679771",
+      "message": "教程代码块内PGN步骤序列解析方法优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T11:14:43Z",
+      "committer_date": "2025-12-20T11:14:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15552a11383b479d605b16112c42d3809bfc1c38",
+      "message": "修复教程中支线步骤解析问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T10:17:36Z",
+      "committer_date": "2025-12-20T10:17:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18db95817b92ddde1fa301987744ae009a1f33bb",
+      "message": "对战模式支持导入残局，支持棋局图片识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T07:45:13Z",
+      "committer_date": "2025-12-20T07:45:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffe84fd80d2bf391833803723dc82f414e64f758",
+      "message": "游客用户也支持导入教程和对局，但是导入范围和数量受限",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T05:43:24Z",
+      "committer_date": "2025-12-20T05:43:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c38df6d8daf24ac6ffb9397805516d58ef2d7947",
+      "message": "UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-20T02:40:58Z",
+      "committer_date": "2025-12-20T02:40:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a35b756eae4aa6de0efb0fb45dd57d0c5580073",
+      "message": "修复分析模式重复导入等问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-19T17:09:24Z",
+      "committer_date": "2025-12-19T17:09:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c3d06715524900356261c4f9e87d1e45ed57cce",
+      "message": "分析模式导入对局支持胜率可视化计算",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-19T15:44:44Z",
+      "committer_date": "2025-12-19T15:44:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1e78f9accdc0ebb6a689a6245d973474d6f971a",
+      "message": "分析模式导入对局，支持单pgn文件多棋局导入，支持对应步骤的讲解注释内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-19T15:35:47Z",
+      "committer_date": "2025-12-19T15:35:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b504ec0f03dcd034fb4a93aee24271e8c81ec1a9",
+      "message": "分析模式增加导入“对局”文件功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-19T14:49:59Z",
+      "committer_date": "2025-12-19T14:49:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bde37bdfa1bf18c77bb9e21f85daa906c99b7b0f",
+      "message": "UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-18T16:10:00Z",
+      "committer_date": "2025-12-18T16:10:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "182a4fbc12c1d1895e8a8e64af4843ffdb763bcc",
+      "message": "增强教程内容解析，支持从文本中提取括号包裹的合法PGN分支步骤",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-18T15:16:27Z",
+      "committer_date": "2025-12-18T15:16:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c90be4065d9f95f42a86ae08c2dfd126ca6e9f87",
+      "message": "优化教程模式的分支步骤显示，修复手动走子时无法重新续接步骤的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-18T14:42:52Z",
+      "committer_date": "2025-12-18T14:42:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c30ee0a50243ce23ce53af7578652108af4983d6",
+      "message": "优化教程模式的多分支支持，支持分支胜率可视化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-18T12:55:18Z",
+      "committer_date": "2025-12-18T12:55:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b25e679d11c0d704b7f57c91a0af44106dd6bfaf",
+      "message": "教程导入支持解析多分支",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-17T16:56:15Z",
+      "committer_date": "2025-12-17T16:56:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "057114159e76aaced938327b64a8e3598b20e366",
+      "message": "教程模式-练习模式：支持多分支",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-17T15:29:15Z",
+      "committer_date": "2025-12-17T15:29:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7c4f7ced7615cbd2573a681bcfcdc47d01444a3",
+      "message": "教程模式练习分支功能优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-16T15:46:01Z",
+      "committer_date": "2025-12-16T15:46:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b4280797d3af590abd4984ba2dc16df274d10ee",
+      "message": "浅色主题UI优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-15T15:29:14Z",
+      "committer_date": "2025-12-15T15:29:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "38208a2b8502eb7c20501b92e9d7c8b28985203b",
+      "message": "feat: Add new tutorial mode with PGN highlighting and interactive board.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-15T15:26:54Z",
+      "committer_date": "2025-12-15T15:26:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d2c46bf52981540a2402558df4fca09fe883f7c",
+      "message": "第二阶段重构：",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-15T14:55:51Z",
+      "committer_date": "2025-12-15T14:55:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0b91378b7209feceff0dad5e123a2ccd98c710bd",
+      "message": "支持markdown内容中标题、粗体、列表的渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T15:36:00Z",
+      "committer_date": "2025-12-14T15:36:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c6bb700e87d59f033c45cec8d824f1f53f4caffb",
+      "message": "修正教程模式导入教程内容未在用户间隔离问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T15:18:19Z",
+      "committer_date": "2025-12-14T15:18:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "126e505e317b1ddec5af33884e58629c4ad997d7",
+      "message": "教程模式需要能正确解析从fen记录的残局开始，加上后续pgn走子记录的棋局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T15:03:14Z",
+      "committer_date": "2025-12-14T15:03:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e784fbb7edc13bab2791ee9844a3bbd04bf8a98a",
+      "message": "重构 PGN解析逻辑 模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T14:16:03Z",
+      "committer_date": "2025-12-14T14:16:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31f276253bbb13f623bafb29f23b29876c873184",
+      "message": "重构 useTutorialSession Hook 模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T13:17:16Z",
+      "committer_date": "2025-12-14T13:17:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae47a5131f450a7c40f1f599272209bd5762596a",
+      "message": "教程模块重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T10:31:00Z",
+      "committer_date": "2025-12-14T10:31:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e77c6826006218177d7c80ad33bae50dd4e812bc",
+      "message": "游客用户导入教程数量和范围受限",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T09:40:16Z",
+      "committer_date": "2025-12-14T09:40:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "609c1a290be2bf89ac96982034611785524f6ce4",
+      "message": "feat: Implement new homepage with dynamic images.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T08:51:34Z",
+      "committer_date": "2025-12-14T08:51:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4fccc6f59f6bc80e7ac962aa5c6e7847c67eae6f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-14T06:01:51Z",
+      "committer_date": "2025-12-14T06:01:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c403c2d37b95a4824b473da7286eadd12b7b4b6",
+      "message": "feat: Introduce a comprehensive tutorial mode with new UI components, game session management, and a database migration ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-12T16:05:35Z",
+      "committer_date": "2025-12-12T16:05:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72e9b02e55ceba7dc5043c9d198d34c6f892221f",
+      "message": "feat: Initialize core application layout with navigation, mode switching, authentication, and theming, and relocate logo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-12T15:10:03Z",
+      "committer_date": "2025-12-12T15:10:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90eeaa65118e274665191fc92641d71adea8b58f",
+      "message": "图片导出问题优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-12T14:44:42Z",
+      "committer_date": "2025-12-12T14:44:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b13b7d4d8599787ad7bf11051a339dd5abb44e27",
+      "message": "增加浏览器缓存策略",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-12T14:02:33Z",
+      "committer_date": "2025-12-12T14:02:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ac87314c0ccd21127d55fc1c453e129eade4f69",
+      "message": "feat: add tutorial mode with new components for displaying markdown content and images.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-12T13:19:26Z",
+      "committer_date": "2025-12-12T13:19:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c85748b5c9925cb6e11cc3c8c8323541b70886d2",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-11T15:42:50Z",
+      "committer_date": "2025-12-11T15:42:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b175f71865490c6f0b45d12f1d40fe57081bb0c",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-11T15:37:07Z",
+      "committer_date": "2025-12-11T15:37:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37fd59a4bd5f2401de43e4143b7b575850dca819",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-11T15:15:05Z",
+      "committer_date": "2025-12-11T15:15:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "592950bc9c58c96a1fee88c80f03e03ee1e37e68",
+      "message": "feat: Introduce core ChessBoard component, tutorial, play, and analysis modes, PGN parsing, board image export, and remo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-07T08:44:20Z",
+      "committer_date": "2025-12-07T08:44:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07c190c618865826631ed160a388e0d38324159a",
+      "message": "feat: Introduce game analysis, play mode, tutorials, and battle history features with PGN parsing and related utilities.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-07T07:19:48Z",
+      "committer_date": "2025-12-07T07:19:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63a79294d30de3b3a06c7141af12c7def29c2fef",
+      "message": "feat: enhance tutorial mode with search and filter functionality, improved UI for tutorial display, and expanded tutoria",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T16:38:07Z",
+      "committer_date": "2025-12-06T16:38:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e49785df59ac151820325fe333cb596fbcd3fc0",
+      "message": "feat: refine tutorial mode with enhanced chapter import logic, improved UI elements, and optimized tutorial list handlin",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T15:37:46Z",
+      "committer_date": "2025-12-06T15:37:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e17f1b0b892c27a514834f303041274551a3f0ab",
+      "message": "feat: enhance tutorial mode with featured tutorials, improved navigation, and tutorial import functionality",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T15:25:33Z",
+      "committer_date": "2025-12-06T15:25:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f54ecd99854a998f6933b7c45a0f28065ce429b1",
+      "message": "feat: improve tutorial mode, win rate chart, and authentication components,",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T13:57:35Z",
+      "committer_date": "2025-12-06T13:57:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bc6b1ccebb3970eabc5ee95cde3bde15ec87fc3",
+      "message": "feat: add initial HomePage component with hero section, feature showcases, and navigation options.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T13:12:01Z",
+      "committer_date": "2025-12-06T13:12:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9481e643b5383aca576c2a5fd888961b92ca7d15",
+      "message": "feat: Add AnalysisMode, HomePage, TutorialMode, and TutorialPlaybackControls components.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T11:50:52Z",
+      "committer_date": "2025-12-06T11:50:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34ed2023ab1596b400b405d0aba06af8b71f536c",
+      "message": "feat: Introduce core application structure with authentication, analysis, and tutorial modes, add a new logo,",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T11:34:25Z",
+      "committer_date": "2025-12-06T11:34:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eae283457b73d12b01c994ffad15e780fa97c5fd",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-06T09:17:44Z",
+      "committer_date": "2025-12-06T09:17:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7726784d53e966a98fe57e7ca06630da490de014",
+      "message": "Updated useMessages.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-06T08:55:17Z",
+      "committer_date": "2025-12-06T08:55:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1af4a85f098056792dc10367f29c6e7589277fdc",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-06T08:47:24Z",
+      "committer_date": "2025-12-06T08:47:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35bf710f1d2f86fde163ffb6780da70ee4624783",
+      "message": "Added 20251206082149_create_profiles_table.sql",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-06T08:24:29Z",
+      "committer_date": "2025-12-06T08:24:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "338d88def9c02f3b71f5fa4484d1ff2472d7c331",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-12-06T08:18:26Z",
+      "committer_date": "2025-12-06T08:18:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d026f51f40acbbbbc4897483c2362c6120b4cd2",
+      "message": "feat: Implement core game modes (Play, Analysis, Tutorial) with win rate visualization and move list components.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T05:27:30Z",
+      "committer_date": "2025-12-06T05:27:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6116668139651acdd925e403749a71c4b20bf604",
+      "message": "Enhance TutorialMode and related components by introducing new tutorial import dialog, playback controls, and documentat",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T03:47:28Z",
+      "committer_date": "2025-12-06T03:47:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "baaa92272619f9635ba0f8ce65f2b7304a96a1ef",
+      "message": "Refactor project structure and enhance documentation in AGENTS.md, PRD.md, and README.md. Update coding style guidelines",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T02:48:09Z",
+      "committer_date": "2025-12-06T02:48:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c976dcd40648386324e099dddf0b8ca6a9874c7a",
+      "message": "Refactor TutorialMode and WinRateChart to enhance practice branch functionality. Implement dynamic win rate visualizatio",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T01:19:05Z",
+      "committer_date": "2025-12-06T01:19:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76ef0cad8ebf738defdf21336cb7586b0464e263",
+      "message": "Enhance TutorialMode with new practice branch functionality, allowing users to input PGN moves for branching. Implement ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-06T00:55:24Z",
+      "committer_date": "2025-12-06T00:55:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cceb7f0427b3bea24c6f66b75cd1dce6099be5c1",
+      "message": "Enhance AnalysisMode, PlayMode, and TutorialMode with improved PGN handling and user interface consistency. Implement di",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-05T14:21:34Z",
+      "committer_date": "2025-12-05T14:21:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e27fdb20489786321667ef90251343c5e78558b",
+      "message": "Refactor PGN handling in PlayMode and enhance move recording display. Implement logic to sanitize PGN input, ensuring co",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-05T13:22:51Z",
+      "committer_date": "2025-12-05T13:22:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42f2cf7b7a0ed74ede2a03ae1d96fbd2bc7cd8e0",
+      "message": "Enhance TutorialMode with improved move recording display and practice move functionality. Implement logic to track and ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-04T15:34:40Z",
+      "committer_date": "2025-12-04T15:34:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f096db6c75759320cf5f93b5c4a33525c80b5d5a",
+      "message": "Refine button styles in PlayMode for improved consistency and user experience. Update padding, border, and font properti",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-04T14:09:38Z",
+      "committer_date": "2025-12-04T14:09:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73685ca7b09efec87ec4204096dd21bf89d35673",
+      "message": "Update PlayMode to improve move recording display and maintain consistency with AnalysisMode. Reintroduce PGN export fun",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-04T14:03:37Z",
+      "committer_date": "2025-12-04T14:03:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a428c740c21c9dfed5ccfea559fa9dfb0679508e",
+      "message": "Implement PGN export functionality in PlayMode and enable navigation to AnalysisMode with PGN data. Update AnalysisMode ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-03T15:28:18Z",
+      "committer_date": "2025-12-03T15:28:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98644fc1ab4a0ad892ed72618823580b419e2a9b",
+      "message": "Refactor layout in AnalysisMode, PlayMode, and TutorialMode components for improved responsiveness. Add loading indicato",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-03T14:48:26Z",
+      "committer_date": "2025-12-03T14:48:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d1206409f30ee1e77df2eedb2e9f38092cf75b6f",
+      "message": "Implement loading state in AnalysisMode, update win rate calculation in WinRateChart based on current move index, and en",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-03T13:33:33Z",
+      "committer_date": "2025-12-03T13:33:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d7cf6fb7be54b9fa72383c88021b83455c60519",
+      "message": "Enhance PlayMode and WinRateChart components with countdown feature for AI matches, improve win rate visualization based",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-12-03T13:28:10Z",
+      "committer_date": "2025-12-03T13:28:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54ce6619450ec5cff6a8df302cf262d634ecb01c",
+      "message": "Update devDependencies and refactor Stockfish engine for improved performance and error handling. Added @types/node for ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T16:10:56Z",
+      "committer_date": "2025-11-30T16:10:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c66ecd07c4fca839786f7939649573c860c65406",
+      "message": "Refactor AnalysisMode and TutorialMode components to enhance user experience by optimizing file import functionality, im",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T15:45:29Z",
+      "committer_date": "2025-11-30T15:45:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0111a68edc5525f80f4f8bb55d5849066e297ef",
+      "message": "Enhance TutorialMode and PGN parsing by refining the handling of non-PGN content and improving the user interface for mo",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T15:36:27Z",
+      "committer_date": "2025-11-30T15:36:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87a29ed40ef6cb3ae05fff6ffeeba939da6e84ef",
+      "message": "增加测试用例",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T15:10:02Z",
+      "committer_date": "2025-11-30T15:10:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "638fdd2ecacd74e17a68a74b44e22fa5b3ea2a1d",
+      "message": " Refine TutorialMode for better PGN parsing feedback and UI enhancements, including title, difficulty, and category inpu",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T15:03:03Z",
+      "committer_date": "2025-11-30T15:03:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "acd13f8e5a0ebdd731bd3f58c6ee2070221c3a18",
+      "message": "Enhance TutorialMode by refining the testing process for pgn_cases.md to ensure accurate parsing, including handling non",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T14:01:53Z",
+      "committer_date": "2025-11-30T14:01:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "26d30c81d45cf50d0e458f292d1d77c521c02df5",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T13:41:52Z",
+      "committer_date": "2025-11-30T13:41:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04eb88b2598c1a6a6be8fc347484362ee79405ca",
+      "message": "Refactor chess game logic by introducing custom hooks for analysis and play modes. Enhanced state management, improved p",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T13:41:28Z",
+      "committer_date": "2025-11-30T13:41:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13737b253baad895b2dc453e95109a76f18e95d7",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T13:29:37Z",
+      "committer_date": "2025-11-30T13:29:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ea0641b1517c666df4ee3448cda59d6f62cd836",
+      "message": "Refactor chess components to improve type safety and enhance move effects. Updated TutorialMode, PlayMode, and AnalysisM",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T12:42:49Z",
+      "committer_date": "2025-11-30T12:42:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01c5fab0a6f7a3daa3bba5bcd58136bb4e3599f9",
+      "message": "Enhance TutorialMode with new parsing functionality, default title generation, and document maximization feature. Added ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T12:20:10Z",
+      "committer_date": "2025-11-30T12:20:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e15404c0d6aa744c805ece88a24c1c9704cb114",
+      "message": "Refactor TutorialMode to reset chess position before evaluating moves and update initial score calculation.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T11:25:00Z",
+      "committer_date": "2025-11-30T11:25:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72e0823472bf61c8d661a462336460e59f0e9d39",
+      "message": " update TutorialMode and AnalysisMode components with improved UI and functionality. Added analysis mode features and op",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T11:09:21Z",
+      "committer_date": "2025-11-30T11:09:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "965ce664c08ebc05870c22bc937eb8d50fbc84c1",
+      "message": "Implement click-based movement in PlayMode, enhance clock tracking for both players, and improve move history display. U",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T09:59:08Z",
+      "committer_date": "2025-11-30T09:59:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "75acaf80578b447646db2859a813e343db94f7ad",
+      "message": "enhance WinRateChart component with improved win rate visualization and tooltip functionality.",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T09:36:30Z",
+      "committer_date": "2025-11-30T09:36:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac5aac611a5d62b6e733cc040690a486520760a2",
+      "message": "Merge branch 'main' of https://github.com/famotime/MarkChess",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T08:26:54Z",
+      "committer_date": "2025-11-30T08:26:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73479226ed6161e4c37678e21693298612f7f610",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2025-11-30T08:24:46Z",
+      "committer_date": "2025-11-30T08:24:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f3fe4622d1863cdc5500d8648ab326a0c4b947d6",
+      "message": "Updated README.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T08:24:00Z",
+      "committer_date": "2025-11-30T08:24:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a45ff8f337ae31ca01613c4075c7744d75cdb482",
+      "message": "Updated TutorialMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T07:36:38Z",
+      "committer_date": "2025-11-30T07:36:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab7a471e3d5e6059dec9ee16a4e206a9b76c8e51",
+      "message": "Updated pgnParser.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T07:25:13Z",
+      "committer_date": "2025-11-30T07:25:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0e0f3b47e92e03b092d032bd6d5ed134940cfcd",
+      "message": "Updated TutorialMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T07:20:20Z",
+      "committer_date": "2025-11-30T07:20:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2baef953bbf4e7c083777b32dc0a9a45503b420e",
+      "message": "Updated pgnParser.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T07:11:56Z",
+      "committer_date": "2025-11-30T07:11:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64aad9ebb21a47a8f3bcaac1844c83bbe17e41ec",
+      "message": "Updated pgnParser.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-30T06:49:25Z",
+      "committer_date": "2025-11-30T06:49:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31bb99c331582d471b9c37c9d906ea697ed0589c",
+      "message": "Updated WinRateChart.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T16:06:27Z",
+      "committer_date": "2025-11-28T16:06:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fbbe7013771c142badb8da3c56a64d5fc2cf29d",
+      "message": "Updated WinRateChart.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T16:00:25Z",
+      "committer_date": "2025-11-28T16:00:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a7c52974d60cf48e7fcf12ba27210ad0a622ba07",
+      "message": "Updated WinRateChart.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:55:49Z",
+      "committer_date": "2025-11-28T15:55:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12f715ee008339c1be9e2bbca3358c87c62be0eb",
+      "message": "Updated WinRateChart.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:53:14Z",
+      "committer_date": "2025-11-28T15:53:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f5bafd03f10c6fbbe8d8d611bde9a152b6b03ba",
+      "message": "Updated pgnParser.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:48:07Z",
+      "committer_date": "2025-11-28T15:48:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d8842324c82f3c6d865f06cdcd1502fb92be46d",
+      "message": "Updated PlayMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:43:08Z",
+      "committer_date": "2025-11-28T15:43:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8ed29e577d8c7da4333ec2f45cf444535b5636b",
+      "message": "Updated ChessBoard.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:37:57Z",
+      "committer_date": "2025-11-28T15:37:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e85bac41bc9938144ae70c224ef7faceafd5411b",
+      "message": "Updated AnalysisMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:30:11Z",
+      "committer_date": "2025-11-28T15:30:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98989dfcaa6a69db181783162f9f1492e88e7e35",
+      "message": "Updated pgnParser.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:26:41Z",
+      "committer_date": "2025-11-28T15:26:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "001e39babfffd4bb9cac8b2dc952f93e5495c06b",
+      "message": "Updated AnalysisMode.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:24:13Z",
+      "committer_date": "2025-11-28T15:24:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5efd7f96095c0ff1676481f659c1f1a9f8ea17f8",
+      "message": "Updated package.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:16:12Z",
+      "committer_date": "2025-11-28T15:16:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba8dcc27d9d0e5842a366a25fbcabba9e8ead959",
+      "message": "Updated package.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:13:43Z",
+      "committer_date": "2025-11-28T15:13:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4212ab442542bba2321b66797e837f1164f034b5",
+      "message": "Added stockfish.wasm",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:12:18Z",
+      "committer_date": "2025-11-28T15:12:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2737829f17e40cf880ceb65ff8b6709d4d64b4f",
+      "message": "Updated vite.config.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:12:03Z",
+      "committer_date": "2025-11-28T15:12:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1d618c9d128f1e43efa7fe220e8d429bdff9fc2",
+      "message": "Updated package-lock.json",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T15:07:58Z",
+      "committer_date": "2025-11-28T15:07:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "128c65f14824b3b33eef6cf3113c34b111907020",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-11-28T14:58:24Z",
+      "committer_date": "2025-11-28T14:58:24Z",
+      "login": "famotime"
+    }
+  ]
+}

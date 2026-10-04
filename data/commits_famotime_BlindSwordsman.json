@@ -1,0 +1,141 @@
+{
+  "pushed_at": "2026-09-30T13:22:00Z",
+  "count": 15,
+  "commits": [
+    {
+      "sha": "f2ef254f29ffb834fb5f90da2f889a3daa368d47",
+      "message": "Added logo-mark.webp",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-09-30T13:21:57Z",
+      "committer_date": "2026-09-30T13:21:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4d760f1157cbe81bdaf197acb9c8f8ffbd160c1",
+      "message": "Updated i18n.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-09-28T13:39:37Z",
+      "committer_date": "2026-09-28T13:39:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e83b9f9eaefb8cc896e4d3411c8912ca55e451f9",
+      "message": "Added  Blind Swordsman.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-09-28T12:57:26Z",
+      "committer_date": "2026-09-28T12:57:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c6927c976c98f3064b43b4ef4960a9dc22168d1",
+      "message": "fix: 修复 Canvas arc 负半径报错及帧时间戳对齐问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T01:21:23Z",
+      "committer_date": "2026-09-06T01:21:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2763fa4654de2738fbd6fa0472f6235eb6a23a83",
+      "message": "Update RLS policies for scores table",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-09-06T00:44:39Z",
+      "committer_date": "2026-09-06T00:44:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bbd8ca9b556a6317c54ea4f1a7924efcf526e25",
+      "message": "feat: 大幅升级视觉效果、打击感特效与关卡生态系统",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T00:38:55Z",
+      "committer_date": "2026-09-06T00:38:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c25f66badd01ecd2bb7d03ee7ef234cf73f0e406",
+      "message": "Updated i18n.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:17:14Z",
+      "committer_date": "2026-05-03T06:17:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d91cf53206450f8107b050aa9fcbbd22710e5a0",
+      "message": "Enable i18n for level preview overlay",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:14:48Z",
+      "committer_date": "2026-05-03T06:14:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96666e1f99e5d01176865d28e6cfbfc2dca382f2",
+      "message": "Updated engine.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:11:22Z",
+      "committer_date": "2026-05-03T06:11:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "adce9e07aefe076e7909fb42afacc6f27180ed03",
+      "message": "Updated types.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T06:03:09Z",
+      "committer_date": "2026-05-03T06:03:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce5845422d375155ba2a5b612704734785a7bb02",
+      "message": "Updated main.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:52:45Z",
+      "committer_date": "2026-05-03T05:52:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa5dc405f6861378252d25115c25c1c3c6fd8d4f",
+      "message": "Added weapons.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:44:05Z",
+      "committer_date": "2026-05-03T05:44:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da2e0a8515f81c5c308a800b0f2efe6255c08226",
+      "message": "Updated App.tsx",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T05:00:06Z",
+      "committer_date": "2026-05-03T05:00:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f52c10bd5664ae1a45c13f0ff20192e4deb21ff0",
+      "message": "Updated level.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T04:55:14Z",
+      "committer_date": "2026-05-03T04:55:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11b5121cdc57a6f66544e8ef328580e187fd2d58",
+      "message": "Start repository",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-05-03T01:16:50Z",
+      "committer_date": "2026-05-03T01:16:50Z",
+      "login": "famotime"
+    }
+  ]
+}

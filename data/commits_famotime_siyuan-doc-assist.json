@@ -1,0 +1,2535 @@
+{
+  "pushed_at": "2026-10-01T11:37:41Z",
+  "count": 281,
+  "commits": [
+    {
+      "sha": "45d1898a34fbf8f9026ff12e07b9b58eb8068ae6",
+      "message": "build(package): 更新插件打包产物 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T11:36:37Z",
+      "committer_date": "2026-10-01T11:36:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7899eae4fbacf17a3918a69d225d4f639b7e6a1",
+      "message": "fix(clean-emoji): 修复列表项与表格包含emoji时被错误删除的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T10:54:34Z",
+      "committer_date": "2026-10-01T10:54:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e39755035b1286e3b1787b775faf19fba482584",
+      "message": "fix(floating-text): 修复钉住状态下直接粘贴误最小化浮窗的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T09:19:19Z",
+      "committer_date": "2026-10-01T09:19:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fbe2728e429c900a02ebe5531ed854a0e9ab8c68",
+      "message": "feat(floating-text): 支持浮窗文本实时搜索与命中文本直接粘贴",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T07:45:25Z",
+      "committer_date": "2026-10-01T07:45:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c361c7f7d5f93960cb643cf2be39986a1dba444",
+      "message": "feat(text-to-link): 支持识别并转换不含 http/https 协议前缀的常见网址",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T01:01:08Z",
+      "committer_date": "2026-10-01T01:01:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80bd719cfb7080bc884ae41b897a9e8dcd51bb0b",
+      "message": "fix(settings): 修复设置页大面板标题被挤压至侧边竖排换行的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-30T15:56:40Z",
+      "committer_date": "2026-09-30T15:56:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d1ce62b9873314508a2befc007ae2858b1e163a",
+      "message": "style(edit): 将清理Emoji表情命令图标统一为垃圾桶图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T13:08:49Z",
+      "committer_date": "2026-09-29T13:08:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b0462b9de742952e5f16dcc0067535e339748063",
+      "message": "feat(edit): 支持清除选区或全文Emoji表情命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-29T12:12:26Z",
+      "committer_date": "2026-09-29T12:12:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de6d71d08357372297b2bc11771e72cd0e09e0a7",
+      "message": "feat(ai): 升级 API 旋钮接入协议并统一支持自定义 Headers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:43:32Z",
+      "committer_date": "2026-09-25T03:43:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1b9675740cc26266081a38eee666b47e752c953",
+      "message": "feat(text-to-link): 支持从代码仓库网址提取仓库名作为链接显示文本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T02:01:11Z",
+      "committer_date": "2026-09-25T02:01:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d77bd493e1e32c6cd9af9075afb13a6ca86328fc",
+      "message": "feat: 支持链接转文档，并针对 X 网站长文、排版换行与图片提取深度优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-19T06:20:07Z",
+      "committer_date": "2026-09-19T06:20:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b19d292ff948e4201641de6dd7766a24b2bd457",
+      "message": "feat: 增强清理剪藏内容，支持合并连续引用、删除空代码块及弹窗部分勾选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-15T15:36:17Z",
+      "committer_date": "2026-09-15T15:36:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a71304a9461b3fbbda893d82c42f1e873d1417a6",
+      "message": "feat: 支持清理 AI 输出内容中的分隔线 (---)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-11T13:49:48Z",
+      "committer_date": "2026-09-11T13:49:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7c94eb82274667fb8415e1569ade85d2f06cd6c",
+      "message": "docs: 重新编写 README 从用户场景介绍功能与核心价值",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-11T13:41:39Z",
+      "committer_date": "2026-09-11T13:41:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc94b053d31d0ec8ca8aea9a30c3c43dccf2efd9",
+      "message": "feat: 悬浮窗标题栏支持点击图标按钮切换置顶与取消置顶状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-10T13:35:27Z",
+      "committer_date": "2026-09-10T13:35:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e6ad078fbff86529e70870db8127cdf8bad2885",
+      "message": "v1.6.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-08T14:42:02Z",
+      "committer_date": "2026-09-08T14:42:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2004d17d71eb246b458c9903ae94df0286f14c39",
+      "message": "fix: 优化悬浮窗本地Markdown渲染与修复renderKramdownToBlockDOM解析异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T01:57:25Z",
+      "committer_date": "2026-09-06T01:57:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1a2e2a42407d5a0e057bf2bcb527b2996265b440",
+      "message": "feat: 插入分类新增文本转链接操作命令并支持交互弹窗与多元URL格式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-06T01:53:46Z",
+      "committer_date": "2026-09-06T01:53:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d21f67345baf80e62f5faf2ccd68cab792efce",
+      "message": "fix: update default floating window title to '悬浮窗'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T09:49:02Z",
+      "committer_date": "2026-09-05T09:49:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f5f7033ff2b54253d0b2b58fcd6b0145d22fdf5",
+      "message": "docs: add user scenario guide for floating text and ai better titles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T08:28:11Z",
+      "committer_date": "2026-09-05T08:28:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5b0089b93ea27cab10aae639c9eb71fd077c918b",
+      "message": "style: 优化设置页调试模式选项布局与描述说明展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T08:22:47Z",
+      "committer_date": "2026-09-05T08:22:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "356da0b154a6913bfeec4abbc6eab5a0154e7222",
+      "message": "feat: 支持通过 AI 生成更好的标题并提供弹窗微调替换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T07:36:48Z",
+      "committer_date": "2026-09-05T07:36:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "857ca7ebbb2585819f9b9ce9a0ac422a4972b541",
+      "message": "feat: 优化悬浮选中文本弹窗UI交互与字号设置布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T02:25:58Z",
+      "committer_date": "2026-09-05T02:25:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8bc243e8571c1c4112c0542a17d36b80ca49e375",
+      "message": "feat: 支持悬浮选中文本在弹窗中展示图片与交互缩放",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T01:14:42Z",
+      "committer_date": "2026-09-05T01:14:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e651089fe2ddaf1d892fa0167b56c299b87c502",
+      "message": "feat: 移除设置页悬浮文本配置并将启用命令置于AI服务之前",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T00:52:56Z",
+      "committer_date": "2026-09-05T00:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec28d69fa79c6189a78d5474ef7a0b5f66c911cf",
+      "message": "fix: 修复悬浮选中文本独立置顶弹窗设置未能持久化保存的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-05T00:44:10Z",
+      "committer_date": "2026-09-05T00:44:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca3cd839da3cd743d27daf49cd89e60e2b45a42f",
+      "message": "feat: 支持悬浮选中文本 Markdown 列表与待办渲染，优先调用思源 Lute 引擎并增强构建同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-04T15:44:47Z",
+      "committer_date": "2026-09-04T15:44:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ddf5cbd50d095e98002cf26b4cdce088e847a066",
+      "message": "feat: 支持悬浮弹窗选中文本复制与实时编辑预览，修复按钮点击无响应问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-04T14:49:27Z",
+      "committer_date": "2026-09-04T14:49:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b7ab58ea6452a92903f5496ee426c364c883333",
+      "message": "feat: optimize floating text block selection, strip IAL and adjust list indentation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-04T14:31:34Z",
+      "committer_date": "2026-09-04T14:31:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "486a2c0687d85ad5fa98f476384d65a6b1453068",
+      "message": "feat: 选中文本浮动工具栏支持增加悬浮选中文本按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-04T14:10:16Z",
+      "committer_date": "2026-09-04T14:10:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29a85f7ac0db80ae48a6a100818b3d526eec5cdd",
+      "message": "feat: 支持选中文本与整篇文档桌面半透明置顶悬浮功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-03T14:50:05Z",
+      "committer_date": "2026-09-03T14:50:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fa1210beb88d3738b8aca6faccc91a889dad16c",
+      "message": "feat: 为命令分类添加 Lucide 风格线框图标并优化分类文字显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T08:14:49Z",
+      "committer_date": "2026-09-01T08:14:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5d8f3bbdc13a89df62db94f0ab415ca588a37e6",
+      "message": "feat: 支持启用命令双开关设置与独立默认配置，优化设置页换行布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-30T14:16:22Z",
+      "committer_date": "2026-08-30T14:16:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8c8a273291c993195eb379661a0a9a4430f3434",
+      "message": "fix: remove AI log setting and unify logger behavior under debug mode",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T13:30:39Z",
+      "committer_date": "2026-08-09T13:30:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1494c29dd64e092f8346d89d40a81fc78480fc2",
+      "message": "feat: improve AI related tag generation fallbacks, background execution, and reasoning model response parsing",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T06:53:10Z",
+      "committer_date": "2026-08-09T06:53:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27112cece1d34f395991d2ff4a8ad2ca5305c702",
+      "message": "fix(ai): 兼容脉络镜顶层标签建议与V3 AI文档索引",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T05:30:28Z",
+      "committer_date": "2026-08-09T05:30:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab44aba260d5a9ba9f0be0922d01c69e70faab6d",
+      "message": "refactor: 规范接管提示标示文案为 API 旋钮 (siyuan-api-switch)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T03:52:50Z",
+      "committer_date": "2026-08-09T03:52:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9f05c2d320c1879dfb4ca921c24b37ed66b2246e",
+      "message": "feat(ocr): 动作改名为图片文字识别(OCR)并支持选中图片优先识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T01:29:30Z",
+      "committer_date": "2026-08-09T01:29:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b293b11bc3748db77b52223ef20be0b63320d72",
+      "message": "feat(ocr): 超过3000像素的图片裁剪为多张识别并在文本间增加分割线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-09T01:11:13Z",
+      "committer_date": "2026-08-09T01:11:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "003591427cb1f371b531ff0d203b80d830e901a0",
+      "message": "feat: run insert-doc-summary in background without obscuring document",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-07T14:43:22Z",
+      "committer_date": "2026-08-07T14:43:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8f168070922b6ae0e580001beb38c3bc93e5e3b",
+      "message": "feat(edit): 保留文首前10个段落中的最后一个分隔线及之前内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T13:51:24Z",
+      "committer_date": "2026-08-01T13:51:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afe86be1c44998d31d2fb8bc7dec865ef6755924",
+      "message": "fix: fix missing plugin display name in settings menu",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T13:46:08Z",
+      "committer_date": "2026-08-01T13:46:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14f973d2ad965673105ea3cea2bf27c860654cb6",
+      "message": "feat: add select-from-start-to-current and select-from-current-to-end block selection actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-01T02:43:13Z",
+      "committer_date": "2026-08-01T02:43:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8539004c7884c4bf9bf05a5924abd77349226944",
+      "message": "v1.6.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-02T11:25:53Z",
+      "committer_date": "2026-07-02T11:25:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e494e8436dee621ef22a097ccf1ed9dd380630c",
+      "message": "docs: 更新 alpha 功能隐藏配置说明文档并调整隐藏配置项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-07-01T15:04:39Z",
+      "committer_date": "2026-07-01T15:04:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4199860cac96d431035254b0c2ed68c56dc55a45",
+      "message": "feat(ai): support generating canvas from selection",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-27T15:26:31Z",
+      "committer_date": "2026-06-27T15:26:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "28475494b6df719fb00f2e2823b7689a6ff443f9",
+      "message": "chore: sync with siyuan-api-switch",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-20T13:46:02Z",
+      "committer_date": "2026-06-20T13:46:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "100302f445ddb7f394bdb525d12f985d7db07e6b",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T14:17:59Z",
+      "committer_date": "2026-06-07T14:17:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0173068669f4214141bd01b91d6b5651efc53a4c",
+      "message": "v1.6.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-07T07:24:47Z",
+      "committer_date": "2026-06-07T07:24:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd102849b1b33f4e62bd9d5dd476b0d421bad868",
+      "message": "fix: Wiki 命令添加异常捕获与调试日志，增强空值安全",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T10:04:25Z",
+      "committer_date": "2026-06-06T10:04:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a4cc04c792297987043f5853621627892497bbd",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T06:43:02Z",
+      "committer_date": "2026-06-06T06:43:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89e2f92b1eca4ccd559ac8bfa34b9ca35a623fc6",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T04:52:50Z",
+      "committer_date": "2026-06-06T04:52:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "734f1ecc0c234cce8478c3dd086c8820981a32ef",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-06T02:51:25Z",
+      "committer_date": "2026-06-06T02:51:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "246054fac857e99333d8fc34e5781d05a3ac9792",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T13:39:48Z",
+      "committer_date": "2026-05-29T13:39:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c5fe55933a80df81849f048ab527b0d6d13b13b",
+      "message": "Merge branch 'main' of https://github.com/famotime/siyuan-doc-assist",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T11:27:43Z",
+      "committer_date": "2026-05-28T11:27:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d22776fb330563a484cc0703db081473e79ed67",
+      "message": "feat: 关键内容面板增加\"生成Canvas\"命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T11:02:16Z",
+      "committer_date": "2026-05-28T11:02:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29b31328d2b21c009c395a38f4b704b440b5e0db",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-24T06:01:14Z",
+      "committer_date": "2026-05-24T06:01:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ffb2ac10142f0940ef05865fd39bbf385ae6b42",
+      "message": "fix: 消除 OCR 服务动态导入构建警告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-21T13:48:23Z",
+      "committer_date": "2026-05-21T13:48:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0097ad49d33d1f4e1e4764a73bc4f73da03b4b38",
+      "message": "refactor action runner and key info modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-19T14:36:36Z",
+      "committer_date": "2026-05-19T14:36:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c627dc817b80777f832ab69138b90b713b8bef3",
+      "message": "feat: translate document paragraphs with AI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T10:56:20Z",
+      "committer_date": "2026-05-18T10:56:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "701586a20038acf98f2241e82f28fb359f9ce278",
+      "message": "feat: show spinner for background doc actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-18T04:49:15Z",
+      "committer_date": "2026-05-18T04:49:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "80f0695f84e9dca2a008c0c9ff952ee9a64aaa55",
+      "message": "fix: 修复图片 OCR 文本插入位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T08:54:38Z",
+      "committer_date": "2026-05-17T08:54:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ad41f4983ad8252a85e872f849509cbd685d8c2",
+      "message": "feat: 添加 AI 相关链接和标签命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T08:05:03Z",
+      "committer_date": "2026-05-17T08:05:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "358a12c42daef96c73dddd8c15bc57ea6c3f909f",
+      "message": "feat: 持久化文档助手面板 tab 状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T06:48:57Z",
+      "committer_date": "2026-05-17T06:48:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf7135079d6159fe79055c9281c999f5aae65404",
+      "message": "feat: 优化 AI 内容标记片段协议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T05:58:24Z",
+      "committer_date": "2026-05-17T05:58:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ab60c96bc7778f733673253c163d8407ba1d527",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T04:33:18Z",
+      "committer_date": "2026-05-17T04:33:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74b4a6147b31d5b7858e3222076e9f3fb90ac6f3",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-17T01:58:26Z",
+      "committer_date": "2026-05-17T01:58:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f7ff231c0e1bfec1a48b13bff9a79a94e527adb6",
+      "message": "fix: 后台输出Top100大文件清单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T07:28:17Z",
+      "committer_date": "2026-05-16T07:28:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42a5aa4f2ca71895c8afe92621b80c1e85fcfc3b",
+      "message": "feat: 支持 Power Buttons 工作流上下文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T05:39:59Z",
+      "committer_date": "2026-05-16T05:39:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d93e935d7f6be5828fd21de7618c21f8c40c988",
+      "message": "fix: 完善图片批量处理后台容错与统计提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-16T01:56:10Z",
+      "committer_date": "2026-05-16T01:56:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d13635b1ede1439e0f8178819e969cb04a88e1f4",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T15:15:39Z",
+      "committer_date": "2026-05-06T15:15:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be6e0fb25c37ba8309c3289d6cdaea1395cba0b0",
+      "message": "v1.5.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-06T12:16:21Z",
+      "committer_date": "2026-05-06T12:16:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "451417e308587b910913beda33da4c197c2eccda",
+      "message": "refactor: split runtime helper modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T10:45:43Z",
+      "committer_date": "2026-05-04T10:45:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60df5943ab9f1a36743e2987601449ec23c9b197",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-04T08:39:31Z",
+      "committer_date": "2026-05-04T08:39:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "201f03e5310d3dfab19573efb3c4287a54510b73",
+      "message": "feat: 文档处理面板收藏分类下方新增命令搜索框，支持关键词实时筛选并兼容中文输入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T14:40:53Z",
+      "committer_date": "2026-05-03T14:40:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1499a923b3bceb891af53f63d79fddc9de067561",
+      "message": "feat: 新增\"删除之前段落（含本段）\"命令，支持保留文首分隔线前的概要内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T13:41:28Z",
+      "committer_date": "2026-05-03T13:41:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29d06cede92359ac4a650fde47abfeac7ffdd3ce",
+      "message": "feat: 新增\"提取本文档链接\"命令，支持提取文档中所有 Web 链接并复制到剪贴板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T13:32:35Z",
+      "committer_date": "2026-05-03T13:32:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a65141725c21511392736b4b9481b4135447373",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-03T12:32:26Z",
+      "committer_date": "2026-05-03T12:32:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bda4f8790c169b0295060fee269c42e04de6ab3",
+      "message": "fix: 统一图片 OCR 插入逻辑并优化识别提示词分段要求",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T10:46:51Z",
+      "committer_date": "2026-05-02T10:46:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3bc584e94333bf675709ab71900216bedeb60715",
+      "message": "fix: 图片 OCR 并发识别但按原始顺序插入，每次插入前重新查询文档块位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T10:41:20Z",
+      "committer_date": "2026-05-02T10:41:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ef434de3a67a947f31bc15bdbf379aa465eb5dd",
+      "message": "fix: 修复最后一张图片 OCR 结果被插入到文档顶部的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T10:29:28Z",
+      "committer_date": "2026-05-02T10:29:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5cafafc9572d7b6a0dcdb91bf0fb3d0c678f4ee0",
+      "message": "refactor: 图片文字识别改为逐张即时插入，不再等待全部完成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T10:23:30Z",
+      "committer_date": "2026-05-02T10:23:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a9c593731ebbd26d828a2d9e662655e92926f93",
+      "message": "feat: 增强 AI 服务配置并修复推理模型摘要生成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T10:14:09Z",
+      "committer_date": "2026-05-02T10:14:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a67c635ccf0ac92406ed444156115539196cdbc",
+      "message": "refactor: exclude split heading from child doc content (use as title only)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T03:13:40Z",
+      "committer_date": "2026-05-02T03:13:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "267bb6034ada2f8e76f022a56e1b2707f9fb0942",
+      "message": "feat: wire split-doc-by-headings action into organize handlers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T03:06:15Z",
+      "committer_date": "2026-05-02T03:06:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a29c8a49a03191d69b5b68844be09a1d35554a7",
+      "message": "feat: add splitDocByHeadings service with kernel API integration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T03:03:55Z",
+      "committer_date": "2026-05-02T03:03:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5d2c99f318a1cba1b8f5b9c0d3d4d85df153db2",
+      "message": "feat: add splitDocByHeadingsCore logic and tests",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T03:02:31Z",
+      "committer_date": "2026-05-02T03:02:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39b2c184da99589a7d4a7625f1ea1fe7587645b3",
+      "message": "docs: add implementation plan for split-doc-by-headings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T02:56:08Z",
+      "committer_date": "2026-05-02T02:56:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea00d41ecd5e1ab13bd9245ed6daa300a5aab5cc",
+      "message": "docs: add design spec for split-doc-by-headings action",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T02:51:48Z",
+      "committer_date": "2026-05-02T02:51:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1d0d39497cdbeb8fbe742ab421fafa3a22f909f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T02:06:33Z",
+      "committer_date": "2026-05-02T02:06:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8e0503bdf030970220c22c7df31f2a8f0ef96a39",
+      "message": "feat: 清理 AI 输出新增隐藏引用 span 清理规则",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T02:04:13Z",
+      "committer_date": "2026-05-02T02:04:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05f4e7be33e489404bb754e6a3fff9297a4034e6",
+      "message": "feat: 清理 AI 输出支持引用标记删除；修复 alpha-config 相关测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T01:27:38Z",
+      "committer_date": "2026-05-02T01:27:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb66dfd7379900df76a2581b05310b52cf020cbb",
+      "message": "refactor: alpha 功能隐藏改为手动配置，不再默认隐藏 AI 组",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-02T00:40:38Z",
+      "committer_date": "2026-05-02T00:40:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1319d2476def8c7e5fda8e4835f8ee762977cf5d",
+      "message": "fix: improve top100 report output flow",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-28T14:44:06Z",
+      "committer_date": "2026-04-28T14:44:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53d2cd3178f8f3d6934d2e8c54dc4874b41a7b87",
+      "message": "feat: 文档处理-整理，新增“输出Top100大文件清单”操作命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T14:51:00Z",
+      "committer_date": "2026-04-27T14:51:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d3c1c91c2cb52e72cf7fd2fc116b3dd42106a79",
+      "message": "fix: support json getFile responses for blob reads",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T14:32:24Z",
+      "committer_date": "2026-04-27T14:32:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d14ee33986cdf0cb6275c3b5ad2660222ab8a155",
+      "message": "Merge branch 'codex/top100-large-documents'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T13:52:56Z",
+      "committer_date": "2026-04-27T13:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c3385aff4c9828ee0effa967852cb4a221946288",
+      "message": "feat: add top100 large documents report action",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T13:15:37Z",
+      "committer_date": "2026-04-27T13:15:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c90eaa2db0065a519b5226a6e738777c18e94e04",
+      "message": "feat: add large documents report service",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T13:01:51Z",
+      "committer_date": "2026-04-27T13:01:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b0971b9720ea1aeceba3e5b5ca44ab4d69e130d",
+      "message": "feat: add large document report core",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T12:56:06Z",
+      "committer_date": "2026-04-27T12:56:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "508b818f3856550fd15cbc921bd56adaedf16874",
+      "message": "docs: add top100 large documents design",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-27T12:42:25Z",
+      "committer_date": "2026-04-27T12:42:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f35f119f09ee6dc207a4a961a630393b9c6f39b8",
+      "message": "fix: 修复列表项容器块中的标签内容会被重复提取问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T11:25:07Z",
+      "committer_date": "2026-04-26T11:25:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a37195ace723c71cdf1e021089b8aebea67a5c38",
+      "message": "feat: 同一段内的关键内容合并显示；高亮内容识别支持字体、背景颜色内容，以及标记颜色的整段内容；",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-26T02:47:05Z",
+      "committer_date": "2026-04-26T02:47:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53cc9d3cfd65960d13dcddbee6f31d16474db8c2",
+      "message": "v1.5.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-25T12:37:56Z",
+      "committer_date": "2026-04-25T12:37:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc6e416fdc9aaf2db0fe418a5a536bef6158a3f3",
+      "message": "fix: hide alpha-only commands and sandbox vitest",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-25T12:37:21Z",
+      "committer_date": "2026-04-25T12:37:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c5b98443a88a0551204dc4085e72167641fce6af",
+      "message": "fix: run vitest in sandbox",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-25T12:14:10Z",
+      "committer_date": "2026-04-25T12:14:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b50ee28dfb8650f969af4fc3e1404f0da221280",
+      "message": "fix: unify selected block style toggles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-17T12:29:54Z",
+      "committer_date": "2026-04-17T12:29:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a52a6c1906a672488ebfe75a569008542b20e43e",
+      "message": "fix: prevent stuck action processing overlay",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:58:28Z",
+      "committer_date": "2026-04-12T04:58:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d35dd68537f181dd9b5b6c257c65e91f24cc8e9",
+      "message": "fix: avoid hanging delete block actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:35:20Z",
+      "committer_date": "2026-04-12T04:35:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65d7e0f3b0010102c141ade383c23fca0218fef5",
+      "message": "docs: add public command configuration notes",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-12T04:22:05Z",
+      "committer_date": "2026-04-12T04:22:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abf04e396c9436aa163687698e7323a8d9791474",
+      "message": "fix: honor provider invocation result contract",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:36:35Z",
+      "committer_date": "2026-04-11T02:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6109a7717639d7b5c57973baa52344cbfde223eb",
+      "message": "Merge branch 'feature/power-buttons-provider'",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:09:42Z",
+      "committer_date": "2026-04-11T02:09:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77748fa67bb7b1efb9bba2d69532a82bd3265c6c",
+      "message": "feat: add power buttons integration provider",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T02:09:24Z",
+      "committer_date": "2026-04-11T02:09:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74978d52d56b303d5647f699e318cc2f375f27f0",
+      "message": "Ignore local worktrees directory",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T01:33:59Z",
+      "committer_date": "2026-04-11T01:33:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44262bbe681753a7d64df156d729305d520e34b7",
+      "message": "feat: add alpha feature hide config",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T07:43:21Z",
+      "committer_date": "2026-04-05T07:43:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5838f8d947bd06b62c0451457a91152bf6e04fc1",
+      "message": "style: unify collapsible settings panels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T07:27:55Z",
+      "committer_date": "2026-04-05T07:27:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e90850f8f23e4865513bb5a6cf43b65ab979811",
+      "message": "feat: add monthly diary command and template settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T07:17:38Z",
+      "committer_date": "2026-04-05T07:17:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01c75e8c486dfe508f3cc1624047853e6e3bff93",
+      "message": "feat: add ai concept map doc",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T06:42:25Z",
+      "committer_date": "2026-04-05T06:42:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fe564a0bac672d37c91915309a4b6a88e78c417",
+      "message": "refactor: split plugin runners settings and services",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T05:34:06Z",
+      "committer_date": "2026-04-05T05:34:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "efc7a515cca77659dcbd347c891b8be90f963714",
+      "message": "fix: tolerate missing docs during zip export",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T04:04:24Z",
+      "committer_date": "2026-04-05T04:04:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1aa12052a54ef5f422391a36a24d5a2567d35d72",
+      "message": "feat: clarify doc action tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T03:26:07Z",
+      "committer_date": "2026-04-05T03:26:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f232bd971b3f0481681504cb773208d4e725cfa",
+      "message": "feat: detect backlinks from refs and links",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T03:13:43Z",
+      "committer_date": "2026-04-05T03:13:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc9d2642ade21ca000d007ec8b245a24857a6316",
+      "message": "feat: add bundled doc export commands",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T03:03:58Z",
+      "committer_date": "2026-04-05T03:03:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc14b630ddf9f0821f8e62a4a502892f2cb2b5b1",
+      "message": "fix: merge clipped list continuation blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-05T01:02:05Z",
+      "committer_date": "2026-04-05T01:02:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78ed36a7369a3d8302a8c0636fc616596dd8a157",
+      "message": "fix: tighten collapsible settings layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T01:26:54Z",
+      "committer_date": "2026-04-04T01:26:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "acae8e3aef57c336fc2477f33ed14206e23531d0",
+      "message": "build: refresh package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T16:01:36Z",
+      "committer_date": "2026-04-03T16:01:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b452772aa0101fd323388888833df95aa438d111",
+      "message": "feat: reuse network-lens ai summaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T16:01:00Z",
+      "committer_date": "2026-04-03T16:01:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00738fb184466486475e22b4dc6c2f9cdd057e87",
+      "message": "feat: add ai key content marker",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T14:46:57Z",
+      "committer_date": "2026-04-03T14:46:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6494a2c2fb2ee49de245c1ea21601026f17264bd",
+      "message": "fix: refine ai slop marker separator handling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T14:16:52Z",
+      "committer_date": "2026-04-03T14:16:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82f9baa962b6f8480ca971db68a4243d0e2563a5",
+      "message": "test: align list merge expectation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T13:18:43Z",
+      "committer_date": "2026-04-03T13:18:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21c087c3bca62b9964dc2128e9db7de3e5773b06",
+      "message": "feat: add ai document summary command",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T13:09:29Z",
+      "committer_date": "2026-04-03T13:09:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c5a1867fffe84eae012da1e7cfa42866a2aba72",
+      "message": "feat: 增加清理预删除内容命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-03T04:39:36Z",
+      "committer_date": "2026-04-03T04:39:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e066a77ea25f8cde945750b9e035e83e11b01f1e",
+      "message": "fix: 选中内容合并列表块支持保留有序列表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-01T14:21:50Z",
+      "committer_date": "2026-04-01T14:23:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e660500ab78fff766e1a0600138b216414cc5851",
+      "message": "docs: add reference docs and rebuild package",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-31T00:57:10Z",
+      "committer_date": "2026-03-31T00:57:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5914100eb821ebd31914713b5612be11f671684",
+      "message": "feat: 清理剪藏内容命令增加中英文分段功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-30T16:38:52Z",
+      "committer_date": "2026-03-30T16:38:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1f6897e0fd4f16c1231c7a33ea59096181f44baa",
+      "message": "feat: add clipped list cleanup command",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-30T16:08:23Z",
+      "committer_date": "2026-03-30T16:08:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a65d1fc627710aaa8a0e807d1ee73cbe407b33e",
+      "message": "v1.4.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-30T12:38:37Z",
+      "committer_date": "2026-03-30T12:38:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d9f77ed8f48e206a718e596c16bf555d1cf49ed",
+      "message": "fix: unify key-info dock footer buttons",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T12:42:40Z",
+      "committer_date": "2026-03-29T12:42:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2fc8544a79fab3ab1d97d4251ffeee879321a195",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T11:52:23Z",
+      "committer_date": "2026-03-29T11:52:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "91cc84207ace4866bcd6fe6d1bc2f680e35f4019",
+      "message": "fix: preserve heading highlights when title filter is off",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T11:52:05Z",
+      "committer_date": "2026-03-29T11:52:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "274c10489e346e29133f51aa6b065043bc03c760",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T11:33:53Z",
+      "committer_date": "2026-03-29T11:33:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f924bb995ff8b66179c93a03a839ee1253324e14",
+      "message": "style: emphasize refresh button over export",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T11:33:32Z",
+      "committer_date": "2026-03-29T11:33:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0773d9fd63a2fdd531720a51fb0ab01441d3585",
+      "message": "feat: support underline key info filters",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T11:31:15Z",
+      "committer_date": "2026-03-29T11:31:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bf76dee534a001c1857af67ed45f26acfa2594f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T10:58:55Z",
+      "committer_date": "2026-03-29T10:58:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1560cff08bcecfbf9ca8760393ed7be4554cedc7",
+      "message": "fix: 支持文档锁定态并同步菜单状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-29T05:05:41Z",
+      "committer_date": "2026-03-29T05:05:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d77e957470dfdd2b4868e72ed5d593adfed6a63",
+      "message": "fix: 移除顶栏图标入口设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-27T14:13:58Z",
+      "committer_date": "2026-03-27T14:13:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b3335b10adbcea77d76626e7a42e672a0fa47a2",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T15:48:19Z",
+      "committer_date": "2026-03-24T15:48:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0dcb5345d903dc06714a41ab78cf8f3dfc5fde9c",
+      "message": "fix: 调整设置页菜单命令分组布局",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T15:48:00Z",
+      "committer_date": "2026-03-24T15:48:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1c50a874fe4fad9da6ee016f7ec7437edd8a4c74",
+      "message": "fix: align plugin menu entry with topbar settings UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T15:06:33Z",
+      "committer_date": "2026-03-24T15:06:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c4b0502a11c01b2badfe515e2746ee0937c5df9",
+      "message": "fix: stabilize pinned tab visibility",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T13:15:09Z",
+      "committer_date": "2026-03-24T13:15:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "242bca58dde2ffef4604350c8fa168bd3dea3533",
+      "message": "feat: keep new docs after pinned tabs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T10:17:01Z",
+      "committer_date": "2026-03-24T10:17:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d2d1e226b7145571a8c50a371fe6a04e96a16e5",
+      "message": "feat: move doc menu registration to settings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-24T09:56:13Z",
+      "committer_date": "2026-03-24T09:56:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f9d33bd58a6681f3d0ec17882f5827ab5bd2e784",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T13:35:43Z",
+      "committer_date": "2026-03-22T13:35:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a7acb549058aee8a4afbf28fd3b402ccbf4eb0e",
+      "message": "v1.4.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T04:18:03Z",
+      "committer_date": "2026-03-22T04:18:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4911aafbe42ea4b8fa9deeac5a4f932c7306e8d0",
+      "message": "build: 更新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T15:06:42Z",
+      "committer_date": "2026-03-19T15:06:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7ab5e80a50ffd9d15006b30fde15e75f4e2b4d9",
+      "message": "fix: 兼容打开文档汇总页新页签结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T15:06:15Z",
+      "committer_date": "2026-03-19T15:06:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "687c70875a3e1dccd0557423ac0a5eb63552d119",
+      "message": "fix: 修复已打开文档汇总页误判为空",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-19T07:45:29Z",
+      "committer_date": "2026-03-19T07:45:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a178fbf043eb8ee1a20999654110043fcba08c9",
+      "message": "feat: add opened docs summary page",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T16:17:17Z",
+      "committer_date": "2026-03-17T16:19:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe99c3b5d39129f4b52514b1504b434c1c7aa743",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:24:03Z",
+      "committer_date": "2026-03-14T17:24:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa342b28254de6dd25ce0772171a204471b6b377",
+      "message": "fix: 优化块删除性能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:02:34Z",
+      "committer_date": "2026-03-14T16:02:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "288a157703dca68ee6cc43a1eb191966dbac6114",
+      "message": "build: refresh package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T23:53:26Z",
+      "committer_date": "2026-03-09T23:53:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f56ec5f51847fa5b8835dc8d3a18624408cf152b",
+      "message": "fix: 修复导出文档标题与文件名保留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T15:11:41Z",
+      "committer_date": "2026-03-09T15:11:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "502440c9bed6cfdd95644073c8035bd061f33172",
+      "message": "feat: 增加选中内容合并列表块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T07:35:19Z",
+      "committer_date": "2026-03-09T07:35:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bb61bfb08c5e8c6fa7dba9b95c5fed4dd4e166c",
+      "message": "feat: 增加标题块加粗状态切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T03:31:10Z",
+      "committer_date": "2026-03-09T03:31:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "762b828615e82acad1b8dc21f3b6f0f50fe70227",
+      "message": "feat: 持久化关键内容筛选状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T02:43:01Z",
+      "committer_date": "2026-03-09T02:43:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06a32f62ae80ba52ab0440d7c415adb7e5fa9be6",
+      "message": "build: refresh package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-09T01:17:12Z",
+      "committer_date": "2026-03-09T01:17:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b28e4197f1dad47c6d02de652e9677734eeaf3e",
+      "message": "feat: 优化关键内容链接引用筛选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T06:38:43Z",
+      "committer_date": "2026-03-08T06:38:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49f056a15aece30ce560dbe57b07ee6b6623b4ef",
+      "message": "v1.3.9",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:22:16Z",
+      "committer_date": "2026-03-08T04:22:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5abc28fcab2ea9c67c04a61f8331d9f045b7d95b",
+      "message": "v1.3.9",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:18:21Z",
+      "committer_date": "2026-03-08T04:18:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ed744cbc050b3e1f934f01f4ff35b8ad4ce896c3",
+      "message": "fix: 切换文档时显示加载态并禁用操作",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-08T04:07:57Z",
+      "committer_date": "2026-03-08T04:07:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a74eccdd691cf826d90f5f334329b69f1af0d8b",
+      "message": "refactor: 拆分运行时编排与清理模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T15:31:45Z",
+      "committer_date": "2026-03-07T15:31:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f54eea7f6b27ba9e107434940f960fa2772335c2",
+      "message": "fix: 支持全角英文与半角中文标点互转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T13:24:36Z",
+      "committer_date": "2026-03-07T13:24:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5928067046bf74705078769606c4780fc7496ae",
+      "message": "fix: 修正关键内容链接与标签提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T13:23:37Z",
+      "committer_date": "2026-03-07T13:23:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c4988217afa5f0298765047b8e698630988383b",
+      "message": "fix: 保留数字中的英文逗号句点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T12:57:12Z",
+      "committer_date": "2026-03-07T12:57:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15615645b5b2ef65937bd8ab1d9872b4a5e45310",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T08:15:58Z",
+      "committer_date": "2026-03-07T08:15:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "010c5ca8d8a31a3021347195af09867b66de0977",
+      "message": "v1.3.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T08:15:36Z",
+      "committer_date": "2026-03-07T08:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0062f407318b9c3fca0411718098194fa855607",
+      "message": "feat: 新增选中内容中英文标点互转命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T08:07:02Z",
+      "committer_date": "2026-03-07T08:07:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c84205d9fb73a79acf39e01acd364062812a48b",
+      "message": "fix: 新增选中内容删除空格并修复多块处理污染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T07:40:14Z",
+      "committer_date": "2026-03-07T07:40:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5cc2437f3e112d137fcc30d9e36b23e3b2e35f3",
+      "message": "feat: 增加按当前显示调整图片尺寸",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T04:32:25Z",
+      "committer_date": "2026-03-07T04:32:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8365a7110f61dfed2924eff9c9cebf47aa36de98",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T15:18:35Z",
+      "committer_date": "2026-03-05T15:18:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65ca5aa80d76738ca392ecc3dba3bed020a622e2",
+      "message": "v1.3.7",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T13:08:22Z",
+      "committer_date": "2026-03-05T13:08:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd0b787973946284ab31da50668b17c8becc9adb",
+      "message": "chore: 更新构建产物 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T08:35:45Z",
+      "committer_date": "2026-03-05T08:35:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e8cd85fefb36b0ebc145b0168ea6c83ef61190b",
+      "message": "fix: 未选中时换行分段互转仅提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T08:35:29Z",
+      "committer_date": "2026-03-05T08:35:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1abdc266e7325397b8d57f5b6e6b99a3a4362828",
+      "message": "feat: 新增子文档关键内容打包导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T03:47:02Z",
+      "committer_date": "2026-03-05T03:47:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7eb52b65aa36298561d6172c50d700ea46c8541c",
+      "message": "feat: 新增换行分段互转并补充编辑确认统计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T03:34:58Z",
+      "committer_date": "2026-03-05T03:34:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe8fa68504389038b5ab1b61aea5f9a9286bb8a2",
+      "message": "fix: 关键内容解析忽略转义符样式标记",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-05T01:14:00Z",
+      "committer_date": "2026-03-05T01:14:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8575c2159b320ab4ff9d1326ee53a7c72b04a56c",
+      "message": "v1.3.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-04T12:35:07Z",
+      "committer_date": "2026-03-04T12:35:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8032a0776abddd0ad87de6e3826ef699f1450f5e",
+      "message": "fix: 文档菜单默认关闭注册",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T13:12:38Z",
+      "committer_date": "2026-03-03T13:12:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90766401eca9884dc75d021131ef1a7f856f7341",
+      "message": "feat: 清理AI输出增加确认统计并扩展链接规则",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T06:27:31Z",
+      "committer_date": "2026-03-03T06:27:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f76ae229ace6c732b76e1e7eeddf9d1e0144001",
+      "message": "refactor: 完成 RF-004/005/006 拆分与统一",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T05:56:27Z",
+      "committer_date": "2026-03-03T05:56:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17ee77cebf5fa457a9dcb3c69f0814abfae96a98",
+      "message": "feat: 新增清理AI输出内容命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T04:31:31Z",
+      "committer_date": "2026-03-03T04:31:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d39665aed9ef580f93fc886099748672c1322f6",
+      "message": "fix: 调整无效链接标示渲染与分组",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T03:45:39Z",
+      "committer_date": "2026-03-03T03:45:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57e8a3219aa9b4dfbc028145c84887b89c38fa7e",
+      "message": "feat: 新增标示无效链接/引用命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-03T03:22:31Z",
+      "committer_date": "2026-03-03T03:22:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1388518816147233136cbe64026bba4765b068ff",
+      "message": "style: 调整侧栏顶部标题展示并完善交互样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-02T15:19:50Z",
+      "committer_date": "2026-03-02T15:19:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3f10b799115959b0af7597e4831f9f23efb6df26",
+      "message": "style: 美化文档助手界面并补充 UI 行为测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-02T14:51:16Z",
+      "committer_date": "2026-03-02T14:51:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88eed3b6b2db4085659fe90a53fe702fe6de08a5",
+      "message": "feat: 文档处理命令支持收藏分组折叠与拖拽排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-02T14:07:47Z",
+      "committer_date": "2026-03-02T14:07:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74cb302985bac0e6ed65ae9628febe2b6fd4bf41",
+      "message": "new release",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-02T11:17:00Z",
+      "committer_date": "2026-03-02T11:17:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4133386f5549196d5b00b5a98f999457cb17246b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T11:53:32Z",
+      "committer_date": "2026-03-01T11:53:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1256fb1b97832a74194919f8b59b34178aa6d97c",
+      "message": "feat: WebP 批量转换显式跳过 GIF",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T11:23:33Z",
+      "committer_date": "2026-03-01T11:23:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64adf5b7717ea5e8a17a03b872bad5f413eb5820",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T11:01:23Z",
+      "committer_date": "2026-03-01T11:01:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb33741f2f52de99224987e21bc0d2ba57c6a765",
+      "message": "feat: 文档处理命令增加 tooltip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T11:00:30Z",
+      "committer_date": "2026-03-01T11:00:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d2b15c914dee49ed15ea95d8a5883ab0eccc9eb",
+      "message": "feat: 新增图片批量处理与删除图片链接命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T10:56:43Z",
+      "committer_date": "2026-03-01T10:56:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96d4dff0014bf74b2d2d44df3712691684b29bd9",
+      "message": "fix: 高亮块引用仅显示别名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T07:07:06Z",
+      "committer_date": "2026-03-01T07:07:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "469a08cc30ac0c72b393ddbb64fe75c2e2711f5a",
+      "message": "feat: 重复文档删除窗口支持保留最早更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T01:29:28Z",
+      "committer_date": "2026-03-01T01:29:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "504cc6966b687e3efe23fc03e16f39f6d23b7d81",
+      "message": "fix: 修复清理行尾空格会导致备注样式失效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-01T01:06:10Z",
+      "committer_date": "2026-03-01T01:06:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bfedac33d54957994f57dcc81c1ddfe45f699b8e",
+      "message": "v1.2.8",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-28T12:31:09Z",
+      "committer_date": "2026-02-28T12:31:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8e5c6eaa6271001dff05358696d088b09585299",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-28T12:05:01Z",
+      "committer_date": "2026-02-28T12:05:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4c54f4d660eecbcf1de4e1b53594ca543b42388",
+      "message": "fix: 剔除上标下标的高亮提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-28T07:06:32Z",
+      "committer_date": "2026-02-28T07:06:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36c9bb351cd3d1e0d2b5b7f24acb146c07ac7456",
+      "message": "fix: 批量kramdown成功后不再降级单条请求",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-28T01:21:29Z",
+      "committer_date": "2026-02-28T01:21:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e31810bb70cbda46ca41291aa577ca17283d35e",
+      "message": "修复备注内容重复提取问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T15:44:38Z",
+      "committer_date": "2026-02-27T15:44:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3e2237a574868e7160fe7ead629160976486099",
+      "message": "UI调整",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T15:10:10Z",
+      "committer_date": "2026-02-27T15:10:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61c1a26ff1debdb2b7d23553246cc875f8aba551",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T14:27:15Z",
+      "committer_date": "2026-02-27T14:27:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56c764e8c1d0cecccbd2b442544a0fa8e13b4b28",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T13:44:51Z",
+      "committer_date": "2026-02-27T13:44:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56f76b3e09f2f6834de2548136eec574012419b3",
+      "message": "style: 文档处理命令图标与按钮背景融合",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T09:15:26Z",
+      "committer_date": "2026-02-27T09:15:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0c47cc9ca3310138ab24883d76f945b91264f6c",
+      "message": "feat: 新增移动正链文档为子文档命令",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T09:12:25Z",
+      "committer_date": "2026-02-27T09:12:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "861d664d576976623075b060c611beb2a2ee4eeb",
+      "message": "chore: 提交构建产物 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T08:31:53Z",
+      "committer_date": "2026-02-27T08:31:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd352dc1d010d91afd1035dc0108dce31436f2b9",
+      "message": "feat: 文档处理命令按钮优先SVG图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T07:25:40Z",
+      "committer_date": "2026-02-27T07:25:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21bf2e988411eb96c561deed73f75cb163f3d10d",
+      "message": "fix: 去重备注并过滤链接中的斜体提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T03:45:40Z",
+      "committer_date": "2026-02-27T03:45:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0897d9ee81928e9e810758f41221acbeb36c09f7",
+      "message": "fix: 合并混合样式加粗关键内容并更新构建包",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T03:16:06Z",
+      "committer_date": "2026-02-27T03:16:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e09b22ce14cd604d8cb5babb5f7bb6708d322a3",
+      "message": "fix: 规范关键内容高亮与备注提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-27T02:53:32Z",
+      "committer_date": "2026-02-27T02:53:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cadcde120c530a384c8b1a5804b41e08a964d213",
+      "message": "fix: 仅使用 getBlockKramdowns 并限制段落块处理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T23:40:37Z",
+      "committer_date": "2026-02-27T00:02:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "169f8a596d042f2b5bc846b9231d0c240dc0f506",
+      "message": "fix: 批量样式剔除IAL属性片段",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T14:32:33Z",
+      "committer_date": "2026-02-26T14:32:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d45ccc71913fcb12dc8c44bca373b7516a5fcb1d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T12:01:36Z",
+      "committer_date": "2026-02-26T12:01:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88e8424f5ce75150639dd46b2e87157562a2d635",
+      "message": "细节修正",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T11:57:21Z",
+      "committer_date": "2026-02-26T11:57:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6af3ce4c8ce39986bef7fc6398aeb2af8b171bb8",
+      "message": "chore: 根据bazaar PR1765 review修正发布项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T04:28:14Z",
+      "committer_date": "2026-02-26T04:28:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b910d66e9f9b118fd04fd9cf8250ab64aafad07",
+      "message": "feat: 优化选中块加粗和高亮切换逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T03:47:50Z",
+      "committer_date": "2026-02-26T03:47:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1f4ee6524688de6b07c97a9f969b4b9a7d959cc",
+      "message": "refactor: 完成RF-006和RF-007收尾",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T03:17:17Z",
+      "committer_date": "2026-02-26T03:17:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13031352599808ec60b1c2a5db81f814c3c7139b",
+      "message": "chore: 提交最新 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T02:18:24Z",
+      "committer_date": "2026-02-26T02:18:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd9616bcca7c32ed19b480b4caff5b0979df0a0c",
+      "message": "refactor: 完成P1重构并更新重构计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-26T02:13:21Z",
+      "committer_date": "2026-02-26T02:13:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d90a4f9459f0082377832ecbac9d1acec06048b",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-25T15:37:53Z",
+      "committer_date": "2026-02-25T15:37:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b5078467143e724fe3844f48c2e60cb18aafd7d",
+      "message": "更新版本号、图标信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-25T15:29:18Z",
+      "committer_date": "2026-02-25T15:29:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a05fb2e2e80330f3127a2a30f85bb27c9db2c998",
+      "message": "Delete memo.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-25T14:59:22Z",
+      "committer_date": "2026-02-25T14:59:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5729832bfa37da9af5855d8b504d73f9005705a9",
+      "message": "Delete reference_docs directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-25T14:53:21Z",
+      "committer_date": "2026-02-25T14:53:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "caf21fd7ed6a2bff929480303c74f1df503052ea",
+      "message": "Delete plugin-sample-vite-vue directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-25T14:53:00Z",
+      "committer_date": "2026-02-25T14:53:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32d0746dd9a3ed27967ef996938aaf74ec7b2667",
+      "message": "重新组织项目文件结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-25T14:52:00Z",
+      "committer_date": "2026-02-25T14:52:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b8447ef068f8800c8acc97462f134d29398b50f",
+      "message": "chore: add refactor skill and initial refactor plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T16:23:54Z",
+      "committer_date": "2026-02-24T16:23:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce31491b58f19f1d22ca14a8e1f93454e38a7df4",
+      "message": "fix: 修复命令拖拽分组与行尾空格清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T16:05:05Z",
+      "committer_date": "2026-02-24T16:05:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50c7a7b091b0013b98d341b1e7fad49d1bf09c8a",
+      "message": "fix: 修复行尾空格清理在 white-space:pre span 场景失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T14:39:39Z",
+      "committer_date": "2026-02-24T14:39:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71af5e5b500aecbc592777c35e390b2d361803f3",
+      "message": "feat: 文档处理命令支持拖动排序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-24T04:36:46Z",
+      "committer_date": "2026-02-24T04:36:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ef4112c1038a16f499dfbc92f6a358597517852",
+      "message": "feat: 新增清理行尾空格动作与测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-23T23:17:28Z",
+      "committer_date": "2026-02-23T23:17:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a07e89002535391a78554807ecb701877e35892",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T08:45:19Z",
+      "committer_date": "2026-02-22T08:45:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "030c9a121e89a8dc15b74c4029ccdf7cf2bc2a46",
+      "message": "fix: 修复关键信息列表项前缀与重复提取",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T08:45:10Z",
+      "committer_date": "2026-02-22T08:45:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "623ac5568610253fddf5d1fc2182e255689247f8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T07:01:45Z",
+      "committer_date": "2026-02-22T07:01:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95caad38133bde321d2c47413ee1d9db3e0b8862",
+      "message": "fix: 插入反链/子文档去重",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T07:01:27Z",
+      "committer_date": "2026-02-22T07:01:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bf801e32705004e682945b975dc1552283c6101d",
+      "message": "fix: 去重补齐分页并纳入父文档候选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T07:00:52Z",
+      "committer_date": "2026-02-22T07:00:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61be0ab602b9ba0014993ed90a2e75d7ba30fb27",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T06:03:35Z",
+      "committer_date": "2026-02-22T06:03:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afe07eba02130d779b0aedb990100c482318ea89",
+      "message": "fix: 兼容 v3.5.7 选中块样式处理并增强失败诊断",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T05:39:37Z",
+      "committer_date": "2026-02-22T05:39:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca93213b963265e989e6b685f0e59d2bba8b82ad",
+      "message": "fix: 优化关键内容列表点击后滚动响应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T04:39:04Z",
+      "committer_date": "2026-02-22T04:39:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aae9badaba52a3b619f8d12c42e3635f01211042",
+      "message": "style: 统一文档处理分组与绿色主题按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T04:28:15Z",
+      "committer_date": "2026-02-22T04:28:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86541989d35197a89d0bc9e08ac61c69123f4789",
+      "message": "feat: 增加文档菜单注册开关并改为滑动样式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T04:13:46Z",
+      "committer_date": "2026-02-22T04:13:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25cef497e2d47c39d42eb851dc12a6a6cf03bc41",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T03:58:29Z",
+      "committer_date": "2026-02-22T03:58:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d02d2261b5e61b9f367676f08a40e813e55ac41f",
+      "message": "feat: update doc actions and dedupe dialog",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T03:50:31Z",
+      "committer_date": "2026-02-22T03:50:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aba31231ed92c00201187134d878814e7f53f1b8",
+      "message": "fix: 删除后续段落时过滤 docId 并增强块定位回退",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T03:27:37Z",
+      "committer_date": "2026-02-22T03:27:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af639763990350eb84bfb95d82ab62fa4a1ca405",
+      "message": "fix: 修复关键内容排序与.sy读取兼容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T03:18:06Z",
+      "committer_date": "2026-02-22T03:18:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8cb56145a47f6832dc3f8d51fbac2bc1312ff36",
+      "message": "feat: 支持删除当前段落及后续内容并兼容嵌套块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T03:17:07Z",
+      "committer_date": "2026-02-22T03:17:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5537b056932f4ee14953f9da1f546f1ed0fbc2ee",
+      "message": "feat: 为标题前补空段落并跳过首段标题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T00:31:26Z",
+      "committer_date": "2026-02-22T00:31:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44f6e28e56705ec8e7838211462fcf9d2f144fb2",
+      "message": "fix: 修复空段落误删并优化文档处理中状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-22T00:03:36Z",
+      "committer_date": "2026-02-22T00:03:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1977c348eb8ce4b87f9b0152cf880fe63127978e",
+      "message": "fix: preserve key-info order on incremental refresh",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T17:22:04Z",
+      "committer_date": "2026-02-21T17:22:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d64574c54ed4ac497ff0583e9a5109d6613ea61",
+      "message": "refactor: split plugin runtime and remove legacy template code",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T17:08:47Z",
+      "committer_date": "2026-02-21T17:08:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c1f9bb5e83d92154eb65d1b1d3163ae1c92db4f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T16:43:05Z",
+      "committer_date": "2026-02-21T16:43:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85fcfb6fa6593d1aa01d59352ac32189c885003f",
+      "message": "fix: 修复关键内容列表排序、滚动与标题重复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T16:41:38Z",
+      "committer_date": "2026-02-21T16:41:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "396dd9b4d57cd0644803f34219650454596641c9",
+      "message": "fix: 兼容 kramdowns 响应",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T15:56:15Z",
+      "committer_date": "2026-02-21T15:56:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2cb4bbd2b1520f0f79ae5723fe9891d7373d747c",
+      "message": "fix: stabilize key info loading",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T15:46:00Z",
+      "committer_date": "2026-02-21T15:46:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1cd11685a5f13de2c89def8db00de76869314ea",
+      "message": "fix: 获取顶层块列表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T15:44:00Z",
+      "committer_date": "2026-02-21T15:44:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96e736c891c656bd09e0abd27fc8f972e7d3f52f",
+      "message": "feat: flash block after scroll",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T14:49:59Z",
+      "committer_date": "2026-02-21T14:49:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "300313a70f56e7fc5d22418cb54e6fb72c759909",
+      "message": "feat: multi-select key info filters",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T14:13:43Z",
+      "committer_date": "2026-02-21T14:13:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b99839530ed20dcf3d59dab33abf3a876583065",
+      "message": "feat: key info click jump",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T14:07:32Z",
+      "committer_date": "2026-02-21T14:07:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f5f103eac245de8e2ce13c17ce3fa83b85380c5e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T13:53:53Z",
+      "committer_date": "2026-02-21T13:53:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33e062724788abec1be60b64b5d0c7c26d60b5a6",
+      "message": "feat: 去除空段落",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T13:51:42Z",
+      "committer_date": "2026-02-21T13:51:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92da21174497cb1a7cbfe8ab2a1848f9c6c12173",
+      "message": "feat: enhance key info sidebar",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T13:41:54Z",
+      "committer_date": "2026-02-21T13:41:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "baa6225223f726f96b699ae72f5474425f4206fe",
+      "message": "开发文档更新补充内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T12:52:09Z",
+      "committer_date": "2026-02-21T12:52:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88f3b6a15ee0c0cd25ff1dd7a97dd7be581f0015",
+      "message": "添加侧面板和文档关键信息导出功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T12:32:18Z",
+      "committer_date": "2026-02-21T12:32:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b91c44e272f0634205f7f8f58b8f4eda9eefbb6",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T12:01:00Z",
+      "committer_date": "2026-02-21T12:01:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "40cf3ac0371906cb08ec9b5ea5f50ca952e8db90",
+      "message": "feat: recursively insert child doc list with hierarchy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T11:58:08Z",
+      "committer_date": "2026-02-21T11:58:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8620fa4625423742d5930bcf62d2daec1123820",
+      "message": "修复导出功能，自主打包导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T11:33:33Z",
+      "committer_date": "2026-02-21T11:33:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8a3836a8a017964195ba07717eac5d10efa4edc",
+      "message": "重新组织文件结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T09:27:40Z",
+      "committer_date": "2026-02-21T09:27:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a51ce855de2a41819b7a96eb63fdaed3827ec271",
+      "message": "fix: stabilize zip export download and naming",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T08:59:15Z",
+      "committer_date": "2026-02-21T08:59:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8654e2c5ffcaf3813d1c93533edaec844cc9b64e",
+      "message": "文档操作插件初版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T08:29:15Z",
+      "committer_date": "2026-02-21T08:29:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "40c88ffd0b95f470930549d856f94cc83bf14eba",
+      "message": "整理、更新插件开发文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T08:01:04Z",
+      "committer_date": "2026-02-21T08:01:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18aba935358b6540a5aecec00d527bffd2d7370d",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-02-21T05:20:28Z",
+      "committer_date": "2026-02-21T05:20:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef7dcfd1ddc16ba51977cb61a7dec4d31a56751e",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-02-21T05:13:17Z",
+      "committer_date": "2026-02-21T05:13:17Z",
+      "login": "famotime"
+    }
+  ]
+}

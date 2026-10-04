@@ -1,0 +1,222 @@
+{
+  "pushed_at": "2024-07-28T01:16:18Z",
+  "count": 24,
+  "commits": [
+    {
+      "sha": "79bae1fcdea25935f559118135d7835487709147",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-07-28T01:15:54Z",
+      "committer_date": "2024-07-28T01:15:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de641381fd056274dbb9d5d1902c8e92a1308494",
+      "message": "增加Midjourney生成图片1裁4处理脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-07-28T01:15:32Z",
+      "committer_date": "2024-07-28T01:15:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb7c65f6b7988f30e712dc83109a0b97c6dc6f31",
+      "message": "Update process_comfyui_generated_images.py",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-03-31T00:01:48Z",
+      "committer_date": "2024-03-31T00:01:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "986d9fc13a0d5d8632d3a99168894895004eb53c",
+      "message": "增加ComfyUI生成文件归档脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2024-03-22T16:04:11Z",
+      "committer_date": "2024-03-22T16:04:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68119da60c2df5fe541066320fa87411402af582",
+      "message": "remove key",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-09-19T14:54:04Z",
+      "committer_date": "2023-09-19T14:54:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a253b4c58a2d582c75cf6fa91277cff2731d27b7",
+      "message": "add midjourney scripts",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-09-19T14:33:56Z",
+      "committer_date": "2023-09-19T14:33:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6203a82888828edc7ddfb5b7ce4b09db469b46df",
+      "message": "增加提示信息",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-07-01T07:31:19Z",
+      "committer_date": "2023-07-01T07:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "851848c066897bd255284d5f592374790205caf1",
+      "message": "更新说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T02:43:43Z",
+      "committer_date": "2023-06-23T02:43:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f325720ffd589c5ffec40fa780678d03de69f921",
+      "message": "更新",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T02:41:31Z",
+      "committer_date": "2023-06-23T02:41:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "239b2bf4ac6294af25df0df7dd1641b19b67722f",
+      "message": "补充说明",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T02:40:42Z",
+      "committer_date": "2023-06-23T02:40:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2ae69c0cc20a7e134d1c7ff6d9592ae04ef50f44",
+      "message": "增加对图片文件的常用处理脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T02:37:04Z",
+      "committer_date": "2023-06-23T02:37:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8b551a9d63c9fd699e311c5e815519d5576f2e42",
+      "message": "增加异常处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T02:36:25Z",
+      "committer_date": "2023-06-23T02:36:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23bd36479d4e97d4db7fe0494ec8f1814701c766",
+      "message": "支持Hires高分参数",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-23T00:21:09Z",
+      "committer_date": "2023-06-23T00:21:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31ea2c3169359d7c7ecb1ce9683851261f08bdb0",
+      "message": "修复未传入negtive_prompt的bug",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-22T23:40:30Z",
+      "committer_date": "2023-06-22T23:40:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62ace7a64b52db855e788f5e00e326d23f176d94",
+      "message": "合并处理Civitai和本地文件生成参数",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-06-22T15:24:47Z",
+      "committer_date": "2023-06-22T15:24:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9a12ada0b9918b65c0635cda0c592663d04ff09",
+      "message": "增加批量替换标签功能，增加对中英文tag文件的处理",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-05-24T15:45:23Z",
+      "committer_date": "2023-05-24T15:45:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3094d313ae4c3ad3cfbb8859fe1839c53de3a903",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-12T06:16:45Z",
+      "committer_date": "2023-03-12T06:16:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ce7b9a404fb46706e4cc7a26cbc8b5681951c3a",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-12T06:15:21Z",
+      "committer_date": "2023-03-12T06:15:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3f79b4454d21ab73957d5a2ae310222b57db007",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-12T06:13:36Z",
+      "committer_date": "2023-03-12T06:13:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c94e56b5b1e6793f1cad21bb9e3f635f172a4a4d",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-12T06:10:02Z",
+      "committer_date": "2023-03-12T06:10:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af3c59df896bdb11f803291cfe3ca44772bbcfc1",
+      "message": "fix bugs",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-11T14:02:00Z",
+      "committer_date": "2023-03-11T14:02:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fddf16711f1b4646d13c94ddc9064e71d8f2b98",
+      "message": "first commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-11T13:46:21Z",
+      "committer_date": "2023-03-11T13:46:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39e13ec18dbc1a593e76d12bb3e35b5cefffd110",
+      "message": "first commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-11T11:30:38Z",
+      "committer_date": "2023-03-11T11:30:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac4b5a9f8a46ee01789219f420b8031663d1ead0",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2023-03-11T11:13:38Z",
+      "committer_date": "2023-03-11T11:13:38Z",
+      "login": "famotime"
+    }
+  ]
+}

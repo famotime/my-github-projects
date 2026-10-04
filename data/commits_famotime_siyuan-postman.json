@@ -1,0 +1,447 @@
+{
+  "pushed_at": "2026-06-19T14:25:18Z",
+  "count": 49,
+  "commits": [
+    {
+      "sha": "961d6977cbb4e68314c1efa7e0b9359e788f8b4e",
+      "message": "v1.0.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T14:22:08Z",
+      "committer_date": "2026-06-19T14:22:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d184e7e31830c14898cfd482cb0646e157d07b6a",
+      "message": "feat: 支持 Resend 发件地址并自动保存设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-19T13:31:19Z",
+      "committer_date": "2026-06-19T13:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4812f4757df45953d0e3ec35cd4b7df3c3fc403d",
+      "message": "refactor: 调整 Resend 桌面发送开关位置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T15:10:58Z",
+      "committer_date": "2026-06-03T15:10:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "906b32c6e2ab3035b3eb4523d6c839f012644111",
+      "message": "fix: 修复 Resend 正文图片内联发送",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T15:03:18Z",
+      "committer_date": "2026-06-03T15:03:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "899f1737d4a757f868764ef275566497fb16db35",
+      "message": "feat: 支持 PC 端使用 Resend API 发送邮件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T14:51:16Z",
+      "committer_date": "2026-06-03T14:51:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2fcb79e4034d6df9874c97fe27d15aa4fc9c4cc",
+      "message": "chore: 更新构建产物 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T14:04:49Z",
+      "committer_date": "2026-06-03T14:04:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c0839564faaaa59c1864976cd79bce42a43488d",
+      "message": "refactor: 消除死代码与重复逻辑，提取共享工具模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-03T14:00:43Z",
+      "committer_date": "2026-06-03T14:00:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "315c0850f596ea78a5e27238a874c242e42188a3",
+      "message": "fix: 补充获取图片MIME类型以解决移动端内联显示为附件的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T16:42:13Z",
+      "committer_date": "2026-06-02T16:42:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a55ccdcc03e372d4f2cdbeb32f93caac0ef8e30",
+      "message": "fix: 修复移动端选择作为正文发送时图片作为附件发送的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T16:28:02Z",
+      "committer_date": "2026-06-02T16:28:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "011d22c4791f09a5e35e15848b0c74623be94b4a",
+      "message": "@",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T15:53:57Z",
+      "committer_date": "2026-06-02T15:53:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "011ca910bc8cc98269adad77da607a6ccf49dea0",
+      "message": "refactor: 复用邮件资源组装逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T15:42:56Z",
+      "committer_date": "2026-06-02T15:42:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03227b8ef26f5730edae9a64cf1a83fa1719f515",
+      "message": "fix: 修复移动端邮件图片资源发送",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T15:36:13Z",
+      "committer_date": "2026-06-02T15:36:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54d11aaa5d4a9650bd93151547231ad5ad9b6d85",
+      "message": "fix: 修复移动端 Resend 发件人配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T15:23:27Z",
+      "committer_date": "2026-06-02T15:23:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62d4ad816a5c4b5d52315d49e4da09687629eeaa",
+      "message": "fix: stringify Resend proxy payload",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-02T04:41:28Z",
+      "committer_date": "2026-06-02T04:41:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "046e44b62369a66d17df50d1beeb63383c5ff796",
+      "message": "fix: 修复移动端 forwardProxy 降级调用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-01T12:00:07Z",
+      "committer_date": "2026-06-01T12:00:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63e6d8278b3a469a75558c9806874df2c8d909dc",
+      "message": "fix: 移动端 Resend 代理 payload 改为传对象而非 JSON 字符串",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-06-01T11:34:06Z",
+      "committer_date": "2026-06-01T11:34:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ed17f0cd7d3d032330de91f6f2035dd2a0b0087",
+      "message": "fix: 优化移动端 Resend 代理错误提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T17:10:46Z",
+      "committer_date": "2026-05-29T17:10:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e54529a583591a91416a40562c5074d53eca77d",
+      "message": "fix: 移动端设置页只显示 HTTP API 配置并支持滚动，收件人输入不再强制回车提交",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-29T00:00:31Z",
+      "committer_date": "2026-05-29T00:00:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6fa1aef735a6d52c5d6be01e1c14406bb497b9e5",
+      "message": "feat: HTTP API 配置改为桌面端与移动端通用，新增测试发送功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T23:18:29Z",
+      "committer_date": "2026-05-28T23:18:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e226f90fd5d6276827754de64bfc7f2684a8ec24",
+      "message": "fix: 移动端配置提示改为 Resend API Key，收件人输入支持自动提交与格式校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T05:10:37Z",
+      "committer_date": "2026-05-28T05:10:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79f83b493d9789ab72fce7d87fb4705e64286cf3",
+      "message": "fix: route mobile Resend requests through SiYuan proxy",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-28T00:51:16Z",
+      "committer_date": "2026-05-28T00:51:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3cb85095557a1d5e39251050627360ad68040f75",
+      "message": "feat: 支持移动端通过 Resend HTTP API 发送邮件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-27T11:14:53Z",
+      "committer_date": "2026-05-27T11:14:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2cf6bcb0c66ad717c5a710ccd95f624aab21e74",
+      "message": "v1.0.3",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T08:54:12Z",
+      "committer_date": "2026-05-23T08:54:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5fbe1a71b6eadb50e9fc4066be6c8a20b3d42766",
+      "message": "feat: 收件人标签式多选、最近收件人记录、下拉箭头优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T08:52:33Z",
+      "committer_date": "2026-05-23T08:52:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "057f4c5ad1a283b02e6e66c52b9b9ac09a501356",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:40Z",
+      "committer_date": "2026-05-23T06:41:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dec1034004685fbdb2027297849a241515ea5396",
+      "message": "fix: handle markdown escaped punctuation in body email",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-14T14:09:56Z",
+      "committer_date": "2026-04-14T14:09:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d0ffbfa6c268bbe7fe7f9388f5e79b6fc68ff9c",
+      "message": "fix: 保留邮件中的文档链接",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-11T13:13:01Z",
+      "committer_date": "2026-04-11T13:13:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84293fd4268d636fdc8f2f63d00bb3f2e8083734",
+      "message": "feat: render markdown tables in email body",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T15:12:01Z",
+      "committer_date": "2026-03-12T15:12:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e47c88a874b35d6f3278c9450cfec9912515ff0f",
+      "message": "feat: support multiple sender accounts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T15:02:12Z",
+      "committer_date": "2026-03-12T15:02:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95055e4caa750c47375fa39cdc8098cb18454b63",
+      "message": "refactor: decouple email composition and dialog mounting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T14:27:26Z",
+      "committer_date": "2026-03-12T14:27:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6153cad70e5280b03c6fe2624ea38bd0e732639d",
+      "message": "fix: 修正发布评审遗留问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-12T13:26:06Z",
+      "committer_date": "2026-03-12T13:26:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64674c5cd5cfa86c62136b2fdbb77dcbc098f2e4",
+      "message": "上架前准备",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-11T14:52:35Z",
+      "committer_date": "2026-03-11T14:52:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db535995e3ee5d098a4f47512412a0d6a7f7b901",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-11T14:24:09Z",
+      "committer_date": "2026-03-11T14:24:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e031cc5ad653d6a223eacafb0a5fb77948dbe6e",
+      "message": "feat: 优化邮箱提供商图标体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T15:06:59Z",
+      "committer_date": "2026-03-07T15:06:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "524efbe648ef79b1e962915d33d6854de8f95e15",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T14:44:32Z",
+      "committer_date": "2026-03-07T14:44:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "624a5b61a0c822826910749e46813161ac52c0b9",
+      "message": "fix: 保留链接与引用文字并避免误删反向链接文档章节",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T04:59:16Z",
+      "committer_date": "2026-03-07T04:59:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9ce69b9f6441ac07095307befbf863df5938770",
+      "message": "fix: 优化顶栏发送入口与密码可见切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T04:22:45Z",
+      "committer_date": "2026-03-07T04:22:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d759fb3dce4f481eb868dda048ed63093dae8af",
+      "message": "fix: 记住收件人并修复附件菜单图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T04:11:37Z",
+      "committer_date": "2026-03-07T04:11:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16af2473d7440450f049c5751390035b2d2cdf27",
+      "message": "fix: 修复邮件发送列表层级与关联文档过滤",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T04:02:05Z",
+      "committer_date": "2026-03-07T04:02:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30d6b29d741bdeedd1f9cea02dde011707647ae9",
+      "message": "UI简化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T03:06:29Z",
+      "committer_date": "2026-03-07T03:06:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfa4b1a7c31bf52e7fbe44f005ddd3687f1cec71",
+      "message": "UI调整",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-07T02:38:55Z",
+      "committer_date": "2026-03-07T02:38:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c8e122f23bdf7fcabc7211dd84c35f7f434fe1a",
+      "message": "精简UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-06T17:32:17Z",
+      "committer_date": "2026-03-06T17:32:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "667d96be13241ae53d5626ea132f4e0ce312a247",
+      "message": "feat: polish plugin settings and send dialogs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-06T17:04:52Z",
+      "committer_date": "2026-03-06T17:04:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96f6d04ed3671f3fea168c614a3932014c4a33e1",
+      "message": "Merge branch 'main' of https://github.com/famotime/siyuan-postman",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-06T16:05:23Z",
+      "committer_date": "2026-03-06T16:05:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "950b5d3b75961d77d5ce481d06331154bf6ed69d",
+      "message": "feat: 支持邮件正文内联图片及作为含图片资产的ZIP附件发送",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-06T16:03:29Z",
+      "committer_date": "2026-03-06T16:03:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76cd39155e6a1498b8c01a4cab8e24bac082aedd",
+      "message": "Delete reference_docs directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-03-06T15:05:39Z",
+      "committer_date": "2026-03-06T15:05:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "333c9886e2e37f26fdf45cdf6faf5a05c8b7feec",
+      "message": "Delete plugin-sample-vite-vue directory",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-03-06T15:05:25Z",
+      "committer_date": "2026-03-06T15:05:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a227d9884e2790cd14b08bf49b6ae33e1389d21",
+      "message": "初版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-06T15:02:03Z",
+      "committer_date": "2026-03-06T15:02:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "177c5e1040e66b14ea672764f02a65af69f7f9eb",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-03-06T14:38:56Z",
+      "committer_date": "2026-03-06T14:38:56Z",
+      "login": "famotime"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "pushed_at": "2025-03-02T12:19:33Z",
+  "count": 22,
+  "commits": [
+    {
+      "sha": "64476d979b540af71aa7e0aeadbdd66fff248b62",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T12:19:26Z",
+      "committer_date": "2025-03-02T12:19:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8cdb9d63d44d7d801353f88314571407baff0909",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T11:03:55Z",
+      "committer_date": "2025-03-02T11:03:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "30e139168a1cb008f3f97a99d6973aa95663f118",
+      "message": "优化和增加自动测试项",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T10:42:45Z",
+      "committer_date": "2025-03-02T10:42:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5aeb24dd443589cf11adc768fbc0fa81e7846aa2",
+      "message": "增加自动化测试模块",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T08:37:44Z",
+      "committer_date": "2025-03-02T08:37:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fafec3b71a5250615d32713b7992c0dec18d9ce3",
+      "message": "修复首次添加地址修改不生效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T06:12:11Z",
+      "committer_date": "2025-03-02T06:12:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92744a881d5d57101fe36d5744080dafdb493247",
+      "message": "每个任务独立，搜索互不干扰",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-02T06:02:32Z",
+      "committer_date": "2025-03-02T06:02:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd138608de45a0662d599f00dd446f5d983aeeb5",
+      "message": "重构，修复双精度数值实时查看问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-03-01T03:13:27Z",
+      "committer_date": "2025-03-01T03:13:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8efbb61737ca43381767724217deb78473b5a4de",
+      "message": "支持单浮点和双浮点数值搜索",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-28T15:01:32Z",
+      "committer_date": "2025-02-28T15:01:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac5eb0ab53d52fed45337c80d93745d2531e2585",
+      "message": "优化内存表格，显示当前值、先前值、首次值",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-28T14:21:20Z",
+      "committer_date": "2025-02-28T14:21:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a36823048c04c79c7f5ec432755a616730f654bb",
+      "message": "支持多任务，优化UI",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-27T15:16:14Z",
+      "committer_date": "2025-02-27T15:16:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "068375fe0a770f12ed744c8e1507297aa92bbf44",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T15:42:20Z",
+      "committer_date": "2025-02-22T15:42:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7ca57c3a1d2bc09e09377858165c629bdeddd779",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T15:34:54Z",
+      "committer_date": "2025-02-22T15:34:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5da5000b7122c3201846bbee24a8bee8b5954d32",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T15:31:00Z",
+      "committer_date": "2025-02-22T15:31:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b597bf1ae3adf7f36579faabd031bf5362cbc8c1",
+      "message": "update readme",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T15:28:47Z",
+      "committer_date": "2025-02-22T15:28:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9beb9033e66b87237e383340aafae85b56ca729f",
+      "message": "支持显示搜索进展，优化日志记录",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T15:02:26Z",
+      "committer_date": "2025-02-22T15:02:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "007ab14a776b88dcc9087986c54fabd6beac5bde",
+      "message": "icon",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T14:10:00Z",
+      "committer_date": "2025-02-22T14:10:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f24c46ed2b4e08793ba5a827d2db56cdc00c3774",
+      "message": "支持获取进程图标",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T13:36:48Z",
+      "committer_date": "2025-02-22T13:36:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4040236a51cab57f79afc0d645751cb54aaff41c",
+      "message": "重构模块",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-22T13:26:25Z",
+      "committer_date": "2025-02-22T13:26:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0711659d1246a804bd68f040ae4cd79c445f8eb1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-21T16:04:55Z",
+      "committer_date": "2025-02-21T16:04:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a462c6f05bbb90f7f929f7ecb08f528e09f8477",
+      "message": "修复修改不生效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-21T15:54:09Z",
+      "committer_date": "2025-02-21T15:54:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cfc5321e91fc5059ef834f3bd50f32e9ed695256",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-21T15:39:23Z",
+      "committer_date": "2025-02-21T15:39:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07451c38d8ed74c1b0187ad0ec708aa45fa37693",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2025-02-20T13:07:37Z",
+      "committer_date": "2025-02-20T13:07:37Z",
+      "login": "famotime"
+    }
+  ]
+}

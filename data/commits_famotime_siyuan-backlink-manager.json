@@ -1,0 +1,1059 @@
+{
+  "pushed_at": "2026-08-31T13:41:12Z",
+  "count": 117,
+  "commits": [
+    {
+      "sha": "8085ead49a00f56c4bd0aa5638b801708f01ef22",
+      "message": "v0.9.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-31T13:39:08Z",
+      "committer_date": "2026-08-31T13:39:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71a266f62850d8685ff30226888561578131f793",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-19T03:31:05Z",
+      "committer_date": "2026-08-19T03:31:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3913e60e3570dd1935026b0bd8219612ad69f637",
+      "message": "fix(setting): 修复显示被引用目标块默认关闭但面板仍显示的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-19T03:17:21Z",
+      "committer_date": "2026-08-19T03:17:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c2d2aa4e387000d9dd198847e9b31d170850c1a3",
+      "message": "feat(dock): 切换文档时保持侧面板反链不变，支持点击刷新按钮手动更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-18T03:42:07Z",
+      "committer_date": "2026-08-18T03:42:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f7494c626d96e04719ddad9eca29757adc0a813",
+      "message": "feat: optimize breadcrumb & target block settings and simplify header UI",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T15:09:02Z",
+      "committer_date": "2026-08-16T15:09:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f651285c36ec8d8d37f08067c13debba7de22c12",
+      "message": "fix(panel): 修复侧栏顶部的全局上下文切换按钮失效问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T14:57:56Z",
+      "committer_date": "2026-08-16T14:57:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "317c12198a595e14671457f35f0ecc08c041a731",
+      "message": "style(panel): optimize panel UI and layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T14:52:39Z",
+      "committer_date": "2026-08-16T14:52:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "47d2a9517b384dc1aeea976ad5b1a5205f6137c4",
+      "message": "feat: redesign backlink panel UI into unified cards and fix context switch bug",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T14:40:28Z",
+      "committer_date": "2026-08-16T14:40:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "677707189e3a017cc83d6fa9f4fbb11349cf55d7",
+      "message": "feat: 支持反链卡片被引用目标块展示、连接箭头与已打开文档智能定位",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-16T02:45:24Z",
+      "committer_date": "2026-08-16T02:45:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2bf7f780129b68993ca728383eed2e30d1507852",
+      "message": "fix(ui): 修复右箭头图标路径与排序下拉框文字垂直居中",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T14:26:29Z",
+      "committer_date": "2026-08-15T14:26:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db6ad52d3f2279ab816db3247970c381f4bd2e08",
+      "message": "feat: UX optimization - design tokens, unified line icons, tooltips, content sanitize",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T14:17:51Z",
+      "committer_date": "2026-08-15T14:17:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1491cc631329528bd9edba4bebebfeab959a4b2e",
+      "message": "style: remove breadcrumb highlight background and border, keep text only highlight",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T13:27:31Z",
+      "committer_date": "2026-08-15T13:27:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66028dd769ce718d3ec910ccb3f5fba008a16bd8",
+      "message": "feat: add breadcrumb path separator and highlight current level",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T13:23:25Z",
+      "committer_date": "2026-08-15T13:23:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d9601bc93977c2b89acb3a2caa764a3cdae973c",
+      "message": "fix: revert toolbar plugin icon to previous version",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T13:17:49Z",
+      "committer_date": "2026-08-15T13:17:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d96d1e4e61506dbd9723625de0bebcd884b30b37",
+      "message": "feat: optimize UI/UX with explicit wireframe icons and refined tooltips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T13:08:32Z",
+      "committer_date": "2026-08-15T13:08:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31d427f391216e93236fe58247869c9777a73477",
+      "message": "feat: add logging toggle in settings and unify console output through logger",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T11:49:32Z",
+      "committer_date": "2026-08-15T11:49:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f0fdd08566ce410e8318ec1c087254061306466",
+      "message": "feat: optimize settings layout, reactive breadcrumb toggle, and header toolbar interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T11:45:14Z",
+      "committer_date": "2026-08-15T11:45:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa064f4ce92ce72d81c519e861e63e88c5c02581",
+      "message": "refactor: simplify settings and streamline sidebar backlink panel",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T11:35:52Z",
+      "committer_date": "2026-08-15T11:35:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc84b9a158add5b4a47deeaa0d079cc3e3ec99eb",
+      "message": "feat: remove definition block dependencies and focus on document-level backlink context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T10:23:41Z",
+      "committer_date": "2026-08-15T10:23:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a78d5a08c3fbe332b2444b46dca760f23fed91e8",
+      "message": "feat: redesign toolbar plugin icon with bi-directional context expansion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-15T08:06:20Z",
+      "committer_date": "2026-08-15T08:06:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b76c86395d0de048b8890f8451f5c2d9fa6e38f0",
+      "message": "docs: 统一参考文档为共享软链接，清理废弃内核API内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-23T06:41:39Z",
+      "committer_date": "2026-05-23T06:41:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6017e5714965187970f3afc51a56968907a9c401",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-05-01T13:58:03Z",
+      "committer_date": "2026-05-01T13:58:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffe71755eb41cb808897b35a34a1bc02552e0b30",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T14:22:43Z",
+      "committer_date": "2026-04-08T14:22:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "970c297e51f1bae12535f8a42c0ba4b80a42b35f",
+      "message": "fix: preserve fold state for global context toggles",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T13:22:35Z",
+      "committer_date": "2026-04-08T13:22:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a8472f2407d3618d7fc200b6dab3d0d7579f472",
+      "message": "feat: add global backlink context controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-08T12:27:27Z",
+      "committer_date": "2026-04-08T12:27:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa64d4df011b8fbb78d5c771f3764a37cfed6033",
+      "message": "feat: remove backlink document pagination",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-07T08:22:23Z",
+      "committer_date": "2026-04-07T08:22:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58fc9c5a8d6ac104296b400d33f1c87deab832b8",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-06T13:18:26Z",
+      "committer_date": "2026-04-06T13:18:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f178d9114d1f33a6e11b9a6638de0333ae8d517e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T11:28:39Z",
+      "committer_date": "2026-04-04T11:28:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "614c39aed0c08e3744d9b3f1485297cfb74bbecc",
+      "message": "fix: hide context toolbar when collapsing document",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-04-04T01:14:53Z",
+      "committer_date": "2026-04-04T01:14:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f29ad6aeedb51188b8d8c31cf459e3227d7c657",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-23T01:08:11Z",
+      "committer_date": "2026-03-23T01:08:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7db06ac6dd1e9e4080670c4c57109a8dc8f8a295",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-22T14:45:18Z",
+      "committer_date": "2026-03-22T14:45:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5aedd627d8d9a1df9b63fa51b8403f60378eebb",
+      "message": "fix: cycle backlink context navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:38:51Z",
+      "committer_date": "2026-03-21T10:38:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b738ce5b5ff7327097271c50aba73bac8432f9df",
+      "message": "fix: add clickable backlink heading breadcrumbs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T10:11:33Z",
+      "committer_date": "2026-03-21T10:11:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3a6c6c77a5cea3cfe9457dddf49b3a832c9572de",
+      "message": "fix: nearby mode for heading backlinks no longer pulls in entire previous heading section",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T06:00:52Z",
+      "committer_date": "2026-03-21T06:00:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89b6e250e23a4cb6d4dd5b0f57a06259cc80807d",
+      "message": "fix: fallback when source window block indexes collapse",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-21T02:14:26Z",
+      "committer_date": "2026-03-21T02:14:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aec4115935c758d914bebc4a9cc4407c44ef318d",
+      "message": "refactor: split backlink panel controller orchestration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T10:48:10Z",
+      "committer_date": "2026-03-18T10:48:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0183f0ba21ac451686298a5ad76931f106ba87b1",
+      "message": "refactor: split backlink loaders, collectors, and planner",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T10:17:57Z",
+      "committer_date": "2026-03-18T10:17:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fafe34790943dfcffa6b29b781b1cc62e3442872",
+      "message": "refactor: extract backlink panel render and collector helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T08:35:55Z",
+      "committer_date": "2026-03-18T08:35:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e399d6cca9b2bbfca525fd5a4f53ddfb183027c",
+      "message": "refactor: split backlink runtime pipelines and hosts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T05:02:18Z",
+      "committer_date": "2026-03-18T05:02:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4b96faa93aa143a757d3514be2dfa43d97cb5c98",
+      "message": "fix: align backlink context display with progressive rules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-18T03:15:48Z",
+      "committer_date": "2026-03-18T03:15:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e874258a0d3c61e06cfd471a048ceee44aee4ace",
+      "message": "fix: enforce visibleBlockIds passthrough for core/nearby list collapse",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T23:03:43Z",
+      "committer_date": "2026-03-17T23:03:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87d635ce0b78c61e0a9eec5b8512e0b4c3940e75",
+      "message": "fix: align progressive context rendering rules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T08:55:50Z",
+      "committer_date": "2026-03-17T08:55:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64d410a0c1f904d6be5e4560fbbd3bac45c7336b",
+      "message": "fix: finalize backlink context rule alignment",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T07:49:03Z",
+      "committer_date": "2026-03-17T07:49:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "292dd897539a5e8ea0acd06a40dd2d87c8123987",
+      "message": "feat: refresh backlink panel on focus change",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T06:19:56Z",
+      "committer_date": "2026-03-17T06:19:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f00b9f2442a4fa720fad019c92ba7d87a4f91c0",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T01:22:32Z",
+      "committer_date": "2026-03-17T01:22:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9e16228dd561512061dc768cec86c9c278edda2b",
+      "message": "fix: stabilize backlink context document order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-17T01:22:00Z",
+      "committer_date": "2026-03-17T01:22:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ddd0e47eeca0cefff1d8a9e090678e95054f1c5",
+      "message": "删除过时文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T16:54:49Z",
+      "committer_date": "2026-03-16T16:54:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1efc8d62008ff62d52570f54648046287ea782d3",
+      "message": "fix: restore extended heading context order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T16:53:45Z",
+      "committer_date": "2026-03-16T16:53:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cab870228aab73a9b157ca25941bb369c1375f31",
+      "message": "fix: keep nearby ordinary block siblings in actual order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T15:51:02Z",
+      "committer_date": "2026-03-16T15:51:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6201c1ea732b7f3b73bc528ea6bbdfeb59a03cee",
+      "message": "fix: restore nearby sibling list rendering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T15:01:10Z",
+      "committer_date": "2026-03-16T15:01:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35a1b4b7c6d159d05133413702cf1adf4ded8190",
+      "message": "fix: use block indexes for source window order",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T13:19:15Z",
+      "committer_date": "2026-03-16T13:19:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3fa8f41865749ba47be102b7c588925542018210",
+      "message": "fix: preserve source document order in navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T09:31:44Z",
+      "committer_date": "2026-03-16T09:31:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b575523a924e559705989f9e48bd8bbc83721585",
+      "message": "fix: follow document order for backlink navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T09:04:49Z",
+      "committer_date": "2026-03-16T09:04:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b388dc439cf85ee8c0bd11a4a9bf83a1260af7d",
+      "message": "fix: stabilize backlink document ordering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T08:29:58Z",
+      "committer_date": "2026-03-16T08:29:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cba69d574f04315faab3617ed1dba860c5e04d6a",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T07:52:09Z",
+      "committer_date": "2026-03-16T07:52:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c68c1a2dcd3923b20d5d4f6ee93f0d33d9660c5d",
+      "message": "fix: load full backlink documents completely",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T07:45:33Z",
+      "committer_date": "2026-03-16T07:45:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "119ca132492b56e87de9f8503c9407e0a921b6e6",
+      "message": "fix: preserve nearby list context on edge siblings",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T07:33:10Z",
+      "committer_date": "2026-03-16T07:33:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68c50b19f176349773bbf6785dcb2c8ff790a306",
+      "message": "fix: narrow nearby context for paragraph backlinks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T06:53:19Z",
+      "committer_date": "2026-03-16T06:53:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7148d748998f598f4ff359a0a2f3ab231470d7f",
+      "message": "fix: expand heading backlink context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T06:30:11Z",
+      "committer_date": "2026-03-16T06:30:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d9c7a3f7a9d9e47300742192e5457b099942b05",
+      "message": "fix: extend pre-heading paragraph context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T06:22:38Z",
+      "committer_date": "2026-03-16T06:22:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79a1d006f93854f9e3ee71230643fa747be9ee7a",
+      "message": "fix: keep expanded backlink child lists visible",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T03:52:48Z",
+      "committer_date": "2026-03-16T03:52:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df26cd57594b4d2e2f5329c694381b9c96f877fd",
+      "message": "fix: preserve source order for document backlinks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T03:33:33Z",
+      "committer_date": "2026-03-16T03:33:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8541b41a2f6a3998547b5eb1d0b812e8dc2414d7",
+      "message": "feat: add backlink refresh button",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T03:17:35Z",
+      "committer_date": "2026-03-16T03:17:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d25f9811b1901232a56e56b5061f9c7d47cb9d40",
+      "message": "build: refresh package after build fix",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T02:46:02Z",
+      "committer_date": "2026-03-16T02:46:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dad3c16fc5da5c3d016912d4f4f40819cc46f794",
+      "message": "refactor: unify backlink context control state",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T02:43:36Z",
+      "committer_date": "2026-03-16T02:43:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe7ec5d0ff6cd37f4019f7b96f855c7bb90959a2",
+      "message": "refactor: align backlink context range planning",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T02:36:07Z",
+      "committer_date": "2026-03-16T02:36:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd6ac10375faeec80baa52c71c81d637c20cda22",
+      "message": "docs: align context rules and refactor plan",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T02:17:49Z",
+      "committer_date": "2026-03-16T02:17:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "53ffd2067dccd8874c58ee683d32fc3d39cbe0fb",
+      "message": "build: refresh package archive",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-16T00:51:49Z",
+      "committer_date": "2026-03-16T00:51:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51cbfe85955d8b128d7249a45b6e801d290b2ae0",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T23:10:19Z",
+      "committer_date": "2026-03-15T23:10:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a17b5314642b71ae19799ce9d863ee38ce4d2b3",
+      "message": "fix: use document order for nearby context on regular blocks",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T12:34:03Z",
+      "committer_date": "2026-03-15T12:34:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2afd3cb606697014e7ef302ce564ec9140302b2",
+      "message": "fix: render list item backlink context correctly",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T11:42:02Z",
+      "committer_date": "2026-03-15T11:42:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b21d0a9830513274e4e5baee29c244a48d88786f",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T10:03:04Z",
+      "committer_date": "2026-03-15T10:03:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4014c0b7848991e1f9971fba02eebce1a7c1453",
+      "message": "fix: normalize blank backlink previews",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T09:59:18Z",
+      "committer_date": "2026-03-15T09:59:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "39c47fea90daae44300d26cf2e7f492aebc0c0b3",
+      "message": "fix: refine backlink title opening behavior",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T09:08:37Z",
+      "committer_date": "2026-03-15T09:08:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "de3f217d50eff377157504452b3ac0708605de01",
+      "message": "fix: bound extended backlinks to heading sections",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T07:04:09Z",
+      "committer_date": "2026-03-15T07:04:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "714c08b078620d9fba97a6abcd96a1fdd2bb4885",
+      "message": "feat: render extended backlinks from source windows",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T06:45:53Z",
+      "committer_date": "2026-03-15T06:45:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9977b4714d09179713319e977f0141d604fa6221",
+      "message": "fix: keep backlink context previews continuous",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T06:07:53Z",
+      "committer_date": "2026-03-15T06:07:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4785885f0144466748ca01b3f8fa5df456ba661e",
+      "message": "feat: add filter panel visibility setting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T05:21:31Z",
+      "committer_date": "2026-03-15T05:21:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5b8e78703c82722c455bba48179fc6a1a2fc835",
+      "message": "fix: refine backlink context state chips",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T05:11:18Z",
+      "committer_date": "2026-03-15T05:11:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "76153987384e6c934568a757b3f0912acf8538d1",
+      "message": "fix: refresh backlink panel pagination progress",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T01:33:13Z",
+      "committer_date": "2026-03-15T01:33:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f475aa10314d25b7618ee6f126fd1452cfc4da03",
+      "message": "fix: keep filter header visible while scrolling",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T01:24:46Z",
+      "committer_date": "2026-03-15T01:24:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b4730237e8685f9503e6ef567ecf119cafc92b4",
+      "message": "fix: scope panel styles and modernize sass api",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-15T00:41:44Z",
+      "committer_date": "2026-03-15T00:41:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edcbc6f43802e6183a075ea6129ac8aa2793ab63",
+      "message": "fix: support sibling list item context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T18:33:37Z",
+      "committer_date": "2026-03-14T18:33:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e3a173f5eb1c3222b40ecdc74886881a02a58e90",
+      "message": "fix(backlink): restore title context shortcuts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T18:20:14Z",
+      "committer_date": "2026-03-14T18:20:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ea3a83a700d3813dfee09767115c1981bd92e3b",
+      "message": "feat(backlink): switch context control to cyclic arrows",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T18:12:54Z",
+      "committer_date": "2026-03-14T18:12:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5557068c95d12ddcdae45b27a14b82bc607e976c",
+      "message": "docs(backlink): cancel first-use guide work",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T18:01:52Z",
+      "committer_date": "2026-03-14T18:01:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e71d2a9d01282487abdcb2b58dfc99a88d45f91e",
+      "message": "style(backlink): tighten context control layout",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:56:10Z",
+      "committer_date": "2026-03-14T17:56:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8c4f3d4a8b7b497d34e11e5051cd51e559c71bb0",
+      "message": "feat(backlink): hint title context actions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:54:41Z",
+      "committer_date": "2026-03-14T17:54:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "acc08dd6d84dea2eb3af37917ade2f048c4b07b4",
+      "message": "feat(backlink): show context budget hints",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:53:14Z",
+      "committer_date": "2026-03-14T17:53:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2a200d928bd4239e4b192c8902370a5eadfe594",
+      "message": "feat(backlink): summarize visible context sources",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:51:36Z",
+      "committer_date": "2026-03-14T17:51:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ef8bb1ac1fcfc2c270a13ff6a3211303157b3150",
+      "message": "feat(backlink): scaffold context control row",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:48:43Z",
+      "committer_date": "2026-03-14T17:48:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1875b7032107055b18f6acd611d55ddbac54f3e",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:23:14Z",
+      "committer_date": "2026-03-14T17:23:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3822746286ecf1f9ef2cfbae1c2c3f4f523c0992",
+      "message": "docs(backlink): sync context behavior docs",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:22:09Z",
+      "committer_date": "2026-03-14T17:22:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba80911d48de80bb429559d6176a51f23c7f47a3",
+      "message": "refactor(backlink): dedupe context source weighting",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:18:58Z",
+      "committer_date": "2026-03-14T17:18:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5eb99a2c3b9b362bc46303cae52c6ed37bdb5de3",
+      "message": "feat(backlink): add context preset migration",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:14:48Z",
+      "committer_date": "2026-03-14T17:14:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5443a6947f391ed9f69c22c503b521e636f876c3",
+      "message": "feat(backlink): show match source summaries",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:06:25Z",
+      "committer_date": "2026-03-14T17:06:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d605abb8ae5fe4d5902cf310dc720552625d401",
+      "message": "feat(backlink): add context budget controls",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T17:03:00Z",
+      "committer_date": "2026-03-14T17:03:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6babb19d43eb702db619152f0d78fa522b8a1c96",
+      "message": "fix(backlink): guard null sibling block context",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:59:07Z",
+      "committer_date": "2026-03-14T16:59:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70b1cf956969c64507d318610bbf624aa1d7ec8c",
+      "message": "refactor(backlink): unify context source rules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:52:56Z",
+      "committer_date": "2026-03-14T16:52:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d714bb1aa93d5793f5e0e44223890ac6017e883c",
+      "message": "feat(backlink): add progressive preview expansion",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:49:53Z",
+      "committer_date": "2026-03-14T16:49:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27568e8c0f90c9925f5835327d3c3467f84f47f4",
+      "message": "feat(backlink): add context visibility levels",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:37:51Z",
+      "committer_date": "2026-03-14T16:37:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "affb56bcee6b084679ec16dfc24e340a634ebe30",
+      "message": "feat(backlink): record context match metadata",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:34:13Z",
+      "committer_date": "2026-03-14T16:34:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f3d321a56228060a3b41c5032007fc6f69bd6b4",
+      "message": "refactor(backlink): unify context bundle for search and filtering",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:26:05Z",
+      "committer_date": "2026-03-14T16:26:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8cbd9dd062c0da01bbf30b4f9a12edcb4498fbfb",
+      "message": "feat(backlink): add sibling context pipeline",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:19:38Z",
+      "committer_date": "2026-03-14T16:19:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4be8a35e69f9c356923144e725496ada901dce9a",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T16:03:14Z",
+      "committer_date": "2026-03-14T16:03:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43fd5418627a156523026deffdf878c29cb3d014",
+      "message": "refactor: split backlink panel shell into controller and sections",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T15:53:05Z",
+      "committer_date": "2026-03-14T15:53:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db45f8fda08bc0535f8c9e2e1ade0324fafef25a",
+      "message": "refactor: extract backlink panel render helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T15:43:30Z",
+      "committer_date": "2026-03-14T15:43:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78c557529e47e1d098e827ef2a4111f05e7637ce",
+      "message": "refactor: reduce backlink data orchestration surface",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T15:40:34Z",
+      "committer_date": "2026-03-14T15:40:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95c0bbeb0e624fa42e69f0580e6eab70f8d90780",
+      "message": "refactor: extract backlink data collectors",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T15:05:55Z",
+      "committer_date": "2026-03-14T15:05:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9e46d36817842307c3f9dacda3b31a9dfcfa2c8",
+      "message": "refactor: extract backlink base data builder helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T14:56:45Z",
+      "committer_date": "2026-03-14T14:56:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7b248662e9c0e42b4bc6703647fb1dd941ea3f61",
+      "message": "refactor: extract backlink panel query and markdown helpers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T14:49:34Z",
+      "committer_date": "2026-03-14T14:49:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86aaca792214f1216150672f60245affb528b800",
+      "message": "Refactor backlink panel modules",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T14:21:57Z",
+      "committer_date": "2026-03-14T14:21:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e18ab7e9760031d2a7ab8457c96b6068a1a6eb13",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T14:10:50Z",
+      "committer_date": "2026-03-14T14:10:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2088ae2adc67913ae3efd80750f1e146f72fa90",
+      "message": "Adjust backlink pagination to document groups",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T13:49:51Z",
+      "committer_date": "2026-03-14T13:49:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "47e037df788d5a2ca255ca882289a660320f3ab5",
+      "message": "Fix backlink document header interactions",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T13:35:31Z",
+      "committer_date": "2026-03-14T13:35:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93964fee464ac8e9312aa78538bec998a781a627",
+      "message": "feat: add document-level backlink navigation",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T13:01:06Z",
+      "committer_date": "2026-03-14T13:01:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "076e70481a37d36958dfe5222b65271d54c349b0",
+      "message": "Initial commit",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-03-14T11:24:07Z",
+      "committer_date": "2026-03-14T11:24:07Z",
+      "login": "famotime"
+    }
+  ]
+}

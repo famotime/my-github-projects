@@ -1,0 +1,447 @@
+{
+  "pushed_at": "2026-10-02T08:10:57Z",
+  "count": 49,
+  "commits": [
+    {
+      "sha": "f70ed18aed5e17778d5feb73bc192f242bcc355f",
+      "message": "feat(companion): 支持基于共现图谱的伴生标签智能推荐与输入态避让",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T07:49:44Z",
+      "committer_date": "2026-10-02T07:49:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5dcabc3d7d445069f6a6ac06d914870e5d7c6d9c",
+      "message": "feat(tree): 支持标签全景行内就地重命名与子标签级联确认",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T06:06:10Z",
+      "committer_date": "2026-10-02T06:06:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa5727e70a0a9fbfb9ac0fa48939de65b37466fe",
+      "message": "feat(tree): 支持通过拖拽指示线切换子标签归属或拖出为独立标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T05:16:54Z",
+      "committer_date": "2026-10-02T05:16:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6581dc0a196cd182823c45e1228c038632c9629d",
+      "message": "fix(drop): 修复拖拽标签至文档标题区域打标无效的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T04:16:25Z",
+      "committer_date": "2026-10-02T04:16:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7feca9a57838369d5953f1713df5135fe9f37311",
+      "message": "fix(tree): 修正全景列表底色并固定热度可视化间距与矩形条高度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T03:52:49Z",
+      "committer_date": "2026-10-02T03:52:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9b27f003af1acb6b9d389a14e6ce035f91dde3e4",
+      "message": "feat(tag): 优化标签拖拽打标与层级归纳交互并支持同文档聚合",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T03:13:56Z",
+      "committer_date": "2026-10-02T03:13:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2926747bb04550b7a8e72fb3e1053ae735799d80",
+      "message": "feat(tree): 支持拖拽子标签即时配置与热度全高可视化展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T02:48:05Z",
+      "committer_date": "2026-10-02T02:48:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62705aa62580ba912677d8d2291d6be5ed64a80b",
+      "message": "feat(style): 升级标签样式设置界面与双主题自适应可视化交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T00:59:27Z",
+      "committer_date": "2026-10-02T00:59:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "465bbc105080c312c1942cf98e3ef3c9b4327dbd",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-01T10:20:43Z",
+      "committer_date": "2026-10-01T10:20:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ea069feebadb2eb23bd8000ee2268d8c662c74b9",
+      "message": "refactor(hygiene): 移除健康治理页面重复的分类筛选按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T07:15:36Z",
+      "committer_date": "2026-09-27T07:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33e13ca16a0ed1d21adb157da17623476ce30bfd",
+      "message": "feat(batch-tag): 批量打标弹窗支持勾选包含子文档并纳入打标范围",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T06:52:38Z",
+      "committer_date": "2026-09-27T06:52:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "88f1ba37b0e1a418810d3dac01aedb1ba252d2af",
+      "message": "feat(hygiene): 增强相似冲突检测算法与标点排版变体识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T06:45:58Z",
+      "committer_date": "2026-09-27T06:45:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d05d7caef5956e17e05403fa16ec82b91f08abab",
+      "message": "feat(group): 常用标签组套用调整为仅为当前文档添加标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T04:19:07Z",
+      "committer_date": "2026-09-27T04:19:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "839ce539576db1714541244dcb35b65a3ec893e1",
+      "message": "feat(graph): 升级关联洞察支持多元标签组合与保存为标签组",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T04:11:35Z",
+      "committer_date": "2026-09-27T04:11:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2406c0c8ed283e7f6bfc1b10ef21e6cbc74a9b34",
+      "message": "fix(hygiene): 修复中文字符与Emoji标签被误判为无语义符号的正则缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T04:08:38Z",
+      "committer_date": "2026-09-27T04:08:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51ad5629e6d97b6d16031dd32f04629ab5c35ff1",
+      "message": "feat(hygiene): 重构健康治理指标体系，升级相似冲突与不合规范检测",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T03:56:31Z",
+      "committer_date": "2026-09-27T03:56:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "655d9e8a061528743a383892d0401e15ff80ce08",
+      "message": "fix(filter): 仅切换点击标签的筛选状态并优化正向多维组合查询",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T01:26:36Z",
+      "committer_date": "2026-09-27T01:26:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2d8f21804cf9d143d52c24437001a5328d9ba1f",
+      "message": "fix(filter): 修复从 AND 切换至 OR 筛选逻辑时结果未即时刷新的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:34:42Z",
+      "committer_date": "2026-09-27T00:34:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbf6bbfaf2bfb24bfedd92cea595320782b57b2b",
+      "message": "fix(batch-tag): 修复文档树右键批量打标签导致侧栏缩回问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:29:28Z",
+      "committer_date": "2026-09-27T00:29:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f03e8fa926932bc620a912c31808961109468126",
+      "message": "feat(filter): 多维筛选支持基于拼音与关键词搜索后添加标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:20:00Z",
+      "committer_date": "2026-09-27T00:20:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7f326f27af89f2ea9a0e4b33ccee8cd1427b8e2",
+      "message": "test(ui): 补充多维筛选三态视图与保存视图弹窗组件契约测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:17:00Z",
+      "committer_date": "2026-09-27T00:17:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b23392ae04b9678aa09204bc26136bd1f303e3d",
+      "message": "test(filter): 补充 TagFilterEngine 可选标签与三态循环切换单测",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:16:39Z",
+      "committer_date": "2026-09-27T00:16:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "850301ab5eac49e34a791d6270b8a73a9d688bd1",
+      "message": "feat(group): 优化标签组弹窗布局并扩充候选标签展示空间",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:16:25Z",
+      "committer_date": "2026-09-27T00:16:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77a6801cec5614f5705742871fc2f20e566261af",
+      "message": "feat(filter): 多维筛选支持 OR 可选逻辑与三态条件切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:16:01Z",
+      "committer_date": "2026-09-27T00:16:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cddc68842760807ea002c825a09277c9197aceef",
+      "message": "feat(tree): 优化标签行快捷命令与组合筛选交互体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-27T00:10:37Z",
+      "committer_date": "2026-09-27T00:10:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e164b33565dcc15e4197782fb41f33be2bd85775",
+      "message": "fix(graph): 修复标签共现图谱因内核默认截断导致的统计缺失",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T23:35:13Z",
+      "committer_date": "2026-09-26T23:35:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "836a3debf38d97ae54df38490b254eee622d1547",
+      "message": "feat(visual): 统一正文与文档标签视觉效果并清除思源默认下划线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T23:16:20Z",
+      "committer_date": "2026-09-26T23:16:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "741d5b834846754f0b27f841cee3822b8346d223",
+      "message": "fix(visual): 修复思源Protyle行内标签默认前缀U+2060导致正文样式未匹配的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:51:06Z",
+      "committer_date": "2026-09-26T15:51:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e1ef52f4d201baa10f312694b781e93abcd576d",
+      "message": "docs(guide): 新增标签组、批量打标与引用智能识别实战指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:30:05Z",
+      "committer_date": "2026-09-26T15:30:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1332735b898573b42c3cdc661556e9a3b76742e",
+      "message": "feat(visual): 支持正文文档标签样式与 Emoji 前缀实时渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:27:23Z",
+      "committer_date": "2026-09-26T15:27:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5bc609027aa056fe5d680b9210fae192cb3c54ea",
+      "message": "fix(style): 修复新建标签组与批量打标中标签徽章在暗色模式下的低对比度问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:23:54Z",
+      "committer_date": "2026-09-26T15:23:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fcb7c3e027b16342e6befa9c477cae22802b9dc8",
+      "message": "feat(hygiene): 引用识别为标签支持被引用块与文档的命名及别名同名匹配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:18:42Z",
+      "committer_date": "2026-09-26T15:18:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "022fa20b9137247e64d89e32003e0631c74c432c",
+      "message": "feat(hygiene): 支持文档引用智能识别为同名标签与批量采纳",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:03:39Z",
+      "committer_date": "2026-09-26T15:03:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f35e7435b57b4beed996b421172faf0a091b9e97",
+      "message": "feat(batch): 支持原生文档树右键批量打标与交互式多源文档选择器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T15:00:49Z",
+      "committer_date": "2026-09-26T15:00:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "698294190eb613ea6033acaf0e796dd74a9f7938",
+      "message": "feat(group): 支持标签组套件管理与当前文档一键批量打标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T14:55:57Z",
+      "committer_date": "2026-09-26T14:55:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f11c1fab7f2a206cb67d04c190cca57735010fd7",
+      "message": "feat(ui): 纯图标按钮统一去除边框与治理操作纯图标化改造",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T14:45:14Z",
+      "committer_date": "2026-09-26T14:45:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55c4194902d09f4ba3a26db08d0b8a8571404dbb",
+      "message": "fix(filter): 修复标签全景统计虚高与多维筛选漏选文档根块问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T13:11:08Z",
+      "committer_date": "2026-09-26T13:11:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "097a97f862b6a5e07c37bc840b17a77d187388e1",
+      "message": "update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T12:43:36Z",
+      "committer_date": "2026-09-26T12:43:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c55c9dfe63d0c629cc92889b7468acfcde59ab5",
+      "message": "refactor(arch): 全面解耦主工作台视图与状态层并加固API客户端",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T07:13:48Z",
+      "committer_date": "2026-09-26T07:13:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2efdbca88e6b7faca3d19525021ab366d6a9ee9",
+      "message": "fix(ui): 优化提示标签与徽章底色文字对比度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T02:25:57Z",
+      "committer_date": "2026-09-26T02:25:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d3f5b9e1f255d6cd61fa9da9b49c14c7686afc09",
+      "message": "refactor(graph): 认知图谱组合筛选改为独立查看并精简图标按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T02:16:47Z",
+      "committer_date": "2026-09-26T02:16:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93de9a67ad76d8b5d11a0540d9fe17d81dad35ae",
+      "message": "feat(filter): 多维筛选支持清空标签、区域拖拽扩展并精简保存按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T02:09:10Z",
+      "committer_date": "2026-09-26T02:09:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92e0631595d77d08a9c28395d6bcd96a89d4ac61",
+      "message": "feat(filter): 点击侧边栏标签默认改为仅以当前标签单项筛选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:55:18Z",
+      "committer_date": "2026-09-26T01:55:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9fce4319fd3d5d89b591416e145b0c6f9b43509e",
+      "message": "style(ui): 清理占位提示与通知提示中的残留 Emoji 符号",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:29:22Z",
+      "committer_date": "2026-09-26T01:29:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20420025a9848cb33c0cd51965cb25622cf65030",
+      "message": "refactor(ui): 全面实施现代专业级 UI/UX 体验重构与双主题自适应设计",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:27:03Z",
+      "committer_date": "2026-09-26T01:27:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2b16aabd283375d24b8e8af61cc0ad69ca3b2ad9",
+      "message": "feat(dock): 支持将插件作为思源笔记原生侧栏打开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T01:20:31Z",
+      "committer_date": "2026-09-26T01:20:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e72e2178f80fc62fbf8045720644257a4c8db04d",
+      "message": "feat(feature): 完成标签转文档、色彩别名弹窗、智能视图管理与时序热力分析全特性收官开发",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T00:55:43Z",
+      "committer_date": "2026-09-26T00:55:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c78fec0f44636398e6d84e6fae0c16466ceb008",
+      "message": "feat(feature): 完成 Phase 2 拼音别名联想与批量打标及 Phase 3 认知网络图谱开发",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T00:50:43Z",
+      "committer_date": "2026-09-26T00:50:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d5a0749419fa339d99564fe23b90f66f6e47ebb7",
+      "message": "feat(core): 初始化标签管家插件并完成 Phase 1 核心治理与多维筛选特性开发",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-26T00:40:31Z",
+      "committer_date": "2026-09-26T00:40:31Z",
+      "login": "famotime"
+    }
+  ]
+}
