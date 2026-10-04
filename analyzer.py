@@ -52,6 +52,7 @@ class RepoDataAnalyzer:
         weekday_user = [0] * 7
         weekday_total = [0] * 7
         punchcard_map = defaultdict(lambda: {"user": 0, "total": 0})  # (weekday_idx, hour): {user, total}
+        daily_commits = defaultdict(lambda: {"user": 0, "total": 0})  # YYYY-MM-DD: {user, total}
         
         monthly_user = defaultdict(int)
         monthly_total = defaultdict(int)
@@ -92,10 +93,12 @@ class RepoDataAnalyzer:
                     weekday = dt.weekday()  # 0=Monday, 6=Sunday
                     month_key = dt.strftime("%Y-%m")
                     year_key = dt.strftime("%Y")
+                    date_key = dt.strftime("%Y-%m-%d")
                     
                     hourly_total[hour] += 1
                     weekday_total[weekday] += 1
                     punchcard_map[(weekday, hour)]["total"] += 1
+                    daily_commits[date_key]["total"] += 1
                     monthly_total[month_key] += 1
                     yearly_total[year_key] += 1
                     
@@ -103,6 +106,7 @@ class RepoDataAnalyzer:
                         hourly_user[hour] += 1
                         weekday_user[weekday] += 1
                         punchcard_map[(weekday, hour)]["user"] += 1
+                        daily_commits[date_key]["user"] += 1
                         monthly_user[month_key] += 1
                         yearly_user[year_key] += 1
 
@@ -213,6 +217,8 @@ class RepoDataAnalyzer:
             "created_at": parse_iso_datetime(self.user_info.get("created_at"), self.tz_offset_hours).strftime("%Y-%m-%d") if self.user_info.get("created_at") else "-"
         }
 
+        commit_years = sorted(list(set(d[:4] for d in daily_commits.keys())), reverse=True)
+
         return {
             "summary": summary,
             "repo_details": repo_details,
@@ -227,6 +233,8 @@ class RepoDataAnalyzer:
                 "total": weekday_total
             },
             "punchcard": punchcard_data,
+            "daily_commits": {k: [v["user"], v["total"]] for k, v in daily_commits.items()},
+            "calendar_years": commit_years,
             "monthly_trend": monthly_trend,
             "language_stats": language_stats,
             "top_stars": top_stars,

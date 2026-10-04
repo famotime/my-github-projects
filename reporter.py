@@ -280,6 +280,51 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             height: 420px;
         }
 
+        .chart-container.calendar-box {
+            height: 220px;
+        }
+
+        .calendar-header-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .calendar-year-stat {
+            font-size: 13px;
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
+        .calendar-year-pills {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .year-pill {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .year-pill:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+
+        .year-pill.active {
+            background: var(--accent-color);
+            color: #ffffff;
+            border-color: var(--accent-color);
+        }
+
         /* 仓库表格模块 */
         .table-section {
             background: var(--bg-secondary);
@@ -612,6 +657,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             <div id="chart-punchcard" class="chart-container"></div>
         </div>
 
+        <!-- 分年度提交日历热力图 -->
+        <div class="chart-card full-width">
+            <div class="chart-header">
+                <div>
+                    <div class="chart-title">📅 分年度提交贡献日历 (Contribution Calendar)</div>
+                    <div class="chart-subtitle">类似 GitHub 贡献日历，每日按代码提交数量体现不同颜色深度</div>
+                </div>
+                <div class="calendar-header-right">
+                    <span id="calendarYearSummary" class="calendar-year-stat"></span>
+                    <div class="calendar-year-pills" id="calendarYearPills"></div>
+                </div>
+            </div>
+            <div id="chart-calendar" class="chart-container calendar-box"></div>
+        </div>
+
         <!-- 月度活跃趋势 -->
         <div class="chart-card full-width">
             <div class="chart-header">
@@ -731,7 +791,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         let pageSize = 15;
 
         // 图表实例引用
-        let chartHourly, chartWeekday, chartPunchcard, chartTrend, chartLanguage, chartTopCommits;
+        let chartHourly, chartWeekday, chartPunchcard, chartCalendar, chartTrend, chartLanguage, chartTopCommits;
+        let selectedCalendarYear = '';
 
         // 语言颜色映射
         const LANG_COLORS = {
@@ -773,6 +834,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             renderHourlyChart();
             renderWeekdayChart();
             renderPunchcardChart();
+            renderCalendarChart();
             renderTrendChart();
         }
 
@@ -944,6 +1006,135 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             chartPunchcard.setOption(option);
         }
 
+        function initCalendarYearPills() {
+            const years = REPORT_DATA.calendar_years || [];
+            if (years.length === 0) return;
+            if (!selectedCalendarYear) selectedCalendarYear = years[0];
+            
+            const container = document.getElementById('calendarYearPills');
+            if (!container) return;
+            container.innerHTML = '';
+            years.forEach(y => {
+                const btn = document.createElement('button');
+                btn.className = `year-pill ${y === selectedCalendarYear ? 'active' : ''}`;
+                btn.innerText = y;
+                btn.onclick = () => {
+                    selectedCalendarYear = y;
+                    document.querySelectorAll('.year-pill').forEach(p => p.classList.remove('active'));
+                    btn.classList.add('active');
+                    renderCalendarChart();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function renderCalendarChart() {
+            const containerEl = document.getElementById('chart-calendar');
+            if (!containerEl) return;
+            if (!chartCalendar) chartCalendar = echarts.init(containerEl);
+            const c = getChartThemeColors();
+            const isDark = currentTheme === 'dark';
+            const years = REPORT_DATA.calendar_years || [];
+            if (years.length === 0) return;
+            if (!selectedCalendarYear) selectedCalendarYear = years[0];
+
+            const dailyMap = REPORT_DATA.daily_commits || {};
+            const seriesData = [];
+            let yearCommitCount = 0;
+            let maxDayCommits = 1;
+
+            for (const [dateStr, counts] of Object.entries(dailyMap)) {
+                if (dateStr.startsWith(selectedCalendarYear)) {
+                    const count = currentScope === 'user' ? counts[0] : counts[1];
+                    if (count > 0) {
+                        seriesData.push([dateStr, count]);
+                        yearCommitCount += count;
+                        if (count > maxDayCommits) maxDayCommits = count;
+                    }
+                }
+            }
+
+            const summaryEl = document.getElementById('calendarYearSummary');
+            if (summaryEl) {
+                summaryEl.innerText = `${selectedCalendarYear} 年共 ${yearCommitCount} 次提交 (${currentScope === 'user' ? '本人' : '全员'})`;
+            }
+
+            // GitHub 风格绿色深浅渐变阶梯
+            const darkScale = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
+            const lightScale = ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
+            const activeScale = isDark ? darkScale : lightScale;
+
+            const l1 = Math.max(1, Math.floor(maxDayCommits * 0.15));
+            const l2 = Math.max(l1 + 1, Math.floor(maxDayCommits * 0.4));
+            const l3 = Math.max(l2 + 1, Math.floor(maxDayCommits * 0.75));
+
+            const pieces = [
+                { min: l3, label: `≥ ${l3} 次 (高频)` },
+                { min: l2, max: Math.max(l2, l3 - 1), label: `${l2}-${Math.max(l2, l3 - 1)} 次 (中高)` },
+                { min: l1, max: Math.max(l1, l2 - 1), label: `${l1}-${Math.max(l1, l2 - 1)} 次 (适中)` },
+                { min: 1, max: Math.max(1, l1 - 1), label: `1-${Math.max(1, l1 - 1)} 次 (起步)` }
+            ];
+
+            const option = {
+                tooltip: {
+                    position: 'top',
+                    backgroundColor: c.tooltipBg,
+                    borderColor: c.tooltipBorder,
+                    textStyle: { color: c.text },
+                    formatter: function (p) {
+                        return `${p.data[0]}<br/>提交: <b>${p.data[1]}</b> 次`;
+                    }
+                },
+                visualMap: {
+                    min: 1,
+                    max: Math.max(4, maxDayCommits),
+                    type: 'piecewise',
+                    pieces: pieces,
+                    orient: 'horizontal',
+                    left: 'center',
+                    bottom: 0,
+                    inRange: {
+                        color: [activeScale[1], activeScale[2], activeScale[3], activeScale[4]]
+                    },
+                    textStyle: { color: c.subtext, fontSize: 11 }
+                },
+                calendar: {
+                    top: 25,
+                    left: 45,
+                    right: 25,
+                    cellSize: ['auto', 15],
+                    range: selectedCalendarYear,
+                    itemStyle: {
+                        borderWidth: 3,
+                        borderColor: c.cardBg,
+                        color: isDark ? '#161b22' : '#ebedf0'
+                    },
+                    yearLabel: { show: false },
+                    dayLabel: {
+                        firstDay: 1,
+                        nameMap: ['日', '一', '二', '三', '四', '五', '六'],
+                        color: c.subtext,
+                        fontSize: 11
+                    },
+                    monthLabel: {
+                        nameMap: 'cn',
+                        color: c.subtext,
+                        fontSize: 12
+                    },
+                    splitLine: {
+                        show: false
+                    }
+                },
+                series: [{
+                    type: 'heatmap',
+                    coordinateSystem: 'calendar',
+                    data: seriesData
+                }]
+            };
+
+            chartCalendar.setOption(option);
+        }
+
         function renderTrendChart() {
             if (!chartTrend) chartTrend = echarts.init(document.getElementById('chart-trend'));
             const c = getChartThemeColors();
@@ -1105,6 +1296,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             renderHourlyChart();
             renderWeekdayChart();
             renderPunchcardChart();
+            renderCalendarChart();
             renderTrendChart();
             renderLanguageChart();
             renderTopCommitsChart();
@@ -1260,12 +1452,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             if (chartHourly) chartHourly.resize();
             if (chartWeekday) chartWeekday.resize();
             if (chartPunchcard) chartPunchcard.resize();
+            if (chartCalendar) chartCalendar.resize();
             if (chartTrend) chartTrend.resize();
             if (chartLanguage) chartLanguage.resize();
             if (chartTopCommits) chartTopCommits.resize();
         });
 
         document.addEventListener('DOMContentLoaded', () => {
+            initCalendarYearPills();
             initYearFilter();
             renderAllCharts();
             applyFilters();
