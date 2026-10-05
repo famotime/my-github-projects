@@ -54,7 +54,7 @@
 python main.py
 ```
 
-执行完毕后，控制台将输出摘要指标，并在当前目录下生成 [`github_report.html`](file:///D:/MyCodingProjects/my-github-projects/github_report.html)。直接在浏览器中打开该文件即可查看完整可视化仪表盘。
+执行完毕后，控制台将输出摘要指标，并默认在 `docs/` 目录下生成可视化报告 [`docs/index.html`](file:///D:/MyCodingProjects/my-github-projects/docs/index.html)。直接在浏览器中双击打开该文件即可查看完整可视化仪表盘。
 
 ---
 
@@ -63,7 +63,7 @@ python main.py
 | 参数 | 类型 | 默认值 | 作用说明 |
 | :--- | :--- | :--- | :--- |
 | `--token` | 字符串 | 自动读取 | 指定 GitHub Personal Access Token |
-| `--output` | 字符串 | `github_report.html` | 生成的 HTML 报告输出路径 |
+| `--output` | 字符串 | `docs/index.html` | 生成的 HTML 报告输出路径 (默认直接契合 GitHub Pages) |
 | `--refresh` | 标志 | 关 (`False`) | 强制跳过本地缓存，从 GitHub API 重新抓取全量数据 |
 | `--workers` | 整数 | `6` | 并发同步仓库提交记录的线程数 |
 | `--tz` | 整数 | `8` | 分析时区偏移量（小时数），默认为 `8`（中国标准时间 UTC+8） |
@@ -87,18 +87,34 @@ python main.py
 
 ---
 
+## 🌐 部署与发布到 GitHub Pages
+
+生成的分析报告单文件 HTML 可以免费发布至 GitHub Pages 在线展示，便于随时随地查阅与分享：
+
+1. **方案一：通过 `/docs` 目录发布（极简推荐）**：直接运行 `python main.py`（默认输出至 `docs/index.html`）生成后推送到主分支。
+2. **方案二：通过独立 `gh-pages` 分支发布**：构建产物与主分支源码完全隔离。
+3. **方案三：通过 GitHub Actions 全自动发布（进阶首选）**：配置定时工作流，自动采集最新提交并部署。
+
+👉 详细操作步骤请参阅：[GitHub Pages 报告网页发布与自动化部署指南](docs/github-pages-deployment.md)
+
+---
+
 ## 📁 目录结构
 
 ```text
 my-github-projects/
 ├── data/                       # 本地持久化缓存目录（存放 repos 和 commits 的 JSON 数据）
+├── docs/                       # 项目文档与 GitHub Pages 部署目录
+│   ├── README.md               # 文档索引
+│   ├── index.html              # 默认生成的可视化分析报告网页（GitHub Pages 入口）
+│   └── github-pages-deployment.md # GitHub Pages 发布与自动化部署指南
 ├── fetcher.py                  # GitHub API 并发抓取与缓存管理模块
 ├── analyzer.py                 # 多维提交统计、时区换算、作者识别与指标聚合模块
 ├── reporter.py                 # 现代化响应式 HTML 报告生成器（ECharts 集成）
 ├── main.py                     # CLI 主程序入口
 ├── requirements.txt            # Python 依赖清单
 ├── README.md                   # 项目使用与设计文档
-└── github_report.html          # 生成的可视化分析报告文件
+└── github_report.html          # 本地历史报告文件（可直接双击预览）
 ```
 
 ---

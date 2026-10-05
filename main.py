@@ -26,8 +26,8 @@ def main():
     parser.add_argument(
         "--output",
         type=str,
-        default="github_report.html",
-        help="输出 HTML 报告文件路径 (默认: github_report.html)"
+        default="docs/index.html",
+        help="输出 HTML 报告文件路径 (默认: docs/index.html)"
     )
     parser.add_argument(
         "--refresh",
