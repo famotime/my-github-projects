@@ -1,7 +1,70 @@
 {
-  "pushed_at": "2026-09-30T14:24:40Z",
-  "count": 48,
+  "pushed_at": "2026-10-04T14:03:20Z",
+  "count": 55,
   "commits": [
+    {
+      "sha": "6629127c41fb57a871ac1b07d1ad1b8848073470",
+      "message": "fix(ui): 修复右侧栏卡片及内部条目悬浮时的行高抖动问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T13:34:16Z",
+      "committer_date": "2026-10-04T13:34:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7546cecf2d815a8e319981ba7b743d6a7ecf25b",
+      "message": "feat(stats): 属性统计文档与笔记本自定义属性块支持按属性名筛选",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T06:58:07Z",
+      "committer_date": "2026-10-04T06:58:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1914cb0fb6945a214f8ced792b3200f391deaea4",
+      "message": "fix(stats): 修复 SQL 未声明 LIMIT 导致 slidev 属性被思源内核截断问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T06:05:19Z",
+      "committer_date": "2026-10-04T06:05:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1971483b787aa0b738ad7a2cd243d6efeceb3f48",
+      "message": "feat(templates): 内置 Slidev 演示属性预设字典并支持一键载入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T05:21:48Z",
+      "committer_date": "2026-10-04T05:21:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd0a6a26a09e9f7a591f8ffba58c6da3befd017c",
+      "message": "docs(readme): 优化使用文档与操作指引",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T10:48:51Z",
+      "committer_date": "2026-10-03T10:48:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84123a66e1225e6372727de697f938648913e026",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:07Z",
+      "committer_date": "2026-10-02T11:09:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9bf96b0e830a9b83c18db5e74d2cc965e244510",
+      "message": "fix(plugin): 修复多端并发时配置变更触发的整插件无限重启闪烁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T09:58:29Z",
+      "committer_date": "2026-10-02T09:58:29Z",
+      "login": "famotime"
+    },
     {
       "sha": "c0c9ca63d2a311bcb407a2dc7af33de4b9231a5c",
       "message": "fix(setting): 优化设置页排版、开关项展示与按钮边界防溢出",

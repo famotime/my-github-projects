@@ -722,9 +722,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             </div>
             <div class="filter-actions">
                 <div class="filter-tags">
-                    <div class="filter-pill active" onclick="setFilter('all', this)">全部 ({{TOTAL_REPOS}})</div>
-                    <div class="filter-pill" onclick="setFilter('public', this)">仅公开 ({{PUBLIC_REPOS}})</div>
-                    <div class="filter-pill" onclick="setFilter('private', this)">仅私有 ({{PRIVATE_REPOS}})</div>
+                    <div class="filter-pill active" id="filterAll" onclick="setFilter('all', this)">全部 (<span id="countAll">{{TOTAL_REPOS}}</span>)</div>
+                    <div class="filter-pill" id="filterPublic" onclick="setFilter('public', this)">仅公开 (<span id="countPublic">{{PUBLIC_REPOS}}</span>)</div>
+                    <div class="filter-pill" id="filterPrivate" onclick="setFilter('private', this)">仅私有 (<span id="countPrivate">{{PRIVATE_REPOS}}</span>)</div>
                 </div>
                 <select id="yearFilter" class="form-select" onchange="handleYearChange()">
                     <option value="">📅 创建年份: 全部</option>
@@ -1310,12 +1310,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
             el.classList.add('active');
             currentPage = 1;
+            updateFilterCounts();
             applyFilters();
         }
 
         function handleYearChange() {
             selectedYear = document.getElementById('yearFilter').value;
             currentPage = 1;
+            updateFilterCounts();
             applyFilters();
         }
 
@@ -1347,6 +1349,22 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
             currentPage = 1;
             applyFilters();
+        }
+
+        function updateFilterCounts() {
+            let repos = REPORT_DATA.repo_details;
+
+            if (selectedYear) {
+                repos = repos.filter(r => r.created_date && r.created_date.startsWith(selectedYear));
+            }
+
+            const allCount = repos.length;
+            const publicCount = repos.filter(r => !r.is_private).length;
+            const privateCount = repos.filter(r => r.is_private).length;
+
+            document.getElementById('countAll').innerText = allCount;
+            document.getElementById('countPublic').innerText = publicCount;
+            document.getElementById('countPrivate').innerText = privateCount;
         }
 
         function applyFilters() {
@@ -1461,6 +1479,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         document.addEventListener('DOMContentLoaded', () => {
             initCalendarYearPills();
             initYearFilter();
+            updateFilterCounts();
             renderAllCharts();
             applyFilters();
         });

@@ -1,7 +1,115 @@
 {
-  "pushed_at": "2026-10-02T11:20:31Z",
-  "count": 153,
+  "pushed_at": "2026-10-05T15:01:23Z",
+  "count": 165,
   "commits": [
+    {
+      "sha": "bf13b1bb6bc058d824616dadae55b67f3d0d3c26",
+      "message": "feat(ui): 重塑UI交互视觉体系并专项修复Tooltips与高对比度状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T15:01:15Z",
+      "committer_date": "2026-10-05T15:01:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "05c1ac54982fcf1514aaba6c127e3f9a2ff3a4fe",
+      "message": "refactor(global-search): 去除全库工作台并将全量搜索替换功能收敛至右侧栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T13:46:39Z",
+      "committer_date": "2026-10-05T13:46:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb371278f5aa13c1819fb022d4192dbd5eeaff83",
+      "message": "fix(global-search): 修复表格搜索结果后续点击无法定位到具体行的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T12:22:53Z",
+      "committer_date": "2026-10-05T12:22:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "501a93fc38c895a05484ae23869c739e9ec66479",
+      "message": "fix(pinyin): 修复拼音模式无法匹配汉字的问题并支持首字母全量检索",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T11:16:54Z",
+      "committer_date": "2026-10-05T11:17:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9f121da998280e1261e8d862f5378d3513c05bd",
+      "message": "feat(global-search): 支持搜索结果一键全部折叠展开并优化块类型与标题识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:50:49Z",
+      "committer_date": "2026-10-05T10:50:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6dfce0cc873e92cd2681e86d1f9d6d35cf17783e",
+      "message": "feat(global-search): 支持仅搜索文档选项并将块类型标识修正为文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:39:55Z",
+      "committer_date": "2026-10-05T10:39:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e962cfcf184c7d0b7898066515c9550ca3b5357a",
+      "message": "fix(sql): 修复思源块表列名错误导致的SQL检索失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:06:12Z",
+      "committer_date": "2026-10-05T10:06:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8caf7cf601fd91358fc441b156a877fce01053a9",
+      "message": "fix(global-search): 修复工作台指针事件阻断并新增右侧栏Dock入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T09:58:27Z",
+      "committer_date": "2026-10-05T09:58:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70bcb9f37deec94d17344ace7cce896e07e9ca8e",
+      "message": "feat(search): 支持中文拼音检索、正则捕获组替换、结果批量导出与常用预设",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T08:37:36Z",
+      "committer_date": "2026-10-05T08:37:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37f4cbdb2994077beed7c5563a1ca03197adcbf1",
+      "message": "feat(replace): 支持全库安全交互式替换、Visual Diff预览与事务回退",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T07:28:20Z",
+      "committer_date": "2026-10-05T07:28:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a9b414ac5fbe3129e8ecbdac225364155d7ed58e",
+      "message": "feat(global-search): 支持基于 Doc-First 的全库跨文档检索与工作台",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T07:16:11Z",
+      "committer_date": "2026-10-05T07:16:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb2043c46822da2d8a67df2514442584e4d0ad69",
+      "message": "docs(plan): 输出全库搜索详细设计方案与开发规划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T06:37:24Z",
+      "committer_date": "2026-10-05T06:37:24Z",
+      "login": "famotime"
+    },
     {
       "sha": "e4894a94989464b5df5cabe671e5d2335ef60885",
       "message": "v1.3.2",

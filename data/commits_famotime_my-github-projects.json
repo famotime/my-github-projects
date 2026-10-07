@@ -1,0 +1,42 @@
+{
+  "pushed_at": "2026-10-05T01:45:43Z",
+  "count": 4,
+  "commits": [
+    {
+      "sha": "d22526c8b021ce20952b27bd70a18e0b202f5c13",
+      "message": "feat(pages): 默认将可视化报告输出至 docs/index.html 并补充 GitHub Pages 部署指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T01:45:34Z",
+      "committer_date": "2026-10-05T01:45:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6731b73d53d7318839b48cae130df5574a77563",
+      "message": "feat(report): 增加分年度提交日历热力图(按每日提交数阶梯着色)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T10:00:14Z",
+      "committer_date": "2026-10-04T10:00:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "207713c7140ab857df5e5425ea48807b17470009",
+      "message": "feat(report): 增加创建年份下拉筛选与单页条数(15/30/50/100)切换功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T09:54:50Z",
+      "committer_date": "2026-10-04T09:54:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "00bda06a79e560b0145c6384656a4fab0dcb9705",
+      "message": "feat(analytics): 初始化 GitHub 项目详细数据统计与可视化报告工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T09:40:29Z",
+      "committer_date": "2026-10-04T09:40:29Z",
+      "login": "famotime"
+    }
+  ]
+}
