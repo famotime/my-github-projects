@@ -1,6 +1,6 @@
 # GitHub Pages 报告网页发布与自动化部署指南
 
-本文档提供将本项目生成的 GitHub 可视化分析报告网页（`github_report.html`）发布至 GitHub Pages 的完整操作指导。发布后，您即可通过公网链接（如 `https://<用户名>.github.io/<仓库名>/`）在手机、平板或任何电脑浏览器中随时查阅您的 GitHub 研发仪表盘。
+本文档提供将本项目生成的 GitHub 可视化分析报告网页（默认输出至 `docs/index.html`）发布至 GitHub Pages 的完整操作指导。发布后，您即可通过公网链接（如 `https://<用户名>.github.io/<仓库名>/`）在手机、平板或任何电脑浏览器中随时查阅您的 GitHub 研发仪表盘。
 
 ---
 
@@ -23,12 +23,14 @@
   - [步骤 1：本地生成报告文件](#步骤-1本地生成报告文件)
   - [步骤 2：使用 Git subtree 快速推送](#步骤-2使用-git-subtree-快速推送)
   - [步骤 3：设置 Pages 分支来源](#步骤-3设置-pages-分支来源)
-- [六、方案四：使用 GitHub Actions 实现全自动定时生成与发布（进阶首选）](#六方案四使用-github-actions-实现全自动定时生成与发布进阶首选)
+- [六、方案四：GitHub Actions 定时自动更新与发布（当前项目已启用）](#六方案四github-actions-定时自动更新与发布当前项目已启用)
+  - [当前实际配置概览](#当前实际配置概览)
   - [步骤 1：配置 GitHub Personal Access Token (PAT)](#步骤-1配置-github-personal-access-token-pat)
   - [步骤 2：在仓库添加 Action Secret](#步骤-2在仓库添加-action-secret)
-  - [步骤 3：启用 GitHub Actions Pages 权限](#步骤-3启用-github-actions-pages-权限)
-  - [步骤 4：创建工作流文件](#步骤-4创建工作流文件)
-  - [工作流模板代码](#工作流模板代码)
+  - [步骤 3：确认 Pages 部署来源（无需改动）](#步骤-3确认-pages-部署来源无需改动)
+  - [步骤 4：工作流文件（仓库已内置）](#步骤-4工作流文件仓库已内置)
+  - [验证与运维要点](#验证与运维要点)
+  - [可选替代模板：Pages Actions 官方构件部署](#可选替代模板pages-actions-官方构件部署)
 - [七、常见问题与排查指南 (FAQ)](#七常见问题与排查指南-faq)
 
 ---
@@ -67,6 +69,8 @@ GitHub Pages 原生支持从分支的两个指定位置进行托管：**根目�
 | **方案 B：根目录 `/ (root)` 发布** | 极简单页、无需额外文件夹 | 零子目录，直接把 `index.html` 放在项目根目录 | 源码与网页混杂，根目录所有文件均可通过 URL 访问 |
 | **方案 C：`gh-pages` 独立分支** | 追求主分支纯净的项目 | 主分支仅存放源码，构建产物隔离在独立分支 | 手动分支同步稍繁琐 |
 | **方案 D：GitHub Actions 自动流** | 长期稳定运行、自动保持最新 | **完全自动化**，可配置每天/每周定时更新，免手动运行 | 需要配置 Secret 与 Actions 工作流 |
+
+> **当前项目实际采用**：方案 A（`/docs` 目录发布）+ 方案 D（每周日定时自动更新工作流）的组合，详见[方案四](#六方案四github-actions-定时自动更新与发布当前项目已启用)。
 
 ### 根目录 `/ (root)` vs `/docs` 目录的核心区别对比
 
@@ -114,6 +118,8 @@ git push origin master
 > *Your site is live at `https://<用户名>.github.io/<仓库名>/`*
 
 点击链接即可查阅在线版报告仪表盘！
+
+> **当前项目即采用此方案部署**，站点已上线：<https://famotime.github.io/my-github-projects/>；报告数据由[方案四](#六方案四github-actions-定时自动更新与发布当前项目已启用)的定时工作流每周日自动刷新，无需手动运行。
 
 ---
 
@@ -176,9 +182,20 @@ git subtree push --prefix docs origin gh-pages
 
 ---
 
-## 六、方案四：使用 GitHub Actions 实现全自动定时生成与发布（进阶首选）
+## 六、方案四：GitHub Actions 定时自动更新与发布（当前项目已启用）
 
-利用 GitHub Actions，可以在云端容器中定期执行 `main.py` 并自动将新报告推送到 GitHub Pages，彻底解放双手！
+利用 GitHub Actions，可以在云端容器中定期执行 `main.py`，自动抓取最新数据、重新生成报告并提交回仓库；配合 Pages 的分支部署模式，推送后网页即自动重建发布，彻底解放双手！
+
+### 当前实际配置概览
+
+| 配置项 | 当前实际值 |
+| :--- | :--- |
+| 工作流文件 | `.github/workflows/weekly-update.yml` |
+| 定时触发 | **每周日北京时间 09:00**（`cron: '0 1 * * 0'`，GitHub 定时任务使用 UTC 时间），另支持在 Actions 页面手动触发 |
+| 执行动作 | `python main.py --refresh --workers 8 --tz 8` 全量刷新 `data/*.json` 缓存并重新生成 `docs/index.html` |
+| 数据回写 | 以 `github-actions[bot]` 身份将数据缓存与报告自动提交回 `master`（无变化时跳过提交） |
+| Pages 部署 | 保持 **`Deploy from a branch`（`master` + `/docs`）**，push 后自动重建，**无需**切换为 GitHub Actions 模式 |
+| 在线站点 | <https://famotime.github.io/my-github-projects/> |
 
 ### 步骤 1：配置 GitHub Personal Access Token (PAT)
 由于需要读取用户的所有仓库与提交记录（包括私有仓库），需要生成一个 PAT：
@@ -196,17 +213,79 @@ git subtree push --prefix docs origin gh-pages
 4. **Secret** 粘贴您刚刚复制的 Token。
 5. 点击 **Add secret**。
 
-### 步骤 3：启用 GitHub Actions Pages 权限
-1. 进入仓库 **Settings** -> **Pages**。
-2. 在 **Build and deployment** 下将 **Source** 切换为：
-   - **GitHub Actions**
+> [!IMPORTANT]
+> 此步骤**不可省略**：工作流需要读取账号下全部仓库（含私有仓库）的提交数据，而 Actions 内置的 `GITHUB_TOKEN` 无权访问 `/user`、`/user/repos` 等用户级接口，必须使用自建 PAT。
 
-### 步骤 4：创建工作流文件
-在项目根目录下创建目录 `.github/workflows/` 并新建文件 `deploy-report.yml`。
+### 步骤 3：确认 Pages 部署来源（无需改动）
+当前 Pages 来源为 **`Deploy from a branch`（`master` + `/docs`）**，工作流将报告提交回 `master` 后 GitHub 会自动重建页面，此步骤**无需任何改动**。
 
-### 工作流模板代码
+若您更希望让构建产物与主分支完全隔离（报告不提交进 `master`），可改用 GitHub Actions 官方构件部署模式：将 **Settings -> Pages -> Source** 切换为 **GitHub Actions**，并改用文末的[可选替代模板](#可选替代模板pages-actions-官方构件部署)。
 
-创建 `.github/workflows/deploy-report.yml` 内容如下：
+### 步骤 4：工作流文件（仓库已内置）
+仓库已包含 `.github/workflows/weekly-update.yml`（定时任务仅对**默认分支**上的工作流生效，当前位于 `master`，推送后即自动生效），内容如下：
+
+```yaml
+name: Weekly Data Update
+
+on:
+  schedule:
+    # 每周日 UTC 01:00 = 北京时间周日 09:00 自动触发
+    # (注意: GitHub 定时任务使用 UTC 时间，且高峰期可能有 10-30 分钟延迟)
+    - cron: '0 1 * * 0'
+  workflow_dispatch: # 支持在 Actions 页面手动一键触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-data-update
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 运行环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖包
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 运行分析脚本抓取最新数据并生成报告
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: python main.py --refresh --workers 8 --tz 8
+
+      - name: 提交数据缓存与报告到仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "[跳过] 数据无变化，无需提交"
+          else
+            git commit -m "chore: 每周自动刷新数据缓存与可视化报告 [skip ci]"
+            git push
+          fi
+```
+
+### 验证与运维要点
+- **手动触发**：仓库 **Actions -> Weekly Data Update -> Run workflow**，可用于首次验证或临时补数。
+- **空提交保护**：数据无变化时工作流输出"[跳过] 数据无变化"，不会产生空 commit。
+- **调度延迟**：GitHub 定时任务在高峰期常有 10~30 分钟触发延迟，属正常现象。
+- **自动停用**：仓库长期（约 60 天）无任何活动时，GitHub 可能自动停用定时工作流，可在 **Actions** 页面重新启用（本项目每周边自动提交，通常不会触发此限制）。
+
+### 可选替代模板：Pages Actions 官方构件部署
+
+若采用 Pages 的 **GitHub Actions** 构件部署模式（报告不回写主分支，构建产物与源码完全隔离），可创建 `.github/workflows/deploy-report.yml`，内容如下：
 
 ```yaml
 name: Deploy GitHub Analytics Report to Pages
@@ -257,7 +336,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: |
           mkdir -p public
-          python main.py --output public/index.html --workers 8 --tz 8
+          # 必须携带 --refresh：云端 checkout 会包含仓库中已提交的数据缓存，
+          # 不刷新会导致脚本复用旧缓存、数据无法更新
+          python main.py --refresh --output public/index.html --workers 8 --tz 8
 
       - name: 配置 GitHub Pages 元数据
         uses: actions/configure-pages@v4
@@ -274,7 +355,7 @@ jobs:
 
 推送此文件至 GitHub 后：
 - 每次推送代码或点击 **Actions** 页面的 **Run workflow** 按钮，GitHub 会自动拉取数据生成仪表盘并发布。
-- 每周一会定期定时自动更新，始终展示最新的代码活跃度与贡献统计。
+- 每周一北京时间 08:00（UTC 00:00）定时自动更新，始终展示最新的代码活跃度与贡献统计。
 
 ---
 
@@ -295,3 +376,10 @@ jobs:
 
 ### Q4: 如何在不同域名或自定义域名 (Custom Domain) 下访问？
 - 在仓库 **Settings** -> **Pages** 的 **Custom domain** 输入框中绑定您的专属域名（例如 `report.yourdomain.com`），并按照提示在域名 DNS 服务商处添加 CNAME 解析记录即可。
+
+### Q5: 定时自动更新工作流没有运行或没有产生新提交？
+- 定时任务仅对**默认分支**（`master`）上的工作流文件生效，工作流文件推送后才会被调度识别。
+- GitHub 定时任务在高峰期常有 10~30 分钟触发延迟，属正常现象。
+- 运行日志显示"[跳过] 数据无变化"说明本周仓库无新提交，属预期行为。
+- 仓库长期（约 60 天）无任何活动时 GitHub 可能自动停用定时工作流，可在 **Actions** 页面重新启用。
+- 可随时通过 **Actions -> Weekly Data Update -> Run workflow** 手动触发。

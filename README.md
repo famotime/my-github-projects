@@ -91,9 +91,10 @@ python main.py
 
 生成的分析报告单文件 HTML 可以免费发布至 GitHub Pages 在线展示，便于随时随地查阅与分享：
 
-1. **方案一：通过 `/docs` 目录发布（极简推荐）**：直接运行 `python main.py`（默认输出至 `docs/index.html`）生成后推送到主分支。
-2. **方案二：通过独立 `gh-pages` 分支发布**：构建产物与主分支源码完全隔离。
-3. **方案三：通过 GitHub Actions 全自动发布（进阶首选）**：配置定时工作流，自动采集最新提交并部署。
+1. **方案一：通过 `/docs` 目录发布（极简推荐，当前项目采用 ✅）**：直接运行 `python main.py`（默认输出至 `docs/index.html`）生成后推送到主分支，站点已上线：<https://famotime.github.io/my-github-projects/>。
+2. **方案二：通过根目录 `/ (root)` 发布**：极简单页，无需额外文件夹。
+3. **方案三：通过独立 `gh-pages` 分支发布**：构建产物与主分支源码完全隔离。
+4. **方案四：通过 GitHub Actions 定时自动更新（当前项目已启用 ✅）**：内置 `.github/workflows/weekly-update.yml` 每周日北京时间 09:00 自动抓取最新数据、生成报告并提交回仓库，Pages 随推送自动重建发布。
 
 👉 详细操作步骤请参阅：[GitHub Pages 报告网页发布与自动化部署指南](docs/github-pages-deployment.md)
 
