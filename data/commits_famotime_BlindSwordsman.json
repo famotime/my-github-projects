@@ -1,7 +1,16 @@
 {
-  "pushed_at": "2026-09-30T13:22:00Z",
-  "count": 15,
+  "pushed_at": "2026-10-24T04:01:13Z",
+  "count": 16,
   "commits": [
+    {
+      "sha": "4d6f39c034665a011b49e93fc23a6522f6e5df6f",
+      "message": "Deleted  Blind Swordsman.md",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-10-24T04:01:12Z",
+      "committer_date": "2026-10-24T04:01:12Z",
+      "login": "famotime"
+    },
     {
       "sha": "f2ef254f29ffb834fb5f90da2f889a3daa368d47",
       "message": "Added logo-mark.webp",

@@ -1,7 +1,151 @@
 {
-  "pushed_at": "2026-05-24T16:05:37Z",
-  "count": 32,
+  "pushed_at": "2026-11-19T15:14:57Z",
+  "count": 48,
   "commits": [
+    {
+      "sha": "05eaaab517924290257df219af988645f6888a5e",
+      "message": "docs: 刷新项目结构与状态机审计文档的修复状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:15:34Z",
+      "committer_date": "2026-11-18T23:15:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "908739232b668b3ae865303d2d314ca8e0b075a9",
+      "message": "style: eslint 自动修复本次改动引入的格式问题（对象字面量多行化等）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:14:15Z",
+      "committer_date": "2026-11-18T23:14:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83af2098791413a2d583c7d488aaaa7549ffe8a5",
+      "message": "refactor: UI 小项清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:13:36Z",
+      "committer_date": "2026-11-18T23:13:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "160f7061823183a2faa09a6913f74076161bcfc5",
+      "message": "fix: 未知操作补发逐步确认事件并收敛确认回调类型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:10:20Z",
+      "committer_date": "2026-11-18T23:10:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c9f3df7d43cb83e50ce057a125e73a181b33e40a",
+      "message": "fix: 批量块写入能力缓存与逐块降级隔离",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:09:40Z",
+      "committer_date": "2026-11-18T23:09:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e305329d35155eecdcdcb3c2175073f8fce36d9a",
+      "message": "fix: 桥接命令注册改为重建式并显式解析",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:07:31Z",
+      "committer_date": "2026-11-18T23:07:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18e49af5e64e41fa51b06dd1f82d4940e7a1e9df",
+      "message": "fix: 监听 destroy-protyle 清理过期当前文档锁存值",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:05:59Z",
+      "committer_date": "2026-11-18T23:05:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6bd5a7a80186cfff3a79c8cd847ebbb197d0cdf2",
+      "message": "feat: 工作流运行会话显式状态机（重入保护/中止落盘/卸载取消）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:05:12Z",
+      "committer_date": "2026-11-18T23:05:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "846a25d801dcf0d6ab391e0e86d901f129e1a5a4",
+      "message": "fix: 统一 ID 生成工厂，消除同毫秒时间戳碰撞导致的静默覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:00:22Z",
+      "committer_date": "2026-11-18T23:00:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a2ade57b2a4f8060476b8e3fbef992cb875c77e",
+      "message": "fix: 存储加载形态校验与损坏备份，失败态禁止覆盖保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:58:53Z",
+      "committer_date": "2026-11-18T22:59:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "124e4cddb64774ffbd51f5899302e9189d80f170",
+      "message": "docs: 新增隐式状态机审计文档，盘点 9 组状态机与 18 项隐藏问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:56:40Z",
+      "committer_date": "2026-11-18T22:56:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b92605f628c805123a73dc40fef29912d9fad47a",
+      "message": "feat: 落地逐步确认/选中内容/新页签编辑器/顶栏切换与内置操作，完成审计清理与 lint 大扫除",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:43:05Z",
+      "committer_date": "2026-11-18T22:43:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad00fb21ffa931896eaaa858bf86d29c73ead684",
+      "message": "fix: 修复 ESLint 配置失效与预置工作流编辑 id 冲突，补齐类型声明并清理死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T16:25:27Z",
+      "committer_date": "2026-11-18T16:25:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "979b5ce1ee94fc3f5019f2883680fafb184ffbfe",
+      "message": "refactor: 双桥接注册与弹窗挂载去重，记录格式化下沉 core 并统一插件类型边界",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T16:05:22Z",
+      "committer_date": "2026-11-18T16:05:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ba94660a1111e9c5496be7d2f6843f6a6c17a1f",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:01:53Z",
+      "committer_date": "2026-10-16T14:01:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "66178dd32905ef3a961abcfa9ec0e8926e82d8fb",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:06Z",
+      "committer_date": "2026-10-02T11:09:06Z",
+      "login": "famotime"
+    },
     {
       "sha": "714bf7168a6256d37982628a51261cd7f5ad8cf8",
       "message": "update",

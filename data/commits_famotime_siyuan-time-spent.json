@@ -1,7 +1,124 @@
 {
-  "pushed_at": "2026-10-02T15:29:58Z",
-  "count": 55,
+  "pushed_at": "2026-10-19T12:39:09Z",
+  "count": 68,
   "commits": [
+    {
+      "sha": "7721c3388bb776d164ae1467a4c120c6f1457891",
+      "message": "chore(release): 升级版本至 v0.9.2",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-19T12:38:58Z",
+      "committer_date": "2026-10-19T12:38:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d6ec5e9840088c2834072480a8a7998d7f91712",
+      "message": "docs(changelog): update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-19T12:38:37Z",
+      "committer_date": "2026-10-19T12:38:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d0898cacd4739726bea50afa93a888c18f666ec0",
+      "message": "perf(calendar): 解决视图切换加载缓慢与年度热力图数据残留问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-19T12:25:52Z",
+      "committer_date": "2026-10-19T12:25:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b14a4aed749c0c25bf2acb68f38a3a45aad619a8",
+      "message": "feat(pomodoro): 支持完整番茄钟面板拖拽与日历视图番茄标记及闲置格式化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-15T03:39:13Z",
+      "committer_date": "2026-10-15T03:39:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e74a3d866c6e409558e42b81a2c06204b7a6303",
+      "message": "feat(pomodoro): 支持主界面入口与屏幕置顶极简小窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T21:54:21Z",
+      "committer_date": "2026-10-14T21:54:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e1593d9b9b37efa8a90d7f41d4643ec59afca763",
+      "message": "feat(mobile): 支持移动端时间追踪与全功能响应式看板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T15:32:19Z",
+      "committer_date": "2026-10-14T15:32:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "919a81165763c77661f58b1e2dae801695b1d326",
+      "message": "feat(pomodoro): 优化番茄钟结算流转机制与休息触发逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T15:07:19Z",
+      "committer_date": "2026-10-14T15:07:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "602c59e7cb4a3b7e876e0de31a10f330cafd9078",
+      "message": "fix(dashboard): 移除日历视图右上角冗余的手动补录按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T15:07:09Z",
+      "committer_date": "2026-10-14T15:07:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3107637c3f0ba6bccdeef78104934e32ef308d9f",
+      "message": "chore(build): 增加分发包隐藏点文件打包过滤与产物合规自动化校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T14:25:53Z",
+      "committer_date": "2026-10-13T14:25:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2f335e3d3a7a8b847aed69ff9d56fd1cb396c1ef",
+      "message": "chore(release): 升级版本至 v0.9.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:35:44Z",
+      "committer_date": "2026-10-13T13:35:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31611b917d003c17d1676289b6960195554899d1",
+      "message": "chore(workflow): 接入 CHANGELOG 驱动的 GitHub Actions 自动化发版流水线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:33:40Z",
+      "committer_date": "2026-10-13T13:33:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cdfffbfbf5aadf4f4cf916cf1b4f9887e4b004f8",
+      "message": "style(heatmap): 适配热力图色阶暗色与亮色模式视觉层级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:33:31Z",
+      "committer_date": "2026-10-13T13:33:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5276cdb8bf02685fce54e4074de9bc761209d68c",
+      "message": "feat(bus): 接入思源灵犀中枢总线 (LunariaBus)，支持原子专注能力与原生看板唤起",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-10T16:24:05Z",
+      "committer_date": "2026-10-10T16:24:05Z",
+      "login": "famotime"
+    },
     {
       "sha": "520cce0a6d17345921371625174e8ba38c4b459e",
       "message": "feat(calendar): 周视图卡片悬浮支持展示同文档当周累计投入时长",

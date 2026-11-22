@@ -1,0 +1,96 @@
+{
+  "pushed_at": "2026-11-08T16:51:42Z",
+  "count": 10,
+  "commits": [
+    {
+      "sha": "f4ccf6a05cd963cfad592f69409b65c4a64a5c93",
+      "message": "EN 同步 #12 即现 siyuan-live-slides v2 口径：两支英文宣传片按 v2 中文工程逐项镜像重排（30s：--- 分页开场+分页徽章、动态蒙版揭幕卡、0 deps/0 pollution 大字报、AI paginat",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T16:51:29Z",
+      "committer_date": "2026-11-08T16:51:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4e63c4d7e9d729f373e24c0e2b8ed6be99a5f600",
+      "message": "重设计 #12 即现 siyuan-live-slides v2 宣传资料（依据文章《当美化胶片的PPT Skills大受欢迎，我却选择让朴素文档与“PPT”合二为一》的四大特性组与使用场景）：30s 片重排（开场改「一条 --- 新页即现",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T16:17:20Z",
+      "committer_date": "2026-11-08T16:17:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46045b1d67e8d7e542e4646154492f9095437921",
+      "message": "新增 #27 拾事 siyuan-task-list 宣传资料入库：30s 宣传片（1080p30 · 112 BPM mallet 配乐，满屏品牌蓝 drop 卡与深色 SOURCE 标记特写卡等 5 处落拍硬切，om qa 无 ✗）+ ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T20:58:15Z",
+      "committer_date": "2026-11-07T20:58:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d145a465666580051745aaa5fef6bf6cbc011f0c",
+      "message": "全部 26 项目英文化入库：28 支英文宣传片（24 支 30s + 灵犀/即现各含 150s 双片，时长/fps/配乐规格逐项镜像中文版）+ 27 份英文 PPT（含灵犀 20 页路演、即现亮暗双主题，preview-en 共 290 张",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T22:06:35Z",
+      "committer_date": "2026-11-03T22:06:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edf302512abab922c2740e81c4c88dd913c52526",
+      "message": "第二批 14 个插件宣传资料入库：账号管家/API旋钮/反链管家/微察/图片快剪/传送门/同源/Muse/邮递员/一刀流/随心按/心流手迹/粉刷匠/思流（各 30s 宣传片+10 页 PPT+演讲词+素材库）；总索引扩至 26 项，附第二批",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T05:46:14Z",
+      "committer_date": "2026-11-01T05:46:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c52253ae80cbe49b0d9afe68afd01b2b61b89036",
+      "message": "插件更名 siyuan-slidev → siyuan-live-slides（中文名「即现」不变）：全库文档与输出同步改名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T02:03:02Z",
+      "committer_date": "2026-11-01T02:03:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "139227b72ea7faba9414cb22d0934ecdcbe0a08b",
+      "message": "全库新增 12 份演讲词：宣传片解说（按场景时间点+配音连贯版）+ PPT 逐页讲稿（按页码+建议时长）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-30T00:03:19Z",
+      "committer_date": "2026-10-30T00:03:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "455d2e1c846d8d8dab288166e3a009403078b591",
+      "message": "宣传片音乐改版：换用 Pixabay 真实 BGM《Chinese Festival Joy》（100 BPM 零漂移）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-29T16:30:27Z",
+      "committer_date": "2026-10-29T16:30:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2db452630fbecc148946436f6d7ba986d10d3086",
+      "message": "property-manager 宣传片改亮色主题（匹配亮色素材截图与 PPT）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T23:05:22Z",
+      "committer_date": "2026-10-28T23:05:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d0223442ca63f5d44511b00ccd1293c3017c1b5",
+      "message": "init: 思源插件宣传资料库首次入库",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T21:11:12Z",
+      "committer_date": "2026-10-28T21:11:12Z",
+      "login": "famotime"
+    }
+  ]
+}

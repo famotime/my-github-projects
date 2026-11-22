@@ -1,7 +1,142 @@
 {
-  "pushed_at": "2026-08-19T03:00:09Z",
-  "count": 10,
+  "pushed_at": "2026-11-19T15:14:39Z",
+  "count": 25,
   "commits": [
+    {
+      "sha": "2cfef07f058bb41f2fb5a6ae3de1807c0299d0bc",
+      "message": "docs: 回填隐式状态机审查报告状态并同步项目结构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:15:36Z",
+      "committer_date": "2026-11-18T23:15:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac2b0966cbb4868ff59db1cbbcf75a273bad67e1",
+      "message": "chore: 死契约清理与 P2 加固（公式求值白名单/主题跟随/Ctrl+F 作用域等）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:12:43Z",
+      "committer_date": "2026-11-18T23:12:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e13c4ff5cc60e7512661e6e77973227cd5cc15c5",
+      "message": "fix(search): 查找替换条生命周期修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:07:01Z",
+      "committer_date": "2026-11-18T23:07:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "373ef4a4dddaadd0fab02b6c7e7add73a1423b29",
+      "message": "fix(instance): 同块单实例策略（tab 去重数据瘦身 + dialog 注册表）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:06:07Z",
+      "committer_date": "2026-11-18T23:06:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "768aa632da082ca08e628bb699fbdac3f483054b",
+      "message": "fix(editor): 选区失效防护、图表编辑单模式与格式刷行为对齐",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:05:08Z",
+      "committer_date": "2026-11-18T23:05:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "718d1a1af1621e86cd6a6bd0f5c33521cdbd1cb4",
+      "message": "fix(table): 首行插入落点与 tfoot 网格语义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:02:58Z",
+      "committer_date": "2026-11-18T23:02:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d592006db0a38e321a6c0ef315cbdb53771656a8",
+      "message": "fix(editor): 会话显式相位机与自动保存 dirty 化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T23:00:39Z",
+      "committer_date": "2026-11-18T23:00:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bdb7d97fffa86faca502168aafd8e97f7f63bcc1",
+      "message": "fix(save): 保存结果通道贯通，草稿删除守卫与新块身份采纳",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:58:41Z",
+      "committer_date": "2026-11-18T22:58:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90c0ed1443fee2b52984154b846feadc92a0f3e6",
+      "message": "fix(history): 撤销栈防抖不再吞噬基线快照，栈语义整体加固",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:57:24Z",
+      "committer_date": "2026-11-18T22:57:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d40f338ef08891849a0affa0b95c236a13dfbdd2",
+      "message": "docs: 新增隐式状态机审查报告与修复计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T22:51:04Z",
+      "committer_date": "2026-11-18T22:51:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a8c91fa2c55b33d32e67a5389a5f4fb6d401317",
+      "message": "feat: 落地 13 项审查决策——移除内核插件、接线未用功能、矩阵化表格操作与文档治理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T21:25:57Z",
+      "committer_date": "2026-11-18T21:25:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "423c75d7bb35af19c929fe5b053ca0cbf6ae2fb6",
+      "message": "fix: 修复无块保存与 Word 导出缺陷，修复 eslint 工具链并清理死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T20:44:27Z",
+      "committer_date": "2026-11-18T20:44:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "20ca1756e8b88bd15e4ce5f40ab837b80d5a3216",
+      "message": "refactor: 建立真实测试基座并拆分单体入口，收敛保存清洗逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T16:21:23Z",
+      "committer_date": "2026-11-18T16:21:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "583f6c31fa59cc82f7e36628457747d319153d27",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:00:56Z",
+      "committer_date": "2026-10-16T14:00:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8df1e9baf330dc1ea85715ab0a4a190a38bce236",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:01Z",
+      "committer_date": "2026-10-02T11:09:01Z",
+      "login": "famotime"
+    },
     {
       "sha": "cdf5399008f285ee814bd687020f7aeadb8f75b0",
       "message": "feat: complete modular refactoring, remove editor.html and enrich full editing toolbar",

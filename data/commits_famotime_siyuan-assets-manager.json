@@ -1,7 +1,241 @@
 {
-  "pushed_at": "2026-10-02T02:30:18Z",
-  "count": 124,
+  "pushed_at": "2026-11-15T09:09:34Z",
+  "count": 150,
   "commits": [
+    {
+      "sha": "12e011cf56bbb33535e3cb3b97cf9c54f9cf41b5",
+      "message": "docs(audit): 全库隐式状态机审计报告与修复跟踪表落盘",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T09:08:37Z",
+      "committer_date": "2026-11-15T09:08:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d774f554cc941bf52fd323879c4bf36b58f47701",
+      "message": "ci(release): 发版流水线接入 lint 卡口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T07:21:19Z",
+      "committer_date": "2026-11-15T07:21:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57406d276b457eabaa5bf651d3940edd332931e3",
+      "message": "style(repo): 全库 eslint --fix 对齐 antfu 风格",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:36:58Z",
+      "committer_date": "2026-11-15T06:36:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e96eab708e31d104161f88b5220f2a6aef8c0329",
+      "message": "fix(core): 落实全库健诊 15 项决策",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:36:51Z",
+      "committer_date": "2026-11-15T06:36:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af15517e2318620fe0c85a9440f243a9efae2613",
+      "message": "chore(repo): 校准 eslint 规则口径并接入 lint 脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:36:40Z",
+      "committer_date": "2026-11-15T06:36:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f08db6a5084e1e43663aff0fc9abd4cb5387d71d",
+      "message": "fix(test): 补齐 siyuan-block mock 的 BLOCK_EXISTENCE_CHUNK 导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:34Z",
+      "committer_date": "2026-11-15T06:12:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6548f6905d7450d3fb1cca38635e64d7a5d15e6e",
+      "message": "refactor(core): 清理死代码并统一历史上限与日志口径",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:17Z",
+      "committer_date": "2026-11-15T06:12:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d61dbffeb6bb478d3709b28d1718759db7f400",
+      "message": "perf(core): 热点路径正则预编译与重复 IO 收敛",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:16Z",
+      "committer_date": "2026-11-15T06:12:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72f592418115a611aba540d4e0626a26ea7b01cb",
+      "message": "fix(i18n): 回滚预检词条补传复数参数 n 并加固测试基础设施",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:08Z",
+      "committer_date": "2026-11-15T06:12:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "61c9692001934f565108781e555b29e2c1bb16d3",
+      "message": "fix(storage): electron 适配器口径统一",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:07Z",
+      "committer_date": "2026-11-15T06:12:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "841b2f33da4995e74c0edb7129ebe5314c6278d3",
+      "message": "fix(core): 去重与图片编辑链路缺陷修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:12:02Z",
+      "committer_date": "2026-11-15T06:12:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab2ab34c59fbe460264b4ea3a191ab4b953a6605",
+      "message": "fix(core): 根治清理防线与增量校验的静默失败语义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:11:54Z",
+      "committer_date": "2026-11-15T06:11:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ee648e0dbd1c00114c4a1c501f62990469eed0b5",
+      "message": "chore(repo): 修复 eslint 非法配置项并清理构建配置残留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:11:46Z",
+      "committer_date": "2026-11-15T06:11:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55fde08025f82c923cdfde31036bb4bd31fceb88",
+      "message": "refactor(core): 统一引用匹配口径根治外链与前缀误伤，收敛大型重复并补齐核心链路测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T05:21:16Z",
+      "committer_date": "2026-11-15T05:21:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "82af151cf18dcc592eaa91cbd7655346c0207d77",
+      "message": "chore(docs): 归档历史设计方案至本地 reference 并忽略本地工具目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T12:35:04Z",
+      "committer_date": "2026-11-08T12:35:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "16e221c583e01e3e12ad4f081c05b43e9e658ea5",
+      "message": "fix(core): 补齐 url 字段回退链路并清零类型告警，修复画布资产回收站失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T10:17:35Z",
+      "committer_date": "2026-11-08T10:17:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21d41cf25fbfca8a47aa083b082f5768705d721e",
+      "message": "refactor(core): 分层解耦领域模型与装配管线，收敛组件重复并补齐零覆盖测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T10:01:16Z",
+      "committer_date": "2026-11-08T10:01:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73768593636aaa026b1bed274d5d7e625adf7e63",
+      "message": "fix(refs): 跳转前校验引用有效性并根治丢失资源引用清理盲区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T08:58:25Z",
+      "committer_date": "2026-11-08T08:58:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d4514b22dc96792e89caa6dbdeb2ca4cf34d3822",
+      "message": "feat(i18n): 界面全面支持英文并随思源语言设置自动切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T19:36:16Z",
+      "committer_date": "2026-11-06T19:36:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d652da309fc9a3a7ea91ca4b5d6d495cff704ebe",
+      "message": "fix(perf): 根治体积补全期间界面冻结并新增显式进度与断点续填",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T05:26:37Z",
+      "committer_date": "2026-10-25T05:26:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc28552f613d686430583a578a1383a86c1eed9f",
+      "message": "feat(scan): 快照秒开与三路增量校验，统一清理前实时复核并修复体积统计偏小",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T04:26:04Z",
+      "committer_date": "2026-10-25T04:26:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "888c592ac2764e3791d0ea180fe5de8cb2ed0ca8",
+      "message": "perf(scan): 两阶段渐进扫描与内核请求守卫，超大工作空间首屏提速至秒级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T02:14:06Z",
+      "committer_date": "2026-10-25T02:14:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7fb09f4654e0dc567d0ff0a2e9ce0de6e5d0fe81",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T13:58:36Z",
+      "committer_date": "2026-10-16T13:58:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "49434876288645f208f291b5616a96a7343e2013",
+      "message": "fix(canvas): 完善画布资源操作权限、图片预览与后台打开跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T14:36:39Z",
+      "committer_date": "2026-10-14T14:36:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57d82dbad92f58cc1a78c6e6e689a90d99e8bf18",
+      "message": "feat(canvas): 支持无界画布专属资源分析展示与孤儿清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T16:14:38Z",
+      "committer_date": "2026-10-13T16:14:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aac4c9dce0e4025e8e1be96ad5d89acd3e78328b",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:08:59Z",
+      "committer_date": "2026-10-02T11:08:59Z",
+      "login": "famotime"
+    },
     {
       "sha": "2ac95617fd060119d77117b9441601b02fafb4dc",
       "message": "v1.2.3",

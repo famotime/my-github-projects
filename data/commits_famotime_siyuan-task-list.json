@@ -1,0 +1,303 @@
+{
+  "pushed_at": "2026-11-08T02:03:05Z",
+  "count": 33,
+  "commits": [
+    {
+      "sha": "d6a49f1a74cc18f0374e54919eb551255161c6ae",
+      "message": "feat(favorite): 文档悬浮工具栏支持一键收藏至常用路径收藏夹",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T01:43:50Z",
+      "committer_date": "2026-11-08T01:43:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8daa4cb3edb3757adae3b3dced981ffae0666a7e",
+      "message": "fix(settings): 修复设置页重复 tooltips 并保留统一悬浮提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T01:42:22Z",
+      "committer_date": "2026-11-08T01:42:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1f7e12feb32c638d4b41fe7b005b9073d31fd99",
+      "message": "feat(history): 在顶部工具栏新增任务状态变更操作历史",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T01:23:22Z",
+      "committer_date": "2026-11-08T01:23:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cd8e972b4757961b21dcd28180630cd944009f1",
+      "message": "feat(status): 优化任务状态切换交互、支持快捷与防抖落盘",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T00:28:29Z",
+      "committer_date": "2026-11-08T00:28:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2aaf870fdec521bdacc73571acd3ce06a3e24151",
+      "message": "feat(status): 支持进行中、放弃与自定义任务状态筛选与单步切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T21:19:00Z",
+      "committer_date": "2026-11-07T21:19:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ecc9f603b1e8066abc3d6e5ebdcafc8262bd56b",
+      "message": "style(i18n): 英文标题层级标签由 Level 改为 H 前缀",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T15:11:29Z",
+      "committer_date": "2026-11-07T15:11:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12cc56715651c0df1b0c09173889d6e031e7e1f8",
+      "message": "chore(release): 升级版本至 v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T09:58:23Z",
+      "committer_date": "2026-11-07T09:58:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eaf64a21e4f849812c28e68a56fb22693733eb23",
+      "message": "docs(readme): 引入叙事架构与场景插图，重构中英文档及发布日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T09:56:26Z",
+      "committer_date": "2026-11-07T09:56:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "af68d166b492110a9617aa475b189b516353f3e3",
+      "message": "feat(core): 支持插件卸载数据清理并精简界面提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T09:56:07Z",
+      "committer_date": "2026-11-07T09:56:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "db03292138453870881967e8f90148952fc6e3fd",
+      "message": "feat(panel): 搜索命中任务的嵌套子任务随父保留展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T08:23:06Z",
+      "committer_date": "2026-11-07T08:23:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b2c77be4b5dfb5d9e1b0a135bf35353defaca64",
+      "message": "feat(panel): 文档仅显示纯标题且支持按文档及标题检索内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T14:53:33Z",
+      "committer_date": "2026-11-05T14:53:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84e2eff99a52ed70a0fa8a8c041f1d2da4d81ef8",
+      "message": "fix(dock): 修复在文档中编辑时侧栏闪烁并取消自动刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T14:23:27Z",
+      "committer_date": "2026-11-05T14:23:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "26af0a0aeebd7b04f449a5fdc7b57eea1e346d67",
+      "message": "feat(panel): 支持文档多模式排序与刷新按钮强调色突出显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T13:40:16Z",
+      "committer_date": "2026-11-05T13:40:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d7c76f3989f55a8c815ae14e6c51b0b9cb7b935",
+      "message": "refactor(core): 模块化重构领域层与控制层并建立自动化测试体系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T15:13:39Z",
+      "committer_date": "2026-11-03T15:13:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2c5bf73f243519ef110bc0b5dbdae730387b143f",
+      "message": "fix(release): 修复版本文件无改动时发版脚本执行失败的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T13:21:12Z",
+      "committer_date": "2026-11-03T13:21:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "254c52f0365118947c157509af66ff71a20eb518",
+      "message": "chore(project): 接入自动化发版工作流并更新插件名称为「拾事」及用户文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T13:11:07Z",
+      "committer_date": "2026-11-03T13:11:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25b4cb2aa686ef4032907af593bef6f77f3ca327",
+      "message": "chore(release): 升级版本至 v0.8.0 并满足集市发布规范检查",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T15:31:12Z",
+      "committer_date": "2026-11-02T15:31:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d2ab963d7c64496b572b5ac8ea691b0b8b1bf1ac",
+      "message": "fix(tasks): 修复任务顺序与文档不一致，支持嵌套层级缩进与同层级未完成优先",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T15:14:23Z",
+      "committer_date": "2026-11-02T15:14:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "478821e0c905ab8bf03919cc650a9ffeb536f81a",
+      "message": "fix(panel): 保持分组项右侧未完成与全部计数恒定且受搜索过滤约束",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T14:38:28Z",
+      "committer_date": "2026-11-02T14:38:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "887a96dcd5df376357555628a15c63cb85c99688",
+      "message": "fix(scope): 修复常用收藏中点击删除按钮需多次点击的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T14:09:33Z",
+      "committer_date": "2026-11-02T14:09:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b51bb15e5b01238dafc7885c138a68707f9e642b",
+      "message": "fix(scope): 强化收藏按钮在浮层内外的可见性与操作入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T13:56:47Z",
+      "committer_date": "2026-11-02T13:56:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0c0660e2456b4223bb08351d498e7cd5e4572df",
+      "message": "feat(scope): 支持在指定路径模式下收藏常用路径与筛选条件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T13:40:38Z",
+      "committer_date": "2026-11-02T13:40:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a8607f166e4a746b38eef8693ba8888407e9c3a",
+      "message": "feat(task-tree): 文档项悬浮工具栏支持一键全部展开与折叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T13:27:48Z",
+      "committer_date": "2026-11-02T13:27:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f73106f1c080561e7360d589b24117ac3fbd9170",
+      "message": "feat(i18n): 将顶部工具栏与侧面工具栏显示的中文名统一改为任务汇",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T13:16:35Z",
+      "committer_date": "2026-11-02T13:16:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77305a29bd6d64d9e56ade4a91719d89abe54c9e",
+      "message": "feat(task-panel): 支持未完成任务排序靠前、笔记本排除路径搜索与搜索词高亮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T13:11:30Z",
+      "committer_date": "2026-11-02T13:11:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c5088558e9f607c30fac39931d074aef2bb3692",
+      "message": "feat(task-tree): 支持在文档分组悬浮一键加入排除清单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T12:20:23Z",
+      "committer_date": "2026-11-02T12:20:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d72b6249110c85d9fcf049ad7616010aab326b8",
+      "message": "chore(assets): 更新插件图标 icon.webp",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T12:19:41Z",
+      "committer_date": "2026-11-02T12:19:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d3a2c463b94fa0e16d621d6d2df8d647bb03050",
+      "message": "chore: 剔除 frostime 模板脚手架遗留信息",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-02T00:37:31Z",
+      "committer_date": "2026-11-02T00:37:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc2e27f85dd098a47ee70bfdcabb14b25b85dba5",
+      "message": "feat: 树形连接线与折叠标识、跳转全文+闪烁定位、笔记本排除路径、图标渲染修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T23:58:05Z",
+      "committer_date": "2026-11-01T23:58:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a97592200d9a2d26c29b2f5e2e39b0ad3fee0ae8",
+      "message": "fix: 任务点击跳转失效——openTab 的 app 参数须传宿主 App 实例",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T23:34:40Z",
+      "committer_date": "2026-11-01T23:34:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e89579eadb939f70c3f987c179773ece372d6c3e",
+      "message": "feat: 分组树视觉迭代——虚线层级参考线、16px 对齐网格与类型胶囊标签",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T23:22:09Z",
+      "committer_date": "2026-11-01T23:22:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "859accae6218ebbfda6d30b7f40cf858775d7e98",
+      "message": "feat: 面板 UI/UX 重构——范围摘要浮层、文档搜索、标题层级控制与树渲染优化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T23:06:12Z",
+      "committer_date": "2026-11-01T23:06:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "311558c44ad23d5fc1b918bc05e59d23ddd1f735",
+      "message": "feat: 任务清单汇总插件 v0.1.0 初始实现",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T15:18:58Z",
+      "committer_date": "2026-11-01T15:20:54Z",
+      "login": "famotime"
+    }
+  ]
+}

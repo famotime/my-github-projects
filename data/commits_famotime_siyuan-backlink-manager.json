@@ -1,7 +1,241 @@
 {
-  "pushed_at": "2026-08-31T13:41:12Z",
-  "count": 117,
+  "pushed_at": "2026-11-15T11:22:55Z",
+  "count": 143,
   "commits": [
+    {
+      "sha": "00e981f2064ec9923e44ed4e43e2684f9de18006",
+      "message": "fix(dock): 修复右侧栏文档控制栏吸顶与悬浮内容覆盖问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T11:22:28Z",
+      "committer_date": "2026-11-15T11:22:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4dea5f3b560615567e18f15fe0f31930111c71b",
+      "message": "feat(panel): 侧栏文档标题支持悬停显示全名并规范思源气泡避免重复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T08:55:54Z",
+      "committer_date": "2026-11-15T08:55:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb2c2cf61a9d4c206b7ae05c0ba663c6e6bce8c1",
+      "message": "fix(panel): 修复切换上下文层级及全文模式卡顿与 WebSocket 报错",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T04:35:26Z",
+      "committer_date": "2026-11-15T04:35:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "54cc139c066edd3beccd0452772030cc68d9c322",
+      "message": "fix(ingest): 保持侧栏排版稳定，优化光标定位与按钮间距",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T03:14:42Z",
+      "committer_date": "2026-11-15T03:14:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa5e9edceb8d2cff930d4806398c85bce6347ccf",
+      "message": "feat(ui): 素材吸收交互收口、多宿主全链路支持与国际化更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T02:23:41Z",
+      "committer_date": "2026-11-15T02:23:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fec366a92b8bc925c6659d8273df5a78ea677c41",
+      "message": "feat(undo): 实现时空胶囊撤销管理器、脏检查与标题级联阻断",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T02:12:21Z",
+      "committer_date": "2026-11-15T02:12:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f453f7c010c09c34f2860a0c1786e35cf1d29b56",
+      "message": "feat(ingest): 完成素材吸收基础设施、API契约与双模管道打通",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T02:08:01Z",
+      "committer_date": "2026-11-15T02:08:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ba5466295adf693567746a236136595fca966df7",
+      "message": "docs(context): 更新上下文渐进显示规则实施与验证状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:26:03Z",
+      "committer_date": "2026-11-15T01:26:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85d87fa6dfd00e336257a8ccbb1ebb39607d92c1",
+      "message": "feat(planner): 扩充无标题文档结构容器支持并补全验证样例9测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:24:03Z",
+      "committer_date": "2026-11-15T01:24:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f0c813253887322d1b3113c8e755bd326a777a28",
+      "message": "fix(navigation): 修复全文模式下无法直接响应面包屑正文块跳转问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:22:00Z",
+      "committer_date": "2026-11-15T01:22:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cca214b00a4eef6d1c4228e7b85112cfc3cd2778",
+      "message": "fix(planner): 修复标题块近邻层在连续标题场景下的正文截断偏差",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:19:41Z",
+      "committer_date": "2026-11-15T01:19:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "565d2bba309d949ba18b468b986584721a09051f",
+      "message": "feat(panel): 支持命中来源可解释标签与跨档位快捷展开",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:17:17Z",
+      "committer_date": "2026-11-15T01:17:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cd1663c302d7f1cb212f8c779141e2de0aea3a86",
+      "message": "feat(panel): 支持在侧栏快捷删除来源文档并优化标题交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T01:07:16Z",
+      "committer_date": "2026-11-15T01:07:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "548faecbd0ebfa3af5e9c0e70dcd3c32d7d5a31e",
+      "message": "perf(query): 精简来源窗口查询列并放宽内存缓存写入策略",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T00:35:22Z",
+      "committer_date": "2026-11-15T00:35:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5192be3cc031c3b8048646e2e6fc3d7e423104eb",
+      "message": "perf(panel): 支持反链文档卡片折叠与视口按需懒加载 Protyle",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T00:30:17Z",
+      "committer_date": "2026-11-15T00:30:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3ac4824861c345f46ef5539352a04d63c4055eae",
+      "message": "fix(panel): 修复正文块光标切换误触发反链面板全量重载",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T00:22:58Z",
+      "committer_date": "2026-11-15T00:22:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13372037d70182298fc95c0ec3215ec77421eaba",
+      "message": "fix(panel): 修复反链面板文档标题行重复 Tooltip 及多余文档内容气泡问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T00:19:18Z",
+      "committer_date": "2026-11-15T00:19:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff45102d08d41136c9cc264e2d46e1b108eb26e6",
+      "message": "refactor: 收敛面板隐式状态机：视图状态/编辑器登记簿/意图闩锁（审计 P2/P3）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:58:39Z",
+      "committer_date": "2026-11-12T15:58:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "162c0ff73d88e8318952295b03e775823ba0708d",
+      "message": "fix: 修复筛选条件持久化断链与数据管线竞态（审计 P0/P1）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:58:27Z",
+      "committer_date": "2026-11-12T15:58:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ed676f54fc810515ee86ed7735d6bcf05e6cd02",
+      "message": "docs(audit): 新增隐式状态机审计报告与修复记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:58:12Z",
+      "committer_date": "2026-11-12T15:58:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "318b5e4f1d2e0867d1a6ed6952aff7b695511343",
+      "message": "refactor: 落实审计决策清单：删除死链路与死 API，合并重复实现，UI 文案接入 i18n",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T21:35:20Z",
+      "committer_date": "2026-11-11T21:35:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9434c2d199d31c825314826985ac0b9cb84a243b",
+      "message": "refactor: 全库审计清理：修复缓存与类型错误，移除死代码、死依赖与拼写债",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T20:28:25Z",
+      "committer_date": "2026-11-11T20:28:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ff22dd2d6c52a10db85b252126f812f5b9cf542",
+      "message": "refactor: 按重构计划完成 7 项模块拆分、去重与死代码清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-09T22:57:37Z",
+      "committer_date": "2026-11-09T22:57:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7995bb66e0f3a1a161b2b4b1e386f8c78c23cb63",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T13:59:33Z",
+      "committer_date": "2026-10-16T13:59:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c51a24bd72eb4b45568729e5bb4d14a78f7d828d",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:00Z",
+      "committer_date": "2026-10-02T11:09:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "79b93aafa338de75454470458310e12b8656ebf6",
+      "message": "docs: add English README and fix market garbled text issue",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-01T08:25:50Z",
+      "committer_date": "2026-09-01T08:25:50Z",
+      "login": "famotime"
+    },
     {
       "sha": "8085ead49a00f56c4bd0aa5638b801708f01ef22",
       "message": "v0.9.1",

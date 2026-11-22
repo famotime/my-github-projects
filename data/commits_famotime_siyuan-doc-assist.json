@@ -1,7 +1,493 @@
 {
-  "pushed_at": "2026-10-01T11:37:41Z",
-  "count": 281,
+  "pushed_at": "2026-11-22T10:01:10Z",
+  "count": 335,
   "commits": [
+    {
+      "sha": "ba97a5e5590bec1c518b99d651765c9372ec8176",
+      "message": "fix(clipboard): 适配 Electron 44 剪贴板 API 修复文件与图像复制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T10:00:09Z",
+      "committer_date": "2026-11-22T10:00:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87f9ebaa85ab80cc584da616e50f82cc81e1dac7",
+      "message": "fix(outline): 修复长文档大纲虚拟列表滚动被拉回顶部的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T08:00:05Z",
+      "committer_date": "2026-11-22T08:00:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7369f5d74795bb74b5db22940b61a9ec98f008c",
+      "message": "perf(key-info): 并行化关键内容读取并过滤无关正文编辑刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:38:33Z",
+      "committer_date": "2026-11-22T07:38:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8bf48e0e85c38b20fc7a95a6e0fa14bc189fffa",
+      "message": "perf(outline): 优化大纲列表懒渲染、虚拟滚动与 Minimap 采样",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:32:13Z",
+      "committer_date": "2026-11-22T07:32:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2889cc3af8500c783d6d1d54439f2cebbd2efcca",
+      "message": "perf(outline): 为文档大纲增加轻量读取通道并优化滚动联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:28:47Z",
+      "committer_date": "2026-11-22T07:28:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c675dce72dd9dd99a80931e9fb4ed3233bc0f074",
+      "message": "fix(floating-text): 修复悬浮窗不透明度与字号调整失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:21:11Z",
+      "committer_date": "2026-11-22T07:21:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "484991372e1a34e17d72f45fb507ecfe9f8a1cf5",
+      "message": "docs(repo): 同步结构文档、重构日志、产品分析报告与状态机记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:14:07Z",
+      "committer_date": "2026-11-22T07:14:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dfc740c2b8d040ea548a6ae757bf4210bd2e4440",
+      "message": "refactor(handlers,dock): 收敛块删除事务与命令区渲染辅助并补全单测",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:13:28Z",
+      "committer_date": "2026-11-22T07:13:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92f496968e68ad9c51a23c45b2be53ee287b21c8",
+      "message": "refactor(lifecycle): 拆分设置桥接模块并加固生命周期与写盘状态机",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:13:13Z",
+      "committer_date": "2026-11-22T07:13:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62b407748e6925d146d70bce16aeb01a0c36c6bb",
+      "message": "refactor(dynamic-outline,clipboard): 拆分浮岛视图与剪贴板运行时并加固状态机",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:13:04Z",
+      "committer_date": "2026-11-22T07:13:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2cba130db018c3aa515f3b50cf624881b80a7a74",
+      "message": "docs(audit): 更新全项目隐式状态机修复状态与验证结果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T07:01:50Z",
+      "committer_date": "2026-11-22T07:01:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1fc27e821fe2c8b785a1b2a4b006195437950722",
+      "message": "fix(dynamic-outline): 补全控制器异步守卫与活动编辑器引用刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:59:54Z",
+      "committer_date": "2026-11-22T06:59:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a0b803d60b39331f494f55430dffddd70f06cde",
+      "message": "fix(floating,dialogs): 修复悬浮窗视图冲突与弹窗并发操作状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:55:47Z",
+      "committer_date": "2026-11-22T06:55:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3971eeb0bd5dc65bcc35069a86389f56c4dc0c46",
+      "message": "fix(gesture): 完善手势捕获与录制状态机的中断和清理边界",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:53:34Z",
+      "committer_date": "2026-11-22T06:53:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a93ef40ff7049a53e37f3be70d1af6ccb23e7f6",
+      "message": "fix(key-info): 修复滚动恢复守卫竞态与跳转定时器冗余",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:52:14Z",
+      "committer_date": "2026-11-22T06:52:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa8b0df698589e2f33b40b135fe3d6d7fc30b4ee",
+      "message": "fix(runner): 修复动作执行、选区观察与列探测状态机隐患",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:50:28Z",
+      "committer_date": "2026-11-22T06:50:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86e4c6a4fe602877c0d793d50360cd246ea85e12",
+      "message": "feat(settings,dynamic-outline): 调整浮岛设置布局并支持大纲标题折叠",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:50:09Z",
+      "committer_date": "2026-11-22T06:50:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "146af43997f6514227af11d57cd8b741a0be8c04",
+      "message": "docs(audit): 新增全项目隐式状态机分析与修复计划文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T06:47:45Z",
+      "committer_date": "2026-11-22T06:47:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b3a5119d1a77e378eae01e7b514794b8c39f656",
+      "message": "feat(dynamic-outline): 文档大纲顶部工具栏增加悬浮选中文本快捷按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T05:35:11Z",
+      "committer_date": "2026-11-22T05:35:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35a0db2beba2373d306c7fbde066239c50fb9efc",
+      "message": "feat(dynamic-outline): 新增面板切换快捷入口及 Minimap 圆形浮标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T05:31:07Z",
+      "committer_date": "2026-11-22T05:31:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "755f9c5ac4fd4032348e6cd0fe899b2fcffca6d4",
+      "message": "fix(settings): 修复灵动浮岛设置样式并将选项说明统一为悬浮提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T03:10:17Z",
+      "committer_date": "2026-11-22T03:10:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f9381735ac51375b333227b6271b51cba1980058",
+      "message": "feat(settings): 将灵动大纲更名为灵动浮岛并合并设置项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T02:59:53Z",
+      "committer_date": "2026-11-22T02:59:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23957704fba562035a6cb904eb18a22c808bcf6b",
+      "message": "feat(dynamic-outline): 在已打开文档面板新增可折叠的最近文档分类",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T02:45:01Z",
+      "committer_date": "2026-11-22T02:45:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64a3772a44c667b0a3eb0ce04057adee906cddfe",
+      "message": "feat(clipboard): 支持剪贴板批量操作及打开文件所在目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T02:38:31Z",
+      "committer_date": "2026-11-22T02:38:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d719912b165e2ecb24f1ac6666d5d6724860320e",
+      "message": "feat(dynamic-outline): 新增剪贴板面板及后台静默捕获功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T02:11:15Z",
+      "committer_date": "2026-11-22T02:11:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "243f524ebe16468bfc9666e9d5c9aa7f86dbfa64",
+      "message": "feat(dynamic-outline): 支持在灵动大纲切换已打开文档列表与浮窗预览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T01:37:32Z",
+      "committer_date": "2026-11-22T01:37:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e465e31948eca04baff87e3c3c2db52037a99575",
+      "message": "feat(key-info-dock): 在关键内容面板底部按钮栏新增悬浮快捷按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T23:59:30Z",
+      "committer_date": "2026-11-21T23:59:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab4d2bf97643144d7d55dee9bfbb5050587f0302",
+      "message": "fix(dynamic-outline): 优化大纲顶部布局、线框图标与搜索输入稳定性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T07:46:34Z",
+      "committer_date": "2026-11-21T07:46:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d71d9250dbff024125a9e65a2944c96ff050861",
+      "message": "fix(floating-text): 修复悬浮窗拖动时宽度异常自动扩大的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T07:01:46Z",
+      "committer_date": "2026-11-21T07:01:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d8f4a87b664371cae3b56972ec7d3e758adb6f3c",
+      "message": "feat(dynamic-outline): 优化类型提示与Minimap进度体验，支持居中跳转与首尾按钮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T06:26:13Z",
+      "committer_date": "2026-11-21T06:26:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "854583963adc2a65b49d33075bd6c2c509b2fc47",
+      "message": "feat(outline): 支持编辑区灵动大纲与关键内容联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T05:49:02Z",
+      "committer_date": "2026-11-21T05:49:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7760e374a775550756ed183ffaed8665a56eaafb",
+      "message": "feat(dock): 更换插件专属图标并优化底部操作栏按钮与提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T04:40:45Z",
+      "committer_date": "2026-11-21T04:40:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "35c4f6dea91f43ba06d8ff40e28fc585ac31e8cf",
+      "message": "feat(key-info): 标题标签支持按 H1~H6 层级展示并自动适配主题颜色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T03:51:12Z",
+      "committer_date": "2026-11-21T03:51:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e41a5337d7867dadb59016052af3161492d45abb",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T11:36:01Z",
+      "committer_date": "2026-11-15T11:36:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d698871454434ec0299ce7f46a0ec20aebca8ea2",
+      "message": "fix: 落地隐式状态机第二批整改与遗留项核实收敛",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T11:33:49Z",
+      "committer_date": "2026-11-15T11:33:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4f9c2c8eff323fe6ff859dc7845ee2d45fa7805e",
+      "message": "fix: 落地隐式状态机审计整改——互斥竞态、对话框终态、双 token 守卫与浮窗双绑定",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T08:46:57Z",
+      "committer_date": "2026-11-15T08:46:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ce780bba5c44308fb7fcf7a1ca354db67fd242c",
+      "message": "fix(insert): 文本转链接支持全文档范围识别并优化SQL全量段落扫描",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T08:21:12Z",
+      "committer_date": "2026-11-15T08:21:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03ab32d23cba3e18c770fd7890df3a450638ca30",
+      "message": "docs: 刷新 AGENTS.md 并归档历史方案文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:09:21Z",
+      "committer_date": "2026-11-15T06:09:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ac69029a75aa49c357b41b08f094097413450553",
+      "message": "refactor(core): 正则零宽等价收紧与零散清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:09:12Z",
+      "committer_date": "2026-11-15T06:09:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dc4becbd294de393b9011f9bb028633d5bd15820",
+      "message": "fix(floating-text): 修复浮窗搜索两处运行时 bug 并新增双实现守护测试",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:09:05Z",
+      "committer_date": "2026-11-15T06:09:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8852841d6cc23fbf1e5f6756bb04c28683cc97b",
+      "message": "chore(lint): 修复 ESLint 配置损坏并对齐全仓风格基线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T06:08:58Z",
+      "committer_date": "2026-11-15T06:08:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7eda04402747a4947a70ccb0875dc15da0682887",
+      "message": "chore(docs): 清理已完成的 superpowers 历史计划与设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T05:20:59Z",
+      "committer_date": "2026-11-15T05:20:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e8941b332e2fc0839ccd5b8db744d1bddb57025",
+      "message": "refactor: 拆分剪藏核心、选区清理骨架、悬浮窗模板与生命周期菜单模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T05:20:55Z",
+      "committer_date": "2026-11-15T05:20:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93d1dae0f095f3fa7ad773eeb80df81ca80789d0",
+      "message": "feat(gesture): 新增鼠标手势——右键划动切换同级文档与关闭当前文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T02:20:38Z",
+      "committer_date": "2026-11-15T02:20:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b8c1ef68225288624382e9830d9a72d93b233aac",
+      "message": "fix(types): 修正 toggle-links-refs 处理器 errorCode 字面量类型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T06:48:57Z",
+      "committer_date": "2026-11-07T06:48:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d65c01effd29be623ce092455684e281fe2a9013",
+      "message": "fix(provider): 补齐清理与整理类命令的公开白名单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T06:48:57Z",
+      "committer_date": "2026-11-07T06:48:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8ea053ac5a06499e20e05994a278295bbb78535e",
+      "message": "feat(provider): 公开文本转链接命令并补全执行状态传递契约",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T14:35:31Z",
+      "committer_date": "2026-11-05T14:35:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bca346ca0247dc7881c14e6c59121c12dc5f638b",
+      "message": "feat(action-runner): 支持 skipConfirm 与 confirmed 参数跳过交互弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T06:38:47Z",
+      "committer_date": "2026-11-01T06:38:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90959281aade78cbe67983ee6df82762dbb94628",
+      "message": "style(settings): 调整设置页选项的垂直排列顺序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-21T14:18:26Z",
+      "committer_date": "2026-10-21T14:18:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7c8d8dcdb4da34cbfe41d54115722d953db2c9f0",
+      "message": "feat(settings): 支持启动默认显示文档处理页签配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-21T14:04:52Z",
+      "committer_date": "2026-10-21T14:05:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "91d509b243759dd32dedb63303de6092e01ad03a",
+      "message": "feat(floating-text): 搜索选中条目复制时剔除前置缩进与列表项标记",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T01:27:31Z",
+      "committer_date": "2026-10-18T01:27:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "55053d7561c2192de44b45919c115711a5b3878c",
+      "message": "feat(floating): 支持块标与文档菜单悬浮文本并修复长文档悬浮缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-17T07:48:18Z",
+      "committer_date": "2026-10-17T07:48:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a37418d5575479d9f330c7cfc21d59818cf869a",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:00:44Z",
+      "committer_date": "2026-10-16T14:00:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83ac01115bb5e385d4a4fcf3371c1a04fddc0a78",
+      "message": "feat(key-info): 支持多样式标注合并显示与导出Markdown时同步复制剪贴板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-12T16:16:28Z",
+      "committer_date": "2026-10-12T16:16:28Z",
+      "login": "famotime"
+    },
     {
       "sha": "45d1898a34fbf8f9026ff12e07b9b58eb8068ae6",
       "message": "build(package): 更新插件打包产物 package.zip",

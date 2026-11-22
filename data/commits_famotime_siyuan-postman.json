@@ -1,7 +1,61 @@
 {
-  "pushed_at": "2026-06-19T14:25:18Z",
-  "count": 49,
+  "pushed_at": "2026-10-13T14:03:29Z",
+  "count": 55,
   "commits": [
+    {
+      "sha": "ebda9a53ef2a056b44b2b3a999a57e43e7eaba3b",
+      "message": "chore(release): 升级版本至 v1.0.7",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T14:03:18Z",
+      "committer_date": "2026-10-13T14:03:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6eebee73b5a4eb4c983f0aa88b6551cd02227155",
+      "message": "fix(build): 排除包内点开头隐藏文件并增加产物合规自动化校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T14:02:56Z",
+      "committer_date": "2026-10-13T14:02:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "36d3e7d5a84ea1929f77a68b22931ce83e179658",
+      "message": "fix(ci): 移除 release.yml 中冲突的 pnpm version 配置由 packageManager 接管",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:11:02Z",
+      "committer_date": "2026-10-13T13:11:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f683b44694bcad727ea55a22e147625e8b97621",
+      "message": "chore(workflow): 升级 GitHub Actions 自动化发版流并补全文档与提取工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:08:40Z",
+      "committer_date": "2026-10-13T13:08:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e2b2186f7aa6a44812cd6c16d308c11488cd0f7",
+      "message": "chore(release): 升级版本至 v1.0.6",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-13T13:01:16Z",
+      "committer_date": "2026-10-13T13:01:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18ff1b12ef7c905438ae5035932d0b62c43d83f5",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:04Z",
+      "committer_date": "2026-10-02T11:09:04Z",
+      "login": "famotime"
+    },
     {
       "sha": "961d6977cbb4e68314c1efa7e0b9359e788f8b4e",
       "message": "v1.0.5",

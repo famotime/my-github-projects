@@ -1,7 +1,277 @@
 {
-  "pushed_at": "2026-09-25T10:05:45Z",
-  "count": 36,
+  "pushed_at": "2026-11-13T04:59:26Z",
+  "count": 66,
   "commits": [
+    {
+      "sha": "6cac14ab5bd1513d2e22fd408cd693ade52c7b5f",
+      "message": "refactor(state): 加固核心状态机并发一致性与界面交互状态收敛",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T04:59:11Z",
+      "committer_date": "2026-11-13T04:59:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d11bab4d19f4ab1468d35743a740b4bc34133e75",
+      "message": "feat(i18n): 完成全仓国际化双语重构与代码异味清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T04:38:17Z",
+      "committer_date": "2026-11-13T04:38:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6c5b833cba3e3b2facb59331facac0c2007fa20a",
+      "message": "refactor(core): 消除写回与判重复制逻辑并抽取共享管线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T04:19:06Z",
+      "committer_date": "2026-11-08T04:19:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "697b5668a54a70cd1f99f90879eb310530e37229",
+      "message": "chore(release): 升级版本至 v1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T02:51:45Z",
+      "committer_date": "2026-11-08T02:51:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14f860a262226142cc02e0126c8959e4aa9dcb2d",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T02:51:24Z",
+      "committer_date": "2026-11-08T02:51:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aaed438149bfccd44785aeab506ce083d7a0d61b",
+      "message": "feat(backup): 支持右上角全量导入导出与智能去重",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T07:22:26Z",
+      "committer_date": "2026-11-07T07:22:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3c7ba5f08e843bf74df09f2ad9fccfb72b67244d",
+      "message": "feat(ui): 用户点击保存按钮后提供即时轻量提示已保存",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T07:05:25Z",
+      "committer_date": "2026-11-07T07:05:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "386b0f31449e2e786e917ce313d11a4470c1c7ac",
+      "message": "feat(provider): 支持官网网址与快捷跳转并将 API Key 调整为可选项",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T01:35:50Z",
+      "committer_date": "2026-11-07T01:35:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "99857a21e32489c46e3cdee3265b33fce962b6b5",
+      "message": "docs: 按 v0.10.0 后开发进展全面刷新项目文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T16:38:22Z",
+      "committer_date": "2026-11-06T16:38:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5af364a3e8b3db8d21da80acdc3eabd65975eae1",
+      "message": "feat(bindings): 左侧接管列表免点击显示当前生效模型并悬浮查看完整配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T15:48:26Z",
+      "committer_date": "2026-11-06T15:48:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "42bccab7996d0cb16a9e1ba1aef306f21bad6e68",
+      "message": "feat(profile): 支持删除原配置名称后直接保存自动按提供商-模型命名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T14:18:43Z",
+      "committer_date": "2026-11-06T14:18:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "94ce45f00da49754d52353923971df0cec871230",
+      "message": "fix(core): 修复弹窗遮罩误关与思源提供商名称混入模型名问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T03:59:11Z",
+      "committer_date": "2026-11-01T03:59:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e0f67cd6a1e53cbed0088a8d3bc51365e39986c1",
+      "message": "feat(profile): 新建配置默认命名联动与未保存改动切换保护",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T02:42:28Z",
+      "committer_date": "2026-11-01T02:42:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1dacdb40557ead10d78208b30ef0155b7a653bef",
+      "message": "feat(probe): 支持决策模型 (System One / Jev) 独立探测与模型刷新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-30T12:18:07Z",
+      "committer_date": "2026-10-30T12:24:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "def3e6bd4a9be07f0949332fc178c7f6194edf4c",
+      "message": "feat(provider): 支持 Jev 决策模型协议并修复本地配置导入空密钥缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T15:34:28Z",
+      "committer_date": "2026-10-28T15:34:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c65f073792464a8318d172d007d5c44176af772a",
+      "message": "feat(binding): 支持多槽位插件「部分接管」三态模型与联动呈现",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T12:03:11Z",
+      "committer_date": "2026-10-28T12:03:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b81e872aab34e93f08c1ffe7f3a95ab83edc297d",
+      "message": "fix(binding): 修复多槽位插件解绑时偶受顶层历史配置污染的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T11:15:35Z",
+      "committer_date": "2026-10-28T11:15:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6961fb5a239076c7c1e5fe6e811d6c9ef88ee8c5",
+      "message": "chore(release): 升级版本至 v0.10.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T02:03:51Z",
+      "committer_date": "2026-10-25T02:03:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ef37fbce5e0af2e0e085d236b6484fd4c6f106d",
+      "message": "feat(provider): 预置供应商目录与在线探测能力（刷新模型/两级测试/容量探测）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T02:03:46Z",
+      "committer_date": "2026-10-25T02:03:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "486969111d61dcd5cd1f43192136420b683a634c",
+      "message": "chore(release): 升级版本至 v0.9.5",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T10:14:46Z",
+      "committer_date": "2026-10-18T10:14:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8107e296fd5e585dfee5ee7dc9a09dccd3c84d1a",
+      "message": "docs(readme): 同步最新多模型槽位与自动联动特性至主文档与集成指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T10:14:17Z",
+      "committer_date": "2026-10-18T10:14:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc50ed035c9aeef8aea8956bb5604bd994eca4b1",
+      "message": "feat(provider): 支持合法非 custom API 配置自动生成与关联 AI 提供商",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T07:55:31Z",
+      "committer_date": "2026-10-18T07:55:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1e79b5f2e9c25999809bc752c34cd1a22fee63f8",
+      "message": "feat(toolbar): 新增顶栏图标统一入口并优化决策模型标签与配置自动联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T07:39:30Z",
+      "committer_date": "2026-10-18T07:39:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aa201a71de6be2bf5eb1231594631ba6ba6a61b8",
+      "message": "fix(siyuan-sync): 修复Jev模型导入识别失败及编辑器智能体场景独立体现问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T06:53:17Z",
+      "committer_date": "2026-10-18T06:53:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89ae4e6a7ea1aaaa7ec472096f6775bae24a64c8",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T13:57:10Z",
+      "committer_date": "2026-10-16T13:57:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "52de70b5c36f7997b3804251f484b358ffcadf9a",
+      "message": "chore(build): 更新生产发布包 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-11T09:06:24Z",
+      "committer_date": "2026-10-11T09:06:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0a310eb589df89a807ff95a35fcd499ced8d83d",
+      "message": "feat(binding): 支持多模型槽位协议（对话与决策模型独立接管）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-11T08:49:35Z",
+      "committer_date": "2026-10-11T08:49:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8f11caf30668a54cc570c683976dc047780de20d",
+      "message": "feat(sync): 提取思源本体与插件配置时校验已有配置以避免重复生成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-10T21:41:46Z",
+      "committer_date": "2026-10-10T21:41:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7df6109b2c83864ea4c32db600a0702a17c1d834",
+      "message": "refactor(core): 完成核心服务分层解耦与组件化架构重构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-10T21:00:17Z",
+      "committer_date": "2026-10-10T21:00:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b6cdee1a9a4cf4cbdc17a4f222925ae4d0c99b02",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:08:59Z",
+      "committer_date": "2026-10-02T11:08:59Z",
+      "login": "famotime"
+    },
     {
       "sha": "fcba5c583793734aa62a173012b50b8469bd2807",
       "message": "v0.9.0",

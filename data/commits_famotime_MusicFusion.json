@@ -1,7 +1,43 @@
 {
-  "pushed_at": "2025-07-05T11:45:03Z",
-  "count": 38,
+  "pushed_at": "2026-11-11T21:19:37Z",
+  "count": 42,
   "commits": [
+    {
+      "sha": "e2b177cc61c56960d8510ef8deb33dd6a95aa886",
+      "message": "清理：修复 favicon 404 与死样式，删除脚手架遗留，Header 导航接线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T21:19:23Z",
+      "committer_date": "2026-11-11T21:19:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "344d739b6f88983ffb0321730139f182390cef03",
+      "message": "重构：选中集合 reducer 化并设上限 3，筛选函数式更新，新增复制反馈",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T16:18:31Z",
+      "committer_date": "2026-11-11T16:18:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "015fd303b8ecceff0701a74b60bfbc8cdcdff923",
+      "message": "重构：合并桌面/移动为单一挂载，音频收拢为全局共享元素状态机",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T16:17:51Z",
+      "committer_date": "2026-11-11T16:17:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e08cb81de9a23d3b8e20119478dd3111db602bec",
+      "message": "重构：抽取 lib 纯逻辑层并建立 Vitest 测试基线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T15:09:54Z",
+      "committer_date": "2026-11-10T15:09:54Z",
+      "login": "famotime"
+    },
     {
       "sha": "5189f03cded906240b5f427a468f32158dd1884f",
       "message": "update",

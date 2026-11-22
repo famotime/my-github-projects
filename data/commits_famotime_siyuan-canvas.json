@@ -1,7 +1,142 @@
 {
-  "pushed_at": "2026-09-24T03:19:02Z",
-  "count": 308,
+  "pushed_at": "2026-11-17T15:15:47Z",
+  "count": 323,
   "commits": [
+    {
+      "sha": "f3f1e4275de039f34fe4e45c78ee1880196a1dab",
+      "message": "docs(canvas): 刷新隐式状态机优化落地状态与验证记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:31:26Z",
+      "committer_date": "2026-11-13T05:31:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "528fe38bc699c4ca2a16c9320b6eaaff2ed31f25",
+      "message": "fix(lifecycle): 修复异步取消回滚、脚本单次加载与资源生命周期泄漏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:30:21Z",
+      "committer_date": "2026-11-13T05:30:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccf83a8dc810bd51508322e911a0053930c0f2f4",
+      "message": "fix(modals): 修复快捷键模态优先级、异步搜索竞态与多选属性面板状态残留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:23:38Z",
+      "committer_date": "2026-11-13T05:23:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e74376b9772d24ed72a22d44393e635cef1fab6",
+      "message": "fix(editing): 修复内联编辑、连线标签与 Query 运行时状态竞争",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:17:46Z",
+      "committer_date": "2026-11-13T05:17:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60cfc76f12e62d02e84738e271d0d698d4d208c6",
+      "message": "fix(editor): 修复保存队列并发丢弃、冲突旁路、重命名清历史及目录迁移撕裂",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:12:16Z",
+      "committer_date": "2026-11-13T05:12:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6e8e0a188da886af229a9fd218f86cf9871b6022",
+      "message": "fix(presentation): 修复演示模式播放状态切换、历史记录脏写与控制按钮禁用失配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:02:16Z",
+      "committer_date": "2026-11-13T05:02:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96fc5bb9f440342beb2b3d2e26c1d610e60d6038",
+      "message": "fix(gestures): 规范手势与小地图交互状态机，修复拖拽卡死与监听泄漏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T05:00:53Z",
+      "committer_date": "2026-11-13T05:00:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a32a2a1abc60cb7fe0a9cfa50d86f0038d206285",
+      "message": "docs(canvas): 新增隐式状态机分析与优化方案文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T04:56:49Z",
+      "committer_date": "2026-11-13T04:56:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0a4fa7d57c25c43c5135cde2681dba704788c870",
+      "message": "refactor(core): 修复类型错误、冗余代码与测试用例，优化构建与规范配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T04:40:55Z",
+      "committer_date": "2026-11-13T04:40:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "89f7485f5d88cb98bf433334f6bbe9ed788a9466",
+      "message": "fix(ai): API 旋钮接管列表显示名改用内核解析插件名而非顶栏文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T16:18:18Z",
+      "committer_date": "2026-11-06T16:18:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "002f1a50241ca205b779efde0b05c7c5cb940ce8",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:00:14Z",
+      "committer_date": "2026-10-16T14:00:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3838fba3f8f4af4a8a58ffd84007c7849887a82c",
+      "message": "fix(canvas): 修复节点文本滚动到顶部或底部时误触发画布缩放的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-15T14:09:17Z",
+      "committer_date": "2026-10-15T14:09:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a88704b3aab48155d9175c65153c2e1792075ffd",
+      "message": "feat(canvas): 支持选中节点后高亮直接关联连线与相邻节点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-14T21:56:30Z",
+      "committer_date": "2026-10-14T21:56:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a5bbb699b53682de8b9a57fd81d8418fdaed9c8",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:00Z",
+      "committer_date": "2026-10-02T11:09:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "70c5e86d323a89505e0a8501324b587ae703c73d",
+      "message": "feat(ai): 升级 API 旋钮接入协议并支持自定义 Headers",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:44:01Z",
+      "committer_date": "2026-09-25T03:44:01Z",
+      "login": "famotime"
+    },
     {
       "sha": "32c176db5ca6b819d314ed5db37437b5eef5d483",
       "message": "feat: 画布支持触控板双指滑动平移与捏合缩放",

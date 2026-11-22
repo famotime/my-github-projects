@@ -1,7 +1,16 @@
 {
-  "pushed_at": "2026-10-05T01:45:43Z",
-  "count": 4,
+  "pushed_at": "2026-10-07T05:05:04Z",
+  "count": 5,
   "commits": [
+    {
+      "sha": "0f507f556fe8ea6b4eae77ec17e69f8cd794848f",
+      "message": "feat: 更新数据缓存并修复年份筛选统计数据不更新的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T05:04:54Z",
+      "committer_date": "2026-10-07T05:04:54Z",
+      "login": "famotime"
+    },
     {
       "sha": "d22526c8b021ce20952b27bd70a18e0b202f5c13",
       "message": "feat(pages): 默认将可视化报告输出至 docs/index.html 并补充 GitHub Pages 部署指南",

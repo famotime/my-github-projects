@@ -1,7 +1,214 @@
 {
-  "pushed_at": "2025-11-23T03:01:11Z",
-  "count": 381,
+  "pushed_at": "2026-11-11T12:51:27Z",
+  "count": 404,
   "commits": [
+    {
+      "sha": "db1ab010e69ac2b399533b76c0754a84289666cc",
+      "message": "refactor(codebase): 全面清理工程废弃代码、优化首屏拆包并修复运行时与类型缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T12:50:51Z",
+      "committer_date": "2026-11-11T12:50:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62fb70a08ab679d88bc033dec18acfaff0721ecc",
+      "message": "fix: 第二轮遗留问题修复（配对游戏竞态/生成中媒体可见性/配额语义/评分收敛）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T00:29:37Z",
+      "committer_date": "2026-11-11T00:29:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6240bcb2769fccbdc9d7a9d88eee5a5507c5736",
+      "message": "fix: 修复隐式状态机审计发现的 P0/P1 缺陷并落地审计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:57:07Z",
+      "committer_date": "2026-11-10T23:57:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "868fa49878fa404088321eb7585cee457a6caae9",
+      "message": "docs(to-do): 更新代码重构工作流描述",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:27:04Z",
+      "committer_date": "2026-11-10T23:27:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "968422f442f6b137ab650b767fb9cdf7e39fe54b",
+      "message": "docs(refactor): 同步 Phase 2 执行日志与结构文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:54Z",
+      "committer_date": "2026-11-10T23:17:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b17f931a90e4e6bc75cd4a4b75c6137b5a296f3",
+      "message": "test(components): AuthorSpotlight 补 smoke 测试 (RF-018)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:54Z",
+      "committer_date": "2026-11-10T23:17:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "27430b98c15b64f06f4ad3f947424176adbb01f3",
+      "message": "refactor(poetry): 相似度评分算法收敛为共享纯函数 (RF-016)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:44Z",
+      "committer_date": "2026-11-10T23:17:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "34c8db4462a906509a3def6ec3197339fd0ed101",
+      "message": "refactor(services): 解除 WorksService 与 Adapter 的循环依赖 (RF-013)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:37Z",
+      "committer_date": "2026-11-10T23:17:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bad32769e6d38b62e1e142237472d59dfdc14e1",
+      "message": "refactor(adapter): 清理死桩并实现真实统计计数 (RF-017)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:19Z",
+      "committer_date": "2026-11-10T23:17:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "02b430a1c40e28394d64b45b6dd1ed5b354da918",
+      "message": "refactor(study-plan): StudyPlanService 超长方法拆分并补纯函数测试 (RF-015)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:19Z",
+      "committer_date": "2026-11-10T23:17:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e6a6a80b3852ab3679df371eebe653d343f8921e",
+      "message": "refactor(hooks): useUserStats 四个同构子 hook 收敛为 useServiceStats 工厂 (RF-014)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:13Z",
+      "committer_date": "2026-11-10T23:17:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "32e45199743ba38516b3bbf0c37da85b2a3cc70d",
+      "message": "refactor(ai): 拆分 AIMediaService.getMediaList 为职责单一方法 (RF-012)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:12Z",
+      "committer_date": "2026-11-10T23:17:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d75c56dc8a78c7578a8241bbae5077cf5419d377",
+      "message": "refactor(auth): 登录态判断收敛为 utils/authSession 单一来源 (RF-011)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:17:03Z",
+      "committer_date": "2026-11-10T23:17:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ffdcd94eeae41eace6717c2cea4cd5f162c6394b",
+      "message": "docs: 新增重构计划与权威结构文档，更新 README 架构描述",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:52Z",
+      "committer_date": "2026-11-10T22:49:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d31082b1816a9db0eec0b3944941d8689958e6ac",
+      "message": "refactor(recommendation): 推荐引擎评分去随机化 (RF-009)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:47Z",
+      "committer_date": "2026-11-10T22:49:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8fa2227f753c5e0d47bf9cab30f95a504d931e9",
+      "message": "refactor(app): 收窄 GameProvider 挂载范围至接龙页面 (RF-008)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:42Z",
+      "committer_date": "2026-11-10T22:49:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "17155ee0e13e64fa3688e9d9334c8ecd1a095627",
+      "message": "refactor(services): 合并 TempActivityRecordService 并统一 FAMOUS_POETS 常量 (RF-007)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:36Z",
+      "committer_date": "2026-11-10T22:49:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0d1c3645badae165dd3a0d18d8ece5878cbebc0",
+      "message": "refactor(ai): 收敛 SupabaseAIService 请求样板为模板方法 (RF-006)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:29Z",
+      "committer_date": "2026-11-10T22:49:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b935f1802590e008b69146fe64c286802b312fad",
+      "message": "refactor(detail): 拆分诗词详情页朗读与 AI 逻辑为独立 Hook (RF-005)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:22Z",
+      "committer_date": "2026-11-10T22:49:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc1bc929cf61cfca13afed49a8cd5646e6226156",
+      "message": "refactor(game): 提取游戏公共层并统一成绩上报口径 (RF-004)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:17Z",
+      "committer_date": "2026-11-10T22:49:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "635e81374f6d51854736541f711a325c736dc405",
+      "message": "fix(database): 修复 localdb 模拟器 where 语义导致的 13 处过滤失效 (RF-003)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:09Z",
+      "committer_date": "2026-11-10T22:49:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f4b73b3f0104313bb8bfbae3bfd53de7a3e12d78",
+      "message": "fix(auth): 修复认证早退分支 isLoading 不复位与登出全站清空存储问题 (RF-002)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:49:03Z",
+      "committer_date": "2026-11-10T22:49:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "86821694e4568956c694f1a30a7a4b5e591f3fe1",
+      "message": "refactor(components): 清理零引用的死代码组件与服务 (RF-001)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:48:58Z",
+      "committer_date": "2026-11-10T22:48:58Z",
+      "login": "famotime"
+    },
     {
       "sha": "cd7b62c0f194648b0000edffa7aec1d89baa7533",
       "message": "feat(chat): 优化诗人卡片界面话题泡泡显示逻辑",

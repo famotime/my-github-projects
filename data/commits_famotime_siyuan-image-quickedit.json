@@ -1,7 +1,43 @@
 {
-  "pushed_at": "2026-09-25T14:34:59Z",
-  "count": 49,
+  "pushed_at": "2026-11-15T15:01:09Z",
+  "count": 53,
   "commits": [
+    {
+      "sha": "16eb4dcd846e653c8c45529beb97feba6d55caee",
+      "message": "fix(merge): 修复超级块图片合并时分辨率降低导致的图片模糊问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T14:36:23Z",
+      "committer_date": "2026-11-15T14:36:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "23326343864c93e9ac0e006dcd157d14ecb97f84",
+      "message": "feat(merge): 超级块图片合并支持备份原超级块到子文档并替换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-07T03:56:20Z",
+      "committer_date": "2026-11-07T03:56:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "df634aa0a47dc4b54210a58cfb35cb5b95ef112d",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:01:09Z",
+      "committer_date": "2026-10-16T14:01:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc678ae1305f4ed86c166a94c3525a973484dfbb",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:01Z",
+      "committer_date": "2026-10-02T11:09:01Z",
+      "login": "famotime"
+    },
     {
       "sha": "339437b9a60743f4defaaba134469ba3e123198a",
       "message": "feat(kernel): 支持基于 relinkAsset 的图片全局重定向与优雅降级",

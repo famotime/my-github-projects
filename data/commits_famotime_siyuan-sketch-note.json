@@ -1,7 +1,61 @@
 {
-  "pushed_at": "2026-09-20T14:46:32Z",
-  "count": 231,
+  "pushed_at": "2026-11-14T22:47:53Z",
+  "count": 237,
   "commits": [
+    {
+      "sha": "cb0f8730559c3e41c812b5c15c9144bdbf5d5494",
+      "message": "fix(state): 治理隐式状态机并修复保存丢数据与交互状态死锁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:47:32Z",
+      "committer_date": "2026-11-14T22:47:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e8f6a542a55764e688bc29ae50ab27011622eda4",
+      "message": "refactor(editor): 隔离多Tab实例，清理顶栏悬挂事件并归档验证工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:15:44Z",
+      "committer_date": "2026-11-14T22:15:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6667817f268003bd253dd3644d07479fb535d799",
+      "message": "fix(editor): 修复代码规范与死代码泄漏，优化橡皮擦碰撞检测",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:07:14Z",
+      "committer_date": "2026-11-14T22:07:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "06650530a5f3f163d4a1c2d77df2211253f75e5f",
+      "message": "refactor(core): 完成核心模块架构解耦与职责拆分",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T21:26:50Z",
+      "committer_date": "2026-11-14T21:26:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7abda82ee67b8e03193417d1fb3d5f6a26ec8fa7",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:03:16Z",
+      "committer_date": "2026-10-16T14:03:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1efe65cbd162ea705c7606ba9dc24cb9756f5988",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:10Z",
+      "committer_date": "2026-10-02T11:09:10Z",
+      "login": "famotime"
+    },
     {
       "sha": "1a87796bbe06a0b284073378b6e4fe192e195641",
       "message": "feat: 支持画笔与荧光笔光标样式自定义及缩放适配",

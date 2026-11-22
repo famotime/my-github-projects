@@ -1,7 +1,61 @@
 {
-  "pushed_at": "2026-10-02T07:21:22Z",
-  "count": 9,
+  "pushed_at": "2026-10-23T12:27:57Z",
+  "count": 15,
   "commits": [
+    {
+      "sha": "ab32ebbdb73833ee7033982b58c17c67e3a8fa6b",
+      "message": "fix(website-updates-to-siyuan): Windows 下改用子进程接管，规避 os.execve 段错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-23T12:27:46Z",
+      "committer_date": "2026-10-23T12:27:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dafd66bb2e1b2e1e1b069b015ea3ddb9413e9c13",
+      "message": "feat(siyuan-plugin-preflight): 新增点开头条目红线检查（Bazaar Issue #2338）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-23T12:18:11Z",
+      "committer_date": "2026-10-23T12:18:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c758b4bdb57c8616950ce76cd728381f1ec728ad",
+      "message": "feat(website-updates-to-siyuan): 入口依赖自愈，自动切换可用解释器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-23T12:18:05Z",
+      "committer_date": "2026-10-23T12:18:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc1231d1732876b192e4b99126dc56c6996b662f",
+      "message": "chore(repo): 停止跟踪 __pycache__ 产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-23T12:17:54Z",
+      "committer_date": "2026-10-23T12:17:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69dbb2be791bc794fc5365931c5d851f73878af9",
+      "message": "feat(website-updates-to-siyuan): 中文与网址分离逻辑沉淀为共享模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-20T14:26:10Z",
+      "committer_date": "2026-10-20T14:26:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca6fad35a730566cbcf70fb348f3c92073570b87",
+      "message": "feat: 新增 guizang-material-illustration 和 impeccable 技能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-11T07:41:03Z",
+      "committer_date": "2026-10-11T07:41:47Z",
+      "login": "famotime"
+    },
     {
       "sha": "25a01ccd1fcdab22a001e22143005ae313aedbff",
       "message": "feat(wechat): 深度适配公众号图文与小绿书图片消息提取",

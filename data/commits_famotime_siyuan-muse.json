@@ -1,7 +1,268 @@
 {
-  "pushed_at": "2026-08-09T03:53:28Z",
-  "count": 52,
+  "pushed_at": "2026-11-18T15:43:31Z",
+  "count": 81,
   "commits": [
+    {
+      "sha": "e4cc084b15a9d896b2164ff8a02f440f6ed4d296",
+      "message": "docs: 刷新状态机审计报告——21 项问题全部修复并记录验证结果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:06:21Z",
+      "committer_date": "2026-11-18T15:06:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d7e0a31fcf49c67e857c45b1a060c2b609cf987d",
+      "message": "fix(blocks): 光标块缓存增加时效窗口，过期回退上下文块 ID",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:05:42Z",
+      "committer_date": "2026-11-18T15:05:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b46442c55411f3061d7f80334cdb237b7c593f57",
+      "message": "fix(pm): PromptManager 未保存状态改 diff 派生，导入前确认丢弃",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:36:33Z",
+      "committer_date": "2026-11-17T23:36:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e65ff5990a276252d788b57fad26af5c9853da42",
+      "message": "fix(topics): 话题生成引入 token 防陈旧回写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:34:01Z",
+      "committer_date": "2026-11-17T23:34:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3f7c20a0efeea24b16f629b5cac8615d6657de69",
+      "message": "fix(lunaria): 外部工作流入口收敛为单命令通道，补齐聊天互斥守卫",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:32:54Z",
+      "committer_date": "2026-11-17T23:32:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "69a3c9f88a087da17b7f8689fb3604eba7b09155",
+      "message": "fix(settings): 设置面板等待持久化加载，空值墓碑落盘，字段元数据内聚",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:31:19Z",
+      "committer_date": "2026-11-17T23:31:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0aae1c67fbaae76c55b0550f926b82fa210f3eb2",
+      "message": "fix(history): 快照补全串联定制状态，合并加载防丢失更新",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:30:28Z",
+      "committer_date": "2026-11-17T23:30:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5923d75d86588bc6062e77d39c7849839005a980",
+      "message": "fix(checkpoints): 导航前自动保存未落盘修改，防止静默覆盖丢失",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:29:01Z",
+      "committer_date": "2026-11-17T23:29:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "845c850616eac40319f53cebe1f777aaeb9d86f0",
+      "message": "fix(chat): 聊天生成可取消，错误改为消息元状态，去除位置契约",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:28:12Z",
+      "committer_date": "2026-11-17T23:28:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5d742e5faa8f6fba7955dcfa0718d40d7f402cc4",
+      "message": "refactor(config): 移除 progress 死字段，环节键控记录改由 ALL_STAGE_IDS 派生",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:22:46Z",
+      "committer_date": "2026-11-17T23:22:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6034ef7a0e58918d0bfcd08a5bbe0336502359a4",
+      "message": "fix(pipeline): 阶段显式状态机 + 运行前落历史 + 依赖产出校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:22:08Z",
+      "committer_date": "2026-11-17T23:22:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "64c112a776c055d6a99c54c9746d34432c50db40",
+      "message": "fix(llm): 合并外部取消与空闲超时，统一中断错误语义",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:19:16Z",
+      "committer_date": "2026-11-17T23:19:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ce09794acfa8551b147bde83e08e5410188f091",
+      "message": "docs: 新增隐式状态机审计报告（12 台状态机 + 21 项问题清单）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:17:33Z",
+      "committer_date": "2026-11-17T23:17:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "72e95a6168ce1945656dfba1ed3c7d25a6a9fd5f",
+      "message": "refactor(ui): R-108 抽离 MuseDock 样式至独立 scss 文件",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:28:03Z",
+      "committer_date": "2026-11-17T19:28:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "082d8c4f7d686b21614fbe0311fd8533e32e7fc4",
+      "message": "feat(i18n): 接入 i18n 基础设施并迁移全部 UI 界面文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:26:31Z",
+      "committer_date": "2026-11-17T19:26:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a0ff25d930320449c11f1523ecded185902ac0a9",
+      "message": "chore: 更新插件元数据为 famotime/siyuan-muse 并消除构建警告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:11:32Z",
+      "committer_date": "2026-11-17T19:11:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e5eb5898b4fd26c9419bed15ed779490cb5be40f",
+      "message": "perf(topics): 推荐话题改为懒生成，省去每次 6 个并发 LLM 请求",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:10:36Z",
+      "committer_date": "2026-11-17T19:10:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cd767dd5c5520425e3adfd778a1c1f81ad38d2e",
+      "message": "fix(context): 隐藏消息一律不注入 LLM 上下文",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:08:25Z",
+      "committer_date": "2026-11-17T19:08:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4ba99c4119ead23b25e8292273b46c8749a8de5f",
+      "message": "chore: 移除未使用依赖 glob/ts-node/@vue/tsconfig/eslint-plugin-perfectionist/@types/dompurify",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:07:13Z",
+      "committer_date": "2026-11-17T19:07:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5dafdfdbadf8744a4e65a39be1a0fcb86036b0b6",
+      "message": "style: 全库 ESLint --fix 统一格式并清零 lint 错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T19:06:46Z",
+      "committer_date": "2026-11-17T19:06:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12861a88c9e105ad460415ebd2c5e90495170b78",
+      "message": "fix: 完成 R-109~R-112 重构收尾并修复体检发现的缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T18:58:54Z",
+      "committer_date": "2026-11-17T18:58:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07423dcab9e13d2c1e473318e0ad1226d9e5859b",
+      "message": "chore: 移除 plugin-sample-vite-vue 模板参考副本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T18:58:46Z",
+      "committer_date": "2026-11-17T18:58:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92c79c78b8446a6f09972afad817e38aa49553c8",
+      "message": "feat(pipeline): 支持基于已有讨论智能续接串联与上下文动态配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-30T15:11:12Z",
+      "committer_date": "2026-10-30T15:11:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18dcad65a2108f79d8a7a5839d72cafcca5fb849",
+      "message": "feat(pipeline): 增强上下文入参多态兼容、自动设置主题标题与 autoRunPipeline 闭环",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-30T12:44:10Z",
+      "committer_date": "2026-10-30T12:44:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "273d4c307c389ba7f4dab75de0c4611f21dc2099",
+      "message": "feat(bus): 接入思源灵犀总线并暴露 startTopicWorkflow 主题流水线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T14:20:48Z",
+      "committer_date": "2026-10-27T14:20:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e9533c93d95a30bd6c60007721d2ed6e017f969",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:01:35Z",
+      "committer_date": "2026-10-16T14:01:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "864a8fbca26eb74d2f6f12f6953bd78328adcdb4",
+      "message": "chore(git): 将 developer_docs 转为软链接并停止 Git 追踪",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:07:59Z",
+      "committer_date": "2026-10-02T11:07:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "337014b5d3f65c58a46d6114b5d731c97f746952",
+      "message": "feat(ai): 升级 API 旋钮接入协议以支持自定义请求头与通信协议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T03:43:18Z",
+      "committer_date": "2026-09-25T03:43:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b5799a7d60fa602c9a696a192958e2b7e3bab07a",
+      "message": "fix: 修复插件加载时生命周期异步注册导致的 parentElement 空指针异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-08-14T13:19:57Z",
+      "committer_date": "2026-08-14T13:19:57Z",
+      "login": "famotime"
+    },
     {
       "sha": "bfa25e86d02b8827a1c39da1f21644d3f97da006",
       "message": "feat: 增加 API 旋钮动态接管横幅与无刷新属性更新",

@@ -1,7 +1,61 @@
 {
-  "pushed_at": "2026-05-03T02:01:23Z",
-  "count": 68,
+  "pushed_at": "2026-11-11T21:32:03Z",
+  "count": 74,
   "commits": [
+    {
+      "sha": "a21ec41907192949031d4c843facd6bfe1455ed3",
+      "message": "fix: 修复导出/渲染缺陷并落地 senderId、模板背景、持久化与按需加载",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T21:31:47Z",
+      "committer_date": "2026-11-11T21:31:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b1c3486eda611d55ec116f48dc263168981fab8",
+      "message": "chore: 清理仓库——移除导出产物、孤儿资源、废弃脚本与 .bolt 残留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T21:31:41Z",
+      "committer_date": "2026-11-11T21:31:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ad8dc885c1c9401d9eed2814a3001fcea854f33f",
+      "message": "refactor: 隐式状态机显式化并修复播放/交互状态缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T16:01:40Z",
+      "committer_date": "2026-11-11T16:01:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c0effa9daaa336ffa9dac074803a4cae504b7e0",
+      "message": "refactor: 代码模块分析与重构（RF-001~RF-007）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T00:19:50Z",
+      "committer_date": "2026-11-10T00:19:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c63e466d25e930bb9c9973c15ed53734b02e9aea",
+      "message": "feat: 移动端配置面板重构为底部抽屉并修复交互问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T12:26:21Z",
+      "committer_date": "2026-10-25T12:26:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c40dda7770b7669d749783be4c68089493a7311",
+      "message": "feat: 接入路由并拆分主页与创建页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T10:39:20Z",
+      "committer_date": "2026-10-25T10:39:20Z",
+      "login": "famotime"
+    },
     {
       "sha": "8b4d515ee6192e3d85dd7b374c9273811c17fe5b",
       "message": "Updated .gitignore",

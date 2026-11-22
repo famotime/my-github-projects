@@ -1,7 +1,97 @@
 {
-  "pushed_at": "2026-09-17T12:58:51Z",
-  "count": 77,
+  "pushed_at": "2026-11-14T22:48:19Z",
+  "count": 87,
   "commits": [
+    {
+      "sha": "ad1e71d3df7b1f32fe811f22f3e1c3cb635ce1dc",
+      "message": "refactor(state-machine): 治理隐式状态机并修复异步竞态与生命周期缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:47:56Z",
+      "committer_date": "2026-11-14T22:47:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0e4436b7f753e6c59e02375069c57fffe1b59e79",
+      "message": "refactor(core): 清理冗余组件依赖并补齐大盘高危清单与视图国际化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:18:24Z",
+      "committer_date": "2026-11-14T22:18:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7442de51d714dfc8f399fba717a1d119f0b215f0",
+      "message": "fix(core): 修复查询空值崩溃与待办逾期误判并清理遗留代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T22:08:56Z",
+      "committer_date": "2026-11-14T22:08:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d28f0091ac8b175412022937b59dc51b23809335",
+      "message": "refactor(core): 优化视图元数据与展示分层并消除正则回溯",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T21:27:20Z",
+      "committer_date": "2026-11-14T21:27:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "289785fb8c0ba710bb8ec2d3bc2dcf036dd7895c",
+      "message": "refactor(ui): 提取 CollapsibleSection 通用折叠组件(RF-119)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T16:13:24Z",
+      "committer_date": "2026-11-08T16:13:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "21519fcaecbff39fc9463de66ff5dade7e1c21ea",
+      "message": "chore(tooling): 恢复类型检查与 ESLint 门禁并完成遗留项修复(RF-114~118)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T15:44:30Z",
+      "committer_date": "2026-11-08T15:44:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "edd805da46734c996a0496d6cccd3aa553394b36",
+      "message": "refactor: 拆分仪表板编排与共享视图模型并清理死代码(RF-106~113)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T14:42:29Z",
+      "committer_date": "2026-11-08T14:42:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f832fe89a2ad1d05e81a8fde00be2e973ef06eef",
+      "message": "feat(ui): 依据资深 UX 方案系统性重构 UI 与交互体验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T07:41:57Z",
+      "committer_date": "2026-11-01T07:41:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9cd9b0573939047c8f960baf7cb90b9d45a0ca3d",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:02:56Z",
+      "committer_date": "2026-10-16T14:02:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a2fd368c09259f8111c73812a98c464581308cc8",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:07Z",
+      "committer_date": "2026-10-02T11:09:07Z",
+      "login": "famotime"
+    },
     {
       "sha": "645499d299f3aadef76be41095efff869a184c3c",
       "message": "Optimize dashboard UX and fix theme switching",

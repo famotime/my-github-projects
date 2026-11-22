@@ -1,7 +1,196 @@
 {
-  "pushed_at": "2026-10-02T08:10:57Z",
-  "count": 49,
+  "pushed_at": "2026-11-18T15:43:42Z",
+  "count": 70,
   "commits": [
+    {
+      "sha": "c840d355acf62b1df62fefd4368ed0d4f5bfb1d7",
+      "message": "docs: 刷新状态机审计文档修复状态并记录实施决策",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:12:06Z",
+      "committer_date": "2026-11-18T15:12:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9796b7396efbb0965fd53b12ea1e6babeaa43b5",
+      "message": "style(test): 修复并发采纳测试的单行多语句违规",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:11:00Z",
+      "committer_date": "2026-11-18T15:11:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4b724de5980e6c2e38ff349d6fef41f940aad28",
+      "message": "style(test): 修复新增测试用例遗留的 lint 样式违规",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:10:16Z",
+      "committer_date": "2026-11-18T15:10:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5a08870fc42586ade846cdf87575630c4ab28734",
+      "message": "style(test): 对齐测试用例 lint 基线（单行语句数与未用变量）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:09:41Z",
+      "committer_date": "2026-11-18T15:09:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a22eccb1eaf6a6902b0a059c1aae9053f7c5921",
+      "message": "style: 修复 TagTreeView 与 tooltip 的 eslint 样式违规",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:08:30Z",
+      "committer_date": "2026-11-18T15:08:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7d2c982dfbcf9348cb896248bfe836ce09211149",
+      "message": "fix(hygiene): 清理配置写入竞态与生命周期残留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-18T15:06:17Z",
+      "committer_date": "2026-11-18T15:06:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "58e060b844a9ee047be114e4bc0462c70230b02d",
+      "message": "fix(ref-promote): 扫描失败不再误显示为空成功态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:34:55Z",
+      "committer_date": "2026-11-17T23:34:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "445fa8877c9db11a056eed89fdd294c5ce3f37d1",
+      "message": "fix(batch): 批量打标串行防重入并同步独立弹窗执行结果到 Dock 工作台",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:34:03Z",
+      "committer_date": "2026-11-17T23:34:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e06fe00f10dc3c1766c1236469303e91bb262520",
+      "message": "fix(nav): 块定位轮询链加取消令牌并消除拖拽幽灵态残留",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:31:56Z",
+      "committer_date": "2026-11-17T23:31:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "114fdfe220dcf3692eea8fe413e303a26a16132a",
+      "message": "fix(async): 全局 loading 改引用计数并给 refreshTags 加竞态防护",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:29:41Z",
+      "committer_date": "2026-11-17T23:29:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae2ecc8a67a1fbe83a1a19586ac30bea7caafaf5",
+      "message": "fix(async): 拖拽重构与行内重命名假异步守卫改为真实 await",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:26:34Z",
+      "committer_date": "2026-11-17T23:26:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0414046718af0eace77a969d5864f94799882d95",
+      "message": "fix(migration): 统一标签身份迁移协议，规范化/合并/一键修复不再绕过",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:24:42Z",
+      "committer_date": "2026-11-17T23:24:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5364a980df160ec1225dc9f5568a0b690c3c33eb",
+      "message": "fix(companion): 打通共现索引失效闭环并修复推荐气泡竞态与采纳静默失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:22:10Z",
+      "committer_date": "2026-11-17T23:22:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "007100d82e7a873c53037f2e4e54a67a9af2ac56",
+      "message": "fix(escape): 统一 Escape 关闭架构，树内对话框与执行中弹窗纳入关闭链",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:17:22Z",
+      "committer_date": "2026-11-17T23:17:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "81a598f3437305dd012f26e9ead3e09c4e83b450",
+      "message": "fix(filter): 修复清空筛选打断在途查询时 queryLoading 永久卡死",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:14:23Z",
+      "committer_date": "2026-11-17T23:14:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1503b94b77f548403dbf1405339e74785d16e2ff",
+      "message": "docs: 添加隐式状态机全景审计与修复计划文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T23:12:00Z",
+      "committer_date": "2026-11-17T23:12:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b899db47180540fdabb9af7027f51babaca24b62",
+      "message": "refactor: 落实全项目审查决策项并建立可用 lint/类型门禁",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T18:58:53Z",
+      "committer_date": "2026-11-17T18:58:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5061dd25f54ffafa1adb460a02135a7fd1bc6620",
+      "message": "refactor: 完成工作台分层重构收尾与全项目审查修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T18:40:57Z",
+      "committer_date": "2026-11-17T18:40:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0c6b350189d2cb7803a7bb2d20b5782014dbd846",
+      "message": "feat(settings): 支持正文标签剥离保留文字的删除策略及偏好设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-21T15:36:02Z",
+      "committer_date": "2026-10-21T15:36:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "46d34f91fff2d66194feabf10647413d4e96c42c",
+      "message": "feat(tab): 简化侧栏顶部选项卡文案并支持全景树原浏览位置保持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-21T14:30:30Z",
+      "committer_date": "2026-10-21T14:30:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "700d7adc1726e92ab82adf6a823861ecd0027994",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:25Z",
+      "committer_date": "2026-10-02T11:09:25Z",
+      "login": "famotime"
+    },
     {
       "sha": "f70ed18aed5e17778d5feb73bc192f242bcc355f",
       "message": "feat(companion): 支持基于共现图谱的伴生标签智能推荐与输入态避让",

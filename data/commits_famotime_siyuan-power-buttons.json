@@ -1,7 +1,88 @@
 {
-  "pushed_at": "2026-10-01T06:04:17Z",
-  "count": 132,
+  "pushed_at": "2026-11-03T23:14:42Z",
+  "count": 141,
   "commits": [
+    {
+      "sha": "7e19dda07277b620d0f3d281cab8605e0c804df9",
+      "message": "chore: 清理全量存量 ESLint 问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T23:14:25Z",
+      "committer_date": "2026-11-03T23:14:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "57bc61375839bccf0b796932ecbca1d7b9d0e3c7",
+      "message": "fix: 清理 eslint 配置阻塞与全量 tsc 类型错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T15:44:13Z",
+      "committer_date": "2026-11-03T15:44:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ddea13bf8086185fd7afefda3383402750ab66b9",
+      "message": "feat(dock): 支持插件入口与命令按插件分组折叠展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-03T15:44:02Z",
+      "committer_date": "2026-11-03T15:44:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5556548bd93d4401ca77f8a49994b4cb542cb9c5",
+      "message": "feat(dock): 支持右侧栏插件列表自适应填满底部空间",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T10:29:35Z",
+      "committer_date": "2026-11-01T10:29:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "120685daa570a2c24f342aeeded07f62b1b40444",
+      "message": "feat(dock): 支持给侧栏卡片及命令按钮自定义图标和颜色",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T09:11:34Z",
+      "committer_date": "2026-11-01T09:11:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3aeb1aa08d9c03a95bf45333090897aabc8f6502",
+      "message": "feat(dock): 支持在插件搜索结果中展示侧栏按钮并提供快捷启停开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T03:48:54Z",
+      "committer_date": "2026-10-18T03:48:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f04213d895ed9e3a10be85bc12dc1dfbf54aa224",
+      "message": "feat(dock): 支持右侧栏插件入口分类检索、常驻固定与布局重置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T02:58:06Z",
+      "committer_date": "2026-10-18T02:58:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d98d24ee8bdb314ca5b1c3be8a44498f67602b92",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:02:28Z",
+      "committer_date": "2026-10-16T14:02:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e67f9a4df29569e305b5655e98e228961422cb5",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:06Z",
+      "committer_date": "2026-10-02T11:09:06Z",
+      "login": "famotime"
+    },
     {
       "sha": "72966ace100b22dc7e69dd2dcfb0963fd9fb747e",
       "message": "fix(command): 修复数据历史与日记命令执行异常并优化侧面板与默认配置",

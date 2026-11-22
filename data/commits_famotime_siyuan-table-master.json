@@ -1,7 +1,70 @@
 {
-  "pushed_at": "2026-09-07T14:47:45Z",
-  "count": 103,
+  "pushed_at": "2026-11-20T15:42:39Z",
+  "count": 110,
   "commits": [
+    {
+      "sha": "36714cb85f73525e18a1a547273ab59be869874f",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T15:42:00Z",
+      "committer_date": "2026-11-20T15:42:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d5609092d3dd18993334d4ff23979ab08651f01",
+      "message": "fix(split-content): 修复思源 sup 行内备注识别与未检测时默认关闭开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T03:44:50Z",
+      "committer_date": "2026-10-18T03:44:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9da5ec0270d5853b4e35c61b3f3d77174221eea4",
+      "message": "feat(split-content): 高级操作支持拆分单元格内容为链接列与备注列",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T03:34:04Z",
+      "committer_date": "2026-10-18T03:34:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07aefe90bc3a8681238b88083c2838b711dd69cc",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:04:02Z",
+      "committer_date": "2026-10-16T14:04:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1941de43834859f136cd2881c463bd533bc934f2",
+      "message": "fix: 转换数据库时清理单元格 IAL，避免 {: colspan=\"1\"} 混入数据",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T13:42:25Z",
+      "committer_date": "2026-10-07T13:42:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5e57d6c0a44b599f3ca7c264065fa886acfebfac",
+      "message": "fix: 修复表格转数据库只生成表头不写入数据的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T13:22:03Z",
+      "committer_date": "2026-10-07T13:22:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c09773ccb1438828db16ab86aefcf5f5b4c7d1ae",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:22Z",
+      "committer_date": "2026-10-02T11:09:22Z",
+      "login": "famotime"
+    },
     {
       "sha": "3633bf9efe0f514876fb6164fe1fafdcb4c4a643",
       "message": "v1.2.2",

@@ -1,7 +1,115 @@
 {
-  "pushed_at": "2026-09-13T07:00:28Z",
-  "count": 6,
+  "pushed_at": "2026-11-17T16:14:17Z",
+  "count": 18,
   "commits": [
+    {
+      "sha": "0c0d65d58e8b797de21c0333195844ed59aeeaf5",
+      "message": "docs: 修正 AGENTS.md 事实描述、补记 CHANGELOG 并归档旧版迁移指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T16:13:51Z",
+      "committer_date": "2026-11-17T16:13:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "931b6546e6ff3c043498d95d95bb9e84462f6d82",
+      "message": "chore(template): 修正仓库地址并将 plugin.json 语种键迁移为 RFC 5646",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T16:13:46Z",
+      "committer_date": "2026-11-17T16:13:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cb3c587948ce75cf7c3228060fb6c4c5b8a90a68",
+      "message": "feat(i18n): 示例文案全量接入 i18n 并清理未使用代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T16:13:42Z",
+      "committer_date": "2026-11-17T16:13:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a30fa3c0c1b0db3534f71616ccb203c59b4379f6",
+      "message": "chore(deps): 移除未使用的开发依赖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T16:13:34Z",
+      "committer_date": "2026-11-17T16:13:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03c3ef0845f5be9a9f877fe11578ccc2505bad1a",
+      "message": "fix(build): 实现 VITE_DEV_DIST_DIR 覆盖并补齐 kernel.js 打包校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T16:13:25Z",
+      "committer_date": "2026-11-17T16:13:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "25c6952462b66b7731793b1b3b469ce381f9d87d",
+      "message": "docs(av): 根据思源笔记最新源码核实刷新属性视图开发指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T12:06:50Z",
+      "committer_date": "2026-11-15T12:06:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4c88517d5f5b6bd53a59a06ff0d1dd0431120a2",
+      "message": "docs(guides): 归并指南重复内容并核实思源源码纠正技术冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T09:18:22Z",
+      "committer_date": "2026-11-15T09:18:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "613da2c5dd422f38c2aa6640711f99857168f458",
+      "message": "feat(template): 同步思源v3.8.10规范并治理模板缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T04:40:00Z",
+      "committer_date": "2026-11-13T04:40:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "992260e3ff1257b5d4bcf32f6eef949e64156762",
+      "message": "chore(workflow): 升级自动化发版流水线与集市上架合规性治理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T11:56:50Z",
+      "committer_date": "2026-10-18T11:56:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "358f6297a94704f05998b1125dd88d1284869857",
+      "message": "docs(av): 修正属性视图 itemID 与绑定块 ID 独立性说明及示例",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T13:03:45Z",
+      "committer_date": "2026-10-09T13:03:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b0bd476042d1fa38ec30de106d1afdc50026c0b9",
+      "message": "docs(guides): 新增插件多端同步与数据持久化防重启指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T10:01:31Z",
+      "committer_date": "2026-10-02T10:01:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ff3e6efab7b2a29f7ae3b824835ee2b4ee6da274",
+      "message": "feat(template): 适配思源 v3.8.5 与 siyuan 1.2.8 规范并更新开发文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-09-25T08:03:08Z",
+      "committer_date": "2026-09-25T08:03:08Z",
+      "login": "famotime"
+    },
     {
       "sha": "fe59abe61b384b0ce1ff9fcef21b991af8c38102",
       "message": "update",

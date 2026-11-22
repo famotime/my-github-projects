@@ -1,0 +1,1959 @@
+{
+  "pushed_at": "2026-11-22T11:16:25Z",
+  "count": 217,
+  "commits": [
+    {
+      "sha": "ae24b50f1d189bef2f1a786bdc8ce69af6fcfebf",
+      "message": "fix(lightbox): 修复预览和放映状态下点击视频无法弹出灯箱播放的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T10:10:43Z",
+      "committer_date": "2026-11-22T10:10:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "78edc8695c6b3a821c7a983e04e422c8b1ea6982",
+      "message": "fix(inspector): 切换图左图右版式时自动同步配图块标记",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T09:56:46Z",
+      "committer_date": "2026-11-22T09:56:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5d42c8d20fbc8479245ca1634a0c0fd4f8b6962",
+      "message": "fix(compiler): 避免列表项下纯文本延续块显示列表圆点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T09:55:47Z",
+      "committer_date": "2026-11-22T09:55:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fc1ec21665c0177598581a2aeef0b6e1752d4690",
+      "message": "fix(compiler): 修复多栏超级块内列表包含多项时被误拆为三栏的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T08:55:46Z",
+      "committer_date": "2026-11-22T08:55:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "62eb96a9b1181a4687cfcfcf6a0ba0275411ef22",
+      "message": "fix(compiler): 修复嵌套列表与列表子内容逐步呈现继承及冒泡问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T08:11:32Z",
+      "committer_date": "2026-11-22T08:11:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c30bdcb67df1d3ba90df5f6b1d339e2bc9431104",
+      "message": "fix(slides-client): 保留浮动工具栏明暗切换状态以支持继续调整全局主题与背景",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T01:17:22Z",
+      "committer_date": "2026-11-22T01:17:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "408b9918cbeec6379d4d285ee9075d6e8462eccd",
+      "message": "chore(release): 升级版本至 v1.5.1",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T00:21:28Z",
+      "committer_date": "2026-11-22T00:21:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12860456cb87322b0403002ad93e2a011838605d",
+      "message": "fix(preview): 修复预览窗口底部浮动工具栏鼠标悬浮闪烁、无法点中按钮的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-22T00:20:03Z",
+      "committer_date": "2026-11-22T00:20:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b05ec1b6f83a416c99407ed9ec2f7d42c2ecdfeb",
+      "message": "fix(anim): 修复终端打字机光标错行与元素文本动效重复播放问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T16:22:54Z",
+      "committer_date": "2026-11-21T16:22:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "73b4a19af939f701bdc123c8a5f37b12b7affd38",
+      "message": "fix(release): 修复版本已预先提交时 release 脚本因空提交中断的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T13:54:24Z",
+      "committer_date": "2026-11-21T13:54:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f461225d01e296bd80b6fdcfaf50e8367a538d96",
+      "message": "chore(release): 完善 v1.5.0 上线前合规检查与文档动效配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T13:48:29Z",
+      "committer_date": "2026-11-21T13:48:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4953048c7a5521e160db55c975cb053f53990859",
+      "message": "refactor(inspector): 移动代码块限高配置至代码块逐行聚光之前",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T13:17:47Z",
+      "committer_date": "2026-11-21T13:17:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0449a073260e1345a11e79e265c4f00c46049090",
+      "message": "feat(feature-flags): 支持元素动效分类与具体效果细粒度开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T08:47:07Z",
+      "committer_date": "2026-11-21T08:47:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd0dfa6de69854853a87b50f03579df3cadb872a",
+      "message": "fix(preview): 修复光标点击文档与翻页按钮失效及标题样式热应用与封面独立性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T07:46:04Z",
+      "committer_date": "2026-11-21T07:46:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "252210b72cc61393fce9ee5bf8416bc2cea1b60c",
+      "message": "chore(release): 预写 v1.5.0 更新日志、移除 plugin.json 已废弃 kernels 字段并更新预览图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T00:27:13Z",
+      "committer_date": "2026-11-21T00:27:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71a7538aea096d7f2556a3d4d0ca100d732a0c23",
+      "message": "chore(audit): 落实体检决策——ESLint 归零与死分支修复、animation-runtime/presenter.html 死资产删除、i18n 接线 t() 助手、isHeadingBlock 与 openInSyste",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-21T00:27:09Z",
+      "committer_date": "2026-11-21T00:27:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4160f51f82d7341aada7ca2b47a74b651a572c5a",
+      "message": "chore(cleanup): 全库体检修复——删除零引用死代码链、修复 ESLint 配置崩溃、i18n 对齐真实命令目录、文档幻影条目与过时描述清理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T23:54:31Z",
+      "committer_date": "2026-11-20T23:54:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9039baa3d6fdfb056b174a2e478e5eb934f02f8f",
+      "message": "docs(audit): 刷新状态机审计文档——P0/P1 全部修复项标注验证与提交状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T23:06:48Z",
+      "committer_date": "2026-11-20T23:06:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01c47f7d198098c86d551d72b14f0625bbe8649a",
+      "message": "fix(sync-lifecycle): 覆盖层生命周期治理 + ApiSwitchBridge 状态重置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T23:05:16Z",
+      "committer_date": "2026-11-20T23:05:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "633c24996e5660bec48e5586d5507a55f54186f9",
+      "message": "fix(sync): 异步乱序完成代际卫统一收口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T23:03:07Z",
+      "committer_date": "2026-11-20T23:03:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bbdbbf2c424e3289f86c1487c1b9c7529b4ff8dc",
+      "message": "fix(sync-ui): 双屏广播协议数据身份过滤 + 切文档页码重置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T23:00:56Z",
+      "committer_date": "2026-11-20T23:00:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e65ecf22ce7b4100a0a536895ac10eaa0309132",
+      "message": "fix(ast): 页面图文/背景版式首个胜出 + 超级块容器标题大纲隔离",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T22:57:16Z",
+      "committer_date": "2026-11-20T22:57:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "defe6a4fe7d38b47a499264ac6353657c3a370b3",
+      "message": "fix(engine/export): 沙箱桥握手语义修复 + 导出防重入与错误收口 + PDF 打印就绪优先",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T22:53:52Z",
+      "committer_date": "2026-11-20T22:53:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f0ace9ab243e45020c5323135a79bc71f7f73409",
+      "message": "fix(compiler): 导入解析 EOF 卡死态治理 + src 递归防环 + 根版式写放大收敛",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T22:50:37Z",
+      "committer_date": "2026-11-20T22:50:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e173f2ccb9a91d58b2c3e62572d06c1cee57bd54",
+      "message": "fix(compile): 脏文档集合化防丢更新 + 事务归属反查 + 编译失败保留 lastGoodDoc",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T22:43:53Z",
+      "committer_date": "2026-11-20T22:43:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "90cb973d9eecd88784d6fe99d7aa55fad1c41e8c",
+      "message": "refactor(ui): Phase 5 五大 UI 组件领域解耦 (RF-026~RF-030)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-20T16:25:29Z",
+      "committer_date": "2026-11-20T16:25:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "891fe944d441910a7be32bba23d8253fe097de4d",
+      "message": "feat(layout): 多栏版式支持中间正文段落设为默认通栏排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T21:29:13Z",
+      "committer_date": "2026-11-14T21:29:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b8409350a3166d658ec2aa65a48f0fb3a2a4c3f",
+      "message": "feat(theme): 支持正文全版式首标题主题样式贯通并精准重置后续副标题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T15:27:49Z",
+      "committer_date": "2026-11-14T15:27:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13f248f1eda27a16bf1d55c21f9b69bb5fadfd4e",
+      "message": "feat(inspector): 强化全局高级设置折叠栏视觉层级与交互微动效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T15:26:08Z",
+      "committer_date": "2026-11-14T15:26:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01d08db2dc8b3f719b4c4756d339c5228e778f0e",
+      "message": "fix(motion): 补充入场动效全局舞台关键帧并支持乐观即时试播",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T14:32:24Z",
+      "committer_date": "2026-11-14T14:32:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4470713a9c6650b4b6be121d9f1e49478b8e150a",
+      "message": "feat(motion): 升级持续强调与文本动效可视化网格与置顶防抖试播舞台",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T14:11:47Z",
+      "committer_date": "2026-11-14T14:11:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e415ffbe93b5477a7edbfbeb04bffadb2c9f9540",
+      "message": "refactor(ui): 页面配置面板卡片化呈现并新增页面动效与其它配置分区",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T13:53:17Z",
+      "committer_date": "2026-11-14T13:53:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b09ee63ee581a8255fdb5020fd55cc1067dd1deb",
+      "message": "refactor(ui): 解耦元素排版与元素动效分区并将多栏插槽置顶",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T13:38:28Z",
+      "committer_date": "2026-11-14T13:38:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7be4574b7ff797902e15b5ff281d9581c195530f",
+      "message": "feat(layout): 支持多栏手工指定栏数与块级标题贯通排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T13:28:19Z",
+      "committer_date": "2026-11-14T13:28:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63b481b58a67868402a42d65df6a985f3508a9fa",
+      "message": "feat(motion): 支持微动效与视觉强调系统并引入构建期开关控制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T12:54:26Z",
+      "committer_date": "2026-11-14T12:54:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5da3a5955f1264a93f4131b527ab8175595274fe",
+      "message": "feat(layout): 合并双栏至多栏版式并新增通栏标题开关支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T12:05:28Z",
+      "committer_date": "2026-11-14T12:05:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b88e774743a27f2c24f45247bde9875fd7f755e0",
+      "message": "fix(render): 修复正文包含 v-click 词条导致列表渲染退化为单行文本的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T11:29:38Z",
+      "committer_date": "2026-11-14T11:29:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c999a19256fd3b67f29efbf68fb660bde869876",
+      "message": "fix(import): 正文保留演讲备注提示块显示并将 IAL 转换为块属性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T11:01:33Z",
+      "committer_date": "2026-11-14T11:01:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "256298920dcdfb4e250e545688367e91310906df",
+      "message": "feat(import): 支持即现原生演示文档解析导入并修复分页线与素材回填",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T10:23:42Z",
+      "committer_date": "2026-11-14T10:23:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2a583a3585f1dc10eae89c86d0c521490bae3616",
+      "message": "feat(inspector): 入场微动效提供可视化展示与即时试播舞台",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T09:36:36Z",
+      "committer_date": "2026-11-14T09:36:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "207e9815d12b02077b028f0fb18a68120550c3d4",
+      "message": "refactor(modules): 演讲者视图、导出样式、超级块探测与插件入口模块解耦",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T08:57:10Z",
+      "committer_date": "2026-11-14T08:57:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "abfe56ff47d5f84592e7070ab2e83a9044f1c675",
+      "message": "chore(workflow): 接入自动化发版流水线与集市产物合规校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T08:17:01Z",
+      "committer_date": "2026-11-14T08:17:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a4fa0ceef5ebf813391ca40edf5a0f4de2d6335",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T08:05:43Z",
+      "committer_date": "2026-11-14T08:05:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bc4f9b31818c9d6d6c0d18e420831f9346644037",
+      "message": "chore: update version to 1.4.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T08:04:44Z",
+      "committer_date": "2026-11-14T08:04:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7244d8a5ec8d5556efe65ea4a8c0093aab7d0cdd",
+      "message": "feat(feature-flags): 支持通过构建期开关控制页面版式与全局操作按钮显示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T07:56:26Z",
+      "committer_date": "2026-11-14T07:56:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "138b34ad9efcbef0ad0ec4d0070db9c4d580d682",
+      "message": "feat(layout): 大字报版式支持多指标列表模式与冒号分割",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T07:43:28Z",
+      "committer_date": "2026-11-14T07:43:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fe4b6253cac17abf08329fcca711638b31512c75",
+      "message": "feat(layout): 新增时间线步骤版式并重塑大字报高光视觉效果",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T07:24:24Z",
+      "committer_date": "2026-11-14T07:24:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a15e25fc990f48951b4aeb0fc6eb56e0a8776b74",
+      "message": "feat(ai): 优化AI讲稿操作按钮并增加讲稿区加载动画",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T06:31:45Z",
+      "committer_date": "2026-11-14T06:31:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "74e720a69c88878803ca9205aed2fc5048cda9a1",
+      "message": "fix(ai): 对照 siyuan-api-switch 优化测试连接探测逻辑并修复侧栏重复弹窗",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T06:02:06Z",
+      "committer_date": "2026-11-14T06:02:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "43e54f076f9c4bdd268cf7e8fbe91fbc86f8d633",
+      "message": "feat(settings): 重构设置面板为思源原生靠左与独立项布局并支持眼睛图标切换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T05:35:41Z",
+      "committer_date": "2026-11-14T05:35:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d6cda18444e41e9dc08133b9a0d619727af21de3",
+      "message": "docs: 统一更新文档表述为「即现」并清理废弃参考架构文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T05:35:01Z",
+      "committer_date": "2026-11-14T05:35:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7f72a467e5992a1cb1d93d89b0b54e63889626b",
+      "message": "feat(ai): 集成 siyuan-api-switch 接管调度与设置面板零刷新联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T03:42:39Z",
+      "committer_date": "2026-11-14T03:44:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e40628f087c4a160ded925a778753e8826add003",
+      "message": "refactor(inspector): 优化全局与页面设置布局并为清除分页增加危险确认",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T03:41:59Z",
+      "committer_date": "2026-11-14T03:41:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c9de9ba4ccc9448a971ed675e73fcd9d3b4b29e",
+      "message": "refactor(inspector): 取消侧栏设置卡片副标题并改为标题悬浮提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T03:21:27Z",
+      "committer_date": "2026-11-14T03:21:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b981e75e0b9eb649decb2865337d5fa99d1570ce",
+      "message": "feat(inspector): 支持多选块及列表项快捷转为横向超级块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T03:06:50Z",
+      "committer_date": "2026-11-14T03:06:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77aa84ca17ac632fb359448b5b79083b06f074dd",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T02:50:42Z",
+      "committer_date": "2026-11-14T02:50:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dde67ed33831f6af68d5fd3ccf15c6b30d13ef59",
+      "message": "fix(export): 修复离线单文件 HTML 导出脚本语法错误与图片未能内联问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T02:39:33Z",
+      "committer_date": "2026-11-14T02:39:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "496b600312e915ab7a296a957f37dfbc2a8d3b31",
+      "message": "fix(sync): 选中多个块时保持当前设置界面不自动跳转全局设置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T02:08:30Z",
+      "committer_date": "2026-11-14T02:08:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd231e93c2a2507f57eb80bc92c6ab7df1576647",
+      "message": "feat(preview): 优化预览窗口工具栏交互与光标聚焦标题逻辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T01:37:24Z",
+      "committer_date": "2026-11-14T01:37:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd5ad669f1890e48bb6b022b06757d330c483ec6",
+      "message": "feat(inspector): 块检查器快捷操作卡片重构与清除属性弹窗确认",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T00:31:33Z",
+      "committer_date": "2026-11-14T00:31:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "839eb9184abf61a7747a68501db208a07dc26e21",
+      "message": "refactor(engine): 移除 Pro 模式及多余 Slidev 兼容设置并收敛至内置沙盒",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T15:57:04Z",
+      "committer_date": "2026-11-13T15:57:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0bfaa4db6a3116cbc9b6b3b5f0e5ad5b9b98a8fd",
+      "message": "feat(inspector): 重构全局讲稿与动效批量操作按钮并移除侧栏图片导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T14:11:39Z",
+      "committer_date": "2026-11-13T14:11:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c58d3d15eecab8e9b46e18aa46cfd372437a50b",
+      "message": "feat(theme): 优化主题视觉卡片、封面对比度与内容页顶部标题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T14:04:23Z",
+      "committer_date": "2026-11-13T14:04:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "443b7d56e712daf423e992c416adb2d0a2a4e80e",
+      "message": "feat(inspector): 将侧栏全局低频配置收纳至默认折叠的高级设置菜单",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T13:28:20Z",
+      "committer_date": "2026-11-13T13:28:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "671668a84b51d301e17f32809516755672318bdd",
+      "message": "feat(theme): 重构背景预设色卡并修复渐变对比度与思源主题联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-13T13:06:26Z",
+      "committer_date": "2026-11-13T13:06:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fa47decc3ed2ade3eb64f922212d1d5fad596025",
+      "message": "feat(spacing): 优化页面间距梯度并联动内容块与多栏排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T22:31:51Z",
+      "committer_date": "2026-11-12T22:31:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a1dac796ac8af6dc639d7a55eaeba2fff110d18",
+      "message": "feat(theme): 重塑三大主题视觉系统并支持页面背景明暗自适应文字",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T21:02:33Z",
+      "committer_date": "2026-11-12T21:02:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ec647712e04ad7f2d132f10ee149471ca547f075",
+      "message": "chore: update version to 1.3.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:13:06Z",
+      "committer_date": "2026-11-12T15:13:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56943f09edd92d7878a4b8817e6242fbc30138e1",
+      "message": "fix(inspector): 优化代码块限高为基于画布容器的百分比响应式高度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:10:23Z",
+      "committer_date": "2026-11-12T15:10:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dbe3170626315b8afc14c2f17b26997f2a046301",
+      "message": "feat(compiler): 升级智能分页引擎支持多级标题、版式推断与首段起点",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T14:24:41Z",
+      "committer_date": "2026-11-12T14:24:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1016c1c3bac33c47529851002eabcc5f749f4429",
+      "message": "feat(inspector): 将页面背景配置项迁移至文档全局配置",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T13:29:43Z",
+      "committer_date": "2026-11-12T13:29:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c67f010b6be28dca08cf82239f6e82ff3d0e49e",
+      "message": "config: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T12:20:15Z",
+      "committer_date": "2026-11-12T12:20:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1e2cc7c065e85b52b59f7aaff34ea7a0cb9c703",
+      "message": "fix(compiler): 修复图文分栏下列表项前缀误清洗与列表渲染对齐问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T12:18:30Z",
+      "committer_date": "2026-11-12T12:18:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0aeed72c8e36502689101b78ec666e8502fbc48",
+      "message": "fix(compiler): 修复图文版式下复合列表项解包对齐错位与检查器注释本地化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T23:18:33Z",
+      "committer_date": "2026-11-11T23:18:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f696f22717bf83d7529d50d6af956f53d17e9c41",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T14:16:18Z",
+      "committer_date": "2026-11-11T14:16:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e45f82446dfc2a08d8425a2cb3acfddc5f642d53",
+      "message": "refactor(codebase): 全库死代码清理与多处一致性及逻辑缺陷修复",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T11:57:47Z",
+      "committer_date": "2026-11-11T11:57:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4a42c440f4defee48d478657d3a672f1d8a47944",
+      "message": "refactor(fsm): 全面重构隐式状态机架构并修复并发与同步缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T15:26:25Z",
+      "committer_date": "2026-11-10T15:26:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "84932b03244649751cf9560d93535b45aa11d526",
+      "message": "fix(sandbox): 修复预览与全屏放映下点击对象误触发翻页的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T15:14:47Z",
+      "committer_date": "2026-11-10T15:14:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e54a4817dd374c174bacf7dcb3b040e104a844e",
+      "message": "fix(code-block): 修复代码块限高不生效与滚轮滚动冲突",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T04:41:49Z",
+      "committer_date": "2026-11-10T04:41:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1189fa4c0a2baff319bded5e2074315d3c2ddea4",
+      "message": "feat(anim): 支持智能配置演示动效与列表前缀标记全局独立控制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-09T22:48:07Z",
+      "committer_date": "2026-11-09T22:48:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5dfd12550fd0257119c363400b4188c06e6a21fd",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-09T13:27:02Z",
+      "committer_date": "2026-11-09T13:27:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "60489f59dcc84f1e6956edfab846e461030c342d",
+      "message": "feat(notes): 侧栏全局配置支持识别正文讲稿块并自动规范化",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-09T13:21:53Z",
+      "committer_date": "2026-11-09T13:21:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "96ba6f171bfadfb1e0c42e0ad04adfd3d9edbdde",
+      "message": "fix(player): 修复演示放映时再次点击对象无法取消强调色方框与反向回弹问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-08T14:39:06Z",
+      "committer_date": "2026-11-08T14:39:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f11092b31b11199c1ab610c4ef37170570f585c5",
+      "message": "feat(flags): 新增构建期功能开关，支持独立裁剪功能入口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T16:29:41Z",
+      "committer_date": "2026-11-05T16:29:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98f3df05a85b019f0e1540227dc0e3cee8f6c9cd",
+      "message": "chore: update version to 1.1.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T04:29:09Z",
+      "committer_date": "2026-11-01T04:29:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "230174ee44cd485740a1d2c38572bb5dceb4297c",
+      "message": "doc: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T04:28:38Z",
+      "committer_date": "2026-11-01T04:28:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "efa70f8775a312bfd3e1cbb9a83b27b3be2366ea",
+      "message": "fix(inspector): 修复侧栏 Tooltip 溢出裁剪与表单控件遮挡问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T04:22:18Z",
+      "committer_date": "2026-11-01T04:22:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7f61983c05883366daac697d8823c9399a95fe6f",
+      "message": "feat(mask): 支持时钟走时蒙版与四叶草排版全区域步进点击",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T04:08:56Z",
+      "committer_date": "2026-11-01T04:08:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12103452ae0a95d21ffa78fa2e0a6374d83e0d11",
+      "message": "fix(export): 修复逐页导出图片时预览区域持续跳动与循环死锁问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T03:55:06Z",
+      "committer_date": "2026-11-01T03:55:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "008bd5bc705219beaf6c4a348c5a9f2af70ff298",
+      "message": "refactor(core): 插件整体重命名为 siyuan-live-slides（即现）并迁移自定义属性协议",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T15:31:38Z",
+      "committer_date": "2026-10-31T15:31:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "33261df144cae34754e5664c347d0d12a886495e",
+      "message": "fix(sync): 修复连续点击高亮残留与支持再次点击对象取消边框",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T13:50:54Z",
+      "committer_date": "2026-10-31T13:50:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b405b3e8ade678488578d5c77574363e5f084bca",
+      "message": "feat(export): 支持内嵌视频首帧截图与基于当前文档名称导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T13:25:37Z",
+      "committer_date": "2026-10-31T13:25:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "334d3b1b4529d271050d8735577fa4018c45bede",
+      "message": "fix(export): 修复幻灯片导出图片内容向右下角严重偏移与裁剪问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T12:58:44Z",
+      "committer_date": "2026-10-31T12:58:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d6f34f163bee90e94c68dec25bc05b03f1ff521",
+      "message": "feat(player): 支持放映灯箱图片滚轮缩放平移与幻灯片导出图片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T12:29:58Z",
+      "committer_date": "2026-10-31T12:29:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b390cf1cae995b452d939b5009b021258f41dd6e",
+      "message": "docs: 路演 PPT 成品与构建系统迁出至宣传资料库统一管理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-28T15:56:48Z",
+      "committer_date": "2026-10-28T15:56:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1339e70e2ab51fb010860c5ca8ceaba9ccb5ae4f",
+      "message": "chore: update version to 1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T14:13:11Z",
+      "committer_date": "2026-10-27T14:13:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d45fafbe5a953183e8ec7d305c2520bd1f5ab4",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T14:11:58Z",
+      "committer_date": "2026-10-27T14:11:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37bd24912dae9faec2a3e1812ad9808cbb18728c",
+      "message": "docs: 新增路演 PPT 构建与维护指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T00:30:18Z",
+      "committer_date": "2026-10-27T00:30:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "200418dedc5d35088ff95007ae832cb26a91f1f4",
+      "message": "docs: 路演 PPT 升级亮暗双主题，重构第 9/11 页版式与亮色封面尾页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T00:30:18Z",
+      "committer_date": "2026-10-27T00:30:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "715a378722d2e41f39b3fedf5a35ac86057cff2a",
+      "message": "docs: 统一 README 卖点措辞为「正文零污染」",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:36:35Z",
+      "committer_date": "2026-10-26T23:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5d02a34f99a832633650780d2c7cfe58a77d391",
+      "message": "docs: 新增「即现」路演 PPT 成品与可复现构建脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:35:49Z",
+      "committer_date": "2026-10-26T23:35:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fecf3e0c1dff96f827351d0bfc2c128001bb8437",
+      "message": "docs: 新增「即现」插件介绍演示稿，16 页含演讲备注与全页配图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:17:28Z",
+      "committer_date": "2026-10-26T23:17:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1cdd65fa7b22e7ee12de7ed1e44aa4ffe5ba264",
+      "message": "refactor(preview): 移除预览页签大纲抽屉，导航职责归并缩略图总览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T16:20:00Z",
+      "committer_date": "2026-10-26T16:20:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c16b0a1ceb13e299f26ac3d286499cf0e4d8d161",
+      "message": "refactor(presenter): 重构演讲者控制台UI规范并全面适配亮暗主题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T15:10:18Z",
+      "committer_date": "2026-10-26T15:10:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92a208d78887b9d4210c16d910a7d2d5327c0b6a",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T14:35:33Z",
+      "committer_date": "2026-10-26T14:35:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9ac55d86b23331a5347c2eb60ad5ad97532830d",
+      "message": "feat(presenter): 支持独立放映窗口弹出与单页 v-click 步进剧透控制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T13:57:36Z",
+      "committer_date": "2026-10-26T13:57:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f357ed114f1e9b3c4bfec5421dc4b493df96363",
+      "message": "feat(presenter): 演讲者视图支持渲染完整幻灯片等比缩放缩略图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T13:20:22Z",
+      "committer_date": "2026-10-26T13:20:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd57212eb0b38983a9fbb61b5a9558590c455aaf",
+      "message": "fix(presenter): 演讲者视图宿主化重构，修复占位符常驻与跨窗口双屏同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T12:44:08Z",
+      "committer_date": "2026-10-26T12:44:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "908456775c8fa428a9f8f61e876fbe4c869f67ac",
+      "message": "docs: 同步根 README 至文档库三层索引体系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T12:43:58Z",
+      "committer_date": "2026-10-26T12:43:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fedbb8070b96889d30605be5f0fba582fc764ac9",
+      "message": "docs: 文档库索引分类重构为现行/设计存档/规划期三层并刷新引用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T04:43:51Z",
+      "committer_date": "2026-10-26T04:43:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2a0067d559a8b65d55c38c12c2a572499e18f54",
+      "message": "fix(presenter): 演讲者控制台改为思源页签承载，修复桌面端双屏同步失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T04:43:47Z",
+      "committer_date": "2026-10-26T04:43:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d091df2c96798dab049e9b94a912dbf6c9f8482",
+      "message": "fix(peek): 解耦 webview src 响应式绑定，修复 SPA 站点跳页被强制重载致 404",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T15:14:49Z",
+      "committer_date": "2026-10-25T15:14:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b729c01043c4cfd0073fad0801173d3b96e0f704",
+      "message": "refactor: 完成 Phase 3 模块解耦重构 (RF-016~RF-020)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T10:20:43Z",
+      "committer_date": "2026-10-25T10:20:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d501c34169db4e0f2b6685238cc0b5668ff76c75",
+      "message": "feat(overview): 放映中支持 o 键呼出缩略图总览并点选跳页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T09:32:16Z",
+      "committer_date": "2026-10-25T09:32:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d01ecac4b9c8f7034d94b7c526c207b83e9a532",
+      "message": "feat(preview): 放映中支持数字+回车直接跳页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T08:36:48Z",
+      "committer_date": "2026-10-25T08:36:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d04a63588045c1f31a9f8d8062303d300a32d417",
+      "message": "style(ui): 精简顶栏与讲稿备注控件文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T08:36:40Z",
+      "committer_date": "2026-10-25T08:36:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d47f56ed8566a8a8afdd30a2c0ba510eaea05921",
+      "message": "feat(preview): 优化下方预览窗口双层标题为即现与文档名称联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-24T03:23:59Z",
+      "committer_date": "2026-10-24T03:23:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce03eabf7b6e61f6a24296d4d82a090b69d703b4",
+      "message": "fix(ui): 修复侧栏按钮悬浮时背景发白导致文字看不清的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T01:40:26Z",
+      "committer_date": "2026-10-18T01:40:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cd28c8559ec601c7d8c83a364d6f58acd27e9aa",
+      "message": "perf(mask): 重构蒙版为一体化 GPU 合成层，优化毛玻璃质感并支持贴边覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T00:41:30Z",
+      "committer_date": "2026-10-18T00:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce654a00163e617b547bfe294249cc0a9f2edbd4",
+      "message": "feat(mask): 支持页面动态蒙版及分段展露动效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-17T16:50:47Z",
+      "committer_date": "2026-10-17T16:50:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ce3284cff27bd1c69b07696c3047105a466bcc8",
+      "message": "docs: 补充编译链路性能优化与内核契约避坑指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T14:19:02Z",
+      "committer_date": "2026-10-08T14:19:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eef716bf811726d2d298d0106b9b2e3f25cf21fb",
+      "message": "fix(compile): 修复索引异步落库与排序键误用导致的预览滞后与超级块分栏错乱",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T14:14:53Z",
+      "committer_date": "2026-10-08T14:14:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "def2d76a6aeab77ff3d599ef6e673055c417da97",
+      "message": "perf(compile): 消除逐容器与逐光标的 N+1 内核往返，并为消费者门闩补兜底校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T05:03:04Z",
+      "committer_date": "2026-10-08T05:03:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22af20fbe74d5bbe4b7896e67942c2523e85a2bc",
+      "message": "perf(compile): 消除编辑器事务驱动的编译放大与积压，关闭预览后内核请求归零",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:41:13Z",
+      "committer_date": "2026-10-08T04:41:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca083da1c89014da79504ad8b5325dd657cad9d4",
+      "message": "fix(peek): 修复公司内网代理环境下速览抽屉外网链接恒空白的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:17:44Z",
+      "committer_date": "2026-10-08T04:17:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56e96fd6b0d5ec0a7b23d873d39e9296af543671",
+      "message": "feat(peek): 支持演示内本地 HTML 链接在速览抽屉原位渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:07:34Z",
+      "committer_date": "2026-10-08T04:07:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "413e194b0ae3cc6ec78ff4149f87b414445795a9",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T06:30:17Z",
+      "committer_date": "2026-10-07T06:30:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1036b9406a6fcfc94126bd865c7d07972d9c7403",
+      "message": "feat(layout): 完善四叶草田字型布局在沙箱播放器与离线运行时的渲染支持",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T03:52:31Z",
+      "committer_date": "2026-10-07T03:52:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "aba95275ace93baee567429bd5936583ea59f6a4",
+      "message": "fix(layout): 限定表头多栏首项居中与标题固定大小仅对超级块生效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T02:16:29Z",
+      "committer_date": "2026-10-07T02:16:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "224697dd88aca86d94aa517960579185f01ac38c",
+      "message": "fix(client): 修复多栏布局下文字块点击高亮外圈提示框被遮挡的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T00:44:37Z",
+      "committer_date": "2026-10-07T00:44:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93dc8d722e22d1b329e30bb021c227171015b3a4",
+      "message": "feat(player): 支持鼠标滚轮翻页，优化控制条默认隐藏并修复页码强同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T15:22:56Z",
+      "committer_date": "2026-10-06T15:22:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ba912fa1b71889f9ea8e7cd249448b6bc873e00",
+      "message": "fix(layout): 修复表头多栏首个列表项为标题时不居中的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T14:30:38Z",
+      "committer_date": "2026-10-06T14:30:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b281f6892a17cb59f64a04c31172ceabe094473",
+      "message": "feat(v-click): 支持表头多栏内组件级逐步呈现与主容器级联防倒置调度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T12:37:00Z",
+      "committer_date": "2026-10-06T12:37:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "50f32e1f39cfdba3d6822f49f2eb4dcbebfb7da5",
+      "message": "fix(layout): 修复表头多栏分栏内列表项多行换行与媒体破坏圆点问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T09:53:00Z",
+      "committer_date": "2026-10-06T09:53:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0f3dc214ea1ca4283bf3777408a95c55254c64e7",
+      "message": "feat(inspector): 支持全局标题大小规范化与超级块比例重置，优化排版交互与暗色对比度",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T09:25:51Z",
+      "committer_date": "2026-10-06T09:25:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd85b142dd85d3ff0926299c13eb6efedea2c853",
+      "message": "feat(inspector): 演讲者题词卡片支持批量追加与批量删除讲稿块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T08:55:59Z",
+      "committer_date": "2026-10-06T08:55:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4291a35f55b0fa33055233b61a8ff004756d0e53",
+      "message": "feat(layout): 合并表头双栏与多栏为通用自适应表头多栏版式",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T07:41:34Z",
+      "committer_date": "2026-10-06T07:41:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "44a1c370f6b4692a49d2267f68657791ed75ec19",
+      "message": "feat(inspector): 增强超级块列宽识别入口与一键同步分栏交互",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T06:49:48Z",
+      "committer_date": "2026-10-06T06:49:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ddae59aa2d7d4bf14bfa8b0cbe878259a0e350eb",
+      "message": "feat(layout): 支持多栏与图文布局自定义比例及超级块列宽自动识别",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T06:32:42Z",
+      "committer_date": "2026-10-06T06:32:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9c265e5f3365a35ba0325aec2dc5892f728b75ae",
+      "message": "refactor(core): 完成导出管线、编译导入与交互弹窗深度解耦 (RF-011~RF-015)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T05:41:33Z",
+      "committer_date": "2026-10-06T05:41:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "01ecabe7b397e3d48d8b1378b5f635627a6dbdb2",
+      "message": "refactor(core): 模块化解耦导出器、插件入口、Inspector 编排与 AST 指令包装",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T04:14:14Z",
+      "committer_date": "2026-10-06T04:14:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7bb01198e43afa81604408a1bbcc2591df4b58e6",
+      "message": "fix(layout): 修复16:9超级块分栏多媒体底部裁剪与自适应对齐问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T03:23:46Z",
+      "committer_date": "2026-10-06T03:23:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4cca5af95b977d65cc10f10d8345946ef2e7cf6",
+      "message": "feat(layout): 支持间距风格预设与分栏媒体自适应Contain排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T02:39:34Z",
+      "committer_date": "2026-10-06T02:39:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ce8745aa07857c3f09b14c66f578afa8d9c579b",
+      "message": "fix(inspector): 修复点击分隔行时演讲者提词错误识别为上一页的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T01:33:26Z",
+      "committer_date": "2026-10-06T01:33:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4c024c1d44788d89fb29577f9896489ee1d17c72",
+      "message": "fix(layout): 修复超级块分栏图文视频复合标题渲染与首项圆点清洗问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T01:08:09Z",
+      "committer_date": "2026-10-06T01:08:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5970278a2e148eff6386f4bb770f7d50ddcc7f61",
+      "message": "v0.8.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-06T00:11:31Z",
+      "committer_date": "2026-10-06T00:11:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "18e551665a3151f29fc9f54a7598bfdccdc03053",
+      "message": "fix(layout): 优化多栏表头排版列表圆点渲染与统一紧凑行间距",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T23:39:48Z",
+      "committer_date": "2026-10-05T23:39:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f83e39da330ee85e533a377f0e338b81ccd355f2",
+      "message": "fix(compiler): 修复行内样式向上污染块级容器与Kramdown IAL泄漏问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T15:58:02Z",
+      "committer_date": "2026-10-05T15:58:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e70c1b6542165374bc6dd8c78be7c013c386678d",
+      "message": "fix(render): 修复超级块分栏视频尺寸塌陷、自动播放联动与列表标记缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T15:31:41Z",
+      "committer_date": "2026-10-05T15:31:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "94652efd44e617dd9b92a6c6f0b2fbbc0bb1729e",
+      "message": "feat(theme): 支持思源笔记内置调色板与自定义行内样式动态注入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T15:30:12Z",
+      "committer_date": "2026-10-05T15:30:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccd6e70c9d9b23beea38a74e9336e695ea79ca9e",
+      "message": "feat(peek): 抽屉浏览器增加桌面和移动端切换及手机网页模拟访问",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T15:03:36Z",
+      "committer_date": "2026-10-05T15:03:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4448d3feea79cf10d13d4ca5b34f7feab17cac87",
+      "message": "feat(preview): 支持鼠标左键在屏幕空白区域左右点击翻页与多媒体交互增强",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T14:39:36Z",
+      "committer_date": "2026-10-05T14:39:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "908f503afee9c353d062d97bceed29420cd539bb",
+      "message": "fix(sync): 修复分隔行与列表项去除版式属性后徽标角标未同步清除的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T13:33:15Z",
+      "committer_date": "2026-10-05T13:33:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "621dc310925a217a2e13f9a62b661e90ed0267ba",
+      "message": "feat(compiler): 支持列表超级块自动匹配多栏与嵌套形态透明解包",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T13:24:30Z",
+      "committer_date": "2026-10-05T13:24:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31ea7316a819838cecb8a2afb88242d84f5f0659",
+      "message": "feat(render): 支持GIF动图、图片与MP4视频全视口最大化自适应且防溢出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:56:40Z",
+      "committer_date": "2026-10-05T10:56:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bf751c356282fafcbc8e847b9710d0193fac0f7",
+      "message": "feat(media): 支持MP4视频播放控制与列表项内嵌GIF动图排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:37:35Z",
+      "committer_date": "2026-10-05T10:37:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4bdf0f4e1f39ac8c690fe8b89ffc1b64110880fe",
+      "message": "feat(render): 支持多栏代码块自动换行、禁止横向滚动并优化弱提示滚动条",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T10:04:57Z",
+      "committer_date": "2026-10-05T10:04:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7128ed7dc66fab34045744dadbfe4406a2fa85c3",
+      "message": "v0.7.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T05:04:17Z",
+      "committer_date": "2026-10-05T05:04:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cb65eda73fce16f7915081f4c66da117a63ec677",
+      "message": "style(theme): 优化默认主题封面大标题与副标题字号排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T04:50:29Z",
+      "committer_date": "2026-10-05T04:50:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0acf49ab675dc94a424df9607b92f57766ff4107",
+      "message": "feat(viewer): 支持放映全屏视口等比自适应缩放与单页zoom微调",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T04:18:18Z",
+      "committer_date": "2026-10-05T04:18:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "dd09a0dc02be2e4bb33a2cb7c27f1c52a1a5a259",
+      "message": "feat(theme): 支持主题悬浮说明与沙盒视觉体系，全局转场支持可视化动效示意",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T04:01:03Z",
+      "committer_date": "2026-10-05T04:01:03Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5233b2be29b17336fb57c3fe3c189ba9b440e439",
+      "message": "feat(settings): 支持思源本地网络伺服配置与沉浸式外跳浏览器预览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T03:10:47Z",
+      "committer_date": "2026-10-05T03:10:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "163bce33a9e85afe63b7178e7d854ca1179e5946",
+      "message": "fix(inspector): 修复修改页面版式后分割线浮动提示未自动消失问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T02:14:32Z",
+      "committer_date": "2026-10-05T02:14:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c7cbc64b895c347f11377baf69e8f01aab66e3ef",
+      "message": "feat(immersion): 优化块链接交互渲染并支持速览抽屉聚焦显示块内容",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T01:39:15Z",
+      "committer_date": "2026-10-05T01:39:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "da7b890df7fb8aa86efe9f3e858628bacb18d5f5",
+      "message": "fix(immersion): 优化微型浏览器全屏视口铺满并解决关闭时 guestInstanceId 异常",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T01:05:09Z",
+      "committer_date": "2026-10-05T01:05:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1a221a8141fa092116144274db39d675d478477",
+      "message": "fix(layout): 修复表头三栏版式预览串行堆叠并实现多模式智能三栏分配",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T00:26:39Z",
+      "committer_date": "2026-10-05T00:26:39Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a13c17e152fd6adbdd5a60465acb722b94ed088c",
+      "message": "fix(inspector): 修复背景图重启失效并限制图片角色仅对图片元素展示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T00:04:11Z",
+      "committer_date": "2026-10-05T00:04:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3538017b2043e75156d43ce992424be49275d83e",
+      "message": "feat(immersion): 实现外部网页微型浏览器抽屉并打通双模全屏速览全流程",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T23:39:35Z",
+      "committer_date": "2026-10-04T23:39:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "308f9454f58fcb0ddf49d1ea361eeb04c8478291",
+      "message": "feat(immersion): 支持演示全屏原位思源文档 Protyle 速览抽屉与链接拦截",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T23:35:22Z",
+      "committer_date": "2026-10-04T23:35:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3df3bd92735f03a96500c1bbaa3da198e5759189",
+      "message": "fix(compiler): 对齐思源官方超级块规范并支持正文背景与图文分栏",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T15:58:06Z",
+      "committer_date": "2026-10-04T15:58:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d4566f017f2fadc448b4a82f66e62c4462b28f0",
+      "message": "feat(ui): 重新绘制页面设置版式线框图标并统一设计规范",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T15:37:30Z",
+      "committer_date": "2026-10-04T15:37:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9de99a8c53f057824427c977962708a220e2a71c",
+      "message": "feat(compiler): 支持超级块与列表嵌套 v-click 步进动效解析与预览高亮",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T15:36:22Z",
+      "committer_date": "2026-10-04T15:36:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a280ac38a899d4347721bbb331e118dc4313667f",
+      "message": "feat(layout): 支持表头双栏三栏版式与标题大纲属性级联继承",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T15:16:18Z",
+      "committer_date": "2026-10-04T15:16:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4534b6c83476a913fcbfeb8fc48310df52add40c",
+      "message": "feat(notes): 讲稿备注转原生提示块与状态实时同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T14:39:16Z",
+      "committer_date": "2026-10-04T14:39:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "87ba78927c5e0a8bdf5372e7cf6e63693e95e427",
+      "message": "fix(preview): 修复图右布局高度折叠并完善图片容灾降级与离线导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T14:20:44Z",
+      "committer_date": "2026-10-04T14:20:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fb96c4f8c4a7c03b41db3ba3a9c68c3718906c96",
+      "message": "feat(renderer): 支持双栏布局与Toc组件并修复预览沙箱inject未定义错误",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T11:05:37Z",
+      "committer_date": "2026-10-04T11:05:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2d72f5b3b0841d047d4418301c10815595eea36e",
+      "message": "fix(renderer): 修复多行列表折叠与kbd键帽渲染，重构沙箱悬浮栏图标",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T09:57:46Z",
+      "committer_date": "2026-10-04T09:57:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cf18ed977c5e247f041c08b15e09e29173cd556d",
+      "message": "feat(render): 支持 HTML 交互块动态编译与排版流式渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T09:04:57Z",
+      "committer_date": "2026-10-04T09:04:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "918c1b44ca49c0276e59848130140cf2f7b1a112",
+      "message": "v0.6.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T07:31:57Z",
+      "committer_date": "2026-10-04T07:31:57Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f74bc94472808d4ebe5c019142ce02896a1637a2",
+      "message": "feat(importer): 增强外部演示导入兼容性与首段分割线自动补全",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T07:30:24Z",
+      "committer_date": "2026-10-04T07:30:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d83fdabdc004e55080211e184c2bd3f087e7895a",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T06:28:28Z",
+      "committer_date": "2026-10-04T06:28:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29ef7a0804cfc35d0fa1d7e248130eb18662d8c4",
+      "message": "fix(engine): 隔离 Pro 临时工作区至系统目录以杜绝内核锁冲突并支持代码切片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T06:02:32Z",
+      "committer_date": "2026-10-04T06:03:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7db0bbaf48ade954ad67565552239250785baea7",
+      "message": "fix(inspector): 修复光标在文档标题时未切换全局配置并完善演示检查器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T05:25:35Z",
+      "committer_date": "2026-10-04T05:25:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2222f01dcc9bb61a2f3482b7f7481a34ca2ac43",
+      "message": "feat(synergy): 扩充 Slidev 预设模板字典支持元素级动效与排版",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T05:22:41Z",
+      "committer_date": "2026-10-04T05:22:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7a28544094ad35ad9500148675c9029a8db36645",
+      "message": "fix(sync): 修复幻灯片沙箱反向定位失败与双向光标联动缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T01:01:45Z",
+      "committer_date": "2026-10-04T01:01:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98f26faa03b5e2ed20c831c5d04ef9a62a257842",
+      "message": "refactor(ui): 重构现代化 UI/UX 设计系统与纯线框图标体系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T00:30:47Z",
+      "committer_date": "2026-10-04T00:30:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "be859725c0b02f46f92243494bf330fceca89aa6",
+      "message": "docs(architecture): 刷新项目架构目录与双轨渲染引擎升级详细方案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T16:55:09Z",
+      "committer_date": "2026-10-03T16:55:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "827511aaae7751f17ca635237d8e371c8c019050",
+      "message": "feat(engine): 实现官方 Slidev Pro 进程托管与双轨统一调度架构",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T16:54:44Z",
+      "committer_date": "2026-10-03T16:54:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d50099e344654757b94a000b1dd41e9a79633fdb",
+      "message": "feat(renderer): 高保真重构 Markdown 块级渲染引擎与 Web 沙箱客户端",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T16:54:09Z",
+      "committer_date": "2026-10-03T16:54:09Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2e19ba2ba2fadb994fc650da37ceea927ac9871a",
+      "message": "refactor(architecture): 解耦编译编排服务、拆解 Inspector 面板与清理死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T16:35:02Z",
+      "committer_date": "2026-10-03T16:35:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f2ef0aa1de88277b27d00c33f6899c3458a00245",
+      "message": "fix(importer): 优化 Slidev 导入解析规则与多特性保真",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T15:43:51Z",
+      "committer_date": "2026-10-03T15:43:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8adcc990fdfd59b12be214689bc1ba96ae93b331",
+      "message": "fix(compiler): 规范列表与容器块级换行，防止未匹配布局标签粘连为单行",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T15:10:41Z",
+      "committer_date": "2026-10-03T15:10:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3d7d4ac966ac00edd27504335fcec8d4085d5245",
+      "message": "fix(compiler): 修复时间线与相邻行内标签导致粗体标记解析损坏问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T15:07:41Z",
+      "committer_date": "2026-10-03T15:07:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ccf8bf446af9295402f2b2612151462e73811d8c",
+      "message": "feat(compiler): 优化 HTML 展示容器智能剥离为干净原生 Markdown",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:43:30Z",
+      "committer_date": "2026-10-03T14:43:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e54d7de82b0b1628400b2ad82692fece37abd46c",
+      "message": "docs(guide): 编写 Slidev 演示文稿运行与效果查看实战指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:42:50Z",
+      "committer_date": "2026-10-03T14:42:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d6c3998bbec0a8baf21f323a259e4c66e51201d8",
+      "message": "feat(ui): 在演示配置侧栏增加导入按钮与交互对话框，完成全链路闭环",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:22:31Z",
+      "committer_date": "2026-10-03T14:22:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "83f22de0a641ecfd19a392ef5ac3a8146e3189e4",
+      "message": "feat(worktree): 支持 Git Worktree 并发开发与自动化工作流",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:20:58Z",
+      "committer_date": "2026-10-03T14:20:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9bdefe4a96fe18a120d6c295a3f70c69ad0cde98",
+      "message": "feat(asset): 实现 Slidev 静态资源探索与思源资产库重写映射器",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:16:27Z",
+      "committer_date": "2026-10-03T14:16:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6f4d56108c551acd5dd5b52213b37c2ce4ca2d04",
+      "message": "feat(compiler): 实现 Slidev 演示文档导入解析器与属性提取引擎",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:15:28Z",
+      "committer_date": "2026-10-03T14:15:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "daab42fde10ae14540d8c185ff046a67f6bee59d",
+      "message": "docs(import): 编写 Slidev 演示文档导入方案与架构设计文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T14:11:41Z",
+      "committer_date": "2026-10-03T14:11:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ae1bad40e4c35acceebcc6f1d2f37c10311d52f6",
+      "message": "v0.5.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T13:35:45Z",
+      "committer_date": "2026-10-03T13:35:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "15a8dc5829c5f1f87d1e8d2495365742d92c6412",
+      "message": "feat(ui): 改造下方独立分屏预览页签与右侧动态演示配置面板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T12:49:55Z",
+      "committer_date": "2026-10-03T12:49:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b35854d9f4dd6f0b87d4e36e1e857f3eee2bcba6",
+      "message": "docs(guide-schedule): 补全用户指南与多语言国际化，更新实施计划全量完成状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:36:45Z",
+      "committer_date": "2026-10-03T11:36:45Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c0c2d2a886181ba444acf95cd5360a8c288fa12d",
+      "message": "feat(pro-cli): 实现 Pro 模式本地 Slidev CLI 桥接与 slides.md 实时同步导出",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:32:52Z",
+      "committer_date": "2026-10-03T11:32:52Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b4e720b23159ae2bd5988ee89a044d44308b7cd6",
+      "message": "feat(export-pdf): 升级高保真 PDF 讲义与幻灯片打印导出管线",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:31:06Z",
+      "committer_date": "2026-10-03T11:31:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1dd4ec2b4ed913b1ad993f5b605be1feb008740c",
+      "message": "feat(presenter): 完善双屏演讲者模式协议握手与全屏独立控制台集成",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:29:56Z",
+      "committer_date": "2026-10-03T11:29:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13f69b6f37eb8b6b8067b2667da945b79f0797f9",
+      "message": "feat(synergy): 增强属性管家协同能力与全库幻灯片属性批量治理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:28:35Z",
+      "committer_date": "2026-10-03T11:28:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b6df541c65fab8f3dbf21653dedf8480d8f4e3c",
+      "message": "docs(schedule): 根据实际功能落地与测试通过情况更新实施计划与排期",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:17:27Z",
+      "committer_date": "2026-10-03T11:17:27Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f8473836089c5d301e14a5393d256b96c9bb90b8",
+      "message": "feat(interaction-core): 落地双向光标联动、微交互气泡、块引用展开与思源AI功能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T11:17:01Z",
+      "committer_date": "2026-10-03T11:17:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f641a211620fb990e687299bd436e6c3eda98132",
+      "message": "fix(preview): 修复分割线分页失效、顺序错乱及属性配置缺失问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T10:08:46Z",
+      "committer_date": "2026-10-03T10:08:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "4d2c771d967c3b0cc837ea5feb61903a73ecf307",
+      "message": "build(vite): 集成 syncToSiyuanPlugin 自动同步最新产物至思源工作空间插件目录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T09:19:12Z",
+      "committer_date": "2026-10-03T09:19:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bcdfbc082aecf5231f742292a2ae8b9e53f04bbb",
+      "message": "fix(client): 修复 BroadcastChannel 发送 Vue 响应式对象时的 DataCloneError",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T09:15:43Z",
+      "committer_date": "2026-10-03T09:15:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "24d041ca626e924f3bfd0548dcbbef6a01564bcf",
+      "message": "feat(export-release): 完成 Phase 4 离线导出、Pro 极客模式与发布闭环",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T08:16:46Z",
+      "committer_date": "2026-10-03T08:16:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f688aab3d67f42f5e5cf5c5caea62d54cb1f23e1",
+      "message": "feat(synergy-ai): 完成 Phase 3 生态协同、块引用与 AI 智能赋能",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T08:12:46Z",
+      "committer_date": "2026-10-03T08:12:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d92fba84f57eea78f9380f99b94790bf9337a49",
+      "message": "feat(interaction): 完成 Phase 2 专精微交互与动效全面增强",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T08:09:28Z",
+      "committer_date": "2026-10-03T08:09:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4f9b63a51ea37aaa051a564d4388cfac7d54ef2",
+      "message": "feat(core): 完成 Phase 1 内核筑基与 MVP 验证",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T08:05:37Z",
+      "committer_date": "2026-10-03T08:05:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5d27e1435c2b1e42942af94d32f36bf4ad30a84",
+      "message": "feat(init): 初始化思源 Slidev 演示插件项目与核心设计方案文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-03T07:37:56Z",
+      "committer_date": "2026-10-03T07:37:56Z",
+      "login": "famotime"
+    }
+  ]
+}

@@ -1,7 +1,52 @@
 {
-  "pushed_at": "2026-10-03T14:34:34Z",
-  "count": 141,
+  "pushed_at": "2026-11-09T22:57:28Z",
+  "count": 146,
   "commits": [
+    {
+      "sha": "31b08a8361ef6bb3f81776670bbb005796b9afef",
+      "message": "refactor(arch): 实施第五轮全模块分析与分层合规重构（RF-006 ~ RF-015）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-09T22:57:19Z",
+      "committer_date": "2026-11-09T22:57:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cff7fe251bfac4d5b45aa0567eebafb3d851459d",
+      "message": "fix(terminal): 修复多窗口数据变更互踢导致的无限插件重载风暴",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T12:41:34Z",
+      "committer_date": "2026-10-26T12:41:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4678c847a79c88f4aa907602f477e67967b0c35",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:04:32Z",
+      "committer_date": "2026-10-16T14:04:32Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d689ad1fc767fb32c05ab1f23dc962bcadf93c09",
+      "message": "fix(terminal): 增加 PTY 请求文件存在性检测以消除 404 轮询",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-10T14:35:18Z",
+      "committer_date": "2026-10-10T14:35:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "716e3f399b3d50597117f75dbd4a8d89a163babc",
+      "message": "refactor(arch): 实施第四轮架构分层解耦与视图瘦身（RF-001 ~ RF-005）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-04T01:16:53Z",
+      "committer_date": "2026-10-04T01:16:53Z",
+      "login": "famotime"
+    },
     {
       "sha": "ae2a12945d73a091fd11498eff4d4af1cf8d453b",
       "message": "docs(wterm): 刷新升级计划与实施文档至全量闭环状态",

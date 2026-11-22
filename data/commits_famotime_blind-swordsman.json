@@ -1,0 +1,195 @@
+{
+  "pushed_at": "2026-11-10T23:28:24Z",
+  "count": 21,
+  "commits": [
+    {
+      "sha": "753ee5fc7bcabf6d3e50c4cd205a389a99b88b2a",
+      "message": "fix：隐式状态机审计修复——weatherStage fading 泄漏（stop 先行，loop 型天气实例跨层/占空轮换不再永久累积）、鱼群 fishSchool 挂载挪到 setBiome 后（rebuild 清 pinned 时序",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:28:11Z",
+      "committer_date": "2026-11-10T23:28:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "93876a84cb4cf6fac403b858e2ca78b27ce3bd2e",
+      "message": "feat：pixelfx 集成二期三 Tier 落地——vendor 增拷 19 模块+5 首拷 _lib（T1 战斗机关反馈×6 / T2 心魔辨识×7 / T3 世界氛围×6），fxPool maxUntil 截断+10 kind，新 ",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:50:41Z",
+      "committer_date": "2026-11-10T22:50:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c1c39d7a7380e554e6b47b2037462d5a49bc0a68",
+      "message": "天气可读性修复:去雾霾底/裁地面道具带/回声感知衰减/云雾世界锚定",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T14:23:25Z",
+      "committer_date": "2026-11-10T14:23:25Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "742efae415477ec56859d1a519d9655fe333c4a8",
+      "message": "refactor：engine.ts 六域拆分——巨类 3578→3045 行，可测纯逻辑下沉 game/systems（回声场/战斗/实体/敌人AI/blit），GamePage 存档走 progress 门面，敌人精灵按 7 类拆分，补",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-06T15:13:41Z",
+      "committer_date": "2026-11-06T15:13:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41268a91294b6e23b94a34e2e244bb768633eb03",
+      "message": "feat：特效二轮——vendor pixelfx 深度接入，玩法与场景融合适配（三层：打击反馈/地形踏入/实体锚定）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T23:36:23Z",
+      "committer_date": "2026-11-05T23:36:23Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ab59d81fcedd3fabedec56ecac2b291e2a5dd0d7",
+      "message": "docs：CHANGELOG 版本记录重构并补记 art2c——v1.3.0/v1.5.0 编年体归档，新增背身追帧与刀光锚点校准两条变更记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T22:48:06Z",
+      "committer_date": "2026-11-05T22:48:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bb22afc0859f2f4dd64266c96bf6eb568f82a625",
+      "message": "art2c：背身追帧补完与刀光锚点校准——9 类敌人 chase 背向镜头切背面帧（背面无面部记号），刀光弧心按 25/38 体格比例从头顶落回颈胸",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T22:48:02Z",
+      "committer_date": "2026-11-05T22:48:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "885fb61a03b1557a818dd00dea86bba6e65ca349",
+      "message": "chore：工作区清理与 CHANGELOG——移除废弃 AGENTS/CLAUDE 与 pnpm-lock 遗留，补全版本变更记录",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T15:11:14Z",
+      "committer_date": "2026-11-05T15:11:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6a04373eb31954ff939800d257b752faf5c36575",
+      "message": "art2b：敌人侧视重画——7 类 A 级敌人从俯视剪影改为与主角统一的 3/4 站姿生物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-05T15:08:15Z",
+      "committer_date": "2026-11-05T15:08:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5c4351052ffde563f435a6bd42412594124a1657",
+      "message": "art2a：世界层侧视化——墙体立面/屋顶天际线+Y-Sort 遮挡、暗井纵深与坠落演出、图底分离降噪",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T23:41:24Z",
+      "committer_date": "2026-11-04T23:41:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "85b2d1e1073d8420a3107182289f26b52b5c5010",
+      "message": "fix：横屏触控布局——操控区从竖屏居中带放开为全宽，摇杆贴左缘、拇指弧贴右缘",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T22:36:31Z",
+      "committer_date": "2026-11-04T22:36:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bde32d8b2d0dfae10dd232f752003897aafaf274",
+      "message": "docs：方案 v2.0.1 实施校准——投影口径（1:1 地面+椭圆标记）、TILE 46px、顿帧/陷阱公式落地值、StockActor 替代裁决回写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T22:12:06Z",
+      "committer_date": "2026-11-04T22:12:06Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca875569bc73182e399dcd70b21c173a0fca2c8e",
+      "message": "Phase 4：混合 HUD、横斩转场、四区天气与音频补全——五阶段实施收官",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T22:11:29Z",
+      "committer_date": "2026-11-04T22:11:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9a357cfb930afac3cce5b52c9996c37e349a3537",
+      "message": "Phase 3b：ActCycle 时序机、完美弹反金光、双向瞄准与玩法债四条清偿",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T21:23:58Z",
+      "committer_date": "2026-11-04T21:23:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d16e72127ec303ce3ecd68488fbb1166b98dcda",
+      "message": "Phase 3a：实体精灵化管线——全敌人 S/A/B 级精灵、Y-Sort blit、后置揭示与前摇三重提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T19:28:37Z",
+      "committer_date": "2026-11-04T19:28:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6b33ed00fe2b443e84aa1085fbce0317745d9c10",
+      "message": "Phase 2：环境层真像素管线——2.5D 地形光栅化、回声抖动揭示、涟漪 Light 波峰与 Y-Sort",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T18:31:53Z",
+      "committer_date": "2026-11-04T18:31:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8d8c4744bdbb6f8af102106121f5db1a69297e20",
+      "message": "Phase 1：vendor fx 全量集成、480×270 渲染目标切换与 InputIntent 意图层",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T17:45:42Z",
+      "committer_date": "2026-11-04T17:45:42Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e2e9824cd45b81455c80f550cbab002a0a5a7a18",
+      "message": "Phase 0：美术垂直切片——vendor 核心内嵌、字符画精灵、480×270 预览页与测试基座",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T17:09:50Z",
+      "committer_date": "2026-11-04T17:09:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b82ad0328724b9dc7e703a675527d8bfe45903ac",
+      "message": "docs：pixelfx 改造方案与工程计划修订至 v2.0.0（评审版）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-04T16:15:38Z",
+      "committer_date": "2026-11-04T16:15:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "872397ecee1fb841396c5d14a74aaf1328770c30",
+      "message": "盲剑客：声音潜行动作游戏（完整源码）",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-11-04T14:41:54Z",
+      "committer_date": "2026-11-04T14:41:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d72519d0694cadbec686ef5d4dde8d1193c537d",
+      "message": "初始化仓库",
+      "author_name": "Quincy Zou",
+      "author_email": "52997216+famotime@users.noreply.github.com",
+      "date": "2026-11-04T14:41:33Z",
+      "committer_date": "2026-11-04T14:41:33Z",
+      "login": "famotime"
+    }
+  ]
+}

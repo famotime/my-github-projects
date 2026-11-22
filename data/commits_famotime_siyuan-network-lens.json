@@ -1,7 +1,34 @@
 {
-  "pushed_at": "2026-10-02T10:42:17Z",
-  "count": 267,
+  "pushed_at": "2026-11-12T15:17:35Z",
+  "count": 270,
   "commits": [
+    {
+      "sha": "b6e36c21ac138566af98e0d45eb9ceb4e39df92d",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-12T15:17:17Z",
+      "committer_date": "2026-11-12T15:17:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a4efe43c7fafdf27d0fa4fd7ee4dd126fdc60f68",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:01:49Z",
+      "committer_date": "2026-10-16T14:01:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "04a286098d509f5124a6e74c757f9b7bf99a4fe6",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:03Z",
+      "committer_date": "2026-10-02T11:09:03Z",
+      "login": "famotime"
+    },
     {
       "sha": "6a35c7c3a152136999a79ef532db6214fa86fb8a",
       "message": "docs: update",

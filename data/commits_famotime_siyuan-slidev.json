@@ -1,7 +1,295 @@
 {
-  "pushed_at": "2026-10-07T03:52:40Z",
-  "count": 90,
+  "pushed_at": "2026-10-27T14:13:19Z",
+  "count": 122,
   "commits": [
+    {
+      "sha": "1339e70e2ab51fb010860c5ca8ceaba9ccb5ae4f",
+      "message": "chore: update version to 1.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T14:13:11Z",
+      "committer_date": "2026-10-27T14:13:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "71d45fafbe5a953183e8ec7d305c2520bd1f5ab4",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T14:11:58Z",
+      "committer_date": "2026-10-27T14:11:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "37bd24912dae9faec2a3e1812ad9808cbb18728c",
+      "message": "docs: 新增路演 PPT 构建与维护指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T00:30:18Z",
+      "committer_date": "2026-10-27T00:30:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "200418dedc5d35088ff95007ae832cb26a91f1f4",
+      "message": "docs: 路演 PPT 升级亮暗双主题，重构第 9/11 页版式与亮色封面尾页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-27T00:30:18Z",
+      "committer_date": "2026-10-27T00:30:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "715a378722d2e41f39b3fedf5a35ac86057cff2a",
+      "message": "docs: 统一 README 卖点措辞为「正文零污染」",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:36:35Z",
+      "committer_date": "2026-10-26T23:36:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a5d02a34f99a832633650780d2c7cfe58a77d391",
+      "message": "docs: 新增「即现」路演 PPT 成品与可复现构建脚本",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:35:49Z",
+      "committer_date": "2026-10-26T23:35:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fecf3e0c1dff96f827351d0bfc2c128001bb8437",
+      "message": "docs: 新增「即现」插件介绍演示稿，16 页含演讲备注与全页配图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T23:17:28Z",
+      "committer_date": "2026-10-26T23:17:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1cdd65fa7b22e7ee12de7ed1e44aa4ffe5ba264",
+      "message": "refactor(preview): 移除预览页签大纲抽屉，导航职责归并缩略图总览",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T16:20:00Z",
+      "committer_date": "2026-10-26T16:20:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c16b0a1ceb13e299f26ac3d286499cf0e4d8d161",
+      "message": "refactor(presenter): 重构演讲者控制台UI规范并全面适配亮暗主题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T15:10:18Z",
+      "committer_date": "2026-10-26T15:10:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "92a208d78887b9d4210c16d910a7d2d5327c0b6a",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T14:35:33Z",
+      "committer_date": "2026-10-26T14:35:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9ac55d86b23331a5347c2eb60ad5ad97532830d",
+      "message": "feat(presenter): 支持独立放映窗口弹出与单页 v-click 步进剧透控制",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T13:57:36Z",
+      "committer_date": "2026-10-26T13:57:36Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "5f357ed114f1e9b3c4bfec5421dc4b493df96363",
+      "message": "feat(presenter): 演讲者视图支持渲染完整幻灯片等比缩放缩略图",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T13:20:22Z",
+      "committer_date": "2026-10-26T13:20:22Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "bd57212eb0b38983a9fbb61b5a9558590c455aaf",
+      "message": "fix(presenter): 演讲者视图宿主化重构，修复占位符常驻与跨窗口双屏同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T12:44:08Z",
+      "committer_date": "2026-10-26T12:44:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "908456775c8fa428a9f8f61e876fbe4c869f67ac",
+      "message": "docs: 同步根 README 至文档库三层索引体系",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T12:43:58Z",
+      "committer_date": "2026-10-26T12:43:58Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fedbb8070b96889d30605be5f0fba582fc764ac9",
+      "message": "docs: 文档库索引分类重构为现行/设计存档/规划期三层并刷新引用",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T04:43:51Z",
+      "committer_date": "2026-10-26T04:43:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b2a0067d559a8b65d55c38c12c2a572499e18f54",
+      "message": "fix(presenter): 演讲者控制台改为思源页签承载，修复桌面端双屏同步失效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-26T04:43:47Z",
+      "committer_date": "2026-10-26T04:43:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6d091df2c96798dab049e9b94a912dbf6c9f8482",
+      "message": "fix(peek): 解耦 webview src 响应式绑定，修复 SPA 站点跳页被强制重载致 404",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T15:14:49Z",
+      "committer_date": "2026-10-25T15:14:49Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b729c01043c4cfd0073fad0801173d3b96e0f704",
+      "message": "refactor: 完成 Phase 3 模块解耦重构 (RF-016~RF-020)",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T10:20:43Z",
+      "committer_date": "2026-10-25T10:20:43Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d501c34169db4e0f2b6685238cc0b5668ff76c75",
+      "message": "feat(overview): 放映中支持 o 键呼出缩略图总览并点选跳页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T09:32:16Z",
+      "committer_date": "2026-10-25T09:32:16Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "9d01ecac4b9c8f7034d94b7c526c207b83e9a532",
+      "message": "feat(preview): 放映中支持数字+回车直接跳页",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T08:36:48Z",
+      "committer_date": "2026-10-25T08:36:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d04a63588045c1f31a9f8d8062303d300a32d417",
+      "message": "style(ui): 精简顶栏与讲稿备注控件文案",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T08:36:40Z",
+      "committer_date": "2026-10-25T08:36:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d47f56ed8566a8a8afdd30a2c0ba510eaea05921",
+      "message": "feat(preview): 优化下方预览窗口双层标题为即现与文档名称联动",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-24T03:23:59Z",
+      "committer_date": "2026-10-24T03:23:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce03eabf7b6e61f6a24296d4d82a090b69d703b4",
+      "message": "fix(ui): 修复侧栏按钮悬浮时背景发白导致文字看不清的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T01:40:26Z",
+      "committer_date": "2026-10-18T01:40:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "7cd28c8559ec601c7d8c83a364d6f58acd27e9aa",
+      "message": "perf(mask): 重构蒙版为一体化 GPU 合成层，优化毛玻璃质感并支持贴边覆盖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T00:41:30Z",
+      "committer_date": "2026-10-18T00:41:30Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ce654a00163e617b547bfe294249cc0a9f2edbd4",
+      "message": "feat(mask): 支持页面动态蒙版及分段展露动效",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-17T16:50:47Z",
+      "committer_date": "2026-10-17T16:50:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0ce3284cff27bd1c69b07696c3047105a466bcc8",
+      "message": "docs: 补充编译链路性能优化与内核契约避坑指南",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T14:19:02Z",
+      "committer_date": "2026-10-08T14:19:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eef716bf811726d2d298d0106b9b2e3f25cf21fb",
+      "message": "fix(compile): 修复索引异步落库与排序键误用导致的预览滞后与超级块分栏错乱",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T14:14:53Z",
+      "committer_date": "2026-10-08T14:14:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "def2d76a6aeab77ff3d599ef6e673055c417da97",
+      "message": "perf(compile): 消除逐容器与逐光标的 N+1 内核往返，并为消费者门闩补兜底校验",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T05:03:04Z",
+      "committer_date": "2026-10-08T05:03:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "22af20fbe74d5bbe4b7896e67942c2523e85a2bc",
+      "message": "perf(compile): 消除编辑器事务驱动的编译放大与积压，关闭预览后内核请求归零",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:41:13Z",
+      "committer_date": "2026-10-08T04:41:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "ca083da1c89014da79504ad8b5325dd657cad9d4",
+      "message": "fix(peek): 修复公司内网代理环境下速览抽屉外网链接恒空白的问题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:17:44Z",
+      "committer_date": "2026-10-08T04:17:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "56e96fd6b0d5ec0a7b23d873d39e9296af543671",
+      "message": "feat(peek): 支持演示内本地 HTML 链接在速览抽屉原位渲染",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-08T04:07:34Z",
+      "committer_date": "2026-10-08T04:07:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "413e194b0ae3cc6ec78ff4149f87b414445795a9",
+      "message": "v0.9.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-07T06:30:17Z",
+      "committer_date": "2026-10-07T06:30:17Z",
+      "login": "famotime"
+    },
     {
       "sha": "1036b9406a6fcfc94126bd865c7d07972d9c7403",
       "message": "feat(layout): 完善四叶草田字型布局在沙箱播放器与离线运行时的渲染支持",

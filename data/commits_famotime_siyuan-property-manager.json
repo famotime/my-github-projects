@@ -1,7 +1,385 @@
 {
-  "pushed_at": "2026-10-04T14:03:20Z",
-  "count": 55,
+  "pushed_at": "2026-11-17T11:06:35Z",
+  "count": 97,
   "commits": [
+    {
+      "sha": "89d599a8c7dcdae06ca905f7737e81e9a54f978e",
+      "message": "feat(refactor): 优化批量重命名交互与正则示例提示卡片",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T11:05:18Z",
+      "committer_date": "2026-11-17T11:05:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e148d5fc98ca2792bb55af4aca69ed9ed5a6bedf",
+      "message": "fix(state-machine): 收敛隐式状态机遗留事项（SM-101/103/106/121）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-17T00:11:26Z",
+      "committer_date": "2026-11-17T00:11:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e36a33f740d1df958453b708ee4a5b02eba152f7",
+      "message": "docs(audit): 刷新隐式状态机审计状态——SM-101~SM-123 修复收口",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:13:19Z",
+      "committer_date": "2026-11-16T19:13:19Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "63df75efcf997a2371d5527866885e5d5ef7c633",
+      "message": "fix(misc): 广播 leading+trailing、批量失败聚合、建库重试、联想转义（SM-111/113/116/118）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:12:26Z",
+      "committer_date": "2026-11-16T19:12:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6ab9c6a87fc031a549a4e04d5468f363041b2771",
+      "message": "perf(doc-inline): 观察器相关性预过滤 + 标题样式签名跳过（SM-114）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:09:11Z",
+      "committer_date": "2026-11-16T19:09:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6202e8a3127a837449c6b0ce229e0ca9cc857622",
+      "message": "fix(current-block): 引用计数绑定 + 跳转握手清理 + rAF 顺序修复（SM-106）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:08:01Z",
+      "committer_date": "2026-11-16T19:08:01Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c96441759295b7d1fd4838483b0ffa8eee6374e6",
+      "message": "fix(panel): AttrRow 保存终态由保存完成驱动 + 折叠态跨实例共享（SM-108/122）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:07:21Z",
+      "committer_date": "2026-11-16T19:07:21Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e00ffd5b26e951363a18e578b13958c038db1666",
+      "message": "fix(block-attrs): 写链按块串行 + 乐观更新「最新写」守卫（SM-107）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:06:14Z",
+      "committer_date": "2026-11-16T19:06:14Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "98d61a9e2eeb74c7ec49a0a6a3c1bd4ad105273d",
+      "message": "fix(persist): 脏标记防止多端广播覆盖未落盘编辑 + 卸载清理 + 设置保存互斥（SM-105/110/120）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:04:41Z",
+      "committer_date": "2026-11-16T19:04:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e99c6777c5c35224ce3a0d17204e24893920932d",
+      "message": "fix(stats): 统计加载乱序守卫、boxId 缓存失效与下钻缓存清理（SM-102/104/115/117）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T19:00:07Z",
+      "committer_date": "2026-11-16T19:00:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "b12172b6cfb553e54cca18598f8d67511b5c9b63",
+      "message": "fix(rename): 四方重命名统一协调器 renameAttrKeyEverywhere（SM-101）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T18:58:26Z",
+      "committer_date": "2026-11-16T18:58:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "175e5b35e2373affe700baeb5a20e7f20cac8be8",
+      "message": "fix(av-sync): 冲刷单飞串行化、溢出回灌与逐库状态归因（SM-103/109/112/119）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T18:53:47Z",
+      "committer_date": "2026-11-16T18:53:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "68f031195d871f306da1e864ddd7f9d0c00a21d0",
+      "message": "docs(audit): 隐式状态机审计落盘——12 组状态机清单与 SM-101~SM-123 修复计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T18:48:37Z",
+      "committer_date": "2026-11-16T18:48:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f278f743b1fe1ce96702c348586f893ed01627b1",
+      "message": "fix(core): 第五轮全仓审计——修复 4 处实际 bug 并清理死代码与不一致",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T18:13:24Z",
+      "committer_date": "2026-11-16T18:13:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0fc74f4a590ef5da3bd01b35cf12127c6a34867d",
+      "message": "refactor(core): 第四轮重构——统一 SQL 字面量转义、下沉纯逻辑并清理 API 死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T15:25:15Z",
+      "committer_date": "2026-11-16T15:25:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e9e25cf9162ccf2bf00b22aeb19ae6dcc7c0dd5a",
+      "message": "chore(release): 升级版本至 v2.0.0",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T14:54:40Z",
+      "committer_date": "2026-11-16T14:54:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d9ae1d62fcf79a62c5782ec069ce0d9187741644",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T14:54:12Z",
+      "committer_date": "2026-11-16T14:54:12Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1d16f65945a30e332d1885310b425516021af16c",
+      "message": "feat(stats): 统一笔记本属性批量重构工作台并支持属性名值原位置编辑",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T14:39:04Z",
+      "committer_date": "2026-11-16T14:39:04Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c4f48e37b9c3a796ad3803162fda28a6c971d471",
+      "message": "feat(template): 属性模板修改与添加属性值支持下拉选择预设值与直接输入",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T13:54:51Z",
+      "committer_date": "2026-11-16T13:54:51Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "423a54b87e2ba815c28da93ffdceb39b86508e9e",
+      "message": "feat(stats): 笔记本属性批量管理支持正则屏蔽规则",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T13:52:47Z",
+      "committer_date": "2026-11-16T13:52:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "31de6dfe6f1e235b84b122ffa4ca7bffffc3606b",
+      "message": "feat(schema): 支持丰富预设属性体系、FLO.W模板及全局属性类型分组管理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-16T13:37:10Z",
+      "committer_date": "2026-11-16T13:37:10Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "07ef29beb85f69f6ea0e84ea6f69fb33b34ee596",
+      "message": "docs: update",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-15T12:04:35Z",
+      "committer_date": "2026-11-15T12:04:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "117c3bb800fcd8d55aea8b415e48b6dac6b8a53a",
+      "message": "feat(tabs): 重构三个Tab为当前文档、笔记本与数据库并支持悬浮提示与模板缩进",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T06:16:53Z",
+      "committer_date": "2026-11-14T06:16:53Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a1e65d1f223185be6abdb4a3e361575322d31d31",
+      "message": "feat(stats): 优化批量属性重命名弹窗交互与多模式名称替换",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-14T05:30:08Z",
+      "committer_date": "2026-11-14T05:30:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6cca40154ac9674cd2badd01e0d3b06394536133",
+      "message": "docs: 新增属性管家发布文章与块属性/数据库科普文并更新竞品分析报告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-01T13:27:37Z",
+      "committer_date": "2026-11-01T13:27:37Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e012231a724950d3fa5b28b099ed16f067787793",
+      "message": "feat(stats): 支持属性键名重命名与前缀批量替换并同步即现预设模板",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-31T15:31:54Z",
+      "committer_date": "2026-10-31T15:31:54Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "11640d85e55ba1056809c718c3cf9fe3b674574a",
+      "message": "docs: 全量刷新项目结构文档并记录第二轮重构计划与执行日志",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T04:59:56Z",
+      "committer_date": "2026-10-25T04:59:56Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "928ac26d3471c00182df9dccc7d6f9d4736fe96e",
+      "message": "refactor: 修复批量操作与缺导入缺陷并收敛控件/统计/建库/同步模块",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T04:59:48Z",
+      "committer_date": "2026-10-25T04:59:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "51ac485ad99d795aa8b7d2807e9f6d0ea43d9822",
+      "message": "docs: 记录双向同步真机验证通过并收尾计划文档状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T02:56:18Z",
+      "committer_date": "2026-10-25T02:56:18Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "afd3c848622a17d5dbc84fb1cd3bb3e52c1093a5",
+      "message": "feat(types): 行控件接入历史值联想并激活 Schema 展示格式与重命名改写",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-25T02:56:11Z",
+      "committer_date": "2026-10-25T02:56:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "14adb374c44707f8cc9fab92fd4f45c7d0f326ec",
+      "message": "feat(database): 数据库卡片支持插入文档视图且无绑定块时隐藏同步开关",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T04:43:20Z",
+      "committer_date": "2026-10-18T04:43:20Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "95373d7094af646c0cc526dfb8523121db0b4bdd",
+      "message": "feat(dock): 从属性统计拆分出独立数据库Tab并简化Tab标题",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-18T03:57:08Z",
+      "committer_date": "2026-10-18T03:57:08Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "2327d67d139de7eed6541d4e0a4e01afe5c03238",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:02:41Z",
+      "committer_date": "2026-10-16T14:02:41Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f1162bbd64ef3c192b1b64cebd8fc419475e056e",
+      "message": "chore(merge): 合并 origin/main 远程分支变更并更新构建产物",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T12:12:28Z",
+      "committer_date": "2026-10-09T12:12:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "77b254cfdcdd7a59abfb5b01cce06b2f817b22dd",
+      "message": "build(bundle): 重新构建 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:47:15Z",
+      "committer_date": "2026-10-09T04:47:15Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "728af4f3bd78e7f2d7b3e0c9e02ff01088a7e1c4",
+      "message": "feat(av-sync): 实现属性与数据库（属性视图）双向同步",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:47:13Z",
+      "committer_date": "2026-10-09T04:47:13Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3b78d14e2d41ac6fc336f659b54a455eeaf7e094",
+      "message": "docs(av-sync): 新增属性与数据库双向同步方案与实施计划",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:47:07Z",
+      "committer_date": "2026-10-09T04:47:07Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0afe83598184dec330a3e7f99254cade65c27d71",
+      "message": "build(bundle): 重新构建 package.zip",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:24:35Z",
+      "committer_date": "2026-10-09T04:24:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "12b0fb6a27fdb7672f92c4dc6b799ecbb53bc700",
+      "message": "docs: 补充参考工程与类型体系说明并新增反向同步可行性分析报告",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:24:33Z",
+      "committer_date": "2026-10-09T04:24:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "8a2778350c1ef54a908856b4d3b271ec9df2a4bf",
+      "message": "feat(types): 文本属性中的链接值支持点击跳转",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:24:31Z",
+      "committer_date": "2026-10-09T04:24:31Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "29cfe48d549944dba6a76a4a3039219fe85fd027",
+      "message": "feat(schema): 新增对齐思源属性视图列类型的内置预设属性",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-09T04:24:29Z",
+      "committer_date": "2026-10-09T04:24:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3d2af9582358d9f405755aa1eaa703962dc71078",
+      "message": "fix(ui): 属性名称悬停提示改为显示属性全名",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-05T00:09:38Z",
+      "committer_date": "2026-10-05T00:09:38Z",
+      "login": "famotime"
+    },
     {
       "sha": "6629127c41fb57a871ac1b07d1ad1b8848073470",
       "message": "fix(ui): 修复右侧栏卡片及内部条目悬浮时的行高抖动问题",

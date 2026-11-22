@@ -1,7 +1,97 @@
 {
-  "pushed_at": "2026-02-08T05:06:39Z",
-  "count": 243,
+  "pushed_at": "2026-11-11T12:52:54Z",
+  "count": 253,
   "commits": [
+    {
+      "sha": "b607f40a2b9267a806d65d9ad1eb74b01e4cab7e",
+      "message": "refactor(core): 清理历史废弃逻辑、拆分Context与状态解耦并精简依赖",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T12:52:17Z",
+      "committer_date": "2026-11-11T12:52:17Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "324e72d4d003213e43cd20604a22e9735f40c669",
+      "message": "fix(core): 修复测试Mock缺陷、Hook闭包依赖隐患并清理废弃死代码",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T11:57:00Z",
+      "committer_date": "2026-11-11T11:57:00Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "6461c47f92b8555f73f00729b30eabbd95e5c1a5",
+      "message": "refactor(tutorial): 收敛练习分支与变体为统一活动分支上下文模型",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T04:45:29Z",
+      "committer_date": "2026-11-11T04:45:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "238808c3cc9e49f1a29cb128d0ab8367dd7a8745",
+      "message": "refactor(play): 消除 usePlayGame 引擎与 UI Hook 循环依赖与打环 ref",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T02:13:05Z",
+      "committer_date": "2026-11-11T02:13:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3efd292a6812f1e3f4fccc2a0694834f94a4ebf6",
+      "message": "fix: 修复隐式状态机审计发现的 17 项状态问题（P0×1、P1×16）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-11T00:45:47Z",
+      "committer_date": "2026-11-11T00:45:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "eb9454a60fc10c120a4c12af9f256cd7d5590a58",
+      "message": "docs: 输出两项遗留专项的详细重构方案文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:24:35Z",
+      "committer_date": "2026-11-10T23:24:35Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "03dbae881bd17b2c683d6182593fd25a60d40bb0",
+      "message": "refactor(types): 清零全部 no-explicit-any（RF-013）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:16:05Z",
+      "committer_date": "2026-11-10T23:16:05Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "347f411d4f99c5491434e736c080aafb2b8904a9",
+      "message": "fix: typecheck 清零并修复 chessSession 导入运行时 bug（RF-012）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T23:07:26Z",
+      "committer_date": "2026-11-10T23:07:26Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "a8e38575a0b2167a87f3588b88b4b3e5de861e78",
+      "message": "fix(test): 修复 12 个基线失败测试并改进 extractor 两项缺陷",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:54:33Z",
+      "committer_date": "2026-11-10T22:54:33Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fec0556992feb034e440bbcc9aeb8bfa14b0e866",
+      "message": "refactor: 完成九项模块重构（RF-001~009）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-10T22:46:32Z",
+      "committer_date": "2026-11-10T22:46:32Z",
+      "login": "famotime"
+    },
     {
       "sha": "64d6ed8786311f5567c7f8617271691cbb99639f",
       "message": "feat(echo-chess): 禅模式穿插数据库关卡增加趣味性",

@@ -1,7 +1,178 @@
 {
-  "pushed_at": "2026-10-01T01:23:39Z",
-  "count": 9,
+  "pushed_at": "2026-11-19T21:38:54Z",
+  "count": 28,
   "commits": [
+    {
+      "sha": "bf54f95fe648bd84f01f9d57adf885923b43680a",
+      "message": "docs: 遗留项改进轮收尾（discovery 专项测试与设置面板拆分）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:38:28Z",
+      "committer_date": "2026-11-19T21:38:28Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "65c01dfc91dd2c040f98f17a40561288500cc19e",
+      "message": "refactor(setting): 拆分探测状态栏与实例列表为子组件（RF 遗留项②）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:37:59Z",
+      "committer_date": "2026-11-19T21:37:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1b7e5680cf3d8486a9be91935a6ed1bf78ba2a0c",
+      "message": "test(discovery): 补齐实例探测模块专项测试（RF 遗留项①）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:37:02Z",
+      "committer_date": "2026-11-19T21:37:02Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "13771c7e02ee9b589e47f1ae6c8e42016bcdd17e",
+      "message": "docs: 回填遗留事项决策结果（SM-17/18/19 评审、kernel.ts 移除）",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:31:40Z",
+      "committer_date": "2026-11-19T21:31:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "d59e4e8df57b920255eea83a6e83d0deb66eabfc",
+      "message": "chore(build): 删除模板内核插件示例 kernel.ts",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:30:46Z",
+      "committer_date": "2026-11-19T21:30:46Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3787601266bc978767bca95beb2b0de94e67833d",
+      "message": "fix(plugin): 低置信度兜底命中先确认再传送，避免静默传错文档",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:29:59Z",
+      "committer_date": "2026-11-19T21:29:59Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "0d6ba3369fe800dc3d059feac7af8c1edfc557aa",
+      "message": "fix(transport): 移动结果改为轮询验证，替代固定 sleep 的时序赌注",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:28:40Z",
+      "committer_date": "2026-11-19T21:28:40Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "fd7b8fee4c6b3d4b0f6423fdf38232a07e6f8e3e",
+      "message": "docs: 刷新状态机修复轮后的文档状态",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:10:34Z",
+      "committer_date": "2026-11-19T21:10:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1902129aaa841a6b85f3e50c6902f71c68c34e2f",
+      "message": "fix(setting): 设置面板卸载中断续体、自动保存防抖与笔记本选择治理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:07:48Z",
+      "committer_date": "2026-11-19T21:07:48Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "3e08d9420bffa6edace21773d379609e26f3d834",
+      "message": "fix(plugin): 配置先落盘后更新内存、版本仲裁与重探测切换显式提示",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:03:34Z",
+      "committer_date": "2026-11-19T21:03:34Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "f09d872dc8e127ae14999161dafa9fdcb2c81c19",
+      "message": "fix(transport): 目标路径创建竞态兜底，createDocWithMd 失败时重查降级",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:01:44Z",
+      "committer_date": "2026-11-19T21:01:44Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "e7314b13148087133d38f3ed8362d7615a539c2d",
+      "message": "fix(transport): 传送编排引入阶段状态机使重试幂等并如实报告批量失败",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T21:00:50Z",
+      "committer_date": "2026-11-19T21:00:50Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c743449db2abf4cd353be97d3e5f2c3e3b653bee",
+      "message": "fix(transport): 导出包下载与上传补超时并支持 CORS 场景降级代理",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T20:56:38Z",
+      "committer_date": "2026-11-19T20:56:38Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "1ba28d993c9f2e87ed8836599f366da0334a5970",
+      "message": "fix(client): 保留内核代理失败语义并清理 signal 监听器堆积",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T20:54:47Z",
+      "committer_date": "2026-11-19T20:54:47Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "051eb39ecb423ec97ef7eb551258310d0a8d256f",
+      "message": "fix(transport): SQL 字面量统一转义防止用户输入破坏目标端查询",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T20:54:11Z",
+      "committer_date": "2026-11-19T20:54:11Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c8b538d0a647a3774f3428e6a158accffa09365a",
+      "message": "docs(analysis): 新增隐式状态机分析报告与修复跟踪表",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T20:52:55Z",
+      "committer_date": "2026-11-19T20:52:55Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "41e707e1ef2b06f2774eabcb297b742634856798",
+      "message": "refactor(core): 拆分传送服务模块并建立自动化测试基建",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-11-19T20:24:29Z",
+      "committer_date": "2026-11-19T20:24:29Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "cc5f0a542dc6bd71cb28fd177bfc703dc59b3901",
+      "message": "chore(workflow): 升级自动化发版流水线并补齐 CHANGELOG 与校验工具",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-16T14:01:24Z",
+      "committer_date": "2026-10-16T14:01:24Z",
+      "login": "famotime"
+    },
+    {
+      "sha": "c592fe441737cc5ef7152186e4fe98176d66b6a8",
+      "message": "chore(git): 停止追踪 developer_docs 软链接目录并配置 gitignore",
+      "author_name": "Quincy Zou",
+      "author_email": "quincy.zou@gmail.com",
+      "date": "2026-10-02T11:09:01Z",
+      "committer_date": "2026-10-02T11:09:01Z",
+      "login": "famotime"
+    },
     {
       "sha": "e877fb7a1550483ca8b7e6fe4ff26e04ff59e500",
       "message": "feat(transport): 自动探测模式下发送失败支持自动重探测与重发",
